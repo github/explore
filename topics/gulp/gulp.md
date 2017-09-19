@@ -1,0 +1,11 @@
+---
+aliases: gulpjs
+created_by: Fractal Innovations and the open source community at GitHub
+github_url: https://github.com/gulpjs
+logo: gulp.png
+released: February 9, 2016
+topic: gulp
+url: http://gulpjs.com/
+wikipedia_url: https://en.wikipedia.org/wiki/Gulp.js
+---
+Gulp is an open source toolkit built on Node.js & npm. It is used for automating and streamlining repetitive tasks in front-end web development.

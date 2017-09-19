@@ -1,0 +1,9 @@
+---
+created_by: Markus Persson, Jens Bergensten
+logo: minecraft.png
+released: November 18, 2011
+topic: minecraft
+url: https://minecraft.net/en-us/
+wikipedia_url: https://en.wikipedia.org/wiki/Minecraft
+---
+Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.
