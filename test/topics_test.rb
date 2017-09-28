@@ -19,6 +19,18 @@ describe "topics" do
             "expected image to be named [topic].[extension]"
         end
       end
+
+      it "has no unexpected files or directories" do
+        files = Dir["#{topics_dir}/#{topic}/**/*"].reject do |entry|
+          file_name = File.basename(entry)
+          image_files = possible_image_file_names_for(topic)
+
+          entry == "." || entry == ".." || file_name == "index.md" ||
+            image_files.include?(file_name)
+        end
+
+        assert_empty files, "expected only index.md and a single image"
+      end
     end
   end
 end

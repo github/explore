@@ -21,3 +21,7 @@ def image_paths_for(topic)
     File.file?(entry) && IMAGE_EXTENSIONS.include?(File.extname(entry).downcase)
   end
 end
+
+def possible_image_file_names_for(topic)
+  IMAGE_EXTENSIONS.map { |ext| "#{topic}#{ext}" }
+end
