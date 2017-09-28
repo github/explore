@@ -3,6 +3,7 @@ GEM
   specs:
     minitest (5.10.3)
     rake (12.0.0)
+    rmagick (2.16.0)
     safe_yaml (1.0.4)
 
 PLATFORMS
@@ -11,6 +12,7 @@ PLATFORMS
 DEPENDENCIES
   minitest (~> 5.10.3)
   rake
+  rmagick (~> 2.16.0)
   safe_yaml (~> 1.0.4)
 
 BUNDLED WITH
