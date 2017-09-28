@@ -21,6 +21,9 @@ describe "topics" do
           img = Magick::Image.ping(path).first
           assert_equal IMAGE_WIDTH, img.columns, "topic images should be #{IMAGE_WIDTH}px wide"
           assert_equal IMAGE_HEIGHT, img.rows, "topic images should be #{IMAGE_HEIGHT}px tall"
+          assert img.filesize < MAX_IMAGE_FILESIZE_IN_BYTES,
+            "topic images should not exceed #{MAX_IMAGE_FILESIZE_IN_BYTES} bytes, got " +
+            "#{img.filesize} bytes"
         end
       end
 
