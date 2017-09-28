@@ -31,6 +31,20 @@ describe "topics" do
 
         assert_empty files, "expected only index.md and a single image"
       end
+
+      it "has Jekyll front matter in index.md" do
+        path = File.join(topics_dir, topic, "index.md")
+
+        if File.file?(path)
+          lines = File.readlines(path)
+
+          assert lines.size > 0
+          assert_equal "---\n", lines[0], "expected file to start with Jekyll front matter ---"
+
+          end_index = lines.slice(1..-1).index("---\n")
+          assert end_index, "expected Jekyll front matter to end with ---"
+        end
+      end
     end
   end
 end
