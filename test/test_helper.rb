@@ -1,11 +1,12 @@
 require "minitest/autorun"
+require "rmagick"
 require "yaml"
 
 IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png"].freeze
-
+IMAGE_WIDTH = 288
+IMAGE_HEIGHT = 288
 VALID_METADATA_KEYS = ["aliases", "created_by", "display_name", "github_url", "logo", "related",
                        "released", "short_description", "topic", "url", "wikipedia_url"].freeze
-
 REQUIRED_METADATA_KEYS = ["topic", "short_description"].freeze
 
 def topics_dir

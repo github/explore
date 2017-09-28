@@ -9,7 +9,7 @@ describe "topics" do
         assert File.file?(path), "expected #{path} to be a file"
       end
 
-      it "has only one image with the right name" do
+      it "has at most one image with the right name and dimensions" do
         paths = image_paths_for(topic)
 
         assert paths.size <= 1, "expected at most one image, found #{paths.size}"
@@ -17,6 +17,10 @@ describe "topics" do
         if path = paths.first
           assert_equal topic, File.basename(path, File.extname(path)),
             "expected image to be named [topic].[extension]"
+
+          img = Magick::Image.ping(path).first
+          assert_equal IMAGE_WIDTH, img.columns, "topic images should be #{IMAGE_WIDTH}px wide"
+          assert_equal IMAGE_HEIGHT, img.rows, "topic images should be #{IMAGE_HEIGHT}px tall"
         end
       end
 
