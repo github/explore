@@ -1,0 +1,8 @@
+sudo: false
+install:
+  - bundle install
+notifications:
+  email: false
+script: rake
+cache:
+  bundler: true
