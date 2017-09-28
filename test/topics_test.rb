@@ -45,6 +45,21 @@ describe "topics" do
           assert end_index, "expected Jekyll front matter to end with ---"
         end
       end
+
+      it "has expected metadata in Jekyll front matter" do
+        metadata = metadata_for(topic)
+        refute_empty metadata, "expected some metadata for topic"
+
+        metadata.each do |key, value|
+          assert_includes VALID_METADATA_KEYS, key, "unexpected metadata key '#{key}'"
+        end
+
+        REQUIRED_METADATA_KEYS.each do |key|
+          assert metadata.key?(key), "expected to have '#{key}' defined for topic"
+          assert metadata[key] && metadata[key].strip.size > 0,
+            "expected to have a value for '#{key}'"
+        end
+      end
     end
   end
 end
