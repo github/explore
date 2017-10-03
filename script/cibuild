@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+cd "$(dirname "$0")/.."
+
+./script/setup
+
+set +e
+
+bundle exec rake test
+RAKE_EXIT="$?"
+bundle exec rubocop --display-cop-names
+RUBOCOP_EXIT="$?"
+[[ "$RAKE_EXIT" == 0 && "$RUBOCOP_EXIT" == 0 ]]

@@ -10,6 +10,5 @@ Ruby, Bundler, and ImageMagick installed.
 You can run the tests using:
 
 ```bash
-bundle install
-rake
+./script/cibuild
 ```

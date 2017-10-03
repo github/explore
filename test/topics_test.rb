@@ -16,7 +16,7 @@ describe "topics" do
 
         if path = paths.first
           assert_equal topic, File.basename(path, File.extname(path)),
-            "expected image to be named [topic].[extension]"
+                       "expected image to be named [topic].[extension]"
 
           img = Magick::Image.ping(path).first
           assert_equal IMAGE_WIDTH, img.columns, "topic images should be #{IMAGE_WIDTH}px wide"
@@ -45,7 +45,7 @@ describe "topics" do
         if File.file?(path)
           lines = File.readlines(path)
 
-          assert lines.size > 0
+          refute lines.empty?
           assert_equal "---\n", lines[0], "expected file to start with Jekyll front matter ---"
 
           end_index = lines.slice(1..-1).index("---\n")
@@ -57,14 +57,71 @@ describe "topics" do
         metadata = metadata_for(topic)
         refute_empty metadata, "expected some metadata for topic"
 
-        metadata.each do |key, value|
+        metadata.each_key do |key|
           assert_includes VALID_METADATA_KEYS, key, "unexpected metadata key '#{key}'"
         end
 
         REQUIRED_METADATA_KEYS.each do |key|
           assert metadata.key?(key), "expected to have '#{key}' defined for topic"
-          assert metadata[key] && metadata[key].strip.size > 0,
-            "expected to have a value for '#{key}'"
+          assert metadata[key]&.strip&.size&.positive?,
+                 "expected to have a value for '#{key}'"
+        end
+      end
+
+      it "follows the Topic Page Style Guide" do
+        text = body_for(topic)
+        end_punctuation = %w[. , ; :] + [" "]
+        month_abbreviations = %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec]
+        day_ordinals = %w[1st 2nd 3rd 1th 2th 3th 4th 5th 6th 7th 8th 9th]
+        git_verbs = %w[GitHubbing Gitting]
+        bad_github_variants = %w[Github github]
+        numbers_to_be_spelled_out = 1..9
+
+        text.lines do |line|
+          line.chomp!
+
+          refute_includes line, "&", 'Use "and" rather than an ampersand'
+          refute_includes line, "!", "Avoid exclamation points in topic pages"
+          refute_includes line, "open-source", "Use open source without a hyphen"
+
+          month_abbreviations.each do |month|
+            refute_includes line, "#{month} ", "Include and spell out the month"
+          end
+
+          day_ordinals.each do |date_end|
+            refute_includes line, date_end,
+                            'Include the day number without the "th" or "nd" at the end'
+          end
+
+          git_verbs.each do |no_git_verb|
+            refute_includes line, no_git_verb,
+                            "Never use “GitHub” or “Git” as a verb."
+          end
+
+          bad_github_variants.each do |wrong_github|
+            refute_includes line, wrong_github,
+                            'Always use correct capitalization when referring to "GitHub"'
+          end
+
+          end_punctuation.each do |punctuation|
+            refute_includes line, "git#{punctuation}",
+                            'Always use correct capitalization when referring to "Git"'
+
+            numbers_to_be_spelled_out.each do |digit|
+              refute_includes line, " #{digit}#{punctuation}",
+                              'Write out "one" and every number less than 10'
+            end
+          end
+        end
+
+        text.delete("\n").split(".").each do |sentence|
+          # This is arbitrary; 2 is more correct but 3 avoids false positives.
+          next if sentence.count(",") < 3
+
+          %w[and or].each do |conjunction|
+            next unless sentence.include? " #{conjunction} "
+            assert_includes sentence, ", #{conjunction}", "Always use the Oxford comma"
+          end
         end
       end
     end

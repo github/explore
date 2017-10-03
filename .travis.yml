@@ -1,8 +1,6 @@
+language: ruby
+cache: bundler
 sudo: false
-install:
-  - bundle install
-notifications:
-  email: false
-script: rake
-cache:
-  bundler: true
+bundler_args: --jobs=3 --retry=3
+before_install: ./script/setup
+script: ./script/cibuild

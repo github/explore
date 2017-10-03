@@ -2,13 +2,13 @@ require "minitest/autorun"
 require "rmagick"
 require "yaml"
 
-IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png"].freeze
+IMAGE_EXTENSIONS = %w[.jpg .jpeg .png].freeze
 IMAGE_WIDTH = 288
 IMAGE_HEIGHT = 288
 MAX_IMAGE_FILESIZE_IN_BYTES = 65_000
-VALID_METADATA_KEYS = ["aliases", "created_by", "display_name", "github_url", "logo", "related",
-                       "released", "short_description", "topic", "url", "wikipedia_url"].freeze
-REQUIRED_METADATA_KEYS = ["topic", "short_description"].freeze
+VALID_METADATA_KEYS = %w[aliases created_by display_name github_url logo related
+                         released short_description topic url wikipedia_url].freeze
+REQUIRED_METADATA_KEYS = %w[topic short_description].freeze
 
 def topics_dir
   File.expand_path("../topics", File.dirname(__FILE__))
@@ -41,9 +41,19 @@ def metadata_for(topic)
   parts = File.read(path).split("---", 3)
   return unless parts.size >= 2
 
-  metadata = begin
-    YAML.load(parts[1])
+  begin
+    YAML.safe_load(parts[1])
   rescue Psych::SyntaxError => ex
     flunk "invalid YAML: #{ex.message}"
   end
+end
+
+def body_for(topic)
+  path = File.join(topics_dir, topic, "index.md")
+  return "" unless File.file?(path)
+
+  parts = File.read(path).split("---", 3)
+  return "" unless parts.size >= 2
+
+  parts[2]
 end
