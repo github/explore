@@ -46,7 +46,7 @@ def metadata_for(topic)
   end
 end
 
-def text_for(topic)
+def body_for(topic)
   path = File.join(topics_dir, topic, "index.md")
   return "" unless File.file?(path)
 

@@ -61,7 +61,7 @@ describe "topics" do
       end
 
       it "follows the Topic Page Style Guide" do
-        text = text_for(topic)
+        text = body_for(topic)
         end_punctuation = %w[. , ; :]
         text.lines do |line|
           line.chomp!
