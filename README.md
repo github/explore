@@ -11,4 +11,4 @@ If you want to suggest edits to an existing topic page, or curate a new Topic pa
 
 ## Licenses
 
-Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [notices](notices.md) for complete details.
+Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Code is released under [MIT](LICENSE.txt). See [notices](notices.md) for complete details.
