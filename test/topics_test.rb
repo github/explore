@@ -58,6 +58,7 @@ describe "topics" do
           assert metadata.key?(key), "expected to have '#{key}' defined for topic"
           assert metadata[key] && metadata[key].strip.size > 0,
             "expected to have a value for '#{key}'"
+        end
       end
 
       it "follows the Topic Page Style Guide" do
