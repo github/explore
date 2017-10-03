@@ -58,6 +58,56 @@ describe "topics" do
           assert metadata.key?(key), "expected to have '#{key}' defined for topic"
           assert metadata[key] && metadata[key].strip.size > 0,
             "expected to have a value for '#{key}'"
+      end
+
+      it "follows the Topic Page Style Guide" do
+        text = text_for(topic)
+        end_punctuation = %w[. , ; :]
+        text.lines do |line|
+          line.chomp!
+
+          refute_includes line, "&", 'Use "and" rather than an ampersand'
+          refute_includes line, "!", "Avoid exclamation points in topic pages"
+          refute_includes line, "open-source",
+                          "Use open source without a hyphen"
+
+          %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec].each do |month|
+            refute_includes line, "#{month} ", "Include and spell out the month"
+          end
+
+          %w[1st 2nd 3rd 1th 2th 3th 4th 5th 6th 7th 8th 9th].each do |date_end|
+            refute_includes line, date_end,
+                            'Include the day number without the "th" or "nd" at the end'
+          end
+
+          %w[GitHubbing Gitting].each do |no_git_verb|
+            refute_includes line, no_git_verb,
+                            "Never use “GitHub” or “Git” as a verb."
+          end
+
+          %w[Github github].each do |wrong_github|
+            refute_includes line, wrong_github,
+                            'Always use correct capitalization when referring to "GitHub"'
+          end
+
+          (end_punctuation + [" "]).each do |punctuation|
+            refute_includes line, "git#{punctuation}",
+                            'Always use correct capitalization when referring to "Git"'
+
+            (1..10).each do |digit|
+              refute_includes line, " #{digit}#{punctuation}",
+                              'Write out "one" and every number less than 10'
+            end
+          end
+        end
+        text.delete("\n").split(".").each do |sentence|
+          # This is arbitrary; 2 is more correct but 3 avoids false positives.
+          next if sentence.count(",") < 3
+
+          %w[and or].each do |conjunction|
+            next unless sentence.include? " #{conjunction} "
+            assert_includes sentence, ", #{conjunction}", "Always use the Oxford comma"
+          end
         end
       end
     end

@@ -45,3 +45,13 @@ def metadata_for(topic)
     flunk "invalid YAML: #{ex.message}"
   end
 end
+
+def text_for(topic)
+  path = File.join(topics_dir, topic, "index.md")
+  return "" unless File.file?(path)
+
+  parts = File.read(path).split("---", 3)
+  return "" unless parts.size >= 2
+
+  parts[2]
+end
