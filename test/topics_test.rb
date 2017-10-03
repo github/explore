@@ -38,7 +38,7 @@ describe "topics" do
         if File.file?(path)
           lines = File.readlines(path)
 
-          assert !lines.empty?
+          refute lines.empty?
           assert_equal "---\n", lines[0], "expected file to start with Jekyll front matter ---"
 
           end_index = lines.slice(1..-1).index("---\n")
@@ -50,7 +50,7 @@ describe "topics" do
         metadata = metadata_for(topic)
         refute_empty metadata, "expected some metadata for topic"
 
-        metadata.each_key do |key,|
+        metadata.each_key do |key|
           assert_includes VALID_METADATA_KEYS, key, "unexpected metadata key '#{key}'"
         end
 
@@ -58,8 +58,6 @@ describe "topics" do
           assert metadata.key?(key), "expected to have '#{key}' defined for topic"
           assert metadata[key]&.strip&.size&.positive?,
                  "expected to have a value for '#{key}'"
-        end
-      end
         end
       end
     end
