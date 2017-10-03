@@ -7,6 +7,5 @@ There are some lint tests in place to ensure each topic is formatted in the way 
 run the tests using:
 
 ```bash
-bundle install
-rake
+./script/cibuild
 ```

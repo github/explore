@@ -16,7 +16,7 @@ describe "topics" do
 
         if path = paths.first
           assert_equal topic, File.basename(path, File.extname(path)),
-            "expected image to be named [topic].[extension]"
+                       "expected image to be named [topic].[extension]"
         end
       end
 
@@ -38,7 +38,7 @@ describe "topics" do
         if File.file?(path)
           lines = File.readlines(path)
 
-          assert lines.size > 0
+          refute lines.empty?
           assert_equal "---\n", lines[0], "expected file to start with Jekyll front matter ---"
 
           end_index = lines.slice(1..-1).index("---\n")
@@ -50,14 +50,14 @@ describe "topics" do
         metadata = metadata_for(topic)
         refute_empty metadata, "expected some metadata for topic"
 
-        metadata.each do |key, value|
+        metadata.each_key do |key|
           assert_includes VALID_METADATA_KEYS, key, "unexpected metadata key '#{key}'"
         end
 
         REQUIRED_METADATA_KEYS.each do |key|
           assert metadata.key?(key), "expected to have '#{key}' defined for topic"
-          assert metadata[key] && metadata[key].strip.size > 0,
-            "expected to have a value for '#{key}'"
+          assert metadata[key]&.strip&.size&.positive?,
+                 "expected to have a value for '#{key}'"
         end
       end
 

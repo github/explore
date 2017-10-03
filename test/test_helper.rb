@@ -1,12 +1,12 @@
 require "minitest/autorun"
 require "yaml"
 
-IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png"].freeze
+IMAGE_EXTENSIONS = %w[.jpg .jpeg .png].freeze
 
-VALID_METADATA_KEYS = ["aliases", "created_by", "display_name", "github_url", "logo", "related",
-                       "released", "short_description", "topic", "url", "wikipedia_url"].freeze
+VALID_METADATA_KEYS = %w[aliases created_by display_name github_url logo related
+                         released short_description topic url wikipedia_url].freeze
 
-REQUIRED_METADATA_KEYS = ["topic", "short_description"].freeze
+REQUIRED_METADATA_KEYS = %w[topic short_description].freeze
 
 def topics_dir
   File.expand_path("../topics", File.dirname(__FILE__))
@@ -39,8 +39,8 @@ def metadata_for(topic)
   parts = File.read(path).split("---", 3)
   return unless parts.size >= 2
 
-  metadata = begin
-    YAML.load(parts[1])
+  begin
+    YAML.safe_load(parts[1])
   rescue Psych::SyntaxError => ex
     flunk "invalid YAML: #{ex.message}"
   end
