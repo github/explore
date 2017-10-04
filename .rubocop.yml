@@ -1,0 +1,27 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  Exclude:
+    - '**/bin/**/*'
+    - '**/db/**/*'
+    - '**/script/setup'
+    - '**/vendor/**/*'
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100
+  IgnoredPatterns: ['\A\s*#']
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+
