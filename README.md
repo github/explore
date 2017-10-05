@@ -1,11 +1,9 @@
 # GitHub Explore
-[Topic pages](https://github.com/explore/topics/), curated by the community.
+<img src="https://user-images.githubusercontent.com/1840802/31236555-436777c4-a9a9-11e7-8377-c5c4c4c7722e.png" width="650" />
 
-[Topics help you](https://help.github.com/articles/about-topics/) explore repositories in a particular subject area, learn more about a subject area, and find projects to contribute to.
+Topic pages, curated by the community.
 
-The information on a Topic page is community-curated:
-
-![topic page](https://user-images.githubusercontent.com/1840802/30931549-de8591e0-a379-11e7-941c-e9f2e89d83c9.png)
+[Topics](https://help.github.com/articles/about-topics/) help you explore repositories in a particular subject area, learn more about a subject area, and find projects to contribute to.
 
 If you want to suggest edits to an existing topic page, or curate a new Topic page, read our [contributing guide](CONTRIBUTING.md) to get started.
 
