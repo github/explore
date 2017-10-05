@@ -1,4 +1,4 @@
-- [ ] I followed the contributing guidelines: ***LINK***
+- [ ] I followed the contributing guidelines: https://github.com/github/explore/blob/master/CONTRIBUTING.md
 
 I am:
   - [ ] Suggesting edits to an existing Topic page
@@ -17,7 +17,7 @@ Please explain why these changes are necessary:
 
 - [ ] I've formatted my changes as a new folder directory, named for the topic as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]`)
 - [ ] My folder contains a `*.png` image (if applicable) and `index.md`
-- [ ] I've filled out all required fields in `index.md`, per the Style Guide: ***LINK***
+- [ ] All required fields in my `index.md` conform to the Style Guide and API docs: https://github.com/github/explore/tree/master/docs
 
 Please explain why you think this Topic page should be curated:
 
