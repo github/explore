@@ -10,4 +10,4 @@ topic: gulp
 url: http://gulpjs.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Gulp.js
 ---
-Gulp is an open source toolkit built on Node.js & npm. It is used for automating and streamlining repetitive tasks in front-end web development.
+Gulp is an open source toolkit built on Node.js and npm. It is used for automating and streamlining repetitive tasks in front-end web development.
