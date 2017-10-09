@@ -9,7 +9,7 @@ describe "topics" do
         assert File.file?(path), "expected #{path} to be a file"
       end
 
-      it "has at most one image with the right name and dimensions" do
+      it "has at most one image with the right name, type, and dimensions" do
         paths = image_paths_for(topic)
 
         assert paths.size <= 1, "expected at most one image, found #{paths.size}"
@@ -18,12 +18,17 @@ describe "topics" do
           assert_equal topic, File.basename(path, File.extname(path)),
                        "expected image to be named [topic].[extension]"
 
-          img = Magick::Image.ping(path).first
-          assert_equal IMAGE_WIDTH, img.columns, "topic images should be #{IMAGE_WIDTH}px wide"
-          assert_equal IMAGE_HEIGHT, img.rows, "topic images should be #{IMAGE_HEIGHT}px tall"
-          assert img.filesize < MAX_IMAGE_FILESIZE_IN_BYTES,
-            "topic images should not exceed #{MAX_IMAGE_FILESIZE_IN_BYTES} bytes, got " +
-            "#{img.filesize} bytes"
+          width, height = FastImage.size(path)
+          assert_equal IMAGE_WIDTH, width, "topic images should be #{IMAGE_WIDTH}px wide"
+          assert_equal IMAGE_HEIGHT, height, "topic images should be #{IMAGE_HEIGHT}px tall"
+
+          assert_includes IMAGE_EXTENSIONS, ".#{FastImage.type(path)}",
+                          "topic images should be one of #{IMAGE_EXTENSIONS.join(', ')}"
+
+          file_size = FastImage.new(path).content_length
+          assert file_size <= MAX_IMAGE_FILESIZE_IN_BYTES,
+                 "topic images should not exceed #{MAX_IMAGE_FILESIZE_IN_BYTES} bytes, got " \
+                 "#{file_size} bytes"
         end
       end
 
