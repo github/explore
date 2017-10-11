@@ -20,6 +20,19 @@ describe "topics" do
         end
       end
 
+      it "has valid related topics" do
+        metadata = metadata_for(topic)
+
+        if metadata && metadata["related"] && metadata["related"].strip.length > 0
+          related_topics = metadata["related"].split(",").map(&:strip)
+          related_topics.each do |related_topic|
+            assert valid_topic?(related_topic), invalid_topic_message(related_topic)
+            refute_equal related_topic, topic,
+              "related topic '#{related_topic}' must not be the same as the topic"
+          end
+        end
+      end
+
       it "has an index.md" do
         path = File.join(topics_dir, topic, "index.md")
 
