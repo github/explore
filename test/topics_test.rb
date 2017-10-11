@@ -40,6 +40,15 @@ describe "topics" do
                      "a topic should only be an alias or a related topic, but not both"
       end
 
+      it "has a matching topic key" do
+        metadata = metadata_for(topic)
+
+        if metadata
+          assert_equal topic, metadata["topic"],
+                       "'topic' key should match the directory name '#{topic}'"
+        end
+      end
+
       it "has an index.md" do
         path = File.join(topics_dir, topic, "index.md")
 
