@@ -3,7 +3,7 @@ created_by: Rich Hickey
 display_name: Clojure
 github_url: https://github.com/clojure
 logo: clojure.png
-related: clojurescript
+related: clojurescript, clj, cljs
 released: October 16, 2007
 short_description: Clojure is a dynamic, general-purpose programming language.
 topic: clojure
