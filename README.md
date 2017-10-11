@@ -5,7 +5,7 @@ Topic pages, curated by the community.
 
 [Topics](https://help.github.com/articles/about-topics/) help you explore repositories in a particular subject area, learn more about a subject area, and find projects to contribute to.
 
-If you want to suggest edits to an existing topic page, or curate a new Topic page, read our [contributing guide](CONTRIBUTING.md) to get started.
+If you want to suggest edits to an existing topic page, or curate a new topic page, read our [contributing guide](CONTRIBUTING.md) to get started.
 
 ## Licenses
 
