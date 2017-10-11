@@ -8,6 +8,23 @@ VALID_METADATA_KEYS = %w[aliases created_by display_name github_url logo related
 
 REQUIRED_METADATA_KEYS = %w[topic short_description].freeze
 
+MAX_TOPIC_LENGTH = 35
+
+TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
+
+def invalid_topic_message(topic)
+  "'#{topic}' must be between 1-#{MAX_TOPIC_LENGTH} characters, start with a letter or number, " +
+    "and may include hyphens"
+end
+
+def valid_topic?(raw_topic)
+  return false unless raw_topic
+  normalized_topic = raw_topic.gsub(/\A[[:space:]]+/, '').gsub(/[[:space:]]+\z/, '').
+    gsub(/[[:space:]]+/, ' ').downcase.gsub(" ", "-").gsub("_", "-")
+  normalized_topic.length <= MAX_TOPIC_LENGTH && normalized_topic =~ TOPIC_REGEX &&
+    normalized_topic.length > 0
+end
+
 def topics_dir
   File.expand_path("../topics", File.dirname(__FILE__))
 end

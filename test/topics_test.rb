@@ -3,6 +3,23 @@ require_relative "./test_helper"
 describe "topics" do
   topics.each do |topic|
     describe "#{topic} topic" do
+      it "has a valid name" do
+        assert valid_topic?(topic), invalid_topic_message(topic)
+      end
+
+      it "has valid aliases" do
+        metadata = metadata_for(topic)
+
+        if metadata && metadata["aliases"] && metadata["aliases"].strip.length > 0
+          aliases = metadata["aliases"].split(",").map(&:strip)
+          aliases.each do |topic_alias|
+            assert valid_topic?(topic_alias), invalid_topic_message(topic_alias)
+            refute_equal topic_alias, topic,
+              "alias '#{topic_alias}' must not be the same as the topic"
+          end
+        end
+      end
+
       it "has an index.md" do
         path = File.join(topics_dir, topic, "index.md")
 
