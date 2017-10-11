@@ -1,4 +1,7 @@
 # GitHub Explore
+
+[![Build Status](https://travis-ci.org/github/explore.svg?branch=master)](https://travis-ci.org/github/explore)
+
 <img src="https://user-images.githubusercontent.com/1840802/31236555-436777c4-a9a9-11e7-8377-c5c4c4c7722e.png" width="650" />
 
 Topic pages, curated by the community.
