@@ -15,6 +15,8 @@ describe "topics" do
           refute_equal topic_alias, topic,
                        "alias '#{topic_alias}' must not be the same as the topic"
         end
+
+        assert_equal aliases.size, aliases.uniq.size, "should not duplicate aliases"
       end
 
       it "has valid related topics" do
@@ -25,6 +27,9 @@ describe "topics" do
           refute_equal related_topic, topic,
                        "related topic '#{related_topic}' must not be the same as the topic"
         end
+
+        assert_equal related_topics.size, related_topics.uniq.size,
+                     "should not duplicate related topics"
       end
 
       it "has unique related topics and aliases" do
