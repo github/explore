@@ -19,10 +19,15 @@ end
 
 def valid_topic?(raw_topic)
   return false unless raw_topic
-  normalized_topic = raw_topic.gsub(/\A[[:space:]]+/, "").gsub(/[[:space:]]+\z/, "")
-                              .gsub(/[[:space:]]+/, " ").downcase.tr(" ", "-").tr("_", "-")
-  normalized_topic.length <= MAX_TOPIC_LENGTH && normalized_topic =~ TOPIC_REGEX &&
-    !normalized_topic.empty?
+  normalized_topic = raw_topic.gsub(/\A[[:space:]]+/, "")
+                              .gsub(/[[:space:]]+\z/, "")
+                              .gsub(/[[:space:]]+/, " ")
+                              .downcase
+                              .tr(" ", "-")
+                              .tr("_", "-")
+  return false if normalized_topic.length > MAX_TOPIC_LENGTH
+  return false unless normalized_topic.match?(TOPIC_REGEX)
+  !normalized_topic.empty?
 end
 
 def topics_dir
@@ -66,23 +71,15 @@ end
 def related_topics_for(topic)
   metadata = metadata_for(topic)
   return [] unless metadata
-
-  if metadata["related"]
-    metadata["related"].split(",").map(&:strip)
-  else
-    []
-  end
+  return [] unless metadata["related"]
+  metadata["related"].split(",").map(&:strip)
 end
 
 def aliases_for(topic)
   metadata = metadata_for(topic)
   return [] unless metadata
-
-  if metadata["aliases"]
-    metadata["aliases"].split(",").map(&:strip)
-  else
-    []
-  end
+  return [] unless metadata["aliases"]
+  metadata["aliases"].split(",").map(&:strip)
 end
 
 def body_for(topic)
