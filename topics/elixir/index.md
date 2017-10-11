@@ -11,4 +11,4 @@ topic: elixir
 url: https://elixir-lang.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Elixir_(programming_language)
 ---
-Elixir leverages the Erlang VM, known for running low-latency, distributed and fault-tolerant systems, while also being successfully used in web development and the embedded software domain.
+Elixir leverages the Erlang VM, known for running low-latency, distributed and fault-tolerant systems, while also being successfully used in web development, and the embedded software domain.
