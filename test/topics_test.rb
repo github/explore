@@ -8,29 +8,31 @@ describe "topics" do
       end
 
       it "has valid aliases" do
-        metadata = metadata_for(topic)
+        aliases = aliases_for(topic)
 
-        if metadata && metadata["aliases"] && metadata["aliases"].strip.length > 0
-          aliases = metadata["aliases"].split(",").map(&:strip)
-          aliases.each do |topic_alias|
-            assert valid_topic?(topic_alias), invalid_topic_message(topic_alias)
-            refute_equal topic_alias, topic,
-              "alias '#{topic_alias}' must not be the same as the topic"
-          end
+        aliases.each do |topic_alias|
+          assert valid_topic?(topic_alias), invalid_topic_message(topic_alias)
+          refute_equal topic_alias, topic,
+            "alias '#{topic_alias}' must not be the same as the topic"
         end
       end
 
       it "has valid related topics" do
-        metadata = metadata_for(topic)
+        related_topics = related_topics_for(topic)
 
-        if metadata && metadata["related"] && metadata["related"].strip.length > 0
-          related_topics = metadata["related"].split(",").map(&:strip)
-          related_topics.each do |related_topic|
-            assert valid_topic?(related_topic), invalid_topic_message(related_topic)
-            refute_equal related_topic, topic,
-              "related topic '#{related_topic}' must not be the same as the topic"
-          end
+        related_topics.each do |related_topic|
+          assert valid_topic?(related_topic), invalid_topic_message(related_topic)
+          refute_equal related_topic, topic,
+            "related topic '#{related_topic}' must not be the same as the topic"
         end
+      end
+
+      it "has unique related topics and aliases" do
+        aliases = aliases_for(topic)
+        related_topics = related_topics_for(topic)
+
+        assert_empty aliases & related_topics,
+          "a topic should only be an alias or a related topic, but not both"
       end
 
       it "has an index.md" do

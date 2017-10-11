@@ -63,6 +63,26 @@ def metadata_for(topic)
   end
 end
 
+def related_topics_for(topic)
+  metadata = metadata_for(topic)
+
+  if metadata && metadata["related"]
+    metadata["related"].split(",").map(&:strip)
+  else
+    []
+  end
+end
+
+def aliases_for(topic)
+  metadata = metadata_for(topic)
+
+  if metadata && metadata["aliases"]
+    metadata["aliases"].split(",").map(&:strip)
+  else
+    []
+  end
+end
+
 def body_for(topic)
   path = File.join(topics_dir, topic, "index.md")
   return "" unless File.file?(path)
