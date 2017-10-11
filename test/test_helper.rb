@@ -10,6 +10,10 @@ REQUIRED_METADATA_KEYS = %w[topic short_description].freeze
 
 MAX_TOPIC_LENGTH = 35
 
+MAX_ALIAS_COUNT = 10
+
+MAX_RELATED_TOPIC_COUNT = 10
+
 TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 
 def invalid_topic_message(topic)
