@@ -3,6 +3,56 @@ require_relative "./test_helper"
 describe "topics" do
   topics.each do |topic|
     describe "#{topic} topic" do
+      it "has a valid name" do
+        assert valid_topic?(topic), invalid_topic_message(topic)
+      end
+
+      it "has valid aliases" do
+        aliases = aliases_for(topic)
+
+        aliases.each do |topic_alias|
+          assert valid_topic?(topic_alias), invalid_topic_message(topic_alias)
+          refute_equal topic_alias, topic,
+                       "alias '#{topic_alias}' must not be the same as the topic"
+        end
+
+        assert_equal aliases.size, aliases.uniq.size, "should not duplicate aliases"
+        assert aliases.size <= MAX_ALIAS_COUNT,
+               "should have no more than #{MAX_ALIAS_COUNT} aliases"
+      end
+
+      it "has valid related topics" do
+        related_topics = related_topics_for(topic)
+
+        related_topics.each do |related_topic|
+          assert valid_topic?(related_topic), invalid_topic_message(related_topic)
+          refute_equal related_topic, topic,
+                       "related topic '#{related_topic}' must not be the same as the topic"
+        end
+
+        assert_equal related_topics.size, related_topics.uniq.size,
+                     "should not duplicate related topics"
+        assert related_topics.size <= MAX_RELATED_TOPIC_COUNT,
+               "should have no more than #{MAX_RELATED_TOPIC_COUNT} related topics"
+      end
+
+      it "has unique related topics and aliases" do
+        aliases = aliases_for(topic)
+        related_topics = related_topics_for(topic)
+
+        assert_empty aliases & related_topics,
+                     "a topic should only be an alias or a related topic, but not both"
+      end
+
+      it "has a matching topic key" do
+        metadata = metadata_for(topic)
+
+        if metadata
+          assert_equal topic, metadata["topic"],
+                       "'topic' key should match the directory name '#{topic}'"
+        end
+      end
+
       it "has an index.md" do
         path = File.join(topics_dir, topic, "index.md")
 
