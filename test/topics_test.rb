@@ -13,7 +13,7 @@ describe "topics" do
         aliases.each do |topic_alias|
           assert valid_topic?(topic_alias), invalid_topic_message(topic_alias)
           refute_equal topic_alias, topic,
-            "alias '#{topic_alias}' must not be the same as the topic"
+                       "alias '#{topic_alias}' must not be the same as the topic"
         end
       end
 
@@ -23,7 +23,7 @@ describe "topics" do
         related_topics.each do |related_topic|
           assert valid_topic?(related_topic), invalid_topic_message(related_topic)
           refute_equal related_topic, topic,
-            "related topic '#{related_topic}' must not be the same as the topic"
+                       "related topic '#{related_topic}' must not be the same as the topic"
         end
       end
 
@@ -32,7 +32,7 @@ describe "topics" do
         related_topics = related_topics_for(topic)
 
         assert_empty aliases & related_topics,
-          "a topic should only be an alias or a related topic, but not both"
+                     "a topic should only be an alias or a related topic, but not both"
       end
 
       it "has an index.md" do

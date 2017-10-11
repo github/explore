@@ -13,16 +13,16 @@ MAX_TOPIC_LENGTH = 35
 TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 
 def invalid_topic_message(topic)
-  "'#{topic}' must be between 1-#{MAX_TOPIC_LENGTH} characters, start with a letter or number, " +
+  "'#{topic}' must be between 1-#{MAX_TOPIC_LENGTH} characters, start with a letter or number, " \
     "and may include hyphens"
 end
 
 def valid_topic?(raw_topic)
   return false unless raw_topic
-  normalized_topic = raw_topic.gsub(/\A[[:space:]]+/, '').gsub(/[[:space:]]+\z/, '').
-    gsub(/[[:space:]]+/, ' ').downcase.gsub(" ", "-").gsub("_", "-")
+  normalized_topic = raw_topic.gsub(/\A[[:space:]]+/, "").gsub(/[[:space:]]+\z/, "")
+                              .gsub(/[[:space:]]+/, " ").downcase.tr(" ", "-").tr("_", "-")
   normalized_topic.length <= MAX_TOPIC_LENGTH && normalized_topic =~ TOPIC_REGEX &&
-    normalized_topic.length > 0
+    !normalized_topic.empty?
 end
 
 def topics_dir
@@ -65,8 +65,9 @@ end
 
 def related_topics_for(topic)
   metadata = metadata_for(topic)
+  return [] unless metadata
 
-  if metadata && metadata["related"]
+  if metadata["related"]
     metadata["related"].split(",").map(&:strip)
   else
     []
@@ -75,8 +76,9 @@ end
 
 def aliases_for(topic)
   metadata = metadata_for(topic)
+  return [] unless metadata
 
-  if metadata && metadata["aliases"]
+  if metadata["aliases"]
     metadata["aliases"].split(",").map(&:strip)
   else
     []
