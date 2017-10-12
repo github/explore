@@ -1,6 +1,6 @@
 ---
 aliases: algoliasearch, algolia-search
-related: instantsearch
+related: instantsearch, instant-search
 created_by: Nicolas Dessaigne, Julien Lemoine
 display_name: Algolia
 github_url: https://github.com/algolia/
