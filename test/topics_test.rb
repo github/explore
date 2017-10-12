@@ -59,6 +59,17 @@ describe "topics" do
         assert File.file?(path), "expected #{path} to be a file"
       end
 
+      it "does not specify an image if none exists" do
+        paths = image_paths_for(topic)
+        metadata = metadata_for(topic)
+        no_image_exists = paths.all? { |path| !File.exists?(path) }
+
+        if no_image_exists && metadata
+          refute_includes metadata.keys, "logo",
+                          "should not specify a logo '#{metadata["logo"]}' if no image exists"
+        end
+      end
+
       it "has at most one image with the right name, type, and dimensions" do
         paths = image_paths_for(topic)
 
