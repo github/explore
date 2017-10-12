@@ -11,4 +11,4 @@ topic: nodejs
 url: https://nodejs.org/en/
 wikipedia_url: https://en.wikipedia.org/wiki/Node.js
 ---
-Node.js was written by Ryan Dahl in May of 2009. It enables JavaScript to run on the server, rather than the client-side, which allows for faster response time when users interact with a webpage.
+Node.js was written by Ryan Dahl in May of 2009. It enables JavaScript to run on the server side, rather than the client side, which allows for faster response time when users interact with a webpage.
