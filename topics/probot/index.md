@@ -5,7 +5,7 @@ display_name: Probot
 github_url: https://github.com/probot/
 logo: probot.png
 released: March 2017
-short_description: GitHub Apps to automate and improve your workflow.
+short_description: Probot lets you create GitHub Apps to automate and improve your workflow.
 topic: probot
 url: https://probot.github.io/
 ---
