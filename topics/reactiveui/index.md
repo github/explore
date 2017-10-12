@@ -2,7 +2,7 @@
 created_by: Paul Betts
 display_name: ReactiveUI
 github_url: https://github.com/reactiveui/reactiveui
-logo: reactiveui-logo.png
+logo: reactiveui.png
 released: 2009
 short_description: ReactiveUI is a composable, cross-platform model-view-viewmodel framework.
 topic: reactiveui
