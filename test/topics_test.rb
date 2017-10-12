@@ -62,11 +62,11 @@ describe "topics" do
       it "does not specify an image if none exists" do
         paths = image_paths_for(topic)
         metadata = metadata_for(topic)
-        no_image_exists = paths.all? { |path| !File.exists?(path) }
+        no_image_exists = paths.all? { |path| !File.exist?(path) }
 
         if no_image_exists && metadata
           refute_includes metadata.keys, "logo",
-                          "should not specify a logo '#{metadata["logo"]}' if no image exists"
+                          "should not specify a logo '#{metadata['logo']}' if no image exists"
         end
       end
 
