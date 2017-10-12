@@ -10,4 +10,4 @@ topic: clojure
 url: https://clojure.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Clojure
 ---
-Clojure is a functional, dynamic, general-purpose programming language. It provides built-in concurrency support via software transactional memory and asynchronous agents, and offers a rich set of immutable, persistent data structures. Clojure runs on JVM, JavaScript VMs and Common Language Runtime.
+Clojure is a functional, dynamic, general-purpose programming language. It provides built-in concurrency support via software transactional memory and asynchronous agents, and offers a rich set of immutable, persistent data structures. Clojure runs on JVM, JavaScript VMs, and Common Language Runtime.
