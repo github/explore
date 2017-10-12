@@ -3,7 +3,7 @@ created_by: Sebastian McKenzie, James Kyle, Henry Zhu, Logan Smyth, Daniel Tschi
 display_name: Babel
 github_url: https://github.com/babel
 logo: babel.png
-released: Oct 1, 2014
+released: Sep 28, 2014
 short_description: 🐠 Babel is a compiler for writing next generation JavaScript.
 topic: babel
 url: https://babeljs.io/
