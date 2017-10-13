@@ -1,5 +1,5 @@
 ---
-aliases: mahapps.metro, mahapps-metro, metro
+aliases: mahapps-metro, metro
 created_by: Paul Jenkins
 display_name: "MahApps.Metro"
 github_url: https://github.com/MahApps/MahApps.Metro
