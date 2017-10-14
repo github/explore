@@ -36,3 +36,15 @@ Please note that all suggestions must adhere to GitHub's [Community Guidelines](
 To propose a new topic page, please **open an pull request** with your proposed changes. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
 
 **Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
+
+## Running tests
+
+There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis
+CI will run the tests automatically. If you want to run the tests yourself locally, you will need
+Ruby and Bundler installed.
+
+You can run the tests using:
+
+```bash
+script/cibuild
+```
