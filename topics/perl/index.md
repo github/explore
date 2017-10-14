@@ -3,6 +3,7 @@ aliases: perl5, perl
 created_by: Larry Wall
 display_name: Perl
 github_url: https://github.com/Perl/perl5
+logo: perl5.png
 released: December 18, 1987
 short_description: Perl 5 is a highly capable and feature-rich programming language.
 topic: perl
