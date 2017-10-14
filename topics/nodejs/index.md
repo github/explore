@@ -14,8 +14,7 @@ wikipedia_url: https://en.wikipedia.org/wiki/Node.js
 Node.js is a tool for executing JavaScript in a variety of environments.
 JavaScript had humble beginnings as a language that lived only in web browsers,
 but the Node.js project has expanded its reach and helped make it the most 
-popular programming language in the world. Powered by V8, an open-source 
-JavaScript engine developed by Google for the Chrome browser, Node.js expands 
-the creative potential of people with web development experience, enabling a 
-new generation of developers to create servers, command-line tools, desktop 
-apps, and even robots.
+popular programming language in the world. Node.js extends the creative 
+potential of people with web development experience, enabling a new generation 
+of developers to create servers, command-line tools, desktop apps, and even 
+robots.
