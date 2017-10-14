@@ -6,6 +6,7 @@ logo: vim.png
 released: November 2, 1991
 short_description: Vim is a console-run text editor program.
 topic: vim
+related: emacs
 url: http://www.vim.org/download.php
 wikipedia_url: https://en.wikipedia.org/wiki/Vim_(text_editor)
 ---
