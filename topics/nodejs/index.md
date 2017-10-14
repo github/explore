@@ -5,10 +5,17 @@ display_name: Node.js
 github_url: https://github.com/nodejs
 logo: nodejs.png
 released: May 27, 2009
-short_description: Node.js is a run-time environment for executing server-side JavaScript
-  code.
+short_description: Node.js is a tool for executing JavaScript in a variety of environments.
 topic: nodejs
 url: https://nodejs.org/en/
 wikipedia_url: https://en.wikipedia.org/wiki/Node.js
 ---
-Node.js was written by Ryan Dahl in May of 2009. It enables JavaScript to run on the server side, rather than the client side, which allows for faster response time when users interact with a webpage.
+
+Node.js is a tool for executing JavaScript in a variety of environments.
+JavaScript had humble beginnings as a language that lived only in web browsers,
+but the Node.js project has expanded its reach and helped make it the most 
+popular programming language in the world. Powered by V8, an open-source 
+JavaScript engine developed by Google for the Chrome browser, Node.js expands 
+the creative potential of people with web development experience, enabling a 
+new generation of developers to create servers, command-line tools, desktop 
+apps, and even robots.
