@@ -59,6 +59,17 @@ describe "topics" do
         assert File.file?(path), "expected #{path} to be a file"
       end
 
+      it "does not specify an image if none exists" do
+        paths = image_paths_for(topic)
+        metadata = metadata_for(topic)
+        no_image_exists = paths.all? { |path| !File.exist?(path) }
+
+        if no_image_exists && metadata
+          refute_includes metadata.keys, "logo",
+                          "should not specify a logo '#{metadata['logo']}' if no image exists"
+        end
+      end
+
       it "has at most one image with the right name, type, and dimensions" do
         paths = image_paths_for(topic)
 
@@ -125,6 +136,7 @@ describe "topics" do
 
       it "follows the Topic Page Style Guide" do
         text = body_for(topic)
+        metadata = metadata_for(topic)
         end_punctuation = %w[. , ; :] + [" "]
         month_abbreviations = %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec]
         day_ordinals = %w[1st 2nd 3rd 1th 2th 3th 4th 5th 6th 7th 8th 9th]
@@ -169,15 +181,8 @@ describe "topics" do
           end
         end
 
-        text.delete("\n").split(".").each do |sentence|
-          # This is arbitrary; 2 is more correct but 3 avoids false positives.
-          next if sentence.count(",") < 3
-
-          %w[and or].each do |conjunction|
-            next unless sentence.include? " #{conjunction} "
-            assert_includes sentence, ", #{conjunction}", "Always use the Oxford comma"
-          end
-        end
+        assert_oxford_comma(text)
+        assert_oxford_comma(metadata["short_description"]) if metadata
       end
     end
   end
