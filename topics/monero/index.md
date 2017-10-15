@@ -4,8 +4,7 @@ created_by: Monero
 display_name: Monero
 github_url: https://github.com/monero-project
 released: April 18th, 2014
-short_description: Monero is a private, fungible, cryptocurrency 
-  applications.
+short_description: Monero is a private, fungible, open source, decentralized cryptocurrency.
 topic: monero
 url: https://getmonero.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Monero_(cryptocurrency)
