@@ -1,5 +1,5 @@
 ---
-aliases: reactjs, react-js
+aliases: reactjs, react-js, react
 created_by: Jordan Walke
 display_name: React
 github_url: https://github.com/facebook/react
