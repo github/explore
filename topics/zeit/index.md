@@ -6,4 +6,4 @@ short_description: A company that builds tools that make cloud computing as easy
 topic: zeit
 url: https://zeit.co
 ---
-The company's mission is to make cloud computing as easy and accessible as mobile computing. It builds products for developers and designers. And those who aspire to become one.
+ZEIT's mission is to make cloud computing as easy and accessible as mobile computing. It builds products for developers and designers, and those who aspire to become one.
