@@ -1,5 +1,5 @@
 ---
-aliases: perl5, perl
+aliases: perl5
 created_by: Larry Wall
 display_name: Perl
 github_url: https://github.com/Perl/perl5
