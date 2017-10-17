@@ -10,4 +10,4 @@ topic: perl
 url: perl.org
 wikipedia_url: https://en.wikipedia.org/wiki/Perl
 ---
-Perl 5 is a highly capable and feature-rich programming language. Perl 5 runs on over 100 platforms ranging from portables to mainframes and everything in between. The can be used for almost al facets of programming from rapid prototyping and large scale development projects.
+Perl 5 runs on over 100 platforms ranging from portables to mainframes. The can be used for almost all facets of programming, from rapid prototyping and large-scale development projects.
