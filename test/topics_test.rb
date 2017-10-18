@@ -166,7 +166,8 @@ describe "topics" do
           end
 
           bad_github_variants.each do |wrong_github|
-            refute_includes line, wrong_github,
+            no_url_line = line.gsub "github.com"
+            refute_includes no_url_line, wrong_github,
                             'Always use correct capitalization when referring to "GitHub"'
           end
 
