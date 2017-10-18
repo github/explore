@@ -1,6 +1,6 @@
 ---
 aliases: xdb
-created_by: Michael Seifert, Ole Sas Thrane and Jakob Christensen
+created_by: Michael Seifert, Ole Sas Thrane, and Jakob Christensen
 display_name: Sitecore
 github_url: https://github.com/sitecore
 logo: sitecore.png
