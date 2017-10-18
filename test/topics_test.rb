@@ -17,6 +17,15 @@ describe "topics" do
         end
       end
 
+      it "has a valid Wikipedia URL" do
+        metadata = metadata_for(topic)
+
+        if metadata && metadata["wikipedia_url"]
+          uri = URI.parse(metadata["wikipedia_url"])
+          assert_match /wikipedia\.org/, uri.host, "wikipedia_url should point to wikipedia.org"
+        end
+      end
+
       it "has valid aliases" do
         aliases = aliases_for(topic)
 
