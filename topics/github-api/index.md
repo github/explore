@@ -1,7 +1,6 @@
 ---
 created_by: GitHub
 display_name: GitHub API
-github_url: https://developer.github.com/
 related: github, github-client, github-app, api, api-rest, graphql
 short_description: The GitHub API allows you to build applications that integrate with GitHub.
 topic: github-api
