@@ -184,7 +184,7 @@ describe "topics" do
 
         assert_oxford_comma(text)
         assert_oxford_comma(metadata["short_description"]) if metadata
-        assert_oxford_comma(metadata["created_by"]) if metadata["created_by"]
+        assert_oxford_comma(metadata["created_by"]) if metadata
       end
     end
   end
