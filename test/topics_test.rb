@@ -8,21 +8,22 @@ describe "topics" do
       end
 
       it "has a valid GitHub URL" do
-        metadata = metadata_for(topic)
+        metadata = metadata_for(topic) || {}
 
-        if metadata && metadata["github_url"]
+        if metadata["github_url"]
           uri = URI.parse(metadata["github_url"])
           assert_includes ["www.github.com", "github.com"], uri.host,
-            "github_url should point to either www.github.com or github.com"
+                          "github_url should point to either www.github.com or github.com"
         end
       end
 
       it "has a valid Wikipedia URL" do
-        metadata = metadata_for(topic)
+        metadata = metadata_for(topic) || {}
 
-        if metadata && metadata["wikipedia_url"]
+        if metadata["wikipedia_url"]
           uri = URI.parse(metadata["wikipedia_url"])
-          assert_match /wikipedia\.org/, uri.host, "wikipedia_url should point to wikipedia.org"
+          regex = /wikipedia\.org/
+          assert_match regex, uri.host, "wikipedia_url should point to wikipedia.org"
         end
       end
 
