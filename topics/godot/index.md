@@ -1,4 +1,5 @@
 ---
+aliases: godotengine, godot-engine
 created_by: Juan Linietsky and Ariel Manzur
 display_name:
 github_url: https://github.com/godotengine
