@@ -7,6 +7,6 @@ short_description: Phaser is a fun, free and fast 2D game framework for making H
 topic: phaser
 url: http://phaser.io/
 ---
-Phaser is a fast, free, and fun open source HTML5 game framework. It uses a custom build of Pixi.js for WebGL and Canvas rendering, and supports desktop and mobile web browsers. Games can be compiled to iOS, Android and native desktop apps via 3rd party tools. You can use JavaScript or TypeScript for development.
+Phaser is a fast, free, and fun open source HTML5 game framework. It uses a custom build of Pixi.js for WebGL and Canvas rendering, and supports desktop and mobile web browsers. Games can be compiled to iOS, Android and native desktop apps via third party tools. You can use JavaScript or TypeScript for development.
 
-Thousands of developers worldwide use Phaser. From indies and multi-national digital agencies, to schools and Universities. 
+Thousands of developers worldwide use Phaser. From indies and multi-national digital agencies, to schools and Universities.
