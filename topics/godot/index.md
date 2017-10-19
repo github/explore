@@ -1,5 +1,5 @@
 ---
-aliases: godotengine, godot-engine
+aliases: godotengine, godot-engine, godot-game-engine, gdscript
 created_by: Juan Linietsky and Ariel Manzur
 display_name: Godot
 github_url: https://github.com/godotengine
