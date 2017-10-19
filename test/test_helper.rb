@@ -1,5 +1,6 @@
 require "minitest/autorun"
 require "fastimage"
+require "uri"
 require "yaml"
 
 IMAGE_EXTENSIONS = %w[.jpg .jpeg .png].freeze
