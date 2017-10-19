@@ -7,6 +7,26 @@ describe "topics" do
         assert valid_topic?(topic), invalid_topic_message(topic)
       end
 
+      it "has a valid GitHub URL" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["github_url"]
+          uri = URI.parse(metadata["github_url"])
+          assert_includes ["www.github.com", "github.com"], uri.host,
+                          "github_url should point to either www.github.com or github.com"
+        end
+      end
+
+      it "has a valid Wikipedia URL" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["wikipedia_url"]
+          uri = URI.parse(metadata["wikipedia_url"])
+          regex = /wikipedia\.org/
+          assert_match regex, uri.host, "wikipedia_url should point to wikipedia.org"
+        end
+      end
+
       it "has valid aliases" do
         aliases = aliases_for(topic)
 
@@ -166,7 +186,8 @@ describe "topics" do
           end
 
           bad_github_variants.each do |wrong_github|
-            refute_includes line, wrong_github,
+            no_url_line = line.gsub "github.com"
+            refute_includes no_url_line, wrong_github,
                             'Always use correct capitalization when referring to "GitHub"'
           end
 
@@ -182,7 +203,10 @@ describe "topics" do
         end
 
         assert_oxford_comma(text)
-        assert_oxford_comma(metadata["short_description"]) if metadata
+        if metadata
+          assert_oxford_comma(metadata["short_description"])
+          assert_oxford_comma(metadata["created_by"])
+        end
       end
     end
   end
