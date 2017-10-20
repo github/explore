@@ -12,8 +12,18 @@ describe "topics" do
 
         if metadata["github_url"]
           uri = URI.parse(metadata["github_url"])
+          assert valid_uri_scheme?(uri.scheme), "github_url should start with http:// or https://"
           assert_includes ["www.github.com", "github.com"], uri.host,
                           "github_url should point to either www.github.com or github.com"
+        end
+      end
+
+      it "has a valid URL" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["url"]
+          uri = URI.parse(metadata["url"])
+          assert valid_uri_scheme?(uri.scheme), "url should start with http:// or https://"
         end
       end
 
@@ -23,6 +33,8 @@ describe "topics" do
         if metadata["wikipedia_url"]
           uri = URI.parse(metadata["wikipedia_url"])
           regex = /wikipedia\.org/
+          assert valid_uri_scheme?(uri.scheme),
+                 "wikipedia_url should start with http:// or https://"
           assert_match regex, uri.host, "wikipedia_url should point to wikipedia.org"
         end
       end
