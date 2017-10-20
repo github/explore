@@ -91,14 +91,20 @@ describe "topics" do
         assert File.file?(path), "expected #{path} to be a file"
       end
 
-      it "does not specify an image if none exists" do
-        paths = image_paths_for(topic)
+      it "uses the right file name for specified logo" do
         metadata = metadata_for(topic)
-        no_image_exists = paths.all? { |path| !File.exist?(path) }
 
-        if no_image_exists && metadata
-          refute_includes metadata.keys, "logo",
-                          "should not specify a logo '#{metadata['logo']}' if no image exists"
+        if metadata
+          paths = image_paths_for(topic)
+          valid_file_names = paths.map { |path| File.basename(path) }
+          error_message = if valid_file_names.empty?
+                            "should not specify logo #{metadata['logo']} when file does not exist"
+                          else
+                            "logo should be #{valid_file_names.join(' or ')}, but was " +
+                              metadata["logo"].to_s
+                          end
+          assert !metadata.key?("logo") || valid_file_names.include?(metadata["logo"]),
+                 error_message
         end
       end
 
