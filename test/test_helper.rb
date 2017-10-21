@@ -1,5 +1,6 @@
 require "minitest/autorun"
 require "fastimage"
+require "uri"
 require "yaml"
 
 IMAGE_EXTENSIONS = %w[.jpg .jpeg .png].freeze
@@ -21,6 +22,12 @@ TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 def invalid_topic_message(topic)
   "'#{topic}' must be between 1-#{MAX_TOPIC_LENGTH} characters, start with a letter or number, " \
     "and may include hyphens"
+end
+
+def valid_uri_scheme?(scheme)
+  return false unless scheme
+
+  %w[http https].include?(scheme.downcase)
 end
 
 def valid_topic?(raw_topic)

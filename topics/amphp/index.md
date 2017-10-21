@@ -8,4 +8,4 @@ short_description: Amp is a non-blocking concurrency framework for PHP.
 topic: amphp
 url: https://amphp.org/
 ---
-Amp is a non-blocking concurrency framework for PHP. It provides an event loop, promises and streams as a base for asynchronous programming.
+Amp is a non-blocking concurrency framework for PHP. It provides an event loop, promises, and streams as a base for asynchronous programming.
