@@ -2,6 +2,7 @@
 related: php
 created_by: Igor Wiedler
 display_name: ReactPHP
+logo: reactphp.png
 github_url: https://github.com/reactphp
 released: April 14, 2012
 short_description: ReactPHP is a library that allows event-driven, non-blocking I/O with PHP.
