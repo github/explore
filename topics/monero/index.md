@@ -5,8 +5,8 @@ display_name: Monero
 github_url: https://github.com/monero-project
 released: April 18th, 2014
 short_description: Monero is a private, fungible, open source, decentralized cryptocurrency.
-description: Monero is a cryptocurrency focused on privacy, decentralization and scalability. Unlike many cryptocurrencies, Monero is based on CryptoNote protocol and possesses significant algorithmic differences relating to blockchain obfuscation.
 topic: monero
 url: https://getmonero.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Monero_(cryptocurrency)
 ---
+Monero is a cryptocurrency focused on privacy, decentralization and scalability. Unlike many cryptocurrencies, Monero is based on CryptoNote protocol and possesses significant algorithmic differences relating to blockchain obfuscation.
