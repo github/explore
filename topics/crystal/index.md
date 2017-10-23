@@ -1,5 +1,5 @@
 ---
-aliases: crystal, crystal-lang
+aliases: crystal-lang
 created_by: Ary Borenszweig
 display_name: Crystal
 logo: crystal.png
