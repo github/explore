@@ -10,4 +10,4 @@ topic: atom
 url: https://atom.io/
 wikipedia_url: https://en.wikipedia.org/wiki/Atom_(text_editor)
 ---
-Atom is a modern open source text editor developed by GitHub. It is designed to be approachable yet customizable with a wide variety of options and packages.
+Atom is a modern open source text editor developed by GitHub. It is designed to be approachable out of the box yet highly customizable. Atom is built using web technologies: the look and feel can be customized using CSS and new features can be added with HTML and JavaScript. There are also thousands of community created themes and packages available. 
