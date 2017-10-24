@@ -1,5 +1,5 @@
 ---
-aliases: atom-package, atom-packages, atom-theme
+aliases: atom-package, atom-packages, atom-theme, atom-themes
 created_by: GitHub
 display_name: Atom
 github_url: https://github.com/atom
