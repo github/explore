@@ -6,7 +6,7 @@ require "yaml"
 IMAGE_EXTENSIONS = %w[.jpg .jpeg .png].freeze
 IMAGE_WIDTH = 288
 IMAGE_HEIGHT = 288
-MAX_IMAGE_FILESIZE_IN_BYTES = 65_000
+MAX_IMAGE_FILESIZE_IN_BYTES = 75_000
 VALID_METADATA_KEYS = %w[aliases created_by display_name github_url logo related
                          released short_description topic url wikipedia_url].freeze
 REQUIRED_METADATA_KEYS = %w[topic short_description].freeze
