@@ -24,6 +24,12 @@ def invalid_topic_message(topic)
     "and may include hyphens"
 end
 
+def valid_uri_scheme?(scheme)
+  return false unless scheme
+
+  %w[http https].include?(scheme.downcase)
+end
+
 def valid_topic?(raw_topic)
   return false unless raw_topic
   normalized_topic = raw_topic.gsub(/\A[[:space:]]+/, "")

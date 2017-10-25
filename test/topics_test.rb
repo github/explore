@@ -12,8 +12,18 @@ describe "topics" do
 
         if metadata["github_url"]
           uri = URI.parse(metadata["github_url"])
+          assert valid_uri_scheme?(uri.scheme), "github_url should start with http:// or https://"
           assert_includes ["www.github.com", "github.com"], uri.host,
                           "github_url should point to either www.github.com or github.com"
+        end
+      end
+
+      it "has a valid URL" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["url"]
+          uri = URI.parse(metadata["url"])
+          assert valid_uri_scheme?(uri.scheme), "url should start with http:// or https://"
         end
       end
 
@@ -23,6 +33,8 @@ describe "topics" do
         if metadata["wikipedia_url"]
           uri = URI.parse(metadata["wikipedia_url"])
           regex = /wikipedia\.org/
+          assert valid_uri_scheme?(uri.scheme),
+                 "wikipedia_url should start with http:// or https://"
           assert_match regex, uri.host, "wikipedia_url should point to wikipedia.org"
         end
       end
@@ -79,14 +91,20 @@ describe "topics" do
         assert File.file?(path), "expected #{path} to be a file"
       end
 
-      it "does not specify an image if none exists" do
-        paths = image_paths_for(topic)
+      it "uses the right file name for specified logo" do
         metadata = metadata_for(topic)
-        no_image_exists = paths.all? { |path| !File.exist?(path) }
 
-        if no_image_exists && metadata
-          refute_includes metadata.keys, "logo",
-                          "should not specify a logo '#{metadata['logo']}' if no image exists"
+        if metadata
+          paths = image_paths_for(topic)
+          valid_file_names = paths.map { |path| File.basename(path) }
+          error_message = if valid_file_names.empty?
+                            "should not specify logo #{metadata['logo']} when file does not exist"
+                          else
+                            "logo should be #{valid_file_names.join(' or ')}, but was " +
+                              metadata["logo"].to_s
+                          end
+          assert !metadata.key?("logo") || valid_file_names.include?(metadata["logo"]),
+                 error_message
         end
       end
 
