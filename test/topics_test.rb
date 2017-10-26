@@ -97,6 +97,16 @@ describe "topics" do
         end
       end
 
+      it "has a short_description that differs from the body" do
+        metadata = metadata_for(topic) || {}
+        body = body_for(topic)
+
+        if metadata["short_description"]
+          refute_equal body.strip, metadata["short_description"].strip,
+                       "body and short description should differ"
+        end
+      end
+
       it "has an index.md" do
         path = File.join(topics_dir, topic, "index.md")
 
