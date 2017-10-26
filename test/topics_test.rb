@@ -7,6 +7,16 @@ describe "topics" do
         assert valid_topic?(topic), invalid_topic_message(topic)
       end
 
+      it "ends short_description with punctuation" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["short_description"]
+          punctuation_regex = /[.?!]\z/
+          assert_match punctuation_regex, metadata["short_description"],
+                       "short_description should end with punctuation"
+        end
+      end
+
       it "does not include emoji outside of description" do
         metadata = metadata_for(topic) || {}
 
