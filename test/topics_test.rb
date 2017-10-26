@@ -7,7 +7,17 @@ describe "topics" do
         assert valid_topic?(topic), invalid_topic_message(topic)
       end
 
-      it "ends short_description with punctuation" do
+      it "ends 'released' with a number" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["released"]
+          number_regex = /\d\z/
+          assert_match number_regex, metadata["released"].to_s.strip,
+                       "released should end with a number"
+        end
+      end
+
+      it "ends 'short_description' with punctuation" do
         metadata = metadata_for(topic) || {}
 
         if metadata["short_description"]
