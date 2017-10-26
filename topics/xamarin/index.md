@@ -1,9 +1,9 @@
 ---
-aliases: xamarin
+aliases: mono
 created_by: Alexandru Stefan Popescu
 display_name: Xamarin
 github_url: https://github.com/xamarin
-logo: xamagon.png
+logo: xamarin.png
 released: May 16 2011
 short_description: The Xamarin platform that allow you to develop applications for iOS and Android.
 topic: xamarin
