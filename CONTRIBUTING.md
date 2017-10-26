@@ -37,6 +37,10 @@ To propose a new topic page, please **open an pull request** with your proposed 
 
 **Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
 
+## Guidelines
+
+* Avoid conflicts of interest. If a topic is popular enough to warrant inclusion, someone else will add or improve it.
+
 ## Running tests
 
 There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis

@@ -10,4 +10,4 @@ topic: sketch
 url: https://www.sketchapp.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Sketch_(application)
 ---
-Sketch is a vector graphics editor for Apple's macOS, used primarily for user interface and icon design.
+Sketch is a digital design toolkit built for designers, intended for editing vector graphics in macOS. It is used primarily for user interface and icon design.
