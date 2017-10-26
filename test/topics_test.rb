@@ -7,6 +7,18 @@ describe "topics" do
         assert valid_topic?(topic), invalid_topic_message(topic)
       end
 
+      it "does not include emoji outside of description" do
+        metadata = metadata_for(topic) || {}
+
+        fields = %w[created_by display_name released short_description related aliases topic]
+        fields.each do |field|
+          if value = metadata[field].to_s
+            assert value == value.gsub(EMOJI_REGEX, ""),
+                   "#{field} should not include emoji:\n\t#{value}"
+          end
+        end
+      end
+
       it "has a valid GitHub URL" do
         metadata = metadata_for(topic) || {}
 
