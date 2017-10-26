@@ -1,3 +1,5 @@
+# rubocop:disable Metrics/LineLength
+
 require "minitest/autorun"
 require "fastimage"
 require "uri"
