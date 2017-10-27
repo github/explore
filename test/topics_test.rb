@@ -7,6 +7,23 @@ describe "topics" do
         assert valid_topic?(topic), invalid_topic_message(topic)
       end
 
+      it "does not add an alias that's already in use" do
+        aliases = aliases_for(topic)
+
+        if aliases.any?
+          other_topics = topics - [topic]
+          other_topics.each do |other_topic|
+            other_aliases = aliases_for(other_topic)
+            shared_aliases = aliases & other_aliases
+            verb = shared_aliases.length == 1 ? "is" : "are"
+
+            assert_empty shared_aliases,
+                         "#{shared_aliases.join(', ')} #{verb} already aliased to " \
+                         "#{other_topic}, please remove from either '#{topic}' or '#{other_topic}'"
+          end
+        end
+      end
+
       it "ends 'released' with a number" do
         metadata = metadata_for(topic) || {}
 
