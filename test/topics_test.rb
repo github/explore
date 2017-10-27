@@ -222,6 +222,18 @@ describe "topics" do
                "(currently #{body.length})"
       end
 
+      it "has a valid short_description" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["short_description"]
+          valid_range = 1...MAX_SHORT_DESCRIPTION_LENGTH
+          current_length = metadata["short_description"].length
+          assert valid_range.cover?(current_length),
+                 "must have a short_description no more than #{MAX_SHORT_DESCRIPTION_LENGTH} " \
+                 "characters (currently #{current_length})"
+        end
+      end
+
       it "follows the Topic Page Style Guide" do
         text = body_for(topic)
         metadata = metadata_for(topic)
