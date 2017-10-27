@@ -9,4 +9,4 @@ topic: crystal
 url: https://crystal-lang.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Crystal_(programming_language)
 ---
-Crystal is a programming language with friendly syntax, static type checking and modern stdlib. It compiles into efficient, easy to distribute native code.
+Crystal is a programming language with friendly syntax, static type checking and modern stdlib. It compiles into efficient, easy-to-distribute native code.
