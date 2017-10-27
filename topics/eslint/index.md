@@ -5,7 +5,7 @@ github_url: https://github.com/eslint/eslint
 logo: eslint.png
 related: eslint-plugin, eslint-config
 released: June 2013
-short_description: The pluggable linting utility for JavaScript and JSX
+short_description: The pluggable linting utility for JavaScript and JSX.
 topic: eslint
 url: https://eslint.org/
 ---
