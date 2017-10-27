@@ -15,7 +15,7 @@ Each alias must be formatted like that topic's `topic` field (same as the URL sl
 (if applicable) Names of the people and/or organizations who authored the topic (NOT your name). For example, `Jordan Walke` is the author of `react`.
 
 ### display_name
-(required) The topic name that will be displayed on the topic page (ex. `React`). Should use proper noun capitalization.
+(required) The topic name that will be displayed on the topic page (ex. `React`). Should use proper noun capitalization. Emoji are not allowed.
 
 ### github_url
 (if applicable) URL of the topic's official GitHub organization or repository. Must start with `https://github.com/`.
@@ -38,7 +38,7 @@ Each related topic must be formatted like that topic's `topic` field (same as th
 (if applicable) Date of first release. Formatted as `MONTH DD YYYY`
 
 ### short_description
-(required) A short description of the topic, which will be used on the Explore homepage, Topics subpage, and other preview areas. Must be 75 characters or less.
+(required) A short description of the topic, which will be used on the Explore homepage, Topics subpage, and other preview areas. Must be 75 characters or less. Emoji are not allowed.
 
 ### topic
 (required) Name of the topic, which will be used in the URL, e.g. `https://github.com/topics/[URL]`. Formatted as lowercase.
