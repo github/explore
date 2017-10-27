@@ -20,4 +20,4 @@ The high level features that MvvmCross provides you with are:
    • Inversion of control and Dependency Injection  
    • Lots of plugins for common functionalities  
    • Unit test helpers  
-   • Complete flexibility - your app is King!  
+   • Complete flexibility - your app is King 
