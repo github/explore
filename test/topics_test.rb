@@ -3,13 +3,154 @@ require_relative "./test_helper"
 describe "topics" do
   topics.each do |topic|
     describe "#{topic} topic" do
+      it "has a valid name" do
+        assert valid_topic?(topic), invalid_topic_message(topic)
+      end
+
+      it "ends 'released' with a number" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["released"]
+          number_regex = /\d\z/
+          assert_match number_regex, metadata["released"].to_s.strip,
+                       "released should end with a number"
+        end
+      end
+
+      it "ends 'short_description' with punctuation" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["short_description"]
+          punctuation_regex = /[.?!]\z/
+          assert_match punctuation_regex, metadata["short_description"],
+                       "short_description should end with punctuation"
+        end
+      end
+
+      it "does not include emoji outside of description" do
+        metadata = metadata_for(topic) || {}
+
+        fields = %w[created_by display_name released short_description related aliases topic]
+        fields.each do |field|
+          if value = metadata[field].to_s
+            assert value == value.gsub(EMOJI_REGEX, ""),
+                   "#{field} should not include emoji:\n\t#{value}"
+          end
+        end
+      end
+
+      it "has a valid GitHub URL" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["github_url"]
+          uri = URI.parse(metadata["github_url"])
+          assert valid_uri_scheme?(uri.scheme), "github_url should start with http:// or https://"
+          assert_includes ["www.github.com", "github.com"], uri.host,
+                          "github_url should point to either www.github.com or github.com"
+        end
+      end
+
+      it "has a valid URL" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["url"]
+          uri = URI.parse(metadata["url"])
+          assert valid_uri_scheme?(uri.scheme), "url should start with http:// or https://"
+        end
+      end
+
+      it "has a valid Wikipedia URL" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["wikipedia_url"]
+          uri = URI.parse(metadata["wikipedia_url"])
+          regex = /wikipedia\.org/
+          assert valid_uri_scheme?(uri.scheme),
+                 "wikipedia_url should start with http:// or https://"
+          assert_match regex, uri.host, "wikipedia_url should point to wikipedia.org"
+        end
+      end
+
+      it "has valid aliases" do
+        aliases = aliases_for(topic)
+
+        aliases.each do |topic_alias|
+          assert valid_topic?(topic_alias), invalid_topic_message(topic_alias)
+          refute_equal topic_alias, topic,
+                       "alias '#{topic_alias}' must not be the same as the topic"
+        end
+
+        assert_equal aliases.size, aliases.uniq.size, "should not duplicate aliases"
+        assert aliases.size <= MAX_ALIAS_COUNT,
+               "should have no more than #{MAX_ALIAS_COUNT} aliases"
+      end
+
+      it "has valid related topics" do
+        related_topics = related_topics_for(topic)
+
+        related_topics.each do |related_topic|
+          assert valid_topic?(related_topic), invalid_topic_message(related_topic)
+          refute_equal related_topic, topic,
+                       "related topic '#{related_topic}' must not be the same as the topic"
+        end
+
+        assert_equal related_topics.size, related_topics.uniq.size,
+                     "should not duplicate related topics"
+        assert related_topics.size <= MAX_RELATED_TOPIC_COUNT,
+               "should have no more than #{MAX_RELATED_TOPIC_COUNT} related topics"
+      end
+
+      it "has unique related topics and aliases" do
+        aliases = aliases_for(topic)
+        related_topics = related_topics_for(topic)
+
+        assert_empty aliases & related_topics,
+                     "a topic should only be an alias or a related topic, but not both"
+      end
+
+      it "has a matching topic key" do
+        metadata = metadata_for(topic)
+
+        if metadata
+          assert_equal topic, metadata["topic"],
+                       "'topic' key should match the directory name '#{topic}'"
+        end
+      end
+
+      it "has a short_description that differs from the body" do
+        metadata = metadata_for(topic) || {}
+        body = body_for(topic)
+
+        if metadata["short_description"]
+          refute_equal body.strip, metadata["short_description"].strip,
+                       "body and short description should differ"
+        end
+      end
+
       it "has an index.md" do
         path = File.join(topics_dir, topic, "index.md")
 
         assert File.file?(path), "expected #{path} to be a file"
       end
 
-      it "has only one image with the right name" do
+      it "uses the right file name for specified logo" do
+        metadata = metadata_for(topic)
+
+        if metadata
+          paths = image_paths_for(topic)
+          valid_file_names = paths.map { |path| File.basename(path) }
+          error_message = if valid_file_names.empty?
+                            "should not specify logo #{metadata['logo']} when file does not exist"
+                          else
+                            "logo should be #{valid_file_names.join(' or ')}, but was " +
+                              metadata["logo"].to_s
+                          end
+          assert !metadata.key?("logo") || valid_file_names.include?(metadata["logo"]),
+                 error_message
+        end
+      end
+
+      it "has at most one image with the right name, type, and dimensions" do
         paths = image_paths_for(topic)
 
         assert paths.size <= 1, "expected at most one image, found #{paths.size}"
@@ -17,6 +158,18 @@ describe "topics" do
         if path = paths.first
           assert_equal topic, File.basename(path, File.extname(path)),
                        "expected image to be named [topic].[extension]"
+
+          width, height = FastImage.size(path)
+          assert_equal IMAGE_WIDTH, width, "topic images should be #{IMAGE_WIDTH}px wide"
+          assert_equal IMAGE_HEIGHT, height, "topic images should be #{IMAGE_HEIGHT}px tall"
+
+          assert_includes IMAGE_EXTENSIONS, ".#{FastImage.type(path)}",
+                          "topic images should be one of #{IMAGE_EXTENSIONS.join(', ')}"
+
+          file_size = FastImage.new(path).content_length
+          assert file_size <= MAX_IMAGE_FILESIZE_IN_BYTES,
+                 "topic images should not exceed #{MAX_IMAGE_FILESIZE_IN_BYTES} bytes, got " \
+                 "#{file_size} bytes"
         end
       end
 
@@ -63,6 +216,7 @@ describe "topics" do
 
       it "follows the Topic Page Style Guide" do
         text = body_for(topic)
+        metadata = metadata_for(topic)
         end_punctuation = %w[. , ; :] + [" "]
         month_abbreviations = %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec]
         day_ordinals = %w[1st 2nd 3rd 1th 2th 3th 4th 5th 6th 7th 8th 9th]
@@ -92,7 +246,8 @@ describe "topics" do
           end
 
           bad_github_variants.each do |wrong_github|
-            refute_includes line, wrong_github,
+            no_url_line = line.gsub "github.com"
+            refute_includes no_url_line, wrong_github,
                             'Always use correct capitalization when referring to "GitHub"'
           end
 
@@ -107,14 +262,10 @@ describe "topics" do
           end
         end
 
-        text.delete("\n").split(".").each do |sentence|
-          # This is arbitrary; 2 is more correct but 3 avoids false positives.
-          next if sentence.count(",") < 3
-
-          %w[and or].each do |conjunction|
-            next unless sentence.include? " #{conjunction} "
-            assert_includes sentence, ", #{conjunction}", "Always use the Oxford comma"
-          end
+        assert_oxford_comma(text)
+        if metadata
+          assert_oxford_comma(metadata["short_description"])
+          assert_oxford_comma(metadata["created_by"])
         end
       end
     end

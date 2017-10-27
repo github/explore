@@ -1,7 +1,3 @@
-TODO
-
-- [ ] @bluemazzoo: Explain third-party permissions for externally-sourced Topic images
-
 ## Licenses
 
 Content is copyright © Explore content authors, released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/), which gives you permission to use content for almost any purpose (but does not grant you any trademark permissions), so long as you note the license and give credit, such as follows:
