@@ -214,6 +214,14 @@ describe "topics" do
         end
       end
 
+      it "has a valid body" do
+        body = body_for(topic)
+
+        assert body && (1...MAX_BODY_LENGTH).include?(body.length),
+               "must have a body no more than #{MAX_BODY_LENGTH} characters " \
+               "(currently #{body.length})"
+      end
+
       it "follows the Topic Page Style Guide" do
         text = body_for(topic)
         metadata = metadata_for(topic)
