@@ -1,6 +1,6 @@
 ---
 created_by: Brandon Keepers, Bex Warner
-related: github-apps, bot, node-github
+related: probot-app, github-apps, bot, node-github
 display_name: Probot
 github_url: https://github.com/probot/
 logo: probot.png

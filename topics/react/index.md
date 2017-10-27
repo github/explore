@@ -9,7 +9,7 @@ released: March 2013
 short_description: React is an open source JavaScript library used for designing user
   interfaces.
 topic: react
-url: https://facebook.github.io/react/
+url: https://reactjs.org/
 wikipedia_url: https://en.wikipedia.org/wiki/React_(JavaScript_library)
 ---
 React makes it simple to develop interactive user interfaces. It uses the Model View Controller (MVC) concept to manage individual pages in your web application.
