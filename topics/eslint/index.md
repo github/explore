@@ -9,4 +9,4 @@ short_description: The pluggable linting utility for JavaScript and JSX
 topic: eslint
 url: https://eslint.org/
 ---
-ESLint is an extensible static-analysis tool for JavaScript and related languages that helps you catch errors before they bite you in production.
+ESLint is an extensible static-analysis tool for JavaScript and related languages that helps catch errors before they break something in production.
