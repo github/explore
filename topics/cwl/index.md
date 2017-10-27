@@ -5,7 +5,7 @@ display_name: Common Workflow Language
 github_url: https://github.com/common-workflow-language
 logo: cwl.png
 released: January 2015
-short_description: Open standards for declarative descriptions of tools and workflows
+short_description: Open standards for declarative descriptions of tools and workflows.
 topic: cwl
 url: http://www.commonwl.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Common_Workflow_Language
