@@ -13,11 +13,11 @@ MvvmCross is a cross-platform MVVM framework that enables developers to create p
 
 The high level features that MvvmCross provides you with are:  
 
- • MVVM architecture pattern
- • Navigation system
- • Data Binding
- • Platform specifics support
- • Inversion of control and Dependency Injection
- • Lots of plugins for common functionalities
- • Unit test helpers
- • Complete flexibility - your app is King!
+   • MVVM architecture pattern  
+   • Navigation system  
+   • Data Binding  
+   • Platform specifics support  
+   • Inversion of control and Dependency Injection  
+   • Lots of plugins for common functionalities  
+   • Unit test helpers  
+   • Complete flexibility - your app is King!  
