@@ -1,10 +1,10 @@
 ---
 aliases: crystal-lang
-created_by: Ary Borenszweig
+created_by: Ary Borenszweig, Juan Wajnerman
 display_name: Crystal
 logo: crystal.png
 released: June 2011
-short_description: Crystal is a self-hosted, general-purpose programming language.
+short_description: Crystal is a self-hosted, general purpose programming language.
 topic: crystal
 url: https://crystal-lang.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Crystal_(programming_language)
