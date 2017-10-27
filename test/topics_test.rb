@@ -217,7 +217,7 @@ describe "topics" do
       it "has a valid body" do
         body = body_for(topic)
 
-        assert body && (1...MAX_BODY_LENGTH).include?(body.length),
+        assert body && (1...MAX_BODY_LENGTH).cover?(body.length),
                "must have a body no more than #{MAX_BODY_LENGTH} characters " \
                "(currently #{body.length})"
       end
