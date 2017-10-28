@@ -1,9 +1,10 @@
 ---
-aliases: mahapps-metro, metro
+aliases: mahapps-metro
 created_by: Paul Jenkins
 display_name: MahApps.Metro
 github_url: https://github.com/MahApps/MahApps.Metro
 logo: mahapps.png
+related: metro, wpf
 released: January 29, 2011
 short_description: A toolkit for creating metro-modern-style WPF applications.
 topic: mahapps

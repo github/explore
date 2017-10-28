@@ -22,6 +22,10 @@ MAX_ALIAS_COUNT = 10
 
 MAX_RELATED_TOPIC_COUNT = 10
 
+MAX_BODY_LENGTH = 1_000
+
+MAX_SHORT_DESCRIPTION_LENGTH = 130
+
 TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 
 def invalid_topic_message(topic)
