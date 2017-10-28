@@ -1,10 +1,10 @@
 ---
 aliases: monocross
-related: xamarin, dotnet, framework
 created_by: Stuart Lodge
 display_name: MvvmCross
 github_url: https://github.com/mvvmcross
 logo: mvvmcross.png
+related: xamarin, dotnet, framework
 released: June 2013
 short_description: The .NET MVVM framework for cross-platform solutions, including Xamarin.iOS, Xamarin.Android, Windows, and Mac.
 topic: mvvmcross
