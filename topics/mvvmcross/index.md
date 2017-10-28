@@ -1,15 +1,16 @@
 ---
 aliases: monocross
-created_by: Alexandru Stefan Popescu
+related: xamarin, dotnet, framework
+created_by: Stuart Lodge
 display_name: MvvmCross
 github_url: https://github.com/mvvmcross
 logo: mvvmcross.png
 released: June 2013
-short_description: The .NET MVVM framework for cross-platform solutions, including Xamarin.iOS, Xamarin.Android, Windows and Mac.
+short_description: The .NET MVVM framework for cross-platform solutions, including Xamarin.iOS, Xamarin.Android, Windows, and Mac.
 topic: mvvmcross
 url: https://www.mvvmcross.com/
 ---
-MvvmCross is a cross-platform MVVM framework that enables developers to create powerful cross platform apps. It supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin.Forms, Universal Windows Platform (UWP), and Windows Presentation Framework (WPF).
+MvvmCross is a cross-platform model-view-view model framework that enables developers to create powerful cross platform mobile applications. It supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin.Forms, Universal Windows Platform (UWP), and Windows Presentation Framework (WPF).
 
 The high level features that MvvmCross provides you with are:  
 
