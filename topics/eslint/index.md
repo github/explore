@@ -3,7 +3,8 @@ created_by: Nicholas C. Zakas
 display_name: ESLint
 github_url: https://github.com/eslint/eslint
 logo: eslint.png
-related: eslint-plugin, eslint-config
+aliases: eslint-plugin, eslint-config
+related: linting, linter, javascript
 released: June 2013
 short_description: The pluggable linting utility for JavaScript and JSX.
 topic: eslint
