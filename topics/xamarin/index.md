@@ -1,20 +1,14 @@
 ---
-aliases: mono
-created_by: Alexandru Stefan Popescu
+created_by: Miguel de Icaza, Nat Friedman
 display_name: Xamarin
 github_url: https://github.com/xamarin
 logo: xamarin.png
+releated: mono
 released: May 16 2011
-short_description: The Xamarin platform that allow you to develop applications for iOS and Android.
+short_description: Xamarin is a platform for developing iOS and Android applications.
 topic: xamarin
 url: https://www.xamarin.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Xamarin
 ---
-The Xamarin platform consists of a number of elements that allow you to develop applications for iOS and Android:
-
- • C# language – Allows you to use a familiar syntax and sophisticated features like Generics, LINQ and the Parallel Task Library.  
- • Mono .NET framework – Provides a cross-platform implementation of the extensive features in Microsoft’s .NET framework.  
- • Compiler – Depending on the platform, produces a native app (eg. iOS) or an integrated .NET application and runtime (eg. Android). The compiler also performs many optimizations for mobile deployment such as linking away un-used code.  
- • IDE tools – The Visual Studio on Mac and Windows allows you to create, build, and deploy Xamarin projects.  
-
-In addition, because the underlying language is C# with the .NET framework, projects can be structured to share code that can also be deployed to Windows Phone.
+Xamarin is a Microsoft-owned San Francisco, California-based software company founded in May 2011 by the engineers that created Mono, Mono for Android and MonoTouch, which are cross-platform implementations of the Common Language Infrastructure (CLI) and Common Language Specifications (often called Microsoft .NET).  
+With a C#-shared codebase, developers can use Xamarin tools to write native Android, iOS, and Windows apps with native user interfaces and share code across multiple platforms, including Windows and macOS.  
