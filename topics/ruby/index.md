@@ -3,6 +3,7 @@ created_by: Yukihiro Matsumoto
 display_name: Ruby
 github_url: https://github.com/ruby/ruby
 logo: ruby.png
+related: rails, language, python
 released: December 21, 1995
 short_description: Ruby is a scripting language designed for simplified object-oriented
   programming.
