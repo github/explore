@@ -4,6 +4,7 @@ created_by: Microsoft
 display_name: TypeScript
 github_url: https://github.com/Microsoft/TypeScript
 logo: typescript.png
+related: language, javascript
 released: October 1, 2012
 short_description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 topic: typescript

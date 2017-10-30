@@ -3,6 +3,7 @@ created_by: José Valim
 display_name: Elixir
 github_url: https://github.com/elixir-lang
 logo: elixir.png
+related: language, erlang
 released: September 8, 2014
 short_description: Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 topic: elixir
