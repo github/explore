@@ -4,6 +4,7 @@ created_by: Facebook
 display_name: React Native
 github_url: https://github.com/facebook/react-native
 logo: react-native.png
+related: reactjs, react-js
 released: January 2015
 short_description: React Native is a JavaScript mobile framework developed by Facebook.
 topic: react-native
