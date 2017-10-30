@@ -1,7 +1,7 @@
 ---
-aliases: parser-generator, ast, lexer, tokenizer, grammar, lexical-analysis, parse, bnf, backus-naur-form
+aliases: parser-generator, ast, lexer, tokenizer, grammar, lexical-analysis, parse, bnf, backus-naur-form, lalr
 display_name: Language parsing
-related: language, yacc, antlr, semantic-analysis, symbol-table
+related: language, yacc, antlr, semantic-analysis, symbol-table, lookahead, ll, lr-parser, generated-parser
 short_description: Parsing is the process of analyzing a string of symbols conforming to the rules of a formal grammar.
 topic: parsing
 wikipedia_url: https://en.wikipedia.org/wiki/Parsing#Computer_languages
