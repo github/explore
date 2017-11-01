@@ -100,14 +100,14 @@ def related_topics_for(topic)
   metadata = metadata_for(topic)
   return [] unless metadata
   return [] unless metadata["related"]
-  metadata["related"].split(",").map { |topic| normalize(topic) }
+  metadata["related"].split(",").map { |related_topic| normalize(related_topic) }
 end
 
 def aliases_for(topic)
   metadata = metadata_for(topic)
   return [] unless metadata
   return [] unless metadata["aliases"]
-  metadata["aliases"].split(",").map { |topic| normalize(topic) }
+  metadata["aliases"].split(",").map { |topic_alias| normalize(topic_alias) }
 end
 
 def body_for(topic)

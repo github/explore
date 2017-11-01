@@ -14,8 +14,8 @@ describe "topics" do
           other_topics = topics - [topic]
           aliases_that_have_a_topic = other_topics & aliases
           assert_empty aliases_that_have_a_topic,
-            "alias(es) #{aliases_that_have_a_topic.join(', ')} already have a topic defined, " \
-            "please move to 'related' instead"
+                       "alias(es) #{aliases_that_have_a_topic.join(', ')} already have a topic " \
+                       "defined, please move to 'related' instead"
         end
       end
 
