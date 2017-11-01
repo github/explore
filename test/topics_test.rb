@@ -36,6 +36,19 @@ describe "topics" do
         end
       end
 
+      it "uses the right format for 'released'" do
+        metadata = metadata_for(topic) || ""
+
+        if metadata["released"]
+          text = metadata["released"].to_s.gsub(/[\d+,\s]/, "").strip
+
+          unless text.empty?
+            assert_includes ENGLISH_MONTHS, text,
+                            "please format 'released' like MONTH DD, YYYY with the month in English"
+          end
+        end
+      end
+
       it "ends 'released' with a number" do
         metadata = metadata_for(topic) || {}
 

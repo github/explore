@@ -42,7 +42,7 @@ Each related topic must be formatted like that topic's `topic` field (same as th
 * At most 35 characters long
 
 ### released
-(if applicable) Date of first release. Formatted as `MONTH DD YYYY`
+(if applicable) Date of first release. Formatted as `MONTH DD, YYYY`
 
 ### short_description
 (required) A short description of the topic, which will be used on the Explore homepage, Topics subpage, and other preview areas. Must be 130 characters or less. Emoji are not allowed.
