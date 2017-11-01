@@ -1,5 +1,5 @@
 ---
-aliases: serverless-architecture, serverless architecture, serverless-examples
+aliases: serverless-architecture, serverless-examples
 display_name: Serverless
 short_description: Serverless architecture refers to apps that depend on third-party
   services or custom code.
