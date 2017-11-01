@@ -8,4 +8,4 @@ released: March 18, 2015
 short_description: WordPlate is a modern WordPress stack built with Composer.
 url: https://wordplate.github.io/
 ---
-WordPlate is a modern WordPress stack built with Composer.
+WordPlate is a modern WordPress stack built with Composer. It is built on top of Laravel and Symfony components.
