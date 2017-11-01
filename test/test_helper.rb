@@ -39,14 +39,20 @@ def valid_uri_scheme?(scheme)
   %w[http https].include?(scheme.downcase)
 end
 
+def normalize(topic)
+  return unless topic
+
+  topic.gsub(/\A[[:space:]]+/, "")
+       .gsub(/[[:space:]]+\z/, "")
+       .gsub(/[[:space:]]+/, " ")
+       .downcase
+       .tr(" ", "-")
+       .tr("_", "-")
+end
+
 def valid_topic?(raw_topic)
   return false unless raw_topic
-  normalized_topic = raw_topic.gsub(/\A[[:space:]]+/, "")
-                              .gsub(/[[:space:]]+\z/, "")
-                              .gsub(/[[:space:]]+/, " ")
-                              .downcase
-                              .tr(" ", "-")
-                              .tr("_", "-")
+  normalized_topic = normalize(raw_topic)
   return false if normalized_topic.length > MAX_TOPIC_LENGTH
   return false unless normalized_topic.match?(TOPIC_REGEX)
   !normalized_topic.empty?
@@ -94,14 +100,14 @@ def related_topics_for(topic)
   metadata = metadata_for(topic)
   return [] unless metadata
   return [] unless metadata["related"]
-  metadata["related"].split(",").map(&:strip)
+  metadata["related"].split(",").map { |topic| normalize(topic) }
 end
 
 def aliases_for(topic)
   metadata = metadata_for(topic)
   return [] unless metadata
   return [] unless metadata["aliases"]
-  metadata["aliases"].split(",").map(&:strip)
+  metadata["aliases"].split(",").map { |topic| normalize(topic) }
 end
 
 def body_for(topic)
