@@ -5,7 +5,7 @@ display_name: Ratchet
 logo: ratchet.png
 github_url: https://github.com/ratchetphp
 released: May 11, 2012
-short_description: Ratchet is a set of libraries to handle WebSockets asynchronously in PHP
+short_description: Ratchet is a set of libraries to handle WebSockets asynchronously in PHP.
 topic: ratchet
 url: http://socketo.me/
 ---
