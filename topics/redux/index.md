@@ -3,6 +3,7 @@ created_by: Dan Abramov and Andrew Clark
 display_name: Redux
 github_url: https://github.com/reactjs/redux/
 logo: redux.png
+related: javascript, react
 released: June 2, 2015
 short_description: Redux is a predictable state container for JavaScript apps.
 topic: redux

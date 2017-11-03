@@ -1,5 +1,5 @@
 ---
-aliases: rails5, rails-application, ruby-on-rails, rails4, rubyonrails
+aliases: rails5, rails-application, ruby-on-rails, rails4, rubyonrails, rails-tutorial
 created_by: David Heinemeier Hansson
 display_name: Rails
 github_url: https://github.com/rails
