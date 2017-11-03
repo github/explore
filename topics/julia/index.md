@@ -4,6 +4,7 @@ created_by: Jeff Bezanson, Stefan Karpinski, Viral B. Shah, Alan Edelman
 display_name: The Julia Language
 github_url: https://github.com/JuliaLang
 logo: julia.png
+related: language
 released: February 14, 2012
 short_description: Julia is a high-level, high-performance dynamic programming language for numerical computing.
 topic: julia
