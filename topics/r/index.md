@@ -2,6 +2,7 @@
 created_by: Ross Ihaka, Robert Gentleman
 display_name: R
 logo: r.png
+related: language
 released: August 1993
 short_description: R is a free programming language and software environment for statistical
   computing and graphics.
