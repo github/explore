@@ -7,6 +7,18 @@ describe "topics" do
         assert valid_topic?(topic), invalid_topic_message(topic)
       end
 
+      it "does not have an alias for a topic that has its own curated content" do
+        aliases = aliases_for(topic)
+
+        if aliases.any?
+          other_topics = topics - [topic]
+          aliases_that_have_a_topic = other_topics & aliases
+          assert_empty aliases_that_have_a_topic,
+                       "alias(es) #{aliases_that_have_a_topic.join(', ')} already have a topic " \
+                       "defined, please move to 'related' instead"
+        end
+      end
+
       it "does not add an alias that's already in use" do
         aliases = aliases_for(topic)
 
@@ -20,6 +32,19 @@ describe "topics" do
             assert_empty shared_aliases,
                          "#{shared_aliases.join(', ')} #{verb} already aliased to " \
                          "#{other_topic}, please remove from either '#{topic}' or '#{other_topic}'"
+          end
+        end
+      end
+
+      it "uses the right format for 'released'" do
+        metadata = metadata_for(topic) || ""
+
+        if metadata["released"]
+          text = metadata["released"].to_s.gsub(/[\d+,\s]/, "").strip
+
+          unless text.empty?
+            assert_includes ENGLISH_MONTHS, text,
+                            "please format 'released' like MONTH DD, YYYY with the month in English"
           end
         end
       end
