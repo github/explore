@@ -1,7 +1,7 @@
 ---
 topic: swift
 aliases: swift3, swift-3, swift4, swift-4, swift-language
-related: objective-c
+related: objective-c, language
 display_name: Swift
 created_by: Apple
 logo: swift.png

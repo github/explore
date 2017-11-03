@@ -7,6 +7,80 @@ describe "topics" do
         assert valid_topic?(topic), invalid_topic_message(topic)
       end
 
+      it "does not have an alias for a topic that has its own curated content" do
+        aliases = aliases_for(topic)
+
+        if aliases.any?
+          other_topics = topics - [topic]
+          aliases_that_have_a_topic = other_topics & aliases
+          assert_empty aliases_that_have_a_topic,
+                       "alias(es) #{aliases_that_have_a_topic.join(', ')} already have a topic " \
+                       "defined, please move to 'related' instead"
+        end
+      end
+
+      it "does not add an alias that's already in use" do
+        aliases = aliases_for(topic)
+
+        if aliases.any?
+          other_topics = topics - [topic]
+          other_topics.each do |other_topic|
+            other_aliases = aliases_for(other_topic)
+            shared_aliases = aliases & other_aliases
+            verb = shared_aliases.length == 1 ? "is" : "are"
+
+            assert_empty shared_aliases,
+                         "#{shared_aliases.join(', ')} #{verb} already aliased to " \
+                         "#{other_topic}, please remove from either '#{topic}' or '#{other_topic}'"
+          end
+        end
+      end
+
+      it "uses the right format for 'released'" do
+        metadata = metadata_for(topic) || ""
+
+        if metadata["released"]
+          text = metadata["released"].to_s.gsub(/[\d+,\s]/, "").strip
+
+          unless text.empty?
+            assert_includes ENGLISH_MONTHS, text,
+                            "please format 'released' like MONTH DD, YYYY with the month in English"
+          end
+        end
+      end
+
+      it "ends 'released' with a number" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["released"]
+          number_regex = /\d\z/
+          assert_match number_regex, metadata["released"].to_s.strip,
+                       "released should end with a number"
+        end
+      end
+
+      it "ends 'short_description' with punctuation" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["short_description"]
+          punctuation_regex = /[.?!]\z/
+          assert_match punctuation_regex, metadata["short_description"],
+                       "short_description should end with punctuation"
+        end
+      end
+
+      it "does not include emoji outside of description" do
+        metadata = metadata_for(topic) || {}
+
+        fields = %w[created_by display_name released short_description related aliases topic]
+        fields.each do |field|
+          if value = metadata[field].to_s
+            assert value == value.gsub(EMOJI_REGEX, ""),
+                   "#{field} should not include emoji:\n\t#{value}"
+          end
+        end
+      end
+
       it "has a valid GitHub URL" do
         metadata = metadata_for(topic) || {}
 
@@ -82,6 +156,16 @@ describe "topics" do
         if metadata
           assert_equal topic, metadata["topic"],
                        "'topic' key should match the directory name '#{topic}'"
+        end
+      end
+
+      it "has a short_description that differs from the body" do
+        metadata = metadata_for(topic) || {}
+        body = body_for(topic)
+
+        if metadata["short_description"]
+          refute_equal body.strip, metadata["short_description"].strip,
+                       "body and short description should differ"
         end
       end
 
@@ -169,6 +253,26 @@ describe "topics" do
           assert metadata.key?(key), "expected to have '#{key}' defined for topic"
           assert metadata[key]&.strip&.size&.positive?,
                  "expected to have a value for '#{key}'"
+        end
+      end
+
+      it "has a valid body" do
+        body = body_for(topic)
+
+        assert body && (1...MAX_BODY_LENGTH).cover?(body.length),
+               "must have a body no more than #{MAX_BODY_LENGTH} characters " \
+               "(currently #{body.length})"
+      end
+
+      it "has a valid short_description" do
+        metadata = metadata_for(topic) || {}
+
+        if metadata["short_description"]
+          valid_range = 1...MAX_SHORT_DESCRIPTION_LENGTH
+          current_length = metadata["short_description"].length
+          assert valid_range.cover?(current_length),
+                 "must have a short_description no more than #{MAX_SHORT_DESCRIPTION_LENGTH} " \
+                 "characters (currently #{current_length})"
         end
       end
 
