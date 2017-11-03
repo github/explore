@@ -4,6 +4,7 @@ created_by: Rasmus Lerdorf
 display_name: PHP
 github_url: https://github.com/php
 logo: php.png
+related: language
 released: June 8, 1995
 short_description: PHP is a scripting language that works particularly well for server-side
   web development.

@@ -4,6 +4,7 @@ created_by: Robert Griesemer, Rob Pike, Ken Thompson
 display_name: Go
 github_url: https://github.com/golang/go
 logo: go.png
+related: language, c
 released: November 10, 2009
 short_description: Go is a programming language built to resemble a simplified version
   of the C programming language.

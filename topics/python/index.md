@@ -4,6 +4,7 @@ created_by: Guido van Rossum
 display_name: Python
 github_url: https://github.com/python
 logo: python.png
+related: language, ruby
 released: February 20, 1991
 short_description: Python is a dynamically typed programming language.
 topic: python
