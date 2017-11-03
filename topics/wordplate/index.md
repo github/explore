@@ -5,6 +5,7 @@ display_name: WordPlate
 github_url: https://github.com/wordplate
 logo: wordplate.png
 released: March 18, 2015
+related: wordpress, composer, laravel, symfony, php
 short_description: WordPlate is a modern WordPress stack built with Composer.
 url: https://wordplate.github.io/
 ---
