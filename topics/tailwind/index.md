@@ -10,4 +10,4 @@ short_description: Tailwind is a Utility-First CSS framework.
 topic: tailwind
 url: https://tailwindcss.com/
 ---
-A Utility-First CSS Framework for Rapid UI Development
+A utility-first CSS framework for rapid UI development.
