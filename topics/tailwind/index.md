@@ -1,5 +1,5 @@
 ---
-aliases: tailwind-css, tailwindcss
+aliases: tailwind-css, tailwindcss, tailwind-scaffolding
 created_by: Adam Wathan, Jonathan Reinink, David Hemphill, Steve Schoger
 display_name: Tailwind CSS
 github_url: https://github.com/tailwindcss
