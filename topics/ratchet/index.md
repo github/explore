@@ -1,5 +1,5 @@
 ---
-related: php, websockets
+related: php, websockets, library, server, client
 created_by: Chris Boden
 display_name: Ratchet
 logo: ratchet.png
@@ -9,4 +9,4 @@ short_description: Ratchet is a set of libraries to handle WebSockets asynchrono
 topic: ratchet
 url: http://socketo.me/
 ---
-Ratchet is a set of libraries that allows PHP developers to create real time, bi-directional applications between clients and servers over WebSockets. It provides Ratchet for serving, Pawl as a client, and RFC6455 for I/O-agnostic protocol handling.
+Ratchet is a set of libraries that allows PHP developers to create real-time, bidirectional applications between clients and servers over WebSockets. The organization provides the following repositories: Ratchet as a WebSocket server, Pawl as a WebSocket client, and RFC6455 which is an I/O-agnostic library for WebSocket protocol handling. 
