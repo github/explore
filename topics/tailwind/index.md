@@ -6,7 +6,7 @@ github_url: https://github.com/tailwindcss
 logo: tailwind.png
 related: framework, css, postcss, css-framework
 released: October 2017
-short_description: Tailwind is a Utility-First CSS framework.
+short_description: Tailwind is a utility-first CSS framework.
 topic: tailwind
 url: https://tailwindcss.com/
 ---
