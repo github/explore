@@ -1,5 +1,5 @@
 ---
-aliases: monocross
+aliases: mvvmcross-plugin, xamarin-mvvmcross
 created_by: Stuart Lodge
 display_name: MvvmCross
 github_url: https://github.com/mvvmcross
@@ -11,14 +11,3 @@ topic: mvvmcross
 url: https://www.mvvmcross.com/
 ---
 MvvmCross is a cross-platform model-view-view model framework that enables developers to create powerful cross platform mobile applications. It supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin.Forms, Universal Windows Platform (UWP), and Windows Presentation Framework (WPF).
-
-The high level features that MvvmCross provides you with are:  
-
-   • MVVM architecture pattern  
-   • Navigation system  
-   • Data Binding  
-   • Platform specifics support  
-   • Inversion of control and Dependency Injection  
-   • Lots of plugins for common functionalities  
-   • Unit test helpers  
-   • Complete flexibility - your app is King 
