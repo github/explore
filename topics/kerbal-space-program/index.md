@@ -4,7 +4,7 @@ created_by: Squad
 display_name: Kerbal Space Program
 logo: kerbal-space-program.png
 released: April 27, 2015
-short_description: Kerbal Space Program is space flight simulation game
+short_description: Kerbal Space Program is space flight simulation game.
 topic: kerbal-space-program
 url: https://kerbalspaceprogram.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Kerbal_Space_Program
