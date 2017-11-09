@@ -7,6 +7,18 @@ describe "topics" do
         assert valid_topic?(topic), invalid_topic_message(topic)
       end
 
+      it "does not have an alias for a topic that has its own curated content" do
+        aliases = aliases_for(topic)
+
+        if aliases.any?
+          other_topics = topics - [topic]
+          aliases_that_have_a_topic = other_topics & aliases
+          assert_empty aliases_that_have_a_topic,
+                       "alias(es) #{aliases_that_have_a_topic.join(', ')} already have a topic " \
+                       "defined, please move to 'related' instead"
+        end
+      end
+
       it "does not add an alias that's already in use" do
         aliases = aliases_for(topic)
 
@@ -20,6 +32,19 @@ describe "topics" do
             assert_empty shared_aliases,
                          "#{shared_aliases.join(', ')} #{verb} already aliased to " \
                          "#{other_topic}, please remove from either '#{topic}' or '#{other_topic}'"
+          end
+        end
+      end
+
+      it "uses the right format for 'released'" do
+        metadata = metadata_for(topic) || ""
+
+        if metadata["released"]
+          text = metadata["released"].to_s.gsub(/[\d+,\s]/, "").strip
+
+          unless text.empty?
+            assert_includes ENGLISH_MONTHS, text,
+                            "please format 'released' like MONTH DD, YYYY with the month in English"
           end
         end
       end
@@ -259,7 +284,6 @@ describe "topics" do
         day_ordinals = %w[1st 2nd 3rd 1th 2th 3th 4th 5th 6th 7th 8th 9th]
         git_verbs = %w[GitHubbing Gitting]
         bad_github_variants = %w[Github github]
-        numbers_to_be_spelled_out = 1..9
 
         text.lines do |line|
           line.chomp!
@@ -291,11 +315,14 @@ describe "topics" do
           end_punctuation.each do |punctuation|
             refute_includes line, "git#{punctuation}",
                             'Always use correct capitalization when referring to "Git"'
+          end
 
-            numbers_to_be_spelled_out.each do |digit|
-              refute_includes line, " #{digit}#{punctuation}",
-                              'Write out "one" and every number less than 10'
-            end
+          match = line.match(/\b(\w+)\s\d[.,;:\s]/)
+          if match
+            allowed_words_before_numbers = %w[Perl]
+            assert_includes allowed_words_before_numbers, match[1],
+                            'Write out "one" and every number less than 10, except when they ' \
+                            "follow one of: #{allowed_words_before_numbers.join(', ')}"
           end
         end
 
