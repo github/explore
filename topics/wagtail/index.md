@@ -5,7 +5,7 @@ created_by: Torchbox
 display_name: Wagtail
 github_url: https://github.com/wagtail
 logo: wagtail.png
-released: February, 2014
+released: February 2014
 short_description: Wagtail is an open source CMS written in Python and
   built on the Django web framework.
 topic: wagtail
