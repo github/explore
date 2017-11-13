@@ -39,12 +39,17 @@ describe "topics" do
       it "uses the right format for 'released'" do
         metadata = metadata_for(topic) || ""
 
-        if metadata["released"]
-          text = metadata["released"].to_s.gsub(/[\d+,\s]/, "").strip
+        if released = metadata["released"]
+          text = released.to_s.gsub(/[\d+,\s]/, "").strip
 
           unless text.empty?
             assert_includes ENGLISH_MONTHS, text,
                             "please format 'released' like MONTH DD, YYYY with the month in English"
+          end
+
+          ENGLISH_MONTHS.each do |month|
+            refute_includes released.to_s, "#{month},",
+                            "should not include a comma after the month name"
           end
         end
       end
