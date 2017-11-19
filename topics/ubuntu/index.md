@@ -1,5 +1,5 @@
 ---
-aliases: ubuntu1604, ubuntu1404, ubuntu1704, ubuntu1204, ubuntu-core
+aliases: kubuntu, xubuntu, lubuntu, edubuntu, ubuntu1604, ubuntu1404, ubuntu1704, ubuntu1204, ubuntu-core
 created_by: Canonical Ltd., Ubuntu community
 display_name: Ubuntu
 github_url: https://github.com/ubuntu
