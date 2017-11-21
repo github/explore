@@ -1,15 +1,14 @@
 ---
 aliases: storybooks
-created_by: Storybook Team
 display_name: Storybook
 logo: storybook.png
 released: March 31, 2016
-short_description: The UI Development Environment you'll ♥️ to use
+short_description: Storybook is a UI development environment for your UI components
 topic: storybook
 url: https://storybook.js.org
 ---
-Storybook is a UI development environment for your UI components. With it, you can visualize different states of your UI components and develop them interactively.
+With Storybook you can visualize different states of your UI components and develop them outside of your application.
 
-Storybook runs outside of your app. So you can develop UI components in isolation without worrying about app specific dependencies and requirements.
+An API is provided for external addons to provide documentation, interactivity and analytics on your components.
 
-Storybook also comes with a lot of addons and a great API to customize as you wish. You can also build a static version of your storybook and deploy it anywhere you want.
+A command is provided to create a static version that can be deployed easily to github pages for example.
