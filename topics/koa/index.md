@@ -5,7 +5,7 @@ display_name: Koa
 github_url: https://github.com/koajs/koa
 logo: koa.png # https://github.com/koajs/koa/blob/master/docs/logo.png
 released: December 19, 2013 # https://github.com/koajs/koa/blob/master/History.md#011--2013-12-19
-short_description: Expressive middleware for node.js using ES2017 async functions
+short_description: Koa is an expressive middleware framework for Node.js servers that uses ES2017 async functions.
 topic: koa
 url: http://koajs.com/
 # The body comes from the intro on the website
