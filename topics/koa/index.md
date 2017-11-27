@@ -1,8 +1,5 @@
 ---
-aliases:
- - koajs
- - koa2
- - koa-middleware
+aliases: koajs, koa2, koa-middleware
 created_by: TJ Holowaychuk # Source: initial commit of koajs/koa (https://github.com/koajs/koa/commit/9e167c5)
 display_name: Koa
 github_url: https://github.com/koajs/koa
