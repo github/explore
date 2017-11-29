@@ -3,7 +3,7 @@ aliases: ftc, first-ftc, ftc-robotics, ftc-sdk
 created_by: FIRST
 display_name: FIRST Tech Challenge
 github_url: https://github.com/ftctechnh
-logo: ftc-logo.png
+logo: first-tech-challenge.png
 short_description: FIRST Tech Challenge (FTC) is a robotics competition for 7-12th graders where teams compete head-to-head in annual challenges.
 topic: first-tech-challenge
 url: https://www.firstinspires.org/robotics/ftc
