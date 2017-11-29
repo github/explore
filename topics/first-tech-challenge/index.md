@@ -1,5 +1,5 @@
 ---
-aliases: ftc, first-ftc, ftc-robotics, ftc-sdk
+aliases: ftc, first-ftc, ftc-robot-controller, ftc-sdk
 created_by: FIRST
 display_name: FIRST Tech Challenge
 github_url: https://github.com/ftctechnh
