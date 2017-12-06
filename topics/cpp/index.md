@@ -1,5 +1,5 @@
 ---
-aliases: c-plus-plus, cpp11, cpp14, cpp17, cpp98, cpps
+aliases: c-plus-plus, cpp11, cpp14, cpp17, cpp98, cpps, cplusplus, cplusplus-11
 created_by: Bjarne Stroustrup
 display_name: C++
 logo: cpp.png
