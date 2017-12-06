@@ -5,4 +5,4 @@ short_description: A bot is an application that runs automated tasks over the In
 topic: bot
 wikipedia_url: https://en.wikipedia.org/wiki/Internet_bot
 ---
-A bot is an application that runs automated, usually repetitive tasks over the Internet.
+A bot is an application that runs automated, usually repetitive tasks over the Internet. Bots are used in place of humans to relieve humans of repetitive tasks.
