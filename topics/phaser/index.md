@@ -4,7 +4,7 @@ created_by: Richard Davey
 display_name: Phaser
 github_url: https://github.com/photonstorm/phaser
 logo: phaser.png
-short_description: Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.
+short_description: Phaser is a fun, free, and fast 2D game framework for making HTML5 games for desktop and mobile web browsers.
 topic: phaser
 url: http://phaser.io/
 ---
