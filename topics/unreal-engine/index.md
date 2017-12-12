@@ -4,7 +4,7 @@ created_by: Epic Games
 display_name: Unreal Engine
 github_url: https://github.com/EpicGames/
 logo: unreal-engine.png
-short_description: Developers choose Unreal Engine to create awesome games, and experiences for PC, mobile, console, VR, and AR.
+short_description: Unreal Engine is used to create awesome games, and experiences for PC, mobile, console, VR, and AR.
 topic: unreal-engine
 url: https://www.unrealengine.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Unreal_Engine
