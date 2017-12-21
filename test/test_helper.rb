@@ -54,7 +54,7 @@ end
 
 def valid_topic?(raw_topic)
   return false unless raw_topic
-  topic = raw_topic.strip.downcase
+  topic = raw_topic.strip
   return false if topic.length > MAX_TOPIC_LENGTH
   return false unless topic.match?(TOPIC_REGEX)
   !topic.empty?
