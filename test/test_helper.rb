@@ -54,10 +54,10 @@ end
 
 def valid_topic?(raw_topic)
   return false unless raw_topic
-  normalized_topic = normalize(raw_topic)
-  return false if normalized_topic.length > MAX_TOPIC_LENGTH
-  return false unless normalized_topic.match?(TOPIC_REGEX)
-  !normalized_topic.empty?
+  topic = raw_topic.strip.downcase
+  return false if topic.length > MAX_TOPIC_LENGTH
+  return false unless topic.match?(TOPIC_REGEX)
+  !topic.empty?
 end
 
 def topics_dir
@@ -102,14 +102,14 @@ def related_topics_for(topic)
   metadata = metadata_for(topic)
   return [] unless metadata
   return [] unless metadata["related"]
-  metadata["related"].split(",").map { |related_topic| normalize(related_topic) }
+  metadata["related"].split(",")
 end
 
 def aliases_for(topic)
   metadata = metadata_for(topic)
   return [] unless metadata
   return [] unless metadata["aliases"]
-  metadata["aliases"].split(",").map { |topic_alias| normalize(topic_alias) }
+  metadata["aliases"].split(",")
 end
 
 def body_for(topic)
