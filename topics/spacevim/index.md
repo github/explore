@@ -1,5 +1,5 @@
 ---
-aliases: SpaceVim
+aliases: space vim
 created_by: ShiDong Wang
 display_name: SpaceVim
 github_url: https://github.com/SpaceVim/SpaceVim
