@@ -11,4 +11,4 @@ topic: nim
 url: https://nim-lang.org
 wikipedia_url: https://en.wikipedia.org/wiki/Nim_(programming_language)
 ---
-The Nim compiler produces dependency-free binaries for most platforms as well as JavaScript for the web.
+Nim is a general purpose systems programming that's designed to be efficient, expressive and elegant. The Nim compiler produces dependency-free binaries for most platforms as well as JavaScript for the web.
