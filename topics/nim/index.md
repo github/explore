@@ -1,0 +1,14 @@
+---
+aliases: nim-lang, nimlang, nim-language
+created_by: Andreas Rumpf
+display_name: Nim
+github_url: https://github.com/nim-lang/Nim
+logo: nim.png
+related: language, c, c-plus-plus, javascript, python
+released: '2008'
+short_description: Nim is a statically typed, compiled, garbage-collected systems programming language with a design that focuses on efficiency, expressiveness, and elegance (in that order of priority).
+topic: nim
+url: https://nim-lang.org
+wikipedia_url: https://en.wikipedia.org/wiki/Nim_(programming_language)
+---
+The Nim compiler produces dependency-free binaries for most platforms as well as JavaScript for the web.
