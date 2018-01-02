@@ -8,6 +8,6 @@ short_description: A metalanguage resembling ECMAScript which can be transpiled 
 topic: haxe
 url: https://haxe.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Haxe
-related: JavaScript, python, java, actionscript, c-plus-plus, csharp, php, lua
+related: javascript, python, java, actionscript, c-plus-plus, csharp, php, lua
 ---
 A language resembling ECMAScript much which can be transpiled into ActionScript3, JavaScript, Java, C++, C#, PHP, Python, and Lua.
