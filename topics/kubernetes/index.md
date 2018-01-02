@@ -3,7 +3,7 @@ created_by: Joe Beda, Brendan Burns, and Craig McLuckie
 display_name: Kubernetes
 github_url: https://github.com/kubernetes/kubernetes
 logo: kubernetes.png
-related: cloud native, devops, containers
+related: cloud-native, devops, containers
 released: July 21, 2015
 short_description: Kubernetes is an open source system for automating deployment, scaling, and management of containerized applications.
 topic: kubernetes
