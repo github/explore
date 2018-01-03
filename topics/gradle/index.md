@@ -3,7 +3,7 @@ display_name: Gradle
 github_url: https://github.com/gradle/gradle
 logo: gradle.png
 released: 2007
-short_description: Gradle helps teams build, automate and deliver better software, faster.
+short_description: Gradle is an open-source build tool that helps teams build, automate and deliver better software, faster.
 topic: gradle
 url: https://gradle.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Gradle
