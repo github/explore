@@ -9,4 +9,4 @@ topic: flask
 url: http://flask.pocoo.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Flask_(web_framework)
 ---
-Flask is a web framework for Python, based on the Wekzeug toolkit.
+Flask is a web framework for Python, based on the Werkzeug toolkit.
