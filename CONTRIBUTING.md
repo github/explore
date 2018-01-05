@@ -35,6 +35,8 @@ Please note that all suggestions must adhere to GitHub's [Community Guidelines](
 
 To propose a new topic page, please **open an pull request** with your proposed changes. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
 
+This repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).
+
 **Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
 
 ## Guidelines
