@@ -1,6 +1,8 @@
-# Popular Topics That Lack Context
+# Popular topics that lack context
 
-This is a list of the most used topics on GitHub that aren't yet curated in this repository. For anyone familiar with these subjects, pull requests would be welcomed to give further context to these topics! Information from this repository is what will show in the sidebar of each topic page, to help users that land on that page understand what the topic is about and, by extension, what the repositories using that topic are about.
+This is a list of the most-used topics on GitHub that aren't yet curated in this repository. For anyone familiar with these topics, pull requests would be welcomed to give further context to these them!
+
+Information included in this repository will appear on each topic's respective page, helping users understand more about the topic and, by extension, what the repositories using that topic are about.
 
 - [ ] [website](https://github.com/topics/website/)
 - [ ] [dot-net](https://github.com/topics/dot-net/)
