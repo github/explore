@@ -1,8 +1,8 @@
 # Popular topics that lack context
 
-This is a list of the most-used topics on GitHub that aren't yet curated in this repository. For anyone familiar with these topics, pull requests would be welcomed to give further context to these them!
+This is a list of the most-used topics on GitHub that don't yet have a curated topic page. If you're familiar with one or more of these topics, make a pull request! For information on how to curate a new topic page, check out our [contributing guide](https://github.com/github/explore/blob/master/CONTRIBUTING.md).
 
-Information included in this repository will appear on each topic's respective page, helping users understand more about the topic and, by extension, what the repositories using that topic are about.
+Information included in this repository will appear on each topic's respective page, helping others on GitHub better understand the topic and, by extension, what repositories tagged with that topic are about.
 
 - [ ] [website](https://github.com/topics/website/)
 - [ ] [dot-net](https://github.com/topics/dot-net/)
