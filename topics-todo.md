@@ -44,7 +44,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [elasticsearch](https://github.com/topics/elasticsearch/)
 - [ ] [monitoring](https://github.com/topics/monitoring/)
 - [ ] [ui](https://github.com/topics/ui/)
-- [ ] [scss](https://github.com/topics/scss/)
+- [x] [scss](https://github.com/topics/scss/)
 - [ ] [app](https://github.com/topics/app/)
 - [ ] [ajax](https://github.com/topics/ajax/)
 - [ ] [latex](https://github.com/topics/latex/)
