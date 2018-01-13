@@ -1,5 +1,5 @@
 ---
-aliases: scss, sass-library, sass-mixins
+aliases: scss, sass-library, sass-mixins, sass-framework, scss-framework
 created_by: Hampton Catlin, Natalie Weizenbaum, Chris Eppstein
 display_name: Sass
 github_url: https://github.com/sass/sass
