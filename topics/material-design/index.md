@@ -1,6 +1,7 @@
 ---
 aliases: material-design-principles
 display_name: Material design
+logo: material-design.png
 short_description: Material design is a unified system of theory and tools for creating
   digital experiences developed by Google.
 topic: material-design
