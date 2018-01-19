@@ -1,6 +1,7 @@
 ---
-items: /twbs/bootstrap, /jekyll/jekyll, /github/government.github.com, /electron/electronjs.org, /square/square.github.io, /IBM/ibm.github.io, /twitter/twitter.github.com, /Microsoft/microsoft.github.io, /Yelp/yelp.github.io, /facebook/react, /artsy/artsy.github.io
-display_name: GitHub Pages examplesGitHub Pages
+items: twbs/bootstrap, jekyll/jekyll, github/government.github.com, electron/electronjs.org, square/square.github.io, IBM/ibm.github.io, twitter/twitter.github.com, Microsoft/microsoft.github.io, Yelp/yelp.github.io, facebook/react, artsy/artsy.github.io
+display_name: GitHub Pages examples
+author: jdennes
 image: github-pages-examples.png
 ---
-Fine examples of projects using GitHub Pages.
+Fine examples of projects using [GitHub Pages](https://pages.github.com/).
