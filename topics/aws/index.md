@@ -4,7 +4,7 @@ topic: aws
 github_url: https://github.com/aws
 logo: aws.png
 related: amazon
-released: March, 2006
+released: March 2006
 short_description: Amazon Web Services provides on-demand cloud computing platforms on a subscription basis.
 url: https://aws.amazon.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Amazon_Web_Services
