@@ -10,4 +10,4 @@ url: https://www.latex-project.org/
 related: tex
 wikipedia_url: https://en.wikipedia.org/wiki/LaTeX
 ---
-LaTeX is a typesetting system used to create technical and scientific documents. It is an alternative to word processing, letting you focus on content over appearance.
+LaTeX is a typesetting system used to create technical and scientific documents. It is an alternative to word processing, with an emphasis on content over appearance.
