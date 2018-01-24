@@ -1,5 +1,5 @@
 ---
-display_name: AWS
+display_name: Amazon Web Services
 topic: aws
 github_url: https://github.com/aws
 logo: aws.png
