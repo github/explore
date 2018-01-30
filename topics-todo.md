@@ -6,7 +6,7 @@ Information included in this repository will appear on each topic's respective p
 
 - [ ] [website](https://github.com/topics/website/)
 - [ ] [dot-net](https://github.com/topics/dot-net/)
-- [ ] [aws](https://github.com/topics/aws/)
+- [x] [aws](https://github.com/topics/aws/)
 - [ ] [web](https://github.com/topics/web/)
 - [ ] [docker-image](https://github.com/topics/docker-image/)
 - [ ] [tutorial](https://github.com/topics/tutorial/)
