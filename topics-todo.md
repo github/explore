@@ -47,7 +47,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [scss](https://github.com/topics/scss/)
 - [ ] [app](https://github.com/topics/app/)
 - [ ] [ajax](https://github.com/topics/ajax/)
-- [ ] [latex](https://github.com/topics/latex/)
+- [x] [latex](https://github.com/topics/latex/)
 - [ ] [blockchain](https://github.com/topics/blockchain/)
 - [ ] [winforms](https://github.com/topics/winforms/)
 - [ ] [test](https://github.com/topics/test/)

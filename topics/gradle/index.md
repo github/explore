@@ -5,6 +5,7 @@ logo: gradle.png
 released: 2007
 short_description: Gradle is an open-source build tool that helps teams build, automate and deliver better software, faster.
 topic: gradle
+related: kotlin, android, java, android-studio
 url: https://gradle.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Gradle
 ---
