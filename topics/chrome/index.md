@@ -1,6 +1,6 @@
 ---
 aliases: google-chrome
-related: firefox,safari,edge,opera,chromium
+related: firefox,safari,edge,opera,chromium,browser,chrome-extension
 created_by: Google
 display_name: Chrome
 github_url: https://github.com/googlechrome
