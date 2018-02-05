@@ -37,7 +37,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [image-processing](https://github.com/topics/image-processing/)
 - [ ] [animation](https://github.com/topics/animation/)
 - [ ] [example](https://github.com/topics/example/)
-- [ ] [mongoose](https://github.com/topics/mongoose/)
+- [x] [mongoose](https://github.com/topics/mongoose/)
 - [ ] [ethereum](https://github.com/topics/ethereum/)
 - [ ] [matlab](https://github.com/topics/matlab/)
 - [ ] [personal-website](https://github.com/topics/personal-website/)
