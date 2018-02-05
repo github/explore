@@ -24,7 +24,7 @@ Always use the [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma). 
 Include and spell out the month. Include the day number without the "th" or "nd" at the end, for example: October 12.
 
 ### Exclamation points
-Avoid exclamation points in topic pages.
+Avoid exclamation points in topic pages and collections.
 
 ### GitHub
 Always use correct capitalization when referring to “GitHub” or “Git”. Never use “GitHub” or “Git” as a verb.
