@@ -41,6 +41,8 @@ Each related topic must be formatted like that topic's `topic` field (same as th
 * Contains only letters, numbers, and hyphens
 * At most 35 characters long
 
+Formatted as `topic1, topic2, topic3`.
+
 ### released
 (if applicable) Date of first release. Formatted as `MONTH DD, YYYY`, `MONTH YYYY`, or just `YYYY`.
 
