@@ -1,4 +1,4 @@
-require_relative "./test_helper"
+require_relative "./topics_test_helper"
 
 describe "topics" do
   topics.each do |topic|
@@ -210,8 +210,8 @@ describe "topics" do
           assert_equal IMAGE_WIDTH, width, "topic images should be #{IMAGE_WIDTH}px wide"
           assert_equal IMAGE_HEIGHT, height, "topic images should be #{IMAGE_HEIGHT}px tall"
 
-          assert_includes IMAGE_EXTENSIONS, ".#{FastImage.type(path)}",
-                          "topic images should be one of #{IMAGE_EXTENSIONS.join(', ')}"
+          assert_includes TOPIC_IMAGE_EXTENSIONS, ".#{FastImage.type(path)}",
+                          "topic images should be one of #{TOPIC_IMAGE_EXTENSIONS.join(', ')}"
 
           file_size = FastImage.new(path).content_length
           assert file_size <= MAX_IMAGE_FILESIZE_IN_BYTES,
@@ -251,10 +251,10 @@ describe "topics" do
         refute_empty metadata, "expected some metadata for topic"
 
         metadata.each_key do |key|
-          assert_includes VALID_METADATA_KEYS, key, "unexpected metadata key '#{key}'"
+          assert_includes VALID_TOPIC_METADATA_KEYS, key, "unexpected metadata key '#{key}'"
         end
 
-        REQUIRED_METADATA_KEYS.each do |key|
+        REQUIRED_TOPIC_METADATA_KEYS.each do |key|
           assert metadata.key?(key), "expected to have '#{key}' defined for topic"
           assert metadata[key]&.strip&.size&.positive?,
                  "expected to have a value for '#{key}'"

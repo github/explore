@@ -1,5 +1,16 @@
 ---
-items: twbs/bootstrap, jekyll/jekyll, github/government.github.com, electron/electronjs.org, square/square.github.io, IBM/ibm.github.io, twitter/twitter.github.com, Microsoft/microsoft.github.io, Yelp/yelp.github.io, facebook/react, artsy/artsy.github.io
+items:
+ - twbs/bootstrap
+ - jekyll/jekyll
+ - github/government.github.com
+ - electron/electronjs.org
+ - square/square.github.io
+ - IBM/ibm.github.io
+ - twitter/twitter.github.com
+ - Microsoft/microsoft.github.io
+ - Yelp/yelp.github.io
+ - facebook/react
+ - artsy/artsy.github.io
 display_name: GitHub Pages examples
 created_by: jdennes
 image: github-pages-examples.png

@@ -1,5 +1,17 @@
 ---
-items: fivethirtyeight/data, NYTimes/objective-c-style-guide, newsapps/beeswithmachineguns, voxmedia/meme, propublica/guides, censusreporter/censusreporter, nprapps/app-template, TimeMagazine/babynames, guardian/frontend, dukechronicle/chronline, BloombergMedia/whatiscode, times/cardkit
+items:
+ - fivethirtyeight/data
+ - NYTimes/objective-c-style-guide
+ - newsapps/beeswithmachineguns
+ - voxmedia/meme
+ - propublica/guides
+ - censusreporter/censusreporter
+ - nprapps/app-template
+ - TimeMagazine/babynames
+ - guardian/frontend
+ - dukechronicle/chronline
+ - BloombergMedia/whatiscode
+ - times/cardkit
 display_name: Open journalism
 created_by: benbalter
 ---
