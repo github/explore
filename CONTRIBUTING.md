@@ -1,6 +1,6 @@
 # Contributing
 
-Hi there! We're excited you've got ideas to improve topics and collections. Your helping the community discover valuable information.
+Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
 
 This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
@@ -17,8 +17,8 @@ Note: Updates won't immediately appear once we've merged your PR. We pull in the
 
 If a topic or collection already exists, it will be listed in its respective directory:
 
-- [Topics](https://github.com/github/explore/tree/master/topics)
-- [Collections](https://github.com/github/explore/tree/master/collections)
+- [topics/](https://github.com/github/explore/tree/master/topics)
+- [collections/](https://github.com/github/explore/tree/master/collections)
 
 The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/master/topics/rails).
 
@@ -26,11 +26,11 @@ To make an improvement, please **open a pull request** with your proposed change
 
 ### Update the image
 
-To update the image, simply replace the image inside the topic or collection's directory
+To update the image, simply replace the image inside the topic or collection's directory.
 
-### Update text & links
+### Update text and links
 
-To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [front matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
+To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
 
 For **topics**, you'll notice that, in examples like "[algolia](https://raw.githubusercontent.com/github/explore/master/topics/algolia/index.md)," data like the topic's canonical URL, Wikipedia URL, or display name are called out in key-value pairs; while its detailed description is accounted for in the body of the document.
 
@@ -81,7 +81,7 @@ We are likely to consider suggestions to curate a topic or collection that is va
 
 Please note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.
 
-To propose a new topic or collection, please **open an pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
+To propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
 
 This repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).
 
