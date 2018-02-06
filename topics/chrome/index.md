@@ -15,4 +15,4 @@ Chrome is the most popular web browser worldwide as of mid-2017, made by the tec
 
 Chrome boasts a minimalistic UI and was the first browser to feature "tabs" above the address bar, a convention that was later implemented in other browsers. Other popular features include things such as Incognito mode, tab sandboxing, and a Web Store with extensions and themes.
 
-Although Chrome is not open source, the majority of the source code is available under the Chromium moniker 
+Although Chrome is not open source, the majority of the source code is available under the Chromium moniker.
