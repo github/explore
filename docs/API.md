@@ -41,6 +41,8 @@ Each related topic must be formatted like that topic's `topic` field (same as th
 * Contains only letters, numbers, and hyphens
 * At most 35 characters long
 
+Formatted as `topic1, topic2, topic3`.
+
 ### released
 (if applicable) Date of first release. Formatted as `MONTH DD, YYYY`, `MONTH YYYY`, or just `YYYY`.
 
@@ -60,7 +62,7 @@ Acceptable formatting:
 (if applicable) URL to the topic's official website
 
 ### wikipedia_url
-(if applicable) URL to a Wikipedia article abut the topic
+(if applicable) URL to a Wikipedia article about the topic
 
 ### The body of your document
 (required) A longer description of the topic, which will appear on its topic page. Must be 1,000 characters or less. Should not be the same as `short_description`. Some Markdown is allowed, such as links. Emoji are allowed.
