@@ -1,5 +1,18 @@
 ---
-items: angular/angular.js, emberjs/ember.js, knockout/knockout, tastejs/todomvc, spine/spine, vuejs/vue, Polymer/polymer, facebook/react, matreshkajs/matreshka, aurelia/framework, optimizely/nuclear-js, jashkenas/backbone, dojo/dojo
+items:
+ - angular/angular.js
+ - emberjs/ember.js
+ - knockout/knockout
+ - tastejs/todomvc
+ - spine/spine
+ - vuejs/vue
+ - Polymer/polymer
+ - facebook/react
+ - matreshkajs/matreshka
+ - aurelia/framework
+ - optimizely/nuclear-js
+ - jashkenas/backbone
+ - dojo/dojo
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---

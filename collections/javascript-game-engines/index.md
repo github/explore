@@ -1,5 +1,21 @@
 ---
-items: pixijs/pixi.js, photonstorm/phaser, melonjs/melonJS, gamelab/kiwi.js, craftyjs/Crafty, wellcaffeinated/PhysicsJS, shakiba/stage.js, cocos2d/cocos2d-html5, playcanvas/engine, Artificial-Engineering/lycheejs, BabylonJS/Babylon.js, ekelokorpi/panda-engine, qiciengine/qiciengine, WhitestormJS/whs.js, GooTechnologies/goojs, shakiba/planck.js
+items:
+ - pixijs/pixi.js
+ - photonstorm/phaser
+ - melonjs/melonJS
+ - gamelab/kiwi.js
+ - craftyjs/Crafty
+ - wellcaffeinated/PhysicsJS
+ - shakiba/stage.js
+ - cocos2d/cocos2d-html5
+ - playcanvas/engine
+ - Artificial-Engineering/lycheejs
+ - BabylonJS/Babylon.js
+ - ekelokorpi/panda-engine
+ - qiciengine/qiciengine
+ - WhitestormJS/whs.js
+ - GooTechnologies/goojs
+ - shakiba/planck.js
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---
