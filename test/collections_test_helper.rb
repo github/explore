@@ -49,27 +49,3 @@ end
 def possible_image_file_names_for_collection(collection)
   COLLECTION_IMAGE_EXTENSIONS.map { |ext| "#{collection}#{ext}" }
 end
-
-def metadata_for_collection(collection)
-  path = File.join(collections_dir, collection, "index.md")
-  return unless File.file?(path)
-
-  parts = File.read(path).split("---", 3)
-  return unless parts.size >= 2
-
-  begin
-    YAML.safe_load(parts[1])
-  rescue Psych::SyntaxError => ex
-    flunk "invalid YAML: #{ex.message}"
-  end
-end
-
-def body_for_collection(collection)
-  path = File.join(collections_dir, collection, "index.md")
-  return "" unless File.file?(path)
-
-  parts = File.read(path).split("---", 3)
-  return "" unless parts.size >= 2
-
-  parts[2]
-end

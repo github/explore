@@ -19,3 +19,27 @@ def valid_uri_scheme?(scheme)
 
   %w[http https].include?(scheme.downcase)
 end
+
+def metadata_for(dir, name)
+  path = File.join(dir, name, "index.md")
+  return unless File.file?(path)
+
+  parts = File.read(path).split("---", 3)
+  return unless parts.size >= 2
+
+  begin
+    YAML.safe_load(parts[1])
+  rescue Psych::SyntaxError => ex
+    flunk "invalid YAML: #{ex.message}"
+  end
+end
+
+def body_for(dir, name)
+  path = File.join(dir, name, "index.md")
+  return "" unless File.file?(path)
+
+  parts = File.read(path).split("---", 3)
+  return "" unless parts.size >= 2
+
+  parts[2]
+end

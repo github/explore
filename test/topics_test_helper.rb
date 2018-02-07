@@ -55,42 +55,18 @@ def possible_image_file_names_for(topic)
   TOPIC_IMAGE_EXTENSIONS.map { |ext| "#{topic}#{ext}" }
 end
 
-def metadata_for(topic)
-  path = File.join(topics_dir, topic, "index.md")
-  return unless File.file?(path)
-
-  parts = File.read(path).split("---", 3)
-  return unless parts.size >= 2
-
-  begin
-    YAML.safe_load(parts[1])
-  rescue Psych::SyntaxError => ex
-    flunk "invalid YAML: #{ex.message}"
-  end
-end
-
 def related_topics_for(topic)
-  metadata = metadata_for(topic)
+  metadata = metadata_for(topics_dir, topic)
   return [] unless metadata
   return [] unless metadata["related"]
   metadata["related"].split(",")
 end
 
 def aliases_for(topic)
-  metadata = metadata_for(topic)
+  metadata = metadata_for(topics_dir, topic)
   return [] unless metadata
   return [] unless metadata["aliases"]
   metadata["aliases"].split(",")
-end
-
-def body_for(topic)
-  path = File.join(topics_dir, topic, "index.md")
-  return "" unless File.file?(path)
-
-  parts = File.read(path).split("---", 3)
-  return "" unless parts.size >= 2
-
-  parts[2]
 end
 
 def assert_oxford_comma(text)

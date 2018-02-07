@@ -8,7 +8,7 @@ describe "collections" do
       end
 
       it "does not include emoji outside of description" do
-        metadata = metadata_for_collection(collection) || {}
+        metadata = metadata_for(collections_dir, collection) || {}
 
         fields = %w[created_by display_name collection]
         fields.each do |field|
@@ -19,8 +19,8 @@ describe "collections" do
         end
       end
 
-      it "has a valid items" do
-        metadata = metadata_for_collection(collection) || {}
+      it "has valid items" do
+        metadata = metadata_for(collections_dir, collection) || {}
         items = metadata["items"]
         invalid_slugs = []
         items.each do |item|
@@ -66,7 +66,7 @@ describe "collections" do
       end
 
       it "has expected metadata in Jekyll front matter" do
-        metadata = metadata_for_collection(collection)
+        metadata = metadata_for(collections_dir, collection)
         refute_empty metadata, "expected some metadata for collection"
 
         metadata.each_key do |key|
@@ -81,7 +81,7 @@ describe "collections" do
       end
 
       it "uses the right file name for specified image" do
-        metadata = metadata_for_collection(collection)
+        metadata = metadata_for(collections_dir, collection)
 
         if metadata
           paths = image_paths_for_collection(collection)
@@ -98,7 +98,7 @@ describe "collections" do
       end
 
       it "has a valid body" do
-        body = body_for_collection(collection)
+        body = body_for(collections_dir, collection)
 
         assert body && (1...MAX_BODY_LENGTH).cover?(body.length),
                "must have a body no more than #{MAX_BODY_LENGTH} characters " \
@@ -106,7 +106,7 @@ describe "collections" do
       end
 
       it "has valid created_by value" do
-        metadata = metadata_for_collection(collection) || {}
+        metadata = metadata_for(collections_dir, collection) || {}
 
         if metadata["created_by"]
           assert metadata["created_by"].match(USERNAME_REGEX),
