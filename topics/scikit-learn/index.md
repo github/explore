@@ -3,6 +3,7 @@ aliases: sklearn
 created_by: David Cournapeau
 display_name: scikit-learn
 github_url: https://github.com/scikit-learn/scikit-learn
+logo: scikit-learn.png
 released: January 05, 2010
 short_description: scikit-learn is a Python module for machine learning.
 topic: scikit-learn
