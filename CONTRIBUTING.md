@@ -26,7 +26,7 @@ To make an improvement, please **open a pull request** with your proposed change
 
 ### Update the image
 
-To update the image, simply replace the image inside the topic or collection's directory.
+To update the image, simply replace the image inside the directory for the topic or collection.
 
 ### Update text and links
 
@@ -48,13 +48,26 @@ Algorithms are detailed sets of guidelines created for a computer program to com
 
 ---
 
-Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/master/collections/music/index.md)" call out things like their author and display name in key-value pairs -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in a comma-separated string value for the key "items."
+Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/master/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
 
 _/collections/music/index.md_:
 
 ```
 ---
-items: beetbox/beets, scottschiller/SoundManager2, CreateJS/SoundJS, musescore/MuseScore, tomahawk-player/tomahawk, cashmusic/platform, mopidy/mopidy, AudioKit/AudioKit, Soundnode/soundnode-app, gillesdemey/Cumulus, metabrainz/picard, overtone/overtone, samaaron/sonic-pi
+items:
+ - beetbox/beets
+ - scottschiller/SoundManager2
+ - CreateJS/SoundJS
+ - musescore/MuseScore
+ - tomahawk-player/tomahawk
+ - cashmusic/platform
+ - mopidy/mopidy
+ - AudioKit/AudioKit
+ - Soundnode/soundnode-app
+ - gillesdemey/Cumulus
+ - metabrainz/picard
+ - overtone/overtone
+ - samaaron/sonic-pi
 display_name: Music
 created_by: jonrohan
 ---
