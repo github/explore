@@ -47,7 +47,7 @@ describe "collections" do
             image_files.include?(file_name)
         end
 
-        assert_empty files, "expected only index.md and a single image"
+        assert_empty files, "expected only index.md and valid images"
       end
 
       it "has Jekyll front matter in index.md" do
