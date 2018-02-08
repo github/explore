@@ -5,7 +5,7 @@ VALID_COLLECTION_METADATA_KEYS = %w[collection created_by display_name image ite
 
 REQUIRED_COLLECTION_METADATA_KEYS = %w[display_name].freeze
 
-MAX_COLLECTION_LENGTH = 40
+MAX_COLLECTION_SLUG_LENGTH = 40
 
 COLLECTION_IMAGE_EXTENSIONS = %w[.jpg .jpeg .png .gif].freeze
 
@@ -14,14 +14,14 @@ COLLECTION_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 USERNAME_REGEX = /\A[a-z0-9]+(-[a-z0-9]+)*\z/i
 
 def invalid_collection_message(collection)
-  "'#{collection}' must be between 1-#{MAX_COLLECTION_LENGTH} characters, start with a letter or number, " \
+  "'#{collection}' must be between 1-#{MAX_COLLECTION_SLUG_LENGTH} characters, start with a letter or number, " \
     "and may include hyphens"
 end
 
 def valid_collection?(raw_collection)
   return false unless raw_collection
   collection = raw_collection.strip
-  return false if collection.length > MAX_COLLECTION_LENGTH
+  return false if collection.length > MAX_COLLECTION_SLUG_LENGTH
   return false unless collection.match?(COLLECTION_REGEX)
   !collection.empty?
 end

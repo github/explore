@@ -40,10 +40,9 @@ describe "collections" do
       end
 
       it "has no unexpected files or directories" do
+        image_files = possible_image_file_names_for_collection(collection)
         files = Dir["#{collections_dir}/#{collection}/**/*"].reject do |entry|
           file_name = File.basename(entry)
-          image_files = possible_image_file_names_for_collection(collection)
-
           entry == "." || entry == ".." || file_name == "index.md" ||
             image_files.include?(file_name)
         end
