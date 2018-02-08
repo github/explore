@@ -70,7 +70,7 @@ Acceptable formatting:
 If you're making edits to a collection, the following fields are available for use. Not all fields are required.
 
 ### items
-A comma-separated string containing any of the following values:
+A [YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) containing any of the following values:
 
 - GitHub repository path (e.g. `defunkt/dotjs`)
 - GitHub username (e.g. `defunkt`)
@@ -78,9 +78,14 @@ A comma-separated string containing any of the following values:
 - Any web URL (e.g. `https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners`)
 - Any YouTube video URL (e.g. `https://www.youtube.com/watch?v=0fKg7e37bQE`)
 
-A complete `items` key-value pair might look like:
+A complete `items` list might look like:
 
-`items: pybee/batavia, Homebrew/brew, https://www.youtube.com/watch?v=dSl_qnWO104`
+```
+items:
+ - pybee/batavia
+ - Homebrew/brew
+ - https://www.youtube.com/watch?v=dSl_qnWO104`
+```
 
 ### created_by
 (if applicable) GitHub username of the person and/or organization that authored the collection.
