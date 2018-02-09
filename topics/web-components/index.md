@@ -3,6 +3,7 @@ aliases: webcomponent, web-component, webcomponents
 created_by: Alex Russell
 display_name: Web Components
 github_url: https://github.com/webcomponents
+logo: web-components.png
 related: custom-elements, shadow-dom, es-modules, html-templates, html-imports
 short_description: Web Components are a set of web platform APIs developers can use to create custom HTML tags.
 topic: web-components
