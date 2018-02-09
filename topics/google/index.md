@@ -1,7 +1,8 @@
 ---
 display_name: Google
 github_url: https://github.com/google
-logo: gradle.png
+logo: google.png
+created_by: Larry Page, Sergey Brin
 released: September 4, 1998
 short_description: Google LLC is an American multinational technology company that specializes in Internet-related services and products.
 topic: google
