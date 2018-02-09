@@ -74,7 +74,8 @@ describe "collections" do
 
         REQUIRED_COLLECTION_METADATA_KEYS.each do |key|
           assert metadata.key?(key), "expected to have '#{key}' defined for collection"
-          assert metadata[key]&.strip&.size&.positive?,
+          metadata_value = metadata[key].is_a?(Array) ? metadata[key] : [metadata[key]]
+          assert metadata_value.all? { |value| value&.strip&.size&.positive? },
                  "expected to have a value for '#{key}'"
         end
       end
