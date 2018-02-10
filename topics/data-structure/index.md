@@ -1,5 +1,5 @@
 ---
-aliases: data-structures,Data-structure
+aliases: Data-structure
 display_name: Data structure
 short_description: Data structure is way of organizing and storing data.
 topic: data-structure
