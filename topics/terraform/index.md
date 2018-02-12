@@ -1,11 +1,12 @@
 ---
+aliases: hashicorp-terraform, terraform-configurations, terraform-module, terraform-modules, terraform-providers
 created_by: Mitchell Hashimoto, HashiCorp
 display_name: Terraform
 github_url: https://github.com/hashicorp/terraform
 logo: terraform.png
-related: hashicorp, hashicorp-terraform, infrastructure, infrastructure-as-code, terraform-configurations, terraform-module, terraform-modules, terraform-providers
+related: hashicorp, infrastructure, infrastructure-as-code
 released: July 28, 2014
-short_description: An infrastructure as code tool for building, changing, and versioning infrastructure safely and efficiently.
+short_description: An infrastructure-as-code tool for building, changing, and versioning infrastructure safely and efficiently.
 topic: terraform
 url: https://www.terraform.io
 wikipedia_url: https://en.wikipedia.org/wiki/Terraform_(software)
