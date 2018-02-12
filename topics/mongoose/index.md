@@ -1,4 +1,5 @@
 ---
+aliases: mongoosejs, mongoose-js, mongoose-plugin, mongoose-model
 created_by: LearnBoost
 display_name: Mongoose
 github_url: https://github.com/Automattic/mongoose
