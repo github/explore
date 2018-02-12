@@ -102,5 +102,5 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [telegram-bot](https://github.com/topics/telegram-bot/)
 - [ ] [ansible-role](https://github.com/topics/ansible-role/)
 - [ ] [data-analysis](https://github.com/topics/data-analysis/)
-- [ ] [qt](https://github.com/topics/qt/)
+- [x] [qt](https://github.com/topics/qt/)
 - [ ] [javafx](https://github.com/topics/javafx/)
