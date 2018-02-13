@@ -24,7 +24,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [twitter](https://github.com/topics/twitter/)
 - [ ] [parser](https://github.com/topics/parser/)
 - [ ] [docker-compose](https://github.com/topics/docker-compose/)
-- [ ] [data-structures](https://github.com/topics/data-structures/)
+- [x] [data-structures](https://github.com/topics/data-structures/)
 - [ ] [artificial-intelligence](https://github.com/topics/artificial-intelligence/)
 - [ ] [computer-vision](https://github.com/topics/computer-vision/)
 - [ ] [opencv](https://github.com/topics/opencv/)
