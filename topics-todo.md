@@ -39,7 +39,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [example](https://github.com/topics/example/)
 - [x] [mongoose](https://github.com/topics/mongoose/)
 - [ ] [ethereum](https://github.com/topics/ethereum/)
-- [ ] [matlab](https://github.com/topics/matlab/)
+- [x] [matlab](https://github.com/topics/matlab/)
 - [ ] [personal-website](https://github.com/topics/personal-website/)
 - [ ] [elasticsearch](https://github.com/topics/elasticsearch/)
 - [ ] [monitoring](https://github.com/topics/monitoring/)
