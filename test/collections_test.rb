@@ -106,6 +106,14 @@ describe "collections" do
                "(currently #{body.length})"
       end
 
+      it "has a valid display name" do
+        metadata = metadata_for(collections_dir, collection) || {}
+        display_name = metadata["display_name"]
+
+        assert display_name
+        assert display_name.length <= MAX_COLLECTION_DISPLAY_NAME_LENGTH
+      end
+
       it "has valid created_by value" do
         metadata = metadata_for(collections_dir, collection) || {}
 

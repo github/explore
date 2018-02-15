@@ -1,4 +1,5 @@
 # rubocop:disable Metrics/LineLength
+
 require_relative "./test_helper"
 
 VALID_COLLECTION_METADATA_KEYS = %w[collection created_by display_name image items].freeze
@@ -6,6 +7,7 @@ VALID_COLLECTION_METADATA_KEYS = %w[collection created_by display_name image ite
 REQUIRED_COLLECTION_METADATA_KEYS = %w[items display_name].freeze
 
 MAX_COLLECTION_SLUG_LENGTH = 40
+MAX_COLLECTION_DISPLAY_NAME_LENGTH = 100
 
 COLLECTION_IMAGE_EXTENSIONS = %w[.jpg .jpeg .png .gif].freeze
 
