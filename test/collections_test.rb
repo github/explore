@@ -110,8 +110,11 @@ describe "collections" do
         metadata = metadata_for(collections_dir, collection) || {}
         display_name = metadata["display_name"]
 
-        assert display_name
-        assert display_name.length <= MAX_COLLECTION_DISPLAY_NAME_LENGTH
+        assert display_name, "must have a value for display name"
+        assert display_name.length <= MAX_COLLECTION_DISPLAY_NAME_LENGTH,
+               "must have a display name no more than " \
+               "#{MAX_COLLECTION_DISPLAY_NAME_LENGTH} characters " \
+               "(currently #{display_name.length})"
       end
 
       it "has valid created_by value" do
