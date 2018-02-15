@@ -9,4 +9,4 @@ topic: vagrant
 url: https://www.vagrantup.com
 wikipedia_url: https://en.wikipedia.org/wiki/Vagrant_(software)
 ---
-Vagrant is an open-source software product for building and maintaining portable virtual software development environments, e.g. for VirtualBox, Hyper-V, Docker, VMware, and AWS. The core idea behind it lies in the fact that the environment maintenance of virtualizations becomes increasingly difficult in a large software development project.
+Vagrant is a software product for building and maintaining portable virtual software development environments, e.g. for VirtualBox, Hyper-V, Docker, VMware, and AWS. The core idea behind it lies in the fact that the environment maintenance of virtualizations becomes increasingly difficult in a large software development project.
