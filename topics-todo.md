@@ -53,7 +53,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [test](https://github.com/topics/test/)
 - [ ] [portfolio](https://github.com/topics/portfolio/)
 - [ ] [data](https://github.com/topics/data/)
-- [ ] [vagrant](https://github.com/topics/vagrant/)
+- [x] [vagrant](https://github.com/topics/vagrant/)
 - [ ] [gui](https://github.com/topics/gui/)
 - [ ] [react-router](https://github.com/topics/react-router/)
 - [ ] [authentication](https://github.com/topics/authentication/)
