@@ -1,8 +1,8 @@
 ---
 created_by: Microsoft
-display_name: https://github.com/Azure
-github_url: https://github.com/babel
-logo: babel.png
+display_name: Azure
+github_url: https://github.com/Azure
+logo: azure.png
 released: February 1, 2010
 short_description: Azure is a cloud computing service created by Microsoft.
 topic: azure
