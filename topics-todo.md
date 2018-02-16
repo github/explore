@@ -21,7 +21,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [iot](https://github.com/topics/iot/)
 - [ ] [lua](https://github.com/topics/lua/)
 - [ ] [automation](https://github.com/topics/automation/)
-- [ ] [twitter](https://github.com/topics/twitter/)
+- [x] [twitter](https://github.com/topics/twitter/)
 - [ ] [parser](https://github.com/topics/parser/)
 - [ ] [docker-compose](https://github.com/topics/docker-compose/)
 - [x] [data-structures](https://github.com/topics/data-structures/)
