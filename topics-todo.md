@@ -13,7 +13,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [sql](https://github.com/topics/sql/)
 - [ ] [boilerplate](https://github.com/topics/boilerplate/)
 - [ ] [spring](https://github.com/topics/spring/)
-- [ ] [haskell](https://github.com/topics/haskell/)
+- [x] [haskell](https://github.com/topics/haskell/)
 - [ ] [demo](https://github.com/topics/demo/)
 - [ ] [data-science](https://github.com/topics/data-science/)
 - [ ] [neural-network](https://github.com/topics/neural-network/)
