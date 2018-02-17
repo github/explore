@@ -39,7 +39,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [monitoring](https://github.com/topics/monitoring/)
 - [ ] [ui](https://github.com/topics/ui/)
 - [ ] [app](https://github.com/topics/app/)
-- [ ] [ajax](https://github.com/topics/ajax/)
+- [x] [ajax](https://github.com/topics/ajax/)
 - [ ] [blockchain](https://github.com/topics/blockchain/)
 - [ ] [winforms](https://github.com/topics/winforms/)
 - [ ] [test](https://github.com/topics/test/)
