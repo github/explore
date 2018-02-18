@@ -6,4 +6,4 @@ short_description: Software-defined networking (SDN) is an architecture for prog
 topic: sdn
 wikipedia_url: https://en.wikipedia.org/wiki/Software-defined_networking
 ---
-Software-defined networking (SDN) separates network control from network data forwarding, allowing networks to be programmed and centrally managed with standard protocols, enabling dynamic, vendor-neutral network management. SDN is an enabler of network virtualization, or the ability to run multiple virtual network topologies on a shared physical network.
+Software-defined networking (SDN) separates network control from network data forwarding, allowing networks to be programmed and centrally managed with standard protocols. SDN is an enabler of network virtualization, or the ability to run multiple virtual network topologies on a shared physical network.
