@@ -1,9 +1,9 @@
 ---
-display_name: Ajax
-short_description: Ajax is a web technology used by web apps and web pages to exchange data in the background.
+display_name: AJAX
+short_description: Ajax is a technique for creating better, faster, and more interactive web applications.
 topic: ajax
 related: json, html, xml, javascript
 wikipedia_url: https://en.wikipedia.org/wiki/Ajax_(programming)
 ---
-AJAX stands for asynchronous javascript and xml. It is collection of several web technologies such as HTML, CSS, JSON, XML, JavaScript. It is used for creating dynamic webpages in which small part of web page changes without reloading the page. AJAX is used by Gmail and Google maps.
+AJAX stands for asynchronous JavaScript and XML. It is collection of several web technologies including HTML, CSS, JSON, XML, JavaScript. It is used for creating dynamic web pages in which small part of web page changes without reloading the page. It is a web browser technology independent of web server software.
 
