@@ -9,4 +9,4 @@ related: software, framework
 url: https://microsoft.com/net
 wikipedia_url: https://en.wikipedia.org/wiki/.NET_Framework
 ---
-The .NET Framework consists of the common language runtime (CLR) and the .NET Framework class library. It provides a consistent object-oriented programming environment. It is used to develop console applications, Windows GUI applications, and  Windows services.
+The .NET Framework consists of the common language runtime (CLR) and the .NET Framework class library. It provides a consistent object-oriented programming environment. It is used to develop console applications, Windows GUI applications, and Windows services.
