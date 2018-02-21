@@ -9,7 +9,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [web](https://github.com/topics/web/)
 - [ ] [docker-image](https://github.com/topics/docker-image/)
 - [ ] [tutorial](https://github.com/topics/tutorial/)
-- [ ] [sql](https://github.com/topics/sql/)
+- [x] [sql](https://github.com/topics/sql/)
 - [ ] [boilerplate](https://github.com/topics/boilerplate/)
 - [ ] [spring](https://github.com/topics/spring/)
 - [ ] [demo](https://github.com/topics/demo/)
