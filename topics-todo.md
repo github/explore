@@ -5,7 +5,7 @@ This is a list of the most-used topics on GitHub that don't yet have a curated t
 Information included in this repository will appear on each topic's respective page, helping others on GitHub better understand the topic and, by extension, what repositories tagged with that topic are about.
 
 - [ ] [website](https://github.com/topics/website/)
-- [ ] [dot-net](https://github.com/topics/dot-net/)
+- [x] [dot-net](https://github.com/topics/dot-net/)
 - [ ] [web](https://github.com/topics/web/)
 - [ ] [docker-image](https://github.com/topics/docker-image/)
 - [ ] [tutorial](https://github.com/topics/tutorial/)
