@@ -28,7 +28,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [wpf](https://github.com/topics/wpf/)
 - [ ] [xml](https://github.com/topics/xml/)
 - [ ] [game-development](https://github.com/topics/game-development/)
-- [ ] [opengl](https://github.com/topics/opengl/)
+- [x] [opengl](https://github.com/topics/opengl/)
 - [ ] [discord](https://github.com/topics/discord/)
 - [ ] [image-processing](https://github.com/topics/image-processing/)
 - [ ] [animation](https://github.com/topics/animation/)
