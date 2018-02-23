@@ -1,4 +1,4 @@
-require_relative "./test_helper"
+require_relative "./topics_test_helper"
 
 describe "topics" do
   topics.each do |topic|
@@ -37,7 +37,7 @@ describe "topics" do
       end
 
       it "uses the right format for 'released'" do
-        metadata = metadata_for(topic) || ""
+        metadata = metadata_for(topics_dir, topic) || ""
 
         if released = metadata["released"]
           text = released.to_s.gsub(/[\d+,\s]/, "").strip
@@ -55,7 +55,7 @@ describe "topics" do
       end
 
       it "ends 'released' with a number" do
-        metadata = metadata_for(topic) || {}
+        metadata = metadata_for(topics_dir, topic) || {}
 
         if metadata["released"]
           number_regex = /\d\z/
@@ -65,7 +65,7 @@ describe "topics" do
       end
 
       it "ends 'short_description' with punctuation" do
-        metadata = metadata_for(topic) || {}
+        metadata = metadata_for(topics_dir, topic) || {}
 
         if metadata["short_description"]
           punctuation_regex = /[.?!]\z/
@@ -75,7 +75,7 @@ describe "topics" do
       end
 
       it "does not include emoji outside of description" do
-        metadata = metadata_for(topic) || {}
+        metadata = metadata_for(topics_dir, topic) || {}
 
         fields = %w[created_by display_name released short_description related aliases topic]
         fields.each do |field|
@@ -87,7 +87,7 @@ describe "topics" do
       end
 
       it "has a valid GitHub URL" do
-        metadata = metadata_for(topic) || {}
+        metadata = metadata_for(topics_dir, topic) || {}
 
         if metadata["github_url"]
           uri = URI.parse(metadata["github_url"])
@@ -98,7 +98,7 @@ describe "topics" do
       end
 
       it "has a valid URL" do
-        metadata = metadata_for(topic) || {}
+        metadata = metadata_for(topics_dir, topic) || {}
 
         if metadata["url"]
           uri = URI.parse(metadata["url"])
@@ -107,7 +107,7 @@ describe "topics" do
       end
 
       it "has a valid Wikipedia URL" do
-        metadata = metadata_for(topic) || {}
+        metadata = metadata_for(topics_dir, topic) || {}
 
         if metadata["wikipedia_url"]
           uri = URI.parse(metadata["wikipedia_url"])
@@ -156,7 +156,7 @@ describe "topics" do
       end
 
       it "has a matching topic key" do
-        metadata = metadata_for(topic)
+        metadata = metadata_for(topics_dir, topic)
 
         if metadata
           assert_equal topic, metadata["topic"],
@@ -165,8 +165,8 @@ describe "topics" do
       end
 
       it "has a short_description that differs from the body" do
-        metadata = metadata_for(topic) || {}
-        body = body_for(topic)
+        metadata = metadata_for(topics_dir, topic) || {}
+        body = body_for(topics_dir, topic)
 
         if metadata["short_description"]
           refute_equal body.strip, metadata["short_description"].strip,
@@ -181,7 +181,7 @@ describe "topics" do
       end
 
       it "uses the right file name for specified logo" do
-        metadata = metadata_for(topic)
+        metadata = metadata_for(topics_dir, topic)
 
         if metadata
           paths = image_paths_for(topic)
@@ -210,8 +210,8 @@ describe "topics" do
           assert_equal IMAGE_WIDTH, width, "topic images should be #{IMAGE_WIDTH}px wide"
           assert_equal IMAGE_HEIGHT, height, "topic images should be #{IMAGE_HEIGHT}px tall"
 
-          assert_includes IMAGE_EXTENSIONS, ".#{FastImage.type(path)}",
-                          "topic images should be one of #{IMAGE_EXTENSIONS.join(', ')}"
+          assert_includes TOPIC_IMAGE_EXTENSIONS, ".#{FastImage.type(path)}",
+                          "topic images should be one of #{TOPIC_IMAGE_EXTENSIONS.join(', ')}"
 
           file_size = FastImage.new(path).content_length
           assert file_size <= MAX_IMAGE_FILESIZE_IN_BYTES,
@@ -247,14 +247,14 @@ describe "topics" do
       end
 
       it "has expected metadata in Jekyll front matter" do
-        metadata = metadata_for(topic)
+        metadata = metadata_for(topics_dir, topic)
         refute_empty metadata, "expected some metadata for topic"
 
         metadata.each_key do |key|
-          assert_includes VALID_METADATA_KEYS, key, "unexpected metadata key '#{key}'"
+          assert_includes VALID_TOPIC_METADATA_KEYS, key, "unexpected metadata key '#{key}'"
         end
 
-        REQUIRED_METADATA_KEYS.each do |key|
+        REQUIRED_TOPIC_METADATA_KEYS.each do |key|
           assert metadata.key?(key), "expected to have '#{key}' defined for topic"
           assert metadata[key]&.strip&.size&.positive?,
                  "expected to have a value for '#{key}'"
@@ -262,7 +262,7 @@ describe "topics" do
       end
 
       it "has a valid body" do
-        body = body_for(topic)
+        body = body_for(topics_dir, topic)
 
         assert body && (1...MAX_BODY_LENGTH).cover?(body.length),
                "must have a body no more than #{MAX_BODY_LENGTH} characters " \
@@ -270,7 +270,7 @@ describe "topics" do
       end
 
       it "has a valid short_description" do
-        metadata = metadata_for(topic) || {}
+        metadata = metadata_for(topics_dir, topic) || {}
 
         if metadata["short_description"]
           valid_range = 1...MAX_SHORT_DESCRIPTION_LENGTH
@@ -282,8 +282,8 @@ describe "topics" do
       end
 
       it "follows the Topic Page Style Guide" do
-        text = body_for(topic)
-        metadata = metadata_for(topic)
+        text = body_for(topics_dir, topic)
+        metadata = metadata_for(topics_dir, topic)
         end_punctuation = %w[. , ; :] + [" "]
         month_abbreviations = %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec]
         day_ordinals = %w[1st 2nd 3rd 1th 2th 3th 4th 5th 6th 7th 8th 9th]
