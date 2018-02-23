@@ -1,5 +1,5 @@
 ---
-aliases: dotnet-core, dotnetcore
+aliases: dotnet-core, dotnetcore, dot-net
 created_by: Microsoft
 display_name: ".NET"
 github_url: https://github.com/dotnet
