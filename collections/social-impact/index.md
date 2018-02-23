@@ -2,7 +2,7 @@
 items:
  - hotosm/osm-tasking-manager2
  - RefugeRestrooms/refugerestrooms
- - julianguyen/ifme
+ - ifmeorg/ifme
  - GliaX/Stethoscope
  - HospitalRun/hospitalrun-frontend
  - OptiKey/OptiKey
