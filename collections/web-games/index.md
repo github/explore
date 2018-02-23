@@ -6,7 +6,6 @@ items:
  - AlexNisnevich/untrusted
  - doublespeakgames/adarkroom
  - Hextris/hextris
- - Q42/0hh1
 display_name: Web games
 created_by: leereilly
 ---
