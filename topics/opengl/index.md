@@ -9,4 +9,4 @@ related: api, c, simulation
 url: https://www.opengl.org/
 wikipedia_url: https://en.wikipedia.org/wiki/OpenGL
 ---
-OpenGL (Open Graphics Library) is the computer industry's standard API for defining 2-D and 3-D graphic images. OpenGL allows new hardware innovations to be accessible through the API via the OpenGL extension mechanism. It is used in CAD, virtual reality, video games and flight simulation.
+OpenGL (Open Graphics Library) is the computer industry's standard API for defining 2-D and 3-D graphic images. OpenGL allows new hardware innovations to be accessible through the API via the OpenGL extension mechanism. It is used in CAD (Computer-aided design), virtual reality, video games, and flight simulation.
