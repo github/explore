@@ -15,7 +15,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [demo](https://github.com/topics/demo/)
 - [ ] [data-science](https://github.com/topics/data-science/)
 - [ ] [neural-network](https://github.com/topics/neural-network/)
-- [ ] [objective-c](https://github.com/topics/objective-c/)
+- [x] [objective-c](https://github.com/topics/objective-c/)
 - [ ] [iot](https://github.com/topics/iot/)
 - [ ] [lua](https://github.com/topics/lua/)
 - [ ] [automation](https://github.com/topics/automation/)
