@@ -7,6 +7,7 @@ logo: maven.png
 released: July 13, 2004
 short_description: "Maven is a build automation tool used primarily for Java projects."
 topic: maven
+related: java
 url: https://maven.apache.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Apache_Maven
 ---
