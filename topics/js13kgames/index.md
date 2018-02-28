@@ -1,7 +1,7 @@
 ---
 display_name: Js13kGames
 created_by: Andrzej Mazur
-github_url: js13kGames
+github_url: https://github.com/js13kGames
 aliases: js13k
 related: global-game-jam, game-off, ludum-dare
 logo: js13kgames.png
