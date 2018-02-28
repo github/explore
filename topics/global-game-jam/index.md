@@ -1,7 +1,7 @@
 ---
 display_name: Global Game Jam
 created_by:  Susan Gold, and Gorm Lai, and Ian Schreiber
-aliases: globalgamejam, ggj, ggj2009, ggj2010, ggj2011, ggj2012, ggj2013, ggj2014, ggj2015, ggj2016, ggj2017, ggj2018, ggj2019, ggj2020, ggj2021, ggj2022, ggj2022, ggj2023, ggj2024
+aliases: globalgamejam, ggj, ggj2009, ggj2010, ggj2011, ggj2012, ggj2013, ggj2014, ggj2015, ggj2016, ggj2017, ggj2018, ggj2019, ggj2020, ggj2021, ggj2022, ggj2023, ggj2024
 related: ludum-dare, js13kgames, game-off
 logo: global-game-jam.png
 short_description: The Global Game Jam (GGJ) is the world's largest game jam event taking place around the world at physical locations.
