@@ -23,7 +23,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [docker-compose](https://github.com/topics/docker-compose/)
 - [ ] [artificial-intelligence](https://github.com/topics/artificial-intelligence/)
 - [ ] [computer-vision](https://github.com/topics/computer-vision/)
-- [ ] [opencv](https://github.com/topics/opencv/)
+- [x] [opencv](https://github.com/topics/opencv/)
 - [x] [maven](https://github.com/topics/maven/)
 - [ ] [wpf](https://github.com/topics/wpf/)
 - [x] [xml](https://github.com/topics/xml/)
