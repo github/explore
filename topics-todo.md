@@ -24,7 +24,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [artificial-intelligence](https://github.com/topics/artificial-intelligence/)
 - [ ] [computer-vision](https://github.com/topics/computer-vision/)
 - [x] [opencv](https://github.com/topics/opencv/)
-- [ ] [maven](https://github.com/topics/maven/)
+- [x] [maven](https://github.com/topics/maven/)
 - [ ] [wpf](https://github.com/topics/wpf/)
 - [x] [xml](https://github.com/topics/xml/)
 - [ ] [game-development](https://github.com/topics/game-development/)
