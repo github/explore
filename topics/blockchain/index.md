@@ -2,7 +2,7 @@
 created_by: Satoshi Nakamoto
 display_name: Blockchain
 released: '2008'
-short_description:  Blockchain Technology provides a method to make electronic payments without needing any financial institute as banks.
+short_description:  Blockchain technology provides a method to make electronic payments without needing any financial institute as banks.
 topic: blockchain
 related: cryptocurrency, cryptography
 wikipedia_url: https://en.wikipedia.org/wiki/Blockchain
