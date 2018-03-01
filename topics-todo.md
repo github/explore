@@ -40,7 +40,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [ui](https://github.com/topics/ui/)
 - [ ] [app](https://github.com/topics/app/)
 - [x] [ajax](https://github.com/topics/ajax/)
-- [ ] [blockchain](https://github.com/topics/blockchain/)
+- [x] [blockchain](https://github.com/topics/blockchain/)
 - [ ] [winforms](https://github.com/topics/winforms/)
 - [ ] [test](https://github.com/topics/test/)
 - [ ] [portfolio](https://github.com/topics/portfolio/)
