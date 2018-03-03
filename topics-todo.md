@@ -33,7 +33,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [image-processing](https://github.com/topics/image-processing/)
 - [ ] [animation](https://github.com/topics/animation/)
 - [ ] [example](https://github.com/topics/example/)
-- [ ] [ethereum](https://github.com/topics/ethereum/)
+- [x] [ethereum](https://github.com/topics/ethereum/)
 - [ ] [personal-website](https://github.com/topics/personal-website/)
 - [ ] [elasticsearch](https://github.com/topics/elasticsearch/)
 - [ ] [monitoring](https://github.com/topics/monitoring/)
