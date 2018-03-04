@@ -3,7 +3,7 @@ created_by: Vitalik Buterin
 display_name: Ethereum
 logo: ethereum.png
 released: July 30, 2015
-short_description: Ethereum is an open software platform based on blockchain technology enables developers to build and deploy decentralized applications. 
+short_description: Ethereum is a distributed public blockchain network.
 topic: ethereum
 related: blockchain, cryptocurrency
 url: https://www.ethereum.org/
