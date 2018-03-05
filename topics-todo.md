@@ -17,7 +17,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [neural-network](https://github.com/topics/neural-network/)
 - [x] [objective-c](https://github.com/topics/objective-c/)
 - [ ] [iot](https://github.com/topics/iot/)
-- [ ] [lua](https://github.com/topics/lua/)
+- [x] [lua](https://github.com/topics/lua/)
 - [ ] [automation](https://github.com/topics/automation/)
 - [ ] [parser](https://github.com/topics/parser/)
 - [ ] [docker-compose](https://github.com/topics/docker-compose/)
