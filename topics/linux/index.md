@@ -5,8 +5,8 @@ display_name: Linux
 github_url: https://github.com/torvalds/linux
 logo: linux.png
 released: September 17, 1991
-short_description: Linux is an open source operating system.
+short_description: Linux is an open source operating system kernel.
 topic: linux
-wikipedia_url: https://en.wikipedia.org/wiki/Linux
+wikipedia_url: https://en.wikipedia.org/wiki/Linux_kernel
 ---
-Linux is an open source operating system modeled after UNIX. Widely used, it is known for its efficiency and reliability.
+Linux is an open source Unix-like operating system kernel. Widely used, it is known for its efficiency and reliability.
