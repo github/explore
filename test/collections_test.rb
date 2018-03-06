@@ -20,10 +20,9 @@ describe "collections" do
       end
 
       it "has valid items" do
-        metadata = metadata_for(collections_dir, collection) || {}
-        items = metadata["items"]
         invalid_slugs = []
-        items.each do |item|
+
+        items_for_collection(collection).each do |item|
           begin
             URI.parse(item)
           rescue URI::InvalidURIError

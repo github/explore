@@ -42,6 +42,11 @@ def collections
   collection_dirs.map { |dir_path| File.basename(dir_path) }
 end
 
+def items_for_collection(collection)
+  metadata = metadata_for(collections_dir, collection) || {}
+  metadata["items"]
+end
+
 def image_paths_for_collection(collection)
   Dir["#{collections_dir}/#{collection}/*"].select do |entry|
     File.file?(entry) && COLLECTION_IMAGE_EXTENSIONS.include?(File.extname(entry).downcase)
