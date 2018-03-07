@@ -72,7 +72,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [devops](https://github.com/topics/devops/)
 - [ ] [sdk](https://github.com/topics/sdk/)
 - [ ] [cryptography](https://github.com/topics/cryptography/)
-- [ ] [terminal](https://github.com/topics/terminal/)
+- [x] [terminal](https://github.com/topics/terminal/)
 - [ ] [crawler](https://github.com/topics/crawler/)
 - [ ] [configuration](https://github.com/topics/configuration/)
 - [ ] [microservice](https://github.com/topics/microservice/)
