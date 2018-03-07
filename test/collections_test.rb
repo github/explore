@@ -32,6 +32,17 @@ describe "collections" do
         assert_empty invalid_slugs, "Invalid item slugs #{invalid_slugs}"
       end
 
+      it "does not include items pointing to non-existent users or organizations" do
+        items_for_collection(collection).each do |item|
+          next unless item.match?(USERNAME_REGEX)
+
+          user_url = URI("https://api.github.com/users/#{item}")
+          response = Net::HTTP.get_response(user_url)
+
+          assert response.code == 200, "user or organization #{item} does not exist"
+        end
+      end
+
       it "has an index.md" do
         path = File.join(collections_dir, collection, "index.md")
 
