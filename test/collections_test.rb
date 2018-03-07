@@ -150,10 +150,11 @@ describe "collections" do
 
       it "has valid created_by value" do
         metadata = metadata_for(collections_dir, collection) || {}
+        created_by = metadata["created_by"]
 
-        if metadata["created_by"]
-          assert metadata["created_by"].match(USERNAME_REGEX),
-                 "may only contain alphanumeric characters or single hyphens, " \
+        if created_by
+          assert created_by.match(USERNAME_REGEX),
+                 "#{created_by} may only contain alphanumeric characters or single hyphens, " \
                  "and cannot begin or end with a hyphen"
         end
       end
