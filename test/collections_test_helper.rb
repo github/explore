@@ -1,6 +1,7 @@
 # rubocop:disable Metrics/LineLength
 
 require_relative "./test_helper"
+require "octokit"
 
 VALID_COLLECTION_METADATA_KEYS = %w[collection created_by display_name image items].freeze
 REQUIRED_COLLECTION_METADATA_KEYS = %w[items display_name].freeze

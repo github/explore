@@ -33,25 +33,35 @@ describe "collections" do
       end
 
       it "does not include items pointing to private or non-existent repos" do
+        invalid_repos = []
+
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX)
 
-          repo_url = URI("https://api.github.com/repos/#{item}")
-          response = Net::HTTP.get_response(repo_url)
+          begin
+            Octokit.repo(item)
+          rescue Octokit::NotFound
+            invalid_repos << item
+          end
 
-          assert response.code == 200, "repository #{item} does not exist or is private"
+          assert_empty invalid_repos, "repositories #{item} do not exist or are private"
         end
       end
 
       it "does not include items pointing to non-existent users or organizations" do
+        invalid_users = []
+
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_REGEX)
 
-          user_url = URI("https://api.github.com/users/#{item}")
-          response = Net::HTTP.get_response(user_url)
-
-          assert response.code == 200, "user or organization #{item} does not exist"
+          begin
+            Octokit.user(item)
+          rescue Octokit::NotFound
+            invalid_users << item
+          end
         end
+
+        assert_empty invalid_users, "users or organizations #{invalid_users} do not exist"
       end
 
       it "has an index.md" do
