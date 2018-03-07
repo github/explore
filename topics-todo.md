@@ -51,7 +51,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [functional-programming](https://github.com/topics/functional-programming/)
 - [ ] [video](https://github.com/topics/video/)
 - [ ] [android-library](https://github.com/topics/android-library/)
-- [ ] [webapp](https://github.com/topics/webapp/)
+- [x] [webapp](https://github.com/topics/webapp/)
 - [ ] [spark](https://github.com/topics/spark/)
 - [ ] [keras](https://github.com/topics/keras/)
 - [ ] [socket-io](https://github.com/topics/socket-io/)
