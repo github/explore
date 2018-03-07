@@ -43,9 +43,9 @@ describe "collections" do
           rescue Octokit::NotFound
             invalid_repos << item
           end
-
-          assert_empty invalid_repos, "repositories #{item} do not exist or are private"
         end
+
+        assert_empty invalid_repos, "repositories #{item} do not exist or are private"
       end
 
       it "does not include items pointing to non-existent users or organizations" do
