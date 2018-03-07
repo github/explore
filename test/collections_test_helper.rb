@@ -15,6 +15,10 @@ COLLECTION_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 USERNAME_REGEX = /\A[a-z0-9]+(-[a-z0-9]+)*\z/i
 USERNAME_AND_REPO_REGEX = /\A[^\/]+\/[^\/]+\z/
 
+Octokit.configure do |c|
+  c.access_token = ENV["OCTOKIT_ACCESS_TOKEN"]
+end
+
 def invalid_collection_message(collection)
   "'#{collection}' must be between 1-#{MAX_COLLECTION_SLUG_LENGTH} characters, start with a letter or number, " \
     "and may include hyphens"
