@@ -32,6 +32,17 @@ describe "collections" do
         assert_empty invalid_slugs, "Invalid item slugs #{invalid_slugs}"
       end
 
+      it "does not include items pointing to private or non-existent repos" do
+        items_for_collection(collection).each do |item|
+          next unless item.match?(USERNAME_AND_REPO_REGEX)
+
+          repo_url = URI("https://api.github.com/repos/#{item}")
+          response = Net::HTTP.get_response(repo_url)
+
+          assert response.code == 200, "repository #{item} does not exist or is private"
+        end
+      end
+
       it "does not include items pointing to non-existent users or organizations" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_REGEX)
