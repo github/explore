@@ -45,7 +45,7 @@ describe "collections" do
           end
         end
 
-        assert_empty invalid_repos, "repositories #{item} do not exist or are private"
+        assert_empty invalid_repos, "repositories #{invalid_repos} do not exist or are private"
       end
 
       it "does not include items pointing to non-existent users or organizations" do
