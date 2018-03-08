@@ -39,7 +39,7 @@ PLATFORMS
 DEPENDENCIES
   fastimage (~> 2.1.0)
   minitest (~> 5.10.3)
-  octokit (~> 4.0)
+  octokit
   rake
   rubocop (~> 0.50.0)
   safe_yaml (~> 1.0.4)
