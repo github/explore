@@ -13,7 +13,7 @@ COLLECTION_IMAGE_EXTENSIONS = %w[.jpg .jpeg .png .gif].freeze
 COLLECTION_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 
 USERNAME_REGEX = /\A[a-z0-9]+(-[a-z0-9]+)*\z/i
-USERNAME_AND_REPO_REGEX = /\A[^\/]+\/[^\/]+\z/
+USERNAME_AND_REPO_REGEX = %r{\A[^/]+\/[^/]+$\z}
 
 Octokit.configure do |c|
   c.access_token = ENV["OCTOKIT_ACCESS_TOKEN"]
