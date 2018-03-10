@@ -15,7 +15,7 @@ USERNAME_REGEX = /\A[a-z0-9]+(-[a-z0-9]+)*\z/i
 USERNAME_AND_REPO_REGEX = %r{\A[^/]+\/[^/]+$\z}
 
 # We allow 301 in case of automatic redirects for renamed repositories
-VALID_USER_AND_REPO_HTTP_STATUSES = %r{\A(200|301)\z}
+VALID_USER_AND_REPO_HTTP_STATUSES = /\A(200|301)\z/
 
 def invalid_collection_message(collection)
   "'#{collection}' must be between 1-#{MAX_COLLECTION_SLUG_LENGTH} characters, start with a letter or number, " \
