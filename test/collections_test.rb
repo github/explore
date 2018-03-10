@@ -38,9 +38,10 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX)
 
-          begin
-            Octokit.repo(item)
-          rescue Octokit::NotFound
+          url = URI("https://github.com/#{item}")
+          http_status = Net::HTTP.get_response(url).code
+
+          unless http_status.match?(VALID_USER_AND_REPO_HTTP_STATUSES)
             invalid_repos << item
           end
         end
@@ -54,9 +55,10 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_REGEX)
 
-          begin
-            Octokit.user(item)
-          rescue Octokit::NotFound
+          url = URI("https://github.com/#{item}")
+          http_status = Net::HTTP.get_response(url).code
+
+          unless http_status.match?(VALID_USER_AND_REPO_HTTP_STATUSES)
             invalid_users << item
           end
         end
