@@ -17,7 +17,7 @@ items:
  - 4ian/GD
  - CRYTEK/CRYENGINE
  - urho3d/Urho3D
- - methusalah/OpenRTS
+ - benoit-dumas/OpenRTS
  - BearishSun/BansheeEngine
  - photonstorm/phaser
  - melonjs/melonJS

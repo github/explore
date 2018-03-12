@@ -5,7 +5,7 @@ items:
  - scala/scala
  - elixir-lang/elixir
  - nulang/nu
- - stevedekorte/io
+ - ioLanguage/io
  - gkz/LiveScript
  - elm-lang/elm-compiler
  - php/php-src
