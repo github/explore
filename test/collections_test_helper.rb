@@ -3,17 +3,19 @@
 require_relative "./test_helper"
 
 VALID_COLLECTION_METADATA_KEYS = %w[collection created_by display_name image items].freeze
-
 REQUIRED_COLLECTION_METADATA_KEYS = %w[items display_name].freeze
 
 MAX_COLLECTION_SLUG_LENGTH = 40
 MAX_COLLECTION_DISPLAY_NAME_LENGTH = 100
 
 COLLECTION_IMAGE_EXTENSIONS = %w[.jpg .jpeg .png .gif].freeze
-
 COLLECTION_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 
 USERNAME_REGEX = /\A[a-z0-9]+(-[a-z0-9]+)*\z/i
+USERNAME_AND_REPO_REGEX = %r{\A[^/]+\/[^/]+$\z}
+
+# We allow 301 in case of automatic redirects for renamed repositories
+VALID_USER_AND_REPO_HTTP_STATUSES = /\A(200|301)\z/
 
 def invalid_collection_message(collection)
   "'#{collection}' must be between 1-#{MAX_COLLECTION_SLUG_LENGTH} characters, start with a letter or number, " \
@@ -40,6 +42,11 @@ end
 
 def collections
   collection_dirs.map { |dir_path| File.basename(dir_path) }
+end
+
+def items_for_collection(collection)
+  metadata = metadata_for(collections_dir, collection) || {}
+  metadata["items"]
 end
 
 def image_paths_for_collection(collection)

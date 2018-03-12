@@ -26,6 +26,7 @@ items:
  - standard/standard
  - lerna/lerna
  - marmelab/sedy
+ - badges/shields
 display_name: Tools for Open Source
 created_by: mozzadrella
 image: tools-for-open-source.png

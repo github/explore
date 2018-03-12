@@ -26,11 +26,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fastimage (~> 2.1.0)
-  minitest (~> 5.10.3)
+  fastimage
+  minitest
   rake
-  rubocop (~> 0.50.0)
-  safe_yaml (~> 1.0.4)
+  rubocop
+  safe_yaml
 
 BUNDLED WITH
-   1.15.4
+   1.16.1

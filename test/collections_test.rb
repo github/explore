@@ -20,10 +20,9 @@ describe "collections" do
       end
 
       it "has valid items" do
-        metadata = metadata_for(collections_dir, collection) || {}
-        items = metadata["items"]
         invalid_slugs = []
-        items.each do |item|
+
+        items_for_collection(collection).each do |item|
           begin
             URI.parse(item)
           rescue URI::InvalidURIError
@@ -31,6 +30,40 @@ describe "collections" do
           end
         end
         assert_empty invalid_slugs, "Invalid item slugs #{invalid_slugs}"
+      end
+
+      it "does not include items pointing to private or non-existent repos" do
+        invalid_repos = []
+
+        items_for_collection(collection).each do |item|
+          next unless item.match?(USERNAME_AND_REPO_REGEX)
+
+          url = URI("https://github.com/#{item}")
+          http_status = Net::HTTP.get_response(url).code
+
+          unless http_status.match?(VALID_USER_AND_REPO_HTTP_STATUSES)
+            invalid_repos << item
+          end
+        end
+
+        assert_empty invalid_repos, "repositories #{invalid_repos} do not exist or are private"
+      end
+
+      it "does not include items pointing to non-existent users or organizations" do
+        invalid_users = []
+
+        items_for_collection(collection).each do |item|
+          next unless item.match?(USERNAME_REGEX)
+
+          url = URI("https://github.com/#{item}")
+          http_status = Net::HTTP.get_response(url).code
+
+          unless http_status.match?(VALID_USER_AND_REPO_HTTP_STATUSES)
+            invalid_users << item
+          end
+        end
+
+        assert_empty invalid_users, "users or organizations #{invalid_users} do not exist"
       end
 
       it "has an index.md" do
@@ -119,10 +152,11 @@ describe "collections" do
 
       it "has valid created_by value" do
         metadata = metadata_for(collections_dir, collection) || {}
+        created_by = metadata["created_by"]
 
-        if metadata["created_by"]
-          assert metadata["created_by"].match(USERNAME_REGEX),
-                 "may only contain alphanumeric characters or single hyphens, " \
+        if created_by
+          assert created_by.match(USERNAME_REGEX),
+                 "#{created_by} may only contain alphanumeric characters or single hyphens, " \
                  "and cannot begin or end with a hyphen"
         end
       end
