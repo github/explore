@@ -89,32 +89,33 @@ describe "topics" do
       it "has a valid GitHub URL" do
         metadata = metadata_for(topics_dir, topic) || {}
 
-        if metadata["github_url"]
-          uri = URI.parse(metadata["github_url"])
+        if (url = metadata["github_url"])
+          uri = URI.parse(url)
           assert valid_uri_scheme?(uri.scheme), "github_url should start with http:// or https://"
-          assert_includes ["www.github.com", "github.com"], uri.host,
-                          "github_url should point to either www.github.com or github.com"
+          regex = /github\.com/
+          assert_match regex, uri.host, "github_url #{url} should point to github.com"
         end
       end
 
       it "has a valid URL" do
         metadata = metadata_for(topics_dir, topic) || {}
 
-        if metadata["url"]
-          uri = URI.parse(metadata["url"])
+        if (url = metadata["url"])
+          uri = URI.parse(url)
           assert valid_uri_scheme?(uri.scheme), "url should start with http:// or https://"
+          assert uri.host, "url #{url} should have a hostname"
         end
       end
 
       it "has a valid Wikipedia URL" do
         metadata = metadata_for(topics_dir, topic) || {}
 
-        if metadata["wikipedia_url"]
-          uri = URI.parse(metadata["wikipedia_url"])
-          regex = /wikipedia\.org/
+        if (url = metadata["wikipedia_url"])
+          uri = URI.parse(url)
           assert valid_uri_scheme?(uri.scheme),
                  "wikipedia_url should start with http:// or https://"
-          assert_match regex, uri.host, "wikipedia_url should point to wikipedia.org"
+          regex = /wikipedia\.org/
+          assert_match regex, uri.host, "wikipedia_url #{url} should point to wikipedia.org"
         end
       end
 
