@@ -66,6 +66,25 @@ describe "collections" do
         assert_empty invalid_users, "users or organizations #{invalid_users} do not exist"
       end
 
+      it "fails if a user, organization, or repository has been renamed" do
+        errors = []
+
+        items_for_collection(collection).each do |item|
+          next unless item.match?(USERNAME_AND_REPO_REGEX) || item.match?(USERNAME_REGEX)
+
+          url = URI("https://github.com/#{item}")
+          response = Net::HTTP.get_response(url)
+          next unless response.code == "301"
+
+          new_name = response.header["location"]
+          new_name.gsub!("https://github.com/", "")
+
+          errors << "#{collection}: #{item} has been renamed to #{new_name}"
+        end
+
+        assert_empty errors
+      end
+
       it "has an index.md" do
         path = File.join(collections_dir, collection, "index.md")
 
