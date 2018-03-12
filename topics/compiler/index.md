@@ -1,6 +1,6 @@
 ---
 display_name: Compiler
-short_description: Compiler is a program that translates high level language (human readable) to low level language (machine language).
+short_description: Compilers are program that translates high level language (human readable) to low level language (machine language).
 topic: compiler
 related: interpreter, gcc, fortran
 wikipedia_url: https://en.wikipedia.org/wiki/Compiler
