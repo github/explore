@@ -32,8 +32,8 @@ describe "collections" do
         assert_empty invalid_slugs, "Invalid item slugs #{invalid_slugs}"
       end
 
-      it "does not include items pointing to private or non-existent repos" do
-        invalid_repos = []
+      it "fails if a repository does not exist or is private" do
+        errors = []
 
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX)
@@ -41,16 +41,16 @@ describe "collections" do
           url = URI("https://github.com/#{item}")
           http_status = Net::HTTP.get_response(url).code
 
-          unless http_status.match?(VALID_USER_AND_REPO_HTTP_STATUSES)
-            invalid_repos << item
+          unless %w[200 301].include?(http_status)
+            errors << "#{collection}: #{item} does not exist or is private"
           end
         end
 
-        assert_empty invalid_repos, "repositories #{invalid_repos} do not exist or are private"
+        assert_empty errors
       end
 
-      it "does not include items pointing to non-existent users or organizations" do
-        invalid_users = []
+      it "fails if a user or organization does not exist" do
+        errors = []
 
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_REGEX)
@@ -58,12 +58,31 @@ describe "collections" do
           url = URI("https://github.com/#{item}")
           http_status = Net::HTTP.get_response(url).code
 
-          unless http_status.match?(VALID_USER_AND_REPO_HTTP_STATUSES)
-            invalid_users << item
+          unless %w[200 301].include?(http_status)
+            errors << "#{collection}: #{item} does not exist"
           end
         end
 
-        assert_empty invalid_users, "users or organizations #{invalid_users} do not exist"
+        assert_empty errors
+      end
+
+      it "fails if a user, organization, or repository has been renamed" do
+        errors = []
+
+        items_for_collection(collection).each do |item|
+          next unless item.match?(USERNAME_AND_REPO_REGEX) || item.match?(USERNAME_REGEX)
+
+          url = URI("https://github.com/#{item}")
+          response = Net::HTTP.get_response(url)
+          next unless response.code == "301"
+
+          new_name = response.header["location"]
+          new_name.gsub!("https://github.com/", "")
+
+          errors << "#{collection}: #{item} has been renamed to #{new_name}"
+        end
+
+        assert_empty errors
       end
 
       it "has an index.md" do
