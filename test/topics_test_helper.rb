@@ -10,9 +10,7 @@ TOPIC_IMAGE_EXTENSIONS = %w[.jpg .jpeg .png].freeze
 
 MAX_TOPIC_LENGTH = 35
 
-MAX_ALIAS_COUNT = 10
-
-MAX_ALIAS_COUNT_EXCEPTIONS = %w[global-game-jam ludum-dare].freeze
+MAX_ALIAS_COUNT = 120
 
 MAX_RELATED_TOPIC_COUNT = 10
 
