@@ -129,10 +129,8 @@ describe "topics" do
         end
 
         assert_equal aliases.size, aliases.uniq.size, "should not duplicate aliases"
-        unless MAX_ALIAS_COUNT_EXCEPTIONS.include? topic
-          assert aliases.size <= MAX_ALIAS_COUNT,
-                 "should have no more than #{MAX_ALIAS_COUNT} aliases"
-        end
+        assert aliases.size <= MAX_ALIAS_COUNT,
+               "should have no more than #{MAX_ALIAS_COUNT} aliases"
       end
 
       it "has valid related topics" do
