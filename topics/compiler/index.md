@@ -1,6 +1,6 @@
 ---
 display_name: Compiler
-short_description: Compilers are software that translate higher-level (more human readable) programming languages to a lower-level languages (e.g. machine code).
+short_description: Compilers are software that translate higher-level (more human readable) programming languages to lower-level languages (e.g. machine code).
 topic: compiler
 related: interpreter, gcc, fortran
 wikipedia_url: https://en.wikipedia.org/wiki/Compiler
