@@ -1,8 +1,8 @@
 ---
 display_name: Compiler
-short_description: Compilers are program that translates high level language (human readable) to low level language (machine language).
+short_description: Compilers are software that translate higher-level (more human readable) programming languages to a lower-level languages (e.g. machine code).
 topic: compiler
 related: interpreter, gcc, fortran
 wikipedia_url: https://en.wikipedia.org/wiki/Compiler
 ---
-A compiler is a software that translate high level language to executable machine code in one go, and reports error (if any). The processor executes object code, which indicates when binary high and low signals are required in the arithmetic logic unit of the processor. Examples of compilers include BASIC, Fortran, C++, C, Java, etc.
+Compilers are software that translate higher-level programming languages to lower-level languages (e.g. machine code). The processor executes machine code, which indicates when binary high and low signals are required in the arithmetic logic unit of the processor. Examples of compiled languages include BASIC, Fortran, C++, C and Java.
