@@ -32,6 +32,13 @@ describe "collections" do
         assert_empty invalid_slugs, "Invalid item slugs #{invalid_slugs}"
       end
 
+      it "has valid number of items" do
+        items = items_for_collection(collection)
+        assert (1...MAX_COLLECTION_ITEMS_LENGTH + 1).cover?(items.length),
+               "must have no more than #{MAX_COLLECTION_ITEMS_LENGTH} items " \
+               "(currently #{items.length})"
+      end
+
       it "fails if a repository does not exist or is private" do
         errors = []
 
