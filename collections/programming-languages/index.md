@@ -40,7 +40,6 @@ items:
  - purescript/purescript
  - PowerShell/PowerShell
  - rakudo/rakudo
- - SWI-Prolog/swipl-devel
 display_name: Programming languages
 created_by: leereilly
 ---
