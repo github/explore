@@ -1,5 +1,3 @@
-# rubocop:disable Metrics/LineLength
-
 require_relative "./test_helper"
 
 VALID_COLLECTION_METADATA_KEYS = %w[collection created_by display_name image items].freeze
@@ -16,8 +14,8 @@ USERNAME_REGEX = /\A[a-z0-9]+(-[a-z0-9]+)*\z/i
 USERNAME_AND_REPO_REGEX = %r{\A[^/]+\/[^/]+$\z}
 
 def invalid_collection_message(collection)
-  "'#{collection}' must be between 1-#{MAX_COLLECTION_SLUG_LENGTH} characters, start with a letter or number, " \
-    "and may include hyphens"
+  "'#{collection}' must be between 1-#{MAX_COLLECTION_SLUG_LENGTH} characters, " \
+  "start with a letter or number, and may include hyphens"
 end
 
 def valid_collection?(raw_collection)

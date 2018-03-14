@@ -65,9 +65,7 @@ describe "collections" do
           url = URI("https://github.com/#{item}")
           http_status = Net::HTTP.get_response(url).code
 
-          unless %w[200 301].include?(http_status)
-            errors << "#{collection}: #{item} does not exist"
-          end
+          errors << "#{collection}: #{item} does not exist" unless %w[200 301].include?(http_status)
         end
 
         assert_empty errors
