@@ -77,7 +77,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [configuration](https://github.com/topics/configuration/)
 - [ ] [microservice](https://github.com/topics/microservice/)
 - [ ] [project](https://github.com/topics/project/)
-- [ ] [compiler](https://github.com/topics/compiler/)
+- [x] [compiler](https://github.com/topics/compiler/)
 - [ ] [script](https://github.com/topics/script/)
 - [ ] [spring-mvc](https://github.com/topics/spring-mvc/)
 - [ ] [robotics](https://github.com/topics/robotics/)
