@@ -2,9 +2,9 @@
 created_by: Satoshi Nakamoto
 display_name: Blockchain
 released: '2008'
-short_description:  Blockchain technology provides a method to make electronic payments without the need for a trusted authority.
+short_description:  Blockchains are distributed ledgers that can record transactions between multiple parties efficiently and in a verifiable and permanent way.
 topic: blockchain
-related: cryptocurrency, cryptography, bitcoin
+related: cryptocurrency, cryptography, bitcoin, ethereum
 wikipedia_url: https://en.wikipedia.org/wiki/Blockchain
 ---
-A blockchain is a digitized, decentralized, public ledger of all cryptocurrency transactions. Benefits of adopting blockchain technology are a distributed database, lower costs transparent, and decentralization. It cannot be corrupted: altering any unit of information on the blockchain would mean using a huge amount of computing power to override the entire network.
+A blockchain is a digitized, decentralized ledger of transactions. Blockchains record a continuously growing list of records, called blocks, which are linked and secured using cryptography.
