@@ -8,6 +8,6 @@ topic: neo
 related: blockchain, cryptocurrency
 url: https://www.neo.org/
 github_url: https://github.com/neo-project
-documentation_url: http://docs.neo.org/
+wikipedia_url: http://docs.neo.org/
 ---
 NEO is the use of blockchain technology and digital identity to digitize assets, the use of smart contracts for digital assets to be self-managed, to achieve "smart economy" with a distributed network.
