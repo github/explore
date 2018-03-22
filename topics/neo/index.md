@@ -5,7 +5,7 @@ logo: neo.png
 released: July 15, 2016
 short_description: A distributed network for the Smart Economy.
 topic: neo
-related: blockchain, cryptocurrency, smart contract
+related: blockchain, cryptocurrency
 url: https://www.neo.org/
 github_url: https://github.com/neo-project
 documentation_url: http://docs.neo.org/
