@@ -4,6 +4,7 @@ created_by: Brian Fox
 display_name: Bash
 github_url: https://github.com/gitGNU/gnu_bash
 logo: bash.png
+related: shell
 released: June 8, 1989
 short_description: Bash is a shell and command language interpreter for the GNU operating
   system.

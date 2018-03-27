@@ -3,6 +3,7 @@ aliases: c-sharp, csharp-code, csharp7, csharp-core, csharp6, csharp-resources
 created_by: Anders Hejlsberg
 display_name: C#
 logo: csharp.png
+related: language, dotnet
 released: June 2000
 short_description: C# (C sharp) is an object-oriented programming language by Microsoft.
 topic: csharp

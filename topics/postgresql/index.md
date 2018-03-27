@@ -1,5 +1,5 @@
 ---
-aliases: postgres, postgressql
+aliases: postgres
 created_by: Michael Stonebraker
 display_name: PostgreSQL
 github_url: https://github.com/postgres/postgres

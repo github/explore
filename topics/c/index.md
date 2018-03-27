@@ -3,6 +3,7 @@ aliases: c-language
 created_by: Dennis Ritchie
 display_name: C
 logo: c.png
+related: language
 released: '1972'
 short_description: C is a general purpose programming language that first appeared
   in 1972.

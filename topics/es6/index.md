@@ -5,7 +5,7 @@ display_name: ES6
 github_url: https://github.com/tc39
 logo: es6.png
 released: '1997'
-short_description: EcmaScript 6 is the sixth release of the ECMAScript language.
+short_description: ECMAScript 6 is the sixth release of the ECMAScript language.
 topic: es6
 url: http://www.ecma-international.org/
 wikipedia_url: https://en.wikipedia.org/wiki/ECMAScript

@@ -1,11 +1,24 @@
 # GitHub Explore
-<img src="https://user-images.githubusercontent.com/1840802/31236555-436777c4-a9a9-11e7-8377-c5c4c4c7722e.png" width="650" />
 
-Topic pages, curated by the community.
+[![Build Status](https://travis-ci.org/github/explore.svg?branch=master)](https://travis-ci.org/github/explore)
 
-[Topics](https://help.github.com/articles/about-topics/) help you explore repositories in a particular subject area, learn more about a subject area, and find projects to contribute to.
+This repository houses all of the community-curated content for GitHub Topics and Collections.
 
-If you want to suggest edits to an existing topic page, or curate a new topic page, read our [contributing guide](CONTRIBUTING.md) to get started.
+[Topics](https://help.github.com/articles/about-topics/) help you explore repositories in a particular subject area, learn more about that subject, and find projects to contribute to.
+
+[Collections](http://github.com/collections) help you discover hand-picked repositories, developers, organizations, videos, and articles that share a common theme.
+
+If you want to suggest edits to an existing topic page or collection, or curate a new one, read our [contributing guide](CONTRIBUTING.md) to get started. You can also [review a list of popular topics that need more context](topics-todo.md) to get an idea of where to start.
+
+## Running tests
+
+There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis CI will run the tests automatically. If you want to run the tests yourself locally, you will need Ruby and Bundler installed.
+
+You can run the tests using:
+
+```bash
+script/cibuild
+```
 
 ## Licenses
 
