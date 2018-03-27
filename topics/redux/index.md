@@ -3,8 +3,9 @@ created_by: Dan Abramov and Andrew Clark
 display_name: Redux
 github_url: https://github.com/reactjs/redux/
 logo: redux.png
+related: javascript, react
 released: June 2, 2015
-short_description: Redux is an open source JavaScript library.
+short_description: Redux is a predictable state container for JavaScript apps.
 topic: redux
 url: http://redux.js.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Redux_(JavaScript_library)

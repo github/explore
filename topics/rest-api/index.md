@@ -1,6 +1,7 @@
 ---
-aliases: rest-api-tutorial
+aliases: rest, rest-api-tutorial
 display_name: REST API
+related: api, graphql-api
 short_description: A representational state transfer (REST) API is a way to provide
   compatibility between computer systems on the internet.
 topic: rest-api
