@@ -1,5 +1,5 @@
 ---
-aliases: identity, cloud-identity, ID-as-a-service, IDaaS, user-management, identity-management-as-a-service, CIAM
+aliases: identity, id-as-a-service, idaas
 created_by: Eugenio Pace and Matías Woloski
 display_name: Auth0
 github_url: https://github.com/Auth0
