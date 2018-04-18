@@ -4,7 +4,7 @@ items:
  - octobox/octobox
  - semantic-release/semantic-release
  - Netflix/hubcommander
- - skywinder/github-changelog-generator
+ - github-changelog-generator/github-changelog-generator
  - servo/homu
  - zeke/ghwd
  - jlord/offline-issues
@@ -17,7 +17,6 @@ items:
  - WeAllJS/weallbehave
  - WeAllJS/weallcontribute
  - danger/danger
- - facebook/mention-bot
  - icecrime/poule
  - probot/settings
  - cla-assistant/cla-assistant
