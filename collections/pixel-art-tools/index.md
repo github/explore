@@ -5,6 +5,7 @@ items:
  - https://github.com/jvalen/pixel-art-react/
  - https://github.com/maierfelix/poxi/
  - https://github.com/gmattie/Data-Pixels/
+ - https://github.com/elrumordelaluz/Pixelator
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png
