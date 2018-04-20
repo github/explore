@@ -25,6 +25,7 @@ items:
  - marpo60/github-compare-tags
  - cheshire137/hubnav
  - ryanflorence/github-plusone-extension
+ - andersonba/github-review-filter
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
