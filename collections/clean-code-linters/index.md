@@ -18,6 +18,7 @@ items:
  - pre-commit/pre-commit
  - rodjek/puppet-lint
  - koalaman/shellcheck
+ - duaraghav8/Solium
 display_name: Clean code linters
 created_by: holman
 ---
