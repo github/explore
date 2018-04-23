@@ -12,6 +12,7 @@ items:
  - spack/spack
  - ipython/ipython
  - ropensci/rplos
+ - obspy/obspy
 display_name: Software in science
 image: software-in-science.png
 ---
