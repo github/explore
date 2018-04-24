@@ -16,6 +16,7 @@ items:
  - WhitestormJS/whs.js
  - GooTechnologies/goojs
  - shakiba/planck.js
+ - Irrelon/ige
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---
