@@ -3,6 +3,7 @@
 I am:
   - [ ] Suggesting edits to an existing collection
   - [ ] Curating a new collection
+  - [ ] Unaffiliated with the project (not self-promoting as e.g. a maintainer, creator, contractor or employee)
 
 ***********EDITING AN EXISTING COLLECTION************
 
