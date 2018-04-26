@@ -7,6 +7,7 @@ items:
  - cernopendata/opendata.cern.ch
  - openaddresses/openaddresses
  - APIs-guru/openapi-directory
+ - openfoodfacts/openfoodfacts-server
 display_name: Open data
 created_by: benbalter
 ---
