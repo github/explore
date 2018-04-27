@@ -10,7 +10,6 @@ items:
  - jasonlong/isometric-contributions
  - ForbesLindesay/github-real-names
  - benbalter/github-mention-highlighter
- - sindresorhus/notifier-for-github-chrome
  - sindresorhus/notifier-for-github
  - OctoLinker/OctoLinker
  - ProLoser/Github-Omnibox
