@@ -1,29 +1,29 @@
 ---
 items:
- - buunguyen/octotree
- - mike-north/chrome-github-boxcutter
- - muan/dashboard
- - muan/github-gmail
- - thieman/github-selfies
- - Yatser/prettypullrequests
- - sanemat/do-not-merge-wip-for-github
- - jasonlong/isometric-contributions
- - ForbesLindesay/github-real-names
- - benbalter/github-mention-highlighter
- - sindresorhus/notifier-for-github
- - OctoLinker/OctoLinker
- - ProLoser/Github-Omnibox
- - Justineo/github-hovercard
- - panzerdp/clipboardy
- - kamranahmedse/githunt
- - harshjv/github-repo-size
- - sindresorhus/refined-github
- - bitoiu/markwrap
- - bitoiu/github-red-alert
  - Kibibit/achievibit
+ - mike-north/chrome-github-boxcutter
+ - panzerdp/clipboardy
+ - muan/dashboard
+ - sanemat/do-not-merge-wip-for-github
  - marpo60/github-compare-tags
- - cheshire137/hubnav
+ - muan/github-gmail
+ - Justineo/github-hovercard
+ - benbalter/github-mention-highlighter
+ - ProLoser/Github-Omnibox
  - ryanflorence/github-plusone-extension
+ - ForbesLindesay/github-real-names
+ - bitoiu/github-red-alert
+ - harshjv/github-repo-size
+ - thieman/github-selfies
+ - kamranahmedse/githunt
+ - cheshire137/hubnav
+ - jasonlong/isometric-contributions
+ - bitoiu/markwrap
+ - OctoLinker/OctoLinker
+ - buunguyen/octotree
+ - sindresorhus/notifier-for-github
+ - Yatser/prettypullrequests
+ - sindresorhus/refined-github
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
