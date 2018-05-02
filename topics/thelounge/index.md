@@ -1,7 +1,7 @@
 ---
 aliases: thelounge-theme
 display_name: The Lounge
-github_url: https://github.com/thelounge/lounge
+github_url: https://github.com/thelounge/thelounge
 logo: thelounge.png
 related: irc, irc-client, chat, javascript
 released: February 12, 2016
