@@ -5,7 +5,7 @@ I am:
   - [ ] Curating a new topic
   - [ ] Unaffiliated with the project (not self-promoting as e.g. a maintainer, creator, contractor or employee)
 
-***********EDITING AN EXISTING TOPIC************
+************EDITING AN EXISTING TOPIC************
 
 I'm suggesting these edits to an existing topic:
 - [ ] Image (and my file is `*.png`, square, dimensions 288x288)

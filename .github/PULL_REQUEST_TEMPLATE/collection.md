@@ -5,7 +5,7 @@ I am:
   - [ ] Curating a new collection
   - [ ] Unaffiliated with the project (not self-promoting as e.g. a maintainer, creator, contractor or employee)
 
-***********EDITING AN EXISTING COLLECTION************
+************EDITING AN EXISTING COLLECTION************
 
 I'm suggesting these edits to an existing collection:
 - [ ] Image (and my file is `*.png`, square, dimensions 288x288)
