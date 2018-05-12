@@ -16,6 +16,7 @@ items:
  - ndmitchell/hlint
  - coala/coala
  - pre-commit/pre-commit
+ - innogames/igcommit
  - rodjek/puppet-lint
  - koalaman/shellcheck
 display_name: Clean code linters
