@@ -40,6 +40,7 @@ items:
  - purescript/purescript
  - PowerShell/PowerShell
  - rakudo/rakudo
+ - ring-lang/ring
 display_name: Programming languages
 created_by: leereilly
 ---
