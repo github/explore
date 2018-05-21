@@ -7,6 +7,7 @@ items:
  - csscomb/csscomb.js
  - brigade/scss-lint
  - yaniswang/HTMLHint
+ - validator/validator
  - CSSLint/csslint
  - PyCQA/pycodestyle
  - checkstyle/checkstyle
