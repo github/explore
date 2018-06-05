@@ -10,7 +10,7 @@ items:
  - CSSLint/csslint
  - PyCQA/pycodestyle
  - checkstyle/checkstyle
- - bbatsov/rubocop
+ - rubocop-hq/rubocop
  - oclint/oclint
  - golang/lint
  - ndmitchell/hlint
