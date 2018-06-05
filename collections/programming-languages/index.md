@@ -7,7 +7,7 @@ items:
  - nulang/nu
  - ioLanguage/io
  - gkz/LiveScript
- - elm-lang/elm-compiler
+ - elm/compiler
  - php/php-src
  - jashkenas/coffeescript
  - nim-lang/Nim
@@ -40,7 +40,6 @@ items:
  - purescript/purescript
  - PowerShell/PowerShell
  - rakudo/rakudo
- - SWI-Prolog/swipl-devel
 display_name: Programming languages
 created_by: leereilly
 ---

@@ -1,10 +1,9 @@
-# rubocop:disable Metrics/LineLength
-
 require_relative "./test_helper"
 
 VALID_COLLECTION_METADATA_KEYS = %w[collection created_by display_name image items].freeze
 REQUIRED_COLLECTION_METADATA_KEYS = %w[items display_name].freeze
 
+MAX_COLLECTION_ITEMS_LENGTH = 40
 MAX_COLLECTION_SLUG_LENGTH = 40
 MAX_COLLECTION_DISPLAY_NAME_LENGTH = 100
 
@@ -14,12 +13,9 @@ COLLECTION_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 USERNAME_REGEX = /\A[a-z0-9]+(-[a-z0-9]+)*\z/i
 USERNAME_AND_REPO_REGEX = %r{\A[^/]+\/[^/]+$\z}
 
-# We allow 301 in case of automatic redirects for renamed repositories
-VALID_USER_AND_REPO_HTTP_STATUSES = /\A(200|301)\z/
-
 def invalid_collection_message(collection)
-  "'#{collection}' must be between 1-#{MAX_COLLECTION_SLUG_LENGTH} characters, start with a letter or number, " \
-    "and may include hyphens"
+  "'#{collection}' must be between 1-#{MAX_COLLECTION_SLUG_LENGTH} characters, " \
+  "start with a letter or number, and may include hyphens"
 end
 
 def valid_collection?(raw_collection)

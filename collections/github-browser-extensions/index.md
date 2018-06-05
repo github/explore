@@ -10,7 +10,6 @@ items:
  - jasonlong/isometric-contributions
  - ForbesLindesay/github-real-names
  - benbalter/github-mention-highlighter
- - sindresorhus/notifier-for-github-chrome
  - sindresorhus/notifier-for-github
  - OctoLinker/OctoLinker
  - ProLoser/Github-Omnibox
@@ -25,6 +24,7 @@ items:
  - marpo60/github-compare-tags
  - cheshire137/hubnav
  - ryanflorence/github-plusone-extension
+ - Mottie/GitHub-userscripts
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---

@@ -1,5 +1,6 @@
 ---
 items:
+ - apache/spark
  - apache/hadoop
  - jbhuang0604/awesome-computer-vision
  - GSA/data

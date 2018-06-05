@@ -129,10 +129,8 @@ describe "topics" do
         end
 
         assert_equal aliases.size, aliases.uniq.size, "should not duplicate aliases"
-        unless MAX_ALIAS_COUNT_EXCEPTIONS.include? topic
-          assert aliases.size <= MAX_ALIAS_COUNT,
-                 "should have no more than #{MAX_ALIAS_COUNT} aliases"
-        end
+        assert aliases.size <= MAX_ALIAS_COUNT,
+               "should have no more than #{MAX_ALIAS_COUNT} aliases"
       end
 
       it "has valid related topics" do
@@ -327,7 +325,7 @@ describe "topics" do
 
           match = line.match(/\b(\w+)\s\d[.,;:\s]/)
           if match
-            allowed_words_before_numbers = %w[Perl Pi]
+            allowed_words_before_numbers = %w[Perl Pi Auth]
             assert_includes allowed_words_before_numbers, match[1],
                             'Write out "one" and every number less than 10, except when they ' \
                             "follow one of: #{allowed_words_before_numbers.join(', ')}"
