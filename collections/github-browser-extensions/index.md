@@ -25,6 +25,7 @@ items:
  - cheshire137/hubnav
  - ryanflorence/github-plusone-extension
  - Mottie/GitHub-userscripts
+ - martenbjork/github-xp
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
