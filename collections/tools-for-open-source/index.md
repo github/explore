@@ -6,7 +6,7 @@ items:
  - Netflix/hubcommander
  - github-changelog-generator/github-changelog-generator
  - servo/homu
- - zeke/ghwd
+ - github-modules/ghwd
  - jlord/offline-issues
  - greenkeeperio/greenkeeper
  - probot/stale
