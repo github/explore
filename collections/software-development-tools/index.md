@@ -6,6 +6,7 @@ items:
  - peek/peek
  - charliesome/better_errors
  - jshint/jshint
+ - validator/validator
  - travis-ci/travis-ci
  - getsentry/sentry
  - jenkinsci/jenkins
