@@ -3,7 +3,7 @@ require_relative "./test_helper"
 VALID_COLLECTION_METADATA_KEYS = %w[collection created_by display_name image items].freeze
 REQUIRED_COLLECTION_METADATA_KEYS = %w[items display_name].freeze
 
-MAX_COLLECTION_ITEMS_LENGTH = 40
+MAX_COLLECTION_ITEMS_LENGTH = 50
 MAX_COLLECTION_SLUG_LENGTH = 40
 MAX_COLLECTION_DISPLAY_NAME_LENGTH = 100
 
