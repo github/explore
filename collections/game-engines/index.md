@@ -30,6 +30,7 @@ items:
  - pixijs/pixi.js
  - renpy/renpy
  - OpenRA/OpenRA
+ - OpenRCT2/OpenRCT2
 display_name: Game Engines
 created_by: leereilly
 ---
