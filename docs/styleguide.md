@@ -27,7 +27,7 @@ Include and spell out the month. Include the day number without the "th" or "nd"
 Avoid exclamation points in topic pages and collections.
 
 ### GitHub
-Always use correct capitalization when referring to “GitHub” or “Git”. Never use “GitHub” or “Git” as a verb.
+Always use correct capitalization when referring to “GitHub” or “Git.” Never use “GitHub” or “Git” as a verb.
 
 ### Numbers
 Write out “one” and every number less than 10.
@@ -37,11 +37,11 @@ Avoid using "users" in favor of developers, people, or a more specific descripti
 
 ### Words that can be tricky
 - **Agile (e.g. agile development):** Don’t capitalize “agile” unless it’s starting a sentence.
-- **Email:** Use “email”, not "e-mail".
+- **Email:** Use “email”, not "e-mail."
 - **Internet:** Don’t capitalize “internet” unless it’s starting a sentence.
 - **Open source:**
-  - Adjective: “Open source” is always lowercase, except when at the start of the sentence. You can use it as an adjective without a hyphen, as in “open source project” or “open source software”.
-  - Noun: You can also use it on it’s own to refer to open source in general, as in “give back to open source”.
-  - Verb: It’s also acceptable to use open source as a verb when referring to a project that has been “open sourced” or that you intend to “open source”.
-- **Pull request:** Never abbreviate "pull request". It’s always lowercase unless it’s starting a sentence.
-- **Repository:** Never abbreviate "repository". It’s always lowercase unless it’s starting a sentence.
+  - Adjective: “Open source” is always lowercase, except when at the start of the sentence. You can use it as an adjective without a hyphen, as in “open source project” or “open source software.”
+  - Noun: You can also use the term on its own to refer to open source in general, as in “give back to open source."
+  - Verb: It’s acceptable to use open source as a verb when referring to a project that has been “open sourced” or that you intend to “open source.”
+- **Pull request:** Never abbreviate "pull request." "Pull request" is always lowercase unless it's starting a sentence.
+- **Repository:** Never abbreviate "repository." "Repository" is always lowercase unless it's starting a sentence.
