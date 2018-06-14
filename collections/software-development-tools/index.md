@@ -11,6 +11,7 @@ items:
  - getsentry/sentry
  - jenkinsci/jenkins
  - pybuilder/pybuilder
+ - klauscfhq/signale
 display_name: Software development tools
 ---
 Build apps better, faster, stronger.
