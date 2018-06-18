@@ -4,7 +4,7 @@ display_name: Reflex FRP
 github_url: https://github.com/reflex-frp/reflex-frp
 logo: reflex-frp.png
 released: 2015
-short_description: Reflex FRP is a Haskell library for building interactive applications
+short_description: Reflex FRP is a Haskell library for building interactive applications.
 topic: reflex-frp
 aliases: reflexfrp
 url: https://reflex-frp.org
