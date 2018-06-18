@@ -30,6 +30,7 @@ items:
  - ujjwalkarn/Machine-Learning-Tutorials
  - ChristosChristofidis/awesome-deep-learning
  - fastai/courses
+ - Yorko/mlcourse_open
  - jtoy/awesome-tensorflow
  - nlintz/TensorFlow-Tutorials
  - pkmital/tensorflow_tutorials
