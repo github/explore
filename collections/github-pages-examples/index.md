@@ -6,7 +6,7 @@ items:
  - electron/electronjs.org
  - square/square.github.io
  - IBM/ibm.github.io
- - twitter/twitter.github.com
+ - twitter/twitter.github.io
  - Microsoft/microsoft.github.io
  - Yelp/yelp.github.io
  - facebook/react
