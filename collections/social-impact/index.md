@@ -1,6 +1,6 @@
 ---
 items:
- - hotosm/osm-tasking-manager2
+ - hotosm/tasking-manager
  - RefugeRestrooms/refugerestrooms
  - ifmeorg/ifme
  - GliaX/Stethoscope
