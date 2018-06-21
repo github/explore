@@ -1,8 +1,8 @@
 ---
-aliases: support, ticketing, helpdesk
-display_name: Support
-short_description: Get your team and customers the help they need.
-topic: support
-
+aliases: publishing
+display_name: Publishing
+short_description: Get your site ready for production so you can get the word out.
+topic: publishing
+wikipedia_url: https://en.wikipedia.org/wiki/Desktop_publishing
 ---
-Get your team and customers the help they need.
+Publishing is the creation of documents using page layout skills on a personal computer primarily for print. Desktop publishing software can generate layouts and produce typographic quality text and images comparable to traditional typography and printing.

@@ -1,8 +1,8 @@
 ---
-aliases: publishing
-display_name: Publishing
-short_description: Get your site ready for production so you can get the word out.
-topic: publishing
+aliases: ticketing, helpdesk
+display_name: Support
+short_description: Get your team and customers the help they need.
+topic: support
 
 ---
-Get your site ready for production so you can get the word out.
+Get your team and customers the help they need.

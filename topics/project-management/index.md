@@ -1,8 +1,9 @@
 ---
 aliases: project-management
-display_name: Project Management
+display_name: Project management
 short_description: Organize, manage, and track your project with tools that build on top of issues and pull requests.
 topic: project-management
+wikipedia_url: https://en.wikipedia.org/wiki/Project_management
 
 ---
-Monitor the impact of your code changes. Measure performance, track errors, and analyze your application.
+Project management is the practice of initiating, planning, executing, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time.
