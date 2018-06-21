@@ -1,5 +1,5 @@
 ---
-aliases: mobile, mobile-apps
+aliases: mobile-apps
 display_name: Mobile
 short_description: Tools to improve your workflow for the small screen.
 topic: mobile

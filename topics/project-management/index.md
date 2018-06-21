@@ -1,5 +1,4 @@
 ---
-aliases: project-management
 display_name: Project management
 short_description: Organize, manage, and track your project with tools that build on top of issues and pull requests.
 topic: project-management

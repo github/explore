@@ -6,4 +6,4 @@ topic: dependency-management
 wikipedia_url: https://en.wikipedia.org/wiki/Package_manager
 related: package-management
 ---
-A package manager or package management system is a collection of software tools that automate the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.
+A package manager or package management system is a collection of software tools that automate the process of installing, upgrading, configuring, or removing computer programs for a computer's operating system in a consistent manner.

@@ -1,5 +1,5 @@
 ---
-aliases: code-review, review
+aliases: review
 display_name: Code review
 short_description: Ensure your code meets quality standards and ship with confidence.
 topic: code-review
