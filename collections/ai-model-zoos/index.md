@@ -2,7 +2,6 @@
 items:
  - hindupuravinash/the-gan-zoo
  - likedan/Awesome-CoreML-Models
- - https://mxnet.incubator.apache.org/model_zoo/
  - apache/incubator-mxnet
  - https://www.microsoft.com/en-us/cognitive-toolkit/features/model-gallery/
  - Microsoft/CNTK

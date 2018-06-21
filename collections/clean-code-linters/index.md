@@ -9,6 +9,8 @@ items:
  - yaniswang/HTMLHint
  - CSSLint/csslint
  - PyCQA/pycodestyle
+ - PyCQA/flake8
+ - ambv/black
  - checkstyle/checkstyle
  - rubocop-hq/rubocop
  - oclint/oclint
