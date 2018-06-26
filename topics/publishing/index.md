@@ -1,6 +1,6 @@
 ---
 display_name: Publishing
-short_description: Get your site ready for production so you can get the word out.
+short_description: Publishing is the dissemination of literature, music, or information—the activity of making information available to the general public.
 topic: publishing
 wikipedia_url: https://en.wikipedia.org/wiki/Desktop_publishing
 ---

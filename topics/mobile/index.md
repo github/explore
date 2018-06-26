@@ -1,7 +1,7 @@
 ---
 aliases: mobile-apps
 display_name: Mobile
-short_description: Tools to improve your workflow for the small screen.
+short_description: Mobile apps, mobile OS, mobile databases, & mobile testing frameworks.
 topic: mobile
 wikipedia_url: https://en.wikipedia.org/wiki/Mobile_app_development
 ---
