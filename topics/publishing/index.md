@@ -1,6 +1,6 @@
 ---
 display_name: Publishing
-short_description: Publishing is the dissemination of literature, music, or information—the activity of making information available to the general public.
+short_description: Publishing is the dissemination of making information available to the general public through various mediums.
 topic: publishing
 wikipedia_url: https://en.wikipedia.org/wiki/Desktop_publishing
 ---
