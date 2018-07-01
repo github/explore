@@ -1,7 +1,9 @@
 ---
 aliases: fdroid
 display_name: F-Droid
-short_description: F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
+logo: https://f-droid.org/
+short_description: F-Droid is an installable catalogue of FOSS applications for the Android platform.
+url: https://f-droid.org/
 wikipedia_url: https://en.wikipedia.org/wiki/F-Droid
 ---
 F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
