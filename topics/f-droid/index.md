@@ -6,4 +6,4 @@ short_description: F-Droid is an installable catalogue of FOSS applications for 
 url: https://f-droid.org/
 wikipedia_url: https://en.wikipedia.org/wiki/F-Droid
 ---
-F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
+F-Droid is an installable catalogue of FOSS (Free and open source software) applications for the Android platform.
