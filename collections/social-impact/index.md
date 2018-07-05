@@ -8,7 +8,6 @@ items:
  - OptiKey/OptiKey
  - drewrwilson/toolsforactivism
  - hackaye/activism-framework
- - ncase/polygons
  - wooorm/alex
 display_name: Social Impact
 created_by: bescalante
