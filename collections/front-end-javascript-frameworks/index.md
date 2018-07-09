@@ -1,6 +1,6 @@
 ---
 items:
- - angular/angular.js
+ - angular/angular
  - emberjs/ember.js
  - knockout/knockout
  - tastejs/todomvc
