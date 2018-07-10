@@ -1,10 +1,11 @@
 ---
 items:
- - hotosm/tasking-manager
  - GliaX/Stethoscope
  - HospitalRun/hospitalrun-frontend
  - wooorm/alex
  - coralproject/talk
+ - hotosm/tasking-manager
+ - OptiKey/OptiKey
 display_name: Social Impact
 created_by: bescalante
 ---
