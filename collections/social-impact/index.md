@@ -8,8 +8,8 @@ items:
  - OptiKey/OptiKey
  - drewrwilson/toolsforactivism
  - hackaye/activism-framework
- - ncase/polygons
+ - wooorm/alex
 display_name: Social Impact
-created_by: mozzadrella
+created_by: bescalante
 ---
-Better lives through open source technology
+Improving our world through open source technology
