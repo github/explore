@@ -1,13 +1,13 @@
 ---
 items:
+ - vuejs/vue
+ - facebook/react
  - angular/angular
  - emberjs/ember.js
  - knockout/knockout
  - tastejs/todomvc
  - spine/spine
- - vuejs/vue
  - Polymer/polymer
- - facebook/react
  - matreshkajs/matreshka
  - aurelia/framework
  - optimizely/nuclear-js
