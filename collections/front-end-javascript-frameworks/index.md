@@ -1,5 +1,6 @@
 ---
 items:
+ - mithriljs/mithril.js
  - angular/angular
  - emberjs/ember.js
  - knockout/knockout
