@@ -1,4 +1,5 @@
 ---
+topic: f-droid
 aliases: fdroid
 display_name: F-Droid
 logo: f-droid.png
