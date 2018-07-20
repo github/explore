@@ -40,6 +40,7 @@ items:
  - purescript/purescript
  - PowerShell/PowerShell
  - rakudo/rakudo
+ - AdaCore/spark2014
 display_name: Programming languages
 created_by: leereilly
 ---
