@@ -19,7 +19,7 @@ items:
  - deployphp/deployer
  - kubernetes/kubernetes
  - firehol/netdata
- - cloud66/habitus
+ - cloud66-oss/habitus
  - Kong/kong
 display_name: DevOps tools
 ---
