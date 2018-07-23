@@ -14,6 +14,8 @@ items:
  - IBM/ibm.github.io
  - Microsoft/microsoft.github.io
  - artsy/artsy.github.io
+ - Google/google.github.io
+ - Facebook/facebook.github.io
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
