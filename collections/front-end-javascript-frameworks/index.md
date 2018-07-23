@@ -1,6 +1,7 @@
 ---
 items:
  - marko-js/marko
+ - mithriljs/mithril.js
  - angular/angular
  - emberjs/ember.js
  - knockout/knockout
@@ -14,6 +15,7 @@ items:
  - optimizely/nuclear-js
  - jashkenas/backbone
  - dojo/dojo
+ - hyperapp/hyperapp
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
