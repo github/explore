@@ -5,7 +5,7 @@ items:
  - Netflix/netflix.github.com
  - Esri/esri.github.io
  - square/square.github.io
- - twitter/twitter.github.com
+ - twitter/twitter.github.io
  - gilt/code.gilt.com
  - guardian/guardian.github.com
  - Yelp/yelp.github.io
