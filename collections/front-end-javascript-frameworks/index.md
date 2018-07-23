@@ -1,5 +1,6 @@
 ---
 items:
+ - marko-js/marko
  - mithriljs/mithril.js
  - angular/angular
  - emberjs/ember.js
