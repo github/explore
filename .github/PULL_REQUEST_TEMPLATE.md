@@ -25,4 +25,7 @@ Please explain why these changes are necessary:
 
 Please explain why you think this topic or collection should be curated:
 
+
+---------------------------------------------------------------------
+
 **Please note: we will close your PR without comment if you do not check the boxes above and provide ALL requested information.**
