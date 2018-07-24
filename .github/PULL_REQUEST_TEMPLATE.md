@@ -1,9 +1,12 @@
-- [ ] I followed the contributing guidelines: https://github.com/github/explore/blob/master/CONTRIBUTING.md
+Thank you for contributing! Please confirm the following:
 
-I am:
+- [ ] I followed the contributing guidelines: https://github.com/github/explore/blob/master/CONTRIBUTING.md
+- [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).
+
+Which change are you proposing?
+
   - [ ] Suggesting edits to an existing topic or collection
   - [ ] Curating a new topic or collection
-  - [ ] Unaffiliated with the project (not self-promoting as e.g. a maintainer, creator, contractor or employee)
 
 ************EDITING AN EXISTING TOPIC OR COLLECTION************
 
