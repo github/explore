@@ -7,6 +7,8 @@
 
   - [ ] Suggesting edits to an existing topic or collection
   - [ ] Curating a new topic or collection
+  
+---------------------------------------------------------------------
 
 ### Editing an existing topic or collection
 
