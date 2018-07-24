@@ -10,6 +10,8 @@
   
 ---------------------------------------------------------------------
 
+<!-- Please select one of the following -->
+
 ### Editing an existing topic or collection
 
 I'm suggesting these edits to an existing topic or collection:
