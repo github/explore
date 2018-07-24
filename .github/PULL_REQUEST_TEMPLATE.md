@@ -1,14 +1,14 @@
-Thank you for contributing! Please confirm the following:
+### Thank you for contributing! Please confirm the following:
 
 - [ ] I followed the contributing guidelines: https://github.com/github/explore/blob/master/CONTRIBUTING.md
 - [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).
 
-Which change are you proposing?
+### Which change are you proposing?
 
   - [ ] Suggesting edits to an existing topic or collection
   - [ ] Curating a new topic or collection
 
-************Editing an existing topic or collection************
+### Editing an existing topic or collection
 
 I'm suggesting these edits to an existing topic or collection:
 - [ ] Image (and my file is `*.png`, square, dimensions 288x288)
@@ -17,7 +17,7 @@ I'm suggesting these edits to an existing topic or collection:
 Please explain why these changes are necessary:
 
 
-************Curating a new topic or collection************
+### Curating a new topic or collection
 
 - [ ] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
 - [ ] My folder contains a `*.png` image (if applicable) and `index.md`
