@@ -8,7 +8,7 @@ Which change are you proposing?
   - [ ] Suggesting edits to an existing topic or collection
   - [ ] Curating a new topic or collection
 
-************EDITING AN EXISTING TOPIC OR COLLECTION************
+************Editing an existing topic or collection************
 
 I'm suggesting these edits to an existing topic or collection:
 - [ ] Image (and my file is `*.png`, square, dimensions 288x288)
@@ -17,7 +17,7 @@ I'm suggesting these edits to an existing topic or collection:
 Please explain why these changes are necessary:
 
 
-************CURATING A NEW TOPIC OR COLLECTION************
+************Curating a new topic or collection************
 
 - [ ] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
 - [ ] My folder contains a `*.png` image (if applicable) and `index.md`
