@@ -1,5 +1,5 @@
 ---
-created_by: Joe Beda, Brendan Burns, and Craig McLuckie
+created_by: "@jbeda, @brendandburns, and @craigmcl"
 display_name: Kubernetes
 github_url: https://github.com/kubernetes/kubernetes
 logo: kubernetes.png
