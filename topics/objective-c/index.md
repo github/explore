@@ -2,11 +2,10 @@
 created_by: Tom Love and Brad Cox
 display_name: Objective-C
 logo: objective-c.png
-related: language
 released: '1984'
 short_description: Objective-C is general purpose, object-oriented programming language used for macOS and iOS operating systems. 
 topic: objective-c
-related: c, clang, swift
+related: language, c, clang, swift
 url: https://developer.apple.com/documentation/objectivec
 wikipedia_url: https://en.wikipedia.org/wiki/Objective-C
 ---
