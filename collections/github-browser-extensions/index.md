@@ -25,6 +25,7 @@ items:
  - cheshire137/hubnav
  - ryanflorence/github-plusone-extension
  - Mottie/GitHub-userscripts
+ - dmytrostriletskyi/github-story
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
