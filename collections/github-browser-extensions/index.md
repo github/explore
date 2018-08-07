@@ -2,7 +2,7 @@
 items:
  - buunguyen/octotree
  - mike-north/chrome-github-boxcutter
- - muan/dashboard
+ - muan/github-dashboard
  - muan/github-gmail
  - thieman/github-selfies
  - Yatser/prettypullrequests
