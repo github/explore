@@ -7,11 +7,10 @@
 
   - [ ] Suggesting edits to an existing topic or collection
   - [ ] Curating a new topic or collection
-  
+
 ---------------------------------------------------------------------
 
-<!-- Please select one of the following -->
-
+<!-- ⚠️ Please select either this section... ⚠️ -->
 ### Editing an existing topic or collection
 
 I'm suggesting these edits to an existing topic or collection:
@@ -21,6 +20,8 @@ I'm suggesting these edits to an existing topic or collection:
 Please explain why these changes are necessary:
 
 
+
+<!-- ⚠️ ... or this section ⚠️ -->
 ### Curating a new topic or collection
 
 - [ ] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
