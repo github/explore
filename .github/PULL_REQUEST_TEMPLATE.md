@@ -7,28 +7,26 @@
 
   - [ ] Suggesting edits to an existing topic or collection
   - [ ] Curating a new topic or collection
-  
+
 ---------------------------------------------------------------------
 
-<!-- Please select one of the following -->
-
+<!-- ⚠️ Please select either this section... ⚠️ -->
 ### Editing an existing topic or collection
 
 I'm suggesting these edits to an existing topic or collection:
 - [ ] Image (and my file is `*.png`, square, dimensions 288x288)
 - [ ] Content (and my changes are in `index.md`)
 
-Please explain why these changes are necessary:
+> Please replace this line with an explanation of why you think these changes should be made.
 
-
+<!-- ⚠️ ... or this section ⚠️ -->
 ### Curating a new topic or collection
 
 - [ ] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
 - [ ] My folder contains a `*.png` image (if applicable) and `index.md`
 - [ ] All required fields in my `index.md` conform to the Style Guide and API docs: https://github.com/github/explore/tree/master/docs
 
-Please explain why you think this topic or collection should be curated:
-
+> Please replace this line with an explanation of why you think this topic or collection should be curated.
 
 ---------------------------------------------------------------------
 
