@@ -27,7 +27,7 @@ I'm suggesting these edits to an existing topic or collection:
 - [ ] All required fields in my `index.md` conform to the Style Guide and API docs: https://github.com/github/explore/tree/master/docs
 
 > Please replace this line with an explanation of why you think this topic or collection should be curated.
-
+great time to be boss
 ---------------------------------------------------------------------
 
 **Please note: we will close your PR without comment if you do not check the boxes above and provide ALL requested information.**
