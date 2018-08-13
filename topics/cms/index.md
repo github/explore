@@ -1,5 +1,5 @@
 ---
-aliases: content-managment-system, content-management
+aliases: content-management-system, content-management
 display_name: Content Management System
 related: content-management, content-delivery, web-application, blog, blogging, writing, publishing
 short_description: Software providing website authoring, collaboration, and administration tools.
