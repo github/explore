@@ -8,6 +8,7 @@ items:
  - https://github.com/vsmode/pixel8
  - https://github.com/jennschiffer/make8bitart
  - https://github.com/kitao/pyxel
+ - https://github.com/jackschaedler/goya
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png
