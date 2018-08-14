@@ -1,8 +1,10 @@
 ---
+aliases: babeljs
 created_by: Sebastian McKenzie, James Kyle, Henry Zhu, Logan Smyth, Daniel Tschinder
 display_name: Babel
 github_url: https://github.com/babel
 logo: babel.png
+related: babel-preset, babel-plugin, babel-es6
 released: September 28, 2014
 short_description: Babel is a compiler for writing next generation JavaScript, today.
 topic: babel

@@ -1,15 +1,13 @@
 ---
 items:
- - hotosm/osm-tasking-manager2
- - RefugeRestrooms/refugerestrooms
- - ifmeorg/ifme
  - GliaX/Stethoscope
  - HospitalRun/hospitalrun-frontend
+ - wooorm/alex
+ - coralproject/talk
+ - hotosm/tasking-manager
  - OptiKey/OptiKey
- - drewrwilson/toolsforactivism
- - hackaye/activism-framework
- - ncase/polygons
+ - ifmeorg/ifme
 display_name: Social Impact
-created_by: mozzadrella
+created_by: bescalante
 ---
-Better lives through open source technology
+Improving our world through open source technology

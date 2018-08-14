@@ -7,7 +7,7 @@ This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDU
 There are a few ways you can contribute:
 
 - Improving an existing topic or collection
-- Curating a new topic topic or collection
+- Curating a new topic or collection
 
 As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted. Following the style guide will improve the chances of your contribution being accepted.
 
@@ -96,7 +96,7 @@ This repository includes [a list of the most-used GitHub topics that don't yet h
 
 ## Guidelines
 
-* Avoid conflicts of interest. If a topic is popular enough to warrant inclusion, someone else will add or improve it.
+* Avoid conflicts of interest. Maintainers of a project cannot add a topic or collection for their own project. If a topic is popular enough to warrant inclusion, someone else will add or improve it.
 
 ## Running tests
 

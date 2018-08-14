@@ -6,6 +6,8 @@ items:
  - https://github.com/maierfelix/poxi/
  - https://github.com/gmattie/Data-Pixels/
  - https://github.com/vsmode/pixel8
+ - https://github.com/jennschiffer/make8bitart
+ - https://github.com/kitao/pyxel
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png

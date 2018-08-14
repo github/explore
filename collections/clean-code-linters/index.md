@@ -9,13 +9,16 @@ items:
  - yaniswang/HTMLHint
  - CSSLint/csslint
  - PyCQA/pycodestyle
+ - PyCQA/flake8
+ - ambv/black
  - checkstyle/checkstyle
- - bbatsov/rubocop
+ - rubocop-hq/rubocop
  - oclint/oclint
  - golang/lint
  - ndmitchell/hlint
  - coala/coala
  - pre-commit/pre-commit
+ - innogames/igcommit
  - rodjek/puppet-lint
  - koalaman/shellcheck
 display_name: Clean code linters
