@@ -7,5 +7,6 @@ topic: pixel-vision-8
 url: https://www.pixelvision8.com/
 github_url: https://github.com/pixelvision8
 created_by: Jesse Freeman
+logo: pixel-vision-8.png
 ---
 Pixel Vision 8 is a platform that standardizes 8-bit fantasy console limitations built on top of an open source C# SDK. It's core philosophy is to teach retro game development with streamlined workflows. It enables designing games around limited resolutions, colors, sprites, sound, and memory. It is ideal for game jams, prototyping ideas, or having fun.
