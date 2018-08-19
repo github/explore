@@ -1,5 +1,6 @@
 ---
 items:
+ - riot/riot
  - marko-js/marko
  - mithriljs/mithril.js
  - angular/angular
