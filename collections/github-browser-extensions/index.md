@@ -15,6 +15,7 @@ items:
  - ProLoser/Github-Omnibox
  - Justineo/github-hovercard
  - panzerdp/clipboardy
+ - rgehan/octolenses-browser-extension
  - kamranahmedse/githunt
  - harshjv/github-repo-size
  - sindresorhus/refined-github
