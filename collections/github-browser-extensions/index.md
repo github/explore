@@ -15,7 +15,6 @@ items:
  - ProLoser/Github-Omnibox
  - Justineo/github-hovercard
  - panzerdp/clipboardy
- - rgehan/octolenses-browser-extension
  - kamranahmedse/githunt
  - harshjv/github-repo-size
  - sindresorhus/refined-github
@@ -26,6 +25,7 @@ items:
  - cheshire137/hubnav
  - ryanflorence/github-plusone-extension
  - Mottie/GitHub-userscripts
+ - rgehan/octolenses-browser-extension
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
