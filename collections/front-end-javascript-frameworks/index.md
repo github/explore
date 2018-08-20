@@ -1,6 +1,5 @@
 ---
 items:
- - riot/riot
  - marko-js/marko
  - mithriljs/mithril.js
  - angular/angular
@@ -17,6 +16,7 @@ items:
  - jashkenas/backbone
  - dojo/dojo
  - hyperapp/hyperapp
+ - riot/riot
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
