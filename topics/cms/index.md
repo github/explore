@@ -1,7 +1,7 @@
 ---
 aliases: content-management-system, content-management
 display_name: Content Management System
-related: content-management, content-delivery, web-application, blog, blogging, writing, publishing
+related: content-delivery, web-application, blog, blogging, writing, publishing
 short_description: Software providing website authoring, collaboration, and administration tools.
 topic: cms
 wikipedia_url: https://en.wikipedia.org/wiki/Web_content_management_system
