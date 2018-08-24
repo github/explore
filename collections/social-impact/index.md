@@ -7,6 +7,7 @@ items:
  - hotosm/tasking-manager
  - OptiKey/OptiKey
  - ifmeorg/ifme
+ - RefugeRestrooms/refugerestrooms
 display_name: Social Impact
 created_by: bescalante
 ---

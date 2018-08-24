@@ -31,6 +31,8 @@ items:
  - renpy/renpy
  - OpenRA/OpenRA
  - OpenRCT2/OpenRCT2
+ - xenko3d/xenko
+ - lance-gg/lance
 display_name: Game Engines
 created_by: leereilly
 ---
