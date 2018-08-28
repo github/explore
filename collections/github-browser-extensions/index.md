@@ -1,5 +1,6 @@
 ---
 items:
+ - xxhomey19/github-file-icon
  - buunguyen/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
