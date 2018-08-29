@@ -4,7 +4,7 @@ items:
  - pengwynn/flint
  - mislav/rfc
  - peek/peek
- - charliesome/better_errors
+ - BetterErrors/better_errors
  - jshint/jshint
  - validator/validator
  - travis-ci/travis-ci
