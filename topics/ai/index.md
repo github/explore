@@ -6,4 +6,4 @@ short_description: Artificial intelligence is the ability of a computer or machi
 topic: ai
 wikipedia_url: https://en.wikipedia.org/wiki/Artificial_intelligence
 ---
-The branch of computer science dealing with the reproduction or mimicking of human-level intelligence, self-awareness, knowledge, conscience, and thought in computer programs.
+The branch of computer science dealing with the reproduction, or mimicking of human-level intelligence, self-awareness, knowledge, conscience, and thought in computer programs.
