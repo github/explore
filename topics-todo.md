@@ -4,13 +4,11 @@ This is a list of the most-used topics on GitHub that don't yet have a curated t
 
 Information included in this repository will appear on each topic's respective page, helping others on GitHub better understand the topic and, by extension, what repositories tagged with that topic are about.
 
-- [ ] [ai](https://github.com/topics/ai/)
 - [ ] [android-library](https://github.com/topics/android-library/)
 - [ ] [angular-cli](https://github.com/topics/angular-cli/)
 - [ ] [animation](https://github.com/topics/animation/)
 - [ ] [ansible-role](https://github.com/topics/ansible-role/)
 - [ ] [app](https://github.com/topics/app/)
-- [ ] [artificial-intelligence](https://github.com/topics/artificial-intelligence/)
 - [ ] [authentication](https://github.com/topics/authentication/)
 - [ ] [automation](https://github.com/topics/automation/)
 - [ ] [bioinformatics](https://github.com/topics/bioinformatics/)
@@ -76,7 +74,9 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [website](https://github.com/topics/website/)
 - [ ] [winforms](https://github.com/topics/winforms/)
 - [ ] [wpf](https://github.com/topics/wpf/)
+- [x] [ai](https://github.com/topics/ai/)
 - [x] [ajax](https://github.com/topics/ajax/)
+- [x] [artificial-intelligence](https://github.com/topics/artificial-intelligence/)
 - [x] [blockchain](https://github.com/topics/blockchain/)
 - [x] [compiler](https://github.com/topics/compiler/)
 - [x] [composer](https://github.com/topics/composer/)
