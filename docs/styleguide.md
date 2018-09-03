@@ -15,7 +15,7 @@ From the GitHub Style Guide:
 ## Grammar and usage
 
 ### Ampersands
-Use "and" rather than an ampersand unless you’re referencing a brand name, for example: Proctor & Gamble.
+Use "and" rather than an ampersand unless you’re referencing a brand name, for example: Procter & Gamble.
 
 ### Commas
 Always use the [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma). 
