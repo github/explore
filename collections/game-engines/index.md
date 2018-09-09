@@ -33,6 +33,7 @@ items:
  - OpenRCT2/OpenRCT2
  - xenko3d/xenko
  - lance-gg/lance
+ - CryptoSharkTeam/Fabrica
 display_name: Game Engines
 created_by: leereilly
 ---
