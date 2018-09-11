@@ -21,6 +21,7 @@ items:
  - innogames/igcommit
  - rodjek/puppet-lint
  - koalaman/shellcheck
+ - jimhester/lintr
 display_name: Clean code linters
 created_by: holman
 ---
