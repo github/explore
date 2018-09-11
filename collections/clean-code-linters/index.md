@@ -6,7 +6,7 @@ items:
  - clutchski/coffeelint
  - csscomb/csscomb.js
  - brigade/scss-lint
- - thedaviddias/HTMLHint
+ - htmlhint/HTMLHint
  - CSSLint/csslint
  - PyCQA/pycodestyle
  - PyCQA/flake8
