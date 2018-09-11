@@ -25,9 +25,11 @@ end
 
 def valid_topic?(raw_topic)
   return false unless raw_topic
+
   topic = raw_topic.strip
   return false if topic.length > MAX_TOPIC_LENGTH
   return false unless topic.match?(TOPIC_REGEX)
+
   !topic.empty?
 end
 
@@ -59,6 +61,7 @@ def related_topics_for(topic)
   metadata = metadata_for(topics_dir, topic)
   return [] unless metadata
   return [] unless metadata["related"]
+
   metadata["related"].split(",")
 end
 
@@ -66,6 +69,7 @@ def aliases_for(topic)
   metadata = metadata_for(topics_dir, topic)
   return [] unless metadata
   return [] unless metadata["aliases"]
+
   metadata["aliases"].split(",")
 end
 
@@ -78,6 +82,7 @@ def assert_oxford_comma(text)
 
     %w[and or].each do |conjunction|
       next unless sentence.include? " #{conjunction} "
+
       assert_includes sentence, ", #{conjunction}", "Always use the Oxford comma"
     end
   end
