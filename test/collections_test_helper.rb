@@ -20,9 +20,11 @@ end
 
 def valid_collection?(raw_collection)
   return false unless raw_collection
+
   collection = raw_collection.strip
   return false if collection.length > MAX_COLLECTION_SLUG_LENGTH
   return false unless collection.match?(COLLECTION_REGEX)
+
   !collection.empty?
 end
 
