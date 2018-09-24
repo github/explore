@@ -18,7 +18,7 @@ items:
  - getsentry/sentry
  - deployphp/deployer
  - kubernetes/kubernetes
- - firehol/netdata
+ - netdata/netdata
  - cloud66-oss/habitus
  - Kong/kong
 display_name: DevOps tools
