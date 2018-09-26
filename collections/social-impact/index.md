@@ -2,7 +2,7 @@
 items:
  - GliaX/Stethoscope
  - HospitalRun/hospitalrun-frontend
- - wooorm/alex
+ - get-alex/alex
  - coralproject/talk
  - hotosm/tasking-manager
  - OptiKey/OptiKey
