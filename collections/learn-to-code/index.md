@@ -7,6 +7,7 @@ items:
  - leachim6/hello-world
  - datasciencemasters/go
  - tuvtran/project-based-learning
+ - 30-seconds/30-seconds-of-code
 display_name: Learn to Code
 created_by: alysonla
 image: learn-to-code.png
