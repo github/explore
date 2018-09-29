@@ -1,0 +1,12 @@
+---
+created-by: Tim Caswell
+display_name: Luvit
+logo: luvit.png
+released: 2011
+short_description: Asynchronous I/O for Lua.
+topic: luvit
+url: https://luvit.io
+related: lua
+github-url: https://github.com/luvit/luvit
+---
+Luvit is an asychronous I/O Lua runtime environment developed by Tim Caswell and contributors. It is based on LuaJIT 2.1 with Lua 5.2 compatibility mode enabled, which makes it fully API and ABI compatible with Lua 5.1 and partially API compatible with Lua 5.2.
