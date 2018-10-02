@@ -22,7 +22,7 @@ items:
  - cloud66-oss/habitus
  - Kong/kong
  - jenkinsci/jenkins
- - docker/docker
+ - moby/moby
  - kubernetes/kubernetes
  - apache/mesos
  - SeleniumHQ/selenium
