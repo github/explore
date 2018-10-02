@@ -21,6 +21,12 @@ items:
  - netdata/netdata
  - cloud66-oss/habitus
  - Kong/kong
+ - jenkinsci/jenkins
+ - moby/moby
+ - kubernetes/kubernetes
+ - apache/mesos
+ - SeleniumHQ/selenium
+ 
 display_name: DevOps tools
 ---
 These tools help you manage servers and deploy happier and more often with more confidence.
