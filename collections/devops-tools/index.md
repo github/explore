@@ -25,7 +25,7 @@ items:
  - docker/docker
  - kubernetes/kubernetes
  - apache/mesos
- - SeleniumHQ/selenium/
+ - SeleniumHQ/selenium
  
 display_name: DevOps tools
 ---
