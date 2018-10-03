@@ -12,6 +12,7 @@ items:
  - spack/spack
  - ipython/ipython
  - ropensci/rplos
+ - LaurentRDC/scikit-ued
 display_name: Software in science
 image: software-in-science.png
 ---
