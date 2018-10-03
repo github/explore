@@ -8,6 +8,13 @@ items:
  - OptiKey/OptiKey
  - ifmeorg/ifme
  - RefugeRestrooms/refugerestrooms
+ - hurricane-response/florence-api
+ - rubyforgood/terrastories
+ - rubyforgood/diaper
+ - rubyforgood/diaperpartner
+ - rubyforgood/playtime
+ - rubyforgood/demand-progress
+ - ebimodeling/ghgvc
 display_name: Social Impact
 created_by: bescalante
 ---
