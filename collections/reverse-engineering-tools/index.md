@@ -6,6 +6,7 @@ items:
   - desowin/usbpcap
   - icsharpcode/ILSpy
   - radare/radare2
+  - radareorg/cutter
   - Storyyeller/Krakatau
   - deathmarine/Luyten
   - java-decompiler/jd-gui
@@ -17,6 +18,8 @@ items:
   - ohjeongwook/DarunGrim
   - dbeaver/dbeaver
   - lucasg/Dependencies
-display_name: Tools helping to understand applications and formats internals.
+  - aquynh/capstone
+  - beautify-web/js-beautify
+display_name: Reverse Engineering Tools
 ---
-Get knowledge!
+Get knowledge for fun and profit!
