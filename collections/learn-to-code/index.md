@@ -8,6 +8,9 @@ items:
  - leachim6/hello-world
  - datasciencemasters/go
  - tuvtran/project-based-learning
+ - MunGell/awesome-for-beginners
+ - ramlaxman/charmingpython
+
 display_name: Learn to Code
 created_by: alysonla
 image: learn-to-code.png
