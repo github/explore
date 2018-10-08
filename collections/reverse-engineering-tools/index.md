@@ -3,6 +3,7 @@ items:
   - ReFirmLabs/binwalk
   - codilime/veles
   - kaitai-io/kaitai_struct
+  - jmendeth/protobuf-inspector
   - desowin/usbpcap
   - icsharpcode/ILSpy
   - radare/radare2
@@ -10,6 +11,7 @@ items:
   - Storyyeller/Krakatau
   - deathmarine/Luyten
   - java-decompiler/jd-gui
+  - skylot/jadx
   - 0xd4d/de4dot
   - avast-tl/retdec
   - yegord/snowman
