@@ -14,6 +14,7 @@ items:
  - IBM/ibm.github.io
  - Microsoft/microsoft.github.io
  - artsy/artsy.github.io
+ - OSGeo/github.com/OSGeo
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
