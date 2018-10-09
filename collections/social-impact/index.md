@@ -16,6 +16,7 @@ items:
  - rubyforgood/demand-progress
  - ebimodeling/ghgvc
  - IEEEKeralaSection/rescuekerala
+ - Data4Democracy/ethics-resources
 display_name: Social Impact
 created_by: bescalante
 ---
