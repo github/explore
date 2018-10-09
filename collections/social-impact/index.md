@@ -15,6 +15,7 @@ items:
  - rubyforgood/playtime
  - rubyforgood/demand-progress
  - ebimodeling/ghgvc
+ - IEEEKeralaSection/rescuekerala
 display_name: Social Impact
 created_by: bescalante
 ---
