@@ -17,6 +17,7 @@ items:
  - ebimodeling/ghgvc
  - IEEEKeralaSection/rescuekerala
  - Data4Democracy/ethics-resources
+ - civicdata/civicdata.github.io
 display_name: Social Impact
 created_by: bescalante
 ---
