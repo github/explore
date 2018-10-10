@@ -4,7 +4,7 @@ created_by: Pharo Project
 display_name: Pharo
 github_url: https://github.com/pharo-project
 logo: pharo.png
-released: Mar 16, 2008
+released: April 15, 2010
 short_description: Pharo is an open source, dynamic and reflective programming language and live coding IDE.
 topic: pharo
 url: https://pharo.org/
