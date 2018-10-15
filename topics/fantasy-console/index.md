@@ -1,7 +1,7 @@
 ---
 topic: fantasy-console
 aliases: fantasy-computer
-related: retro, retrogame, retrogaming
+related: retro, retrogame, retrogaming, pico-8, liko-12, tic-80, pixelvision8, basic8, pyxel
 display_name: Fantasy console
 short_description: Fantasy consoles are small development environments that force users to work within constraints on graphics, sound, sprites, etc.
 ---
