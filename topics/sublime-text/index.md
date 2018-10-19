@@ -12,4 +12,4 @@ url: https://www.sublimetext.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Sublime_Text
 ---
 A sophisticated text editor for code, markup and prose.
-It has many powerful features for file and project navigation, build systems, integration with other tools and customization in the form of plugins, themes and syntax styles.
+It has many powerful features for file and project navigation, build systems, integration with other tools and customization in the form of plugins, themes, and syntax styles.
