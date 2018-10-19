@@ -17,6 +17,7 @@ items:
  - dojo/dojo
  - jorgebucaran/hyperapp
  - riot/riot
+ - daemonite/material
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
