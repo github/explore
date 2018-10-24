@@ -2,7 +2,7 @@
 display_name: Flutter
 topic: flutter
 github_url: https://github.com/flutter
-logo: flutter.png
+logo: flutter-logo.png
 related: dart
 released: May 2017
 short_description: Flutter is an open-source mobile application development SDK created by Google.
