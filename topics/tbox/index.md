@@ -1,5 +1,4 @@
 ---
-aliases: tbox
 created_by: ruki
 display_name: tbox
 github_url: https://github.com/tboox/tbox

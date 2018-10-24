@@ -1,5 +1,4 @@
 ---
-aliases: xmake
 created_by: ruki
 display_name: xmake
 github_url: https://github.com/tboox/xmake
