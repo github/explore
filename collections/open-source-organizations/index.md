@@ -15,6 +15,9 @@ items:
  - Microsoft/microsoft.github.io
  - artsy/artsy.github.io
  - OSGeo/osgeo
+ - Airbnb/github.com/airbnb
+ - PayPal/github.com/paypal
+ - WalmartLabs/github.com/walmartlabs
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
