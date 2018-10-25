@@ -11,5 +11,5 @@ topic: visual-studio-code
 url: https://code.visualstudio.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Visual_Studio_Code
 ---
-Visual Studio Code, commonly known as VS code, is a highly customizable open source text editor, developed and maintained by Microsoft.
+Visual Studio Code, commonly known as VS code, is a highly customizable open source text editor, developed, and maintained by Microsoft.
 Visual Studio Code is built using web technologies such as JavaScript, TypeScript, and CSS. There are also thousands of community created themes and packages available.
