@@ -8,5 +8,5 @@ short_description: TBOX is a glib-like cross-platform C library that is simple t
 topic: tbox
 url: http://tboox.org/
 ---
-TBOX is a glib-like cross-platform C library that is simple yet powerful. It focuses on making C development easier and provides many modules (e.g. stream, coroutine, regex, container, algorithm), so that any developer can quickly pick it up and enjoy the productivity boost when developing in the C language.
+TBOX is a glib-like cross-platform C library that is simple yet powerful. It focuses on making C development easier and provides many modules, so that any developer can quickly pick it up and enjoy the productivity boost when developing in the C language.
 
