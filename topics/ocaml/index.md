@@ -5,7 +5,7 @@ github_url: https://github.com/ocaml/ocaml
 logo: ocaml.png
 released: 1996
 short_description: OCaml is an implementation of the ML language, based on the Caml Light.
-topic: less
+topic: ocaml
 url: http://ocaml.org
 wikipedia_url: https://en.wikipedia.org/wiki/OCaml
 ---
