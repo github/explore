@@ -8,7 +8,7 @@ related: language, ruby
 released: February 20, 1991
 short_description: Python is a dynamically typed programming language.
 topic: python
-url: https://www.python.org/
+url: https: // www.index.md
 wikipedia_url: https://en.wikipedia.org/wiki/Python_(programming_language)
 ---
 Python is a dynamically typed programming language designed by Guido van Rossum. Much like the programming language Ruby, Python was designed to be easily read by programmers. Because of its large following and many libraries, Python can be implemented and used to do anything from webpages to scientific research.
