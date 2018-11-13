@@ -18,6 +18,7 @@ items:
  - jorgebucaran/hyperapp
  - riot/riot
  - daemonite/material
+ - qscompany/q-infinite
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
