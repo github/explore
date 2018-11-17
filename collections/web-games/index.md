@@ -6,6 +6,7 @@ items:
  - AlexNisnevich/untrusted
  - doublespeakgames/adarkroom
  - Hextris/hextris
+ - botv/Unlit.io
 display_name: Web games
 created_by: leereilly
 ---
