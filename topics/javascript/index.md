@@ -10,4 +10,4 @@ topic: javascript
 url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 wikipedia_url: https://en.wikipedia.org/wiki/JavaScript
 ---
-JavaScript is used to give webpages a more interactive feel. Its event driven nature allows for such features as dropdown menus or video games. JavaScript is executed via the client, rather than server. This allows the browser to respond more quickly to a user’s input.
+JavaScript (JS) is a popular programming language which can be run in both backend and frontend contexts. Node.js is a programming language running on the V8 JavaScript execution engine. JS also brings life to frontend webpages and webapps, allowing content to be intelligent and highly interactive.
