@@ -15,6 +15,8 @@ items:
  - Microsoft/microsoft.github.io
  - artsy/artsy.github.io
  - OSGeo/osgeo
+ - godaddy/godaddy.github.io
+ - cloudflare/cloudflare.github.io
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png

@@ -3,6 +3,7 @@ aliases: monero-cryptocurrency, monero-crypto
 created_by: Monero
 display_name: Monero
 github_url: https://github.com/monero-project
+logo: monero.png
 released: April 18, 2014
 short_description: Monero is a private, fungible, open source, decentralized cryptocurrency.
 topic: monero

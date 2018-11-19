@@ -16,7 +16,7 @@ MAX_RELATED_TOPIC_COUNT = 10
 
 MAX_SHORT_DESCRIPTION_LENGTH = 130
 
-TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
+TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/.freeze
 
 def invalid_topic_message(topic)
   "'#{topic}' must be between 1-#{MAX_TOPIC_LENGTH} characters, start with a letter or number, " \
