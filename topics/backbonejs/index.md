@@ -3,7 +3,7 @@ aliases: backbone, backbonejs, Backbone.js, Backbonejs
 created_by: Jeremy Ashkenas
 display_name: BACKBONE.JS
 logo: backbonejs.png
-released: April 5, 2016
+released: October 13, 2010
 short_description: Backbone.js is a JavaScript library for building modern web apps and services.
 topic: backbonejs
 url: https://backbonejs.org/
