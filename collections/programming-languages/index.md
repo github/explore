@@ -41,6 +41,7 @@ items:
  - PowerShell/PowerShell
  - rakudo/rakudo
  - dotnet/csharplang
+ - skiplang/skip
 display_name: Programming languages
 created_by: leereilly
 ---
