@@ -1,5 +1,5 @@
 ---
-aliases: backbone, backbonejs
+aliases: backbone
 created_by: Jeremy Ashkenas
 display_name: Backbone.js
 logo: backbonejs.png
