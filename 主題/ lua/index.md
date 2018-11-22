@@ -10,4 +10,4 @@ topic: lua
 url: https://www.lua.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Lua_(programming_language)
 ---
-Lua is a programming language written in C that emphasizes performance. It has automatic memory management and is often used to extend software written in other languages.
+Lua是一種用C語言編寫的強調性能的編程語言。它具有自動內存管理功能，通常用於擴展用其他語言編寫的軟件。
