@@ -18,6 +18,7 @@ items:
  - jorgebucaran/hyperapp
  - riot/riot
  - daemonite/material
+ - polymer/lit-element
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
