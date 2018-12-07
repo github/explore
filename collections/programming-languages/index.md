@@ -1,47 +1,47 @@
 ---
 items:
- - rust-lang/rust
- - clojure/clojure
- - scala/scala
- - elixir-lang/elixir
- - nulang/nu
- - ioLanguage/io
- - gkz/LiveScript
- - elm/compiler
- - php/php-src
- - jashkenas/coffeescript
- - nim-lang/Nim
- - JetBrains/kotlin
- - racket/racket
- - golang/go
- - Frege/frege
- - chapel-lang/chapel
- - dotnet/roslyn
- - red/red
- - apple/swift
- - ocaml/ocaml
- - eclipse/golo-lang
- - gosu-lang/gosu-lang
- - ponylang/ponyc
- - crystal-lang/crystal
- - Microsoft/TypeScript
- - FascinatedBox/lily
- - zdevito/terra
- - idris-lang/Idris-dev
- - python/cpython
- - micropython/micropython
- - typelead/eta
- - lucee/Lucee
- - Microsoft/visualfsharp
- - ruby/ruby
- - dlang/dmd
- - JuliaLang/julia
- - erlang/otp
- - purescript/purescript
- - PowerShell/PowerShell
- - rakudo/rakudo
- - dotnet/csharplang
- - skiplang/skip
+- golang/go
+- apple/swift
+- Microsoft/TypeScript
+- rust-lang/rust
+- JetBrains/kotlin
+- python/cpython
+- php/php-src
+- JuliaLang/julia
+- ruby/ruby
+- jashkenas/coffeescript
+- elixir-lang/elixir
+- crystal-lang/crystal
+- PowerShell/PowerShell
+- scala/scala
+- dotnet/roslyn
+- clojure/clojure
+- micropython/micropython
+- erlang/otp
+- nim-lang/Nim
+- purescript/purescript
+- elm/compiler
+- dotnet/csharplang
+- red/red
+- ponylang/ponyc
+- Frege/frege
+- racket/racket
+- idris-lang/Idris-dev
+- ocaml/ocaml
+- typelead/eta
+- nulang/nu
+- gkz/LiveScript
+- IoLanguage/io
+- dlang/dmd
+- zdevito/terra
+- Microsoft/visualfsharp
+- skiplang/skip
+- FascinatedBox/lily
+- rakudo/rakudo
+- chapel-lang/chapel
+- lucee/Lucee
+- eclipse/golo-lang
+- gosu-lang/gosu-lang
 display_name: Programming languages
 created_by: leereilly
 ---
