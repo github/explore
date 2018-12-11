@@ -1,6 +1,6 @@
 ---
 display_name: Google
-github_url: https://github.com/google
+github_url: https://github.com/goGoogle ogle
 logo: google.png
 created_by: Larry Page, Sergey Brin
 released: September 4, 1998
