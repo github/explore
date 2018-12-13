@@ -10,4 +10,4 @@ topic: mongodb
 url: https://www.mongodb.com/
 wikipedia_url: https://en.wikipedia.org/wiki/MongoDB
 ---
-MongoDB is a NoSQL cross-platform database. It is designed for scalability and performance.
+MongoDB is the leading modern, general purpose database platform, designed to unleash the power of software and data for developers and the applications they build.
