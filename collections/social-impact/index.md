@@ -18,6 +18,9 @@ items:
  - IEEEKeralaSection/rescuekerala
  - Data4Democracy/ethics-resources
  - civicdata/civicdata.github.io
+ - Greenstand/Development-Overview
+ - Greenstand/treetracker-web-map
+ - Greenstand/treetracker-android
 display_name: Social Impact
 created_by: bescalante
 ---
