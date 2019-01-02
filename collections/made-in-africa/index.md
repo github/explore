@@ -2,10 +2,10 @@
 items:
  - frontlinesms/frontlinesms2
  - ushahidi/SMSSync
- - praekelt/vumi
+ - praekeltfoundation/vumi
  - rapidpro/rapidpro
  - pluspeople/pesaPi
- - praekelt/junebug
+ - praekeltfoundation/junebug
  - chisimba/chisimba
  - OpenInstitute/OpenDuka
  - CodeForAfrica/GotToVote
