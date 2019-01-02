@@ -11,7 +11,7 @@ items:
  - Vazkii/Botania
  - MightyPirates/OpenComputers
  - PrismarineJS/mineflayer
- - sk89q/WorldEdit
+ - EngineHub/WorldEdit
  - SpigotMC/BungeeCord
  - walterhiggins/ScriptCraft
  - MinecraftForge/MinecraftForge
