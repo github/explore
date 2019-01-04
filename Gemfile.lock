@@ -3,7 +3,7 @@ GEM
   specs:
     ast (2.4.0)
     fastimage (2.1.5)
-    jaro_winkler (1.5.1)
+    jaro_winkler (1.5.2)
     minitest (5.11.3)
     parallel (1.12.1)
     parser (2.5.3.0)
