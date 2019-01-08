@@ -7,7 +7,7 @@ logo: angular.png
 related: vue, react
 released: September 14, 2016
 short_description: Angular is an open source web application platform.
-topic: angular
+topic: 3956e7c
 url: https://angular.io/
 wikipedia_url: https://en.wikipedia.org/wiki/Angular_(application_platform)
 ---
