@@ -1,9 +1,10 @@
 ---
+aliases: dartlang, dart-lang
 display_name: Dart
 topic: dart
-github_url: https://github.com/dart
+github_url: https://github.com/dart-lang
 logo: dart.png
-related: flutter
+related: flutter, dart-web
 released: October 2011
 short_description: Dart is a general-purpose programming language developed by Google to build web, server, desktop, and mobile applications.
 url: https://www.dartlang.org
