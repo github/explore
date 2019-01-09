@@ -1,5 +1,5 @@
 ---
-aliases: z-shell
+aliases: zshell
 created_by: Paul Falstad
 display_name: Zsh
 github_url: https://github.com/zsh-users/zsh
