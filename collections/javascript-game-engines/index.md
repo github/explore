@@ -17,6 +17,7 @@ items:
  - GooTechnologies/goojs
  - shakiba/planck.js
  - Irrelon/ige
+ - 4ian/GDevelop
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---

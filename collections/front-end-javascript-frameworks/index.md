@@ -15,8 +15,10 @@ items:
  - optimizely/nuclear-js
  - jashkenas/backbone
  - dojo/dojo
- - hyperapp/hyperapp
+ - jorgebucaran/hyperapp
  - riot/riot
+ - daemonite/material
+ - polymer/lit-element
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
