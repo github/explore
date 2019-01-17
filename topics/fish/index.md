@@ -1,14 +1,6 @@
 ---
 topic: fish
-aliases:
-  - fish-shell
-  - fishshell
-  - fish-plugin
-  - fish-packages
-  # Fish package managers
-  - fisherman
-  - fisher
-  - oh-my-fish
+aliases: fish-shell, fishshell, fish-plugin, fish-packages, fisherman, fisher, oh-my-fish
 created_by:
   - Axel Liljencrantz
   - ridiculousfish
@@ -17,7 +9,7 @@ github_url: https://github.com/fish-shell/fish-shell
 logo: logo.png
 related: bash, zsh
 released: February 13, 2005
-short_description: The user-friendly command line shell
+short_description: The user-friendly command line shell.
 url: https://fishshell.com
 wikipedia_url: https://en.wikipedia.org/wiki/friendly_interactive_shell
 # From the homepage:
