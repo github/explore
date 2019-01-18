@@ -19,7 +19,6 @@ items:
 - micropython/micropython
 - erlang/otp
 - nim-lang/Nim
-- txlyre/loli
 - purescript/purescript
 - elm/compiler
 - dotnet/csharplang
@@ -43,6 +42,7 @@ items:
 - lucee/Lucee
 - eclipse/golo-lang
 - gosu-lang/gosu-lang
+- txlyre/loli
 display_name: Programming languages
 created_by: leereilly
 ---
