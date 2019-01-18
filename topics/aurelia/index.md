@@ -1,5 +1,5 @@
 ---
-aliases: aurelia, aureliajs, aurelia vNext, vNext, aurelia spa, spa
+aliases: aureliajs, aurelia vNext, vNext, aurelia spa, spa, jsx, aureliavnext, aurelia 2, aurelia 2 vnext
 created_by: Rob Eisenberg
 display_name: aurelia
 github_url: https://github.com/aurelia/aurelia
