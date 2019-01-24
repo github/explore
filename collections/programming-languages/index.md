@@ -42,7 +42,7 @@ items:
 - lucee/Lucee
 - eclipse/golo-lang
 - gosu-lang/gosu-lang
-- txlyre/loli
+- loli-foundation/loli
 display_name: Programming languages
 created_by: leereilly
 ---
