@@ -12,4 +12,5 @@ url: https://racket-lang.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Racket_(programming_language)
 ---
 Racket is a general-purpose, programming language and a platform for programming language design and implementation. 
-Racket supports multiple paradigms; functional programming, with static type checking, type classes and gradual typing, lazy evaluation; object-oriented programming with classes, mixins, and traits; Functional Reactive Programming (FRP) and language Oriented Programming with powerful macros and parsing libraries.
+Racket supports multiple paradigms; functional programming, object-oriented programminga and Functional Reactive Programming (FRP) and Language Oriented Programming with powerful macros and parsing libraries.
+Static type checking, type classes and gradual typing support the development of large code bases. 
