@@ -11,7 +11,7 @@ GEM
     powerpack (0.1.2)
     rainbow (3.0.0)
     rake (12.3.2)
-    rubocop (0.63.0)
+    rubocop (0.63.1)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.5, != 2.5.1.1)
