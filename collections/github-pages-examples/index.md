@@ -12,6 +12,7 @@ items:
  - Yelp/yelp.github.io
  - facebook/react
  - artsy/artsy.github.io
+ - Risk-First/riskfirst.org
 display_name: GitHub Pages examples
 created_by: jdennes
 image: github-pages-examples.png
