@@ -1,6 +1,6 @@
 ---
 items:
- - buunguyen/octotree
+ - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
  - muan/github-gmail

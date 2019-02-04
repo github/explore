@@ -6,7 +6,7 @@ github_url: https://github.com/android
 logo: android.png
 released: September 23, 2008
 short_description: Android is an operating system built by Google designed for mobile
-  applications.
+  devices.
 topic: android
 url: https://www.android.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Android_(operating_system)
