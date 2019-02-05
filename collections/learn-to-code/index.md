@@ -10,6 +10,7 @@ items:
  - tuvtran/project-based-learning
  - zhiwehu/Python-programming-exercises
  - MunGell/awesome-for-beginners
+ - labs42io/clean-code-typescript
 
 display_name: Learn to Code
 created_by: alysonla
