@@ -25,6 +25,7 @@ items:
 - red/red
 - ponylang/ponyc
 - Frege/frege
+- goby-lang/goby
 - racket/racket
 - idris-lang/Idris-dev
 - ocaml/ocaml
