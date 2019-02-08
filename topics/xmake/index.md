@@ -1,7 +1,7 @@
 ---
 created_by: ruki
 display_name: xmake
-github_url: https://github.com/tboox/xmake
+github_url: https://github.com/xmake-io/xmake
 logo: xmake.png
 released: June 8, 2015
 short_description: xmake is a cross-platform build utility based on lua.
