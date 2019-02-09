@@ -2,6 +2,7 @@
 aliases: shell-script, shell-scripts, shellscript, shellcode
 created_by: Glenda Schroeder
 display_name: Shell
+logo: shell-logo.png
 related: bash
 released: '1965'
 short_description: A shell is a command-line tool, designed to be run by the Unix
