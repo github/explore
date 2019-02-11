@@ -22,7 +22,6 @@ items:
  - cloud66-oss/habitus
  - Kong/kong
  - jenkinsci/jenkins
- - moby/moby
  - kubernetes/kubernetes
  - apache/mesos
  - SeleniumHQ/selenium
