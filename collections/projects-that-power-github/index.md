@@ -8,7 +8,7 @@ items:
  - Leaflet/Leaflet
  - facebook/flow
  - chaijs/chai
- - primer/primer
+ - primer/css
  - primer/octicons
  - eslint/eslint
  - mochajs/mocha
