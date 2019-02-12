@@ -8,7 +8,7 @@ items:
  - openstack/openstack
  - moby/moby
  - capistrano/capistrano
- - etsy/statsd
+ - statsd/statsd
  - graphite-project/graphite-web
  - elastic/logstash
  - fabric/fabric
