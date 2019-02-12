@@ -4,7 +4,7 @@ created_by: Mark Overmars
 display_name: GameMaker Studio
 logo: gamemaker.png
 released: November 5, 1999
-short_description: GameMaker Studio is an accessible cross-platform 2D game engine
+short_description: GameMaker Studio is an accessible cross-platform 2D game engine.
 topic: gamemaker
 url: https://www.yoyogames.com/gamemaker
 wikipedia_url: https://en.wikipedia.org/wiki/GameMaker_Studio
