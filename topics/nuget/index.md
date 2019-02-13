@@ -2,6 +2,7 @@
 aliases: nuget-package
 created_by: Microsoft, .Net Foundation
 display_name: NuGet
+github_url: https://github.com/NuGet
 logo: nuget.png
 released: October 2010
 short_description: NuGet is an open source package manager designed for the Microsoft development platform.
