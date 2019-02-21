@@ -1,5 +1,5 @@
 ---
-aliases: first, first-robotics, firstrobotics
+aliases: first-robotics, firstrobotics
 created_by: FIRST
 display_name: FIRST
 github_url: https://github.com/first
