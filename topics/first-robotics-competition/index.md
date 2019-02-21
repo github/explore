@@ -4,7 +4,7 @@ created_by: FIRST
 display_name: FIRST Robotics Competition
 github_url: https://github.com/first
 logo: first-robotics-competition.png
-short_description: FIRST Robotics Competition (FRC) is a robotics competition for 9-12th graders where teams compete head-to-head in annual challenges.
+short_description: FIRST Robotics Competition is a robotics competition for 9-12th graders where teams compete head-to-head in annual challenges.
 topic: first-robotics-competition
 url: https://www.firstinspires.org/robotics/frc
 wikipedia_url: https://en.wikipedia.org/wiki/FIRST_Robotics_Competition
