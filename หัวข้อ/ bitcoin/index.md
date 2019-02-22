@@ -1,6 +1,6 @@
 ---
 aliases: bitcoin-wallet, bitcoins, bitcoin-payment
-created_by: Satoshi Nakamoto
+created_by: Satoshi Nakamot
 display_name: Bitcoin
 github_url: https://github.com/bitcoin/bitcoin
 logo: bitcoin.png
