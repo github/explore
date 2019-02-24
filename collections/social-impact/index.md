@@ -19,6 +19,13 @@ items:
  - Data4Democracy/ethics-resources
  - civicdata/civicdata.github.io
  - Greenstand/Development-Overview
+ 
+ Data collection and analysis for impact focus orgs, for free!
+ - opendatakit/collect
+ - enketo/enketo-core
+ - kobotoolbox/enketo-express
+ - dhis2/dhis2-core
+
 display_name: Social Impact
 created_by: bescalante
 ---
