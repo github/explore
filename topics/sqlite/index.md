@@ -1,6 +1,7 @@
 ---
 created_by: D. Richard Hipp
 display_name: SQLite
+logo: sqlite.png
 related: sql
 released: August 17, 2000
 short_description: SQLite is a fast, self-contained embedded SQL database engine.
