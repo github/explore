@@ -1,5 +1,5 @@
 ---
-aliases: google-cloud-platform, gcp
+aliases: google-cloud-platform, gcp, googlecloudplatform
 display_name: Google Cloud Platform
 topic: google-cloud
 github_url: https://github.com/GoogleCloudPlatform
