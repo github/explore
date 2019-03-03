@@ -1,5 +1,5 @@
 ---
-aliases: c-sharp
+aliases: c-sharp, csharp-code, csharp-library
 created_by: Anders Hejlsberg
 display_name: C#
 github_url: https://github.com/dotnet/csharplang
