@@ -18,6 +18,7 @@ items:
  - shakiba/planck.js
  - Irrelon/ige
  - 4ian/GDevelop
+ - mrdoob/three.js
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---
