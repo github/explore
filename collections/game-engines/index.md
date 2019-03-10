@@ -1,6 +1,7 @@
 ---
 items:
  - godotengine/godot
+ - panda3d/panda3d
  - turbulenz/turbulenz_engine
  - GarageGames/Torque3D
  - GarageGames/Torque2D
