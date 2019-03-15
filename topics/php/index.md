@@ -1,4 +1,4 @@
----
+How to use PHP
 aliases: php7, php5, php71
 created_by: Rasmus Lerdorf
 display_name: PHP
