@@ -5,4 +5,4 @@ topic: csv
 related: tsv
 wikipedia_url: https://en.wikipedia.org/wiki/Comma-separated_values
 ---
-CSV is a common data exchange format that stores tabular data in plain text file. A CSV file stores the data in delimited text file that uses comma to separate the values.
+CSV is a common data exchange format that stores tabular data in a plain text file. A CSV file stores the data in a delimited text file that uses commas to separate the values.
