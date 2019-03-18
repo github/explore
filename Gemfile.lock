@@ -22,7 +22,7 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.4.0)
     ruby-progressbar (1.10.0)
-    safe_yaml (1.0.4)
+    safe_yaml (1.0.5)
     unicode-display_width (1.4.1)
 
 PLATFORMS
