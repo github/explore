@@ -4,7 +4,7 @@ created_by: Brendan Eich
 display_name: JavaScript
 logo: javascript.png
 released: December 4, 1995
-short_description: JavaScript (JS) is a lightweight interpreted programming language with first-class functions used alongside HTML and CSS to give functionality to web pages.
+short_description: JavaScript (JS) is a lightweight interpreted programming language with first-class functions.
 topic: javascript
 url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 related: nodejs
