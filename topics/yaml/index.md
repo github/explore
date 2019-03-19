@@ -9,4 +9,4 @@ topic: yaml
 url: https://yaml.org/
 wikipedia_url: https://en.wikipedia.org/wiki/YAML
 ---
-YAML is a human friendly data serialization standard for all programming languages. It is commonly used for configurations.
+YAML is a human friendly data serialization standard for all programming languages. YAML is a recursive acronym which stands for "YAML Ain't Markup Language". It is commonly used for configurations.
