@@ -1,7 +1,6 @@
 ---
 items:
  - godotengine/godot
- - panda3d/panda3d
  - turbulenz/turbulenz_engine
  - GarageGames/Torque3D
  - GarageGames/Torque2D
@@ -34,6 +33,7 @@ items:
  - OpenRCT2/OpenRCT2
  - xenko3d/xenko
  - lance-gg/lance
+ - panda3d/panda3d
 display_name: Game Engines
 created_by: leereilly
 ---
