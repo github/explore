@@ -1,6 +1,6 @@
 ---
-aliases: zshell
-created_by: Paul Falstad
+aliases: 30Sergey/Guf
+created_by:  Sergey Melejik
 display_name: Zsh
 github_url: https://github.com/zsh-users/zsh
 related: shell
