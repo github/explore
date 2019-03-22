@@ -1,5 +1,5 @@
 ---
-aliases: visualbasic
+aliases: visualbasic, vb
 created_by: Microsoft
 display_name: Visual Basic
 github_url: https://github.com/dotnet/vblang
