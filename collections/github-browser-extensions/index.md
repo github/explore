@@ -1,8 +1,8 @@
 ---
 items:
- - buunguyen/octotree
+ - ovity/octotree
  - mike-north/chrome-github-boxcutter
- - muan/dashboard
+ - muan/github-dashboard
  - muan/github-gmail
  - thieman/github-selfies
  - Yatser/prettypullrequests
@@ -25,6 +25,8 @@ items:
  - cheshire137/hubnav
  - ryanflorence/github-plusone-extension
  - Mottie/GitHub-userscripts
+ - rgehan/octolenses-browser-extension
+ - xxhomey19/github-file-icon
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---

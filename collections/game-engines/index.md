@@ -14,7 +14,7 @@ items:
  - libgdx/libgdx
  - superpowers/superpowers-core
  - AtomicGameEngine/AtomicGameEngine
- - 4ian/GD
+ - 4ian/GDevelop
  - CRYTEK/CRYENGINE
  - urho3d/Urho3D
  - benoit-dumas/OpenRTS
@@ -31,6 +31,9 @@ items:
  - renpy/renpy
  - OpenRA/OpenRA
  - OpenRCT2/OpenRCT2
+ - xenko3d/xenko
+ - lance-gg/lance
+ - panda3d/panda3d
 display_name: Game Engines
 created_by: leereilly
 ---

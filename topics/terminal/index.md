@@ -3,6 +3,7 @@ aliases: command-line, command-prompt, computer-terminal
 display_name: Terminal
 short_description: The terminal is an interface in which you can type and execute text-based commands. 
 topic: terminal
+logo: terminal.png
 related: unix-shell, bash-shell
 wikipedia_url: https://en.wikipedia.org/wiki/Computer_terminal
 ---

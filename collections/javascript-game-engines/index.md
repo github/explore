@@ -5,7 +5,7 @@ items:
  - melonjs/melonJS
  - gamelab/kiwi.js
  - craftyjs/Crafty
- - wellcaffeinated/PhysicsJS
+ - liabru/matter-js
  - shakiba/stage.js
  - cocos2d/cocos2d-html5
  - playcanvas/engine
@@ -17,6 +17,8 @@ items:
  - GooTechnologies/goojs
  - shakiba/planck.js
  - Irrelon/ige
+ - 4ian/GDevelop
+ - mrdoob/three.js
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---

@@ -8,7 +8,7 @@ items:
  - openstack/openstack
  - moby/moby
  - capistrano/capistrano
- - etsy/statsd
+ - statsd/statsd
  - graphite-project/graphite-web
  - elastic/logstash
  - fabric/fabric
@@ -18,9 +18,14 @@ items:
  - getsentry/sentry
  - deployphp/deployer
  - kubernetes/kubernetes
- - firehol/netdata
+ - netdata/netdata
  - cloud66-oss/habitus
  - Kong/kong
+ - jenkinsci/jenkins
+ - kubernetes/kubernetes
+ - apache/mesos
+ - SeleniumHQ/selenium
+ 
 display_name: DevOps tools
 ---
 These tools help you manage servers and deploy happier and more often with more confidence.
