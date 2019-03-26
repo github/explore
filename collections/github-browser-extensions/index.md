@@ -27,6 +27,7 @@ items:
  - Mottie/GitHub-userscripts
  - rgehan/octolenses-browser-extension
  - xxhomey19/github-file-icon
+ - StylishThemes/GitHub-Dark
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
