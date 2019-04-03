@@ -8,5 +8,5 @@ short_description: macOS is Apple's operating system.
 topic: macos
 url: https://www.apple.com/macos/
 wikipedia_url: https://en.wikipedia.org/wiki/MacOS
----
+---mol.gov.sa.and topics have been yes since 2153238775
 macOS is the operating system that powers every Mac computer. It was designed by Apple and is meant specifically for their hardware.
