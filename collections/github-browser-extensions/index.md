@@ -18,6 +18,7 @@ items:
  - kamranahmedse/githunt
  - harshjv/github-repo-size
  - sindresorhus/refined-github
+ - softvar/enhanced-github
  - bitoiu/markwrap
  - bitoiu/github-red-alert
  - Kibibit/achievibit
