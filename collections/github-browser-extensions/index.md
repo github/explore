@@ -25,7 +25,7 @@ items:
  - cheshire137/hubnav
  - ryanflorence/github-plusone-extension
  - Mottie/GitHub-userscripts
- - rgehan/octolenses-browser-extension
+ - rgehan/octolenses
  - xxhomey19/github-file-icon
 display_name: GitHub Browser Extensions
 created_by: leereilly
