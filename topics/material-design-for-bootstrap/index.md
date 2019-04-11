@@ -2,7 +2,7 @@
 topic: material-design-for-bootstrap
 github_url: https://github.com/mdbootstrap/
 display_name: Material Design for Bootstrap
-logo: mdbootstrap.png
+logo: material-design-for-bootstrap.png
 short_description: World's most popular framework for building responsive, mobile-first websites and apps.
 url: https://mdbootstrap.com/
 ---
