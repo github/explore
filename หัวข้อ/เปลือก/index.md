@@ -9,4 +9,4 @@ short_description: A shell is a command-line tool, designed to be run by the Uni
 topic: shell
 wikipedia_url: https://en.wikipedia.org/wiki/Shell_script
 ---
-A shell is a text-based terminal, used for manipulating programs and files. Shell scripts typically manage program execution.
+เชลล์เป็นเทอร์มินัลแบบข้อความที่ใช้สำหรับจัดการโปรแกรมและไฟล์ เชลล์สคริปต์จะจัดการการเรียกใช้งานโปรแกรม
