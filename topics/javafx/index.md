@@ -1,4 +1,5 @@
 ---
+aliases: javafx-application, javafx-desktop-apps, javafx-gui, javafx-library
 created_by: Oracle
 display_name: JavaFX
 logo: javafx.png
