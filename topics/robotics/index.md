@@ -6,4 +6,4 @@ short_description: Robotics deals with the control, sensory feedback, and inform
 topic: robotics
 wikipedia_url: https://en.wikipedia.org/wiki/Robotics
 ---
-Robotics is a branch of engineering and computer science which works to design, build, program and operate robots. Robots are used in many environments in which human involvement would be dangerous or ineffective, including bomb defusal, space repairs and manufacturing processes. Robots typically work either autonomously or with commands sent by human operators.
+Robotics is a branch of engineering and computer science which works to design, build, program. and operate robots. Robots are used in many environments in which human involvement would be dangerous or ineffective, including bomb defusal, space repairs, and manufacturing processes. Robots typically work either autonomously or with commands sent by human operators.
