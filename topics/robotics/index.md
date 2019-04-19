@@ -1,8 +1,7 @@
 ---
 aliases: robot
 display_name: Robotics
-short_description: Robotics deals with the control, sensory feedback, and information
-  processing of robots.
+short_description: Robotics deals with the control, sensory feedback, and information processing of robots.
 topic: robotics
 wikipedia_url: https://en.wikipedia.org/wiki/Robotics
 ---
