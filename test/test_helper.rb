@@ -29,8 +29,8 @@ def metadata_for(dir, name)
 
   begin
     YAML.safe_load(parts[1])
-  rescue Psych::SyntaxError => ex
-    flunk "invalid YAML: #{ex.message}"
+  rescue Psych::SyntaxError => error
+    flunk "invalid YAML: #{error.message}"
   end
 end
 
