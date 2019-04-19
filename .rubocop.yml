@@ -16,6 +16,9 @@ Metrics/LineLength:
   Max: 100
   IgnoredPatterns: ['\A\s*#']
 
+Naming/RescuedExceptionsVariableName:
+  PreferredName: "error"
+
 Style/FrozenStringLiteralComment:
   Enabled: false
 
