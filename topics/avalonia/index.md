@@ -4,7 +4,7 @@ display_name: Avalonia
 github_url: https://github.com/avaloniaui/avalonia
 logo: avalonia.png
 released: 2016
-short_description: A cross-platform XAML UI framework for .NET Core, .NET Framework and Mono
+short_description: A cross-platform XAML UI framework for .NET Core, .NET Framework and Mono.
 topic: avalonia
 url: http://avaloniaui.net
 ---
