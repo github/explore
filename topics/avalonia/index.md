@@ -1,4 +1,5 @@
 ---
+aliases: avaloniaui
 created_by: Steven Kirk
 display_name: Avalonia
 github_url: https://github.com/avaloniaui/avalonia
