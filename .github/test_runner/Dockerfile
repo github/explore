@@ -1,4 +1,4 @@
-FROM jekyll/jekyll
+FROM ruby:2.6.2
 
 LABEL "com.github.actions.name"="CI Test Runner"
 LABEL "com.github.actions.description"="Run the full test suite"
