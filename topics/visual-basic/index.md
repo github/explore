@@ -1,5 +1,5 @@
 ---
-aliases: visualbasic, vb
+aliases: visualbasic, vb, vbnet, vb-net
 created_by: Microsoft
 display_name: Visual Basic
 github_url: https://github.com/dotnet/vblang
@@ -8,7 +8,7 @@ related: language, dotnet
 released: May 1991
 short_description: Visual Basic is an object-oriented and type-safe programming language.
 topic: visual-basic
-url: https://docs.microsoft.com/en-us/dotnet/visual-basic/
+url: https://docs.microsoft.com/dotnet/visual-basic/
 wikipedia_url: https://en.wikipedia.org/wiki/Visual_Basic_.NET
 ---
 Visual Basic is an approachable language with a simple syntax for building type-safe, object-oriented apps.
