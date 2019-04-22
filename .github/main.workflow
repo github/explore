@@ -5,5 +5,4 @@ workflow "test" {
 
 action "CI Test Runner" {
   uses = "./.github/test_runner"
-  secrets = ["GITHUB_TOKEN"]
 }
