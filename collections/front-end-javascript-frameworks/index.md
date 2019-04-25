@@ -1,5 +1,6 @@
 ---
 items:
+ - sveltejs/svelte
  - marko-js/marko
  - mithriljs/mithril.js
  - angular/angular
