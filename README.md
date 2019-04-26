@@ -10,7 +10,7 @@ If you want to suggest edits to an existing topic page or collection, or curate 
 
 ## Running tests
 
-There are some lint tests in place to ensure each topic is formatted in the way we expect. GitHub Actions will run the tests automatically. If you want to run the tests yourself locally, you will need Ruby and Bundler installed.
+There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis CI will run the tests automatically. If you want to run the tests yourself locally, you will need Ruby and Bundler installed.
 
 You can run the tests using:
 
