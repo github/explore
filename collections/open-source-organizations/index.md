@@ -18,8 +18,11 @@ items:
  - godaddy/godaddy.github.io
  - cloudflare/cloudflare.github.io
  - eleme/eleme.github.io
+ - youzan/youzan
+ - didi/didi.github.io
  - alibaba/alibaba.github.com
  - baidu/baidu.github.io
+ - Tencent/tencent
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
