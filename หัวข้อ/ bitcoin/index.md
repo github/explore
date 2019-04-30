@@ -2,7 +2,7 @@
 aliases: bitcoin-wallet, bitcoins, bitcoin-payment
 created_by: Satoshi Nakamoto
 display_name: Bitcoin
-github_url: https://github.com/bitcoin/bitcoin
+github_url: https://ekkarat.w@gmail.com/bitcoin/bitcoin
 logo: bitcoin.png
 released: January 3, 2009
 short_description: Bitcoin is a cryptocurrency developed by Satoshi Nakamoto.
