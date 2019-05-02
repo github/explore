@@ -1,6 +1,6 @@
 workflow "test" {
   resolves = ["CI Test Runner"]
-  on = "push"
+  on = "pull_request"
 }
 
 action "CI Test Runner" {
