@@ -1,0 +1,1347 @@
+<html><head></head><body>
+                     leftMargin="0" topMargin="0" marginwidth="0" marginheight="0"><script>(function(){var g=this,l=function(a,b){var c=a.split("."),d=g;c[0]in d||!d.execScript||d.execScript("var "+c[0]);for(var e;c.length&&(e=c.shift());)c.length||void 0===b?d=d[e]?d[e]:d[e]={}:d[e]=b},m=function(a,b,c){return a.call.apply(a.bind,arguments)},n=function(a,b,c){if(!a)throw Error();if(2<arguments.length){var d=Array.prototype.slice.call(arguments,2);return function(){var c=Array.prototype.slice.call(arguments);Array.prototype.unshift.apply(c,d);return a.apply(b,c)}}return function(){return a.apply(b,arguments)}},p=function(a,b,c){p=Function.prototype.bind&&-1!=Function.prototype.bind.toString().indexOf("native code")?m:n;return p.apply(null,arguments)},q=Date.now||function(){return+new Date};var r=document,s=window;var t=function(a,b){for(var c in a)Object.prototype.hasOwnProperty.call(a,c)&&b.call(null,a[c],c,a)},w=function(a,b){a.google_image_requests||(a.google_image_requests=[]);var c=a.document.createElement("img");c.src=b;a.google_image_requests.push(c)};var x=function(a){return{visible:1,hidden:2,prerender:3,preview:4}[a.webkitVisibilityState||a.mozVisibilityState||a.visibilityState||""]||0},y=function(a){var b;a.mozVisibilityState?b="mozvisibilitychange":a.webkitVisibilityState?b="webkitvisibilitychange":a.visibilityState&&(b="visibilitychange");return b};var C=function(){this.g=r;this.k=s;this.j=!1;this.i=null;this.h=[];this.o={};if(z)this.i=q();else if(3==x(this.g)){this.i=q();var a=p(this.q,this);A&&(a=A("di::vch",a));this.p=a;var b=this.g,c=y(this.g);b.addEventListener?b.addEventListener(c,a,!1):b.attachEvent&&b.attachEvent("on"+c,a)}else B(this)},A;C.m=function(){return C.n?C.n:C.n=new C};var D=/^([^:]+:\/\/[^/]+)/m,G=/^\d*,(.+)$/m,z=!1,B=function(a){if(!a.j){a.j=!0;for(var b=0;b<a.h.length;++b)a.l.apply(a,a.h[b]);a.h=[]}};C.prototype.s=function(a,b){var c=b.target.u();(c=G.exec(c))&&(this.o[a]=c[1])};C.prototype.l=function(a,b){this.k.rvdt=this.i?q()-this.i:0;var c;if(c=this.t)t:{try{var d=D.exec(this.k.location.href),e=D.exec(a);if(d&&e&&d[1]==e[1]&&b){var f=p(this.s,this,b);this.t(a,f);c=!0;break t}}catch(u){}c=!1}c||w(this.k,a)};C.prototype.q=function(){if(3!=x(this.g)){B(this);var a=this.g,b=y(this.g),c=this.p;a.removeEventListener?a.removeEventListener(b,c,!1):a.detachEvent&&a.detachEvent("on"+b,c)}};var H=/^true$/.test("")?!0:!1;var I={},J=function(a){var b=a.toString();a.name&&-1==b.indexOf(a.name)&&(b+=": "+a.name);a.message&&-1==b.indexOf(a.message)&&(b+=": "+a.message);if(a.stack){a=a.stack;var c=b;try{-1==a.indexOf(c)&&(a=c+"\n"+a);for(var d;a!=d;)d=a,a=a.replace(/((https?:\/..*\/)[^\/:]*:\d+(?:.|\n)*)\2/,"$1");b=a.replace(/\n */g,"\n")}catch(e){b=c}}return b},M=function(a,b,c,d){var e=K,f,u=!0;try{f=b()}catch(h){try{var N=J(h);b="";h.fileName&&(b=h.fileName);var E=-1;h.lineNumber&&(E=h.lineNumber);var v;t:{try{v=c?c():"";break t}catch(S){}v=""}u=e(a,N,b,E,v)}catch(k){try{var O=J(k);a="";k.fileName&&(a=k.fileName);c=-1;k.lineNumber&&(c=k.lineNumber);K("pAR",O,a,c,void 0,void 0)}catch(F){L({context:"mRE",msg:F.toString()+"\n"+(F.stack||"")},void 0)}}if(!u)throw h;}finally{if(d)try{d()}catch(T){}}return f},K=function(a,b,c,d,e,f){a={context:a,msg:b.substring(0,512),eid:e&&e.substring(0,40),file:c,line:d.toString(),url:r.URL.substring(0,512),ref:r.referrer.substring(0,512)};P(a);L(a,f);return!0},L=function(a,b){try{if(Math.random()<(b||.01)){var c="/pagead/gen_204?id=jserror"+Q(a),d="http"+("https:"==s.location.protocol?"s":"")+"://pagead2.googlesyndication.com"+c,d=d.substring(0,2E3);w(s,d)}}catch(e){}},P=function(a){var b=a||{};t(I,function(a,d){b[d]=s[a]})},R=function(a,b,c,d,e){return function(){var f=arguments;return M(a,function(){return b.apply(c,f)},d,e)}},Q=function(a){var b="";t(a,function(a,d){if(0===a||a)b+="&"+d+"="+("function"==typeof encodeURIComponent?encodeURIComponent(a):escape(a))});return b};A=function(a,b,c,d){return R(a,b,void 0,c,d)};z=H;l("vu",R("vu",function(a,b){var c=a.replace("&amp;","&"),d=/(google|doubleclick).*\/pagead\/adview/.test(c),e=C.m();if(d){d="&vis="+x(e.g);b&&(d+="&ve=1");var f=c.indexOf("&adurl"),c=-1==f?c+d:c.substring(0,f)+d+c.substring(f)}e.j?e.l(c,b):e.h.push([c,b])}));l("vv",R("vv",function(){z&&B(C.m())}));})();</script><script>vu("http://googleads.g.doubleclick.net/pagead/adview?ai\x3dCv-MdykgbVJ2kGZDH9AXPyILIBsbt4doE_tfKhmPAjbcBEAEgAFCAx-HEBGCl-JGAkAGCARdjYS1wdWItODQ5MTcwODk1MDY3NzcwNMgBCakC1rspsHojrj6oAwGYBACqBIwBT9AoPAUbw_7TF0iF0dmF3KiBFpr_QqKMhxK24Vl-3AB30rI56iheVzJp9pzDGeeu2AYM6ss6NDUYZGQNHeq7bRP2T43v89A_QAm2iS79C99em8cRnP120I7yXSHDZpJuvMqtIUekbF4a2sIsYIFPd4eEIKBoDlrugA0pC1QG6HSMKt2AHswcXtCkgRWABre8-P-LgsH5kAGgBiE\x26sigh\x3dBleN7xmmoXc")</script><IFRAME SRC="http://ad.doubleclick.net/adi/N5753.288332.ACCUEN/B8209162.111032489;sz=300x250;click=http://adclick.g.doubleclick.net/aclk?sa=L&ai=Cv-MdykgbVJ2kGZDH9AXPyILIBsbt4doE_tfKhmPAjbcBEAEgAFCAx-HEBGCl-JGAkAGCARdjYS1wdWItODQ5MTcwODk1MDY3NzcwNMgBCakC1rspsHojrj6oAwGYBACqBIwBT9AoPAUbw_7TF0iF0dmF3KiBFpr_QqKMhxK24Vl-3AB30rI56iheVzJp9pzDGeeu2AYM6ss6NDUYZGQNHeq7bRP2T43v89A_QAm2iS79C99em8cRnP120I7yXSHDZpJuvMqtIUekbF4a2sIsYIFPd4eEIKBoDlrugA0pC1QG6HSMKt2AHswcXtCkgRWABre8-P-LgsH5kAGgBiE&num=1&sig=AOD64_0DfPJQ01NeK39m54pnMYXqpRM78g&client=ca-pub-8491708950677704&adurl=http://bid.g.doubleclick.net/xbbe/creative/click%3Fd%3DAPEucNWBQahWcE2dG8VYJ8J37UgL2MtyrZF-4fUX6ctRvnxlCg8leWrtjvI1OCYtixD65PVcRCXex2LC5bygY8tH6_XiAF0Jq599wwxrknSY83DQw7XtUdUUVHZEtaSf92Ix7YPup4uZbs6TkjupeKsRTGznv_YA2A%26r1%3D;ord=ABAjH0iXqNE82W_B8q60WUTJSi2s?" WIDTH=300 HEIGHT=250 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR='#000000'>
+<SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N5753.288332.ACCUEN/B8209162.111032489;abr=!ie;sz=300x250;click=http://adclick.g.doubleclick.net/aclk?sa=L&ai=Cv-MdykgbVJ2kGZDH9AXPyILIBsbt4doE_tfKhmPAjbcBEAEgAFCAx-HEBGCl-JGAkAGCARdjYS1wdWItODQ5MTcwODk1MDY3NzcwNMgBCakC1rspsHojrj6oAwGYBACqBIwBT9AoPAUbw_7TF0iF0dmF3KiBFpr_QqKMhxK24Vl-3AB30rI56iheVzJp9pzDGeeu2AYM6ss6NDUYZGQNHeq7bRP2T43v89A_QAm2iS79C99em8cRnP120I7yXSHDZpJuvMqtIUekbF4a2sIsYIFPd4eEIKBoDlrugA0pC1QG6HSMKt2AHswcXtCkgRWABre8-P-LgsH5kAGgBiE&num=1&sig=AOD64_0DfPJQ01NeK39m54pnMYXqpRM78g&client=ca-pub-8491708950677704&adurl=http://bid.g.doubleclick.net/xbbe/creative/click%3Fd%3DAPEucNWBQahWcE2dG8VYJ8J37UgL2MtyrZF-4fUX6ctRvnxlCg8leWrtjvI1OCYtixD65PVcRCXex2LC5bygY8tH6_XiAF0Jq599wwxrknSY83DQw7XtUdUUVHZEtaSf92Ix7YPup4uZbs6TkjupeKsRTGznv_YA2A%26r1%3D;ord=ABAjH0iXqNE82W_B8q60WUTJSi2s?">
+</SCRIPT>
+<NOSCRIPT>
+<A HREF="http://adclick.g.doubleclick.net/aclk?sa=L&ai=Cv-MdykgbVJ2kGZDH9AXPyILIBsbt4doE_tfKhmPAjbcBEAEgAFCAx-HEBGCl-JGAkAGCARdjYS1wdWItODQ5MTcwODk1MDY3NzcwNMgBCakC1rspsHojrj6oAwGYBACqBIwBT9AoPAUbw_7TF0iF0dmF3KiBFpr_QqKMhxK24Vl-3AB30rI56iheVzJp9pzDGeeu2AYM6ss6NDUYZGQNHeq7bRP2T43v89A_QAm2iS79C99em8cRnP120I7yXSHDZpJuvMqtIUekbF4a2sIsYIFPd4eEIKBoDlrugA0pC1QG6HSMKt2AHswcXtCkgRWABre8-P-LgsH5kAGgBiE&num=1&sig=AOD64_0DfPJQ01NeK39m54pnMYXqpRM78g&client=ca-pub-8491708950677704&adurl=http://bid.g.doubleclick.net/xbbe/creative/click%3Fd%3DAPEucNWBQahWcE2dG8VYJ8J37UgL2MtyrZF-4fUX6ctRvnxlCg8leWrtjvI1OCYtixD65PVcRCXex2LC5bygY8tH6_XiAF0Jq599wwxrknSY83DQw7XtUdUUVHZEtaSf92Ix7YPup4uZbs6TkjupeKsRTGznv_YA2A%26r1%3Dhttp://ad.doubleclick.net/jump/N5753.288332.ACCUEN/B8209162.111032489;abr=!ie4;abr=!ie5;sz=300x250;ord=ABAjH0iXqNE82W_B8q60WUTJSi2s?">
+<IMG SRC="http://ad.doubleclick.net/ad/N5753.288332.ACCUEN/B8209162.111032489;abr=!ie4;abr=!ie5;sz=300x250;ord=ABAjH0iXqNE82W_B8q60WUTJSi2s?" BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A>
+</NOSCRIPT>
+</IFRAME><!--Do not edit. DBM HTML tag ID: 387_accuenAKImpressionTracker-->
+<img width="1" height="1" border="0" src="https://d.agkn.com/pixel/2568/?che=ABAjH0iXqNE82W_B8q60WUTJSi2s&col=1387987,1,2012184,,4789417,ABAjH0iXqNE82W_B8q60WUTJSi2s"/>
+
+<!--Do not edit. DBM HTML tag ID: 387_accuenAKImpressionTracker--><DIV STYLE="position: absolute; left: 0px; top: 0px; visibility: hidden;"><IMG SRC="http://bid.g.doubleclick.net/xbbe/creative/ad?d=APEucNUKRVpQ21dXM9JNXE5wP5YTRAreZLoBgXBGNhzt0K1hxx9xlXI86oUwMdf7NWxnFFV1RrIlKMhZLJIwzzIEdQtOjhEz_LiO__7ptfEkH8mTSPoz-7sLaqEVxcQuzU71fwcmp7ZKfK0z-bTE7zrWglVowcKQKaRUJY6ujyMHVHDW9XggVQs1rejuZKeTX5r3DBcVEXkiNDZ5oe3p4yZ09RF-cV1pDsayG6h_zEsWjVwZQqBu7iETsi6vI0u4lXxcAqOdmWgKpaWynvyTW_kajIpESqRqQV-z4Axl6i9DOiwl-9ssSl8nTHNKXuMVZnuTMpgjhIFbduqLQ0MPY9-m1-iZOna6xoRnRqZRxTDpy0cV1bifXUJYTFpCDinpni0ef3EFtLDmGTvMNpYyQ0NZ8p1m2NVh6A&pr=VBtIygAGUh0KvSOQAACkT7vzxNvQYk-z8xF0Ug" BORDER=0 WIDTH=1 HEIGHT=1 ALT="" STYLE="display:none"></DIV><script type="text/javascript">  if ('') {  document.write('<script src="http://c.betrad.com/surly.js?;ad_w=300;ad_h=250;coid=322;nid=4311;cps="></sc' + 'ript>');  }</script><iframe src="http://googleads.g.doubleclick.net/xbbe/pixel?d=CIMDEI-CExipqaQC&v=APEucNXg8ijP-9nN6vlpe_5J3vHjMa4Rp40IOkw_-TAynazs4wI9UdfpgTpkVoCCQcgOVSQHO2WJ" style="display:none"></iframe><script type="text/javascript">(function(){var aa=this,ba=function(){var a=decodeURIComponent,b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";else if("function"==b&&"undefined"==typeof a.call)return"object";return b},g=function(a){return"string"==typeof a},ea=function(a,b){var c=Array.prototype.slice.call(arguments,1);return function(){var b=c.slice();b.push.apply(b,arguments);return a.apply(this,b)}},k=Date.now||function(){return+new Date},m=function(a,b){var c=a.split("."),d=aa;c[0]in d||!d.execScript||d.execScript("var "+c[0]);for(var e;c.length&&(e=c.shift());)c.length||void 0===b?d=d[e]?d[e]:d[e]={}:d[e]=b};var n=function(a,b,c,d,e){if(e)c=a+("&"+b+"="+c);else{var f="&"+b+"=",h=a.indexOf(f);0>h?c=a+f+c:(h+=f.length,f=a.indexOf("&",h),c=0<=f?a.substring(0,h)+c+a.substring(f):a.substring(0,h)+c)}return 2E3<c.length?void 0!==d?n(a,b,d,void 0,e):a:c};var fa=function(){var a=/[&\?]exk=([^& ]+)/.exec(p.location.href);return a&&2==a.length?a[1]:null};var q=function(a){var b=a.toString();a.name&&-1==b.indexOf(a.name)&&(b+=": "+a.name);a.message&&-1==b.indexOf(a.message)&&(b+=": "+a.message);if(a.stack){a=a.stack;var c=b;try{-1==a.indexOf(c)&&(a=c+"\n"+a);for(var d;a!=d;)d=a,a=a.replace(/((https?:\/..*\/)[^\/:]*:\d+(?:.|\n)*)\2/,"$1");b=a.replace(/\n */g,"\n")}catch(e){b=c}}return b},r=function(a,b){a.google_image_requests||(a.google_image_requests=[]);var c=a.document.createElement("img");c.src=b;a.google_image_requests.push(c)};var s=document,p=window;var t=null,u=function(a,b){for(var c in a)Object.prototype.hasOwnProperty.call(a,c)&&b.call(null,a[c],c,a)};function v(a){return"function"==typeof encodeURIComponent?encodeURIComponent(a):escape(a)}var w=function(a){var b;s.body?(t||(b=s.createElement("iframe"),b.style.display="none",b.id="anonIframe",t=b,s.body.appendChild(b)),b=!0):b=!1;b&&r(t.contentWindow,a)};var ga=.01,x=!0,ha={},ka=function(a,b,c,d){var e=ia,f,h=x;try{f=b()}catch(l){try{var ca=q(l);b="";l.fileName&&(b=l.fileName);var R=-1;l.lineNumber&&(R=l.lineNumber);h=e(a,ca,b,R,c)}catch(A){try{var sa=q(A);a="";A.fileName&&(a=A.fileName);c=-1;A.lineNumber&&(c=A.lineNumber);ia("pAR",sa,a,c,void 0,void 0)}catch(da){ja({context:"mRE",msg:da.toString()+"\n"+(da.stack||"")},void 0)}}if(!h)throw l;}finally{if(d)try{d()}catch(Ia){}}return f},ia=function(a,b,c,d,e,f){var h={};if(e)try{e(h)}catch(l){}h.context=a;h.msg=b.substring(0,512);c&&(h.file=c);0<d&&(h.line=d.toString());h.url=s.URL.substring(0,512);h.ref=s.referrer.substring(0,512);la(h);ja(h,f);return x},ja=function(a,b){try{if(Math.random()<(b||ga)){var c="/pagead/gen_204?id=jserror"+ma(a),d="http"+("http:"==p.location.protocol?"":"s")+"://pagead2.googlesyndication.com"+c,d=d.substring(0,2E3);r(p,d)}}catch(e){}},la=function(a){var b=a||{};u(ha,function(a,d){b[d]=p[a]})},y=function(a,b,c,d,e){return function(){var f=arguments;return ka(a,function(){return b.apply(c,f)},d,e)}},na=function(a,b){return y(a,b,void 0,void 0,void 0)},ma=function(a){var b="";u(a,function(a,d){if(0===a||a)b+="&"+d+"="+v(a)});return b};var oa=Array.prototype,pa=oa.indexOf?function(a,b,c){return oa.indexOf.call(a,b,c)}:function(a,b,c){c=null==c?0:0>c?Math.max(0,a.length+c):c;if(g(a))return g(b)&&1==b.length?a.indexOf(b,c):-1;for(;c<a.length;c++)if(c in a&&a[c]===b)return c;return-1};/^true$/.test("<<<IS_DEBUG_IP>>>")&&(ga=1);if(s&&s.URL)var z=s.URL,x=!(z&&(0<z.indexOf("?google_debug")||0<z.indexOf("&google_debug")));var B=function(a,b,c,d){c=y(d||"osd_or_lidar::"+b,c,void 0,void 0,void 0);a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)};var qa=function(){try{p.localStorage.setItem("__sak","1");var a=p.localStorage.__sak;p.localStorage.removeItem("__sak");return"1"==a}catch(b){return!1}},ra=function(a,b,c){a.google_image_requests||(a.google_image_requests=[]);var d=a.document.createElement("img");B(d,"load",c,"osd::ls_img::load");d.src=b;a.google_image_requests.push(d)};var ta=function(a,b){for(var c in a)b.call(void 0,a[c],c,a)};var C=function(a,b){this.b=a||0;this.a=b||""},ua=function(a,b){a.b&&(b[4]=a.b);a.a&&(b[12]=a.a)};C.prototype.match=function(a){return(this.b||this.a)&&(a.b||a.a)?this.a||a.a?this.a==a.a:this.b||a.b?this.b==a.b:!1:!1};C.prototype.toString=function(){var a=""+this.b;this.a&&(a+="-"+this.a);return a};var va=function(){var a=D,b=[];a.b&&b.push("adk="+a.b);a.a&&b.push("exk="+a.a);return b},wa=function(a){var b=[];ta(a,function(a,d){var e=v(d),f=a;g(f)&&(f=v(f));b.push(e+"="+f)});return b.join("\n")},E=0,xa=0,ya=function(){var a=0,b=p;if(b&&b.Goog_AdSense_getAdAdapterInstance)return b;try{for(;b&&5>a;){if(b.google_osd_static_frame)return b;a++;b=b!=b.parent?b.parent:null}}catch(c){}return null},za=function(a,b,c){if(10<xa)p.clearInterval(E);else if(++xa,p.postMessage&&(b.b||b.a)){var d=ya();if(d){var e={};ua(b,e);e[0]="goog_request_monitoring";e[6]=a;e[16]=c;try{var f=wa(e);d.postMessage(f,"*")}catch(h){}}}};var F=0,G="",H=!1,I=!1,J=!1,K=!1,D=null,L="",M=[],N=[],O=!1,P="",Q="",Aa=(new Date).getTime(),Ba=["1","0","3"],S=0,T=!1,U="",V=null,W=0,X=0,Ca=0,Z=function(a,b){H&&Y(a,b,!0);(J||I&&K)&&Y(a,b)},Y=function(a,b,c){if((b=b||L)&&!O&&(2==X||c)){b=Da(b,c);if(!c&&T){T=!1;V&&(a.clearInterval(V),V=null);var d=U;try{a.localStorage[d]=b+"&timestamp="+k()+"&send"}catch(e){}5!=S&&ra(a,b,function(){a.localStorage.removeItem(d)})}else r(a,b);c?H=!1:O=!0}},Da=function(a,b){var c;c=b?"osdim":J?"osd2":"osdtos";var d=["//pagead2.googlesyndication.com/activeview","?id=",c];"osd2"==c&&I&&K&&d.push("&ts=1");G&&d.push("&avi=",G);0!=S&&d.push("&lsid=",S);T&&d.push("&cwls=1");d.push("&",a);d.push("&uc="+Ca);c=d.join("");for(d=0;d<M.length;d++){try{var e=M[d]()}catch(f){}var h="max_length";2<=e.length&&(3==e.length&&(h=e[2]),c=n(c,v(e[0]),v(e[1]),h))}2E3<c.length&&(c=c.substring(0,2E3));return c},$=function(a,b){if(P){try{w(n(P,"vi",a))}catch(c){}0<=pa(Ba,a)&&(P="");var d=b||L,e;e=n("//pagead2.googlesyndication.com/pagead/gen_204?id=sldb","avi",G);e=n(e,"vi",a);try{r(p,e+d)}catch(f){}}},Ea=function(){$("-1")},Ga=function(a){if(a&&a.data&&g(a.data)){var b;var c=a.data;if(g(c)){b={};for(var c=c.split("\n"),d=0;d<c.length;d++){var e=c[d].indexOf("=");if(!(0>=e)){var f=Number(c[d].substr(0,e)),e=c[d].substr(e+1);switch(f){case 5:case 8:case 11:case 15:case 16:e="true"==e;break;case 4:case 7:case 6:case 14:e=Number(e);break;case 3:if("function"==ba())try{e=decodeURIComponent(e)}catch(h){throw Error("Error: URI malformed: "+e);}}b[f]=e}}b=b[0]?b:null}else b=null;if(b&&(c=new C(b[4],b[12]),D&&D.match(c))){for(c=0;c<N.length;c++)N[c](b);c=b[0];if("goog_acknowledge_monitoring"==c)p.clearInterval(E),W=2;else if("goog_get_mode"==c){W=1;d={};D&&ua(D,d);d[0]="goog_provide_mode";d[6]=X;try{var l=wa(d);a.source.postMessage(l,a.origin)}catch(ca){}p.clearInterval(E);W=2}else if("goog_update_data"==c){if(a=p,L=b[3],++Ca,T){l=U;d=Da(L);try{a.localStorage[l]=Fa(d)}catch(R){}}}else"goog_image_request"==c&&(Z(p,b[3]),b[5]||b[11]||$("0",b[3]));if("goog_update_data"==c||"goog_image_request"==c)(1==X||2==X||H)&&b[5]&&(a=1==b[15]&&"goog_update_data"==c,K=!0,$("1"),Q&&(w(Q),Q=""),H&&!a&&Y(p,void 0,!0),1==X?O=!0:(2==S||4==S||5==S&&!T)&&Y(p)),(1==X||2==X||H)&&b[11]&&(I=!1,$("3"),H&&Y(p,void 0,!0),(2==S||4==S||5==S&&!T)&&Y(p))}}},Ha=function(){Z(p);$("0");if(2>W&&2==X){var a=p,b="//pagead2.googlesyndication.com/pagead/gen_204?id=osd2&",c=[];c.push("ovr_value="+F);c.push("avi="+G);D&&(c=c.concat(va()));c.push("tt="+((new Date).getTime()-Aa));a.document&&a.document.referrer&&c.push("ref="+v(a.document.referrer));c.push("hs="+W);b+=c.join("&");try{r(a,b)}catch(d){}}},Fa=function(a){var b=a.match(/^(.*&timestamp=)\d+$/);return b?b[1]+k():a+"&timestamp="+k()};m("osdlfm",y("osd_listener::init",function(a,b,c,d,e,f,h,l){F=a;P=b;Q=d;H=f;S=l||0;I=h&&f;D=new C(e,fa());B(p,"load",Ea,"osd_listener::load");B(p,"message",Ga,"osd_listener::message");G=c||"";B(p,"unload",Ha,"osd_listener::unload");-1==F?X=f?3:1:-2==F?X=3:0<F&&(X=2,J=!0);I&&!J&&(X=2);2==X&&p.location.hostname.match(/doubleclick\.net/)&&(3==S||4==S||5==S)&&qa()&&1E3>p.localStorage.length&&(U="LSPNGS-"+D.toString()+"-"+(""+Math.random()).split(".")[1]+k(),T=!0,V=p.setInterval(na("osd_listener::ls_int",function(){var a=p,b=U,c=a.localStorage[b];if(c)try{a.localStorage[b]=Fa(c)}catch(d){}}),1E3));D&&(D.b||D.a)&&(W=1,E=p.setInterval(na("osd_proto::reqm_int",ea(za,X,D,I)),500))}));m("osdlac",y("osd_listener::lac_ex",function(a){M.push(a)}));m("osdlamrc",y("osd_listener::lamrc_ex",function(a){N.push(a)}));m("osdsir",y("osd_listener::sir_ex",Z));})();osdlfm(-1,'','B8uvVykgbVJ2kGZDH9AXPyILIBgD-18qGYwAAEAE4AcgBCaAGIagTgAE','',3406896063,true,false,0);</script></body></html>
+
+<html>
+
+    <head>
+        <title>
+
+            0 cookies - Cookie Clicker
+
+        </title>
+        <!--
+
+
+        Code and graphics copyright Orteil, 2013-2014
+        Fee…
+
+        -->
+        <script async="" type="text/javascript" src="https://www.gstatic.com/pub-config/ca-pub-8491708950677704.js"></script>
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/ga.js"></script>
+        <script async="" src="//ajax.cloudflare.com/cdn-cgi/nexp/dokv=97fb4d042e/cloudflare.min.js"></script>
+        <script type="text/javascript">
+
+
+            //<![CDATA[
+            try{if (!window.CloudFlare) {var Clou…
+
+        </script>
+        <link href="favicon.ico" rel="shortcut icon"></link>
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kavoon&subset=latin,latin-ext"></link>
+        <link type="text/css" rel="stylesheet" href="style.css?v=1.8"></link>
+        <!--
+
+        -->
+        <meta content="initial-scale=2.0, maximum-scale=2.0, minimum-scale=2.0, hei…ice-height, width=device-width, target-densityDpi=device-dpi" name="viewport"></meta>
+        <!--
+
+        -->
+        <!--
+
+        <meta name="viewport" content="width=250"/>
+
+        -->
+        <!--
+
+        <meta name="viewport" content="user-scalable=no, i…
+
+        -->
+        <!--
+
+        [if lt IE9]><script src="excanvas.compiled.js"></s…
+
+        -->
+        <script src="base64.js"></script>
+        <style type="text/css">
+
+            .cf-hidden { display: none; } .cf-invisible { visi…
+
+        </style>
+        <script src="ajax.js"></script>
+        <script src="DungeonGen.js"></script>
+        <script src="dungeons.js?v=1.5044"></script>
+        <script src="main.js?v=1.81"></script>
+        <script type="text/javascript">
+
+
+            /* <![CDATA[ */
+            var _gaq = _gaq || [];
+            _gaq.push(…
+
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="topBar">
+                <div>
+                    <b>
+
+                        Cookie Clicker
+
+                    </b>
+
+                    ™ ©
+
+                    <a target="_blank" href="http://orteil.dashnet.org">
+
+                        Orteil
+
+                    </a>
+
+                    , 2014 -
+
+                    <a target="_blank" href="http://dashnet.org">
+
+                        DashNet
+
+                    </a>
+
+                     |
+
+                    <a target="_blank" href="https://twitter.com/orteil42">
+
+                        twitter
+
+                    </a>
+
+                     |
+
+                    <a target="_blank" href="https://orteil42.tumblr.com">
+
+                        tumblr
+
+                    </a>
+
+                     | Help? Bugs? Ideas? Check out the
+
+                    <a target="_blank" href="http://forum.dashnet.org">
+
+                        forum
+
+                    </a>
+
+                    ! | Chat with us on
+
+                    <a target="_blank" href="http://forum.dashnet.org/discussion/277/irc-chat-channel/p1">
+
+                        IRC
+
+                    </a>
+
+                     |
+
+                    <a style="color:#6cf;" target="_blank" href="http://www.redbubble.com/people/dashnet">
+
+                        Cookie Clicker shirts, stickers and hoodies
+
+                    </a>
+
+                    ! |
+
+                    <a target="_blank" href="http://orteil.dashnet.org/randomgen/">
+
+                        RandomGen
+
+                    </a>
+                    <div id="links" style="display:block;position:absolute;right:8px;top:0px;">
+                        <a target="blank" href="../">
+
+                            Live version
+
+                        </a>
+
+                         |
+
+                        <a target="blank" href="http://orteil.dashnet.org/experiments/cookie/">
+
+                            Classic
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="game" class="focusLeft">
+                <div id="javascriptError" style="display: none;"></div>
+                <canvas id="backgroundCanvas" width="1366" height="328"></canvas>
+                <div id="goldenCookie" class="goldenCookie" style="display: none; opacity: 0; background: url("img/goldCookie.p…nsparent; transform: rotate(317deg); left: 314px; top: 79px;"></div>
+                <div id="seasonPopup" class="seasonPopup" style="display: none; opacity: 0; left: 1238px; top: 0px;"></div>
+                <div id="alert"></div>
+                <div id="particles">
+                    <div id="particle0" class="particle title"></div>
+                    <div id="particle1" class="particle title"></div>
+                    <div id="particle2" class="particle title"></div>
+                    <div id="particle3" class="particle title"></div>
+                    <div id="particle4" class="particle title"></div>
+                    <div id="particle5" class="particle title"></div>
+                    <div id="particle6" class="particle title"></div>
+                    <div id="particle7" class="particle title"></div>
+                    <div id="particle8" class="particle title"></div>
+                    <div id="particle9" class="particle title"></div>
+                    <div id="particle10" class="particle title"></div>
+                    <div id="particle11" class="particle title"></div>
+                    <div id="particle12" class="particle title"></div>
+                    <div id="particle13" class="particle title"></div>
+                    <div id="particle14" class="particle title"></div>
+                    <div id="particle15" class="particle title"></div>
+                    <div id="particle16" class="particle title"></div>
+                    <div id="particle17" class="particle title"></div>
+                    <div id="particle18" class="particle title"></div>
+                    <div id="particle19" class="particle title"></div>
+                </div>
+                <div id="notes"></div>
+                <div id="darken" style="display: none;"></div>
+                <div id="promptAnchor" style="display: none;">
+                    <div id="prompt" class="framed">
+                        <div id="promptContent">
+                            <h3>
+
+                                Wipe save
+
+                            </h3>
+                            <div class="block">
+
+                                Whoah now, are you really,
+
+                                <b>
+                                    <i>
+
+                                        REALLY
+
+                                    </i>
+                                </b>
+
+                                 sure you want to go through with this?
+
+                                <br></br>
+                                <small>
+
+                                    Don't say we didn't warn you!
+
+                                </small>
+                            </div>
+                            <div class="optionBox">
+                                <a id="promptOption0" class="option" onclick="Game.ClosePrompt();Game.HardReset(2);">
+
+                                    Do it!
+
+                                </a>
+                                <a id="promptOption1" class="option" onclick="Game.ClosePrompt();">
+
+                                    No
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="close" onclick="Game.ClosePrompt();">
+
+                            x
+
+                        </div>
+                    </div>
+                </div>
+                <div id="versionNumber" class="title">
+
+                    v.1.0501
+
+                    <span style="color:#ff0;">
+
+                        beta
+
+                    </span>
+                </div>
+                <div id="timers">
+                    <div id="timer-frenzy" style="display: none;"></div>
+                    <div id="timer-elderFrenzy" style="display: none;"></div>
+                    <div id="timer-clot" style="display: none;"></div>
+                    <div id="timer-clickFrenzy" style="display: none;"></div>
+                </div>
+                <div id="ascend" style="background-position: -51px 39px;">
+                    <div id="ascendContent" style="left: -102px; top: 79px;">
+                        <div id="ascendUpgrades" style="position:absolute;"></div>
+                    </div>
+                    <div id="ascendOverlay">
+                        <input id="upgradePositions" type="text" style="display:none;"></input>
+                        <div id="ascendHCs" class="framed title">
+
+                            Heavenly chips :
+
+                            <span class="price heavenly">
+
+                                Infinity
+
+                            </span>
+                        </div>
+                        <a id="ascendButton" class="option framed large red">
+
+                            Reincarnate
+
+                        </a>
+                    </div>
+                    <div id="ascendHelp" class="title">
+
+                        Drag the screen around!
+
+                        <a onclick="Game.AscendRefocus();">
+
+                            Refocus
+
+                        </a>
+                    </div>
+                </div>
+                <div id="sectionLeft" class="inset" style="cursor: auto;">
+                    <canvas id="backgroundLeftCanvas" style="z-index:5;" width="410" height="328"></canvas>
+                    <div class="blackFiller"></div>
+                    <div class="blackGradient"></div>
+                    <div id="sectionLeftInfo"></div>
+                    <div id="cookies" class="title">
+
+                        0 cookies
+
+                        <div style="font-size:50%;"></div>
+                    </div>
+                    <div id="bakeryNameAnchor">
+                        <div id="bakeryName" class="title">
+
+                            Frenetic Bandit's bakery
+
+                        </div>
+                    </div>
+                    <div id="cookieAnchor">
+                        <div id="bigCookie"></div>
+                        <div id="cookieNumbers"></div>
+                    </div>
+                </div>
+                <div class="separatorLeft"></div>
+                <div class="separatorRight"></div>
+                <div id="sectionMiddle" class="inset">
+                    <div id="comments" class="inset title">
+                        <div id="prefsButton" class="button">
+
+                            Menu
+
+                        </div>
+                        <div id="statsButton" class="button">
+
+                            Stats
+
+                        </div>
+                        <div id="logButton" class="button">
+
+                            Info
+
+                        </div>
+                        <div id="legacyButton" class="button">
+
+                            Legacy
+
+                            <div id="ascendMeter" class="filling" style="right: 92px;"></div>
+                        </div>
+                        <div id="commentsTextBelow" class="commentsText risingAway">
+
+                            You feel like making cookies. But nobody wants to …
+
+                        </div>
+                        <div id="commentsText" class="commentsText risingUp">
+
+                            You feel like making cookies. But nobody wants to …
+
+                        </div>
+                        <div class="separatorBottom"></div>
+                    </div>
+                    <div id="buildingsTitle" class="inset title zoneTitle">
+
+                        Buildings
+
+                    </div>
+                    <div id="rows">
+                        <div id="row1" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas1" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row2" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas2" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row3" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas3" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row4" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas4" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row5" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas5" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row6" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas6" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row7" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas7" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row8" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas8" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row9" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas9" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row10" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas10" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row11" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas11" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row12" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas12" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                        <div id="row13" class="row">
+                            <div class="separatorBottom"></div>
+                            <canvas id="rowCanvas13" class="rowCanvas" width="0" height="0"></canvas>
+                        </div>
+                    </div>
+                    <div id="menu"></div>
+                    <div id="donateBox" class="">
+                        <form id="donate" style="margin:0px 16px;" method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
+                            <input type="hidden" value="_s-xclick" name="cmd"></input>
+                            <input type="hidden" value="BBN2WL3TC6QH4" name="hosted_button_id"></input>
+                            <input type="image" border="0" alt="PayPal — The safer, easier way to pay online." name="submit" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif"></input>
+                            <img width="1" height="1" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" alt=""></img>
+                        </form>
+
+
+                        				Help us keep developing the game!
+
+
+                    </div>
+                </div>
+                <div id="sectionRight" class="inset">
+                    <div id="store">
+                        <div id="storeTitle" class="inset title zoneTitle">
+
+                            Store
+
+                        </div>
+                        <div id="toggleUpgrades" class="storeSection" style="display: none;"></div>
+                        <div id="upgrades" class="storeSection"></div>
+                        <div id="products" class="storeSection">
+                            <div id="product0" class="product locked disabled" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[0].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff0" class="icon off" style="background-image: url("img/cursoriconOff.png");"></div>
+                                <div id="productIcon0" class="icon" style="background-image: url("img/cursoricon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName0" class="title">
+
+                                        Cursor
+
+                                    </div>
+                                    <span id="productPrice0" class="price">
+
+                                        15
+
+                                    </span>
+                                    <div id="productOwned0" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-0" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-0" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-0" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product1" class="product locked disabled" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[1].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff1" class="icon off" style="background-image: url("img/grandmaIconOff.png");"></div>
+                                <div id="productIcon1" class="icon" style="background-image: url("img/grandmaIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName1" class="title">
+
+                                        Grandma
+
+                                    </div>
+                                    <span id="productPrice1" class="price">
+
+                                        100
+
+                                    </span>
+                                    <div id="productOwned1" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-1" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-1" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-1" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product2" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[2].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff2" class="icon off" style="background-image: url("img/farmIconOff.png");"></div>
+                                <div id="productIcon2" class="icon" style="background-image: url("img/farmIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName2" class="title">
+
+                                        Farm
+
+                                    </div>
+                                    <span id="productPrice2" class="price">
+
+                                        1,300
+
+                                    </span>
+                                    <div id="productOwned2" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-2" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-2" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-2" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product3" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[3].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff3" class="icon off" style="background-image: url("img/mineIconOff.png");"></div>
+                                <div id="productIcon3" class="icon" style="background-image: url("img/mineIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName3" class="title">
+
+                                        Mine
+
+                                    </div>
+                                    <span id="productPrice3" class="price">
+
+                                        15,000
+
+                                    </span>
+                                    <div id="productOwned3" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-3" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-3" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-3" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product4" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[4].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff4" class="icon off" style="background-image: url("img/factoryIconOff.png");"></div>
+                                <div id="productIcon4" class="icon" style="background-image: url("img/factoryIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName4" class="title">
+
+                                        Factory
+
+                                    </div>
+                                    <span id="productPrice4" class="price">
+
+                                        180,000
+
+                                    </span>
+                                    <div id="productOwned4" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-4" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-4" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-4" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product5" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[5].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff5" class="icon off" style="background-image: url("img/bankIconOff.png");"></div>
+                                <div id="productIcon5" class="icon" style="background-image: url("img/bankIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName5" class="title">
+
+                                        Bank
+
+                                    </div>
+                                    <span id="productPrice5" class="price">
+
+                                        2 million
+
+                                    </span>
+                                    <div id="productOwned5" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-5" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-5" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-5" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product6" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[6].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff6" class="icon off" style="background-image: url("img/templeIconOff.png");"></div>
+                                <div id="productIcon6" class="icon" style="background-image: url("img/templeIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName6" class="title">
+
+                                        Temple
+
+                                    </div>
+                                    <span id="productPrice6" class="price">
+
+                                        28 million
+
+                                    </span>
+                                    <div id="productOwned6" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-6" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-6" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-6" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product7" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[7].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff7" class="icon off" style="background-image: url("img/wizardtowerIconOff.png");"></div>
+                                <div id="productIcon7" class="icon" style="background-image: url("img/wizardtowerIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName7" class="title">
+
+                                        Wizard tower
+
+                                    </div>
+                                    <span id="productPrice7" class="price">
+
+                                        420 million
+
+                                    </span>
+                                    <div id="productOwned7" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-7" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-7" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-7" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product8" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[8].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff8" class="icon off" style="background-image: url("img/shipmentIconOff.png");"></div>
+                                <div id="productIcon8" class="icon" style="background-image: url("img/shipmentIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName8" class="title">
+
+                                        Shipment
+
+                                    </div>
+                                    <span id="productPrice8" class="price">
+
+                                        6.2 billion
+
+                                    </span>
+                                    <div id="productOwned8" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-8" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-8" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-8" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product9" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[9].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff9" class="icon off" style="background-image: url("img/alchemylabIconOff.png");"></div>
+                                <div id="productIcon9" class="icon" style="background-image: url("img/alchemylabIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName9" class="title">
+
+                                        Alchemy lab
+
+                                    </div>
+                                    <span id="productPrice9" class="price">
+
+                                        87 billion
+
+                                    </span>
+                                    <div id="productOwned9" class="title owned"></div>
+                                </div>
+                                <div class="buySell"></div>
+                            </div>
+                            <div id="product10" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[10].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff10" class="icon off" style="background-image: url("img/portalIconOff.png");"></div>
+                                <div id="productIcon10" class="icon" style="background-image: url("img/portalIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName10" class="title">
+
+                                        Portal
+
+                                    </div>
+                                    <span id="productPrice10" class="price">
+
+                                        1.2 trillion
+
+                                    </span>
+                                    <div id="productOwned10" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-10" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-10" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-10" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product11" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[11].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff11" class="icon off" style="background-image: url("img/timemachineIconOff.png");"></div>
+                                <div id="productIcon11" class="icon" style="background-image: url("img/timemachineIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName11" class="title">
+
+                                        Time machine
+
+                                    </div>
+                                    <span id="productPrice11" class="price">
+
+                                        15 trillion
+
+                                    </span>
+                                    <div id="productOwned11" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-11" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-11" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-11" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product12" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[12].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff12" class="icon off" style="background-image: url("img/antimattercondenserIconOff.png");"></div>
+                                <div id="productIcon12" class="icon" style="background-image: url("img/antimattercondenserIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName12" class="title">
+                                        <span style="font-size:65%;">
+
+                                            Antimatter condenser
+
+                                        </span>
+                                    </div>
+                                    <span id="productPrice12" class="price">
+
+                                        190 trillion
+
+                                    </span>
+                                    <div id="productOwned12" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-12" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-12" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-12" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product13" class="product locked disabled toggledOff" onmouseover="Game.tooltip.draw(this,function(){return Game.ObjectsById[13].tooltip();},'store');" onmouseout="Game.tooltip.hide();">
+                                <div id="productIconOff13" class="icon off" style="background-image: url("img/prismIconOff.png");"></div>
+                                <div id="productIcon13" class="icon" style="background-image: url("img/prismIcon.png");"></div>
+                                <div class="content">
+                                    <div class="lockedTitle">
+
+                                        ???
+
+                                    </div>
+                                    <div id="productName13" class="title">
+
+                                        Prism
+
+                                    </div>
+                                    <span id="productPrice13" class="price">
+
+                                        2.3 quadrillion
+
+                                    </span>
+                                    <div id="productOwned13" class="title owned"></div>
+                                </div>
+                                <div class="buySell">
+                                    <div id="buttonBuy10-13" style="left:0px;">
+
+                                        Buy 10
+
+                                    </div>
+                                    <div id="buttonSell-13" style="left:100px;">
+
+                                        Sell 1
+
+                                    </div>
+                                    <div id="buttonSellAll-13" style="left:200px;">
+
+                                        Sell all
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="support" style="margin-top:130px;">
+                        <div class="supportComment">
+
+                            Sponsored links
+
+                        </div>
+                        <div style="position:relative;">
+                            <div style="position:relative;z-index:100;min-height:250px;">
+                                <!--
+
+                                 Google ad
+
+                                -->
+                                <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
+                                <!--
+
+                                 Cookie Clicker Rectangle
+
+                                -->
+                                <ins class="adsbygoogle" data-ad-slot="9349826096" data-ad-client="ca-pub-8491708950677704" style="display:inline-block;width:300px;height:250px" data-adsbygoogle-status="done">
+                                    <ins id="aswift_0_expand" style="display:inline-table;border:none;height:250px;margin:0;paddi…;visibility:visible;width:300px;background-color:transparent">
+                                        <ins id="aswift_0_anchor" style="display:block;border:none;height:250px;margin:0;padding:0;po…;visibility:visible;width:300px;background-color:transparent">
+                                            <iframe id="aswift_0" frameborder="0" width="300" height="250" style="left:0;position:absolute;top:0;" name="aswift_0" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&&s.handlers,…(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" allowfullscreen="true" scrolling="no" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0">
+                                                #document
+                                                    <!DOCTYPE html>
+                                                    <html>
+                                                        <head>
+                                                            <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/osd.js"></script>
+                                                        </head>
+                                                        <body>
+                                                            <iframe id="google_esf" frameborder="0" width="0" height="0" src="http://googleads.g.doubleclick.net/pagead/html/r20140911/r20140417/zrt_lookup.html" name="google_esf" style="display:none" allowfullscreen="true" scrolling="no" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0">
+                                                                #document
+                                                                    <!DOCTYPE html>
+                                                                    <html>
+                                                                        <head></head>
+                                                                        <body onload="onloadHasFired=true;" style="background:transparent">
+                                                                            <script>
+
+
+                                                                                (function(){var f=this,p=function(a){var b=typeof…
+
+                                                                            </script>
+                                                                            <script>
+
+
+                                                                                (function(){var c=Date.now||function(){return+new…
+
+                                                                            </script>
+                                                                        </body>
+                                                                    </html>
+                                                            </iframe>
+                                                            <script async="" type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/js/r20140911/r20140417/expansion_embed.js"></script>
+                                                            <script>
+
+                                                                google_ad_slot="9349826096";google_ad_client="ca-p…
+
+                                                            </script>
+                                                            <script src="http://pagead2.googlesyndication.com/pagead/js/r20140911/r20140417/show_ads_impl.js"></script>
+                                                            <iframe id="google_ads_frame1" frameborder="0" width="300" height="250" allowfullscreen="true" scrolling="no" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-…=0&ifi=1&xpc=uT65Bkw3Ku&p=http%3A//orteil.dashnet.org&dtd=76" name="google_ads_frame1">
+                                                                #document
+                                                                    <!DOCTYPE html>
+                                                                    <html>
+                                                                        <head></head>
+                                                                        <body marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+                                                                            <script>
+
+                                                                                (function(){var g=this,l=function(a,b){var c=a.spl…
+
+                                                                            </script>
+                                                                            <script>
+
+                                                                                vu("http://googleads.g.doubleclick.net/pagead/advi…
+
+                                                                            </script>
+                                                                            <iframe frameborder="0" width="300" height="250" bordercolor="#000000" scrolling="no" vspace="0" hspace="0" marginheight="0" marginwidth="0" src="http://ad.doubleclick.net/adi/N5753.288332.ACCUEN/B8209162.1…I_vrjl_g0vg5mC7clA%26r1%3D;ord=ABAjH0ha1kYDkwPuYXuGYXHVQKKX?">
+                                                                                #document
+                                                                                    <html>
+                                                                                        <head>
+                                                                                            <title>
+
+                                                                                                Advertisement
+
+                                                                                            </title>
+                                                                                            <script type="text/javascript" charset="UTF-8" src="//pagead2.googlesyndication.com/pagead/js/lidar.js"></script>
+                                                                                        </head>
+                                                                                        <body style="margin:0px;">
+                                                                                            <script type="text/javascript">
+
+
+                                                                                                (function() {
+                                                                                                  var DEBUG = ''.toLowerCase() == '…
+
+                                                                                            </script>
+                                                                                            <div id="creative_59205501_0">
+                                                                                                <div id="DfaVisibilityIdentifier_1411072452035" class="GoogleActiveViewClass" style="position: relative; width: 300px; height: 250px; box-sizing: content-box;">
+                                                                                                    <object id="FLASH_200_48_flash_inpage_0" width="300" height="250" allowfullscreen="true" allowfullscreeninteractive="true" allowscriptaccess="always" name="FLASH_200_48_flash_inpage_0" flashvars="varName=200_48_flash_inpage_0&creativeId=59205501_0&assetId=…%3D185%26dma%3D0%26zp%3D2134%26bw%3D4&randomNumber=216880805" wmode="opaque" data="https://s0.2mdn.net/ads/richmedia/studio/pv2/33331682/2014082…Banner_Accuen_Tablet_Performance-2_Harvey-Norman_300x250.swf" type="application/x-shockwave-flash" style="outline: medium none; position: relative; z-index: 10; opacity: 1;">
+                                                                                                    </object>
+                                                                                                    <iframe frameborder="no" width="1" height="1" scrolling="no" style="position: absolute; opacity: 0.001; left: 150px; top: 125px;">
+                                                                                                        #document
+                                                                                                            <html style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; opacity: 0.2;">
+                                                                                                                <head></head>
+                                                                                                                <body></body>
+                                                                                                            </html>
+                                                                                                    </iframe>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <script async="async" src="https://s0.2mdn.net/ads/richmedia/studio/creative/33331682/33…28476c72aa836a15fd7807ecd6b19_284193183_creative_override.js" type="text/javascript"></script>
+                                                                                            <script async="async" src="https://s0.2mdn.net/879366/flash_inpage_rendering_lib_200_48.js" type="text/javascript"></script>
+                                                                                            <noscript style="display: none;">
+
+
+                                                                                                  <a target="_blank" href="http://ad.doubleclick.…
+
+                                                                                            </noscript>
+                                                                                        </body>
+                                                                                    </html>
+                                                                            </iframe>
+                                                                            <!--
+
+                                                                            Do not edit. DBM HTML tag ID: 387_accuenAKImpressi…
+
+                                                                            -->
+                                                                            <img width="1" height="1" border="0" src="https://d.agkn.com/pixel/2568/?che=ABAjH0ha1kYDkwPuYXuGYXHVQ…&col=1387987,1,2011923,,4790020,ABAjH0ha1kYDkwPuYXuGYXHVQKKX"></img>
+                                                                            <!--
+
+                                                                            Do not edit. DBM HTML tag ID: 387_accuenAKImpressi…
+
+                                                                            -->
+                                                                            <div style="position: absolute; left: 0px; top: 0px; visibility: hidden;">
+                                                                                <img width="1" height="1" border="0" style="display:none" alt="" src="http://bid.g.doubleclick.net/xbbe/creative/ad?d=APEucNWYB46-…lr5s507I0e2A_w1TiU&pr=VBtByQABrgsKvSSCAAA6b80ELYI8zrMZUcL3_w"></img>
+                                                                            </div>
+                                                                            <script type="text/javascript">
+
+                                                                                  if ('') {  document.write('<script src="http://c…
+
+                                                                            </script>
+                                                                            <iframe style="display:none" src="http://googleads.g.doubleclick.net/xbbe/pixel?d=CIMDEI-CExiE…HGl8N-IvzaIDEbuE5i2ecT6Y-p26CWWLXE_zMrER1Fh_A_5sUx6mFynZlgl6">
+                                                                                #document
+                                                                                    <html>
+                                                                                        <head></head>
+                                                                                        <body></body>
+                                                                                    </html>
+                                                                            </iframe>
+                                                                            <script type="text/javascript">
+
+                                                                                (function(){var aa=this,ba=function(){var a=decode…
+
+                                                                            </script>
+                                                                        </body>
+                                                                    </html>
+                                                            </iframe>
+                                                            <iframe id="google_osd_static_frame_3547974685898" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;">
+                                                                #document
+                                                                    <html>
+                                                                        <head></head>
+                                                                        <body></body>
+                                                                    </html>
+                                                            </iframe>
+                                                        </body>
+                                                    </html>
+                                            </iframe>
+                                        </ins>
+                                    </ins>
+                                </ins>
+                                <script>
+
+
+                                    						(adsbygoogle = window.adsbygoogle || []).pu…
+
+                                </script>
+                                <div style="height:16px;"></div>
+                                <!--
+
+                                 Google ad
+
+                                -->
+                                <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async=""></script>
+                                <!--
+
+                                 Cookie Clicker Rectangle
+
+                                -->
+                                <ins class="adsbygoogle" data-ad-slot="9349826096" data-ad-client="ca-pub-8491708950677704" style="display:inline-block;width:300px;height:250px" data-adsbygoogle-status="done">
+                                    <ins id="aswift_1_expand" style="display:inline-table;border:none;height:250px;margin:0;paddi…;visibility:visible;width:300px;background-color:transparent">
+                                        <ins id="aswift_1_anchor" style="display:block;border:none;height:250px;margin:0;padding:0;po…;visibility:visible;width:300px;background-color:transparent">
+                                            <iframe id="aswift_1" frameborder="0" width="300" height="250" style="left:0;position:absolute;top:0;" name="aswift_1" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&&s.handlers,…(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" allowfullscreen="true" scrolling="no" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0">
+                                                #document
+                                                    <!DOCTYPE html>
+                                                    <html>
+                                                        <head></head>
+                                                        <body>
+                                                            <script async="" type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/js/r20140911/r20140417/expansion_embed.js"></script>
+                                                            <script>
+
+                                                                google_ad_slot="9349826096";google_ad_client="ca-p…
+
+                                                            </script>
+                                                            <script src="http://pagead2.googlesyndication.com/pagead/js/r20140911/r20140417/show_ads_impl.js"></script>
+                                                            <iframe id="google_ads_frame2" frameborder="0" width="300" height="250" allowfullscreen="true" scrolling="no" allowtransparency="true" hspace="0" vspace="0" marginheight="0" marginwidth="0" src="http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-…0&ifi=2&xpc=cbkazIEqI6&p=http%3A//orteil.dashnet.org&dtd=144" name="google_ads_frame2">
+                                                                #document
+                                                                    <!DOCTYPE html>
+                                                                    <html>
+                                                                        <head></head>
+                                                                        <body marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+                                                                            <script>
+
+                                                                                (function(){var g=this,l=function(a,b){var c=a.spl…
+
+                                                                            </script>
+                                                                            <script>
+
+                                                                                vu("http://googleads.g.doubleclick.net/pagead/advi…
+
+                                                                            </script>
+                                                                            <iframe frameborder="0" width="300" height="250" bordercolor="#000000" scrolling="no" vspace="0" hspace="0" marginheight="0" marginwidth="0" src="http://ad.doubleclick.net/adi/N5753.288332.ACCUEN/B8209162.1…_VmMbXRDrKrLGQAZoQ%26r1%3D;ord=ABAjH0jiln8cGeSdl0z-nIqmccyj?">
+                                                                                #document
+                                                                                    <html>
+                                                                                        <head>
+                                                                                            <title>
+
+                                                                                                Advertisement
+
+                                                                                            </title>
+                                                                                            <script type="text/javascript" charset="UTF-8" src="//pagead2.googlesyndication.com/pagead/js/lidar.js"></script>
+                                                                                        </head>
+                                                                                        <body style="margin:0px;">
+                                                                                            <script type="text/javascript">
+
+
+                                                                                                (function() {
+                                                                                                  var DEBUG = ''.toLowerCase() == '…
+
+                                                                                            </script>
+                                                                                            <div id="creative_59206228_0">
+                                                                                                <div id="DfaVisibilityIdentifier_1411072452214" class="GoogleActiveViewClass" style="position: relative; width: 300px; height: 250px; box-sizing: content-box;">
+                                                                                                    <object id="FLASH_200_48_flash_inpage_0" width="300" height="250" allowfullscreen="true" allowfullscreeninteractive="true" allowscriptaccess="always" name="FLASH_200_48_flash_inpage_0" flashvars="varName=200_48_flash_inpage_0&creativeId=59206228_0&assetId=…3D185%26dma%3D0%26zp%3D2134%26bw%3D4&randomNumber=1212945403" wmode="opaque" data="https://s0.2mdn.net/ads/richmedia/studio/pv2/33331737/2014082…anner_Accuen_Tablet_Multitasking-1_Harvey-Norman_300x250.swf" type="application/x-shockwave-flash" style="outline: medium none; position: relative; z-index: 10; opacity: 1;">
+                                                                                                    </object>
+                                                                                                    <iframe frameborder="no" width="1" height="1" scrolling="no" style="position: absolute; opacity: 0.001; left: 150px; top: 125px;">
+                                                                                                        #document
+                                                                                                            <html style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px;">
+                                                                                                                <head></head>
+                                                                                                                <body></body>
+                                                                                                            </html>
+                                                                                                    </iframe>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <script async="async" src="https://s0.2mdn.net/ads/richmedia/studio/creative/33331737/33…7723396cdbe609ad558c45887fd68_284197572_creative_override.js" type="text/javascript"></script>
+                                                                                            <script async="async" src="https://s0.2mdn.net/879366/flash_inpage_rendering_lib_200_48.js" type="text/javascript"></script>
+                                                                                            <noscript style="display: none;">
+
+
+                                                                                                  <a target="_blank" href="http://ad.doubleclick.…
+
+                                                                                            </noscript>
+                                                                                        </body>
+                                                                                    </html>
+                                                                            </iframe>
+                                                                            <!--
+
+                                                                            Do not edit. DBM HTML tag ID: 387_accuenAKImpressi…
+
+                                                                            -->
+                                                                            <img width="1" height="1" border="0" src="https://d.agkn.com/pixel/2568/?che=ABAjH0jiln8cGeSdl0z-nIqmc…&col=1387987,1,2011923,,4790007,ABAjH0jiln8cGeSdl0z-nIqmccyj"></img>
+                                                                            <!--
+
+                                                                            Do not edit. DBM HTML tag ID: 387_accuenAKImpressi…
+
+                                                                            -->
+                                                                            <div style="position: absolute; left: 0px; top: 0px; visibility: hidden;">
+                                                                                <img width="1" height="1" border="0" style="display:none" alt="" src="http://bid.g.doubleclick.net/xbbe/creative/ad?d=APEucNVjigwv…uG1wulm5xI-wAr_MZI&pr=VBtByQAC3IQKvX5NAAABe6E49RfSjHOfjVB5PQ"></img>
+                                                                            </div>
+                                                                            <script type="text/javascript">
+
+                                                                                  if ('') {  document.write('<script src="http://c…
+
+                                                                            </script>
+                                                                            <iframe style="display:none" src="http://googleads.g.doubleclick.net/xbbe/pixel?d=CIMDEI-CExj3…hKnNrI4Hst_x6l9pEItCc64qA730maTXYO8mULMfgt-4K_zkGsJie10l5wAs">
+                                                                                #document
+                                                                                    <html>
+                                                                                        <head></head>
+                                                                                        <body></body>
+                                                                                    </html>
+                                                                            </iframe>
+                                                                            <script type="text/javascript">
+
+                                                                                (function(){var aa=this,ba=function(){var a=decode…
+
+                                                                            </script>
+                                                                        </body>
+                                                                    </html>
+                                                            </iframe>
+                                                        </body>
+                                                    </html>
+                                            </iframe>
+                                        </ins>
+                                    </ins>
+                                </ins>
+                                <script>
+
+
+                                    						(adsbygoogle = window.adsbygoogle || []).pu…
+
+                                </script>
+                                <div style="height:16px;"></div>
+                                <!--
+
+                                 AdventureQuest Worlds banner
+
+                                -->
+                                <a id="aqad" class="ad" style="background:url(img/aqworldsbanner.jpg) no-repeat;width:300px…height:64px;display:block;position:relative;margin:0px auto;" title="AdventureQuest Worlds" target="_blank" href="http://www.aq.com/landing/cookie/?utm_campaign=AQW_CookieClicker&utm_source=CookieClicker">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+
+
+                		<div id="sectionAd" class="inset">
+
+                			<div c…
+
+                -->
+                <div id="focusButtons">
+                    <div id="focusLeft" class="title">
+
+                        Cookie
+
+                    </div>
+                    <div id="focusMiddle" class="title" style="font-size:80%;padding-top:18px;padding-bottom:14px;">
+
+                        Buildings
+
+                    </div>
+                    <div id="focusRight" class="title">
+
+                        Store
+
+                    </div>
+                    <div id="focusMenu" class="title">
+
+                        Menu
+
+                    </div>
+                </div>
+                <div id="compactOverlay" class="title">
+                    <div id="compactCommentsText" class="commentsText">
+
+                        You feel like making cookies. But nobody wants to …
+
+                    </div>
+                    <div id="compactCookies">
+
+                        0 cookies
+
+                        <div style="font-size:50%;"></div>
+                    </div>
+                    <div class="separatorBottom"></div>
+                </div>
+                <div id="tooltipAnchor" style="left: auto; right: 308px; top: 256px; display: none;">
+                    <div id="tooltip" class="framed" onmouseout="Game.tooltip.hide();" style="opacity: 1; left: auto; top: 8px; right: 8px; bottom: auto;">
+                        <div style="min-width:300px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
