@@ -5,7 +5,7 @@ items:
  - jshint/jshint
  - clutchski/coffeelint
  - csscomb/csscomb.js
- - brigade/scss-lint
+ - civiccc/scss-lint
  - htmlhint/HTMLHint
  - CSSLint/csslint
  - PyCQA/pycodestyle
