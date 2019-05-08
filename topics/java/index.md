@@ -1,5 +1,5 @@
 ---
-aliases: java-8, java8, java-11, java-11, JVM, JDK, OpenJDK, JavaSE, Java-SE
+aliases: java-8, java8, java11, java-11, jvm, jdk, openjdk, javase, java-se
 created_by: James Gosling
 display_name: Java
 logo: java.png
