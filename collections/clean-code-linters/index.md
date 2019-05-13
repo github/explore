@@ -12,6 +12,7 @@ items:
  - PyCQA/flake8
  - python/black
  - checkstyle/checkstyle
+ - testdouble/standard
  - rubocop-hq/rubocop
  - oclint/oclint
  - golang/lint
