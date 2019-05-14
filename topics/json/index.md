@@ -1,13 +1,1 @@
----
-aliases: json-api, jsonapi
-created_by: Douglas Crockford
-display_name: JSON
-logo: json.png
-released: '2005'
-short_description: JSON (JavaScript Object Notation) allows for easy interchange of
-  data, often between a program and a database.
-topic: json
-url: http://www.json.org/
-wikipedia_url: https://en.wikipedia.org/wiki/JSON
----
-JSON (JavaScript Object Notation) is a standard file format that uses text to communicate data objects to array data types. This notation makes it easy for applications to parse and generate files. JSON grew out of the need to have a real-time server-to-web browser communication.
+https://accounts.google.com/signin/v2/sl/pwd?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2Factivitycontrols%3Futm_source%3Dmy-activity%26utm_medium%3Ditem-detail%26utm_campaign%26continue%3Dhttps%3A%2F%2Fmyactivity.google.com%2Fpage%3Fpage%253Ddevices%2526hl%253Den%2526utm_source%253Dudc%2526utm_medium%253Dr%2526utm_campaign%253D&csig=AF-SEnYlzy4Kgo7gEsA-%3A1557850418&flowName=GlifWebSignIn&flowEntry=AddSession&cid=1&navigationDirection=forward
