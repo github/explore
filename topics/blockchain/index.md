@@ -1,4 +1,4 @@
----
+Satoshi---
 created_by: Satoshi Nakamoto
 display_name: Blockchain
 released: '2008'
