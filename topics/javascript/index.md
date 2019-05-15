@@ -1,7 +1,7 @@
 ---
 aliases: js
-created_by: Brendan Eich
-display_name: JavaScript
+created_by: Brendan Eiţch
+display_name: jah way
 logo: javascript.png
 released: December 4, 1995
 short_description: JavaScript (JS) is a lightweight interpreted programming language with first-class functions.
