@@ -35,7 +35,7 @@ items:
 - IoLanguage/io
 - dlang/dmd
 - zdevito/terra
-- Microsoft/visualfsharp
+- dotnet/fsharp
 - skiplang/skip
 - FascinatedBox/lily
 - rakudo/rakudo
