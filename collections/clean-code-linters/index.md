@@ -11,7 +11,7 @@ items:
  - PyCQA/flake8
  - python/black
  - checkstyle/checkstyle
- - testdouble/standard
+ - standard/standard
  - rubocop-hq/rubocop
  - oclint/oclint
  - golang/lint
@@ -22,7 +22,7 @@ items:
  - rodjek/puppet-lint
  - koalaman/shellcheck
  - jimhester/lintr
- - standard/standard
+ - testdouble/standard
 display_name: Clean code linters
 created_by: holman
 ---
