@@ -1,6 +1,5 @@
 ---
 items:
- - standard/standard
  - eslint/eslint
  - jshint/jshint
  - clutchski/coffeelint
@@ -23,6 +22,7 @@ items:
  - rodjek/puppet-lint
  - koalaman/shellcheck
  - jimhester/lintr
+ - standard/standard
 display_name: Clean code linters
 created_by: holman
 ---
