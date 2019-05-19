@@ -43,6 +43,7 @@ items:
 - lucee/Lucee
 - eclipse/golo-lang
 - gosu-lang/gosu-lang
+- ziglang/zig
 display_name: Programming languages
 created_by: leereilly
 ---
