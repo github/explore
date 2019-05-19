@@ -25,7 +25,6 @@ items:
 - red/red
 - ponylang/ponyc
 - Frege/frege
-- ziglang/zig
 - goby-lang/goby
 - racket/racket
 - idris-lang/Idris-dev
@@ -44,6 +43,7 @@ items:
 - lucee/Lucee
 - eclipse/golo-lang
 - gosu-lang/gosu-lang
+- ziglang/zig
 display_name: Programming languages
 created_by: leereilly
 ---
