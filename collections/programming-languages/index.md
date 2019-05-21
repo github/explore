@@ -44,6 +44,7 @@ items:
 - eclipse/golo-lang
 - gosu-lang/gosu-lang
 - ziglang/zig
+- HaxeFoundation/haxe
 display_name: Programming languages
 created_by: leereilly
 ---
