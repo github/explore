@@ -11,4 +11,4 @@ topic: nuxt
 url: https://nuxtjs.org
 wikipedia_url: https://en.wikipedia.org/wiki/Nuxt.js
 ---
-Nuxt.js is a framework for creating Vue.js applications, you can choose between Universal, Static Generated or Single Page application.
+Nuxt.js is a framework for creating Vue.js applications. You can choose between Universal, Static Generated or Single Page applications.
