@@ -43,6 +43,6 @@ items:
  
 display_name: Teaching materials for computational social science
 created_by: danielagduca
-image: teaching-materials-for-css.png
+image: teaching-computational-social-science.png
 ---
 Resources from and for teachers, trainers, lecturers and professors that are creating or running courses in computational social science, at any level.
