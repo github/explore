@@ -22,6 +22,7 @@ items:
  - rodjek/puppet-lint
  - koalaman/shellcheck
  - jimhester/lintr
+ - testdouble/standard
 display_name: Clean code linters
 created_by: holman
 ---
