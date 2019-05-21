@@ -1,5 +1,6 @@
 ---
 items:
+ - standard/standard
  - eslint/eslint
  - jshint/jshint
  - clutchski/coffeelint
@@ -11,7 +12,6 @@ items:
  - PyCQA/flake8
  - python/black
  - checkstyle/checkstyle
- - standard/standard
  - rubocop-hq/rubocop
  - oclint/oclint
  - golang/lint
