@@ -7,4 +7,4 @@ related: homeassistant, home-assistant-config, home-assistant-configuration, has
 short_description: Open source home automation that puts local control and privacy first.
 url: https://www.home-assistant.io
 ---
-Home Assistant is an open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+Home Assistant is an open source home automation system that puts local control and privacy first. It is powered by a worldwide community of tinkerers and DIY enthusiasts, perfectly suited to run on a Raspberry Pi or a local server.
