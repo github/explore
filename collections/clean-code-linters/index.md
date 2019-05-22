@@ -5,12 +5,12 @@ items:
  - jshint/jshint
  - clutchski/coffeelint
  - csscomb/csscomb.js
- - brigade/scss-lint
+ - sds/scss-lint
  - htmlhint/HTMLHint
  - CSSLint/csslint
  - PyCQA/pycodestyle
  - PyCQA/flake8
- - ambv/black
+ - python/black
  - checkstyle/checkstyle
  - rubocop-hq/rubocop
  - oclint/oclint
@@ -22,6 +22,7 @@ items:
  - rodjek/puppet-lint
  - koalaman/shellcheck
  - jimhester/lintr
+ - testdouble/standard
 display_name: Clean code linters
 created_by: holman
 ---

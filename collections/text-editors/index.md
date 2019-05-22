@@ -4,7 +4,7 @@ items:
  - limetext/lime
  - textmate/textmate
  - neovim/neovim
- - sharelatex/sharelatex
+ - overleaf/overleaf
  - slap-editor/slap
  - thomaswilburn/Caret
  - Komodo/KomodoEdit
