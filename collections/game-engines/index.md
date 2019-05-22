@@ -31,10 +31,10 @@ items:
  - renpy/renpy
  - OpenRA/OpenRA
  - OpenRCT2/OpenRCT2
- - OpenXRay/xray16
  - xenko3d/xenko
  - lance-gg/lance
  - panda3d/panda3d
+ - OpenXRay/xray16
 display_name: Game Engines
 created_by: leereilly
 ---
