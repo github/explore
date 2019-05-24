@@ -9,4 +9,4 @@ related: wordpress, composer, laravel, symfony, php
 short_description: WordPlate is a modern WordPress stack which simplifies WordPress development.
 url: https://wordplate.github.io/
 ---
-WordPlate is a free and open-source WordPress stack with a focus on simplicity. You can use it to easily develop WordPress websites with WordPlate's modern PHP stack. It simplifies the WordPress development.
+WordPlate is a modern WordPress stack with a focus on simplicity. You can use it to easily develop WordPress websites with WordPlate. It simplifies the WordPress development.
