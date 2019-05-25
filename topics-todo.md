@@ -63,7 +63,6 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [video](https://github.com/topics/video/)
 - [ ] [web](https://github.com/topics/web/)
 - [ ] [website](https://github.com/topics/website/)
-- [ ] [winforms](https://github.com/topics/winforms/)
 - [ ] [wpf](https://github.com/topics/wpf/)
 - [x] [ai](https://github.com/topics/ai/)
 - [x] [ajax](https://github.com/topics/ajax/)
@@ -90,4 +89,5 @@ Information included in this repository will appear on each topic's respective p
 - [x] [sql](https://github.com/topics/sql/)
 - [x] [terminal](https://github.com/topics/terminal/)
 - [x] [webapp](https://github.com/topics/webapp/)
+- [x] [winforms](https://github.com/topics/winforms/)
 - [x] [xml](https://github.com/topics/xml/)
