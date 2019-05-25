@@ -1,0 +1,1 @@
+-别名：API-客户机、API-包装器、AqPI-REST、API-网关、API-服务器显示_NAME：API简短_描述：API(应用程序编程接口)是用于构建软件的协议和子程序的集合。主题：API Wikipedia_url：https：/en.wikipara.org/wiki/Application_Programming_Interface-API可以作为多个软件设备之间通信的指导手册。例如，API可用于Web应用程序之间的数据库通信。通过提取更好的实现并将数据放弃到对象中，API简化了编程。
