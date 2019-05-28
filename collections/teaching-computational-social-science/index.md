@@ -40,6 +40,7 @@ items:
  - maczokni/r-socialsci
  - CJWorkbench
  - CullenBoldt/CSSproject
+ - jwm462/Humanities-CS1/tree/master
  
 display_name: Teaching materials for computational social science
 created_by: danielagduca
