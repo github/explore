@@ -1,12 +1,12 @@
 ---
-aliases: pihole
+aliases: pi-hole
 created_by: Jacob Salmela, Dan Schaper, Adam Warner and DL6ER
 display_name: Pi Hole
 github_url: https://github.com/pi-hole/pi-hole
 logo: pihole.png
 released: June 15, 2015
 short_description: A black hole for Internet advertisements.
-topic: pi-hole
+topic: pihole
 url: https://pi-hole.net/
 wikipedia_url: https://en.wikipedia.org/wiki/Pi-hole
 ---
