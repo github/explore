@@ -45,6 +45,7 @@ items:
 - gosu-lang/gosu-lang
 - ziglang/zig
 - HaxeFoundation/haxe
+- malix-foundation/Malix
 display_name: Programming languages
 created_by: leereilly
 ---
