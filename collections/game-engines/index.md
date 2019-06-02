@@ -34,6 +34,7 @@ items:
  - xenko3d/xenko
  - lance-gg/lance
  - panda3d/panda3d
+ - OpenXRay/xray-16
 display_name: Game Engines
 created_by: leereilly
 ---

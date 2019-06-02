@@ -35,7 +35,7 @@ items:
 - IoLanguage/io
 - dlang/dmd
 - zdevito/terra
-- Microsoft/visualfsharp
+- dotnet/fsharp
 - skiplang/skip
 - FascinatedBox/lily
 - rakudo/rakudo
@@ -43,6 +43,8 @@ items:
 - lucee/Lucee
 - eclipse/golo-lang
 - gosu-lang/gosu-lang
+- ziglang/zig
+- HaxeFoundation/haxe
 display_name: Programming languages
 created_by: leereilly
 ---
