@@ -7,6 +7,6 @@ items:
  - Homebrew/brew
  - https://www.youtube.com/embed/dSl_qnWO104
 display_name: How to choose (and contribute to) your first open source project
-created_by: kytrinyx
+created_by: test then what?
 ---
 New to open source? Here’s how to find projects that need help and start making impactful contributions.
