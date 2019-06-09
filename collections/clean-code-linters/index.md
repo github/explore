@@ -7,6 +7,7 @@ items:
  - csscomb/csscomb.js
  - sds/scss-lint
  - htmlhint/HTMLHint
+ - validator/validator
  - CSSLint/csslint
  - PyCQA/pycodestyle
  - PyCQA/flake8
