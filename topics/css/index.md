@@ -1,6 +1,6 @@
 ---
 aliases: css3
-created_by: Håkon Wium, Lie Bert Bos
+created_by: Håkon Wium, Lie Bert Bos and Erick clewis
 display_name: CSS
 logo: css.png
 released: December 17, 1996
