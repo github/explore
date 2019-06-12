@@ -1,4 +1,4 @@
----
+B---
 aliases: windows-10, windows10, windows-7, windows-8
 created_by: Microsoft Corporation
 display_name: Windows
