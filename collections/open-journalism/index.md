@@ -8,7 +8,7 @@ items:
  - propublica/guides
  - censusreporter/censusreporter
  - nprapps/app-template
- - TimeMagazine/babynames
+ - TimeMagazineLabs/babynames
  - guardian/frontend
  - dukechronicle/chronline
  - BloombergMedia/whatiscode
