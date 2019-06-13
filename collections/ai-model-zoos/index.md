@@ -5,7 +5,7 @@ items:
  - BVLC/caffe
  - caffe2/models
  - apache/incubator-mxnet
- - deeplearning4j/deeplearning4j
+ - eclipse/deeplearning4j
  - sdhnshu/pytorch-model-zoo
  - Lasagne/Recipes
  - albertomontesg/keras-model-zoo
