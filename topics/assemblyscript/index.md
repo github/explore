@@ -1,5 +1,5 @@
 ---
-aliases: assemblyscript, as
+aliases: as
 display_name: AssemblyScript
 topic: assemblyscript
 github_url: https://github.com/AssemblyScript/assemblyscript
