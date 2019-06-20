@@ -37,6 +37,7 @@ items:
  - OpenXRay/xray-16
  - korlibs/korge
  - raysan5/raylib
+ - amethyst/amethyst
 display_name: Game Engines
 created_by: leereilly
 ---
