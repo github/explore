@@ -2,7 +2,7 @@
 aliases: rfc-7519
 created_by: M. Jones, J. Bradley, N. Sakimura
 display_name: JSON Web Tokens
-released: May, 2015
+released: May 2015
 short_description: JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties.
 topic: jwt
 related: json, jwt-token, jwt-tokens, jwt-auth
