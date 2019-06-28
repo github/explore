@@ -1,4 +1,4 @@
----
+Shago7932/Master trabsparency report and code of conduct---
 aliases: bitcoin-wallet, bitcoins, bitcoin-payment
 created_by: Satoshi Nakamoto
 display_name: Bitcoin
