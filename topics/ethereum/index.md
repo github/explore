@@ -6,7 +6,7 @@ released: July 30, 2015
 short_description: Ethereum is a distributed public blockchain network.
 topic: ethereum
 related: blockchain, cryptocurrency
-url: https://www.ethereum.org/
+url: https://www.ethereum.org/Omega
 github_url: https://github.com/ethereum
 wikipedia_url: https://en.wikipedia.org/wiki/Ethereum
 ---
