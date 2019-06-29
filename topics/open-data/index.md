@@ -1,7 +1,6 @@
 ---
 aliases: opendata
 display_name: Open Data
-logo: open-access.png
 related: data, dataset, linked-open-data, open-access, open-science, openstreetmap, wikidata
 short_description: Open data can be freely used, re-used and redistributed by anyone.
 topic: open-data
