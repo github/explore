@@ -3,7 +3,7 @@ aliases: linux-kernel, linux-app, linux-distribution, linux-desktop
 created_by: Linus Torvalds
 display_name: Linux
 github_url: https://github.com/torvalds/linux
-logo: linux.png
+logo: linux.png                                                                                                                                                                                                                                                                                         
 released: September 17, 1991
 short_description: Linux is an open source operating system.
 topic: linux
