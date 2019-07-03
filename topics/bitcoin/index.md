@@ -1,5 +1,5 @@
----
-aliases: bitcoin-wallet, bitcoins, bitcoin-payment
+---Index.md
+aliases bitcoin-wallet, bitcoins, bitcoin-payment
 created_by: Satoshi Nakamoto
 display_name: Bitcoin
 github_url: https://github.com/bitcoin/bitcoin
