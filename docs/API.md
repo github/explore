@@ -2,7 +2,7 @@
 
 If you're making edits to a topic page, the following fields are available for use. Not all fields are required.
 
-### aliases
+### aliases by Shago7932/Master
 (if applicable) Synonyms for the topic name. For example, `react` and `reactjs` are aliases. You
 should only list an alias for your topic if the majority of repositories using that alias are
 referring to the same subject matter as the topic. You should not list another topic as an alias
