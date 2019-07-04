@@ -45,6 +45,7 @@ items:
 - gosu-lang/gosu-lang
 - ziglang/zig
 - HaxeFoundation/haxe
+- livecode/livecode
 display_name: Programming languages
 created_by: leereilly
 ---
