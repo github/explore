@@ -12,7 +12,7 @@ items:
  - hindupuravinash/the-gan-zoo
  - likedan/Awesome-CoreML-Models
  - Microsoft/CNTK
- - https://www.microsoft.com/en-us/cognitive-toolkit/features/model-gallery/
+ - https://docs.microsoft.com/en-us/cognitive-toolkit/
 display_name: Model Zoos of machine and deep learning technologies
 created_by: alanbraz
 ---
