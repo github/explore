@@ -17,6 +17,7 @@ items:
  - zedapp/zed
  - Microsoft/vscode
  - zyedidia/micro
+ - neoedmund/neoeedit
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
