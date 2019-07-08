@@ -1,4 +1,5 @@
 ---
+A -> B -> A
 display_name: Twitter
 github_url: https://github.com/twitter
 logo: twitter.png
