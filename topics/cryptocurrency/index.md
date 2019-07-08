@@ -1,4 +1,4 @@
----
+https://etherscan.io/dapp/0xfa54ec70654298847c5bed431c941efdeef73df0---
 aliases: cryptocurrency-symbols, cryptocurrency-exchanges, cryptocurrency-list
 created_by: Satoshi Nakamoto
 display_name: Cryptocurrency
