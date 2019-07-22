@@ -19,6 +19,7 @@ items:
 - micropython/micropython
 - erlang/otp
 - nim-lang/Nim
+- AssemblyScript/assemblyscript
 - purescript/purescript
 - elm/compiler
 - dotnet/csharplang
