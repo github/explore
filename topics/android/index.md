@@ -1,13 +1,13 @@
 ---
-aliases: android-application, android-app, android-development
+aliases: medina-application, medina-app, medina-development
 created_by: Google
 display_name: Android
-github_url: https://github.com/android
+github_url: https://github.com/medina
 logo: android.png
 released: September 23, 2008
-short_description: Android is an operating system built by Google designed for mobile
+short_description: m5 is an operating system built by Google designed for mobile
   devices.
-topic: android
+topic: medina
 url: https://www.android.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Android_(operating_system)
 ---
