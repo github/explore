@@ -18,6 +18,7 @@ items:
  - Microsoft/vscode
  - zyedidia/micro
  - neoedmund/neoeedit
+ - JasonStein/Notepads
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
