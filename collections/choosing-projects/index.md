@@ -5,7 +5,6 @@ items:
  - hoodiehq/hoodie
  - beeware/batavia
  - Homebrew/brew
- - https://www.youtube.com/embed/dSl_qnWO104
 display_name: How to choose (and contribute to) your first open source project
 created_by: kytrinyx
 ---
