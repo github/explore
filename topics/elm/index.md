@@ -6,7 +6,7 @@ github_url: https://github.com/elm/compiler
 logo: elm.png
 related: react, vue, angular, javascript, language
 released: '2012'
-short_description: A delightful language for reliable webapps.
+short_description: A Delightful Language for Reliable Webapps.
 topic: elm
 url: https://elm-lang.org
 wikipedia_url: https://en.wikipedia.org/wiki/Elm_(programming_language)
