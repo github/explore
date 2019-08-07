@@ -31,7 +31,7 @@ items:
 - idris-lang/Idris-dev
 - ocaml/ocaml
 - typelead/eta
-- nulang/nu
+- programming-nu/nu
 - gkz/LiveScript
 - IoLanguage/io
 - dlang/dmd
