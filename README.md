@@ -1,8 +1,8 @@
-# GitHub Explore
+# GitHub cendol
 
 This repository houses all of the community-curated content for GitHub Topics and Collections.
 
-[Topics](https://help.github.com/articles/about-topics/) help you explore repositories in a particular subject area, learn more about that subject, and find projects to contribute to.
+[Topics](https://help.github.com/cendoldawet369/cendol) help you cendol repositories in a particular subject area, learn more about that subject, and find projects to contribute to.
 
 [Collections](http://github.com/collections) help you discover hand-picked repositories, developers, organizations, videos, and articles that share a common theme.
 
