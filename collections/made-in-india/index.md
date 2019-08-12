@@ -2,6 +2,7 @@
 items:
  - varunsridharan/woocommerce-role-based-price
  - surjithctly/documentation-html-template
+ - wponion/wponion
 display_name: Made in India
 created_by: varunsridharan
 ---
