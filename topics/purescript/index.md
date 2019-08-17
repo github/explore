@@ -1,5 +1,5 @@
 ---
-aliases: purescript
+aliases: pure-script
 created_by: Phil Freeman
 display_name: PureScript
 github_url: https://github.com/purescript/purescript
