@@ -1,5 +1,7 @@
 ---
-items:
+items:HardSwitch first memo learn to code app
+
+
  - 30-seconds/30-seconds-of-code
  - railsgirls/railsgirls.github.io
  - railsbridge/docs
