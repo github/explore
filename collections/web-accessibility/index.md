@@ -3,6 +3,7 @@ items:
  - github/lightcrawler
  - Khan/tota11y
  - addyosmani/a11y
+ - fejes713/accessibility-guide
  - ffoodd/a11y.css
  - jxnblk/colorable
  - brunopulis/awesome-a11y
