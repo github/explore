@@ -1,5 +1,5 @@
 ---
-aliases: nette, nette-framework
+aliases: nettefw, nette-framework
 created_by: David Grudl
 display_name: Nette
 github_url: https://github.com/nette/nette
