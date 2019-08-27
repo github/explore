@@ -96,7 +96,7 @@ This repository includes [a list of the most-used GitHub topics that don't yet h
 
 ## Guidelines
 
-* Avoid conflicts of interest. Maintainers of a project cannot add a topic or collection for their own project. If a topic is popular enough to warrant inclusion, someone else will add or improve it.
+* Avoid conflicts of interest. If a topic is popular enough to warrant inclusion, someone else will add or improve it.
 
 ## Running tests
 
