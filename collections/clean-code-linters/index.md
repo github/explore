@@ -11,7 +11,7 @@ items:
  - CSSLint/csslint
  - PyCQA/pycodestyle
  - PyCQA/flake8
- - psf/black
+ - python/black
  - checkstyle/checkstyle
  - rubocop-hq/rubocop
  - oclint/oclint
