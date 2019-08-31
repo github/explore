@@ -2,6 +2,7 @@
 aliases: php7, php5, php71
 created_by: Rasmus Lerdorf
 display_name: PHP
+display_name: PHP1 
 github_url: https://github.com/php
 logo: php.png
 related: language
