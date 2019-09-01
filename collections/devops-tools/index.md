@@ -16,6 +16,7 @@ items:
  - StackStorm/st2
  - openshift/origin
  - getsentry/sentry
+ - opendiffy/diffy
  - deployphp/deployer
  - kubernetes/kubernetes
  - netdata/netdata
