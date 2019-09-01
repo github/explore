@@ -11,3 +11,4 @@ url: https://symfony.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Symfony
 ---
 Symfony is a set of reusable PHP components and a PHP framework for web projects.
+ 
