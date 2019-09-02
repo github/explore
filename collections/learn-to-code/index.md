@@ -13,7 +13,7 @@ items:
  - appacademy/welcome-to-open
 
 display_name: Learn to Code
-created_by: alysonla
+created_by: innnzzz6 
 image: learn-to-code.png
 ---
 Resources to help people learn to code
