@@ -6,5 +6,3 @@ short_description: A [Nulled] MTDB site script with movies and TV shows [MTDB] U
 topic: mtdb
 ---
 
-<!-- url: -->
-
