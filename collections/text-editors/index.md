@@ -19,6 +19,7 @@ items:
  - zyedidia/micro
  - neoedmund/neoeedit
  - mawww/kakoune
+ - JasonStein/Notepads
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
