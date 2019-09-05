@@ -3,7 +3,6 @@ items:
  - github/lightcrawler
  - Khan/tota11y
  - addyosmani/a11y
- - fejes713/accessibility-guide
  - ffoodd/a11y.css
  - jxnblk/colorable
  - brunopulis/awesome-a11y
@@ -22,6 +21,7 @@ items:
  - a11yproject/a11yproject.com
  - GoogleChrome/accessibility-developer-tools
  - GoogleChrome/lighthouse
+ - fejes713/accessibility-guide
 display_name: Web accessibility
 created_by: muan
 ---
