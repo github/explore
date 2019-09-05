@@ -1,5 +1,4 @@
 ---
-aliases: 𝜏𝜀𝜒
 created_by: Donald E. Knuth
 display_name: TeX
 released: '1978'
