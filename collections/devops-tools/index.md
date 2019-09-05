@@ -16,7 +16,6 @@ items:
  - StackStorm/st2
  - openshift/origin
  - getsentry/sentry
- - opendiffy/diffy
  - deployphp/deployer
  - kubernetes/kubernetes
  - netdata/netdata
@@ -26,6 +25,7 @@ items:
  - kubernetes/kubernetes
  - apache/mesos
  - SeleniumHQ/selenium
+ - opendiffy/diffy
  
 display_name: DevOps tools
 ---
