@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.0)
-    fastimage (2.1.5)
+    fastimage (2.1.7)
     jaro_winkler (1.5.3)
     minitest (5.11.3)
     parallel (1.17.0)
