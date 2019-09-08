@@ -1,4 +1,4 @@
----
+L---
 aliases: material-design-principles
 display_name: Material design
 logo: material-design.png
