@@ -1,4 +1,4 @@
-### Thank you for contributing! Please confirm this pull request meets the following requirements:
+### Thank you for contributing! Please confirm the following:
 
 - [ ] I followed the contributing guidelines: https://github.com/github/explore/blob/master/CONTRIBUTING.md
 - [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).
