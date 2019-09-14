@@ -12,7 +12,8 @@ items:
  - MunGell/awesome-for-beginners
  - appacademy/welcome-to-open
  - webgems/webgems
-
+ - firstcontributions/first-contributions
+ 
 display_name: Learn to Code
 created_by: alysonla
 image: learn-to-code.png
