@@ -11,7 +11,6 @@ items:
  - hurricane-response/florence-api
  - rubyforgood/terrastories
  - rubyforgood/diaper
- - rubyforgood/diaperpartner
  - rubyforgood/playtime
  - rubyforgood/demand-progress
  - ebimodeling/ghgvc

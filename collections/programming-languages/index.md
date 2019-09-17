@@ -19,6 +19,7 @@ items:
 - micropython/micropython
 - erlang/otp
 - nim-lang/Nim
+- AssemblyScript/assemblyscript
 - purescript/purescript
 - elm/compiler
 - dotnet/csharplang
@@ -30,12 +31,12 @@ items:
 - idris-lang/Idris-dev
 - ocaml/ocaml
 - typelead/eta
-- nulang/nu
+- programming-nu/nu
 - gkz/LiveScript
 - IoLanguage/io
 - dlang/dmd
 - zdevito/terra
-- Microsoft/visualfsharp
+- dotnet/fsharp
 - skiplang/skip
 - FascinatedBox/lily
 - rakudo/rakudo
@@ -43,7 +44,10 @@ items:
 - lucee/Lucee
 - eclipse/golo-lang
 - gosu-lang/gosu-lang
-- loli-foundation/loli
+- ziglang/zig
+- HaxeFoundation/haxe
+- livecode/livecode
+- coq/coq
 display_name: Programming languages
 created_by: leereilly
 ---

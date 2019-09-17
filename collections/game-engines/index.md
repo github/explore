@@ -33,6 +33,12 @@ items:
  - OpenRCT2/OpenRCT2
  - xenko3d/xenko
  - lance-gg/lance
+ - panda3d/panda3d
+ - OpenXRay/xray-16
+ - korlibs/korge
+ - raysan5/raylib
+ - amethyst/amethyst
+ - orx/orx
 display_name: Game Engines
 created_by: leereilly
 ---
