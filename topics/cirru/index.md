@@ -1,4 +1,3 @@
-
 ---
 aliases: cirru-syntax
 created_by: Chen Yong
