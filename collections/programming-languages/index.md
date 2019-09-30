@@ -48,6 +48,7 @@ items:
 - HaxeFoundation/haxe
 - livecode/livecode
 - coq/coq
+- vlang/v
 display_name: Programming languages
 created_by: leereilly
 ---
