@@ -47,6 +47,7 @@ items:
 - ziglang/zig
 - HaxeFoundation/haxe
 - livecode/livecode
+- coq/coq
 display_name: Programming languages
 created_by: leereilly
 ---
