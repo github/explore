@@ -39,6 +39,7 @@ items:
  - raysan5/raylib
  - amethyst/amethyst
  - orx/orx
+ - nCine/nCine
 display_name: Game Engines
 created_by: leereilly
 ---
