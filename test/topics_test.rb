@@ -187,6 +187,7 @@ describe "topics" do
         if metadata
           paths = image_paths_for(topic)
           valid_file_names = paths.map { |path| File.basename(path) }
+          
           if metadata["logo"]
             assert valid_file_names.include?(metadata["logo"]),
                    "should not specify logo #{metadata['logo']} when file does not exist"
