@@ -3,6 +3,7 @@ aliases: uta, ut-arlington
 display_name: The University of Texas at Arlington
 short_description: The University of Texas at Arlington is a public research university located in Arlington, Texas, United States.
 topic: university-of-texas-arlington
+logo: university-of-texas-arlington.png
 wikipedia_url: https://en.wikipedia.org/wiki/University_of_Texas_at_Arlington
 url: https://www.uta.edu/
 ---
