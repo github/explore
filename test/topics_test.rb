@@ -193,7 +193,9 @@ describe "topics" do
                             "logo should be #{valid_file_names.join(' or ')}, but was " +
                               metadata["logo"].to_s
                           end
-          assert metadata["logo"].nil? || valid_file_names.include?(metadata["logo"]),
+          if metadata["logo"]
+            assert valid_file_names.include?(metadata["logo"])
+          end
                  error_message
         end
       end
