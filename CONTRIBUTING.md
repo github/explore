@@ -13,8 +13,8 @@ As you write content, check out the [Style Guide](./docs/styleguide.md) to learn
 
 Note: Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
 
-## Improving an existing topic or collection
-
+## Improving an existing topichrykgf or collection
+Bhai y 6grr
 If a topic or collection already exists, it will be listed in its respective directory:
 
 - [topics/](https://github.com/github/explore/tree/master/topics)
