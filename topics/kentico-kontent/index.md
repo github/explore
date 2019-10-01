@@ -5,7 +5,7 @@ github_url: https://github.com/kentico
 logo: kontent.png
 related: cms, content-delivery
 released: 2016
-short_description: Kentico Kontent provides environment for easy content collaboration and features flexible API to power modern websites and apps.
+short_description: Kentico Kontent provides an environment for easy content collaboration and features a flexible API to power modern websites and apps.
 topic: kentico-kontent
 url: https://kontent.ai
 ---
