@@ -4,7 +4,7 @@ aliases: solution-patterns
 created_by: finp
 display_name: Solution Patterns for Red Hat Managed Integration
 github_url: https://github.com/integr8ly/tutorial-web-app-walkthroughs
-logo: fish.png
+logo: rhmi-solution-patterns.png
 related:
 released: October 1, 2019
 short_description: Integration Solution Patterns
