@@ -9,6 +9,7 @@ related:
 released: October 1, 2019
 short_description: Integration Solution Patterns
 url: https://github.com/integr8ly
+wikipedia_url: https://en.wikipedia.org/wiki/Enterprise_application_integration
 # From the homepage:
 ---
 Solution Patterns are tutorials available in Red Hat Managed Integration. You can create your own and add them to your cluster.
