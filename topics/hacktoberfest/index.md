@@ -1,7 +1,7 @@
 ---
 created_by: Digital Ocean and GitHub
 display_name: Hacktoberfest
-logo: hacktoberfest.png
+logo: hacktoberfest.svg
 released: October 2014
 short_description: Hacktoberfest is a month-long celebration of open source software.
 topic: hacktoberfest
