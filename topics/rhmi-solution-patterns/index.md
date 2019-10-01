@@ -7,7 +7,7 @@ github_url: https://github.com/integr8ly/tutorial-web-app-walkthroughs
 logo: rhmi-solution-patterns.png
 related:
 released: October 1, 2019
-short_description: Integration Solution Patterns
+short_description: Interactive tutorials for Red Hat Managed Integration.
 url: https://github.com/integr8ly
 wikipedia_url: https://en.wikipedia.org/wiki/Enterprise_application_integration
 # From the homepage:
