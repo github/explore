@@ -2,7 +2,7 @@
 created_by: Ilesh Mistry
 display_name: Kentico Kontent
 github_url: https://github.com/kentico
-logo: kontent.png
+logo: kentico-kontent.png
 related: cms, content-delivery
 released: 2016
 short_description: Kentico Kontent provides an environment for easy content collaboration and features a flexible API to power modern websites/apps.
