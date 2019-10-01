@@ -181,20 +181,32 @@ describe "topics" do
         assert File.file?(path), "expected #{path} to be a file"
       end
 
-      it "uses the right file name for specified logo" do
+      it "has matching logo, when logo key exists" do
         metadata = metadata_for(topics_dir, topic)
 
         if metadata
           paths = image_paths_for(topic)
           valid_file_names = paths.map { |path| File.basename(path) }
-          error_message = if valid_file_names.empty?
-                            "should not specify logo #{metadata['logo']} when file does not exist"
-                          else
-                            "logo should be #{valid_file_names.join(' or ')}, but was " +
-                              metadata["logo"].to_s
-                          end
-          assert !metadata.key?("logo") || valid_file_names.include?(metadata["logo"]),
-                 error_message
+
+          if metadata["logo"]
+            assert valid_file_names.include?(metadata["logo"]),
+                   "should not specify logo #{metadata['logo']} when file does not exist"
+          end
+        end
+      end
+
+      it "has a matching logo key, when logo exists" do
+        metadata = metadata_for(topics_dir, topic)
+
+        if metadata
+          paths = image_paths_for(topic)
+          valid_file_names = paths.map { |path| File.basename(path) }
+
+          if valid_file_names.any?
+            assert valid_file_names.include?(metadata["logo"]),
+                   "logo key should be #{valid_file_names.join(' or ')}, but was "\
+                   "#{metadata['logo'].nil? ? 'missing' : metadata['logo']}"
+          end
         end
       end
 
