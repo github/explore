@@ -9,4 +9,4 @@ short_description: Kentico Kontent provides an environment for easy content coll
 topic: kentico-kontent
 url: https://kontent.ai
 ---
-Kentico Kontent is a Content as a Service system that replaces legacy CMS. It offers unified environment for content collaboration, flexible APIs for content management and delivery, content delivery network and SDKs for building websites and apps with the modern development stack.
+Kentico Kontent is a Content as a Service system that can replace a legacy CMS. It offers a unified environment for content collaboration, flexible APIs for content management and delivery, and content delivery network and SDKs for building websites and apps with a modern development stack.
