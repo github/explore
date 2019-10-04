@@ -29,7 +29,6 @@ items:
  - rgehan/octolenses
  - xxhomey19/github-file-icon
  - StylishThemes/GitHub-Dark
- - xthexder/wide-github
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
