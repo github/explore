@@ -10,4 +10,4 @@ short_description: Progressive microservices framework.
 topic: moleculer
 url: https://moleculer.services/
 ---
-Moleculer is a fast, modern and powerful microservices framework for Node.js. It helps you to build efficient, reliable & scalable services. Moleculer provides many features for building and managing your microservices.
+Moleculer is a fast, modern and powerful microservices framework for Node.js. It helps you to build efficient, reliable and scalable services. Moleculer provides many features for building and managing your microservices.
