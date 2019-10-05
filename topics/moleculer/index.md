@@ -4,6 +4,7 @@ display_name: Moleculer
 github_url: https://github.com/moleculerjs/moleculer
 logo: moleculer.png
 related: microservices, distributed-systems, microservice-framework
+aliases: moleculerjs, moleculer-framework
 released: February 17, 2017
 short_description: Progressive microservices framework.
 topic: moleculer
