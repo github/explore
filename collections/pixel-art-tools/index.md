@@ -10,6 +10,7 @@ items:
  - kitao/pyxel
  - jackschaedler/goya
  - cloudhead/rx
+ - Siilwyn/awesome-pixel-art
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png
