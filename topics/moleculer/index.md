@@ -3,9 +3,9 @@ created_by: icebob
 display_name: Moleculer
 github_url: https://github.com/moleculerjs/moleculer
 logo: moleculer.png
-related: microservices, distributed-system
+related: microservices, distributed-systems, microservice-framework
 released: February 17, 2017
-short_description: Moleculer is a progressive microservices framework for Node.js.
+short_description: Progressive microservices framework.
 topic: moleculer
 url: https://moleculer.services/
 ---
