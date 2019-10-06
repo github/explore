@@ -1,7 +1,7 @@
 ---
 created_by: Kohsuke Kawaguchi
 display_name: Jenkins
-github_url: https://github.com/jenkinsci/jenkins
+github_url: https://github.com/jenkinsci
 logo: jenkins.png
 released: February 2, 2011
 short_description: A free and open source automation server written in Java.
