@@ -1,6 +1,6 @@
 ---
 created_by: Ilesh Mistry
-display_name: Gatsby
+display_name: gatsby
 github_url: https://github.com/gatsbyjs/gatsby
 logo: gatsby.png
 related: react, open-source-framework
