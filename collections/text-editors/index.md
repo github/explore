@@ -20,6 +20,7 @@ items:
  - neoedmund/neoeedit
  - mawww/kakoune
  - JasonStein/Notepads
+ - onivim/oni2
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
