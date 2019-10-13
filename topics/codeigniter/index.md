@@ -11,4 +11,4 @@ topic: codeigniter
 url: https://codeigniter.com/
 wikipedia_url: https://en.wikipedia.org/wiki/CodeIgniter
 ---
-CodeIgniter is an open-source software rapid development web framework, for use in building dynamic web sites with PHP.
+CodeIgniter is an open source software rapid development web framework, for use in building dynamic web sites with PHP.
