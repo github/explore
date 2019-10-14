@@ -11,6 +11,7 @@ items:
  - leo-editor/leo-editor
  - syl20bnr/spacemacs
  - SpaceVim/SpaceVim
+ - hlissner/doom-emacs
  - alm-tools/alm
  - atom/atom
  - LightTable/LightTable
