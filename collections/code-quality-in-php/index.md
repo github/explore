@@ -11,7 +11,6 @@ items:
  - vimeo/psalm
  - infection/infection
 display_name: Code Quality Checker Tools For PHP Projects
-image: php-logo.png
 created_by: umutphp
 ---
 A collection of code quality tools for PHP projects that you can use to analyze and fix your code in your local environments or in CI pipelines. The collection will not contain testing tools.
