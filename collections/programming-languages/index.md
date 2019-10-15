@@ -49,6 +49,7 @@ items:
 - livecode/livecode
 - coq/coq
 - vlang/v
+- dart-lang/language
 display_name: Programming languages
 created_by: leereilly
 ---
