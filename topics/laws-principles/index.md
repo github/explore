@@ -1,5 +1,5 @@
 ---
-aliases: principles, laws, patterns, rules, aphorisms
+aliases: principles, laws, rules, aphorisms
 created_by: Umut Işık
 display_name: Laws, Principles, Rules and Aphorisms
 short_description: Laws, principles, rules and aphorisms applicable to software engineering.
