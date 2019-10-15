@@ -1,4 +1,5 @@
 ---
+aliases: kentico-cloud
 created_by: Ilesh Mistry
 display_name: Kentico Kontent
 github_url: https://github.com/kentico
