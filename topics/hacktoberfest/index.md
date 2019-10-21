@@ -5,6 +5,7 @@ logo: hacktoberfest.png
 released: October 2014
 short_description: Hacktoberfest is a month-long celebration of open source software.
 topic: hacktoberfest
+details: this is a basic repositary with which you can start using github.
 url: https://hacktoberfest.digitalocean.com/
 ---
 Hacktoberfest is a month-long celebration of open source software. Each October, open source maintainers give new contributors extra attention as they guide developers through their first pull requests on GitHub.
