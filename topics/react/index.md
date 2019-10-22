@@ -1,4 +1,4 @@
----
+---tutorials/adding_post_form/step3.html
 aliases: reactjs, react-js
 created_by: Jordan Walke
 display_name: React
