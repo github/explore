@@ -21,6 +21,7 @@ items:
  - mawww/kakoune
  - JasonStein/Notepads
  - VSCodium/vscodium
+ - Sublime text 3/ Sublime
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
