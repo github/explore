@@ -4,6 +4,7 @@ display_name: TeX
 released: '1978'
 short_description: TeX is a typesetting system used in the production of technical books and papers.
 topic: tex
+logo: tex.png
 url: https://ctan.org/pkg/tex
 wikipedia_url: https://en.wikipedia.org/wiki/TeX
 ---
