@@ -19,6 +19,7 @@ items:
  - NREL/api-umbrella
  - usds/playbook
  - republique-et-canton-de-geneve/chvote-1-0
+ - gchq/CyberChef
  - https://www.youtube.com/embed/uNa9GOtM6NE
 display_name: Government apps
 created_by: jbjonesjr
