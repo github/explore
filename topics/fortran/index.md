@@ -1,5 +1,5 @@
 ---
-aliases: Fortran, fortran, FORTRAN, f90, f95, f77, f03, f08, f2018, Fortran90, Fortran77, FORTRAN77, Fortran95, Fortran2003, Fortran2008, Fortran2018
+aliases: fortran, f90, f95, f77, f03, f08, f2018, fortran90, fortran77, fortran95, fortran2003, fortran2008, fortran2018
 created_by: John W. Backus
 display_name: Fortran
 github_url: https://github.com/j3-fortran
