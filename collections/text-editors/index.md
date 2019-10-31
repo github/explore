@@ -22,6 +22,7 @@ items:
  - JasonStein/Notepads
  - onivim/oni2
  - VSCodium/vscodium
+ - remacs/remacs
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
