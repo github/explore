@@ -1,5 +1,5 @@
 ---
-aliases: bitcoin-cash, bch, p2p-cash, bitcoin-cash-wallet, bitcoin-cash-payment, bitcoin-cash-mining
+aliases: bch, p2p-cash, bitcoin-cash-wallet, bitcoin-cash-payment, bitcoin-cash-mining
 created_by: Satoshi Nakamoto
 display_name: Bitcoin Cash
 github_url: https://github.com/bitcoincashbch/bitcoin-cash/blob/master/README.md
