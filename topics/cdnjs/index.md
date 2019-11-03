@@ -1,5 +1,5 @@
 ---
-created_by: Ryan Kirkman, Thomas Davis, Peter Dave, Matt Cowley
+created_by: Ryan Kirkman, Thomas Davis, Matt Cowley
 display_name: cdnjs
 github_url: https://github.com/cdnjs/cdnjs
 url: https://cdnjs.com/
