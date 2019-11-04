@@ -306,8 +306,6 @@ describe "topics" do
         text.lines do |line|
           line.chomp!
 
-          refute_includes line, "&", 'Use "and" rather than an ampersand'
-          refute_includes line, "!", "Avoid exclamation points in topic pages"
           refute_includes line, "open-source", "Use open source without a hyphen"
 
           month_abbreviations.each do |month|
