@@ -10,4 +10,24 @@ short_description: GitHub Actions is a platform for developer workflow orchestra
 topic: actions
 url: https://github.com/features/actions
 ---
-GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub. Make code reviews, branch management, and issue triaging work the way you want.
+GitHub Actions gives you the flexibility to build an automated software development lifecycle workflow. You can write individual tasks, called actions, and combine them to create a custom workflow. Workflows are custom automated processes that you can set up in your repository to build, test, package, release, or deploy any code project on GitHub.
+
+“With GitHub Actions you can build end-to-end continuous integration (CI) and continuous deployment (CD) capabilities directly in your repository. GitHub Actions powers GitHub's built-in continuous integration service. For more information, see "[About continuous integration.](https://help.github.com/en/github/automating-your-workflow-with-github-actions/about-continuous-integration)"
+
+### Getting Started
+  - [https://lab.github.com/github/hello-github-actions!](https://lab.github.com/github/hello-github-actions!)
+  - [JavaScript](https://github.com/actions/javascript-action)
+  - [Ruby](https://dev.to/mscccc/build-a-github-action-with-ruby-3nln)
+  - [Rust](https://svartalf.info/posts/2019-09-16-github-actions-for-rust/)
+  
+#### Community & Support
+[GitHub.community Actions](https://github.community/t5/GitHub-Actions/bd-p/actions)
+  
+#### Documentation
+[https://help.github.com/en/github/automating-your-workflow-with-github-actions/about-github-actions](https://help.github.com/en/github/automating-your-workflow-with-github-actions/about-github-actions)
+
+#### Featured Actions
+  - [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
+  - [https://github.com/softprops/action-gh-release](https://github.com/softprops/action-gh-release)
+  - [https://github.com/actions/stale](https://github.com/actions/stale)
+  - [https://github.com/toolmantim/release-drafter](https://github.com/toolmantim/release-drafter)
