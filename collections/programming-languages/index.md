@@ -35,7 +35,7 @@ items:
 - gkz/LiveScript
 - IoLanguage/io
 - dlang/dmd
-- zdevito/terra
+- terralang/terra
 - dotnet/fsharp
 - skiplang/skip
 - FascinatedBox/lily

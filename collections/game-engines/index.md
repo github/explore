@@ -18,7 +18,7 @@ items:
  - CRYTEK/CRYENGINE
  - urho3d/Urho3D
  - benoit-dumas/OpenRTS
- - BearishSun/BansheeEngine
+ - GameFoundry/BansheeEngine
  - photonstorm/phaser
  - melonjs/melonJS
  - BabylonJS/Babylon.js
