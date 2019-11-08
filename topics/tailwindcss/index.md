@@ -3,7 +3,7 @@ aliases: tailwind
 created_by: Adam Wathan
 display_name: Tailwind CSS
 github_url: https://github.com/tailwindcss/tailwindcss
-logo: tailwindcss.svg
+logo: tailwindcss.png
 released: November 1, 2017
 short_description: A utility-first CSS framework for rapidly building custom designs.
 topic: tailwindcss
