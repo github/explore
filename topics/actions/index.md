@@ -14,20 +14,23 @@ GitHub Actions gives you the flexibility to build an automated software developm
 
 “With GitHub Actions you can build end-to-end continuous integration (CI) and continuous deployment (CD) capabilities directly in your repository. GitHub Actions powers GitHub's built-in continuous integration service. For more information, see "[About continuous integration.](https://help.github.com/en/github/automating-your-workflow-with-github-actions/about-continuous-integration)"
 
+#### Featured Actions
+  - [actions/stale](https://github.com/actions/stale)
+  - [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
+  - [softprops/action-gh-release](https://github.com/softprops/action-gh-release)
+  - [toolmantim/release-drafter](https://github.com/toolmantim/release-drafter)
+  
 ### Getting Started
-  - [https://lab.github.com/github/hello-github-actions!](https://lab.github.com/github/hello-github-actions!)
-  - [JavaScript](https://github.com/actions/javascript-action)
+  - [Hello GitHub Actions](https://lab.github.com/github/hello-github-actions!)
+  - [GitHub Actions: Continuous Delivery](https://lab.github.com/githubtraining/github-actions:-continuous-delivery)
+  - [JavaScript](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/creating-a-javascript-action)
   - [Ruby](https://dev.to/mscccc/build-a-github-action-with-ruby-3nln)
   - [Rust](https://svartalf.info/posts/2019-09-16-github-actions-for-rust/)
   
 #### Community & Support
-[GitHub.community Actions](https://github.community/t5/GitHub-Actions/bd-p/actions)
-  
-#### Documentation
-[https://help.github.com/en/github/automating-your-workflow-with-github-actions/about-github-actions](https://help.github.com/en/github/automating-your-workflow-with-github-actions/about-github-actions)
+- [Help Documentation](https://help.github.com/en/github/automating-your-workflow-with-github-actions/about-github-actions)
+- [GitHub Actions Community Forum](https://github.community/t5/GitHub-Actions/bd-p/actions)
 
-#### Featured Actions
-  - [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
-  - [https://github.com/softprops/action-gh-release](https://github.com/softprops/action-gh-release)
-  - [https://github.com/actions/stale](https://github.com/actions/stale)
-  - [https://github.com/toolmantim/release-drafter](https://github.com/toolmantim/release-drafter)
+**Taking Action With GitHub Actions**
+
+[//youtube-embed-unfurl//]: # (GVpIaEoFF3A)
