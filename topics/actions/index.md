@@ -33,4 +33,4 @@ GitHub Actions gives you the flexibility to build an automated software developm
 
 **Taking Action With GitHub Actions**
 
-[//youtube-embed-unfurl//]: # (https://www.youtube.com/watch?v=GVpIaEoFF3A)
+[//youtube-embed-unfurl//]: # (GVpIaEoFF3A)
