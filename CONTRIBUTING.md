@@ -1,111 +1,81 @@
-# Contributing
+<!-- wp:cover {"url":"https://aliaddictme.files.wordpress.com/2019/10/desk-3139127_1920.jpg","id":44,"dimRatio":20,"align":"full","className":"has-undefined-content"} -->
+<div class="wp-block-cover alignfull has-background-dim-20 has-background-dim has-undefined-content" style="background-image:url(https://aliaddictme.files.wordpress.com/2019/10/desk-3139127_1920.jpg)"><div class="wp-block-cover__inner-container"><!-- wp:heading {"align":"center","level":1} -->
+<h1 class="has-text-align-center">Bienvenue ! Que pouvons-nous faire pour vous aujourd'hui&nbsp;?</h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
 
-Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
+<!-- wp:heading {"align":"center"} -->
+<h2 class="has-text-align-center">Qui sommes-nous</h2>
+<!-- /wp:heading -->
 
-This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+<!-- wp:media-text {"mediaId":16,"mediaType":"image","mediaWidth":60} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:60% auto"><figure class="wp-block-media-text__media"><img src="https://aliaddictme.files.wordpress.com/2019/11/60060633_311409099754569_2415049330172887040_n.png?w=698" class="wp-image-16"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","fontSize":"small"} -->
+<p class="has-small-font-size"><strong>Excellent travail et personnalisé en plus. C'est notre engagement !</strong></p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
-There are a few ways you can contribute:
+<!-- wp:media-text {"mediaPosition":"right","mediaId":17,"mediaType":"image","mediaWidth":60} -->
+<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile" style="grid-template-columns:auto 60%"><figure class="wp-block-media-text__media"><img src="https://aliaddictme.files.wordpress.com/2019/11/tc3a9lc3a9chargement.png?w=500" class="wp-image-17"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","fontSize":"small"} -->
+<p class="has-small-font-size"><strong>DES COMPTES EDU -MAILS A COMMANDER A PARTIR DE 2 $</strong></p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
-- Improving an existing topic or collection
-- Curating a new topic or collection
+<!-- wp:separator -->
+<hr class="wp-block-separator"/>
+<!-- /wp:separator -->
 
-As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted. Following the style guide will improve the chances of your contribution being accepted.
+<!-- wp:heading {"align":"center"} -->
+<h2 class="has-text-align-center">Rejoignez-nous</h2>
+<!-- /wp:heading -->
 
-Note: Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
+<!-- wp:media-text {"mediaId":18,"mediaType":"image","mediaWidth":60} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:60% auto"><figure class="wp-block-media-text__media"><img src="https://aliaddictme.files.wordpress.com/2019/11/youtube.jpg?w=225" class="wp-image-18"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","fontSize":"small"} -->
+<p class="has-small-font-size">Vous avez des doutes quant à v<a href="https://www.youtube.com/channel/UCpcaCsFnwwIKka0DzN8PWeg">https://www.youtube.com/channel/UCpcaCsFnwwIKka0DzN8PWeg</a>os besoins ou sur ce que cela va vous coûter ? Nous sommes toujours heureux de pouvoir discuter avec vous de notre coopération.</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
-## Improving an existing topic or collection
+<!-- wp:media-text {"mediaPosition":"right","mediaId":47,"mediaType":"image","mediaWidth":60} -->
+<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile" style="grid-template-columns:auto 60%"><figure class="wp-block-media-text__media"><img src="https://aliaddictme.files.wordpress.com/2019/10/people-2588594_1920.jpg?w=740" alt="" class="wp-image-47"/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…","fontSize":"small"} -->
+<p class="has-small-font-size"><strong>Contactez-nous par E-mail</strong></p>
+<!-- /wp:paragraph -->
 
-If a topic or collection already exists, it will be listed in its respective directory:
+<!-- wp:paragraph {"placeholder":"Content…","fontSize":"small"} -->
+<p class="has-small-font-size"><a href="smailmarzouki@gmail.com">smailmarzouki@gmail.com</a></p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:media-text -->
 
-- [topics/](https://github.com/github/explore/tree/master/topics)
-- [collections/](https://github.com/github/explore/tree/master/collections)
+<!-- wp:separator -->
+<hr class="wp-block-separator"/>
+<!-- /wp:separator -->
 
-The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/master/topics/rails).
+<!-- wp:heading {"align":"center"} -->
+<h2 class="has-text-align-center">Contactez-nous</h2>
+<!-- /wp:heading -->
 
-To make an improvement, please **open a pull request** with your proposed changes:
+<!-- wp:paragraph -->
+<p><strong>Nom de votre entreprise</strong><br>123 Main St<br>555-555-5555</p>
+<!-- /wp:paragraph -->
 
-### Update the image
+<!-- wp:separator -->
+<hr class="wp-block-separator"/>
+<!-- /wp:separator -->
 
-To update the image, simply replace the image inside the directory for the topic or collection.
+<!-- wp:heading {"align":"center"} -->
+<h2 class="has-text-align-center">Envoyez-nous un message</h2>
+<!-- /wp:heading -->
 
-### Update text and links
+<!-- wp:jetpack/contact-form -->
+<!-- wp:jetpack/field-name {"required":true} /-->
 
-To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
+<!-- wp:jetpack/field-email {"required":true} /-->
 
-For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/master/topics/algorithm/index.md)," data like the its canonical URL, Wikipedia URL, or display name are called out in key-value pairs; while its detailed description is accounted for in the body of the document.
+<!-- wp:jetpack/field-textarea /-->
+<!-- /wp:jetpack/contact-form -->
 
-_/topics/algorithm/index.md_:
-```
----
-aliases: algorithms
-display_name: Algorithm
-short_description: Algorithms are self-contained sequences that carry out a variety of tasks.
-topic: algorithm
-wikipedia_url: https://en.wikipedia.org/wiki/Algorithm
----
-Algorithms are detailed sets of guidelines created for a computer program to complete tasks efficiently and thoroughly.
-```
+<!-- wp:separator -->
+<hr class="wp-block-separator"/>
+<!-- /wp:separator -->
 
----
-
-Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/master/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
-
-_/collections/music/index.md_:
-
-```
----
-items:
- - beetbox/beets
- - scottschiller/SoundManager2
- - CreateJS/SoundJS
- - musescore/MuseScore
- - tomahawk-player/tomahawk
- - cashmusic/platform
- - mopidy/mopidy
- - AudioKit/AudioKit
- - Soundnode/soundnode-app
- - gillesdemey/Cumulus
- - metabrainz/picard
- - overtone/overtone
- - samaaron/sonic-pi
-display_name: Music
-created_by: jonrohan
----
-Drop the code bass with these musically themed repositories.
-```
-
----
-
-The [pull request template](./.github/PULL_REQUEST_TEMPLATE.md) also provides guidance on the information you need to include.
-
-**Please fill out the pull request template completely.** If you do not fill out the template, your PR will be closed.
-
-## Curating a new topic or collection
-
-If a topic or collection is not yet curated, it will NOT be listed in its respective directory.
-
-We are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/), or a topic that currently lacks important information. When suggesting content, please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.
-
-Please note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.
-
-To propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
-
-This repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).
-
-**Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
-
-## Guidelines
-
-* Avoid conflicts of interest. Maintainers of a project cannot add a topic or collection for their own project. If a topic is popular enough to warrant inclusion, someone else will add or improve it.
-
-## Running tests
-
-There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis
-CI will run the tests automatically. If you want to run the tests yourself locally, you will need
-Ruby and Bundler installed.
-
-You can run the tests using:
-
-```bash
-script/cibuild
-```
+<!-- wp:paragraph {"fontSize":"small"} -->
+<p class="has-small-font-size">Copyright Nom de votre entreprise - Tous droits réservés</p>
+<!-- /wp:paragraph -->
