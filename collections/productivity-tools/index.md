@@ -3,6 +3,7 @@ items:
  - robbyrussell/oh-my-zsh
  - ggreer/the_silver_searcher
  - arc90/git-sweep
+ - reugn/dev-tools
  - bhollis/jsonview
  - ShareX/ShareX
  - sindresorhus/quick-look-plugins
