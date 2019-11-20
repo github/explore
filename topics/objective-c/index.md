@@ -10,3 +10,8 @@ url: https://developer.apple.com/documentation/objectivec
 wikipedia_url: https://en.wikipedia.org/wiki/Objective-C
 ---
 Objective-C builds on the foundations of ANSI C. Compared to other object-oriented languages based on C, Objective-C is very dynamic. Dynamism enables the construction of sophisticated development tools. Since Objective-C incorporates C, one gets all the benefits of C when working within Objective-C.
+
+nnnmmllooooo
+
+looooo
+şpppp
