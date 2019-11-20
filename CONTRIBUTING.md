@@ -9,7 +9,8 @@ There are a few ways you can contribute:
 - Improving an existing topic or collection
 - Curating a new topic or collection
 
-As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted. Following the style guide will improve the chances of your contribution being accepted.
+As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted.- name: Pull Request on Branch Push
+  uses: vsoch/pull-request-action@1.0.1 Following the style guide will improve the chances of your contribution being accepted.
 
 Note: Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
 
