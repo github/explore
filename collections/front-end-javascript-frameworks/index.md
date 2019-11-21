@@ -21,6 +21,7 @@ items:
  - polymer/lit-element
  - aurelia/aurelia
  - sveltejs/svelte
+ - eigenmethod/mol
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
