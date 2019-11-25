@@ -10,4 +10,4 @@ short_description: V is an actively developed language at an early stage.
 topic: v
 url: https://vlang.io
 ---
-A simple, fast, safe, compiled language for developing maintainable software. It supports translation from C and C++.
+A simple, fast, safe, compiled language for developing maintainable software. Inspired from C, C++, Go and Rust.
