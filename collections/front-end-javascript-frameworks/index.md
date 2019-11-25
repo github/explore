@@ -1,5 +1,6 @@
 ---
 items:
+ - neomjs/neo
  - marko-js/marko
  - mithriljs/mithril.js
  - angular/angular
