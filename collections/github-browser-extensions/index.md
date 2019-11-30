@@ -30,6 +30,7 @@ items:
  - xxhomey19/github-file-icon
  - StylishThemes/GitHub-Dark
  - xthexder/wide-github
+ - fregante/github-issue-link-status
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
