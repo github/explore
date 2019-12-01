@@ -18,7 +18,7 @@ items:
  - CRYTEK/CRYENGINE
  - urho3d/Urho3D
  - benoit-dumas/OpenRTS
- - GameFoundry/BansheeEngine
+ - BearishSun/BansheeEngine
  - photonstorm/phaser
  - melonjs/melonJS
  - BabylonJS/Babylon.js
@@ -38,8 +38,6 @@ items:
  - korlibs/korge
  - raysan5/raylib
  - amethyst/amethyst
- - orx/orx
- - nCine/nCine
 display_name: Game Engines
 created_by: leereilly
 ---

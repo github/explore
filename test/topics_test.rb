@@ -181,32 +181,20 @@ describe "topics" do
         assert File.file?(path), "expected #{path} to be a file"
       end
 
-      it "has matching logo, when logo key exists" do
+      it "uses the right file name for specified logo" do
         metadata = metadata_for(topics_dir, topic)
 
         if metadata
           paths = image_paths_for(topic)
           valid_file_names = paths.map { |path| File.basename(path) }
-
-          if metadata["logo"]
-            assert valid_file_names.include?(metadata["logo"]),
-                   "should not specify logo #{metadata['logo']} when file does not exist"
-          end
-        end
-      end
-
-      it "has a matching logo key, when logo exists" do
-        metadata = metadata_for(topics_dir, topic)
-
-        if metadata
-          paths = image_paths_for(topic)
-          valid_file_names = paths.map { |path| File.basename(path) }
-
-          if valid_file_names.any?
-            assert valid_file_names.include?(metadata["logo"]),
-                   "logo key should be #{valid_file_names.join(' or ')}, but was "\
-                   "#{metadata['logo'].nil? ? 'missing' : metadata['logo']}"
-          end
+          error_message = if valid_file_names.empty?
+                            "should not specify logo #{metadata['logo']} when file does not exist"
+                          else
+                            "logo should be #{valid_file_names.join(' or ')}, but was " +
+                              metadata["logo"].to_s
+                          end
+          assert !metadata.key?("logo") || valid_file_names.include?(metadata["logo"]),
+                 error_message
         end
       end
 
@@ -306,6 +294,8 @@ describe "topics" do
         text.lines do |line|
           line.chomp!
 
+          refute_includes line, "&", 'Use "and" rather than an ampersand'
+          refute_includes line, "!", "Avoid exclamation points in topic pages"
           refute_includes line, "open-source", "Use open source without a hyphen"
 
           month_abbreviations.each do |month|

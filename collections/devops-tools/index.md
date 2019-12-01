@@ -25,7 +25,6 @@ items:
  - kubernetes/kubernetes
  - apache/mesos
  - SeleniumHQ/selenium
- - opendiffy/diffy
  
 display_name: DevOps tools
 ---
