@@ -18,10 +18,6 @@ items:
  - Microsoft/vscode
  - zyedidia/micro
  - neoedmund/neoeedit
- - mawww/kakoune
- - JasonStein/Notepads
- - onivim/oni2
- - VSCodium/vscodium
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png

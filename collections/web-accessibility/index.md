@@ -21,7 +21,6 @@ items:
  - a11yproject/a11yproject.com
  - GoogleChrome/accessibility-developer-tools
  - GoogleChrome/lighthouse
- - fejes713/accessibility-guide
 display_name: Web accessibility
 created_by: muan
 ---

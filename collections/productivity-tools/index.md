@@ -1,6 +1,6 @@
 ---
 items:
- - ohmyzsh/ohmyzsh
+ - robbyrussell/oh-my-zsh
  - ggreer/the_silver_searcher
  - arc90/git-sweep
  - bhollis/jsonview
