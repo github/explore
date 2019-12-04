@@ -8,4 +8,4 @@ topic: dle
 url: https://dle-news.ru/
 wikipedia_url: https://ru.wikipedia.org/wiki/DataLife_Engine
 ---
-DataLife Engine is a multifunctional Content Management System. One of most polpular CMS in Russia.
+DataLife Engine is a multifunctional Content Management System. One of most popular CMS in Russia.
