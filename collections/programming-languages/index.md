@@ -50,6 +50,7 @@ items:
 - coq/coq
 - vlang/v
 - dart-lang/language
+- pharo-project/pharo
 display_name: Programming languages
 created_by: leereilly
 ---
