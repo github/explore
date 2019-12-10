@@ -51,6 +51,7 @@ items:
 - vlang/v
 - dart-lang/language
 - pharo-project/pharo
+- eplslang/epls
 display_name: Programming languages
 created_by: leereilly
 ---
