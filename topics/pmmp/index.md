@@ -5,7 +5,7 @@ display_name: PocketMine-MP
 github_url: https://github.com/pmmp/
 logo: pmmp.png
 related: mcpe, mcbe, minecraft, mcpe-server, bedrock-edition, bedrock
-released: 2013
+released: 2012
 short_description: A server software for Minecraft Bedrock Edition in PHP
 topic: pmmp
 url: https://pmmp.io/
