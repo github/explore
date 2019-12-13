@@ -6,7 +6,7 @@ created_by: Robin Milner, Mads Tofte, Robert Harper
 short_description: Standard ML (SML) is a general-purpose functional programming language with compile-time type checking and type inference.
 topic: standard-ml
 url: http://sml-family.org
-related: fsharp ocaml
+related: language, fsharp, ocaml
 wikipedia_url: https://en.wikipedia.org/wiki/Standard_ML
 ---
 Standard ML (SML; "Standard Meta Language") is a general-purpose, modular, functional programming language with compile-time type checking and type inference. It is popular among compiler writers and programming language researchers, as well as in the development of theorem provers.
