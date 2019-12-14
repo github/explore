@@ -1,5 +1,6 @@
 ---
 display_name: roguelite
+topic: roguelite
 aliases: roguelite-game
 related: roguelike
 short_description: A genre of video game.

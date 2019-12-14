@@ -1,5 +1,6 @@
 ---
 display_name: tactical-shooter
+topic: tactical-shooter
 aliases: tactical-shooter-game
 related: first-person-shooter third-person-shooter
 short_description: A genre of video game.

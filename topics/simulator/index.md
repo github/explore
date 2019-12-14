@@ -1,5 +1,6 @@
 ---
 display_name: simulator
+topic: simulator
 aliases: simulator-game
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Simulation_video_game

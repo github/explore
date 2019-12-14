@@ -1,5 +1,6 @@
 ---
 display_name: real-time-strategy
+topic: real-time-strategy
 aliases: rts real-time-strategy-game
 related: 4x command-and-conquer
 short_description: A genre of video game.

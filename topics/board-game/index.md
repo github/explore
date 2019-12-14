@@ -1,5 +1,6 @@
 ---
 display_name: board-game
+topic: board-game
 aliases: boardgame
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Board_game

@@ -1,5 +1,6 @@
 ---
 display_name: strategy-game
+topic: strategy-game
 aliases: strategy
 related: real-time-strategy real-time-tactics moba turn-based-tactics turn-based-strategy 4x wargame
 short_description: A genre of video game.

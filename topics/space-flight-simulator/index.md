@@ -1,5 +1,6 @@
 ---
 display_name: space-flight-simulator
+topic: space-flight-simulator
 aliases: space-flight-simulator-game
 related: flight-simulator
 short_description: A genre of video game.

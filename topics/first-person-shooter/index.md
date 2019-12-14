@@ -1,5 +1,6 @@
 ---
 display_name: first-person-shooter
+topic: first-person-shooter
 aliases: first-person-shooter fps first-person-shooter-game
 related: third-person-shooter tactical-shooter
 short_description: A genre of video game.

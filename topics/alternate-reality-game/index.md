@@ -1,5 +1,6 @@
 ---
 display_name: alternate-reality-game
+topic: alternate-reality-game
 aliases: alternate-reality arg
 related: virtual-reality alternate-reality
 short_description: A genre of video game.

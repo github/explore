@@ -1,5 +1,6 @@
 ---
 display_name: wargame
+topic: wargame
 aliases: war-game
 related: strategy
 short_description: A genre of video game.

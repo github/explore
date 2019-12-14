@@ -1,5 +1,6 @@
 ---
 display_name: business-simulator
+topic: business-simulator
 aliases: buisiness-simulator-game economic-simulator economic-simulator-game
 related: tycoon
 short_description: A genre of video game.

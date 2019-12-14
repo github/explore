@@ -1,5 +1,6 @@
 ---
 display_name: 4x
+topic: 4x
 aliases: 4x-game xxxx 
 related: command-and-conquer real-time-strategy
 short_description: A genre of video game.

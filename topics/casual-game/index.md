@@ -1,5 +1,6 @@
 ---
 display_name: casual-game
+topic: casual-game
 aliases: casual
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Casual_game

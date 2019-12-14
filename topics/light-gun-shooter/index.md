@@ -1,5 +1,6 @@
 ---
 display_name: light-gun-shooter
+topic: light-gun-shooter
 aliases: light-gun-shooter-game
 related: duck-hunt zapper
 short_description: A genre of video game.

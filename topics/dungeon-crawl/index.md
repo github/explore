@@ -1,5 +1,6 @@
 ---
 display_name: dungeon-crawl
+topic: dungeon-crawl
 aliases: dungeon-crawl-game dungeon-crawler
 related: roguelike mud-game
 short_description: A genre of video game.

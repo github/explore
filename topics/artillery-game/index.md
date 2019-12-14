@@ -1,5 +1,6 @@
 ---
 display_name: artillery-game
+topic: artillery-game
 aliases: artillery
 related: retro-game arcade-game
 short_description: A genre of video game.

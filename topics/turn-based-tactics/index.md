@@ -1,5 +1,6 @@
 ---
 display_name: turn-based-tactics
+topic: turn-based-tactics
 aliases: turn-based-tactics-game tbt tactical-turn-based tactical-turn-based-game
 related: turn-based real-time-tactics strategy
 short_description: A genre of video game.

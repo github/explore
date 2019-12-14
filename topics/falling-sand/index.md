@@ -1,5 +1,6 @@
 ---
 display_name: falling-sand
+topic: falling-sand
 aliases: falling-sand-game
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Falling-sand_game

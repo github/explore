@@ -1,5 +1,6 @@
 ---
 display_name: retro-game
+topic: retro-game
 aliases: retro-gaming retrogaming retrogame classic-game classic-gaming old-school-game old-school-gaming
 related: mud text-adventure roguelike
 short_description: A genre of video game.

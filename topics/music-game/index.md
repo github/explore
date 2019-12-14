@@ -1,5 +1,6 @@
 ---
 display_name: music-game
+topic: music-game
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Music_video_game
 ---

@@ -1,5 +1,6 @@
 ---
 display_name: mud-game
+topic: mud-game
 aliases: mud multi-user-dungeon multiple-user-dungeon
 related: old-school text-adventure roguelike mudlet
 short_description: A genre of video game.

@@ -1,5 +1,6 @@
 ---
 display_name: survival-horror
+topic: survival-horror
 aliases: survival-horror-game
 related: survival-game resident-evil
 short_description: A genre of video game.

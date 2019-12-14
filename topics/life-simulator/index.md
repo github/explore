@@ -1,5 +1,6 @@
 ---
 display_name: life-simulator
+topic: life-simulator
 aliases: life-simulator-game artificial-life artificial-life-game
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Life_simulation_game

@@ -1,5 +1,6 @@
 ---
 display_name: action-role-playing
+topic: action-role-playing
 aliases: arpg action-role-playing-game
 related: action-game role-playing-game
 short_description: A genre of video game.

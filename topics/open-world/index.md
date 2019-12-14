@@ -1,5 +1,6 @@
 ---
 display_name: open-world
+topic: open-world
 aliases: open-world-game
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Open_world

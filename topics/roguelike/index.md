@@ -1,5 +1,6 @@
 ---
 display_name: roguelike
+topic: roguelike
 aliases: roguelike-game
 related: nethack cataclysm angband roguelite
 short_description: A genre of video game.

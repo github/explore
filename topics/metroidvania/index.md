@@ -1,5 +1,6 @@
 ---
 display_name: metroidvania
+topic: metroidvania
 aliases: metroidvania-game
 related: action-adventure action-adventure-game platform-game
 short_description: A genre of video game.

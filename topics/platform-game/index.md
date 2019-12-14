@@ -1,5 +1,6 @@
 ---
 display_name: platform-game
+topic: platform-game
 aliases: platformer
 related: metroidvania action-game
 short_description: A genre of video game.

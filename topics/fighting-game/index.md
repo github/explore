@@ -1,5 +1,6 @@
 ---
 display_name: fighting-game
+topic: fighting-game
 aliases: beat-em-up
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Fighting_game

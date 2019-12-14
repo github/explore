@@ -1,5 +1,6 @@
 ---
 display_name: adventure-game
+topic: adventure-game
 aliases: adventure
 related: action-game
 short_description: A genre of video game.

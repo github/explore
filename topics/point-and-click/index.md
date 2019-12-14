@@ -1,5 +1,6 @@
 ---
 display_name: point-and-click
+topic: point-and-click
 aliases: point-n-click
 related: scumm 
 short_description: A genre of video game.

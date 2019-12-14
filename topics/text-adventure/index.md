@@ -1,5 +1,6 @@
 ---
 display_name: text-adventure
+topic: text-adventure
 aliases: text-adventure-game text-game text-based-game text-based
 related: mud interactive-fiction old-school
 short_description: A genre of video game.

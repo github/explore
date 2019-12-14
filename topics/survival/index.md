@@ -1,5 +1,6 @@
 ---
 display_name: survival
+topic: survival
 aliases: survival-game
 related: survival-horror battle-royale-game action-game
 short_description: A genre of video game.

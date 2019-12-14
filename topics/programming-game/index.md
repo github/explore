@@ -1,5 +1,6 @@
 ---
 display_name: programming-game
+topic: programming-game
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Programming_game
 ---

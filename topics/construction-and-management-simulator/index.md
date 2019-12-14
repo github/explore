@@ -1,5 +1,6 @@
 ---
 display_name: construction-and-management-simulator
+topic: construction-and-management-simulator
 aliases: construction-and-management-simulator-game
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Construction_and_management_simulation

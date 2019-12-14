@@ -1,5 +1,6 @@
 ---
 display_name: interactive-fiction
+topic: interactive-fiction
 aliases: if
 related: visual-novel text-adventure
 short_description: A genre of video game.

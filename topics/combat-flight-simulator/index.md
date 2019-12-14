@@ -1,5 +1,6 @@
 ---
 display_name: combat-flight-simulator
+topic: combat-flight-simulator
 aliases: combat-flight-simulator-game
 related: flight-simulator
 short_description: A genre of video game.

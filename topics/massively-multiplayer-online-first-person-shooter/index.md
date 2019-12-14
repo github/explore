@@ -1,5 +1,6 @@
 ---
 display_name: massively-multiplayer-online-first-person-shooter
+topic: massively-multiplayer-online-first-person-shooter
 aliases: mmofps mmo-fps massively-multiplayer-online-first-person-shooter-game
 related: first-person-shooter massively-multiplayer-online
 short_description: A genre of video game.

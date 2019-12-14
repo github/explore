@@ -1,5 +1,6 @@
 ---
 display_name: social-simulator
+topic: social-simulator
 aliases: social-simulator-game
 related: sims the-sims
 short_description: A genre of video game.

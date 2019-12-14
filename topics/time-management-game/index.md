@@ -1,5 +1,6 @@
 ---
 display_name: time-management-game
+topic: time-management-game
 aliases: time-management
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Time_management_(video_game_genre)
