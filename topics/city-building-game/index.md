@@ -1,8 +1,8 @@
 ---
 display_name: city-building-game
 topic: city-building-game
-aliases: city-building town-building town-building-game
-related: sim-city simulator
+aliases: city-building, town-building, town-building-game
+related: sim-city, simulator
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/City-building_game
 ---

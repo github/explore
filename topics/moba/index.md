@@ -1,7 +1,7 @@
 ---
 display_name: moba
 topic: moba
-aliases: multiplayer-online-battle-arena multiplayer-online-battle-arena-game action-real-time- strategy action-real-time- strategy-game arts
+aliases: multiplayer-online-battle-arena, multiplayer-online-battle-arena-game, action-real-time-, strategy, action-real-time-, strategy-game, arts
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Multiplayer_online_battle_arena
 ---

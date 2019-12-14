@@ -1,7 +1,7 @@
 ---
 display_name: vehicle-simulator
 topic: vehicle-simulator
-aliases: vehicle-sim vehicle-simulator-game
+aliases: vehicle-sim, vehicle-simulator-game
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Vehicle_simulation_game
 ---

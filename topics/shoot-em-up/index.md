@@ -1,7 +1,7 @@
 ---
 display_name: shoot-em-up
 topic: shoot-em-up
-aliases: shoot-em-up-game shmup stf
+aliases: shoot-em-up-game, shmup, stf
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Shoot_%27em_up
 ---

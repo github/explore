@@ -2,7 +2,7 @@
 display_name: platform-game
 topic: platform-game
 aliases: platformer
-related: metroidvania action-game
+related: metroidvania, action-game
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Platform_game
 ---

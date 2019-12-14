@@ -1,7 +1,7 @@
 ---
 display_name: god-game
 topic: god-game
-aliases: artificial-life-game artificial-life
+aliases: artificial-life-game, artificial-life
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/God_game
 ---

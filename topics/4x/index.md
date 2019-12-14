@@ -1,8 +1,8 @@
 ---
 display_name: 4x
 topic: 4x
-aliases: 4x-game xxxx 
-related: command-and-conquer real-time-strategy
+aliases: 4x-game, xxxx, 
+related: command-and-conquer, real-time-strategy
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/4X
 ---
