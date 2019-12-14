@@ -25,6 +25,8 @@ items:
  - jimhester/lintr
  - testdouble/standard
  - realm/SwiftLint
+ - replicatedhq/dockerfilelint
+ - mvdan/sh
 display_name: Clean code linters
 created_by: holman
 ---
