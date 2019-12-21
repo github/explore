@@ -18,4 +18,5 @@ display_name: Learn to Code
 created_by: alysonla
 image: learn-to-code.png
 ---
-Resources to help people learn to code
+แหล่งข้อมูลเพื่อช่วยให้ผู้คนเรียนรู้รหัส
+/ อะไร
