@@ -1,5 +1,6 @@
 ---
 items:
+ - phoboslab/Impact
  - pixijs/pixi.js
  - photonstorm/phaser
  - melonjs/melonJS
