@@ -35,7 +35,7 @@ items:
 - gkz/LiveScript
 - IoLanguage/io
 - dlang/dmd
-- zdevito/terra
+- terralang/terra
 - dotnet/fsharp
 - skiplang/skip
 - FascinatedBox/lily
@@ -50,6 +50,7 @@ items:
 - coq/coq
 - vlang/v
 - dart-lang/language
+- pharo-project/pharo
 display_name: Programming languages
 created_by: leereilly
 ---
