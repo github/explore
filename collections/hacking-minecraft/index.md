@@ -1,7 +1,6 @@
 ---
 items:
  - docker/dockercraft
- - minefold/hubot-minecraft
  - leereilly/hubot-minecraft-skin
  - overviewer/Minecraft-Overviewer
  - cuberite/cuberite
