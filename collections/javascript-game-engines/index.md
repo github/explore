@@ -1,6 +1,5 @@
 ---
 items:
- - phoboslab/Impact
  - pixijs/pixi.js
  - photonstorm/phaser
  - melonjs/melonJS
@@ -20,6 +19,7 @@ items:
  - Irrelon/ige
  - 4ian/GDevelop
  - mrdoob/three.js
+ - phoboslab/Impact
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---
