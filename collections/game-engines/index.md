@@ -39,6 +39,7 @@ items:
  - amethyst/amethyst
  - orx/orx
  - nCine/nCine
+ - gurkenlabs/litiengine
 display_name: Game Engines
 created_by: leereilly
 ---
