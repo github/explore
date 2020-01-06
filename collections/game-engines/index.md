@@ -1,7 +1,6 @@
 ---
 items:
  - godotengine/godot
- - GameFoundry/BansheeEngine
  - turbulenz/turbulenz_engine
  - GarageGames/Torque3D
  - GarageGames/Torque2D
