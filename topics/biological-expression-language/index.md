@@ -10,4 +10,4 @@ short_description: A domain-specific language for representing biological knowle
 topic: biological-expression-language
 url: https://openbel.org
 ---
-Biological Expression Language is a domain-specific language created by Dexter Pratt at Selventa for encoding qualitative causal, correlative, and associative relations between biological entities
+Biological Expression Language is a domain-specific language created by Dexter Pratt at Selventa for encoding qualitative causal, correlative, and associative relations between entities in biological knowledge graphs
