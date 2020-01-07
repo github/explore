@@ -1,5 +1,5 @@
 ---
-aliases: BEL, OpenBEL
+aliases: bel, openbel
 created_by: Dexter Pratt
 display_name: Biological Expression Language
 github_url: https://github.com/openbel
@@ -10,4 +10,4 @@ short_description: A domain-specific language for representing biological knowle
 topic: biological-expression-language
 url: https://openbel.org
 ---
-Biological Expression Language is a domain-specific language created by Dexter Pratt at Selventa for encoding qualitative causal, correlative, and associative relations between entities in biological knowledge graphs
+Biological Expression Language is a domain-specific language created by Dexter Pratt at Selventa for encoding qualitative causal, correlative, and associative relations between entities in biological knowledge graphs.
