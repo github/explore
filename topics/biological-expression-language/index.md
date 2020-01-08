@@ -3,10 +3,10 @@ aliases: bel, openbel
 created_by: Dexter Pratt
 display_name: Biological Expression Language
 github_url: https://github.com/openbel
-logo: bel.png
+logo: biological-expression-language.png
 related: language, domain-specific-language, bioinformatics
 released: 2012
-short_description: A domain-specific language for representing biological knowledge graphs
+short_description: A domain-specific language for representing biological knowledge graphs.
 topic: biological-expression-language
 url: https://openbel.org
 ---
