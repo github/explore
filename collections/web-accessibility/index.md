@@ -10,6 +10,7 @@ items:
  - aduggin/accessibility-fails
  - pa11y/pa11y
  - Heydon/REVENGE.CSS
+ - ZingGrid/zinggrid
  - reactjs/react-a11y
  - angular/protractor-accessibility-plugin
  - AccessLint/accesslint.js
