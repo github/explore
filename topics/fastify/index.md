@@ -5,8 +5,8 @@ display_name: Fastify
 github_url: https://github.com/fastify
 logo: fastify.png
 related: framework, nodejs, json-schema
-released: Oct 2016
-short_description: Fast and low overhead web framework, for Node.js
+released: October 2016
+short_description: Fast and low overhead web framework for NodeJS
 topic: fastify
 url: http://fastify.io/
 ---
