@@ -1,5 +1,5 @@
 ---
-aliases: fastify, fastify1, fastify-1, fastify2, fastify-2
+aliases: fastify1, fastify-1, fastify2, fastify-2
 created_by: Matteo Collina
 display_name: Fastify
 github_url: https://github.com/fastify
