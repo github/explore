@@ -1,5 +1,5 @@
 ---
-created_by: Bogdan Ristea
+created_by: John Dewey
 display_name: Molecule
 github_url: https://github.com/ansible/molecule 
 logo: molecule.png
