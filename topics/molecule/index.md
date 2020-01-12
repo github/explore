@@ -11,6 +11,6 @@ wikipedia_url: https://en.wikipedia.org/wiki/Ansible_(software)
 ---
 Molecule is designed to aid in the development and testing of Ansible roles.
 
-Molecule provides support for testing with multiple instances, operating systems and distributions, virtualization providers, test frameworks and testing scenarios.
+Molecule provides support for testing with multiple instances, operating systems and distributions, virtualization providers, test frameworks, and testing scenarios.
 
 Molecule encourages an approach that results in consistently developed roles that are well-written, easily understood and maintained.
