@@ -4,7 +4,7 @@ items:
  - limetext/lime
  - textmate/textmate
  - neovim/neovim
- - sharelatex/sharelatex
+ - overleaf/overleaf
  - slap-editor/slap
  - thomaswilburn/Caret
  - Komodo/KomodoEdit
@@ -16,6 +16,12 @@ items:
  - LightTable/LightTable
  - zedapp/zed
  - Microsoft/vscode
+ - zyedidia/micro
+ - neoedmund/neoeedit
+ - mawww/kakoune
+ - JasonStein/Notepads
+ - onivim/oni2
+ - VSCodium/vscodium
  - zyedidia/micro
 display_name: Text editors
 created_by: leereilly

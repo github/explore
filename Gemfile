@@ -5,5 +5,6 @@ group :test do
   gem "minitest"
   gem "rake"
   gem "rubocop"
+  gem "rubocop-performance"
   gem "safe_yaml"
 end
