@@ -4,7 +4,7 @@ GEM
     ast (2.4.0)
     fastimage (2.1.7)
     jaro_winkler (1.5.4)
-    minitest (5.12.2)
+    minitest (5.14.0)
     parallel (1.19.1)
     parser (2.7.0.0)
       ast (~> 2.4.0)
