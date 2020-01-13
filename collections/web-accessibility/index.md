@@ -10,7 +10,6 @@ items:
  - aduggin/accessibility-fails
  - pa11y/pa11y
  - Heydon/REVENGE.CSS
- - ZingGrid/zinggrid
  - reactjs/react-a11y
  - angular/protractor-accessibility-plugin
  - AccessLint/accesslint.js
@@ -24,6 +23,7 @@ items:
  - GoogleChrome/lighthouse
  - fejes713/accessibility-guide
  - adobe/leonardo
+ - ZingGrid/zinggrid
 display_name: Web accessibility
 created_by: muan
 ---
