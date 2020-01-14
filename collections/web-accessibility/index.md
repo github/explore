@@ -23,6 +23,7 @@ items:
  - GoogleChrome/lighthouse
  - fejes713/accessibility-guide
  - adobe/leonardo
+ - ZingGrid/zinggrid
 display_name: Web accessibility
 created_by: muan
 ---
