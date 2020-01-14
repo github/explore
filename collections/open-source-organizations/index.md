@@ -20,8 +20,6 @@ items:
  - eleme/eleme.github.io
  - didi/didi.github.io
  - alibaba/alibaba.github.com
- - google/google.github.io
- - apple/github.com/apple
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
