@@ -20,6 +20,9 @@ items:
  - neoedmund/neoeedit
  - mawww/kakoune
  - JasonStein/Notepads
+ - onivim/oni2
+ - VSCodium/vscodium
+ - zyedidia/micro
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
