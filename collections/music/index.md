@@ -7,6 +7,7 @@ items:
  - tomahawk-player/tomahawk
  - cashmusic/platform
  - mopidy/mopidy
+ - nukeop/nuclear
  - AudioKit/AudioKit
  - Soundnode/soundnode-app
  - gillesdemey/Cumulus
