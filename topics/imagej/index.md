@@ -1,7 +1,7 @@
 ---
 topic: imagej
 display_name: ImageJ
-aliases: FIJI
+aliases: fiji, fiji-plugin, imagej-plugin
 
 url: https://imagej.net/
 github_url: https://github.com/imagej/imagej
