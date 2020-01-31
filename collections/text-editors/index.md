@@ -1,5 +1,6 @@
 ---
 items:
+ - JetBrains/intellij-community
  - adobe/brackets
  - limetext/lime
  - textmate/textmate
