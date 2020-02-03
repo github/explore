@@ -21,7 +21,7 @@ GEM
       rubocop (>= 0.71.0)
     ruby-progressbar (1.10.1)
     safe_yaml (1.0.5)
-    unicode-display_width (1.6.0)
+    unicode-display_width (1.6.1)
 
 PLATFORMS
   ruby
