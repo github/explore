@@ -22,8 +22,8 @@ items:
  - JasonStein/Notepads
  - onivim/oni2
  - VSCodium/vscodium
- - zyedidia/micro
  - JetBrains/intellij-community
+
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
