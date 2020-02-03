@@ -4,7 +4,7 @@ created_by: The POV-Team
 display_name: POV-Ray
 github_url: https://github.com/POV-Ray/povray
 logo: pov-ray.png
-related: 3D, raytracer, rendering
+related: 3d, raytracer, rendering
 released: July 29, 1991
 short_description: POV-Ray is a cross-platform ray-tracing program that generates images from a text-based scene description.
 topic: pov-ray
