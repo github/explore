@@ -10,4 +10,4 @@ short_description: Next generation, highly modular and open Minecraft modding AP
 topic: fabricmc
 url: https://fabricmc.net
 ---
-
+Fabric is a lightweight, experimental modding toolchain for Minecraft.
