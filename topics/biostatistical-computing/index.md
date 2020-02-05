@@ -2,7 +2,6 @@
 aliases: biostats, computational-biostatistics, biostatistical-computing
 created_by: Newton CM.
 display_name: Biostatistical Computing
-github_url: https://github.com/topics/biostatistical-computing
 logo: biostatistical-computing.png
 related: biostatistics, computational-biology, decentralized-internet, distributed-biology, BOINC
 released: '1974'
