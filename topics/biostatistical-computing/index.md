@@ -1,5 +1,5 @@
 ---
-aliases: biostats, computational biostatistics, biostatistical computing
+aliases: biostats, computational-biostatistics, biostatistical-computing
 created_by: Newton CM.
 display_name: Biostatistical Computing
 github_url: https://github.com/topics/biostatistical-computing
