@@ -1,5 +1,5 @@
 ---
-aliases: biostats, computational-biostatistics, biostatistical-computing
+aliases: biostats, computational-biostatistics
 created_by: Newton CM.
 display_name: Biostatistical Computing
 logo: biostatistical-computing.png
