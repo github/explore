@@ -3,7 +3,7 @@ topic: biostatistical-computing
 github_url: https://github.com/topics/biostatistical-computing
 display_name: Biostatistical Computing
 logo: biostatistical-computing.png
-related: biostatistics, computational-biology, decentralized-internet, distributed-biology, BOINC
+related: biostatistics, computational-biology, decentralized-internet, distributed-biology, boinc
 short_description: Computational analysis or methods for biostatistics.
 url: https://www.ncbi.nlm.nih.gov/pubmed/4435229
 ---
