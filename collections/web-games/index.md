@@ -6,6 +6,7 @@ items:
  - AlexNisnevich/untrusted
  - doublespeakgames/adarkroom
  - Hextris/hextris
+ - wesauis/snakr
 display_name: Web games
 created_by: leereilly
 ---
