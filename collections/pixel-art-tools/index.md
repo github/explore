@@ -6,7 +6,6 @@ items:
  - maierfelix/poxi/
  - gmattie/Data-Pixels/
  - vsmode/pixel8
- - jennschiffer/make8bitart
  - kitao/pyxel
  - jackschaedler/goya
  - cloudhead/rx
