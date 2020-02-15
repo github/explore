@@ -9,4 +9,6 @@ short_description: Aarc is a high performance, open source web application frame
 topic: aarc
 url: https://rajkumardusad.github.io/aarc
 ---
-Aarc is a high performance, open source web application framework for PHP.
+Aarc is a high performance, open source web application framework.
+aarc framework follows the MVT (Model-View-Template) architectural pattern or you can say MVC (Model-View-Controller) pattern, because controller is handle by the system.
+aarc is fast and lightweight web framework. aark framework is very powerfull, simple and easy to use.
