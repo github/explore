@@ -1,11 +1,11 @@
 ### Thank you for contributing! Please confirm this pull request meets the following requirements:
 
 - [ ] I followed the contributing guidelines: https://github.com/github/explore/blob/master/CONTRIBUTING.md
-- [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).
+- [x] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).
 
 ### Which change are you proposing?
 
-  - [ ] Suggesting edits to an existing topic or collection
+  - [x] Suggesting edits to an existing topic or collection
   - [ ] Curating a new topic or collection
 
 ---------------------------------------------------------------------
@@ -22,11 +22,11 @@ I'm suggesting these edits to an existing topic or collection:
 <!-- ⚠️ ... or this section ⚠️ -->
 ### Curating a new topic or collection
 
-- [ ] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
-- [ ] My folder contains a `*.png` image (if applicable) and `index.md`
-- [ ] All required fields in my `index.md` conform to the Style Guide and API docs: https://github.com/github/explore/tree/master/docs
+- [x] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
+- [x] My folder contains a `*.png` image (if applicable) and `index.md`
+- [x] All required fields in my `index.md` conform to the Style Guide and API docs: https://github.com/github/explore/tree/master/docs
 
-> Please replace this line with an explanation of why you think this topic or collection should be curated.
+> topic being replicated 
 
 ---------------------------------------------------------------------
 
