@@ -6,4 +6,4 @@ logo: datascienceacademy.png
 topic: https://github.com/topics/datascienceacademy
 url: https://www.datascienceacademy.com.br/pages/home
 ---
-A Data Science Academy é produto de um sonho que objetiva transformar o mundo num lugar melhor.  Onde todos possam ter a oportunidade de aprender e construir uma carreira de sucesso e prazerosa. No site da Data Science Academy pode-se aprender, dentre outros tópicos, Big Data, Ciência de Dados e Inteligencia Artificial.
+A Data Science Academy é produto de um sonho que objetiva transformar o mundo num lugar melhor.  Onde todos possam ter a oportunidade de aprender e construir uma carreira de sucesso e prazerosa. No site da Data Science Academy pode-se aprender, dentre outros tópicos, Big Data, Ciência de Dados e Inteligência Artificial.
