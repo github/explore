@@ -335,7 +335,7 @@ describe "topics" do
 
           match = line.match(/\b(\w+)\s\d[.,;:\s]/)
           if match
-            allowed_words_before_numbers = %w[Perl Pi Auth Vision]
+            allowed_words_before_numbers = %w[Perl Pi Auth Vision Java]
             assert_includes allowed_words_before_numbers, match[1],
                             'Write out "one" and every number less than 10, except when they ' \
                             "follow one of: #{allowed_words_before_numbers.join(', ')}"
