@@ -2,13 +2,10 @@
 topic: imagej
 display_name: ImageJ
 aliases: fiji, fiji-plugin
-
 url: https://imagej.net/
 github_url: https://github.com/imagej/imagej
 wikipedia_url: https://en.wikipedia.org/wiki/ImageJ
-
 short_description: ImageJ is an open source image processing program designed for scientific multidimensional images.
-
 ---
 
 ImageJ is an open source Java image processing program inspired by NIH Image. 
