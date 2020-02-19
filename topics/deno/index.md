@@ -4,7 +4,7 @@ topic: deno
 github_url: https://github.com/denoland
 logo: deno.png
 related: typescript, rust
-short_description: A secure runtime for JavaScript and TypeScript
+short_description: A secure runtime for JavaScript and TypeScript.
 url: https://deno.land
 wikipedia_url: https://en.wikipedia.org/wiki/Deno_(software)
 created_by: Ryan Dahl
