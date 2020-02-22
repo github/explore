@@ -1,5 +1,6 @@
 ---
 items:
+ - jalbam/CrossBrowdy
  - pixijs/pixi.js
  - photonstorm/phaser
  - melonjs/melonJS
