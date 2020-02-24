@@ -1,7 +1,7 @@
 ---
 aliases: guildwars-2, gw2, guild-wars-2
 created_by: ArenaNet
-display_name: Guild Wars 2
+display_name: Guild Wars Two
 logo: guildwars2.png
 released: August 28, 2012
 short_description: Guild Wars 2 is an MMORPG in the world of Tyria, following up the story from Guild Wars.
