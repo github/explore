@@ -1,4 +1,4 @@
----
+ckongmoon@gmail.com---
 items:
  - aseprite/aseprite/
  - piskelapp/piskel/
