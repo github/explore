@@ -1,5 +1,4 @@
 ---
-aliases: scambaiting
 display_name: Scambaiting
 short_description: Scambaiting is the activity of interacting with scammers to waste their time and resources.
 topic: scambaiting
