@@ -3,6 +3,7 @@ aliases: viur-framework
 created_by: Mausbrand
 display_name: ViUR
 github_url: https://github.com/viur-framework
+logo: viur.png
 related: framework, python
 released: 2012
 short_description: ViUR is a free software development framework for the Google App Engine written in Python.
