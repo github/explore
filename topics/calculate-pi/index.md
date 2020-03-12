@@ -3,7 +3,7 @@ aliases: calculatepi, calculate-pi
 created_by: github
 display_name: Calculate Pi
 github_url: https://github.com/topics/calculate-pi
-# logo: raspberry-pi.png
+logo: calculate-pi.png
 released: March 14, 1592
 short_description: The mathematical Constant π
 topic: Calculate Pi
