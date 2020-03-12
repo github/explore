@@ -6,7 +6,7 @@ github_url: https://github.com/topics/calculate-pi
 logo: calculate-pi.png
 released: March 14, 1592
 short_description: The mathematical Constant π.
-topic: Calculate Pi
+topic: calculate-pi
 url: https://en.wikipedia.org/wiki/Pi
 wikipedia_url: https://en.wikipedia.org/wiki/Pi
 ---
