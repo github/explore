@@ -1,5 +1,5 @@
 ---
-aliases: vanilla-javascript, vanillajs, js-vanilla
+aliases: vanilla-javascript, vanillajs
 created_by: Brendan Eich
 display_name: Vanilla JavaScript
 related: javascript, ecmascript
