@@ -5,7 +5,6 @@ items:
  - GarageGames/Torque3D
  - GarageGames/Torque2D
  - spring/spring
- - cocos-creator/engine
  - cocos2d/cocos2d-x
  - Gamua/Starling-Framework
  - gameplay3d/GamePlay
@@ -40,6 +39,7 @@ items:
  - amethyst/amethyst
  - orx/orx
  - nCine/nCine
+ - cocos-creator/engine
 display_name: Game Engines
 created_by: leereilly
 ---
