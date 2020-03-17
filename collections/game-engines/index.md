@@ -39,6 +39,7 @@ items:
  - amethyst/amethyst
  - orx/orx
  - nCine/nCine
+ - cocos-creator/engine
 display_name: Game Engines
 created_by: leereilly
 ---
