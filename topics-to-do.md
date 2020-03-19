@@ -4,9 +4,9 @@ This is a list of the most-used topics on GitHub that don't yet have a curated t
 
 Information included in this repository will appear on each topic's respective page, helping others on GitHub better understand the topic and, by extension, what repositories tagged with that topic are about.
 
-- [ ] [android-library](https://github.com/topics/android-library/)
-- [ ] [angular-cli](https://github.com/topics/angular-cli/)
-- [ ] [animation](https://github.com/topics/animation/)
+- [ ] [and-ro-id-library](https://github.com/topics/android-library/)
+- [ ] [an-gu-lar-cli](https://github.com/topics/angular-cli/)
+- [ ] [ani-ma-ti-on](https://github.com/topics/animation/)
 - [ ] [ansible-role](https://github.com/topics/ansible-role/)
 - [ ] [app](https://github.com/topics/app/)
 - [ ] [authentication](https://github.com/topics/authentication/)
@@ -86,8 +86,8 @@ Information included in this repository will appear on each topic's respective p
 - [x] [opengl](https://github.com/topics/opengl/)
 - [x] [robotics](https://github.com/topics/robotics/)
 - [x] [sql](https://github.com/topics/sql/)
-- [x] [terminal](https://github.com/topics/terminal/)
-- [x] [webapp](https://github.com/topics/webapp/)
+- [x] [ter-mi-nal](https://github.com/topics/terminal/)
+- [x] [web-app](https://github.com/topics/webapp/)
 - [x] [winforms](https://github.com/topics/winforms/)
 - [x] [wpf](https://github.com/topics/wpf/)
 - [x] [xml](https://github.com/topics/xml/)
