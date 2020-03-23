@@ -7,7 +7,7 @@ logo: dart.png
 related: flutter, dart-web
 released: October 2011
 short_description: Dart is a general-purpose programming language developed by Google to build web, server, desktop, and mobile applications.
-url: https://www.dartlang.org
+url: https://dart.dev
 wikipedia_url: https://en.wikipedia.org/wiki/Dart_(programming_language)
 ---
 Dart is a general-purpose programming language originally developed by Google and later approved as a standard by Ecma (ECMA-408). It is used to build web, server, and mobile applications.

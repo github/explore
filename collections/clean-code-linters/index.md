@@ -7,10 +7,11 @@ items:
  - csscomb/csscomb.js
  - sds/scss-lint
  - htmlhint/HTMLHint
+ - validator/validator
  - CSSLint/csslint
  - PyCQA/pycodestyle
  - PyCQA/flake8
- - python/black
+ - psf/black
  - checkstyle/checkstyle
  - rubocop-hq/rubocop
  - oclint/oclint
@@ -23,6 +24,9 @@ items:
  - koalaman/shellcheck
  - jimhester/lintr
  - testdouble/standard
+ - realm/SwiftLint
+ - replicatedhq/dockerfilelint
+ - mvdan/sh
 display_name: Clean code linters
 created_by: holman
 ---
