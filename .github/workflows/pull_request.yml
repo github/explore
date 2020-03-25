@@ -13,7 +13,7 @@ jobs:
         ruby-version: 2.7
     - name: Install bundler
       run: |
-        gem install bundler:1.14.0
+        gem install bundler:2.1.4
         bundle config path vendor/bundle
     - name: Cache gems
       uses: actions/cache@v1
