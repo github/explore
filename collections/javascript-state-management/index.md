@@ -8,6 +8,7 @@ items:
  - davidkpiano/xstate
  - cerebral/cerebral
  - storeon/storeon
+ - artalar/reatom
 display_name: JavaScript State Management Tools
 created_by: lestad
 ---
