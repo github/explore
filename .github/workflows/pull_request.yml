@@ -6,14 +6,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
     - name: Setup Ruby
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: 2.6.x
+        ruby-version: 2.7
     - name: Build and test with Rake/Rubocop
       run: |
-        gem install bundler:1.14.0
+        gem install bundler:2.1.4
         bundle update
         bundle install --jobs 4 --retry 3
         bundle exec rake
