@@ -23,12 +23,11 @@ describe "collections" do
         invalid_slugs = []
 
         items_for_collection(collection).each do |item|
-          begin
-            URI.parse(item)
-          rescue URI::InvalidURIError
-            invalid_slugs << item
-          end
+          URI.parse(item)
+        rescue URI::InvalidURIError
+          invalid_slugs << item
         end
+
         assert_empty invalid_slugs, "Invalid item slugs #{invalid_slugs}"
       end
 
