@@ -23,12 +23,11 @@ describe "collections" do
         invalid_slugs = []
 
         items_for_collection(collection).each do |item|
-          begin
-            URI.parse(item)
-          rescue URI::InvalidURIError
-            invalid_slugs << item
-          end
+          URI.parse(item)
+        rescue URI::InvalidURIError
+          invalid_slugs << item
         end
+
         assert_empty invalid_slugs, "Invalid item slugs #{invalid_slugs}"
       end
 
@@ -45,10 +44,7 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX)
 
-          url = URI("https://github.com/#{item}")
-          http_status = Net::HTTP.get_response(url).code
-
-          unless %w[200 301].include?(http_status)
+          unless client.repository?(item)
             errors << "#{collection}: #{item} does not exist or is private"
           end
         end
@@ -62,10 +58,7 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_REGEX)
 
-          url = URI("https://github.com/#{item}")
-          http_status = Net::HTTP.get_response(url).code
-
-          errors << "#{collection}: #{item} does not exist" unless %w[200 301].include?(http_status)
+          errors << "#{collection}: #{item} does not exist" unless client.user(item).present?
         end
 
         assert_empty errors
@@ -77,14 +70,13 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX) || item.match?(USERNAME_REGEX)
 
-          url = URI("https://github.com/#{item}")
-          response = Net::HTTP.get_response(url)
-          next unless response.code == "301"
+          response = if item.match?(USERNAME_AND_REPO_REGEX)
+                       client.repository?(item)
+                     else
+                       client.user(item)
+                     end
 
-          new_name = response.header["location"]
-          new_name.gsub!("https://github.com/", "")
-
-          errors << "#{collection}: #{item} has been renamed to #{new_name}"
+          errors << "#{collection}: #{item} has been renamed" unless response.present?
         end
 
         assert_empty errors

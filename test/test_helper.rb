@@ -2,6 +2,7 @@ require "minitest/autorun"
 require "fastimage"
 require "uri"
 require "yaml"
+require "octokit"
 
 IMAGE_WIDTH = 288
 IMAGE_HEIGHT = 288
@@ -13,6 +14,10 @@ EMOJI_REGEX = /[\u{00A9}\u{00AE}\u{203C}\u{2049}\u{2122}\u{2139}\u{2194}-\u{2199
 # rubocop:enable Metrics/LineLength
 
 MAX_BODY_LENGTH = 2_000
+
+def client
+  @client ||= Octokit::Client.new(access_token: ENV["GITHUB_TOKEN"])
+end
 
 def valid_uri_scheme?(scheme)
   return false unless scheme
