@@ -70,13 +70,11 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX) || item.match?(USERNAME_REGEX)
 
-          response = if item.match?(USERNAME_AND_REPO_REGEX)
-                       client.repository?(item)
-                     else
-                       client.user(item)
-                     end
-
-          errors << "#{collection}: #{item} has been renamed" unless response.present?
+          if item.match?(USERNAME_AND_REPO_REGEX)
+            errors << "#{collection}: #{item} has been renamed" unless client.repository?(item)
+          else
+            errors << "#{collection}: #{item} has been renamed" unless client.user(item)
+          end
         end
 
         assert_empty errors
