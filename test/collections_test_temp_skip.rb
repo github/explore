@@ -27,7 +27,7 @@ describe "collections" do
         rescue URI::InvalidURIError
           invalid_slugs << item
         end
-        
+
         assert_empty invalid_slugs, "Invalid item slugs #{invalid_slugs}"
       end
 
