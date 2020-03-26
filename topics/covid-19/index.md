@@ -11,4 +11,4 @@ url: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-t
 wikipedia_url: https://en.wikipedia.org/wiki/Coronavirus_disease_2019
 ---
 
-Coronavirus disease (COVID-19) is an infectious disease caused by a new virus. This topic is associated with repositorys that contain code focused around research and awareness of the virus. 
+The Novel Coronavirus of 2019 (nCOVID-19) is an infectious disease caused by a new virus. This topic is associated with repositories that contain code focused around research and awareness of the virus. 
