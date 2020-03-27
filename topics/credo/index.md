@@ -7,4 +7,4 @@ short_description: Credo is a static code analysis tool for the Elixir language 
 topic: credo
 url: http://credo-ci.org/
 ---
-Credo can show you refactoring opportunities in your code, complex code fragments, warn you about common mistakes, show inconsistencies in your naming scheme and - if needed - help you enforce a desired coding style.
+Credo can show you refactoring opportunities in your code, complex code fragments, warn you about common mistakes, show inconsistencies in your naming scheme, and - if needed - help you enforce a desired coding style.
