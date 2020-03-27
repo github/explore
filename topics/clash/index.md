@@ -1,5 +1,4 @@
 ---
-aliases: Clash
 created_by: Dreamacro
 display_name: Clash
 github_url: https://github.com/Dreamacro/clash
