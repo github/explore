@@ -45,9 +45,11 @@ describe "collections" do
           next unless item.match?(USERNAME_AND_REPO_REGEX)
 
           url = URI("https://github.com/#{item}")
-          http_status = Net::HTTP.get_response(url).code
+          response = Net::HTTP.get_response(url).code
 
-          unless %w[200 301].include?(http_status)
+          unless %w[200 301].include?(response.code)
+            errors << "HTTP Status: #{response.code}"
+            errors << response.body
             errors << "#{collection}: #{item} does not exist or is private"
           end
         end
