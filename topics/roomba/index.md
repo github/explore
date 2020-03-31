@@ -1,7 +1,6 @@
 ---
 created_by: iRobot
 display_name: Roomba
-logo: roomba.png
 short_description: The iRobot Roomba is a robot floor vacuum.
 topic: roomba
 url: https://www.irobot.com/roomba
