@@ -1,4 +1,4 @@
----
+---big/Forkit/changeit
 items:
  - adobe/brackets
  - limetext/lime
@@ -23,9 +23,9 @@ items:
  - onivim/oni2
  - VSCodium/vscodium
  - JetBrains/intellij-community
-
+ - Always/Masterpass-Administration
 display_name: Text editors
-created_by: leereilly
+created_by: O'Reilly Factor
 image: text-editors.png
 ---
 The text editor is a sacred application for developers. Here's a showcase of some amazingly awesome open source editors.
