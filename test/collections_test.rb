@@ -178,22 +178,10 @@ describe "collections" do
   end
 
   def repository_exists?(item)
-    @repos ||= {}
-
-    if @repos.key?(item)
-      @repos[item]
-    else
-      @repos[item] = client.repository?(item)
-    end
+    client.repository?(item)
   end
 
   def user_exists?(item)
-    @users ||= {}
-
-    if @users.key?(item)
-      @users[item]
-    else
-      @users[item] = client.user(item).present?
-    end
+    client.user(item)
   end
 end
