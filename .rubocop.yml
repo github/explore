@@ -14,7 +14,7 @@ Lint/AssignmentInCondition:
 Metrics/BlockLength:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 100
   IgnoredPatterns: ['\A\s*#']
 
