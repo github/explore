@@ -44,7 +44,7 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX)
 
-          unless client.repository?(item)
+          unless repository_exists?(item)
             errors << "#{collection}: #{item} does not exist or is private"
           end
         end
@@ -58,7 +58,7 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_REGEX)
 
-          errors << "#{collection}: #{item} does not exist" unless client.user(item).present?
+          errors << "#{collection}: #{item} does not exist" unless user_exists?(item)
         end
 
         assert_empty errors
@@ -71,9 +71,9 @@ describe "collections" do
           next unless item.match?(USERNAME_AND_REPO_REGEX) || item.match?(USERNAME_REGEX)
 
           if item.match?(USERNAME_AND_REPO_REGEX)
-            errors << "#{collection}: #{item} has been renamed" unless client.repository?(item)
+            errors << "#{collection}: #{item} has been renamed" unless repository_exists?(item)
           else
-            errors << "#{collection}: #{item} has been renamed" unless client.user(item)
+            errors << "#{collection}: #{item} has been renamed" unless user_exists?(item)
           end
         end
 
@@ -174,6 +174,26 @@ describe "collections" do
                  "and cannot begin or end with a hyphen"
         end
       end
+    end
+  end
+
+  def repository_exists?(item)
+    @repos ||= {}
+
+    if @repos.key?(item)
+      @repos[item]
+    else
+      @repos[item] = client.repository?(item)
+    end
+  end
+
+  def user_exists?(item)
+    @users ||= {}
+
+    if @users.key?(item)
+      @users[item]
+    else
+      @users[item] = client.user(item).present?
     end
   end
 end
