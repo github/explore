@@ -44,12 +44,7 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX)
 
-          url = URI("https://github.com/#{item}")
-          response = Net::HTTP.get_response(url)
-
-          unless %w[200 301].include?(response.code)
-            errors << "HTTP Status: #{response.code}"
-            errors << response.body
+          unless repository_exists?(item)
             errors << "#{collection}: #{item} does not exist or is private"
           end
         end
@@ -63,10 +58,7 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_REGEX)
 
-          url = URI("https://github.com/#{item}")
-          http_status = Net::HTTP.get_response(url).code
-
-          errors << "#{collection}: #{item} does not exist" unless %w[200 301].include?(http_status)
+          errors << "#{collection}: #{item} does not exist" unless user_exists?(item)
         end
 
         assert_empty errors
@@ -78,14 +70,11 @@ describe "collections" do
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX) || item.match?(USERNAME_REGEX)
 
-          url = URI("https://github.com/#{item}")
-          response = Net::HTTP.get_response(url)
-          next unless response.code == "301"
-
-          new_name = response.header["location"]
-          new_name.gsub!("https://github.com/", "")
-
-          errors << "#{collection}: #{item} has been renamed to #{new_name}"
+          if item.match?(USERNAME_AND_REPO_REGEX)
+            errors << "#{collection}: #{item} has been renamed" unless repository_exists?(item)
+          else
+            errors << "#{collection}: #{item} has been renamed" unless user_exists?(item)
+          end
         end
 
         assert_empty errors
@@ -186,5 +175,13 @@ describe "collections" do
         end
       end
     end
+  end
+
+  def repository_exists?(item)
+    client.repository?(item)
+  end
+
+  def user_exists?(item)
+    client.user(item)
   end
 end
