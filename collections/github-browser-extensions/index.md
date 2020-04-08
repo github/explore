@@ -30,6 +30,9 @@ items:
  - xxhomey19/github-file-icon
  - StylishThemes/GitHub-Dark
  - xthexder/wide-github
+ - berzniz/github_pr_tree
+ - n1ck/gifs-for-github
+ - EnixCoda/Gitako
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
