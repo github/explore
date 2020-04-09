@@ -1,9 +1,9 @@
 ---
 display_name: SBML
-released: March, 2001
-short_description: SBML (Systems Biology Markup Language) is a free and open XML-based interchange format for computer models of biological processes.
+released: March 2001
+short_description: SBML (Systems Biology Markup Language) is a free and open XML-based exchange format for computer models of biological processes.
 github_url: https://github.com/sbmlteam
-logo: sb.png
+logo: sbml.png
 topic: sbml
 related: xml, systems-biology, computational-biology
 url: http://sbml.org
