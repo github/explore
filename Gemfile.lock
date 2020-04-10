@@ -1,29 +1,46 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.0)
+    coderay (1.1.2)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
     fastimage (2.1.7)
     jaro_winkler (1.5.4)
+    method_source (1.0.0)
     minitest (5.14.0)
+    multipart-post (2.1.1)
+    octokit (4.18.0)
+      faraday (>= 0.9)
+      sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.19.1)
-    parser (2.7.0.5)
+    parser (2.7.1.0)
       ast (~> 2.4.0)
+    pry (0.13.0)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    public_suffix (4.0.4)
     rainbow (3.0.0)
     rake (13.0.1)
     rexml (3.2.4)
-    rubocop (0.80.1)
+    rubocop (0.81.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.7.0.1)
       rainbow (>= 2.2.2, < 4.0)
       rexml
       ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 1.4.0, < 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
     rubocop-performance (1.5.2)
       rubocop (>= 0.71.0)
     ruby-progressbar (1.10.1)
     safe_yaml (1.0.5)
-    unicode-display_width (1.6.1)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
+    unicode-display_width (1.7.0)
 
 PLATFORMS
   ruby
@@ -31,6 +48,8 @@ PLATFORMS
 DEPENDENCIES
   fastimage
   minitest
+  octokit (~> 4.0)
+  pry
   rake
   rubocop
   rubocop-performance

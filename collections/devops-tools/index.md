@@ -26,6 +26,7 @@ items:
  - apache/mesos
  - SeleniumHQ/selenium
  - opendiffy/diffy
+ - drone/drone
  
 display_name: DevOps tools
 ---
