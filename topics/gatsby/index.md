@@ -1,6 +1,6 @@
 ---
 aliases: gatsbyjs, gatsby-js
-created_by: Ilesh Mistry
+created_by: Kyle Mathews
 display_name: gatsby
 github_url: https://github.com/gatsbyjs/gatsby
 logo: gatsby.png
