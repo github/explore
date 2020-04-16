@@ -1,11 +1,11 @@
 ---
-aliases: asp-net, aspnet-core
+aliases: aspnet, asp-net, aspnet-core
 created_by: Microsoft
-display_name: ASP.NET
+display_name: ASP
 logo: aspnet.png
 released: January 2002
 short_description: ASP.NET is a web framework for building modern web apps and services.
-topic: aspnet
+topic: asp
 url: https://asp.net
 wikipedia_url: https://en.wikipedia.org/wiki/ASP.NET
 ---
