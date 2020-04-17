@@ -25,7 +25,7 @@ GEM
     rainbow (3.0.0)
     rake (13.0.1)
     rexml (3.2.4)
-    rubocop (0.81.0)
+    rubocop (0.82.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.7.0.1)
