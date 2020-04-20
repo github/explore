@@ -1,7 +1,8 @@
 ---
 topic: animal-crossing
 display_name: "Animal Crossing"
-related: animal-crossing-new-horizons, new-horizons, nintendo, nintendo-switch
+aliases: animal-crossing-new-horizons, new-horizons
+related: nintendo, nintendo-switch
 wikipedia_url: https://en.wikipedia.org/wiki/Animal_Crossing
 short_description: "Animal Crossing is a video game series by Nintendo."
 released: April 14, 2001
