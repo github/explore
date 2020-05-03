@@ -5,7 +5,7 @@ github_url: https://github.com/apache/groovy
 logo: groovy.png
 released: 2003
 related: grails, java
-short_description: Apache Groovy is a Java-syntax-compatible object-oriented programming language for the Java platform
+short_description: Apache Groovy is a Java-syntax-compatible object-oriented programming language for the Java platform.
 topic: groovy
 url: https://groovy-lang.org
 wikipedia_url: https://en.wikipedia.org/wiki/Apache_Groovy
