@@ -10,6 +10,7 @@ items:
  - Komodo/KomodoEdit
  - leo-editor/leo-editor
  - syl20bnr/spacemacs
+ - emacs-mirror/emacs
  - SpaceVim/SpaceVim
  - alm-tools/alm
  - atom/atom
