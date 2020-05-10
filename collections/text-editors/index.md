@@ -28,4 +28,4 @@ display_name: Text editors
 created_by: leereilly
 image: text-editors.png
 ---
-The text editor is a sacred application for developers. Here's a showcase of some amazingly awesome open source editors.
+Editor teks adalah aplikasi suci untuk pengembang. Berikut ini adalah showcase dari beberapa editor open source yang luar biasa mengagumkan.
