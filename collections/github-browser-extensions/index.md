@@ -33,6 +33,7 @@ items:
  - berzniz/github_pr_tree
  - n1ck/gifs-for-github
  - EnixCoda/Gitako
+ - vladgolubev/quickreview-for-github
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
