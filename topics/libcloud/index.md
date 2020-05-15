@@ -1,5 +1,4 @@
 ---
-aliases: apache-libcloud
 created_by: Apache Software Foundation
 display_name: Apache Libcloud
 github_url: https://github.com/apache/libcloud
