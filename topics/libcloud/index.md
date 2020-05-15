@@ -9,4 +9,4 @@ short_description: Apache Libcloud is a free and open source Python library for 
 topic: libcloud
 url: https://libcloud.apache.org/
 ---
-Libcloud is a Python library that abstracts away the differences among multiple cloud provider APIs. It allows users to manage cloud services (servers, storage, load balancers, DNS, containers as a service) offered by many different providers through a single, unified and easy to use API.
+Libcloud is a Python library that abstracts away the differences among multiple cloud provider APIs. It allows users to manage cloud services (servers, storage, load balancers, DNS, containers as a service) offered by many different providers through a single, unified, and easy to use API.
