@@ -1,4 +1,4 @@
-name: CI/Rubocop
+name: houle1/khám phá/Github
 
 on: [push, pull_request]
 
