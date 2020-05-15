@@ -1,5 +1,7 @@
 # GitHub Explore
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a605a477ce4d472aa1a1fbbcf712cefe)](https://app.codacy.com/manual/nhathao201811/explore?utm_source=github.com&utm_medium=referral&utm_content=Houle1/explore&utm_campaign=Badge_Grade_Dashboard)
+
 This repository houses all of the community-curated content for GitHub Topics and Collections.
 
 [Topics](https://help.github.com/articles/about-topics/) help you explore repositories in a particular subject area, learn more about that subject, and find projects to contribute to.
