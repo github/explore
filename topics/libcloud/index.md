@@ -5,7 +5,7 @@ github_url: https://github.com/apache/libcloud
 logo: libcloud.png
 related: cloud, library, language
 released: 2009
-short_description: Apache Libcloud is a free and open source Python library for interacting with many of the popular cloud service providers using a unified API.
+short_description: Libcloud is a free and open source Python library for interacting with many popular cloud service providers using a unified API.
 topic: libcloud
 url: https://libcloud.apache.org/
 ---
