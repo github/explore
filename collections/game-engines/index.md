@@ -30,7 +30,7 @@ items:
  - renpy/renpy
  - OpenRA/OpenRA
  - OpenRCT2/OpenRCT2
- - stride3d/xenko
+ - stride3d/stride
  - lance-gg/lance
  - panda3d/panda3d
  - OpenXRay/xray-16
