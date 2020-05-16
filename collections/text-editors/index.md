@@ -10,7 +10,6 @@ items:
  - Komodo/KomodoEdit
  - leo-editor/leo-editor
  - syl20bnr/spacemacs
- - emacs-mirror/emacs
  - SpaceVim/SpaceVim
  - alm-tools/alm
  - atom/atom
@@ -24,6 +23,7 @@ items:
  - onivim/oni2
  - VSCodium/vscodium
  - JetBrains/intellij-community
+ - emacs-mirror/emacs
 
 display_name: Text editors
 created_by: leereilly
