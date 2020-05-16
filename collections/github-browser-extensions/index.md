@@ -27,7 +27,7 @@ items:
  - ryanflorence/github-plusone-extension
  - Mottie/GitHub-userscripts
  - rgehan/octolenses
- - xxhomey19/github-file-icon
+ - homerchen19/github-file-icon
  - StylishThemes/GitHub-Dark
  - xthexder/wide-github
  - berzniz/github_pr_tree
