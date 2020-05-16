@@ -13,7 +13,7 @@ items:
  - nuxt/nuxt.js
  - gridsome/gridsome
  - middleman/middleman
- - nozzle/react-static
+ - react-static/react-static
  - docsifyjs/docsify
  - mkdocs/mkdocs
  - sintaxi/harp
