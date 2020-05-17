@@ -1,7 +1,8 @@
 ---
-aliases: ada, ada-2012, ada2012, ada2005, ada95
+aliases: ada-2012, ada2012, ada2005, ada95
 display_name: Ada
-related: ada-programs, ada-binding, ada-language, spark-ada, spark, gnat, ada-framework, ada-library, gpr, ada-stuff, pascal, delphi
+logo: ada.png
+related: ada-programs, ada-binding, ada-language, spark-ada, spark, gnat, ada-framework, ada-library, gpr, ada-stuff
 short_description: Ada is a structured, statically typed, imperative, and object-oriented high-level programming language.
 topic: ada
 wikipedia_url: https://en.wikipedia.org/wiki/Ada_%28programming_language%29
