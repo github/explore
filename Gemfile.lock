@@ -9,7 +9,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     fastimage (2.1.7)
     method_source (1.0.0)
-    minitest (5.14.0)
+    minitest (5.14.1)
     multipart-post (2.1.1)
     octokit (4.18.0)
       faraday (>= 0.9)
