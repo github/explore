@@ -1,5 +1,5 @@
 ---
-aliases: ada-2012, ada2012, ada2005, ada95
+aliases: ada-2012, ada2012, ada95
 display_name: Ada
 logo: ada.png
 related: ada-programs, ada-binding, ada-language, spark-ada, spark, gnat, ada-framework, ada-library, gpr, ada-stuff
