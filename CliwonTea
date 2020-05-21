@@ -1,1 +1,6 @@
 https://github.com/github/explore/pull/1483#issue-420297481
+{
+  "bindings": [
+    {
+      "role": "roles/owner",
+      "members": cliwontea
