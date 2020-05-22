@@ -24,6 +24,7 @@ items:
  - VSCodium/vscodium
  - JetBrains/intellij-community
  - emacs-mirror/emacs
+ - rxi/lite
 
 display_name: Text editors
 created_by: leereilly
