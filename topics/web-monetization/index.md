@@ -1,6 +1,6 @@
 ---
-aliases: webmonetization, WM, interledger, ilp
-created_by: Adrian Hope-Bailie, Evan Schwartz
+aliases: webmonetization,WM,interledger,ilp
+created_by: Adrian Hope-Bailie,Evan Schwartz
 display_name: Web Monetization
 github_url: https://github.com/interledger/webmonetization.org
 logo: webmonetization.png
