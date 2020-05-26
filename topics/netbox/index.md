@@ -1,5 +1,4 @@
 ---
-aliases: netbox
 created_by: NetBox Community
 display_name: NetBox
 github_url: https://github.com/netbox-community/netbox
