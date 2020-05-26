@@ -1,5 +1,5 @@
 ---
-aliases: netbox-plugin, netbox-plugins
+aliases: netbox-plugins
 created_by: NetBox Community
 display_name: NetBox Plugin
 github_url: https://github.com/netbox-community/netbox
