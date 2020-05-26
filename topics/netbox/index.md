@@ -4,7 +4,7 @@ created_by: NetBox Community
 display_name: NetBox
 github_url: https://github.com/netbox-community/netbox
 logo: netbox.png
-related: netbox-plugin, netbox-reports, netbox-scripts
+related: netbox-plugin
 released: June 2016
 short_description: NetBox is an IPAM & DCIM tool intended to serve as the Source of Truth for the datacenter infrastructure technology.
 topic: netbox

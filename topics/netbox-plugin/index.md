@@ -4,7 +4,7 @@ created_by: NetBox Community
 display_name: NetBox Plugin
 github_url: https://github.com/netbox-community/netbox
 logo: netbox.png
-related: netbox, netbox-reports, netbox-scripts
+related: netbox
 released: April 13 2020
 short_description: NetBox plugins can be used to extend NetBox's functionality beyond what the core product provides.
 topic: netbox
