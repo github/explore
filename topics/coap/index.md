@@ -3,7 +3,7 @@ aliases: coaps, coap-protocol
 display_name: CoAP
 released: '2014'
 related: api, rest, http, iot, dtls, cbor
-short_description: CoAP is REST for small devices
+short_description: CoAP is REST for small devices.
 topic: coap
 url: https://tools.ietf.org/html/rfc7252
 wikipedia_url: https://en.wikipedia.org/wiki/Constrained_Application_Protocol
