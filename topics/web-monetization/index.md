@@ -5,7 +5,7 @@ github_url: https://github.com/interledger/webmonetization.org
 logo: web-monetization.png
 released: June 15, 2020
 short_description: A JavaScript browser API which allows the creation of a payment stream from the user agent to the website.
-topic: web-monetization,ilp-protocol,monetization,API
+topic: webmonetization,ilp-protocol,monetization,API
 url: https://webmonetization.org
 ---
 Web Monetization (WM) is a proposed API standard that allows websites to request a stream of very small payments (e.g. fractions of a cent) from a user.
