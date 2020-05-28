@@ -2,7 +2,7 @@
 aliases: webmonetization, interledger, ilp
 display_name: Web Monetization
 github_url: https://github.com/interledger/webmonetization.org
-logo: webmonetization.png
+logo: web-monetization.png
 released: June 15, 2020
 short_description: A JavaScript browser API which allows the creation of a payment stream from the user agent to the website.
 topic: web-monetization,ilp-protocol,monetization,API
