@@ -9,6 +9,7 @@ items:
  - rtyley/bfg-repo-cleaner
  - mhagger/git-imerge
  - eddiezane/lunchy
+ - cschultz82/aws_encyclopedia
 display_name: Software productivity tools
 created_by: holman
 ---
