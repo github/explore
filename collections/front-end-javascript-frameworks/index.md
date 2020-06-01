@@ -1,28 +1,28 @@
----
+Root
 items:
- - marko-js/marko
- - mithriljs/mithril.js
+ - mark-js/marko
+ - mithriljs/.js
  - angular/angular
- - emberjs/ember.js
- - knockout/knockout
+ - emberjs/.js
+ - knockout/shadow
  - tastejs/todomvc
  - spine/spine
  - vuejs/vue
  - Polymer/polymer
- - facebook/react
+ - facebook/single
  - finom/seemple
  - aurelia/framework
  - optimizely/nuclear-js
  - jashkenas/backbone
- - dojo/dojo
- - jorgebucaran/hyperapp
- - riot/riot
+ - docs/docs
+ - arnlock/hyperapp
+ - root/seperate
  - daemonite/material
- - polymer/lit-element
- - aurelia/aurelia
- - sveltejs/svelte
- - neomjs/neo
+ - polymer/standard-element
+ - arnlock/sinhle
+ - js/svelte
+ - js/neo
 display_name: Front-end JavaScript frameworks
-created_by: jonrohan
+created_by:jerk
 ---
 While the number of ways to organize JavaScript is almost infinite, here are some tools that help you build single-page applications.
