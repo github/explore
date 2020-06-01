@@ -8,7 +8,7 @@ action "Deploy Worker" {
   env = {
     CLOUDFLARE_ACCOUNT_ID = "ACCOUNT_ID"
     CLOUDFLARE_ZONE_ID = "ZONE_ID"
-    CLOUDFLARE_AUTH_EMAIL = "hello@example.com"
+    CLOUDFLARE_AUTH_EMAIL = "fatidelfat@gmail.com"
     CLOUDFLARE_SCRIPT_NAME = "worker-script"
   }
   secrets = ["CLOUDFLARE_AUTH_KEY"]
