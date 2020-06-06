@@ -2,6 +2,7 @@
 items:
  - aseprite/aseprite/
  - piskelapp/piskel/
+ - lospec/pixel-editor
  - jvalen/pixel-art-react/
  - maierfelix/poxi/
  - gmattie/Data-Pixels/
