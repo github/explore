@@ -22,6 +22,7 @@ items:
  - aurelia/aurelia
  - sveltejs/svelte
  - neomjs/neo
+ - preactjs/preact
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
