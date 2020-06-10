@@ -6,7 +6,7 @@ items:
  - gatsbyjs/gatsby
  - vuejs/vuepress
  - hexojs/hexo
- - zeit/next.js
+ - vercel/next.js
  - getpelican/pelican
  - facebook/Docusaurus
  - slatedocs/slate
