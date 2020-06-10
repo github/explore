@@ -62,7 +62,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [utility](https://github.com/topics/utility/)
 - [ ] [video](https://github.com/topics/video/)
 - [ ] [web](https://github.com/topics/web/)
-- [ ] [website](https://github.com/topics/website/)
+- [x] [website](https://github.com/topics/website/)
 - [x] [ai](https://github.com/topics/ai/)
 - [x] [ajax](https://github.com/topics/ajax/)
 - [x] [artificial-intelligence](https://github.com/topics/artificial-intelligence/)
