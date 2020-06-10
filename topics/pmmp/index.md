@@ -4,7 +4,7 @@ created_by: Shoghi Cervantes Pueyo, pmmp
 display_name: PocketMine-MP
 github_url: https://github.com/pmmp/
 logo: pmmp.png
-related: mcpe, mcbe, minecraft, mcpe-server, bedrock-edition, bedrock
+related: mcpe, mcbe, minecraft, mcpe-server, bedrock-edition, bedrock, pmmp-virion, pmmp-game
 released: 2012
 short_description: A server software for Minecraft Bedrock Edition in PHP.
 topic: pmmp
