@@ -4,7 +4,7 @@ github_url: https://github.com/epics-extensions
 logo: epics.png
 related: scada
 released: January 19, 1994
-short_description: A set of applications and network protocols for control systems
+short_description: A set of applications and network protocols for control systems.
 topic: epics
 url: https://epics-controls.org/
 wikipedia_url: https://en.wikipedia.org/wiki/EPICS
