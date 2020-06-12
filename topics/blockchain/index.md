@@ -1,5 +1,4 @@
 ---
-created_by: David Chaum, Stuart Haber, W. Scott Stornetta, Satoshi Nakamoto and various authors
 display_name: Blockchain
 released: '2008'
 short_description:  Blockchains are distributed ledgers that can record transactions between parties in a verifiable and permanent way.
