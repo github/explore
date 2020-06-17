@@ -18,6 +18,7 @@ items:
  - mkdocs/mkdocs
  - sintaxi/harp
  - netlify/netlify-cms
+ - jaspervdj/hakyll
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
