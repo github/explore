@@ -1,0 +1,19 @@
+---
+items:
+ - reactivemongo/reactivemongo
+ - ReactiveMongo/ReactiveMongo-BSON
+ - ReactiveMongo/ReactiveMongo-Streaming
+ - ReactiveMongo/ReactiveMongo-Play-Json
+ - ReactiveMongo/Play-ReactiveMongo
+ - ReactiveMongo/ReactiveMongo-Monitoring
+ - ReactiveMongo/ReactiveMongo-Scalafix
+ - ReactiveMongo/reactivemongo-demo-app
+ - cchantep/acolyte
+ - mohiva/play-silhouette-persistence-reactivemongo
+ - scullxbones/akka-persistence-mongo
+ - circe/circe-bson
+ - lloydmeta/enumeratum
+ 
+display_name: ReactiveMongo ecosystem
+---
+These tools and libraries are related to the ReactiveMongo ecosystem
