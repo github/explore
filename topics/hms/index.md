@@ -4,7 +4,7 @@ created_by: HUAWEI-Mobile-Services-Core
 display_name: hms
 github_url: https://github.com/HMS-Core
 logo: hms.png
-short_description: HMS Core is a collection of basic mobile service end-to-cloud capabilities, dedicated to helping developers build high-quality apps with minimal hassle.
+short_description: HMS Core is an assortment of open device and cloud capabilities provided by HMS.
 topic: hms
 url: https://developer.huawei.com/consumer/en/hms
 wikipedia_url: https://en.wikipedia.org/wiki/Huawei_Mobile_Services
