@@ -1,8 +1,8 @@
 ---
-aliases: application-performance-management, application-performance-monitor, apm
-display_name: Application Performance Management
+aliases: application-performance-management, application-performance-monitor
+display_name: Application Performance Management (APM)
 related: apm, application-performance-management, application-performance-monitor
-short_description: Application Performance Management(APM) is the monitoring and management of performance and availability of software applications
+short_description: Application Performance Management is the monitoring and management of performance and availability of software applications
 topic: apm
 wikipedia_url: https://en.wikipedia.org/wiki/Application_performance_management
 ---
