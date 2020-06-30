@@ -18,6 +18,7 @@ items:
  - Singular/Sources
  - fredrik-johansson/arb
  - broadinstitute/picard
+ - markusschanta/awesome-jupyter
 display_name: Software in science
 image: software-in-science.png
 ---
