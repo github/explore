@@ -25,6 +25,7 @@ items:
  - JetBrains/intellij-community
  - emacs-mirror/emacs
  - rxi/lite
+ - howl-editor/howl
 
 display_name: Text editors
 created_by: leereilly
