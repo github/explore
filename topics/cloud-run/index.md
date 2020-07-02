@@ -1,6 +1,5 @@
 ---
 aliases: google-cloud-run
-related: 
 created_by: Google
 display_name: Cloud Run
 github_url: https://github.com/GoogleCloudPlatform
