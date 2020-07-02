@@ -2,7 +2,7 @@
 display_name: Micro
 topic: m3o
 github_url: https://github.com/micro
-logo: micro.png
+logo: m3o.png
 related: microservices, cloud, distributed-systems
 released: January 2015
 short_description: Micro is a cloud native development platform.
