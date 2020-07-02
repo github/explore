@@ -1,6 +1,6 @@
 ---
 display_name: Micro
-topic: micro
+topic: m3o
 github_url: https://github.com/micro
 logo: micro.png
 related: microservices, cloud, distributed-systems
