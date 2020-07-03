@@ -51,6 +51,7 @@ items:
 - vlang/v
 - dart-lang/language
 - pharo-project/pharo
+- ring-lang/ring
 display_name: Programming languages
 created_by: leereilly
 ---
