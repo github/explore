@@ -1,4 +1,4 @@
-name: CI/Rubocop
+name: xvideos
 
 on: [push, pull_request]
 
@@ -27,7 +27,7 @@ jobs:
       run: bundle install --jobs 4 --retry 3
     - name: Build and test with Rake/Rubocop
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN
       run: |
         bundle exec rake
         bundle exec rubocop --display-cop-names
