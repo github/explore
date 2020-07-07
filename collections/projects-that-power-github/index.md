@@ -34,6 +34,7 @@ items:
  - gjtorikian/html-proofer
  - babel/babel
  - stylelint/stylelint
+ - jnunemaker/flipper
 display_name: Projects that power GitHub
 created_by: leereilly
 image: projects-that-power-github.png
