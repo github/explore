@@ -8,4 +8,4 @@ short_description: Homebridge is a utility for tying smart home devices together
   Apple’s HomeKit framework, controlled by Siri.
 topic: homebridge
 ---
-Homebridge is a lightweight Node.js server that emulates the iOS HomeKit API. Using HomeBridge, Siri can control devices that are not supported through HomeKit.
+Homebridge is a lightweight Node.js server that emulates the iOS HomeKit API. Using Homebridge, Siri can control devices that are not supported through HomeKit.
