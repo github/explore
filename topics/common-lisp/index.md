@@ -1,7 +1,7 @@
 ---
 created_by: X3J13
 display_name: Common Lisp
-logo: lisp.png
+logo: common-lisp.png
 related: lisp
 released: 1984
 short_description: Common Lisp is a multi-paradigm programming language in the Lisp language family.
@@ -17,9 +17,9 @@ use of macros. It supports the OOP paradigm through the Common Lisp
 Object System. The API upon which CLOS is implemented is exposed to
 the programmer so they can extent the object system. This API is
 refered as the Meta-Object Protocol. There are multiple implementations
-available: [SBCL], which generates fast code; [CCL], which compiles code
-fast; [ABCL], which runs on the JVM; [JSCL] which runs on Node and the
-browser; etc.
+available: [SBCL], which generates fast code, [CCL], which compiles code
+fast, [ABCL], which runs on the JVM, [JSCL] which runs on Node, and the
+browser, etc.
 
 [SBCL]: https://github.com/sbcl/sbcl
 [CCL]: https://github.com/Clozure/ccl/
