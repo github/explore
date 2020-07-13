@@ -1,9 +1,9 @@
 ---
-aliases: ss13, space station 13
+aliases: ss13, space-station-13
 created_by: Exadv1
 display_name: Space Station 13
 logo: ss13.png
-related: byond, dm, dreammaker
+related: byond, byond-game-engine, dreammaker, dm, game
 released: February 16, 2003
 short_description: Space Station 13 is a 2D based role-playing multiplayer game running on BYOND.
 topic: ss13
