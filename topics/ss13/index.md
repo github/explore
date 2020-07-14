@@ -1,5 +1,5 @@
 ---
-aliases: ss13, space-station-13
+aliases: space-station-13
 created_by: Exadv1
 display_name: Space Station 13
 logo: ss13.png
