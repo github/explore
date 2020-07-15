@@ -1,4 +1,5 @@
 ---
+display_name: MikroTik
 aliases: mikrotik, mikrotīkls
 logo: mikrotik.png
 related: routerboard, routeros
