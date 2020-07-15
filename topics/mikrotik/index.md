@@ -1,7 +1,5 @@
 ---
 display_name: MikroTik
-aliases: mikrotīkls
-logo: mikrotik.png
 related: routerboard, routeros
 short_description: MikroTik is a Latvian network equipment manufacturer.
 topic: mikrotik
