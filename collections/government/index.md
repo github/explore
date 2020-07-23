@@ -20,6 +20,8 @@ items:
  - usds/playbook
  - republique-et-canton-de-geneve/chvote-1-0
  - https://www.youtube.com/embed/uNa9GOtM6NE
+ - gchq/CyberChef
+ - HSEIreland/covid-tracker-app
 display_name: Government apps
 created_by: jbjonesjr
 image: government.png

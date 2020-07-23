@@ -10,6 +10,7 @@ items:
  - kitao/pyxel
  - jackschaedler/goya
  - cloudhead/rx
+ - Orama-Interactive/Pixelorama
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png

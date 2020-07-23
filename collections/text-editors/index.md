@@ -22,6 +22,11 @@ items:
  - JasonStein/Notepads
  - onivim/oni2
  - VSCodium/vscodium
+ - JetBrains/intellij-community
+ - emacs-mirror/emacs
+ - rxi/lite
+ - howl-editor/howl
+
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
