@@ -1,7 +1,6 @@
 ---
 created_by: Andrew Ng, Daphne Koller
 display_name: Coursera
-github_url: https://github.com/topics/coursera
 logo: coursera.png
 released: April 2012
 short_description: Coursera is an online-learning platform that offers massive open online courses (MOOCs), Specializations, and Degrees.
