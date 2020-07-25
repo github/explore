@@ -1,5 +1,4 @@
 ---
-aliases: reverse
 display_name: Reverse Engineering
 related: security, disassembler
 short_description: The process of analyzing a subject system to identify the system's components and their interrelationships.
