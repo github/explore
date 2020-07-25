@@ -3,7 +3,8 @@ created_by: Garrett Gyssler
 display_name: MyAnimeList
 logo: myanimelist.png
 released: April 6, 2006
-related: mal, my-anime-list, myanimelist-api
+related: anime, anidb, kitsu, animenewsnetwork, anilist, bangumi, annict, crunchyroll
+aliases: mal, my-anime-list, myanimelist-api
 short_description: MyAnimeList is an online forum and anime-manga database.
 topic: myanimelist
 url: https://myanimelist.net/
