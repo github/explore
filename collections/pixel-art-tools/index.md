@@ -1,6 +1,7 @@
 ---
 items:
  - aseprite/aseprite/
+ - LibreSprite/LibreSprite
  - piskelapp/piskel/
  - jvalen/pixel-art-react/
  - maierfelix/poxi/
