@@ -1,8 +1,10 @@
 ---
 items:
+
  - apache/spark
  - apache/hadoop
  - jbhuang0604/awesome-computer-vision
+ - stutisehgal/MachineLearning
  - GSA/data
  - GoogleTrends/data
  - nationalparkservice/data
