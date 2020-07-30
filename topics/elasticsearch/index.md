@@ -3,8 +3,7 @@ display_name: elasticsearch
 topic: elasticsearch
 github_url: https://github.com/elastic/elasticsearch
 logo: elasticsearch.png
-related: elasticsearch
-released: february 2010
+released: February 2010
 short_description: Elasticsearch is a search engine based on the Lucene library.
 url: https://www.elastic.co/
 wikipedia_url: https://en.wikipedia.org/wiki/Elasticsearch
