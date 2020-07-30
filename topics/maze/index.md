@@ -2,7 +2,7 @@
 display_name: Mazes
 topic: maze
 aliases: mazes, maze-algorithms, maze-generator, maze-solver, maze-generation, maze-generation-algorithms, maze-solving-algorithms, maze-creation, maze-solving
-short_description: A type of puzzle which involves a collection of paths
+short_description: A type of puzzle which involves a collection of paths.
 related: algorithm, game, pathfinding, search
 logo: maze.png
 url: http://www.astrolog.org/labyrnth.htm
