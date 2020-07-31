@@ -12,20 +12,20 @@ cin>>choice;
 
 switch (choice) {
   case 1 :
-     sum=num1+num2;
-     cout<<"Sum is : " <<sum<<endl;
+     result=num1+num2;
+     cout<<"Sum is : " <<result<<endl;
      break; 
    case 2 :
-      sub=num1-num2;
-      cout<<"Difference is :"<<sub<<endl;
+      result=num1-num2;
+      cout<<"Difference is :"<<result<<endl;
       break;
    case 3 :
-      mul=num1*num2;
-      cout<<"Product is :"<<mul<<endl;
+      result=num1*num2;
+      cout<<"Product is :"<<result<<endl;
       break;
    case 4 :
-       div=num1/num2;
-       cout<<"Quotient is :"<<div<<endl;
+       result=num1/num2;
+       cout<<"Quotient is :"<<result<<endl;
        break;
        default:
     cout<<"Invalid Option"<<endl;
