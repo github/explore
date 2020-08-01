@@ -4,7 +4,7 @@ items:
  - limetext/lime
  - textmate/textmate
  - neovim/neovim
- - sharelatex/sharelatex
+ - overleaf/overleaf
  - slap-editor/slap
  - thomaswilburn/Caret
  - Komodo/KomodoEdit
@@ -17,6 +17,17 @@ items:
  - zedapp/zed
  - Microsoft/vscode
  - zyedidia/micro
+ - neoedmund/neoeedit
+ - mawww/kakoune
+ - JasonStein/Notepads
+ - onivim/oni2
+ - VSCodium/vscodium
+ - JetBrains/intellij-community
+ - emacs-mirror/emacs
+ - rxi/lite
+ - howl-editor/howl
+ - notepad-plus-plus/notepad-plus-plus
+
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png

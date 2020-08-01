@@ -15,6 +15,14 @@ items:
  - Microsoft/microsoft.github.io
  - artsy/artsy.github.io
  - OSGeo/osgeo
+ - godaddy/godaddy.github.io
+ - cloudflare/cloudflare.github.io
+ - eleme/eleme.github.io
+ - didi/didi.github.io
+ - alibaba/alibaba.github.com
+ - google/google.github.io
+ - proyecto26/proyecto26.github.io
+ - mozilla/mozilla.github.io
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
