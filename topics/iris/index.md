@@ -10,4 +10,4 @@ short_description: Web framework for Go Developers.
 topic: iris
 url: https://iris-go.com
 ---
-Iris is a free, open-source, cross-platform backend web framework intended for the development of modern web applications.
+Iris is a free, open source, cross platform backend web framework intended for the development of modern web applications.
