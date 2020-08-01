@@ -1,7 +1,6 @@
 ---
 items:
  - aseprite/aseprite/
- - LibreSprite/LibreSprite
  - piskelapp/piskel/
  - jvalen/pixel-art-react/
  - maierfelix/poxi/
@@ -12,6 +11,7 @@ items:
  - jackschaedler/goya
  - cloudhead/rx
  - Orama-Interactive/Pixelorama
+ - LibreSprite/LibreSprite
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png
