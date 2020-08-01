@@ -1,7 +1,7 @@
 ---
 aliases: twitch-tv, twitchtv, twitch-extensions, twitchdev, twitch-irc, twitch-chat, twitch-api, twitch-pubsub, twitch-bot, twitch-kraken, twitch-helix
 display_name: Twitch
-short_description: Twitch is a live straming platform focused primarily on video games.
+short_description: Twitch is a live streaming platform focused primarily on video games.
 topic: twitch
 logo: twitch.png
 wikipedia_url: https://en.wikipedia.org/wiki/Twitch.tv
