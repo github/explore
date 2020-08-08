@@ -3,6 +3,7 @@ items:
  - standard/standard
  - eslint/eslint
  - jshint/jshint
+ - coderaiser/putout
  - clutchski/coffeelint
  - csscomb/csscomb.js
  - sds/scss-lint
