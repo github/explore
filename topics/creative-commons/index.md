@@ -3,7 +3,7 @@ aliases: creativecommons, cc, cc0, cc-by, cc-by-sa, cc-by-nd, cc-by-nc, cc-by-nc
 created_by: Creative Commons
 display_name: Creative Commons License
 github_url: https://github.com/creativecommons
-releases: December 16, 2002
+released: December 16, 2002
 short_description: The Creative Commons licenses are a collection of public copyright licenses that allow the reuse and redistribution of work.
 topic: creative-commons
 url: https://creativecommons.org/
