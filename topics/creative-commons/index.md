@@ -1,5 +1,5 @@
 ---
-aliases: creativecommons, cc, cc0, cc-by, cc-by-sa, cc-by-nd, cc-by-nc, cc-by-nc-sa, cc-by-nc-nd
+aliases: creativecommons, cc0, cc-by, cc-by-sa, cc-by-nd, cc-by-nc, cc-by-nc-sa, cc-by-nc-nd
 created_by: Creative Commons
 display_name: Creative Commons License
 github_url: https://github.com/creativecommons
