@@ -27,6 +27,7 @@ items:
  - realm/SwiftLint
  - replicatedhq/dockerfilelint
  - mvdan/sh
+ - ansible/ansible-lint
 display_name: Clean code linters
 created_by: holman
 ---
