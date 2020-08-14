@@ -1,5 +1,5 @@
 ---
-aliases: grpc, gRPC
+aliases: gRPC
 created_by: Google
 display_name: gRPC
 github_url: https://github.com/grpc/grpc
