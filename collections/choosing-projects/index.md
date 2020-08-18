@@ -1,5 +1,7 @@
 ---
 items:
+ - freeCodeCamp/how-to-contribute-to-open-source
+ - https://opensource.guide/
  - rust-lang/rust
  - HospitalRun/hospitalrun-frontend
  - hoodiehq/hoodie
