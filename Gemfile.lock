@@ -10,7 +10,7 @@ GEM
       ast (~> 2.4.0)
     powerpack (0.1.2)
     rainbow (3.0.0)
-    rake (12.3.1)
+    rake (12.3.3)
     rubocop (0.60.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
