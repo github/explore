@@ -12,6 +12,7 @@ items:
  - jenkinsci/jenkins
  - pybuilder/pybuilder
  - klaussinani/signale
+ - LoginRadius
 display_name: Software development tools
 ---
 Build apps better, faster, stronger.
