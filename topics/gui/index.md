@@ -1,6 +1,6 @@
 ---
 aliases: graphical-user-interface
-related: graphical-user-interface, graphical-interface
+related: graphical-interface
 display_name: GUI
 short_description: GUI is an interface that allows users to interact with a device using icons and other visual indicators.  
 topic: gui
