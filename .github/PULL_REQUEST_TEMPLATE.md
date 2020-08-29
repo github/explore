@@ -1,12 +1,12 @@
 ### Thank you for contributing! Please confirm this pull request meets the following requirements:
 
-- [x] I followed the contributing guidelines: https://github.com/github/explore/blob/master/CONTRIBUTING.md
-- [x] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).
+- [ ] I followed the contributing guidelines: https://github.com/github/explore/blob/master/CONTRIBUTING.md
+- [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).
 
 ### Which change are you proposing?
 
   - [ ] Suggesting edits to an existing topic or collection
-  - [x] Curating a new topic or collection
+  - [ ] Curating a new topic or collection
   - [ ] Something that does not neatly fit into the binary options above
 
 ---------------------------------------------------------------------
@@ -23,11 +23,11 @@ I'm suggesting these edits to an existing topic or collection:
 <!-- ⚠️ ... or this section ⚠️ -->
 ### Curating a new topic or collection
 
-- [x] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
-- [x] My folder contains a `*.png` image (if applicable) and `index.md`
-- [x] All required fields in my `index.md` conform to the Style Guide and API docs: https://github.com/github/explore/tree/master/docs
+- [ ] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
+- [ ] My folder contains a `*.png` image (if applicable) and `index.md`
+- [ ] All required fields in my `index.md` conform to the Style Guide and API docs: https://github.com/github/explore/tree/master/docs
 
-> RSS is such an old, decentralised but effective protocol for the control of information flow. It is having a resurgence now as more and more people are tired of being monitored by algorithms of, for exmaple, social media platforms. At present, neither icon nor description of RSS is attached on the page of GitHub topic "RSS". Thus, I would like to curate it.
+> Please replace this line with an explanation of why you think this topic or collection should be curated.
 
 <!-- ⚠️ ... or this section ⚠️ -->
 ### Something that does not neatly fit into the binary options above
