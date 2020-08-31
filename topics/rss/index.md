@@ -1,7 +1,7 @@
 ---
 display_name: RSS
 logo: rss.png
-short_description: RSS is a way of notifying you about content changes on websites.
+short_description: A standard for passing information from websites to users and applications.
 topic: rss
 wikipedia_url: https://en.wikipedia.org/wiki/RSS
 ---
