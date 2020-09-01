@@ -1,7 +1,7 @@
 ---
 aliases: differential-privacy, privacy
 display_name: DiffPriv
-short_description: Differential privacy is a system for publicly sharing information about a dataset by describing the patterns of groups within the dataset while withholding information about individuals in the dataset
+short_description: Differential Privacy allows for an individual's data to be kept secret while patterns in the data set to be displayed.
 topic: diffpriv
 wikipedia_url: https://en.wikipedia.org/wiki/differential-privacy
 ---
