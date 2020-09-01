@@ -33,7 +33,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [functional-programming](https://github.com/topics/functional-programming/)
 - [ ] [game-development](https://github.com/topics/game-development/)
 - [ ] [generator](https://github.com/topics/generator/)
-- [ ] [gui](https://github.com/topics/gui/)
+- [x] [gui](https://github.com/topics/gui/)
 - [ ] [image](https://github.com/topics/image/)
 - [ ] [iot](https://github.com/topics/iot/)
 - [ ] [keras](https://github.com/topics/keras/)
