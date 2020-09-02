@@ -3,7 +3,7 @@ aliases: azure-service-fabric
 created_by: Microsoft
 display_name: Service fabric
 logo: service-fabric.png
-released: 2016
+released: March 2016
 short_description: Service Fabric is a distributed systems platform for packaging, deploying, and managing stateless and stateful distributed applications and containers at large scale.
 topic: service-fabric
 related: micro-services, service-fabric-mesh, containers
