@@ -1,5 +1,5 @@
 ---
-created_by: Donald D. Chamberlin, Raymond F. Boyce
+created_by: Sybase, Ashton-Tate, and Microsoft.
 display_name: sql-server
 logo: sql-server.png
 released: 1989
