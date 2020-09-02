@@ -1,4 +1,5 @@
 ---
+aliases: mssql, sqlserver, mssqlserver, mssql-database, microsoft-sql-server, ms-sql-server
 created_by: Sybase, Ashton-Tate, and Microsoft.
 display_name: sql-server
 logo: sql-server.png
