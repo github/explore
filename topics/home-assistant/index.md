@@ -1,4 +1,5 @@
 ---
+aliases: homeassistant
 display_name: Home Assistant
 topic: home-assistant
 github_url: https://github.com/home-assistant
