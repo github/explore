@@ -3,7 +3,7 @@ display_name: Home Assistant
 topic: homeassistant
 github_url: https://github.com/homeassistant
 logo: homeassistant.png
-related: homeassistant, home-assistant-config, home-assistant-configuration, hassio
+related: home-assistant, home-assistant-config, home-assistant-configuration, hassio
 short_description: Open source home automation that puts local control and privacy first.
 url: https://www.home-assistant.io
 ---
