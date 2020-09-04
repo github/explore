@@ -1,7 +1,7 @@
 ---
 created_by: Matt Cowley, Sven Sauleau, Tyler Caslin, Drew Freyling, Alex, Ryan Kirkman, Thomas Davis
 display_name: cdnjs
-github_url: https://github.com/cdnjs/packages
+github_url: https://github.com/cdnjs
 url: https://cdnjs.com/
 logo: cdnjs.png
 related: cdn, javascript, css, html, library, package, opensource, foss
