@@ -1,5 +1,5 @@
 ---
-created_by: Matt Cowley, Sven Sauleau, Tyler Caslin, Drew Freyling, Alex, Ryan Kirkman, Thomas Davis
+created_by: Ryan Kirkman and Thomas Davis
 display_name: cdnjs
 github_url: https://github.com/cdnjs
 url: https://cdnjs.com/
