@@ -8,4 +8,4 @@ related: cdn, javascript, css, html, library, package, opensource, foss
 topic: cdnjs
 short_description: The \#1 free and open source CDN built to make life easier for developers.
 ---
-cdnjs is a free and open source CDN service trusted by over 10% of websites, powered by Cloudflare. Making it faster and easier to load library files on your websites.
+A free and open source CDN service powered by Cloudflare. Making it faster and easier to load library files on your websites.
