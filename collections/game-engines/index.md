@@ -42,6 +42,7 @@ items:
  - cocos-creator/engine
  - love2d/love
  - hajimehoshi/ebiten
+ - HaxeFoundation/haxe
 display_name: Game Engines
 created_by: leereilly
 ---
