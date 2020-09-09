@@ -47,7 +47,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [project](https://github.com/topics/project/)
 - [ ] [react-router](https://github.com/topics/react-router/)
 - [ ] [script](https://github.com/topics/script/)
-- [ ] [sdk](https://github.com/topics/sdk/)
+- [x] [sdk](https://github.com/topics/sdk/)
 - [ ] [simulation](https://github.com/topics/simulation/)
 - [ ] [socket-io](https://github.com/topics/socket-io/)
 - [ ] [spark](https://github.com/topics/spark/)
