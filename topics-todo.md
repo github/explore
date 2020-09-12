@@ -49,7 +49,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [script](https://github.com/topics/script/)
 - [x] [sdk](https://github.com/topics/sdk/)
 - [ ] [simulation](https://github.com/topics/simulation/)
-- [ ] [socket-io](https://github.com/topics/socket-io/)
+- [x] [socket-io](https://github.com/topics/socket-io/)
 - [ ] [spark](https://github.com/topics/spark/)
 - [ ] [spring-mvc](https://github.com/topics/spring-mvc/)
 - [ ] [spring](https://github.com/topics/spring/)
