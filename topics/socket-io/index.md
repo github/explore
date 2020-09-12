@@ -2,7 +2,7 @@
 topic: socket-io
 display_name: "Socket.IO"
 related: nodejs
-logo: socketio.png
+logo: socket-io.png
 url: https://socket.io
 github_url: https://github.com/socketio/socket.io
 wikipedia_url: https://en.wikipedia.org/wiki/Socket.IO
