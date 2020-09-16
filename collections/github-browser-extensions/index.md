@@ -28,13 +28,14 @@ items:
  - ryanflorence/github-plusone-extension
  - Mottie/GitHub-userscripts
  - rgehan/octolenses
- - homerchen19/github-file-icon
+ - homerchen19/github-file-icons
  - StylishThemes/GitHub-Dark
  - xthexder/wide-github
  - berzniz/github_pr_tree
  - n1ck/gifs-for-github
  - EnixCoda/Gitako
  - vladgolubev/quickreview-for-github
+ - matthizou/github-show-avatars
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
