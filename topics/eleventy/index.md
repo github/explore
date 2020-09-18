@@ -4,7 +4,7 @@ created_by: Zach Leatherman
 display_name: Eleventy
 github_url: https://github.com/11ty
 logo: eleventy.png
-related: jekyll
+related: static-site-generator
 released: December 20, 2017
 short_description: A simple static site generator for JavaScript.
 topic: eleventy
