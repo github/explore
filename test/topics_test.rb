@@ -1,6 +1,12 @@
 require_relative "./topics_test_helper"
 
 describe "topics" do
+  # Used by the Topics Page Style Guide test
+  end_punctuation = %w[. , ; :] + [" "]
+  month_abbreviations = %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec]
+  git_verbs = %w[GitHubbing Gitting]
+  bad_github_variants = %w[Github github]
+
   topics.each do |topic|
     describe "#{topic} topic" do
       it "has a valid name" do
@@ -297,10 +303,6 @@ describe "topics" do
       it "follows the Topic Page Style Guide" do
         text = body_for(topics_dir, topic)
         metadata = metadata_for(topics_dir, topic)
-        end_punctuation = %w[. , ; :] + [" "]
-        month_abbreviations = %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec]
-        git_verbs = %w[GitHubbing Gitting]
-        bad_github_variants = %w[Github github]
 
         text.lines do |line|
           line.chomp!

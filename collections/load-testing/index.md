@@ -1,6 +1,7 @@
 ---
 items:
  - americanexpress/baton
+ - artilleryio/artillery
  - apigee/apib
  - bengadbois/pewpew
  - blazemeter/taurus

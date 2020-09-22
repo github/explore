@@ -12,6 +12,7 @@ items:
  - cloudhead/rx
  - Orama-Interactive/Pixelorama
  - LibreSprite/LibreSprite
+ - lospec/pixel-editor
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png
