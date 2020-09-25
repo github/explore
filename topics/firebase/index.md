@@ -4,7 +4,7 @@ display_name: Firebase
 github_url: https://github.com/firebase/
 logo: firebase.png
 released: April 2012
-short_description: Firebase is a Backend-As-A-Service(BAAS) which provides developers with a variety of services to integrate into mobile & web apps
+short_description: Firebase is a Backend-As-A-Service(BAAS) which provide developers with variety of services to integrate into mobile & web apps.
 topic: firebase
 url: https://firebase.google.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Firebase
