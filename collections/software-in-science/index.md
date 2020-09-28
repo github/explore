@@ -12,6 +12,13 @@ items:
  - spack/spack
  - ipython/ipython
  - ropensci/rplos
+ - LaurentRDC/scikit-ued
+ - sagemath/sage
+ - gap-system/gap
+ - Singular/Singular
+ - fredrik-johansson/arb
+ - broadinstitute/picard
+ - markusschanta/awesome-jupyter
 display_name: Software in science
 image: software-in-science.png
 ---

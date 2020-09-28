@@ -16,11 +16,11 @@ MAX_RELATED_TOPIC_COUNT = 10
 
 MAX_SHORT_DESCRIPTION_LENGTH = 130
 
-TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
+TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/.freeze
 
 def invalid_topic_message(topic)
   "'#{topic}' must be between 1-#{MAX_TOPIC_LENGTH} characters, start with a letter or number, " \
-    "and may include hyphens"
+    "include only lowercase letters, and may include hyphens"
 end
 
 def valid_topic?(raw_topic)
@@ -76,11 +76,12 @@ end
 def assert_oxford_comma(text)
   return unless text
 
+  conjunctions = %w[and or]
   text.delete("\n").split(".").each do |sentence|
     # This is arbitrary; 2 is more correct but 3 avoids false positives.
     next if sentence.count(",") < 3
 
-    %w[and or].each do |conjunction|
+    conjunctions.each do |conjunction|
       next unless sentence.include? " #{conjunction} "
 
       assert_includes sentence, ", #{conjunction}", "Always use the Oxford comma"

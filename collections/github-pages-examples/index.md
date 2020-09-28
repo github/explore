@@ -5,9 +5,8 @@ items:
  - github/government.github.com
  - electron/electronjs.org
  - square/square.github.io
- - IBM/ibm.github.io
  - twitter/twitter.github.io
- - Microsoft/microsoft.github.io
+ - Netflix/netflix.github.com
  - Yelp/yelp.github.io
  - facebook/react
  - artsy/artsy.github.io

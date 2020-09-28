@@ -12,4 +12,4 @@ topic: react
 url: https://reactjs.org/
 wikipedia_url: https://en.wikipedia.org/wiki/React_(JavaScript_library)
 ---
-React makes it simple to develop interactive user interfaces. It uses the Model View Controller (MVC) concept to manage individual pages in your web application.
+React (also known as React.js or ReactJS) is a JavaScript library that makes developing interactive user interfaces simple.
