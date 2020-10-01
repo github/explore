@@ -2,12 +2,12 @@
 
 Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
 
-This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+This project address to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 There are a few ways you can contribute:
 
 - Improving an existing topic or collection
-- Curating a new topic or collection
+- Creating a new topic or collection
 
 As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted. Following the style guide will improve the chances of your contribution being accepted.
 
@@ -109,3 +109,6 @@ You can run the tests using:
 ```bash
 script/cibuild
 ```
+### A Amazing Fest2020
+
+Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community! Five quality pull requests must be submitted to public GitHub repositories, you help people by improvment and get pull requst.
