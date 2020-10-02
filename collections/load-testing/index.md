@@ -28,6 +28,7 @@ items:
  - rogerwelin/cassowary
  - satori-com/tcpkali
  - tsenart/vegeta
+ - processone/tsung
  - wg/wrk
  - yandex/yandex-tank
  - zooz/predator
