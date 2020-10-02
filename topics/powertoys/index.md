@@ -1,5 +1,5 @@
 ---
-aliases: powertoys, microsoft-powertoys
+aliases: microsoft-powertoys
 display_name: Microsoft PowerToys
 created_by: Microsoft
 github_url: https://github.com/microsoft/PowerToys
