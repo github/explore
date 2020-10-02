@@ -3,6 +3,7 @@ items:
  - puppetlabs/puppet
  - chef/chef
  - ansible/ansible
+ - hashicorp/terraform
  - saltstack/salt
  - hashicorp/vagrant
  - openstack/openstack
