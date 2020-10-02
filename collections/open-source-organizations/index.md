@@ -24,6 +24,7 @@ items:
  - proyecto26/proyecto26.github.io
  - mozilla/mozilla.github.io
  - zalando/zalando.github.io
+ - stripe/stripe.github.io
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
