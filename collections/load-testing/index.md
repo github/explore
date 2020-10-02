@@ -12,6 +12,7 @@ items:
  - fortio/fortio
  - gatling/gatling
  - goadapp/goad
+ - GoogleChrome/lighthouse
  - hatoo/oha
  - lighttpd/weighttp
  - loadimpact/k6
