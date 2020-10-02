@@ -65,7 +65,7 @@ items:
  - trimstray/the-book-of-secret-knowledge
  - ctf-wiki/ctf-wiki
 display_name: CTF and Cyber Security Resources on GitHub
-created_by: Mr-Skully  
-image: ctf-cybersec-resources.png  
+created_by: Mr-Skully
+image: ctf-resources.png
 ---
 A collections of tools, scripts, write-ups, and other essentials on GitHub that can help you improve your Cyber Security skills and ace your next CTF challenge.
