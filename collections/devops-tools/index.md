@@ -14,6 +14,7 @@ items:
  - statsd/statsd
  - graphite-project/graphite-web
  - elastic/logstash
+ - prometheus/prometheus
  - fabric/fabric
  - grafana/grafana
  - StackStorm/st2
@@ -32,6 +33,8 @@ items:
  - opendiffy/diffy
  - drone/drone
  - hashicorp/vault
+ - NagiosEnterprises/nagioscore
+ - zabbix/zabbix
  
 display_name: DevOps tools
 ---
