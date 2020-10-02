@@ -26,6 +26,7 @@ items:
  - SeleniumHQ/selenium
  - opendiffy/diffy
  - drone/drone
+ - hashicorp/vault
  
 display_name: DevOps tools
 ---
