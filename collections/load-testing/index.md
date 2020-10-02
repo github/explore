@@ -3,6 +3,7 @@ items:
  - americanexpress/baton
  - artilleryio/artillery
  - apigee/apib
+ - apache/jmeter
  - bengadbois/pewpew
  - blazemeter/taurus
  - buoyantio/slow_cooker
