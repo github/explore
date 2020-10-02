@@ -64,7 +64,7 @@ items:
  - teambi0s/InCTFj
  - trimstray/the-book-of-secret-knowledge
  - ctf-wiki/ctf-wiki
-display_name: CTF and Cyber Security Resources on GitHub
+display_name: Capture The Flag (CTF) and Cyber Security Resources
 created_by: Mr-Skully
 image: ctf-cybersec-resources.png
 ---
