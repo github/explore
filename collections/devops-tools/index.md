@@ -21,6 +21,8 @@ items:
  - kubernetes/kubernetes
  - netdata/netdata
  - cloud66-oss/habitus
+ - hashicorp/consul
+ - hashicorp/nomad
  - Kong/kong
  - jenkinsci/jenkins
  - apache/mesos
