@@ -26,6 +26,7 @@ items:
  - cloud66-oss/habitus
  - hashicorp/consul
  - hashicorp/nomad
+ - spinnaker/spinnaker
  - Kong/kong
  - jenkinsci/jenkins
  - apache/mesos
