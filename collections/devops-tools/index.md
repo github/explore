@@ -5,6 +5,8 @@ items:
  - ansible/ansible
  - hashicorp/terraform
  - saltstack/salt
+ - apache/maven
+ - gradle/gradle
  - hashicorp/vagrant
  - openstack/openstack
  - moby/moby
