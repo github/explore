@@ -4,7 +4,7 @@ created_by: Siddharth Kumar
 display_name: Posts
 github_url: https://github.com/siddharth453/posts
 logo: posts.jpg
-released: 9/6/2020
+released: June 9, 2020
 short_description: Posts is a chatting app where you can share your feelings with the whole WORLD!.
 topic: posts
 url: https://postapp2.herokuapp.com
