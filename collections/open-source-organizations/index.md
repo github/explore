@@ -25,6 +25,7 @@ items:
  - mozilla/mozilla.github.io
  - zalando/zalando.github.io
  - stripe/stripe.github.io
+ - newrelic/opensource-website
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
