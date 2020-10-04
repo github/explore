@@ -1,7 +1,7 @@
 ---
 items:
  - adobe/adobe.github.com
- - facebook/opensource.facebook.com
+ - redhatofficial/redhatofficial.github.io
  - cfpb/cfpb.github.io
  - Netflix/netflix.github.com
  - Esri/esri.github.io
