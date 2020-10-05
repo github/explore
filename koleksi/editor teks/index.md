@@ -28,8 +28,8 @@ items:
  - howl-editor/howl
  - notepad-plus-plus/notepad-plus-plus
 
-display_name: Text editors
-created_by: leereilly
+display_name: slamet18
+created_by: slamet18
 image: text-editors.png
 ---
 The text editor is a sacred tool for developers. Here's a showcase of some amazingly awesome open source editors.
