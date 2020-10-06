@@ -1,5 +1,5 @@
 ---
-display_name: concourseCli
+display_name: Concourse CI
 topic: concourseCli
 github_url: https://github.com/concourse/concourse
 logo: concourseCli.png
@@ -7,4 +7,3 @@ short_description: Concourse is an automation system written in Go. It is most c
 url: https://concourse-ci.org/
 ---
 Concourse CI/CD is an open source platform which runs on two main Docker containers. Once Concourse is installed, all you have to do is to use the docker-compose up command to bring up the Concourse server. Concourse uses Postgres as its database.
-
