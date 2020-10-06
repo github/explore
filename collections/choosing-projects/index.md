@@ -8,6 +8,6 @@ items:
  - https://www.youtube.com/embed/dSl_qnWO104
  - public-apis/public-apis
 display_name: How to choose (and contribute to) your first open source project
-created_by: kytrinyx
+created_by: jslee1301
 ---
 New to open source? Here’s how to find projects that need help and start making impactful contributions.
