@@ -1,6 +1,6 @@
 ---
 display_name: concourse-ci
-topic: concourseCI
+topic: concourse-ci
 github_url: https://github.com/concourse/concourse
 logo: concourseCI.png
 short_description: It is most commonly used for CI/CD, and is built to scale to any kind of automation pipeline, from simple to complex.
