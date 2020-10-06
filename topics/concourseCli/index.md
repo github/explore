@@ -2,7 +2,7 @@
 display_name: Concourse CI
 topic: concourse-ci
 github_url: https://github.com/concourse/concourse
-logo: concourseCli.png
+logo: concourse-ci.png
 short_description: Concourse is an automation system written in Go. It is most commonly used for CI/CD, and is built to scale to any kind of automation pipeline, from simple to complex.
 url: https://concourse-ci.org/
 ---
