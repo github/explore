@@ -28,6 +28,9 @@ items:
  - badges/shields
  - bitrise-io/bitrise
  - devhubapp/devhub
+ - Blender/Blender
+ - SparkleShare/git-backed file-sharing tool
+ 
 display_name: Tools for Open Source
 created_by: mozzadrella
 image: tools-for-open-source.png
