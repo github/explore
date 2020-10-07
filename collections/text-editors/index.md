@@ -27,6 +27,8 @@ items:
  - rxi/lite
  - howl-editor/howl
  - notepad-plus-plus/notepad-plus-plus
+ - Sublime Text/Sublime Text
+ 
 
 display_name: Text editors
 created_by: leereilly
