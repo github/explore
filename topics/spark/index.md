@@ -11,5 +11,4 @@ related: scala, hadoop
 url: https://spark.apache.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Apache_Spark
 ---
-
 Apache Spark is an open source distributed general-purpose cluster-computing framework. It provides an interface for programming entire clusters with implicit data parallelism and fault tolerance.
