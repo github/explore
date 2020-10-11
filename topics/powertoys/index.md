@@ -7,9 +7,9 @@ short_description: Microsoft PowerToys is a set of utilities for power users.
 related: microsoft
 topic: powertoys
 wikipedia_url: https://en.wikipedia.org/wiki/Microsoft_PowerToys
-logo: index.png
+logo: powertoys.png
 ---
-![banner](https://raw.githubusercontent.com/microsoft/PowerToys/master/doc/images/overview/PT%20hero%20image.png)
+
 Microsoft PowerToys is a set of utilities for power users on Windows 10.
 
 Tools:
