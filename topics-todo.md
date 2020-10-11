@@ -50,7 +50,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [sdk](https://github.com/topics/sdk/)
 - [ ] [simulation](https://github.com/topics/simulation/)
 - [x] [socket-io](https://github.com/topics/socket-io/)
-- [ ] [spark](https://github.com/topics/spark/)
+- [x] [spark](https://github.com/topics/spark/)
 - [ ] [spring-mvc](https://github.com/topics/spring-mvc/)
 - [x] [spring](https://github.com/topics/spring/)
 - [ ] [statistics](https://github.com/topics/statistics/)
