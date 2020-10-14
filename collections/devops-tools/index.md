@@ -22,10 +22,10 @@ items:
  - cloud66-oss/habitus
  - Kong/kong
  - jenkinsci/jenkins
- - kubernetes/kubernetes
  - apache/mesos
  - SeleniumHQ/selenium
  - opendiffy/diffy
+ - drone/drone
  
 display_name: DevOps tools
 ---
