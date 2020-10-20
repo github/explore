@@ -2,7 +2,7 @@
 topic: orgmode
 related: emacs
 display_name: Org mode
-logo: org-mode-logo_283x283.png
+logo: orgmode.png
 short_description: Org mode is a flexible Personal Management Tool.
 url: https://orgmode.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Org-mode
