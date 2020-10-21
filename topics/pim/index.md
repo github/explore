@@ -1,7 +1,7 @@
 ---
 topic: pim
 related: 
-display_name: Personal Information Management OR Product Information Management
+display_name: PIM
 short_description: Personal Information Management OR Product Information Management.
 url: 
 wikipedia_url: https://en.wikipedia.org/wiki/PIM
