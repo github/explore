@@ -1,5 +1,5 @@
 ---
-items:
+items:The
  - adobe/brackets
  - limetext/lime
  - textmate/textmate
