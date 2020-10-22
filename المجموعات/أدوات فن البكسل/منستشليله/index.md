@@ -1,5 +1,5 @@
----
-items:
+منصة-شليله - #
+العناصر
  - aseprite/aseprite/
  - piskelapp/piskel/
  - jvalen/pixel-art-react/
