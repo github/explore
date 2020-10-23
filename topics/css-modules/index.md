@@ -1,0 +1,14 @@
+---
+aliases: cssmodules
+# created_by: 
+display_name: CSS Modules
+github_url: https://github.com/css-modules/css-modules
+logo: cssmodules.png
+related: css
+released: May 25, 2015
+short_description: A CSS Module is a CSS file where class names are scoped locally by default.
+topic: css-modules
+# url: 
+# wikipedia_url: https://en.wikipedia.org/wiki/Angular_(application_platform)
+---
+CSS Modules are CSS files in which all class names and animation names are scoped locally by default. They compile to a low-level interchange format called ICSS or Interoperable CSS, but are written like normal CSS files. The ability to explicitly state dependencies eliminates the need to avoid naming conflicts in the global scope.
