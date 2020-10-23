@@ -3,7 +3,7 @@ aliases: cssmodules
 # created_by: 
 display_name: CSS Modules
 github_url: https://github.com/css-modules/css-modules
-logo: cssmodules.png
+logo: css-modules.png
 related: css
 # released: May 25, 2015
 short_description: A CSS Module is a CSS file where class names are scoped locally by default.
