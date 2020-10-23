@@ -6,4 +6,4 @@ related: discord
 short_description: discord.js module to interact with the Discord API	
 topic: discordjs	
 ---	
-discord.js is a powerful node.js module that allows you to interact with the Discord API very easily. It takes a much more object-oriented approach than most other JS Discord libraries, making your bot's code significantly tidier and easier to comprehend.
+discord.js is a powerful node.js module that allows you to interact with the Discord API very easily. It takes an object-oriented approach, supporting your bot's code to be tidy and easy to comprehend.
