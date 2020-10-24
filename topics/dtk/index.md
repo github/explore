@@ -1,6 +1,6 @@
 ---
 aliases: dtk, DTK
-display_name: Data Life Engine
+display_name: Deepin Tool Kit
 github_url: https://github.com/linuxdeepin/dtkwidget
 logo: dtk-logo.png
 short_description: Deepin Tool Kit is the base devlopment tool of all C++/Qt Developer work on Deepin.
