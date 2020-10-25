@@ -1,7 +1,7 @@
 ---
 display_name: India
 github_url: https://github.com/india
-logo: flag_of_india.png
+logo: Flag_of_India.png
 
 day: August 15, 1947
 short_description: 
