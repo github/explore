@@ -1,8 +1,8 @@
 ---
-aliases: boilerplate-code, boilerplate-text
+aliases: boilerplate-code
 display_name: Boilerplate
-short_description: A boilerplate is any written text that can be reused in new contexts or applications without significant changes to the original.
+short_description: A boilerplate code is a piece of code that can be reused without significant changes.
 topic: boilerplate
-wikipedia_url: https://en.wikipedia.org/wiki/Boilerplate_text
+wikipedia_url: https://en.wikipedia.org/wiki/Boilerplate_code
 ---
-A boilerplate is any written text (copy) that can be reused in new contexts or applications without significant changes to the original. The term is used in reference to statements, contracts and computer code, and is used in the media to refer to hackneyed or unoriginal writing.
+A boilerplate code is a piece of code that can be reused without significant changes. When using a verbose language, the developer must write a lot only to accomplish minor functionality. Such code is called boilerplate.
