@@ -1,5 +1,6 @@
 ---
 items:
+ - AMAI-GmbH/AI-Expert-Roadmap
  - apache/spark
  - apache/hadoop
  - jbhuang0604/awesome-computer-vision
