@@ -1,6 +1,5 @@
 ---
 aliases: cssmodules
-# created_by: 
 display_name: CSS Modules
 github_url: https://github.com/css-modules/css-modules
 logo: css-modules.png
