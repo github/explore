@@ -9,6 +9,7 @@ items:
  - fission/fission
  - bagisto/bagisto
  - infracloudio/botkube
+ - practo/k8s-worker-pod-autoscaler
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
