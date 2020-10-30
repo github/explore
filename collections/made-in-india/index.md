@@ -9,6 +9,7 @@ items:
  - fission/fission
  - bagisto/bagisto
  - infracloudio/botkube
+ - hivammathur/setup-php
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
