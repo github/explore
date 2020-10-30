@@ -9,6 +9,7 @@ items:
  - fission/fission
  - bagisto/bagisto
  - infracloudio/botkube
+ - uvdesk/community-skeleton
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
