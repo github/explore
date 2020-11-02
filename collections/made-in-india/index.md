@@ -10,6 +10,7 @@ items:
  - bagisto/bagisto
  - infracloudio/botkube
  - knadh/listmonk
+ - shivammathur/setup-php
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
