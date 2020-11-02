@@ -1,6 +1,7 @@
 ---
 items:
  - hasura/graphql-engine
+ - spaceuptech/space-cloud
  - openebs/openebs
  - chatwoot/chatwoot
  - hoppscotch/hoppscotch
