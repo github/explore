@@ -5,4 +5,4 @@ short_description:  pm is a way to organize the planning, production, marketing 
 topic: product-management
 wikipedia_url: https://en.wikipedia.org/wiki/Product_management
 ---
-Product management is an organizational function within a company, dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, marketing of a product and products at all stages of the product lifecycle.
+Product management is an organizational function within a company, dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, marketing of a product, and products at all stages of the product lifecycle.
