@@ -1,8 +1,8 @@
 ---
 aliases: pm
 display_name: Product Management
-short_description:  product management is a way to organize the planning, production, marketing and other tasks related to the creation and distribution of a product.
+short_description:  pm is a way to organize the planning, production, marketing and,  tasks related to the creation and distribution of a product.
 topic: product-management
 wikipedia_url: https://en.wikipedia.org/wiki/Product_management
 ---
-Product management is an organisational function within a company dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, and marketing of a product or products at all stages of the product lifecycle.
+Product management is an organisational function within a company, dealing with new product development, business justification, planning, verification, forecasting, pricing, product launch, and marketing of a product or products at all stages of the product lifecycle.
