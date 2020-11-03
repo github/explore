@@ -1,7 +1,7 @@
 ---
 aliases: pm
 display_name: Product Management
-short_description:  pm is a way to organize the planning, production, marketing and,  tasks related to the creation and distribution of a product.
+short_description:  pm is a way to organize the planning, production, marketing, and tasks related to the creation and distribution of a product.
 topic: product-management
 wikipedia_url: https://en.wikipedia.org/wiki/Product_management
 ---
