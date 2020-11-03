@@ -7,7 +7,9 @@ short_description: Microsoft PowerToys is a set of utilities for power users.
 related: microsoft
 topic: powertoys
 wikipedia_url: https://en.wikipedia.org/wiki/Microsoft_PowerToys
+logo: powertoys.png
 ---
+
 Microsoft PowerToys is a set of utilities for power users on Windows 10.
 
 Tools:
@@ -21,4 +23,3 @@ Tools:
 * PowerToys Run: Lauch your applications quicker
 * Shortcut Guide: See all your windows shortcuts at one place
 * Video Conference Mute: Mute your microphone and your turn off your camera at a meeting
-

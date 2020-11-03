@@ -11,7 +11,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [app](https://github.com/topics/app/)
 - [ ] [authentication](https://github.com/topics/authentication/)
 - [ ] [automation](https://github.com/topics/automation/)
-- [ ] [boilerplate](https://github.com/topics/boilerplate/)
+- [x] [boilerplate](https://github.com/topics/boilerplate/)
 - [ ] [canvas](https://github.com/topics/canvas/)
 - [ ] [chatbot](https://github.com/topics/chatbot/)
 - [ ] [client](https://github.com/topics/client/)
