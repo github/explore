@@ -10,6 +10,7 @@ items:
  - bagisto/bagisto
  - infracloudio/botkube
  - shivammathur/setup-php
+ - celzero/rethink-app
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
