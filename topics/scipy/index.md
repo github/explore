@@ -9,4 +9,4 @@ related: scikit, python
 url: https://www.scipy.org/
 wikipedia_url: https://en.wikipedia.org/wiki/SciPy
 ---
-SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.
+SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open source software for mathematics, science, and engineering.
