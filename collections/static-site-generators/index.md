@@ -19,6 +19,7 @@ items:
  - sintaxi/harp
  - netlify/netlify-cms
  - jaspervdj/hakyll
+ - umijs/umi
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
