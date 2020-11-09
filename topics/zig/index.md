@@ -2,6 +2,7 @@
 aliases: ziglang, zig-lang, zig-language
 created_by: Andrew Kelley
 display_name: Zig
+github_url: https://github.com/ziglang/zig
 logo: zig.png
 released: February 2016
 short_description: Zig is a general-purpose programming language and toolchain.
