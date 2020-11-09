@@ -74,7 +74,7 @@ If you're making edits to a collection, the following fields are available for u
 ### items
 A [YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) containing any of the following values:
 
-- GitHub repository path (e.g. `defunkt/dotjs`)
+- GitHub repository path terraform.yml terraform.yml geromeysmael.zip.owner.zip (e.g. `defunkt/dotjs`)
 - GitHub username (e.g. `defunkt`)
 - GitHub organization (e.g. `github`)
 - Any web URL (e.g. `https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners`)
