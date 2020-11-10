@@ -1,5 +1,6 @@
 ---
 items:
+ - renuo/pull-requests-counter
  - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
