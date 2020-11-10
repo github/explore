@@ -6,4 +6,4 @@ topic: data-science
 related: data-analysis, data-mining, machine-learning, big-data, data-visualization
 wikipedia_url: https://en.wikipedia.org/wiki/Data_science
 ---
-Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from many structural and unstructured data. The field encompasses analysis, preparing data for analysis, and presenting findings to inform high-level decisions in an organization. 
+Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge from structured and unstructured data. Data scientists perform data analysis and preparation, and their findings inform high-level decisions in many organizations.
