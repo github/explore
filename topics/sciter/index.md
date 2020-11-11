@@ -5,7 +5,7 @@ display_name: Sciter
 github_url: https://github.com/c-smile/sciter-sdk
 logo: sciter.png
 released: 2006
-short_description: Sciter is an embeddable HTML/CSS/JS/TIScript engine.
+short_description: Sciter is an embeddable HTML/CSS/TIScript engine.
 topic: sciter
 url: https://sciter.com/
 wikipedia_url: https://ru.wikipedia.org/wiki/Sciter
