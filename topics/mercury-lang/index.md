@@ -2,7 +2,7 @@
 created_by: Zoltan Somogyi
 display_name: Mercury
 github_url: https://github.com/Mercury-Language/mercury
-logo: mercury.png
+logo: mercury-lang.png
 released: April 8 1995
 short_description: Mercury is a functional logic programming language.
 topic: mercury-lang
