@@ -20,7 +20,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [crawler](https://github.com/topics/crawler/)
 - [ ] [cryptography](https://github.com/topics/cryptography/)
 - [ ] [data-analysis](https://github.com/topics/data-analysis/)
-- [ ] [data-science](https://github.com/topics/data-science/)
+- [x] [data-science](https://github.com/topics/data-science/)
 - [ ] [data](https://github.com/topics/data/)
 - [ ] [demo](https://github.com/topics/demo/)
 - [ ] [devops](https://github.com/topics/devops/)
