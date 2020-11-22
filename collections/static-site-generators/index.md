@@ -20,6 +20,7 @@ items:
  - netlify/netlify-cms
  - jaspervdj/hakyll
  - umijs/umi
+ - abelljs/abell
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
