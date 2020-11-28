@@ -39,7 +39,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [keras](https://github.com/topics/keras/)
 - [ ] [logging](https://github.com/topics/logging/)
 - [ ] [microservice](https://github.com/topics/microservice/)
-- [x] [mvc](https://github.com/topics/mvc/)
+- [ ] [mvc](https://github.com/topics/mvc/)
 - [ ] [network](https://github.com/topics/network/)
 - [ ] [parser](https://github.com/topics/parser/)
 - [x] [personal-website](https://github.com/topics/personal-website/)
