@@ -13,6 +13,7 @@ items:
  - webgems/webgems
  - kamranahmedse/developer-roadmap
  - AMAI-GmbH/AI-Expert-Roadmap
+ - trekhleb/javascript-algorithms
 
 display_name: Learn to Code
 created_by: alysonla
