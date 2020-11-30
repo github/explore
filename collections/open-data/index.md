@@ -6,7 +6,7 @@ items:
  - OpenExoplanetCatalogue/open_exoplanet_catalogue
  - cernopendata/opendata.cern.ch
  - openaddresses/openaddresses
- - APIs-guru/openapi-directory
+ - Internal/External APIs-guru/openapi-directory
 display_name: Open data
 created_by: benbalter
 ---
