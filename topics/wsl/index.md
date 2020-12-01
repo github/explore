@@ -6,8 +6,6 @@ topic: wsl
 wikipedia_url: https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
 ---
 
-# Windows Subsystem for Linux
-
 Windows Subsystem for Linux allows you run native Linux applications on Windows
 
 - WSL 1 uses a translation layer to translate Linux syscalls to Windows syscalls
