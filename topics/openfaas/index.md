@@ -3,7 +3,7 @@ created_by: Alex Ellis
 aliases: open-faas, faasd, faas-cli
 display_name: OpenFaaS
 github_url: https://github.com/openfaas/faas
-short_description: OpenFaaS - Serverless Functions Made Simple
+short_description: OpenFaaS - Serverless Functions Made Simple.
 topic: openfaas
 url: https://openfaas.com/
 ---
