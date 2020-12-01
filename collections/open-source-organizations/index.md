@@ -1,6 +1,7 @@
 ---
 items:
  - adobe/adobe.github.com
+ - redhatofficial/redhatofficial.github.io
  - cfpb/cfpb.github.io
  - Netflix/netflix.github.com
  - Esri/esri.github.io
@@ -24,6 +25,10 @@ items:
  - proyecto26/proyecto26.github.io
  - mozilla/mozilla.github.io
  - zalando/zalando.github.io
+ - stripe/stripe.github.io
+ - newrelic/opensource-website
+ - docker/docker.github.io
+ - ExpediaGroup/expediagroup.github.io
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
