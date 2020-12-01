@@ -19,6 +19,7 @@ items:
  - Irrelon/ige
  - 4ian/GDevelop
  - mrdoob/three.js
+ - phoboslab/Impact
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---

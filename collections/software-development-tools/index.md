@@ -1,6 +1,6 @@
 ---
 items:
- - lelylan/betterspecs
+ - betterspecs/betterspecs
  - pengwynn/flint
  - mislav/rfc
  - peek/peek

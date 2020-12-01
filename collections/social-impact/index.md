@@ -9,7 +9,7 @@ items:
  - ifmeorg/ifme
  - RefugeRestrooms/refugerestrooms
  - hurricane-response/florence-api
- - rubyforgood/terrastories
+ - Terrastories/terrastories
  - rubyforgood/diaper
  - rubyforgood/playtime
  - rubyforgood/demand-progress

@@ -1,5 +1,5 @@
 ---
-aliases: c-language
+aliases: c-language, c-programming-language
 created_by: Dennis Ritchie
 display_name: C
 logo: c.png

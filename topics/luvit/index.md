@@ -9,4 +9,4 @@ url: https://luvit.io
 related: lua
 github_url: https://github.com/luvit/luvit
 ---
-Luvit is an asychronous I/O Lua runtime environment developed by Tim Caswell and contributors that implements Node.js APIs to Lua.
+Luvit is an asynchronous I/O Lua runtime environment developed by Tim Caswell and contributors that implements Node.js APIs to Lua.

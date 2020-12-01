@@ -1,5 +1,6 @@
 ---
 items:
+ - acekyd/made-in-nigeria
  - frontlinesms/frontlinesms2
  - ushahidi/SMSSync
  - praekeltfoundation/vumi
