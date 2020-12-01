@@ -1,10 +1,10 @@
 ---
 created_by: Alex Ellis
-aliases: open-faas,
+aliases: open-faas, faasd, faas-cli
 display_name: OpenFaaS
 github_url: https://github.com/openfaas/faas
 short_description: OpenFaaS - Serverless Functions Made Simple
-topic: flight
+topic: openfaas
 url: https://openfaas.com/
 ---
 
