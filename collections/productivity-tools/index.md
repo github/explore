@@ -1,7 +1,6 @@
 ---
 items:
  - ohmyzsh/ohmyzsh
- - microsoft/terminal
  - ggreer/the_silver_searcher
  - arc90/git-sweep
  - bhollis/jsonview

@@ -3,6 +3,7 @@ items:
  - rust-lang/rust
  - HospitalRun/hospitalrun-frontend
  - hoodiehq/hoodie
+ - beeware/batavia
  - Homebrew/brew
  - https://www.youtube.com/embed/dSl_qnWO104
  - public-apis/public-apis

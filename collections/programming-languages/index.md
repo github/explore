@@ -49,7 +49,7 @@ items:
 - livecode/livecode
 - coq/coq
 - vlang/v
-- dart-lang/sdk
+- dart-lang/language
 - pharo-project/pharo
 - ring-lang/ring
 display_name: Programming languages

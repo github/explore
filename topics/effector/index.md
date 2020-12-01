@@ -2,7 +2,7 @@
 aliases: effectorjs, effector-js
 created_by: ZeroBias
 display_name: Effector
-github_url: https://github.com/effector/effector
+github_url: https://github.com/zerobias/effector
 logo: effector.png
 related: react, javascript, typescript
 released: June 2019

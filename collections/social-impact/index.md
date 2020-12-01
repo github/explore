@@ -18,7 +18,6 @@ items:
  - Data4Democracy/ethics-resources
  - civicdata/civicdata.github.io
  - Greenstand/Development-Overview
- - yunity/karrot-frontend
 display_name: Social Impact
 created_by: bescalante
 ---

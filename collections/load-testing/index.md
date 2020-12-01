@@ -1,9 +1,7 @@
 ---
 items:
  - americanexpress/baton
- - artilleryio/artillery
  - apigee/apib
- - apache/jmeter
  - bengadbois/pewpew
  - blazemeter/taurus
  - buoyantio/slow_cooker
@@ -13,7 +11,6 @@ items:
  - fortio/fortio
  - gatling/gatling
  - goadapp/goad
- - GoogleChrome/lighthouse
  - hatoo/oha
  - lighttpd/weighttp
  - loadimpact/k6
@@ -28,7 +25,6 @@ items:
  - rogerwelin/cassowary
  - satori-com/tcpkali
  - tsenart/vegeta
- - processone/tsung
  - wg/wrk
  - yandex/yandex-tank
  - zooz/predator
