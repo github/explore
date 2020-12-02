@@ -1,7 +1,7 @@
 ---
 aliases: computeralgebra, symbolic-algebra, symbolicalgebra
 display_name: Computer algebra
-short_description: Computer algebra libraries are used for manipulations with mathematical expressions
+short_description: Computer algebra libraries are used for manipulations with mathematical expressions.
 topic: computer-algebra
 wikipedia_url: https://en.wikipedia.org/wiki/Computer_algebra
 ---
