@@ -1,6 +1,6 @@
 ---
-items:
- - 30-seconds/30-seconds-of-code
+العناصر:
+ - 30 ثانية / 30 ثانية من كود
  - railsgirls/railsgirls.github.io
  - railsbridge/docs
  - freeCodeCamp/freeCodeCamp
@@ -17,6 +17,6 @@ items:
 
 display_name: Learn to Code
 created_by: alysonla
-image: learn-to-code.png
+image: learn-to-code.pn
 ---
 Resources to help people learn to code
