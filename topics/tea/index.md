@@ -4,7 +4,7 @@ created_by: Benny
 display_name: Tea
 github_url: https://github.com/tealang
 related: language
-released: December, 2019
+released: '2019'
 short_description: Tea is a humanized programming language.
 topic: tea
 url: https://tealang.github.io/
