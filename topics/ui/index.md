@@ -1,6 +1,5 @@
 ---
 aliases: user-interface
-created_by: Glenda Schroeder
 display_name: User interface
 released: '1985'
 short_description: A UI is what users use to control a program through a graphical interface
