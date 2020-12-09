@@ -2,7 +2,7 @@
 aliases: user-interface
 display_name: User interface
 released: '1985'
-short_description: A UI is what users use to control a program through a graphical interface
+short_description: A user interface (UI) is the space where interactions between humans and machines occur.
 topic: ui
 wikipedia_url: https://en.wikipedia.org/wiki/User_interface
 ---
