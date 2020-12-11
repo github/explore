@@ -1,6 +1,6 @@
 ---
 aliases: user-interface-design, ui-design
-display_name: User interface
+display_name: User interface design
 short_description: The design of user interfaces for machines and software with the focus on maximizing usability and the user experience.
 topic: ui-design
 wikipedia_url: https://en.wikipedia.org/wiki/User_interface_design
