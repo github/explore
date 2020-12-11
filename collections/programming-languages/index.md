@@ -52,6 +52,7 @@ items:
 - dart-lang/sdk
 - pharo-project/pharo
 - ring-lang/ring
+- SenegalLang/Senegal
 display_name: Programming languages
 created_by: leereilly
 ---
