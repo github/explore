@@ -16,6 +16,6 @@ items:
  - rgab1508/PixelCraft
 display_name: Pixel Art Tools
 created_by: leereilly
-image: pixel-art-tools.png
+image: pixel-art-tools.GIF
 ---
 Creating pixel art for fun or animated sprites for a game? The digital artist in you will love these apps and tools!
