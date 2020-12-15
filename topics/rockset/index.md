@@ -2,7 +2,7 @@
 created_by: Rockset Inc.
 logo: rockset.png
 display_name: Rockset
-short_description: Rockset is a real-time indexing database in the cloud
+short_description: Rockset is a real-time indexing database in the cloud.
 topic: rockset
 url: https://rockset.com/
 github_url: https://github.com/rockset
