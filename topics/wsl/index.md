@@ -12,12 +12,13 @@ You can:
 <ul>
  <li>Choose your favorite GNU/Linux distributions from the Microsoft Store.</li>
  <li>Run common command-line tools such as grep, sed, awk, or other ELF-64 binaries.</li>
- <li>Run Bash shell scripts and GNU/Linux command-line applications including:</li>
- <ul>
-  <li>Tools: vim, emacs, tmux</li>
-  <li>Languages: NodeJS, Javascript, Python, Ruby, C/C++, C# & F#, Rust, Go, etc.</li>
-  <li>Services: SSHD, MySQL, Apache, lighttpd, MongoDB, PostgreSQL.</li>
- </ul>
+ <li>Run Bash shell scripts and GNU/Linux command-line applications including:
+  <ul>
+   <li>Tools: vim, emacs, tmux</li>
+   <li>Languages: NodeJS, Javascript, Python, Ruby, C/C++, C# & F#, Rust, Go, etc.</li>
+   <li>Services: SSHD, MySQL, Apache, lighttpd, MongoDB, PostgreSQL.</li>
+  </ul>
+ </li>
  <li>Install additional software using your own GNU/Linux distribution package manager.</li>
  <li>Invoke Windows applications using a Unix-like command-line shell.</li>
  <li>Invoke GNU/Linux applications on Windows.</li>
