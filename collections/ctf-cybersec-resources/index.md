@@ -23,7 +23,6 @@ items:
  - Ganapati/RsaCtfTool
  - Ignitetechnologies/Privilege-Escalation
  - w181496/Web-CTF-Cheatsheet
- - bt3gl/Pentesting_Toolkit
  - terjanq/Tiny-XSS-Payloads
  - TH3xACE/SUDO_KILLER
  - m0nad/awesome-privilege-escalation
