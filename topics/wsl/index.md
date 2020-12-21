@@ -5,7 +5,7 @@ short_description: Run Linux apps natively on Windows.
 topic: wsl
 wikipedia_url: https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
 ---
-The Windows Subsystem for Linux lets developers run a GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dualboot setup.
+The Windows Subsystem for Linux lets developers run a GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine, or dualboot setup.
 
 You can:
 
