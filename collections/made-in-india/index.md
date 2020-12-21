@@ -12,6 +12,7 @@ items:
  - knadh/listmonk
  - shivammathur/setup-php
  - spaceuptech/space-cloud 
+ - uvdesk/community-skeleton
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
