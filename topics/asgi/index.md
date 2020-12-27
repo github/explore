@@ -1,6 +1,6 @@
 ---
 display_name: ASGI
-short_description: Asynchronous Server Gateway Interface
+short_description: Asynchronous Server Gateway Interface.
 topic: asgi
 related: wsgi, server, asynchronous, asgiref, python, web
 url: https://asgi.readthedocs.io
