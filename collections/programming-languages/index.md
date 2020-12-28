@@ -49,8 +49,10 @@ items:
 - livecode/livecode
 - coq/coq
 - vlang/v
-- dart-lang/language
+- dart-lang/sdk
 - pharo-project/pharo
+- ring-lang/ring
+- SenegalLang/Senegal
 display_name: Programming languages
 created_by: leereilly
 ---
