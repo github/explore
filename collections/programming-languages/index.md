@@ -53,6 +53,7 @@ items:
 - pharo-project/pharo
 - ring-lang/ring
 - SenegalLang/Senegal
+- yegor256/eo
 display_name: Programming languages
 created_by: leereilly
 ---
