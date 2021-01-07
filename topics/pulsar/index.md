@@ -1,5 +1,5 @@
 ---
-aliases: apache pulsar
+aliases: apache-pulsar
 created_by: Apache Software Foundation
 display_name: Apache Pulsar
 github_url: https://github.com/apache/pulsar
