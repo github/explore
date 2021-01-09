@@ -1,0 +1,7 @@
+diff --git a/.github/tests/runs/workflows b/.github/tests/runs/workflows
+new file mode 100644
+index 0000000000..a4476963ab
+--- /dev/null
++++ b/.github/tests/runs/workflows
+@@ -0,0 +1 @@
++script/cibuild
