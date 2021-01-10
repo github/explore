@@ -1,4 +1,5 @@
 ---
+aliases: three-js
 topic: threejs
 github_url: https://github.com/mrdoob/three.js
 created_by: Ricardo Cabello
