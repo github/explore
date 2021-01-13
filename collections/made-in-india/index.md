@@ -2,6 +2,8 @@
 items:
  - hasura/graphql-engine
  - openebs/openebs
+ - kadalu/kadalu
+ - gluster/glusterfs
  - chatwoot/chatwoot
  - hoppscotch/hoppscotch
  - frappe/erpnext
@@ -13,6 +15,7 @@ items:
  - shivammathur/setup-php
  - spaceuptech/space-cloud
  - uvdesk/community-skeleton
+ - kadalu/moana
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
