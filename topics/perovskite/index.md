@@ -6,4 +6,4 @@ short_description: A perovskite is any material with a crystal structure similar
 topic: perovskite
 wikipedia_url: https://en.wikipedia.org/wiki/Perovskite
 ---
-A perovskite is any material with a crystal structure similar to the mineral called perovskite, which consists of calcium titanium oxide (CaTiO3).
+A perovskite is any material with a crystal structure similar to the mineral called perovskite, which consists of calcium titanium oxide (CaTiO3). Tis kind of material is widely used for photovoltaic applications. 
