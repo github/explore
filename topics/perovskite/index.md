@@ -1,5 +1,5 @@
 ---
-aliases: perovskite
+aliases: perov
 created_by: Paramesh Chandra
 display_name: Perovskite
 short_description: A perovskite is any material with a crystal structure similar to the mineral calcium titanium oxide (CaTiO3).
