@@ -11,7 +11,10 @@ items:
  - infracloudio/botkube
  - knadh/listmonk
  - shivammathur/setup-php
- - spaceuptech/space-cloud 
+ - spaceuptech/space-cloud
+ - uvdesk/community-skeleton
+ - kadalu/kadalu
+ - gluster/glusterfs
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
