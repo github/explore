@@ -3,7 +3,7 @@ aliases: bridgetownrb
 created_by: Jared White
 display_name: Bridgetown
 github_url: https://github.com/bridgetown
-logo: https://avatars1.githubusercontent.com/u/63275815?s=200&v=4
+logo: bridgetown.png
 related: static-site-generator
 released: April 14, 2020
 short_description: A modern static site generator for Ruby.
