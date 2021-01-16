@@ -1,7 +1,7 @@
 ---
 aliases: bridgetownrb
 created_by: Jared White
-display_name: Bridgetown
+display_name: bridgetown
 github_url: https://github.com/bridgetown
 logo: bridgetown.png
 related: static-site-generator
