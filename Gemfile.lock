@@ -43,7 +43,7 @@ GEM
       rubocop (>= 0.90.0, < 2.0)
       rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.11.0)
-    ruby2_keywords (0.0.2)
+    ruby2_keywords (0.0.4)
     safe_yaml (1.0.5)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
