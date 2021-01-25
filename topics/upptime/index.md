@@ -5,7 +5,7 @@ github_url: https://github.com/upptime/upptime
 logo: upptime.png
 related: actions, javascript
 released: August 2020
-short_description: Uptime monitor and status page template
+short_description: Uptime monitor and status page template.
 topic: upptime
 url: https://upptime.js.org
 ---
