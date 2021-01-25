@@ -11,7 +11,6 @@ items:
  - guardian/guardian.github.com
  - Yelp/yelp.github.io
  - Shopify/shopify.github.com
- - SAP/sap.github.com
  - IBM/ibm.github.io
  - Microsoft/microsoft.github.io
  - artsy/artsy.github.io
