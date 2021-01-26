@@ -1,9 +1,8 @@
 ---
-aliases: rocket
+aliases: rocket-rust, rocket-api
 created_by: Sergio Benitez
 display_name: Rocket
 github_url: https://github.com/SergioBenitez/Rocket
-logo: Rocket.png
 released: "2016"
 short_description: Rocket is a web framework for Rust.
 topic: rocket
