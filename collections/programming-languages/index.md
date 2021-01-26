@@ -54,6 +54,7 @@ items:
 - ring-lang/ring
 - SenegalLang/Senegal
 - yegor256/eo
+- hascal/hascal
 display_name: Programming languages
 created_by: leereilly
 ---
