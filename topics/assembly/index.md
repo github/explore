@@ -1,11 +1,11 @@
 ---
-aliases: as
+aliases: asm
 display_name: Assembly
 topic: assembly
-github_url: https://en.wikipedia.org/wiki/Assembly_language
+github_url: https://github.com/topics/assembly
 logo: assembly.png
 related: x86, x64, low level
-released: First appeared 1949 - 72 years ago
+released: May 1949
 short_description: An assembly language is a low-level programming language designed for a specific type of processor.
 url: https://en.wikipedia.org/wiki/Assembly_language
 ---
