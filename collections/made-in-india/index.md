@@ -15,6 +15,7 @@ items:
  - uvdesk/community-skeleton
  - kadalu/kadalu
  - gluster/glusterfs
+ - geekyants/nativebase
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
