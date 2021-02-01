@@ -10,7 +10,7 @@ GEM
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     faraday-net_http (1.0.1)
-    fastimage (2.2.1)
+    fastimage (2.2.2)
     method_source (1.0.0)
     minitest (5.14.3)
     multipart-post (2.1.1)
@@ -28,7 +28,7 @@ GEM
     rake (13.0.3)
     regexp_parser (2.0.3)
     rexml (3.2.4)
-    rubocop (1.9.0)
+    rubocop (1.9.1)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
