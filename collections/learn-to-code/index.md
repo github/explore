@@ -5,12 +5,30 @@ items:
  - railsbridge/docs
  - freeCodeCamp/freeCodeCamp
  - leachim6/hello-world
+ - karan/Projects
+ - sindresorhus/awesome
+ - donnemartin/system-design-primer
+ - danistefanovic/build-your-own-x
+ - public-apis/public-apis
+ - EbookFoundation/free-programming-books
+ - amitness/learning
+ - mhinz/vim-galore
+ - tayllan/awesome-algorithms
+ - karlhorky/learn-to-program
+ - therebelrobot/awesome-workshopper
+ - jlevy/the-art-of-command-line
+ - papers-we-love/papers-we-love
+ - awesome-selfhosted/awesome-selfhosted
+ - ripienaar/free-for-dev
  - datasciencemasters/go
  - tuvtran/project-based-learning
  - zhiwehu/Python-programming-exercises
  - MunGell/awesome-for-beginners
  - appacademy/welcome-to-open
+ - Hacker0x01/hacker101
  - webgems/webgems
+ - gothinkster/realworld
+ - thedaviddias/Front-End-Checklist
  - kamranahmedse/developer-roadmap
  - AMAI-GmbH/AI-Expert-Roadmap
  - trekhleb/javascript-algorithms
