@@ -36,6 +36,7 @@ items:
  - EnixCoda/Gitako
  - vladgolubev/quickreview-for-github
  - matthizou/github-show-avatars
+ - codolab/gineko
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
