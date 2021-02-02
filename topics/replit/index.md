@@ -1,5 +1,5 @@
 ---
-aliases: replit, repl, replit-ide
+aliases: repl, replit-ide
 display_name: Repl.it
 short_description: Repl.it is an online IDE that supports over 50 languages and application hosting.
 topic: replit
