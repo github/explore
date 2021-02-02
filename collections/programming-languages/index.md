@@ -54,6 +54,8 @@ items:
 - ring-lang/ring
 - SenegalLang/Senegal
 - yegor256/eo
+- ChavaScript/chavascript
+- DennisMitchell/jellylanguage
 display_name: Programming languages
 created_by: leereilly
 ---
