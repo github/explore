@@ -10,4 +10,4 @@ topic: ecoledirecte
 url: https://www.aplim.fr/EcoleDirecte
 ---
 
-Created by Statim and aquired by Aplim, EcoleDirecte is the portal of the Charlemagne french software suite, used by families, students, teachers and staff inside of schools to perform everyday actions specific to the school environment. Although the website or its API themselves aren't open sourced, a third-party ecosystem built around these services is slowly appearing.
+Created by Statim (now Aplim) in 2002, EcoleDirecte is the portal of the Charlemagne french software suite, used by parents, students, teachers and staff to perform everyday actions specific to the school environment. Although the website or its API themselves are proprietary, a third-party ecosystem built around these services remains.
