@@ -2,7 +2,7 @@
 aliases: apache-cordova
 created_by: Apache Software Foundation
 display_name: Cordova
-github_url: https://github.com/apache?utf8=%E2%9C%93&q=cordova-
+github_url: https://github.com/apache/cordova
 logo: cordova.png
 related: android, ios, mobile, macos, windows, electron
 released: January 11, 2013
