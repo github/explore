@@ -9,6 +9,7 @@ items:
  - logicomacorp/makeshift
  - excess-demogroup/amoeba
  - theblacklotus/suicide-barbie
+ - theblacklotus/4edges
 display_name: Demo sources
 ---
 Take a peek behind the curtain of the finest demoscene work!
