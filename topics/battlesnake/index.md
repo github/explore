@@ -1,5 +1,4 @@
 ---
-aliases: battlesnake
 display_name: Battlesnake
 github_url: https://github.com/BattlesnakeOfficial
 logo: battlesnake.png
