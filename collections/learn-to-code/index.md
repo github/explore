@@ -11,8 +11,6 @@ items:
  - MunGell/awesome-for-beginners
  - appacademy/welcome-to-open
  - webgems/webgems
- - gothinkster/realworld
- - thedaviddias/Front-End-Checklist
  - kamranahmedse/developer-roadmap
  - AMAI-GmbH/AI-Expert-Roadmap
  - trekhleb/javascript-algorithms
@@ -32,6 +30,8 @@ items:
  - papers-we-love/papers-we-love
  - awesome-selfhosted/awesome-selfhosted
  - ripienaar/free-for-dev
+ - gothinkster/realworld
+ - thedaviddias/Front-End-Checklist
 
 display_name: Learn to Code
 created_by: alysonla
