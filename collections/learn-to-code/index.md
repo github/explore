@@ -5,6 +5,18 @@ items:
  - railsbridge/docs
  - freeCodeCamp/freeCodeCamp
  - leachim6/hello-world
+ - datasciencemasters/go
+ - tuvtran/project-based-learning
+ - zhiwehu/Python-programming-exercises
+ - MunGell/awesome-for-beginners
+ - appacademy/welcome-to-open
+ - webgems/webgems
+ - gothinkster/realworld
+ - thedaviddias/Front-End-Checklist
+ - kamranahmedse/developer-roadmap
+ - AMAI-GmbH/AI-Expert-Roadmap
+ - trekhleb/javascript-algorithms
+ - Microsoft/web-dev-for-beginners
  - karan/Projects
  - sindresorhus/awesome
  - donnemartin/system-design-primer
@@ -20,19 +32,6 @@ items:
  - papers-we-love/papers-we-love
  - awesome-selfhosted/awesome-selfhosted
  - ripienaar/free-for-dev
- - datasciencemasters/go
- - tuvtran/project-based-learning
- - zhiwehu/Python-programming-exercises
- - MunGell/awesome-for-beginners
- - appacademy/welcome-to-open
- - Hacker0x01/hacker101
- - webgems/webgems
- - gothinkster/realworld
- - thedaviddias/Front-End-Checklist
- - kamranahmedse/developer-roadmap
- - AMAI-GmbH/AI-Expert-Roadmap
- - trekhleb/javascript-algorithms
- - Microsoft/web-dev-for-beginners
 
 display_name: Learn to Code
 created_by: alysonla
