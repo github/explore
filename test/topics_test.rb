@@ -1,6 +1,12 @@
 require_relative "./topics_test_helper"
 
 describe "topics" do
+  # Used by the Topics Page Style Guide test
+  end_punctuation = %w[. , ; :] + [" "]
+  month_abbreviations = %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec]
+  git_verbs = %w[GitHubbing Gitting]
+  bad_github_variants = %w[Github github]
+
   topics.each do |topic|
     describe "#{topic} topic" do
       it "has a valid name" do
@@ -181,20 +187,32 @@ describe "topics" do
         assert File.file?(path), "expected #{path} to be a file"
       end
 
-      it "uses the right file name for specified logo" do
+      it "has matching logo, when logo key exists" do
         metadata = metadata_for(topics_dir, topic)
 
         if metadata
           paths = image_paths_for(topic)
           valid_file_names = paths.map { |path| File.basename(path) }
-          error_message = if valid_file_names.empty?
-                            "should not specify logo #{metadata['logo']} when file does not exist"
-                          else
-                            "logo should be #{valid_file_names.join(' or ')}, but was " +
-                              metadata["logo"].to_s
-                          end
-          assert !metadata.key?("logo") || valid_file_names.include?(metadata["logo"]),
-                 error_message
+
+          if metadata["logo"]
+            assert valid_file_names.include?(metadata["logo"]),
+                   "should not specify logo #{metadata['logo']} when file does not exist"
+          end
+        end
+      end
+
+      it "has a matching logo key, when logo exists" do
+        metadata = metadata_for(topics_dir, topic)
+
+        if metadata
+          paths = image_paths_for(topic)
+          valid_file_names = paths.map { |path| File.basename(path) }
+
+          if valid_file_names.any?
+            assert valid_file_names.include?(metadata["logo"]),
+                   "logo key should be #{valid_file_names.join(' or ')}, but was "\
+                   "#{metadata['logo'].nil? ? 'missing' : metadata['logo']}"
+          end
         end
       end
 
@@ -285,26 +303,14 @@ describe "topics" do
       it "follows the Topic Page Style Guide" do
         text = body_for(topics_dir, topic)
         metadata = metadata_for(topics_dir, topic)
-        end_punctuation = %w[. , ; :] + [" "]
-        month_abbreviations = %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec]
-        day_ordinals = %w[1st 2nd 3rd 1th 2th 3th 4th 5th 6th 7th 8th 9th]
-        git_verbs = %w[GitHubbing Gitting]
-        bad_github_variants = %w[Github github]
 
         text.lines do |line|
           line.chomp!
 
-          refute_includes line, "&", 'Use "and" rather than an ampersand'
-          refute_includes line, "!", "Avoid exclamation points in topic pages"
           refute_includes line, "open-source", "Use open source without a hyphen"
 
           month_abbreviations.each do |month|
             refute_includes line, "#{month} ", "Include and spell out the month"
-          end
-
-          day_ordinals.each do |date_end|
-            refute_includes line, date_end,
-                            'Include the day number without the "th" or "nd" at the end'
           end
 
           git_verbs.each do |no_git_verb|
@@ -322,17 +328,9 @@ describe "topics" do
             refute_includes line, "git#{punctuation}",
                             'Always use correct capitalization when referring to "Git"'
           end
-
-          match = line.match(/\b(\w+)\s\d[.,;:\s]/)
-          if match
-            allowed_words_before_numbers = %w[Perl Pi Auth Vision]
-            assert_includes allowed_words_before_numbers, match[1],
-                            'Write out "one" and every number less than 10, except when they ' \
-                            "follow one of: #{allowed_words_before_numbers.join(', ')}"
-          end
         end
 
-        assert_oxford_comma(text)
+        # assert_oxford_comma(text)
         if metadata
           assert_oxford_comma(metadata["short_description"])
           assert_oxford_comma(metadata["created_by"])
