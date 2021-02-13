@@ -53,7 +53,7 @@ items:
 - pharo-project/pharo
 - ring-lang/ring
 - SenegalLang/Senegal
-- yegor256/eo
+- cqfn/eo
 - ChavaScript/chavascript
 - DennisMitchell/jellylanguage
 display_name: Programming languages
