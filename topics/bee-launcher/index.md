@@ -3,7 +3,7 @@ aliases: beelauncher
 topic: bee-launcher
 github_url: https://github.com/Nishant1500
 display_name: Bee Launcher
-logo: bee-launcher.png
+logo: logo.png
 short_description: A Minecraft Launcher For Minecraft Lovers, Made By Epic Peoples
 url: https://bee-launcher.ga
 
