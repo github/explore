@@ -11,6 +11,8 @@ items:
  - zhiwehu/Python-programming-exercises
  - MunGell/awesome-for-beginners
  - appacademy/welcome-to-open
+ - webgems/webgems
+ - kamranahmedse/developer-roadmap
 
 display_name: Learn to Code
 created_by: alysonla

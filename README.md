@@ -1,7 +1,5 @@
 # GitHub Explore
 
-[![Build Status](https://travis-ci.org/github/explore.svg?branch=master)](https://travis-ci.org/ramlaxman/explore)
-
 This repository houses all of the community-curated content for GitHub Topics and Collections.
 
 [Topics](https://help.github.com/articles/about-topics/) help you explore repositories in a particular subject area, learn more about that subject, and find projects to contribute to.
