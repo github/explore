@@ -3,7 +3,6 @@ items:
  - necolas/normalize.css
  - jgthms/minireset.css
  - csstools/sanitize.css
- - krishdevdb/reseter.css
  - vladocar/CSS-Micro-Reset
  - zacanger/styled-reset
  - jeroenoomsNL/initialize-css
