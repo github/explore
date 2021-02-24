@@ -12,4 +12,4 @@ items:
 display_name: CSS Resets
 created_by: krishdevdb
 ---
-CSS Resets Are Used My Millions Of Industries To Make Their Website Look The Same On Every Browser
+CSS Resets are used by millions of industries to make their website look the same on every browser
