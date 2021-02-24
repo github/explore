@@ -12,4 +12,4 @@ items:
 display_name: CSS Resets
 created_by: krishdevdb
 ---
-CSS Resets are used by millions of industries to make their website look the same on every browser
+A CSS reset is a style sheet that sets all styles to a standard value. It’s like a clean slate.
