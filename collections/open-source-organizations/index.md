@@ -28,7 +28,6 @@ items:
   - newrelic/opensource-website
   - docker/docker.github.io
   - ExpediaGroup/expediagroup.github.io
-  - activeloopai/Hub
 
 display_name: Open source organizations
 created_by: benbalter

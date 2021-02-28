@@ -28,7 +28,6 @@ items:
   - badges/shields
   - bitrise-io/bitrise
   - devhubapp/devhub
-  - activeloopai/Hub
 
 display_name: Tools for Open Source
 created_by: mozzadrella
