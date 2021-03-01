@@ -26,7 +26,7 @@ GEM
     public_suffix (4.0.6)
     rainbow (3.0.0)
     rake (13.0.3)
-    regexp_parser (2.1.0)
+    regexp_parser (2.1.1)
     rexml (3.2.4)
     rubocop (1.10.0)
       parallel (~> 1.10)
