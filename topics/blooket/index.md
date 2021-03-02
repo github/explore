@@ -1,5 +1,5 @@
 ---
-aliases: blooket, blook
+aliases: blook
 display_name: Blooket
 short_description: Blooket is a quiz creation service, it is similar to `Kahoot` and `Quizizz`.
 topic: blooket
