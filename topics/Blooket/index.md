@@ -1,8 +1,8 @@
 ---
-aliases: Blooket, Blook, blooket,
-display_name: Algorithm
+aliases: blooket, blook
+display_name: Blooket
 short_description: Blooket is a quiz creation service, it is similar to `Kahoot` and `Quizizz`.
-topic: Blooket
+topic: blooket
 ---
 Blooket is a quiz creation service, it is similar to `Kahoot` and `Quizizz`.
 
