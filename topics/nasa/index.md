@@ -3,7 +3,7 @@ topic: nasa
 github_url: https://github.com/nasa
 display_name: NASA
 logo: nasa.png
-short_description: The National Aeronautics and Space Administration (NASA) is an independent agency of the U.S. federal government responsible for the civilian space program, as well as aeronautics and space research.
+short_description: The National Aeronautics and Space Administration (NASA) is a government agency responsible for space research and development.
 url: https://nasa.gov
 wikipedia_url: https://en.wikipedia.org/wiki/NASA
 ---
