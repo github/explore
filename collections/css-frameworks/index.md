@@ -11,4 +11,4 @@ items:
 display_name: CSS Frame Works
 created_by: krishdevdb
 ---
-A CSS framework is a set of css classes that allow you to create your website with few or no css code.
+A CSS framework is a set of css classes that allow you to create your website with little to no new css code.
