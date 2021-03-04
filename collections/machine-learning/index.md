@@ -19,6 +19,7 @@ items:
  - gwding/draw_convnet
  - scikit-learn/scikit-learn
  - tensorflow/tensorflow
+ - activeloopai/Hub
  - Theano/Theano
  - shogun-toolbox/shogun
  - davisking/dlib
