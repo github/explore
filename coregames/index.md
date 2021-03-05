@@ -1,5 +1,4 @@
 ---
-aliases: core-games, core-content, core-communitycontent, core-community-content, core-cc, core-scripts, core-editor, core-development, core-engine, core-gameengine, core-game-engine, core-platform, manticore, manticore-games
 created_by: Manticore Games
 display_name: CoreGames
 github_url: https://github.com/ManticoreGamesInc/
