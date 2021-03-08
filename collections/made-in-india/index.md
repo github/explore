@@ -16,6 +16,7 @@ items:
  - spaceuptech/space-cloud
  - shivammathur/setup-php
  - infracloudio/botkube
+ - SigNoz/signoz
  - uvdesk/community-skeleton
  - CRED-CLUB/synth-android
  - kadalu/kadalu
