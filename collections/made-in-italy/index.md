@@ -15,6 +15,6 @@ items:
  - federico-terzi/espanso
 display_name: Made in Italy
 created_by: thejoin95
-image: italia.png
+image: made-in-italy.png
 ---
 Open source projects built in or receiving significant contributions from Italy :it:
