@@ -25,7 +25,6 @@ items:
  - ultraembedded/biriscv
  - atthecodeface/cdl_hardware
  - Domipheus/RPU
- - projects/rv01_riscv_core
  - liangkangnan/tinyriscv 
  - rsd-devel/rsd
  - SonalPinto/kronos
