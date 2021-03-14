@@ -49,7 +49,7 @@ topic: [risc, cpu, riscv, risc-v, riscv-cpu, risc-v-cpu]
 wikpidia_url: https://pt.wikipedia.org/wiki/RISC-V
 display_name: Risc-V CPUs
 created_by: carlosdelfino
-image: riscv-logo-1.png
+image: riscv-logo.png
 ---
 
 The market for processors and microcontrollers is increasingly heated, and with the launch of the ISA (Instruction Set Achitecture) RISC-V, an open specification, it opens up a new opportunity for those who want to act either by researching or collaborating with new processors and microcontrollers.
