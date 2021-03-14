@@ -43,10 +43,6 @@ items:
  - riscv-boom/riscv-boom
  - riscv/riscv-isa-sim
  - ultraembedded/riscv
-github_url: https://github.com/riscv
-related: riscv
-topic: [risc, cpu, riscv, risc-v, riscv-cpu, risc-v-cpu]
-wikpidia_url: https://pt.wikipedia.org/wiki/RISC-V
 display_name: Risc-V CPUs
 created_by: carlosdelfino
 image: riscv-logo.png
