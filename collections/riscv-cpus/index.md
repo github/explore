@@ -44,8 +44,7 @@ items:
  - riscv/riscv-isa-sim
  - ultraembedded/riscv
 display_name: Risc-V CPUs
-created_by: carlosdelfino
-image: riscv-logo.png
+created_by: carlosdelfino 
 ---
 
 The market for processors and microcontrollers is increasingly heated, and with the launch of the ISA (Instruction Set Achitecture) RISC-V, an open specification, it opens up a new opportunity for those who want to act either by researching or collaborating with new processors and microcontrollers.
