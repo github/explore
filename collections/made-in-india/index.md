@@ -20,6 +20,7 @@ items:
  - uvdesk/community-skeleton
  - CRED-CLUB/synth-android
  - kadalu/kadalu
+ - krishdevdb/reseter.css
  - project-sunbird
 display_name: Made in India
 created_by: mvkaran
