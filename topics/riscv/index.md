@@ -1,6 +1,5 @@
 ---
 aliases: risc-v, riscv-cpu, riscv-core
-created_by: carlosdelfino
 display_name: RISC-V
 logo: riscv.png
 released: 
