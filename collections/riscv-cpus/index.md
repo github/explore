@@ -51,4 +51,4 @@ The market for processors and microcontrollers is increasingly heated, and with 
 
 Those who master the synthesis of Hardware with FPGA, can also propose more concretely new approaches for microcontrollers taking advantage of codes already written for the new architecture.
 
-In this collection I try to present some renowned Colors, and open the opportunity for other colleagues to collaborate with their suggestions.
+In this collection I try to present some renowned cores, and open the opportunity for other colleagues to collaborate with their suggestions.
