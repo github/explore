@@ -1,6 +1,7 @@
 ---
 items:
  - acekyd/made-in-nigeria
+ - Galsen-Dev-LAB/made-in-senegal
  - frontlinesms/frontlinesms2
  - ushahidi/SMSSync
  - praekeltfoundation/vumi
