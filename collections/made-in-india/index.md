@@ -3,6 +3,7 @@ items:
  - hoppscotch/hoppscotch
  - hasura/graphql-engine
  - geekyants/nativebase
+ - TheAlgorithms
  - kovidgoyal/calibre
  - frappe/erpnext
  - chatwoot/chatwoot
