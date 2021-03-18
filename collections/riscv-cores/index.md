@@ -43,7 +43,7 @@ items:
  - riscv-boom/riscv-boom
  - riscv/riscv-isa-sim
  - ultraembedded/riscv
-display_name: Risc-V CPUs
+display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---
 
