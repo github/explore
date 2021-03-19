@@ -42,6 +42,7 @@ items:
  - tomverbeure/mr1
  - ultraembedded/biriscv
  - ultraembedded/riscv
+ - zxmarcos/riscado-v
 display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---
