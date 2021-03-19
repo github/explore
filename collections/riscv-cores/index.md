@@ -43,6 +43,7 @@ items:
  - ultraembedded/biriscv
  - ultraembedded/riscv
  - zxmarcos/riscado-v
+ - racerxdl/riskow
 display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---
