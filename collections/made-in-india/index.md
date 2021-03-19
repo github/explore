@@ -1,5 +1,6 @@
 ---
 items:
+ - pstavirs/ostinato
  - hoppscotch/hoppscotch
  - hasura/graphql-engine
  - geekyants/nativebase
