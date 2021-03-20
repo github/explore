@@ -20,6 +20,7 @@ items:
  - SigNoz/signoz
  - uvdesk/community-skeleton
  - CRED-CLUB/synth-android
+ - enlightn/enlightn
  - kadalu/kadalu
  - krishdevdb/reseter.css
  - project-sunbird
