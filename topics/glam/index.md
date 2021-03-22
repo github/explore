@@ -1,7 +1,7 @@
 ---
 aliases: glams
 display_name: GLAM
-short_description: GLAM is an acronym for "galleries, libraries, archives, and museums"
+short_description: GLAM is an acronym for "galleries, libraries, archives, and museums".
 topic: glam
 wikipedia_url: https://en.wikipedia.org/wiki/GLAM_(industry)
 ---
