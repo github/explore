@@ -15,6 +15,7 @@ items:
  - gluster/glusterfs
  - frappe/frappe
  - spaceuptech/space-cloud
+ - sadanandpai/javascript-code-challenges
  - shivammathur/setup-php
  - infracloudio/botkube
  - SigNoz/signoz
