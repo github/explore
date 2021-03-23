@@ -1,5 +1,5 @@
 ---
-aliases: sharex, share-x
+aliases: share-x
 created_by: ShareX Team
 display_name: ShareX
 github_url: https://github.com/ShareX/ShareX
