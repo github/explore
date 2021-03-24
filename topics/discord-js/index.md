@@ -1,8 +1,8 @@
 ---
-aliases: discordJS
+aliases: discordjs
 topic: discord-js
 display_name: Discord.JS
-logo: discordJS.png
+logo: discord-js.png
 github_url: https://github.com/discordjs/discord.js
 short_description: Discord.JS is a powerful Node.js module that allows you to easily interact with the Discord API.
 url: https://discord.js.org/
