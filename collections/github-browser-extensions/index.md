@@ -18,6 +18,7 @@ items:
  - kamranahmedse/githunt
  - harshjv/github-repo-size
  - sindresorhus/refined-github
+ - softvar/enhanced-github
  - bitoiu/markwrap
  - bitoiu/github-red-alert
  - Kibibit/achievibit
@@ -25,8 +26,9 @@ items:
  - cheshire137/hubnav
  - ryanflorence/github-plusone-extension
  - Mottie/GitHub-userscripts
- - rgehan/octolenses-browser-extension
+ - rgehan/octolenses
  - xxhomey19/github-file-icon
+ - StylishThemes/GitHub-Dark
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
