@@ -27,7 +27,6 @@ items:
  - marmelab/sedy
  - badges/shields
  - bitrise-io/bitrise
- - devhubapp/devhub
 display_name: Tools for Open Source
 created_by: mozzadrella
 image: tools-for-open-source.png

@@ -8,12 +8,11 @@ items:
  - propublica/guides
  - censusreporter/censusreporter
  - nprapps/app-template
- - TimeMagazineLabs/babynames
+ - TimeMagazine/babynames
  - guardian/frontend
  - dukechronicle/chronline
  - BloombergMedia/whatiscode
  - times/cardkit
- - mkiser/WTFJHT
 display_name: Open journalism
 created_by: benbalter
 ---
