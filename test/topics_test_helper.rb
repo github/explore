@@ -20,7 +20,7 @@ TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/.freeze
 
 def invalid_topic_message(topic)
   "'#{topic}' must be between 1-#{MAX_TOPIC_LENGTH} characters, start with a letter or number, " \
-    "and may include hyphens"
+    "include only lowercase letters, and may include hyphens"
 end
 
 def valid_topic?(raw_topic)
