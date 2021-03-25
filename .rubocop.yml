@@ -1,5 +1,3 @@
-require: rubocop-performance
-
 AllCops:
   TargetRubyVersion: 2.4
   Exclude:
@@ -17,9 +15,6 @@ Metrics/BlockLength:
 Metrics/LineLength:
   Max: 100
   IgnoredPatterns: ['\A\s*#']
-
-Naming/RescuedExceptionsVariableName:
-  PreferredName: "error"
 
 Style/FrozenStringLiteralComment:
   Enabled: false

@@ -5,7 +5,7 @@ items:
  - leereilly/hubot-minecraft-skin
  - overviewer/Minecraft-Overviewer
  - cuberite/cuberite
- - pmmp/PocketMine-MP
+ - PocketMine/PocketMine-MP
  - msmhq/msm
  - essentials/Essentials
  - Vazkii/Botania

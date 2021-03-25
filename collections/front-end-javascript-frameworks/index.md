@@ -20,7 +20,6 @@ items:
  - daemonite/material
  - polymer/lit-element
  - aurelia/aurelia
- - sveltejs/svelte
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
