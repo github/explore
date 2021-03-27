@@ -5,12 +5,13 @@ items:
  - jshint/jshint
  - clutchski/coffeelint
  - csscomb/csscomb.js
- - brigade/scss-lint
+ - sds/scss-lint
  - htmlhint/HTMLHint
+ - validator/validator
  - CSSLint/csslint
  - PyCQA/pycodestyle
  - PyCQA/flake8
- - ambv/black
+ - psf/black
  - checkstyle/checkstyle
  - rubocop-hq/rubocop
  - oclint/oclint
@@ -22,6 +23,12 @@ items:
  - rodjek/puppet-lint
  - koalaman/shellcheck
  - jimhester/lintr
+ - testdouble/standard
+ - realm/SwiftLint
+ - replicatedhq/dockerfilelint
+ - mvdan/sh
+ - ansible-community/ansible-lint
+ - dotenv-linter/dotenv-linter
 display_name: Clean code linters
 created_by: holman
 ---

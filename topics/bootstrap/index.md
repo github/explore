@@ -1,5 +1,5 @@
 ---
-aliases: bootstrap3, bootstrap4, bootstrap-4
+aliases: bootstrap3, bootstrap4, bootstrap-4, bootstrap5, bootstrap-5
 created_by: Mark Otto, Jacob Thornton
 display_name: Bootstrap
 github_url: https://github.com/twbs
