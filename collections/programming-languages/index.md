@@ -35,7 +35,7 @@ items:
 - gkz/LiveScript
 - IoLanguage/io
 - dlang/dmd
-- zdevito/terra
+- terralang/terra
 - dotnet/fsharp
 - skiplang/skip
 - FascinatedBox/lily
@@ -47,6 +47,15 @@ items:
 - ziglang/zig
 - HaxeFoundation/haxe
 - livecode/livecode
+- coq/coq
+- vlang/v
+- dart-lang/sdk
+- pharo-project/pharo
+- ring-lang/ring
+- SenegalLang/Senegal
+- cqfn/eo
+- ChavaScript/chavascript
+- DennisMitchell/jellylanguage
 display_name: Programming languages
 created_by: leereilly
 ---
