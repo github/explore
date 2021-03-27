@@ -4,6 +4,10 @@ items:
  - chubin/cheat.sh
  - shweshi/terminal-stocks
  - chubin/rate.sx
+ - chubin/qrenco.de
+ - docverter/docverter
+ - hugomd/parrot.live
+ - shazow/ssh-chat
 
 display_name: Terminal First Applications
 created_by: shweshi
