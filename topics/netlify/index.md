@@ -1,6 +1,6 @@
 ---
 display_name: Netlify
-short_description: Netlify is a continuous deployment powerfull serveless platform.
+short_description: Netlify is a continuous deployment powerful serverless platform.
 topic: netlify
 github_url: https://github.com/netlify
 wikipedia_url: https://en.wikipedia.org/wiki/Netlify
