@@ -17,6 +17,9 @@ items:
  - OSGeo/osgeo
  - godaddy/godaddy.github.io
  - cloudflare/cloudflare.github.io
+ - eleme/eleme.github.io
+ - didi/didi.github.io
+ - alibaba/alibaba.github.com
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
