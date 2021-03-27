@@ -1,6 +1,7 @@
 ---
 items:
- - robbyrussell/oh-my-zsh
+ - ohmyzsh/ohmyzsh
+ - microsoft/terminal
  - ggreer/the_silver_searcher
  - arc90/git-sweep
  - bhollis/jsonview
@@ -9,6 +10,7 @@ items:
  - rtyley/bfg-repo-cleaner
  - mhagger/git-imerge
  - eddiezane/lunchy
+ - awaescher/repoz
 display_name: Software productivity tools
 created_by: holman
 ---

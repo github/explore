@@ -37,6 +37,7 @@ items:
  - https://www.youtube.com/embed/KsbQ_HNX6Pg
  - https://www.youtube.com/embed/bHvf7Tagt18
  - https://www.youtube.com/embed/ILsA4nyG7I0
+ - AMAI-GmbH/AI-Expert-Roadmap
 display_name: Getting started with machine learning
 created_by: omoju
 ---
