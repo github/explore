@@ -14,6 +14,7 @@ items:
  - overtone/overtone
  - samaaron/sonic-pi
  - nukeop/nuclear
+ - jakubthedeveloper/MusicalScales
 display_name: Music
 created_by: jonrohan
 ---
