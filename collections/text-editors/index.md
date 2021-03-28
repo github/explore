@@ -28,6 +28,7 @@ items:
  - howl-editor/howl
  - notepad-plus-plus/notepad-plus-plus
  - vim/vim
+ - lukedan/codepad
 
 display_name: Text editors
 created_by: leereilly
