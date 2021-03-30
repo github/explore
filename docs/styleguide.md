@@ -2,9 +2,9 @@
 
 From the GitHub Style Guide:
 
-> Words are an important part of how software works. Just as we have a style guide for our code, we have a style guide for our tone and our voice. Even though there may be dozens of people creating a product, it should still sound like we speak in one consistent voice.
+> Words are an important part of how the software works. Just as we have a style guide for our code, we have a style guide for our tone and our voice. Even though there may be dozens of people creating a product, it should still sound like we speak in one consistent voice.
 >
->**The way we write is just as important as the way we build. Consider these things when writing copy.**
+>**The way we write is just as important as the way we build. Consider these things when writing a copy.**
 
 ## Principles
 
@@ -15,13 +15,13 @@ From the GitHub Style Guide:
 ## Grammar and usage
 
 ### Ampersands
-Use "and" rather than an ampersand unless you’re referencing a brand name, for example: Procter & Gamble.
+Use "and" rather than an ampersand unless you’re referencing a brand name, for example, Procter & Gamble.
 
 ### Commas
 Always use the [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma). 
 
 ### Dates
-Include and spell out the month. Include the day number without the "th" or "nd" at the end, for example: October 12.
+Include and spell out the month. Include the day number without the "th" or "nd" at the end, for example, October 12.
 
 ### Exclamation points
 Avoid exclamation points in topic pages and collections.
