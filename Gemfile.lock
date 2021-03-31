@@ -10,7 +10,7 @@ GEM
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     faraday-net_http (1.0.1)
-    fastimage (2.2.2)
+    fastimage (2.2.3)
     method_source (1.0.0)
     minitest (5.14.4)
     multipart-post (2.1.1)
@@ -39,7 +39,7 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.4.1)
       parser (>= 2.7.1.5)
-    rubocop-performance (1.9.2)
+    rubocop-performance (1.10.2)
       rubocop (>= 0.90.0, < 2.0)
       rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.11.0)
