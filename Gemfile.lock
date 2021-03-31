@@ -1,29 +1,54 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    ast (2.4.0)
-    fastimage (2.1.5)
-    jaro_winkler (1.5.2)
-    minitest (5.11.3)
-    parallel (1.13.0)
-    parser (2.6.0.0)
-      ast (~> 2.4.0)
-    powerpack (0.1.2)
-    psych (3.1.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    ast (2.4.2)
+    coderay (1.1.3)
+    faraday (1.3.0)
+      faraday-net_http (~> 1.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords
+    faraday-net_http (1.0.1)
+    fastimage (2.2.3)
+    method_source (1.0.0)
+    minitest (5.14.4)
+    multipart-post (2.1.1)
+    octokit (4.20.0)
+      faraday (>= 0.9)
+      sawyer (~> 0.8.0, >= 0.5.3)
+    parallel (1.20.1)
+    parser (3.0.0.0)
+      ast (~> 2.4.1)
+    pry (0.14.0)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    public_suffix (4.0.6)
     rainbow (3.0.0)
-    rake (12.3.2)
-    rubocop (0.65.0)
-      jaro_winkler (~> 1.5.1)
+    rake (13.0.3)
+    regexp_parser (2.1.1)
+    rexml (3.2.4)
+    rubocop (1.11.0)
       parallel (~> 1.10)
-      parser (>= 2.5, != 2.5.1.1)
-      powerpack (~> 0.1)
-      psych (>= 3.1.0)
+      parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.2.0, < 2.0)
       ruby-progressbar (~> 1.7)
-      unicode-display_width (~> 1.4.0)
-    ruby-progressbar (1.10.0)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.4.1)
+      parser (>= 2.7.1.5)
+    rubocop-performance (1.10.2)
+      rubocop (>= 0.90.0, < 2.0)
+      rubocop-ast (>= 0.4.0)
+    ruby-progressbar (1.11.0)
+    ruby2_keywords (0.0.4)
     safe_yaml (1.0.5)
-    unicode-display_width (1.4.1)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
+    unicode-display_width (2.0.0)
 
 PLATFORMS
   ruby
@@ -31,9 +56,12 @@ PLATFORMS
 DEPENDENCIES
   fastimage
   minitest
+  octokit (~> 4.20)
+  pry
   rake
   rubocop
+  rubocop-performance
   safe_yaml
 
 BUNDLED WITH
-   1.16.1
+   2.1.4

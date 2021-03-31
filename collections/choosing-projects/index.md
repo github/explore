@@ -3,9 +3,9 @@ items:
  - rust-lang/rust
  - HospitalRun/hospitalrun-frontend
  - hoodiehq/hoodie
- - pybee/batavia
  - Homebrew/brew
  - https://www.youtube.com/embed/dSl_qnWO104
+ - public-apis/public-apis
 display_name: How to choose (and contribute to) your first open source project
 created_by: kytrinyx
 ---

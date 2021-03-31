@@ -1,4 +1,5 @@
 ---
+aliases: packagist,composer-package,packagist-package
 created_by: Nils Adermann, Jordi Boggiano
 display_name: Composer
 github_url: https://github.com/composer
