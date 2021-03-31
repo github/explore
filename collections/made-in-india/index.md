@@ -1,5 +1,6 @@
 ---
 items:
+ - appsmithorg/appsmith
  - hoppscotch/hoppscotch
  - hasura/graphql-engine
  - geekyants/nativebase
