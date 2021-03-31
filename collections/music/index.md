@@ -13,6 +13,7 @@ items:
  - metabrainz/picard
  - overtone/overtone
  - samaaron/sonic-pi
+ - nukeop/nuclear
 display_name: Music
 created_by: jonrohan
 ---

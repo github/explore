@@ -1,14 +1,19 @@
 ---
 items:
- - https://github.com/aseprite/aseprite/
- - https://github.com/piskelapp/piskel/
- - https://github.com/jvalen/pixel-art-react/
- - https://github.com/maierfelix/poxi/
- - https://github.com/gmattie/Data-Pixels/
- - https://github.com/vsmode/pixel8
- - https://github.com/jennschiffer/make8bitart
- - https://github.com/kitao/pyxel
- - https://github.com/jackschaedler/goya
+ - aseprite/aseprite/
+ - piskelapp/piskel/
+ - jvalen/pixel-art-react/
+ - maierfelix/poxi/
+ - gmattie/Data-Pixels/
+ - vsmode/pixel8
+ - jennschiffer/make8bitart
+ - kitao/pyxel
+ - jackschaedler/goya
+ - cloudhead/rx
+ - Orama-Interactive/Pixelorama
+ - LibreSprite/LibreSprite
+ - lospec/pixel-editor
+ - rgab1508/PixelCraft
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png

@@ -5,7 +5,6 @@ items:
  - UM-CSS
  - gesiscss
  - DS-BootCamp-DSI-Columbia/AY2017-2018-Summer-CSS
- - h2researchgroup/Computational-Analysis-For-Social-Science
  - ben-aaron188/ltta_workshop
  - ribernhard/PS239T
  - msalganik/soc596_f2016
@@ -26,7 +25,6 @@ items:
  - dmasad/cssGradWorkshops
  - HerTeoh/computational_social_science
  - mobileink/lab.compss
- - mmonzoor/computational_social_science_course_notebooks
  - sschauss/css
  - jongbinjung/css-python-workshop 
  - adamrpah/KPHD_CSS
@@ -40,6 +38,8 @@ items:
  - maczokni/r-socialsci
  - CJWorkbench
  - CullenBoldt/CSSproject
+ - sagepublishing/Hogan-FSStDS-draft-chapters-2019
+ - sagepublishing/Bernauer-DQTAwR-draft-chapters-2019
  
 display_name: Teaching materials for computational social science
 created_by: danielagduca

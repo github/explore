@@ -1,7 +1,7 @@
 ---
 aliases: pi-hole
 created_by: Jacob Salmela, Dan Schaper, Adam Warner and DL6ER
-display_name: Pi Hole
+display_name: Pi-hole
 github_url: https://github.com/pi-hole/pi-hole
 logo: pihole.png
 released: June 15, 2015
