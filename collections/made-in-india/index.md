@@ -1,6 +1,5 @@
 ---
 items:
- - appsmithorg/appsmith
  - hoppscotch/hoppscotch
  - hasura/graphql-engine
  - geekyants/nativebase
@@ -24,6 +23,7 @@ items:
  - kadalu/kadalu
  - krishdevdb/reseter.css
  - project-sunbird
+ - appsmithorg/appsmith
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
