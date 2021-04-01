@@ -1,0 +1,164 @@
+##
+## Format
+##
+##   ACTION COMMIT_MSG [!TAG ...]
+##
+## Description
+##
+##   ACTION is one of '[REF]', '[FIX]', '[ADD]'
+##
+##       Is WHAT the change is about.
+##
+##       '[REF]' is for refactor, small improvement, cosmetic changes...
+##       '[FIX]' is for bug fixes
+##       '[ADD]' is for new features, big improvement
+
+##   COMMIT_MSG is ... well ... the commit message itself.
+##
+##   TAGs are additionnal adjective as 'refactor' 'minor' 'cosmetic'
+##
+##       They are preceded with a '!' or a '@' (prefer the former, as the
+##       latter is wrongly interpreted in github.) Commonly used tags are:
+##
+##       'refactor' is obviously for refactoring code only
+##       'minor' is for a very meaningless change (a typo, adding a comment)
+##       'cosmetic' is for cosmetic driven change (re-indentation, 80-col...)
+##       'wip' is for partial functionality but complete subfunctionality.
+##
+## Example:
+##
+##   [ADD] support of bazaar implemented
+##   [REF] re-indentend some lines !cosmetic
+##   [FIX] typo in spelling my name in comment. !minor
+
+
+##
+## ``ignore_regexps`` is a line of regexps
+##
+## Any commit having its full commit message matching any regexp listed here
+## will be ignored and won't be reported in the changelog.
+##
+ignore_regexps = [
+    r'^(.{3,3}\s*:)?\s*[Uu]pdating [Cc]hangelog and [Vv]ersion.?\s*$',
+    r'^(.{3,3}\s*:)?\s*[fF]irst commit.?\s*$',
+]
+
+
+## ``section_regexps`` is a list of 2-tuples associating a string label and a
+## list of regexp
+##
+## Commit messages will be classified in sections thanks to this. Section
+## titles are the label, and a commit is classified under this section if any
+## of the regexps associated is matching.
+##
+## Please note that ``section_regexps`` will only classify commits and won't
+## make any changes to the contents. So you'll probably want to go check
+## ``subject_process`` (or ``body_process``) to do some changes to the subject,
+## whenever you are tweaking this variable.
+##
+section_regexps = [
+    ('New', [r'^\[ADD\]\s*([^\n]*)$']),
+    ('Changes', [r'^\[REF\]\s*([^\n]*)$']),
+    ('Fix', [r'^\[FIX\]\s*([^\n]*)$']),
+    ('Other', None),
+]
+
+
+## ``body_process`` is a callable
+##
+## This callable will be given the original body and result will
+## be used in the changelog.
+##
+## Available constructs are:
+##
+##   - any python callable that take one txt argument and return txt argument.
+##
+##   - ReSub(pattern, replacement): will apply regexp substitution.
+##
+##   - Indent(chars="  "): will indent the text with the prefix
+##     Please remember that template engines gets also to modify the text and
+##     will usually indent themselves the text if needed.
+##
+##   - Wrap(regexp=r"\n\n"): re-wrap text in separate paragraph to fill 80-Columns
+##
+##   - noop: do nothing
+##
+##   - ucfirst: ensure the first letter is uppercase.
+##     (usually used in the ``subject_process`` pipeline)
+##
+##   - final_dot: ensure text finishes with a dot
+##     (usually used in the ``subject_process`` pipeline)
+##
+##   - strip: remove any spaces before or after the content of the string
+##
+## Additionally, you can `pipe` the provided filters, for instance:
+#body_process = Wrap(regexp=r'\n(?=\w+\s*:)') | Indent(chars="  ")
+#body_process = Wrap(regexp=r'\n(?=\w+\s*:)')
+#body_process = noop
+body_process = ReSub(r'((^|\n)\[[A-Z]\w+(-\w+)*\] .*(\n\s+.*)*)+$', r'') | strip
+
+
+## ``subject_process`` is a callable
+##
+## This callable will be given the original subject and result will
+## be used in the changelog.
+##
+## Available constructs are those listed in ``body_process`` doc.
+subject_process = (strip |
+    ReSub(r'^(\[ADD\]|\[REF\]|\[FIX\])\s*([^\n@]*)(@[a-z]+\s+)*$', r'\2') |
+    ucfirst | final_dot)
+
+
+## ``tag_filter_regexp`` is a regexp
+##
+## Tags that will be used for the changelog must match this regexp.
+##
+tag_filter_regexp = r'^[0-9]+\.[0-9]+(\.[0-9]+)?$'
+
+
+## ``unreleased_version_label`` is a string
+##
+## This label will be used as the changelog Title of the last set of changes
+## between last valid tag and HEAD if any.
+unreleased_version_label = "%%version%% (unreleased)"
+
+
+## ``output_engine`` is a callable
+##
+## This will change the output format of the generated changelog file
+##
+## Available choices are:
+##
+##   - rest_py
+##
+##        Legacy pure python engine, outputs ReSTructured text.
+##        This is the default.
+##
+##   - mustache(<template_name>)
+##
+##        Template name could be any of the available templates in
+##        ``templates/mustache/*.tpl``.
+##        Requires python package ``pystache``.
+##        Examples:
+##           - mustache("markdown")
+##           - mustache("restructuredtext")
+##
+##   - makotemplate(<template_name>)
+##
+##        Template name could be any of the available templates in
+##        ``templates/mako/*.tpl``.
+##        Requires python package ``mako``.
+##        Examples:
+##           - makotemplate("restructuredtext")
+##
+#output_engine = rest_py
+#output_engine = mustache("restructuredtext")
+output_engine = mustache("markdown")
+#output_engine = makotemplate("restructuredtext")
+
+
+## ``include_merge`` is a boolean
+##
+## This option tells git-log whether to include merge commits in the log.
+## The default is to include them.
+include_merge = False
