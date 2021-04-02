@@ -1,5 +1,5 @@
 ---
-aliases: classicube
+aliases: classicube-client, classicube-mods, classicube-plugins
 related: c, minecraft
 created_by: AndrewPH, UnknownShadow200
 display_name: ClassiCube
