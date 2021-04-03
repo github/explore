@@ -23,6 +23,8 @@ items:
  - kadalu/kadalu
  - krishdevdb/reseter.css
  - project-sunbird
+ - pupilfirst/pupilfirst
+ - appsmithorg/appsmith
  - anuraghazra/github-readme-stats
 display_name: Made in India
 created_by: mvkaran
