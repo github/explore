@@ -24,6 +24,7 @@ items:
  - krishdevdb/reseter.css
  - project-sunbird
  - pupilfirst/pupilfirst
+ - appsmithorg/appsmith
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
