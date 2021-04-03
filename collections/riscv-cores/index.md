@@ -2,7 +2,7 @@
 items:
  - darklife/darkriscv
  - riscv/riscv-opcodes
- - freechipsproject/rocket-chip
+ - chipsalliance/rocket-chip
  - sifive/freedom
  - openhwgroup/cv32e40p
  - lowRISC/ibex
@@ -38,7 +38,7 @@ items:
  - stevehoover/RISC-V_MYTH_Workshop
  - haogwb/starsea_riscv
  - OSCPU/NutShell
- - riscv/riscv-qemu
+ - riscvarchive/riscv-qemu
  - SpinalHDL/VexRiscv
  - riscv-boom/riscv-boom
  - riscv/riscv-isa-sim
