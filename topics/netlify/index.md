@@ -2,7 +2,7 @@
 display_name: Netlify
 github_url: https://github.com/netlify
 logo: netlify.png
-short_description: Netlify: Develop & deploy the best web experiences
+short_description: Develop & deploy the best web experiences
 topic: netlify
 url: https://netlify.com
 ---
