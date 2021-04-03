@@ -3,6 +3,7 @@ items:
  - hoppscotch/hoppscotch
  - hasura/graphql-engine
  - geekyants/nativebase
+ - TheAlgorithms
  - kovidgoyal/calibre
  - frappe/erpnext
  - chatwoot/chatwoot
@@ -20,7 +21,9 @@ items:
  - uvdesk/community-skeleton
  - CRED-CLUB/synth-android
  - kadalu/kadalu
+ - krishdevdb/reseter.css
  - project-sunbird
+ - pupilfirst/pupilfirst
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
