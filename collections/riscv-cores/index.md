@@ -1,6 +1,24 @@
 ---
 items:
- - atthecodeface/cdl_hardware
+ - darklife/darkriscv
+ - riscv/riscv-opcodes
+ - chipsalliance/rocket-chip
+ - sifive/freedom
+ - openhwgroup/cv32e40p
+ - lowRISC/ibex
+ - openhwgroup/cva6
+ - csail-csg/riscy-OOO
+ - cornell-brg/lizard
+ - lambdaconcept/minerva
+ - onchipuis/mriscv
+ - SpinalHDL/VexRiscv
+ - roalogic/RV12
+ - syntacore/scr1
+ - SI-RISCV/e200_opensource
+ - lcbcFoo/ReonV
+ - cliffordwolf/picorv32
+ - tomverbeure/mr1
+ - olofk/serv
  - chipsalliance/Cores-SweRV
  - chipsalliance/Cores-SweRV-EL2
  - chipsalliance/Cores-SweRV-EH2
@@ -38,9 +56,18 @@ items:
  - stevehoover/RISC-V_MYTH_Workshop
  - stevehoover/warp-v
  - stnolting/neorv32
- - syntacore/scr1
- - tomverbeure/mr1
- - ultraembedded/biriscv
+ - rafaelcalcada/steel-core
+ - klessydra/T13x
+ - klessydra/T03x
+ - klessydra/T02x
+ - klessydra/F03x 
+ - stevehoover/RISC-V_MYTH_Workshop
+ - haogwb/starsea_riscv
+ - OSCPU/NutShell
+ - riscvarchive/riscv-qemu
+ - SpinalHDL/VexRiscv
+ - riscv-boom/riscv-boom
+ - riscv/riscv-isa-sim
  - ultraembedded/riscv
  - zxmarcos/riscado-v
  - racerxdl/riskow
