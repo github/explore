@@ -5,7 +5,6 @@ items:
  - UM-CSS
  - gesiscss
  - DS-BootCamp-DSI-Columbia/AY2017-2018-Summer-CSS
- - h2researchgroup/Computational-Analysis-For-Social-Science
  - ben-aaron188/ltta_workshop
  - ribernhard/PS239T
  - msalganik/soc596_f2016

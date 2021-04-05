@@ -9,7 +9,7 @@ items:
  - shakiba/stage.js
  - cocos2d/cocos2d-html5
  - playcanvas/engine
- - Artificial-Engineering/lycheejs
+ - cookiengineer/lycheejs
  - BabylonJS/Babylon.js
  - ekelokorpi/panda-engine
  - qiciengine/qiciengine
@@ -20,6 +20,7 @@ items:
  - 4ian/GDevelop
  - mrdoob/three.js
  - phoboslab/Impact
+ - Cloud9c/taro
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---
