@@ -26,6 +26,7 @@ items:
  - pupilfirst/pupilfirst
  - appsmithorg/appsmith
  - anuraghazra/github-readme-stats
+ - Glitchfix/TOPSIS-Python
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
