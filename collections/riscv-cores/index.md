@@ -43,6 +43,8 @@ items:
  - riscv-boom/riscv-boom
  - riscv/riscv-isa-sim
  - ultraembedded/riscv
+ - zxmarcos/riscado-v
+ - racerxdl/riskow
 display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---
