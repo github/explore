@@ -4,7 +4,7 @@ items:
  - zxmarcos/riscado-v
  - racerxdl/riskow
  - duinos/riscuinho
-display_name: Risc-V Cores Made Brazil
+display_name: Risc-V Cores Made in Brazil
 created_by: carlosdelfino 
 ---
 
