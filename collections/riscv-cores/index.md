@@ -1,7 +1,6 @@
 ---
 items:
  - darklife/darkriscv
- - riscv/riscv-opcodes
  - chipsalliance/rocket-chip
  - sifive/freedom
  - openhwgroup/cv32e40p
