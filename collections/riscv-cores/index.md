@@ -44,6 +44,7 @@ items:
  - ultraembedded/riscv
  - zxmarcos/riscado-v
  - racerxdl/riskow
+ - dev-board-tech/hdl-core-riscv-lite
 display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---
