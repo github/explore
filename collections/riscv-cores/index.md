@@ -1,7 +1,6 @@
 ---
 items:
  - darklife/darkriscv
- - riscv/riscv-opcodes
  - chipsalliance/rocket-chip
  - sifive/freedom
  - openhwgroup/cv32e40p
@@ -45,6 +44,8 @@ items:
  - ultraembedded/riscv
  - zxmarcos/riscado-v
  - racerxdl/riskow
+ - dev-board-tech/hdl-core-riscv-lite
+ - DuinOS/RISCuinho
 display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---
