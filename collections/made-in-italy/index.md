@@ -13,6 +13,7 @@ items:
  - strawberry-graphql/strawberry
  - notable/notable
  - federico-terzi/espanso
+ - eciavatta/caronte
 display_name: Made in Italy
 created_by: thejoin95
 image: made-in-italy.png
