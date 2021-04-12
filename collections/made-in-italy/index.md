@@ -13,6 +13,8 @@ items:
  - strawberry-graphql/strawberry
  - notable/notable
  - federico-terzi/espanso
+ - Schrodinger-Hat/ImageGoNord
+ - Schrodinger-Hat/ImageGoNord-pip
 display_name: Made in Italy
 created_by: thejoin95
 image: made-in-italy.png
