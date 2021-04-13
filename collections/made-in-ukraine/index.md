@@ -1,0 +1,57 @@
+---
+items:
+ - Codeception/Codeception
+ - JSMonk/hegel
+ - Leaflet/Leaflet
+ - Tyrrrz/DiscordChatExporter
+ - Tyrrrz/YoutubeExplode
+ - aio-libs/aiohttp
+ - ansible/ansible
+ - brunch/brunch
+ - cherrypy/cherrypy
+ - codeceptjs/CodeceptJS
+ - denysdovhan/bash-handbook
+ - denysdovhan/spaceship-prompt
+ - denysdovhan/wtfjs
+ - dimsemenov/PhotoSwipe
+ - dmytrodanylyk/android-morphing-button
+ - dmytrodanylyk/android-process-button
+ - dmytrodanylyk/circular-progress-button
+ - dmytrodanylyk/folding-plugin
+ - dmytrodanylyk/shadow-layout
+ - eclipse/che
+ - glushchenko/fsnotes
+ - komarserjio/notejam
+ - leits/MeetingBar
+ - mapbox/delaunator
+ - mapbox/earcut
+ - mapbox/flamebearer
+ - mapbox/geojson-vt
+ - mapbox/pixelmatch
+ - mapbox/supercluster
+ - mourner/bullshit.js
+ - mourner/rbush
+ - mourner/simplify-js
+ - mourner/suncalc
+ - mui-org/material-ui
+ - paulmillr/chokidar
+ - paulmillr/es6-shim
+ - platformio/platformio-core
+ - pnpm/pnpm
+ - resilience4j/resilience4j
+ - tailhook/vagga
+ - trailofbits/algo
+ - trekhleb/homemade-machine-learning
+ - trekhleb/javascript-algorithms
+ - trekhleb/learn-python
+ - trekhleb/nano-neuron
+ - uglide/RedisDesktopManager
+ - vadimdemedes/ink
+ - vadimdemedes/pastel
+ - valor-software/ngx-bootstrap
+ - wasm3/wasm3
+
+display_name: Made in Ukraine
+image: made-in-ukraine.png
+---
+Open source projects built in or receiving significant contributions from Ukraine :ukraine:
