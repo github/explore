@@ -1,55 +1,55 @@
 ---
 items:
- - Codeception/Codeception
- - JSMonk/hegel
- - Leaflet/Leaflet
- - Tyrrrz/DiscordChatExporter
- - Tyrrrz/YoutubeExplode
- - aio-libs/aiohttp
+ - trekhleb/javascript-algorithms
+ - mui-org/material-ui
  - ansible/ansible
- - brunch/brunch
- - cherrypy/cherrypy
- - codeceptjs/CodeceptJS
- - denysdovhan/bash-handbook
- - denysdovhan/spaceship-prompt
+ - Leaflet/Leaflet
  - denysdovhan/wtfjs
  - dimsemenov/PhotoSwipe
- - dmytrodanylyk/android-morphing-button
- - dmytrodanylyk/android-process-button
- - dmytrodanylyk/circular-progress-button
- - dmytrodanylyk/folding-plugin
- - dmytrodanylyk/shadow-layout
- - eclipse/che
- - glushchenko/fsnotes
- - komarserjio/notejam
- - leits/MeetingBar
- - mapbox/delaunator
- - mapbox/earcut
- - mapbox/flamebearer
- - mapbox/geojson-vt
- - mapbox/pixelmatch
- - mapbox/supercluster
- - mourner/bullshit.js
- - mourner/rbush
- - mourner/simplify-js
- - mourner/suncalc
- - mui-org/material-ui
- - paulmillr/chokidar
- - paulmillr/es6-shim
- - platformio/platformio-core
- - pnpm/pnpm
- - resilience4j/resilience4j
- - tailhook/vagga
  - trailofbits/algo
- - trekhleb/homemade-machine-learning
- - trekhleb/javascript-algorithms
- - trekhleb/learn-python
- - trekhleb/nano-neuron
  - uglide/RedisDesktopManager
+ - trekhleb/homemade-machine-learning
  - vadimdemedes/ink
- - vadimdemedes/pastel
+ - denysdovhan/spaceship-prompt
+ - aio-libs/aiohttp
+ - pnpm/pnpm
+ - paulmillr/chokidar
+ - trekhleb/learn-python
+ - brunch/brunch
+ - resilience4j/resilience4j
+ - eclipse/che
+ - dmytrodanylyk/circular-progress-button
  - valor-software/ngx-bootstrap
+ - platformio/platformio-core
+ - denysdovhan/bash-handbook
+ - Codeception/Codeception
+ - mapbox/pixelmatch
  - wasm3/wasm3
+ - codeceptjs/CodeceptJS
+ - paulmillr/es6-shim
+ - dmytrodanylyk/android-process-button
+ - glushchenko/fsnotes
+ - Tyrrrz/DiscordChatExporter
+ - mourner/suncalc
+ - leits/MeetingBar
+ - trekhleb/nano-neuron
+ - mourner/simplify-js
+ - dmytrodanylyk/shadow-layout
+ - mourner/rbush
+ - tailhook/vagga
+ - JSMonk/hegel
+ - Tyrrrz/YoutubeExplode
+ - dmytrodanylyk/folding-plugin
+ - mapbox/delaunator
+ - mapbox/flamebearer
+ - mourner/bullshit.js
+ - mapbox/earcut
+ - cherrypy/cherrypy
+ - mapbox/geojson-vt
+ - vadimdemedes/pastel
+ - mapbox/supercluster
+ - dmytrodanylyk/android-morphing-button
+ - komarserjio/notejam
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png
