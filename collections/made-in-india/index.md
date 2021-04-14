@@ -26,6 +26,7 @@ items:
  - pupilfirst/pupilfirst
  - appsmithorg/appsmith
  - anuraghazra/github-readme-stats
+ - dr5hn/countries-states-cities-database
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
