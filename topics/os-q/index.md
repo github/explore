@@ -11,4 +11,4 @@ url: https://www.OS-Q.com/
 wikipedia_url: https://en.wikipedia.org/wiki/OS-Q
 ---
 
-与芯为伴，发现 & 集成 & 迭代，价值共享
+OS-Q 致力于发现嵌入式开源项目，验证评估其实用性，通过工程一致化处理后推广，在一个统一化和标准化的平台中实现高效共享。
