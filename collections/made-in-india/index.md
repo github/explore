@@ -4,7 +4,7 @@ items:
  - anuraghazra/github-readme-stats
  - hasura/graphql-engine
  - geekyants/nativebase
- - TheAlgorithms/Java
+ - kovidgoyal/calibre
  - frappe/erpnext
  - chatwoot/chatwoot
  - openebs/openebs  
