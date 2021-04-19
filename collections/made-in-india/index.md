@@ -1,12 +1,10 @@
 ---
 items:
- - TheAlgorithms/Python
  - hoppscotch/hoppscotch
  - anuraghazra/github-readme-stats
  - hasura/graphql-engine
  - geekyants/nativebase
  - TheAlgorithms/Java
- - kovidgoyal/calibre
  - frappe/erpnext
  - chatwoot/chatwoot
  - openebs/openebs  
@@ -26,6 +24,7 @@ items:
  - krishdevdb/reseter.css
  - pupilfirst/pupilfirst
  - kadalu/kadalu
+ - TheAlgorithms
  - project-sunbird
 display_name: Made in India
 created_by: mvkaran
