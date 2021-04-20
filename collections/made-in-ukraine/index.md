@@ -50,6 +50,8 @@ items:
  - mapbox/supercluster
  - dmytrodanylyk/android-morphing-button
  - komarserjio/notejam
+ - ttag-org/ttag
+ - vmagamedov/grpclib
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png
