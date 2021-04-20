@@ -1,5 +1,6 @@
 ---
 items:
+ - TheAlgorithms
  - hoppscotch/hoppscotch
  - anuraghazra/github-readme-stats
  - hasura/graphql-engine
@@ -24,7 +25,6 @@ items:
  - krishdevdb/reseter.css
  - pupilfirst/pupilfirst
  - kadalu/kadalu
- - TheAlgorithms
  - project-sunbird
 display_name: Made in India
 created_by: mvkaran
