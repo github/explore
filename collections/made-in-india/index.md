@@ -26,6 +26,7 @@ items:
  - pupilfirst/pupilfirst
  - kadalu/kadalu
  - project-sunbird
+ - projectdiscovery/nuclei
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
