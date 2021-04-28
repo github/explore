@@ -46,6 +46,8 @@ items:
  - racerxdl/riskow
  - dev-board-tech/hdl-core-riscv-lite
  - DuinOS/RISCuinho
+ - Saanlima/RISC5Verilog_psram
+ - Saanlima/RISC5Verilog_lpddr
 display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---
