@@ -23,7 +23,6 @@ items:
  - Ganapati/RsaCtfTool
  - Ignitetechnologies/Privilege-Escalation
  - w181496/Web-CTF-Cheatsheet
- - bt3gl/Pentesting_Toolkit
  - terjanq/Tiny-XSS-Payloads
  - TH3xACE/SUDO_KILLER
  - m0nad/awesome-privilege-escalation
@@ -64,6 +63,7 @@ items:
  - teambi0s/InCTFj
  - trimstray/the-book-of-secret-knowledge
  - ctf-wiki/ctf-wiki
+ - eciavatta/caronte
 display_name: Capture The Flag (CTF) and Cyber Security Resources
 created_by: Mr-Skully
 image: ctf-cybersec-resources.png

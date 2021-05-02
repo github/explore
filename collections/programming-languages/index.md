@@ -53,6 +53,9 @@ items:
 - pharo-project/pharo
 - ring-lang/ring
 - SenegalLang/Senegal
+- cqfn/eo
+- ChavaScript/chavascript
+- DennisMitchell/jellylanguage
 display_name: Programming languages
 created_by: leereilly
 ---

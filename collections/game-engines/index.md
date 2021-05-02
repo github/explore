@@ -43,6 +43,7 @@ items:
  - love2d/love
  - hajimehoshi/ebiten
  - HaxeFoundation/haxe
+ - bevyengine/bevy
 display_name: Game Engines
 created_by: leereilly
 ---

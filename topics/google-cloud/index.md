@@ -3,6 +3,7 @@ aliases: google-cloud-platform, gcp, googlecloudplatform
 display_name: Google Cloud Platform
 topic: google-cloud
 github_url: https://github.com/GoogleCloudPlatform
+logo: google-cloud.png
 related: google, firebase
 released: April 7, 2008
 short_description: Google Cloud Platform, offered by Google, is a suite of cloud computing services.
