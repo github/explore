@@ -1,7 +1,7 @@
 ---
 created_by: magicode
 display_name: Netfree
-logo: netfree.svg
+logo: netfree.png
 released: November 2014
 topic: netfree
 url: https://netfree.link/
