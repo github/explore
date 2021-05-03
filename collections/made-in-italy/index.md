@@ -15,6 +15,7 @@ items:
  - federico-terzi/espanso
  - eciavatta/caronte
  - Schrodinger-Hat/ImageGoNord
+ - stoplightio/prism
 display_name: Made in Italy
 created_by: thejoin95
 image: made-in-italy.png
