@@ -29,4 +29,4 @@ created_by: lopezdp
 image: made-in-cuba.jpg
 ---
 
-Open source projects built in or receiving significant contributions from Cuba :cu:.
+Open source projects built in or receiving significant contributions from Cuba :cu:
