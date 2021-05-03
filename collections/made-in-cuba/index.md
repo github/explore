@@ -26,7 +26,7 @@ items:
 
 display_name: Made in Cuba
 created_by: lopezdp
-image: made-in-cuba.jpg
+image: made-in-cuba.png
 ---
 
 Open source projects built in or receiving significant contributions from Cuba :cuba:
