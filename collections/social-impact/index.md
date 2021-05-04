@@ -17,7 +17,7 @@ items:
  - raksha-life/rescuekerala
  - Data4Democracy/ethics-resources
  - civicdata/civicdata.github.io
- - Greenstand/Development-Overview
+ - Greenstand/greenstand.org_website
  - yunity/karrot-frontend
 display_name: Social Impact
 created_by: bescalante
