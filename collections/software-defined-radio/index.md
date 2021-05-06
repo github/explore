@@ -7,7 +7,7 @@ items:
  - miek/inspectrum
  - kpreid/shinysdr
  - RangeNetworks/openbts
- - srsLTE/srsUE
+ - srsRAN/srsRAN
  - xmikos/qspectrumanalyzer
  - cjcliffe/CubicSDR
  - jopohl/urh
