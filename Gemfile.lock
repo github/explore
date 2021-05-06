@@ -18,7 +18,7 @@ GEM
     method_source (1.0.0)
     minitest (5.14.4)
     multipart-post (2.1.1)
-    octokit (4.20.0)
+    octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.20.1)
@@ -60,7 +60,7 @@ PLATFORMS
 DEPENDENCIES
   fastimage
   minitest
-  octokit (~> 4.20)
+  octokit (~> 4.21)
   pry
   rake
   rubocop
