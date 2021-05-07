@@ -18,7 +18,7 @@ GEM
     method_source (1.0.0)
     minitest (5.14.4)
     multipart-post (2.1.1)
-    octokit (4.20.0)
+    octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.20.1)
@@ -32,13 +32,13 @@ GEM
     rake (13.0.3)
     regexp_parser (2.1.1)
     rexml (3.2.5)
-    rubocop (1.13.0)
+    rubocop (1.14.0)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml
-      rubocop-ast (>= 1.2.0, < 2.0)
+      rubocop-ast (>= 1.5.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.5.0)
@@ -60,7 +60,7 @@ PLATFORMS
 DEPENDENCIES
   fastimage
   minitest
-  octokit (~> 4.20)
+  octokit (~> 4.21)
   pry
   rake
   rubocop
