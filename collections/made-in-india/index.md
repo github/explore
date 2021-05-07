@@ -1,9 +1,10 @@
 ---
 items:
+ - TheAlgorithms
  - hoppscotch/hoppscotch
+ - anuraghazra/github-readme-stats
  - hasura/graphql-engine
  - geekyants/nativebase
- - TheAlgorithms
  - kovidgoyal/calibre
  - frappe/erpnext
  - chatwoot/chatwoot
@@ -11,6 +12,7 @@ items:
  - fission/fission
  - covid19india/covid19india-react
  - knadh/listmonk
+ - appsmithorg/appsmith
  - bagisto/bagisto
  - gluster/glusterfs
  - frappe/frappe
@@ -20,12 +22,10 @@ items:
  - SigNoz/signoz
  - uvdesk/community-skeleton
  - CRED-CLUB/synth-android
- - kadalu/kadalu
  - krishdevdb/reseter.css
- - project-sunbird
  - pupilfirst/pupilfirst
- - appsmithorg/appsmith
- - anuraghazra/github-readme-stats
+ - kadalu/kadalu
+ - project-sunbird
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
