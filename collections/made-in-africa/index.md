@@ -15,6 +15,7 @@ items:
  - gernest/utron
  - ushahidi/platform
  - Yorubaname/yorubaname-website
+ - codedivoire/made-in-ci
 display_name: Made in Africa
 created_by: mozzadrella
 ---
