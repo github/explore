@@ -1,6 +1,6 @@
 ---
 items:
- - adobe/brackets
+ - adobe/brackets - Support ends Spetember 1, 2021
  - limetext/lime
  - textmate/textmate
  - neovim/neovim
