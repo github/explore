@@ -2,6 +2,7 @@
 items:
  - TheAlgorithms
  - hoppscotch/hoppscotch
+ - hyperlog/hyperlog
  - anuraghazra/github-readme-stats
  - hasura/graphql-engine
  - geekyants/nativebase
