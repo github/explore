@@ -1,5 +1,6 @@
 ---
 items:
+ - coronasafe/life
  - TheAlgorithms
  - hoppscotch/hoppscotch
  - anuraghazra/github-readme-stats
