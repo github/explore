@@ -56,6 +56,7 @@ items:
 - cqfn/eo
 - ChavaScript/chavascript
 - DennisMitchell/jellylanguage
+- beefytech/Beef
 display_name: Programming languages
 created_by: leereilly
 ---
