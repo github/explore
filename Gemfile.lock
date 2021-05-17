@@ -32,7 +32,7 @@ GEM
     rake (13.0.3)
     regexp_parser (2.1.1)
     rexml (3.2.5)
-    rubocop (1.14.0)
+    rubocop (1.15.0)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
