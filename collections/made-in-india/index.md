@@ -18,6 +18,7 @@ items:
  - frappe/frappe
  - spaceuptech/space-cloud
  - shivammathur/setup-php
+ - TeamUltroid/Ultroid
  - infracloudio/botkube
  - SigNoz/signoz
  - uvdesk/community-skeleton
