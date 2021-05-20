@@ -3,7 +3,7 @@ topic: obsidian-md
 display_name: Obsidian
 aliases: obsidian
 url: https://obsidian.md
-github_url: https://github.com/obsidianmd/obsidian-releases
+github_url: https://github.com/obsidianmd
 short_description: Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.
 logo: obsidian.png
 created_by: Shida Li and Erica Xu
