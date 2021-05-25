@@ -10,3 +10,4 @@ url: https://www.google.com
 wikipedia_url: https://en.wikipedia.org/wiki/Google
 ---
 Google is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.
+Google is a child company of [Alphabet, Inc](https://abc.xyz).
