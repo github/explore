@@ -1,12 +1,11 @@
 ---
 aliases: obo, obofoundry
-created_by:
 display_name: OBO Foundry
 github_url: https://github.com/OBOFoundry
 logo: foundrylogo.png
 related: web ontology language
-released:
-short_description: 
+released: 2003
+short_description: The OBO Foundry is a community and associated infrastructure supporting the creation, review, and maintenance of life science ontologies and best practices.
 topic: obofoundry
 url: http://www.obofoundry.org/
 wikipedia_url: https://en.wikipedia.org/wiki/OBO_Foundry
