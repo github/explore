@@ -27,6 +27,7 @@ items:
  - rxi/lite
  - howl-editor/howl
  - notepad-plus-plus/notepad-plus-plus
+ - XhmikosR/notepad2-mod
  - vim/vim
 
 display_name: Text editors
