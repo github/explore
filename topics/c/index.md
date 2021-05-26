@@ -1,5 +1,5 @@
 ---
-aliases: c-language, c-programming-language
+aliases: c-language, c-programming-language, c99, c89, c-ansi, k-and-r
 created_by: Dennis Ritchie
 display_name: C
 logo: c.png
