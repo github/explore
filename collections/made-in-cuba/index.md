@@ -11,7 +11,6 @@ items:
  - jadolg/rocketchat_API
  - pavelmc/FT857d
  - pavelmc/Si5351mcu
- - stepperUnipolar
  - pavelmc/Yatuli
  - pavelmc/BMux
  - pavelmc/arduino-arcs
