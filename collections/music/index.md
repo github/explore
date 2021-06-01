@@ -14,6 +14,7 @@ items:
  - overtone/overtone
  - samaaron/sonic-pi
  - nukeop/nuclear
+ - swdotcom/swdc-vscode-musictime
 display_name: Music
 created_by: jonrohan
 ---
