@@ -26,6 +26,8 @@ items:
  - pupilfirst/pupilfirst
  - kadalu/kadalu
  - project-sunbird
+ - SecurityFTW/cs-suite
+ - adithyakhamithkar/ansible-playbooks
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
