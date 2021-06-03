@@ -1,36 +1,51 @@
 ---
 items:
- - 30-seconds/30-seconds-of-code
- - railsgirls/railsgirls.github.io
- - railsbridge/docs
- - freeCodeCamp/freeCodeCamp
- - leachim6/hello-world
- - datasciencemasters/go
- - tuvtran/project-based-learning
- - zhiwehu/Python-programming-exercises
- - MunGell/awesome-for-beginners
- - appacademy/welcome-to-open
- - webgems/webgems
- - kamranahmedse/developer-roadmap
- - AMAI-GmbH/AI-Expert-Roadmap
- - trekhleb/javascript-algorithms
- - Microsoft/web-dev-for-beginners
- - karan/Projects
- - sindresorhus/awesome
- - donnemartin/system-design-primer
- - danistefanovic/build-your-own-x
+
+- APIs
  - public-apis/public-apis
- - EbookFoundation/free-programming-books
- - amitness/learning
- - mhinz/vim-galore
- - tayllan/awesome-algorithms
- - karlhorky/learn-to-program
+- CLI
  - therebelrobot/awesome-workshopper
  - jlevy/the-art-of-command-line
+- Computer Science
  - papers-we-love/papers-we-love
- - awesome-selfhosted/awesome-selfhosted
+- Data Science
+ - datasciencemasters/go
+ - amitness/learning
+- Free Software
  - ripienaar/free-for-dev
+- JavaScript
+ - 30-seconds/30-seconds-of-code
+ - trekhleb/javascript-algorithms
  - gothinkster/realworld
+- Multiple Languages
+ - freeCodeCamp/freeCodeCamp
+ - leachim6/hello-world
+ - tuvtran/project-based-learning
+ - MunGell/awesome-for-beginners\
+ - appacademy/welcome-to-open
+ - webgems/webgems
+ - karan/Projects
+ - sindresorhus/awesome
+ - danistefanovic/build-your-own-x
+ - EbookFoundation/free-programming-book
+ - tayllan/awesome-algorithms
+- Python
+ - zhiwehu/Python-programming-exercises
+- Roadmaps
+ - kamranahmedse/developer-roadmap
+ - AMAI-GmbH/AI-Expert-Roadmap
+- Ruby on Rails
+ - railsgirls/railsgirls.github.io
+ - railsbridge/docs
+- Self-Hosted
+ - awesome-selfhosted/awesome-selfhosted
+- System Design
+ - donnemartin/system-design-primer
+- Text Editors
+ - mhinz/vim-galore
+- Web Development
+ - Microsoft/web-dev-for-beginners
+ - karlhorky/learn-to-program
  - thedaviddias/Front-End-Checklist
 
 display_name: Learn to Code
