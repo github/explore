@@ -15,7 +15,7 @@ items:
  - checkstyle/checkstyle
  - rubocop-hq/rubocop
  - oclint/oclint
- - golang/lint
+ - dominikh/go-tools
  - ndmitchell/hlint
  - coala/coala
  - pre-commit/pre-commit
