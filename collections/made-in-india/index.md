@@ -27,6 +27,8 @@ items:
  - kadalu/kadalu
  - project-sunbird
  - dr5hn/countries-states-cities-database
+ - SecurityFTW/cs-suite
+ - adithyakhamithkar/ansible-playbooks
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
