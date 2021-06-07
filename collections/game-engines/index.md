@@ -26,7 +26,7 @@ items:
  - playcanvas/engine
  - cocos2d/cocos2d-html5
  - craftyjs/Crafty
- - pixijs/pixi.js
+ - pixijs/pixijs
  - renpy/renpy
  - OpenRA/OpenRA
  - OpenRCT2/OpenRCT2
