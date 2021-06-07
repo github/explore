@@ -13,7 +13,7 @@ items:
  - PyCQA/flake8
  - psf/black
  - checkstyle/checkstyle
- - rubocop-hq/rubocop
+ - rubocop/rubocop
  - oclint/oclint
  - dominikh/go-tools
  - ndmitchell/hlint
