@@ -3,7 +3,7 @@ aliases: njk
 display_name: Nunjucks
 topic: nunjucks
 github_url: https://github.com/mozilla/nunjucks
-logo: nunjucks.png
+logo: nunjucks.jpg
 related: jinja2, liquid
 released: September 2012
 short_description: Templating language for JavaScript.
