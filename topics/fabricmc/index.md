@@ -1,5 +1,5 @@
 ---
-aliases: fabric, fabric-mod
+aliases: fabric, fabric-mod, fabricmc-mod, minecraft-fabric-mod, minecraft-fabric
 created_by: FabricMC Contributors
 display_name: FabricMC
 github_url: https://github.com/FabricMC/
