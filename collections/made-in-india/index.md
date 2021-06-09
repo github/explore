@@ -16,7 +16,7 @@ items:
  - bagisto/bagisto
  - gluster/glusterfs
  - frappe/frappe
- - spaceuptech/space-cloud
+ - spacecloud-io/space-cloud
  - shivammathur/setup-php
  - infracloudio/botkube
  - SigNoz/signoz
