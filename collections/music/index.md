@@ -12,7 +12,7 @@ items:
  - gillesdemey/Cumulus
  - metabrainz/picard
  - overtone/overtone
- - samaaron/sonic-pi
+ - sonic-pi-net/sonic-pi
  - nukeop/nuclear
  - swdotcom/swdc-vscode-musictime
 display_name: Music
