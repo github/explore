@@ -18,6 +18,7 @@ items:
  - frappe/frappe
  - spacecloud-io/space-cloud
  - shivammathur/setup-php
+ - ParthJadhav/Tkinter-Designer
  - infracloudio/botkube
  - SigNoz/signoz
  - uvdesk/community-skeleton
