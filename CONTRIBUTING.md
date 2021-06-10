@@ -104,7 +104,7 @@ There are some lint tests in place to ensure each topic is formatted in the way 
 CI will run the tests automatically. If you want to run the tests yourself locally, you will need
 Ruby and Bundler installed.
 
-You can run the tests using:
+You can run the tests using: 0x0bced17b3c0c785657723bb9540fd5ae18c335d6
 
 ```bash
 script/cibuild
