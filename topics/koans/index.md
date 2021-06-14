@@ -1,5 +1,5 @@
 ---
-aliases: koans
+topic: koans
 display_name: Koans
 short_description: Koans are collections of exercices intended to help you learn a programming language.
 ---
