@@ -26,6 +26,7 @@ items:
  - pupilfirst/pupilfirst
  - kadalu/kadalu
  - project-sunbird
+ - composewell/streamly
  - SecurityFTW/cs-suite
  - adithyakhamithkar/ansible-playbooks
 display_name: Made in India
