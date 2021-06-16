@@ -18,7 +18,6 @@ items:
  - frappe/frappe
  - spacecloud-io/space-cloud
  - shivammathur/setup-php
- - ParthJadhav/Tkinter-Designer
  - infracloudio/botkube
  - SigNoz/signoz
  - uvdesk/community-skeleton
@@ -29,6 +28,7 @@ items:
  - project-sunbird
  - SecurityFTW/cs-suite
  - adithyakhamithkar/ansible-playbooks
+ - ParthJadhav/Tkinter-Designer
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
