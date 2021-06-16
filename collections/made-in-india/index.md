@@ -16,7 +16,7 @@ items:
  - bagisto/bagisto
  - gluster/glusterfs
  - frappe/frappe
- - spaceuptech/space-cloud
+ - spacecloud-io/space-cloud
  - shivammathur/setup-php
  - infracloudio/botkube
  - SigNoz/signoz
@@ -26,9 +26,11 @@ items:
  - pupilfirst/pupilfirst
  - kadalu/kadalu
  - project-sunbird
- - dr5hn/countries-states-cities-database
+ - composewell/streamly
  - SecurityFTW/cs-suite
  - adithyakhamithkar/ansible-playbooks
+ - ToolJet/ToolJet
+ - dr5hn/countries-states-cities-database
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png

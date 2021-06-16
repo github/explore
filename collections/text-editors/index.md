@@ -25,6 +25,7 @@ items:
  - JetBrains/intellij-community
  - emacs-mirror/emacs
  - rxi/lite
+ - lite-xl/lite-xl
  - howl-editor/howl
  - notepad-plus-plus/notepad-plus-plus
  - XhmikosR/notepad2-mod
