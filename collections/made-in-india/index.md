@@ -29,6 +29,7 @@ items:
  - composewell/streamly
  - SecurityFTW/cs-suite
  - adithyakhamithkar/ansible-playbooks
+ - ToolJet/ToolJet
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
