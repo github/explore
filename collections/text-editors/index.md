@@ -30,6 +30,7 @@ items:
  - notepad-plus-plus/notepad-plus-plus
  - XhmikosR/notepad2-mod
  - vim/vim
+ - Alexey-T/CudaText
 
 display_name: Text editors
 created_by: leereilly
