@@ -30,6 +30,7 @@ items:
  - SecurityFTW/cs-suite
  - adithyakhamithkar/ansible-playbooks
  - ToolJet/ToolJet
+ - ParthJadhav/Tkinter-Designer
  - dr5hn/countries-states-cities-database
 display_name: Made in India
 created_by: mvkaran
