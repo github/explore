@@ -13,9 +13,9 @@ items:
  - PyCQA/flake8
  - psf/black
  - checkstyle/checkstyle
- - rubocop-hq/rubocop
+ - rubocop/rubocop
  - oclint/oclint
- - golang/lint
+ - dominikh/go-tools
  - ndmitchell/hlint
  - coala/coala
  - pre-commit/pre-commit

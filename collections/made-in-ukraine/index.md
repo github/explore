@@ -10,7 +10,7 @@ items:
  - uglide/RedisDesktopManager
  - trekhleb/homemade-machine-learning
  - vadimdemedes/ink
- - denysdovhan/spaceship-prompt
+ - spaceship-prompt/spaceship-prompt
  - aio-libs/aiohttp
  - pnpm/pnpm
  - paulmillr/chokidar
