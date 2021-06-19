@@ -32,6 +32,10 @@ items:
  - ToolJet/ToolJet
  - ParthJadhav/Tkinter-Designer
  - dr5hn/countries-states-cities-database
+ - TheAlphamerc/flutter_twitter_clone
+ - TheAlphamerc/flutter-GitConnect
+ - TheAlphamerc/flutter_plugin_filter_list
+ - TheAlphamerc/flutter_ecommerce_app
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
