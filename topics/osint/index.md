@@ -1,6 +1,7 @@
 ---
 topic: osint
 related: malfrats
+aliases: investigation
 display_name: OSINT
 logo: osint.png
 short_description: All projects related to OSINT.
