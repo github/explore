@@ -32,7 +32,9 @@ items:
  - vim/vim
  - Alexey-T/CudaText
  - orbitalquark/textadept
-
+ - KDE/kate
+ - tsujan/FeatherPad
+ - 
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
