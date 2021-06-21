@@ -31,6 +31,7 @@ items:
  - XhmikosR/notepad2-mod
  - vim/vim
  - Alexey-T/CudaText
+ - orbitalquark/textadept
 
 display_name: Text editors
 created_by: leereilly
