@@ -17,6 +17,7 @@ items:
  - panzerdp/clipboardy
  - zenorocha/codecopy
  - kamranahmedse/githunt
+ - zvizvi/github-web-ide
  - harshjv/github-repo-size
  - sindresorhus/refined-github
  - softvar/enhanced-github
