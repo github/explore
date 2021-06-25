@@ -32,6 +32,11 @@ items:
  - ToolJet/ToolJet
  - ParthJadhav/Tkinter-Designer
  - dr5hn/countries-states-cities-database
+ - thefallenmerc/notebook
+ - thefallenmerc/notebook-backend
+ - thefallenmerc/tfm-blog
+ - thefallenmerc/lanflix
+ - thefallenmerc/ui-react-twitter-dark
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
