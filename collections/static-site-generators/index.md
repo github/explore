@@ -21,6 +21,7 @@ items:
  - jaspervdj/hakyll
  - umijs/umi
  - abelljs/abell
+ - leonstafford/wp2static
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
