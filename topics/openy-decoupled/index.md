@@ -1,10 +1,10 @@
 ---
 aliases: openy,ymca-decoupled
-created_by: Nils Adermann, Jordi Boggiano
-display_name: Composer
-github_url: https://github.com/composer
-logo: composer.png
-related: php,package-manager
+created_by: Andrii Podanenko
+display_name: Open Y Distribution
+github_url: https://github.com/ymcatwincities/openy
+logo: openy.png
+related: drupal,drupal-distribution
 released: Sep 27, 2015
 short_description: Open Y is the largest Drupal distribution for YMCAs and other non profits.
 topic: openy
