@@ -1,6 +1,6 @@
 ---
 aliases: openy,ymca-decoupled
-created_by: Andrii Podanenko
+created_by: https://github.com/ymcatwincities/openy/graphs/contributors
 display_name: Open Y Distribution
 github_url: https://github.com/ymcatwincities/openy
 logo: openy.png
