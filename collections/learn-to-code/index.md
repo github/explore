@@ -4,7 +4,7 @@ items:
  - railsgirls/railsgirls.github.io
  - railsbridge/docs
  - freeCodeCamp/freeCodeCamp
- - leachim6/hello-world
+ - leachim6/![pi](https://user-images.githubusercontent.com/67183704/123953064-9fa4db00-d9c8-11eb-995b-d07b95a03624.png)
  - datasciencemasters/go
  - tuvtran/project-based-learning
  - zhiwehu/Python-programming-exercises
