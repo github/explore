@@ -3,7 +3,7 @@ items:
  - PixelVision8/PixelVision8
  - LIKO-12/LIKO-12
  - nesbox/TIC-80
- - ico-8/awesome-PICO-8
+ - pico-8/awesome-PICO-8
  - paladin-t/b8
  - kitao/pyxel
  - le-doux/bitsy
