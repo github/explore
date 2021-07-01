@@ -18,6 +18,7 @@ items:
  - scikit-learn-contrib/lightning
  - gwding/draw_convnet
  - scikit-learn/scikit-learn
+ - microsoft/ML-For-Beginners
  - tensorflow/tensorflow
  - activeloopai/Hub
  - Theano/Theano
