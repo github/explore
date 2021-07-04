@@ -1,5 +1,6 @@
 ---
 items:
+- agda/agda
 - golang/go
 - apple/swift
 - Microsoft/TypeScript
