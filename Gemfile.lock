@@ -1,17 +1,32 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.2)
     coderay (1.1.3)
-    faraday (1.0.1)
+    faraday (1.5.0)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0.1)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.1)
+      faraday-patron (~> 1.0)
       multipart-post (>= 1.2, < 3)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
+    faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.1.0)
+    faraday-patron (1.0.0)
     fastimage (2.2.0)
     method_source (1.0.0)
     minitest (5.14.2)
     multipart-post (2.1.1)
-    octokit (4.18.0)
+    octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     parallel (1.20.1)
@@ -40,6 +55,7 @@ GEM
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
     ruby-progressbar (1.11.0)
+    ruby2_keywords (0.0.4)
     safe_yaml (1.0.5)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
@@ -52,7 +68,7 @@ PLATFORMS
 DEPENDENCIES
   fastimage
   minitest
-  octokit (~> 4.0)
+  octokit (~> 4.18, >= 4.18.0)
   pry
   rake
   rubocop (>= 0.92.0)
