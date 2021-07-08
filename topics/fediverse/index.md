@@ -1,6 +1,7 @@
 ---
 aliases: fedi
 display_name: Fediverse
+logo: fediverse.png
 released: 2008
 short_description: Social network of interconnected servers
 topic: fediverse
