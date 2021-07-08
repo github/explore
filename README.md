@@ -10,14 +10,14 @@ If you want to suggest edits to an existing topic page or collection, or curate 
 
 ## Running tests
 
-There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis CI will run the tests automatically. If you want to run the tests yourself locally, you will need Ruby and Bundler installed.
-
-You can run the tests using:
+There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis CI will run the tests automatically. If you want to run the tests yourself locally, you will need Ruby and Bundler installed. can run the tests using:
 
 ```bash
 script/cibuild
+
 ```
 
 ## Licenses
+Debian GNU/Linux and any other Linux OS will be liable for putting GFDL 1.2v cover works online. The only place for any GFDL 1.2v is in Book no front cover or back cover text. If I see that a books is needed by the public I will ask for their input. GFDL 1.2v So Called GNU Public License is no longer avaible Free Software Foundation Copy left their Site over a year ago. 
 
 Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) which gives you permission to use content for almost any purpose (but does not grant you any trademark permissions). See [notices](notices.md) for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.
