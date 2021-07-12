@@ -1,13 +1,13 @@
 ---
+topic: vscode
 aliases: visual-studio-code
 created_by: Microsoft Corporation
 display_name: VS Code
 github_url: https://github.com/Microsoft/vscode
-logo: visual-studio-code.png
+logo: vscode.png
 related: vscode-theme, vscode-extension, text-editor
 released: April 29, 2015
 short_description: A cross-platform source code editor written in JavaScript and TypeScript.
-topic: vs-code
 url: https://code.visualstudio.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Visual_Studio_Code
 ---
