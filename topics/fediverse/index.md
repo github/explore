@@ -1,5 +1,4 @@
 ---
-aliases: fedi
 display_name: Fediverse
 logo: fediverse.png
 related: federation, federated, decentralization, decentralized, activitypub, ostatus
