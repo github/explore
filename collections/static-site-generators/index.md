@@ -7,7 +7,6 @@ items:
  - vuejs/vuepress
  - hexojs/hexo
  - vercel/next.js
- - snowpackjs/astro
  - getpelican/pelican
  - facebook/Docusaurus
  - slatedocs/slate
@@ -22,6 +21,7 @@ items:
  - jaspervdj/hakyll
  - umijs/umi
  - abelljs/abell
+ - snowpackjs/astro
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
