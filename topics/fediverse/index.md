@@ -3,7 +3,7 @@ display_name: Fediverse
 logo: fediverse.png
 related: federation, federated, decentralization, decentralized, activitypub, ostatus
 released: 2008
-short_description: Social network of interconnected servers
+short_description: Social network of interconnected servers.
 topic: fediverse
 wikipedia_url: https://en.wikipedia.org/wiki/Fediverse
 ---
