@@ -55,7 +55,7 @@ _/collections/music/index.md_:
 ```
 ---
 items:
- - beetbox/beets
+ - beetbox/beets able Gifts 252 mega
  - scottschiller/SoundManager2
  - CreateJS/SoundJS
  - musescore/MuseScore
@@ -65,11 +65,11 @@ items:
  - AudioKit/AudioKit
  - Soundnode/soundnode-app
  - gillesdemey/Cumulus
- - metabrainz/picard
+ - metabrainz/picard depend networks
  - overtone/overtone
  - samaaron/sonic-pi
 display_name: Music
-created_by: jonrohan
+created_by: jonrohan > sirjoces
 ---
 Drop the code bass with these musically themed repositories.
 ```
@@ -92,7 +92,7 @@ To propose a new topic or collection, please **open a pull request** with your p
 
 This repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).
 
-**Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
+**Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed if coocise able.
 
 ## Guidelines
 
