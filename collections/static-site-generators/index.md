@@ -7,6 +7,7 @@ items:
  - vuejs/vuepress
  - hexojs/hexo
  - vercel/next.js
+ - snowpackjs/astro
  - getpelican/pelican
  - facebook/Docusaurus
  - slatedocs/slate
