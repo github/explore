@@ -20,7 +20,6 @@ items:
  - stdevPavelmc/esp8266_wx_station
  - Pixely-Studios/NStart
  - ovillafuerte94/qvolax
- - https://binary-coffee.dev
 
 display_name: Made in Cuba
 created_by: lopezdp
