@@ -1,6 +1,5 @@
 ---
 items:
- - mlbvn
  - VinAIResearch
  - vietai
  - webuild-community
