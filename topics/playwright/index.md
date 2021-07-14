@@ -3,7 +3,7 @@ created_by: Microsoft
 display_name: Playwright
 github_url: https://github.com/microsoft/playwright
 logo: playwright.png
-released: Jan 31, 2020
+released: January 31, 2020
 short_description: Playwright enables reliable end-to-end testing for modern web apps.
 topic: playwright
 url: https://playwright.dev/
