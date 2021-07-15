@@ -3,7 +3,7 @@ aliases: supabase, supabase-js, supabasejs
 created_by: Paul Copplestone and Ant Wilson
 display_name: Supabase
 github_url: https://github.com/supabase/supabase
-logo: supabase.svg
+logo: supabase.png
 related: database, react, postgres, sql, firebase
 released: February 2020 # Earliest Date I could find
 short_description: Supabase is a Open-Souce Firebase Alternative.
