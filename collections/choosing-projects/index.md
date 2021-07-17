@@ -1,5 +1,5 @@
 ---
-items:
+Items:
  - rust-lang/rust
  - HospitalRun/hospitalrun-frontend
  - hoodiehq/hoodie
