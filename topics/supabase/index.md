@@ -1,5 +1,5 @@
 ---
-aliases: supabase, supabase-js, supabasejs
+aliases: supabase-js, supabasejs
 created_by: Paul Copplestone and Ant Wilson
 display_name: Supabase
 github_url: https://github.com/supabase/supabase
