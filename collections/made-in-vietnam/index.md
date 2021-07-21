@@ -1,5 +1,6 @@
 ---
 items:
+ - mlbvn
  - VinAIResearch
  - vietai
  - webuild-community
@@ -29,6 +30,7 @@ items:
  - phuoc-ng/csslayout
  - nguyenquangminh0711/ruby_jard
  - phuoc-ng/1loc
+ - BambooEngine/ibus-bamboo
 display_name: Made in Vietnam
 created_by: duythanhvn
 image: made-in-vietnam.png
