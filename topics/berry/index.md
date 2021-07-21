@@ -1,5 +1,5 @@
 ---
-aliases: Yarn 2
+aliases: yarn2
 created_by: Maël Nison
 display_name: berry
 github_url: https://github.com/yarnpkg/berry
