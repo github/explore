@@ -2,6 +2,7 @@
 items:
  - TheAlgorithms
  - hoppscotch/hoppscotch
+ - devtron-labs/devtron
  - anuraghazra/github-readme-stats
  - hasura/graphql-engine
  - geekyants/nativebase
