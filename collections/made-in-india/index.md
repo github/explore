@@ -34,6 +34,7 @@ items:
  - dr5hn/countries-states-cities-database
  - glific/glific
  - gautamkrishnar/blog-post-workflow
+ - devtron-labs/devtron
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
