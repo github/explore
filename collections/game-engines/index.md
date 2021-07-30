@@ -2,8 +2,8 @@
 items:
  - godotengine/godot
  - turbulenz/turbulenz_engine
- - GarageGames/Torque3D
- - GarageGames/Torque2D
+ - TorqueGameEngines/Torque3D
+ - TorqueGameEngines/Torque2D
  - spring/spring
  - cocos2d/cocos2d-x
  - Gamua/Starling-Framework
