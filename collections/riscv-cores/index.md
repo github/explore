@@ -1,5 +1,6 @@
 ---
 items:
+ - jlpteaching/dinocpu
  - ghent360/riscvOnColorlight-5A-75B
  - trabucayre/litexOnColorlightLab004
  - darklife/darkriscv
