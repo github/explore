@@ -1,6 +1,6 @@
 ---
 aliases: gitpod
-created_by: Dr. Jan Koehnlein, Moritz Eysholdt, Sven Efftinge
+created_by: Gero Posmyk-Leinemann
 display_name: Gitpod
 github_url: https://github.com/gitpod-io/gitpod/
 logo: gitpod.png
