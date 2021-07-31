@@ -1,5 +1,4 @@
 ---
-aliases: gitpod
 created_by: Gero Posmyk-Leinemann
 display_name: Gitpod
 github_url: https://github.com/gitpod-io/gitpod/
