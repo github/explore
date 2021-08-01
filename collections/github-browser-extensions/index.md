@@ -1,5 +1,6 @@
 ---
 items:
+ - translate-tools/linguist
  - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
