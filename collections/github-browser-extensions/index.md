@@ -1,6 +1,5 @@
 ---
 items:
- - translate-tools/linguist
  - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
@@ -38,6 +37,7 @@ items:
  - vladgolubev/quickreview-for-github
  - matthizou/github-show-avatars
  - dderevjanik/github-vscode-icons
+ - translate-tools/linguist
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
