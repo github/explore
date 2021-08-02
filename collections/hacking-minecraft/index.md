@@ -22,6 +22,11 @@ items:
  - GlowstoneMC/Glowstone
  - MovingBlocks/Terasology
  - Zerite/CraftLib
+ - PaperMC/Paper
+ - CaffeineMC/sodium-fabric
+ - FabricMC/fabric
+ - lambda-client/lambda/
+ - nerdsinspace/nocom-explanation
 display_name: Hacking Minecraft
 created_by: leereilly
 ---
