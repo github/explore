@@ -1,6 +1,5 @@
 ---
 items:
- - jlpteaching/dinocpu
  - ghent360/riscvOnColorlight-5A-75B
  - trabucayre/litexOnColorlightLab004
  - darklife/darkriscv
@@ -51,6 +50,7 @@ items:
  - DuinOS/RISCuinho
  - Saanlima/RISC5Verilog_psram
  - Saanlima/RISC5Verilog_lpddr
+ - jlpteaching/dinocpu
 display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---
