@@ -1,12 +1,13 @@
 ---
-aliases: sailfishos
+aliases: sailfish-os
 created_by: Jolla
 display_name: Sailfish OS
 github_url: https://github.com/sailfishos
-logo: sailfish-os.png
+logo: sailfishos.png
 released: December 2013
+related: Qt
 short_description: A Linux-based mobile operating system.
-topic: sailfish-os
+topic: sailfishos
 url: https://sailfishos.org
 wikipedia_url: https://en.wikipedia.org/wiki/Sailfish_OS
 ---
