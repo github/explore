@@ -50,6 +50,7 @@ items:
  - DuinOS/RISCuinho
  - Saanlima/RISC5Verilog_psram
  - Saanlima/RISC5Verilog_lpddr
+ - jlpteaching/dinocpu
 display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---
