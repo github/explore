@@ -5,7 +5,7 @@ display_name: Sailfish OS
 github_url: https://github.com/sailfishos
 logo: sailfishos.png
 released: December 2013
-related: Qt
+related: qt
 short_description: A Linux-based mobile operating system.
 topic: sailfishos
 url: https://sailfishos.org
