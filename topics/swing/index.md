@@ -1,4 +1,5 @@
 ---
+aliases: java-swing
 created_by: Oracle
 display_name: Swing
 logo: swing.png
