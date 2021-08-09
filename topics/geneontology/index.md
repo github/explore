@@ -1,5 +1,5 @@
 ---
-aliases: GO, geneontology, gene-ontology
+aliases: gene-ontology
 display_name: The Gene Ontology Consortium
 github_url: https://github.com/geneontology
 logo: GO-logo-vertical.png
