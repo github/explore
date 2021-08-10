@@ -22,6 +22,7 @@ items:
  - ElemeFE/mint-ui
  - ElemeFE/node-interview
  - ElemeFE/v-charts
+ - hexojs/hexo
  - meituan-dianping/mpvue
  - meituan-dianping/walle
  - netease/pomelo
