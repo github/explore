@@ -22,7 +22,7 @@ GEM
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
-    fastimage (2.2.4)
+    fastimage (2.2.5)
     method_source (1.0.0)
     minitest (5.14.4)
     multipart-post (2.1.1)
