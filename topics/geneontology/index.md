@@ -2,7 +2,7 @@
 aliases: gene-ontology
 display_name: The Gene Ontology Consortium
 github_url: https://github.com/geneontology
-logo: GO-logo-vertical.png
+logo: geneontology.png
 related: obofoundry
 released: 1999
 short_description: The Gene Ontology (GO) knowledgebase is the world’s largest source of information on the functions of genes.
