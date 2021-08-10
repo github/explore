@@ -6,7 +6,7 @@ github_url: https://github.com/microsoft/vscode
 logo: visual-studio-code.png
 related: vscode-theme, vscode-extension, text-editor
 released: April 29, 2015
-short_description: Extensible editor for Windows, macOS, and Linux, for coding in any programming language
+short_description: Extensible editor for Windows, macOS, and Linux, for coding in any programming language.
 topic: visual-studio-code
 url: https://code.visualstudio.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Visual_Studio_Code
