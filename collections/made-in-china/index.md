@@ -25,9 +25,9 @@ items:
  - meituan-dianping/mpvue
  - meituan-dianping/walle
  - netease/pomelo
- - shadowsocks/shadowsocks
  - shadowsocks/shadowsocks-android
  - shadowsocks/shadowsocks-windows
+ - tealang/tea
  - tencent/APIJSON
  - tencent/MMKV
  - tencent/QMUI_Android
@@ -41,6 +41,9 @@ items:
  - tencent/wepy
  - tencent/weui
  - tencent/weui-wxss
+ - vitejs/vite
+ - vuejs/vue
+ - vuejs/vuepress
  - xiaomi/mace
  - xiaomi/soar
  - 996icu/996.ICU
