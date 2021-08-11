@@ -1,9 +1,9 @@
 ---
-aliases: megengine
+aliases: Megengine
 created_by: Megvii
 display_name: MegEngine
 logo: megengine.png
-short_description: MegEngine is a fast, scalable and easy-to-use deep learning framework, with auto-differentiation. MegEngine 是一个快速、可拓展、易于使用且支持自动求导的深度学习框架。
+short_description: MegEngine is a fast, scalable and easy-to-use deep learning framework, with auto-differentiation.
 topic: megengine
 url: https://megengine.org.cn/
 github_url: https://github.com/MegEngine/MegEngine
