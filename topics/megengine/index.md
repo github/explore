@@ -1,5 +1,5 @@
 ---
-aliases: Megengine
+aliases: mge
 created_by: Megvii
 display_name: MegEngine
 logo: megengine.png
