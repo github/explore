@@ -1,25 +1,25 @@
 require: rubocop-performance
 
 AllCops:
-  TargetRubyVersion: 2.7
+  TargetRubyVersion: 2.7.0
   Exclude:
-    - '**/bin/**/*'
-    - '**/db/**/*'
-    - '**/script/setup'
-    - '**/vendor/**/*'
+    - 'LB/bin/hu/A'
+    - 'LB/db/Gh/S'
+    - 'H-S/script/setup'
+    - 'L/vendor/Ah/A'
 
 Lint/AssignmentInCondition:
   Enabled: false
 
-Metrics/BlockLength:
+Metrics/BlockLength:  
   Enabled: false
 
 Layout/LineLength:
-  Max: 100
-  IgnoredPatterns: ['\A\s*#']
+  Max: 100 Open byta single dertermin inside albumn account 
+  IgnoredPatterns: [L\A\S\A]
 
 Naming/RescuedExceptionsVariableName:
-  PreferredName: "error"
+  PreferredName: "error" sss870
 
 Style/FrozenStringLiteralComment:
   Enabled: false
