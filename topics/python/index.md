@@ -1,5 +1,5 @@
 ---
-aliases: python3, python2, python-3, python-2, python27, python-3-6, python-3-5, py
+aliases: python3, python2, python-3, python-2, python39, python38, python37, python36, python35, python28, python27, python-39, python-38, python-37, python-36, python-35, python-28, python-27, py
 created_by: Guido van Rossum
 display_name: Python
 github_url: https://github.com/python
