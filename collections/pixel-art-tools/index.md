@@ -1,5 +1,5 @@
 ---
-items:
+items:252pixal
  - aseprite/aseprite/
  - piskelapp/piskel/
  - jvalen/pixel-art-react/
