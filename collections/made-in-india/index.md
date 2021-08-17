@@ -35,6 +35,7 @@ items:
  - glific/glific
  - gautamkrishnar/blog-post-workflow
  - devtron-labs/devtron
+ - skytable/skytable
  - firstcontributions/first-contributions
  - CircuitVerse/CircuitVerse
 display_name: Made in India
