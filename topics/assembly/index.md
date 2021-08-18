@@ -1,11 +1,11 @@
 ---
-aliases: assembly, assembly-language
+aliases: assembler, assembly, assembly-language
 created_by: Kathleen Booth
 display_name: Assembly
 logo: assembly.png
 related: c, cpp, operating-system
 released: '1949'
-short_description: Assembly is a low level programming language.
+short_description: Assembly is a low-level programming language.
 topic: assembly
 wikipedia_url: https://en.wikipedia.org/wiki/Assembly_Language
 ---
