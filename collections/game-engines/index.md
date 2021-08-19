@@ -44,6 +44,7 @@ items:
  - hajimehoshi/ebiten
  - HaxeFoundation/haxe
  - bevyengine/bevy
+ - Esenthel/EsenthelEngine
 display_name: Game Engines
 created_by: leereilly
 ---
