@@ -1,5 +1,5 @@
 ---
-aliases: obo, obofoundry
+aliases: obo
 display_name: OBO Foundry
 github_url: https://github.com/OBOFoundry
 logo: obofoundry.png

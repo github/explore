@@ -1,5 +1,5 @@
 ---
-aliases: frontend-developer, frontend
+aliases: frontend-developer
 display_name: Front end
 short_description: Front end is the programming and layout that people see and interact
   with.

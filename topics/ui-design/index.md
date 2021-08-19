@@ -1,5 +1,5 @@
 ---
-aliases: user-interface-design, ui-design
+aliases: user-interface-design
 display_name: User interface design
 short_description: The design of user interfaces for machines and software with the focus on maximizing usability and the user experience.
 topic: ui-design
