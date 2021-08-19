@@ -1,5 +1,5 @@
 ---
-aliases: assembler, assembly, assembly-language
+aliases: assembler, assembly-language
 created_by: Kathleen Booth
 display_name: Assembly
 logo: assembly.png

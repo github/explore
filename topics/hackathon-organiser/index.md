@@ -1,8 +1,8 @@
 ---
 topic: hackathon-organiser
-aliases: event-organiser, hack-organiser, hackathon-organizer, hack-organizer, event-organizer
+aliases: event-organiser, hack-organiser, hack-organizer, event-organizer
 display_name: Hackathon-Organiser
-related: game-jam, hacktoberfest, game-off, hackathon-kit, hackathon-organiser, hackathon, hackathons
+related: game-jam, hacktoberfest, game-off, hackathon-kit, hackathon, hackathons
 short_description: A person who organises or runs hackathons.
 wikipedia_url: https://en.wikipedia.org/wiki/Hackathon
 ---
