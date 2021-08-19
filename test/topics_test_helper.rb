@@ -62,7 +62,7 @@ def related_topics_for(topic)
   return [] unless metadata
   return [] unless metadata["related"]
 
-  metadata["related"].split(",")
+  metadata["related"].split(",").map(&:strip)
 end
 
 def aliases_for(topic)
@@ -70,7 +70,7 @@ def aliases_for(topic)
   return [] unless metadata
   return [] unless metadata["aliases"]
 
-  metadata["aliases"].split(",")
+  metadata["aliases"].split(",").map(&:strip)
 end
 
 def assert_oxford_comma(text)
