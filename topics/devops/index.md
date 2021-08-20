@@ -1,5 +1,5 @@
 ---
-aliases: dev-ops, devops
+aliases: dev-ops
 display_name: DevOps
 logo: devops.png
 related: ci, cd
