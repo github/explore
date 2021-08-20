@@ -1,5 +1,5 @@
 ---
-aliases: monolithic, microkernel, micro-kernel, exokernel, nanokernel
+aliases: microkernel, micro-kernel, exokernel, nanokernel
 display_name: Kernel
 short_description: Kernels are software at the core of modern operating systems that interact with hardware.
 topic: kernel
