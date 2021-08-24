@@ -6,7 +6,6 @@ items:
  - shadowsocks/shadowsocks
  - trojan-gfw/trojan
  - v2fly/v2ray-core
- - v2ray/v2ray-core
 display_name: Internet Censorship Circumventions
 created_by: new-pac
 ---
