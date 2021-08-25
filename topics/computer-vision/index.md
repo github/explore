@@ -1,5 +1,5 @@
 ---
-aliases: machine-vision
+aliases: machine-vision, computervision
 display_name: Computer vision
 related: vision, deep-learning, machine-learning, opencv, gan
 short_description: Computer vision tasks include methods for acquiring, processing, analyzing, and understanding digital images.

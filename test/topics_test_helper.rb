@@ -62,7 +62,7 @@ def related_topics_for(topic)
   return [] unless metadata
   return [] unless metadata["related"]
 
-  metadata["related"].split(",")
+  metadata["related"].split(",").map(&:strip)
 end
 
 def aliases_for(topic)
@@ -70,17 +70,18 @@ def aliases_for(topic)
   return [] unless metadata
   return [] unless metadata["aliases"]
 
-  metadata["aliases"].split(",")
+  metadata["aliases"].split(",").map(&:strip)
 end
 
 def assert_oxford_comma(text)
   return unless text
 
+  conjunctions = %w[and or]
   text.delete("\n").split(".").each do |sentence|
     # This is arbitrary; 2 is more correct but 3 avoids false positives.
     next if sentence.count(",") < 3
 
-    %w[and or].each do |conjunction|
+    conjunctions.each do |conjunction|
       next unless sentence.include? " #{conjunction} "
 
       assert_includes sentence, ", #{conjunction}", "Always use the Oxford comma"

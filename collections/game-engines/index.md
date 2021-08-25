@@ -2,8 +2,8 @@
 items:
  - godotengine/godot
  - turbulenz/turbulenz_engine
- - GarageGames/Torque3D
- - GarageGames/Torque2D
+ - TorqueGameEngines/Torque3D
+ - TorqueGameEngines/Torque2D
  - spring/spring
  - cocos2d/cocos2d-x
  - Gamua/Starling-Framework
@@ -26,7 +26,7 @@ items:
  - playcanvas/engine
  - cocos2d/cocos2d-html5
  - craftyjs/Crafty
- - pixijs/pixi.js
+ - pixijs/pixijs
  - renpy/renpy
  - OpenRA/OpenRA
  - OpenRCT2/OpenRCT2
@@ -41,6 +41,10 @@ items:
  - nCine/nCine
  - cocos-creator/engine
  - love2d/love
+ - hajimehoshi/ebiten
+ - HaxeFoundation/haxe
+ - bevyengine/bevy
+ - Esenthel/EsenthelEngine
 display_name: Game Engines
 created_by: leereilly
 ---

@@ -1,0 +1,71 @@
+---
+items:
+ - swisskyrepo/PayloadsAllTheThings
+ - vitalysim/Awesome-Hacking-Resources
+ - danielmiessler/SecLists
+ - bettercap/bettercap
+ - samratashok/nishang
+ - blaCCkHatHacEEkr/PENTESTING-BIBLE
+ - Gallopsled/pwntools
+ - zardus/ctf-tools
+ - tegal1337/0l4bs
+ - drduh/macOS-Security-and-Privacy-Guide
+ - apsdehal/awesome-ctf
+ - quasar/Quasar
+ - AlisamTechnology/ATSCAN
+ - Ciphey/Ciphey
+ - bkimminich/juice-shop
+ - pwndbg/pwndbg
+ - yeyintminthuhtut/Awesome-Red-Teaming
+ - google/google-ctf
+ - laramies/theHarvester
+ - orangetw/My-CTF-Web-Challenges
+ - Ganapati/RsaCtfTool
+ - Ignitetechnologies/Privilege-Escalation
+ - w181496/Web-CTF-Cheatsheet
+ - terjanq/Tiny-XSS-Payloads
+ - TH3xACE/SUDO_KILLER
+ - m0nad/awesome-privilege-escalation
+ - Ignitetechnologies/HackTheBox-CTF-Writeups
+ - l4wio/CTF-challenges-by-me
+ - Shiva108/CTF-notes
+ - GTFOBins/GTFOBins.github.io
+ - Ignitetechnologies/Vulnhub-CTF-Writeups
+ - trailofbits/ctf-challenges
+ - teambi0s/InCTFi
+ - netlight/security-challenge
+ - gophish/gophish
+ - veeral-patel/how-to-secure-anything
+ - teambi0s/InCTF
+ - LOLBAS-Project/LOLBAS
+ - devploit/CTF_OnlineTools
+ - teambi0s/BSides-CTF
+ - cliffe/SecGen
+ - vaib25vicky/awesome-mobile-security
+ - mantvydasb/RedTeam-Tactics-and-Techniques
+ - api0cradle/UltimateAppLockerByPassList
+ - hisxo/gitGraber
+ - S3cur3Th1sSh1t/WinPwn
+ - sherlock-project/sherlock
+ - s0md3v/Photon
+ - jivoi/awesome-osint
+ - Manisso/fsociety
+ - j3ssie/Osmedeus
+ - rsmusllp/king-phisher
+ - abhisharma404/vault
+ - t0thkr1s/revshellgen
+ - tina1998612/Awesome-Security-Tool-List
+ - pentestmonkey/pysecdump
+ - belane/I-CTF-FWHIBBIT
+ - ihebski/factordb
+ - CFI-UL/2018-CFI-CTF
+ - Execut3/Held-CTF
+ - teambi0s/InCTFj
+ - trimstray/the-book-of-secret-knowledge
+ - ctf-wiki/ctf-wiki
+ - eciavatta/caronte
+display_name: Capture The Flag (CTF) and Cyber Security Resources
+created_by: Mr-Skully
+image: ctf-cybersec-resources.png
+---
+A collections of tools, scripts, write-ups, and other essentials on GitHub that can help you improve your Cyber Security skills and ace your next CTF challenge.
