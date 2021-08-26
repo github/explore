@@ -1,9 +1,5 @@
 ---
 items:
- - Ja7ad/MoeinBackup
- - PyFarsi/pyabr
- - NipoDB/nipo
- - Ja7ad/vscode-go-power
  - Noah1001000/clean-code-persian
  - jadijadi/bestoon
  - jadijadi/justforfun
