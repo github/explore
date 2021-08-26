@@ -9,7 +9,7 @@ items:
  - jadijadi/justforfun
 
 display_name: Made in Iran
-created_by: Javad Rajabzade (@Ja7ad)
+created_by: Javad Rajabzade
 image: iran.png
 ---
-Iranian developer's list of open source projects :iran:. Please read the following [Contributing rules](https://github.com/github/explore/blob/main/CONTRIBUTING.md#curating-a-new-topic-or-collection) before submitting a **PR** for adding your project to this collection.
+Iranian developer's list of open source projects :iran:
