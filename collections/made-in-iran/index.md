@@ -6,6 +6,6 @@ items:
 
 display_name: Made in Iran
 created_by: Javad Rajabzade
-image: iran.png
+image: made-in-iran.png
 ---
 Iranian developer's list of open source projects :iran:
