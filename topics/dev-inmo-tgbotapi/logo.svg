@@ -1,0 +1,15 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <g id="Logo">
+  <title>Layer 1</title>
+  <ellipse ry="25" rx="50" id="svg_5" cy="100" cx="200" stroke-width="4" stroke="#000" fill="#f44336"/>
+  <!-- <rect rx="8" id="svg_2" height="100" width="300" y="150" x="50" stroke-width="4" stroke="#000" fill="#ec407a"/> -->
+  <rect rx="8" id="svg_2" height="100" width="30" y="150" x="50" stroke-width="4" stroke="#000" fill="#e1bee7"/>
+  <rect rx="8" id="svg_2" height="100" width="30" y="150" x="320" stroke-width="4" stroke="#000" fill="#FADF12"/>
+  <rect rx="32" id="svg_1" height="250" width="250" y="100" x="75" stroke-width="4" stroke="#000" fill="#81c784"/>
+  <ellipse ry="25" rx="25" id="svg_3" cy="180" cx="150" stroke-width="4" stroke="#000" fill="#e0e0e0"/>
+  <ellipse ry="25" rx="25" id="svg_4" cy="180" cx="250" stroke-width="4" stroke="#000" fill="#e0e0e0"/>
+  <rect id="svg_6" height="50" width="10" y="25" x="195" stroke-width="4" stroke="#000" fill="#f44336"/>
+  <ellipse ry="6" rx="10" id="svg_7" cy="22" cx="200" stroke-width="4" stroke="#000" fill="#f44336"/>
+  <path stroke="#000" id="svg_10" d="m127,298.6304c151.94978,-2.71739 147.84303,-26.08695 147.54965,-26.6304" stroke-width="4" fill="#81c784"/>
+ </g>
+</svg>
