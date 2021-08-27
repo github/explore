@@ -15,7 +15,7 @@
 ### Editing an existing topic or collection
 
 I'm suggesting these edits to an existing topic or collection:
-- [ ] Image (and my file is `*.png`, square, dimensions 288x288)
+- [ ] Image (and my file is `*.png`, square, dimensions 288x288, size <= 75 kB)
 - [ ] Content (and my changes are in `index.md`)
 
 > Please replace this line with an explanation of why you think these changes should be made.
