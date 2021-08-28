@@ -1,5 +1,5 @@
 ---
-aliases: golflang, golfing-language
+aliases: golflang
 display_name: Golfing language
 related: code-golf, programming-language
 short_description: A programming language designed to be terse.
