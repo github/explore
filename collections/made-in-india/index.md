@@ -1,6 +1,7 @@
 ---
 items:
  - TheAlgorithms
+ - mayankmetha/Rucky
  - hoppscotch/hoppscotch
  - anuraghazra/github-readme-stats
  - hasura/graphql-engine
