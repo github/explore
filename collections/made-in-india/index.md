@@ -22,7 +22,7 @@ items:
  - SigNoz/signoz
  - uvdesk/community-skeleton
  - CRED-CLUB/synth-android
- - krishdevdb/reseter.css
+ - resetercss/reseter.css
  - pupilfirst/pupilfirst
  - kadalu/kadalu
  - project-sunbird
@@ -38,6 +38,7 @@ items:
  - skytable/skytable
  - firstcontributions/first-contributions
  - CircuitVerse/CircuitVerse
+ - mayankmetha/Rucky
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
