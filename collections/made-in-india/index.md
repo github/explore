@@ -38,6 +38,7 @@ items:
  - skytable/skytable
  - firstcontributions/first-contributions
  - CircuitVerse/CircuitVerse
+ - mayankmetha/Rucky
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
