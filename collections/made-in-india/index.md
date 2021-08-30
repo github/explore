@@ -1,7 +1,6 @@
 ---
 items:
  - TheAlgorithms
-
  - hoppscotch/hoppscotch
  - anuraghazra/github-readme-stats
  - hasura/graphql-engine
@@ -39,7 +38,7 @@ items:
  - skytable/skytable
  - firstcontributions/first-contributions
  - CircuitVerse/CircuitVerse
- -  mayankmetha/Rucky
+ - mayankmetha/Rucky
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
