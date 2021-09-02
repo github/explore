@@ -21,6 +21,7 @@ items:
  - Bukkit/Bukkit
  - GlowstoneMC/Glowstone
  - MovingBlocks/Terasology
+ - Zerite/CraftLib
 display_name: Hacking Minecraft
 created_by: leereilly
 ---

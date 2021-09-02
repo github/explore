@@ -4,7 +4,7 @@ created_by: Aaron Boodman
 display_name: Userscripts
 github_url: https://github.com/greasemonkey/greasemonkey
 released: March 28, 2005
-short_description: A userscript is a kind of kind of lightweight browser extension, used to modify webpages.
+short_description: A userscript is a kind of lightweight browser extension, used to modify webpages.
 topic: userscript
 wikipedia_url: https://en.wikipedia.org/wiki/Userscript
 related: webextension, javascript

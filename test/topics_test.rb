@@ -1,6 +1,12 @@
 require_relative "./topics_test_helper"
 
 describe "topics" do
+  # Used by the Topics Page Style Guide test
+  end_punctuation = %w[. , ; :] + [" "]
+  month_abbreviations = %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec]
+  git_verbs = %w[GitHubbing Gitting]
+  bad_github_variants = %w[Github github]
+
   topics.each do |topic|
     describe "#{topic} topic" do
       it "has a valid name" do
@@ -297,11 +303,6 @@ describe "topics" do
       it "follows the Topic Page Style Guide" do
         text = body_for(topics_dir, topic)
         metadata = metadata_for(topics_dir, topic)
-        end_punctuation = %w[. , ; :] + [" "]
-        month_abbreviations = %w[Jan Feb Mar Apr Jun Jul Aug Sep Oct Nov Dec]
-        day_ordinals = %w[1st 2nd 3rd 1th 2th 3th 4th 5th 6th 7th 8th 9th]
-        git_verbs = %w[GitHubbing Gitting]
-        bad_github_variants = %w[Github github]
 
         text.lines do |line|
           line.chomp!
@@ -310,11 +311,6 @@ describe "topics" do
 
           month_abbreviations.each do |month|
             refute_includes line, "#{month} ", "Include and spell out the month"
-          end
-
-          day_ordinals.each do |date_end|
-            refute_includes line, date_end,
-                            'Include the day number without the "th" or "nd" at the end'
           end
 
           git_verbs.each do |no_git_verb|
@@ -331,14 +327,6 @@ describe "topics" do
           end_punctuation.each do |punctuation|
             refute_includes line, "git#{punctuation}",
                             'Always use correct capitalization when referring to "Git"'
-          end
-
-          match = line.match(/\b(\w+)\s\d[.,;:\s]/)
-          if match
-            allowed_words_before_numbers = %w[Perl Pi Auth Vision]
-            assert_includes allowed_words_before_numbers, match[1],
-                            'Write out "one" and every number less than 10, except when they ' \
-                            "follow one of: #{allowed_words_before_numbers.join(', ')}"
           end
         end
 

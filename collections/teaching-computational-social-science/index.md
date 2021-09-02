@@ -26,7 +26,6 @@ items:
  - dmasad/cssGradWorkshops
  - HerTeoh/computational_social_science
  - mobileink/lab.compss
- - mmonzoor/computational_social_science_course_notebooks
  - sschauss/css
  - jongbinjung/css-python-workshop 
  - adamrpah/KPHD_CSS

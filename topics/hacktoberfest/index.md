@@ -1,5 +1,5 @@
 ---
-created_by: Digital Ocean and GitHub
+created_by: DigitalOcean and GitHub
 display_name: Hacktoberfest
 logo: hacktoberfest.png
 released: October 2014
