@@ -11,4 +11,4 @@ aliases: FeatureSliced, feature-slices, feature-slice
 related: frontend, ui, architecture, methodology, agnostic, feature-based, feature-driven, domain-driven, react, vue, svelte
 ---
 
-FeatureSliced is a methodology for designing the architecture of frontend projects, aimed at dividing the application according to business logic and scopes of responsibility.
+FeatureSliced is an architectural design methodology for *frontend applications*. It aims to **divide the application according to business logic and scopes of responsibility**
