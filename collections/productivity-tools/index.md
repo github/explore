@@ -11,6 +11,7 @@ items:
  - mhagger/git-imerge
  - eddiezane/lunchy
  - awaescher/repoz
+ - sharkdp/fd
 display_name: Software productivity tools
 created_by: holman
 ---
