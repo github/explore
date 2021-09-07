@@ -12,6 +12,7 @@ items:
  - eddiezane/lunchy
  - awaescher/repoz
  - sharkdp/fd
+ - BurntSushi/ripgrep
 display_name: Software productivity tools
 created_by: holman
 ---
