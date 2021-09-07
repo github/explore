@@ -14,6 +14,7 @@ items:
  - sharkdp/fd
  - BurntSushi/ripgrep
  - stedolan/jq
+ - alacritty/alacritty
 display_name: Software productivity tools
 created_by: holman
 ---
