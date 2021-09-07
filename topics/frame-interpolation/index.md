@@ -1,6 +1,5 @@
 ---
 aliases: video-interpolation, image-interpolation
-created_by: Christopher Kapic
 display_name: Frame Interpolation
 related: video, machine-learning, ai
 short_description: Methods for compositing new images between two filmed or photographed images.
