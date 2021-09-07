@@ -13,6 +13,7 @@ items:
  - awaescher/repoz
  - sharkdp/fd
  - BurntSushi/ripgrep
+ - stedolan/jq
 display_name: Software productivity tools
 created_by: holman
 ---
