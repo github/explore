@@ -1,4 +1,4 @@
---- 
+---
 created_by: Steve Jobs, Steve Wozniak, Ronald Wayne
 display_name: Apple
 logo: apple.png
