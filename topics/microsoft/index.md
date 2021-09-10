@@ -4,7 +4,7 @@ display_name: Microsoft
 logo: microsoft.png
 related: windows
 github_url: https://github.com/microsoft
-short_description: Microsoft Corporation is a multinational technology corporation which produces computer software, consumer electronics, personal computers, and related services.
+short_description: Microsoft is a company that develops and supports a range of software products, services, devices, and solutions.
 released: April 4, 1975
 url: https://www.microsoft.com
 topic: microsoft

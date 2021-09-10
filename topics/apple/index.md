@@ -4,8 +4,7 @@ display_name: Apple
 logo: apple.png
 related: swift, macos, ios
 github_url: https://github.com/apple
-short_description: Apple Inc. is an American multinational company that designs, develops, and sells
-consumer electronics, computer software, and personal computers.
+short_description: Apple is a prominent hardware and software company best known for it's products.
 released: April 1, 1976
 url: https://www.apple.com/
 topic: apple
