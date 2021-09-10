@@ -1,6 +1,6 @@
 ---
 aliases: fb
-created_by: Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes
+created_by: Mark Zuckerberg, Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, Chris Hughes
 display_name: Facebook
 logo: facebook.png
 related: react, social-media
