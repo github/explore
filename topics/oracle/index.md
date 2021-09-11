@@ -1,4 +1,4 @@
---- 
+---
 created_by: Larry Ellison, Bob Miner, Ed Oates
 display_name: Oracle
 logo: oracle.png
