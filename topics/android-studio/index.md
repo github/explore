@@ -2,7 +2,7 @@
 created_by: Google, JetBrains
 display_name: Android Studio
 logo: android-studio.png
-related: android, java, kotlin, ide, sdk
+related: android, java, kotlin, ide, sdk, intellij-idea
 github_url: https://github.com/android
 short_description: Android Studio is the official integrated development environment (IDE) for Google's Android operating system.
 released: December 2014
