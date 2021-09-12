@@ -1,5 +1,6 @@
 ---
 items:
+ - aws/lumberyard
  - godotengine/godot
  - turbulenz/turbulenz_engine
  - TorqueGameEngines/Torque3D
