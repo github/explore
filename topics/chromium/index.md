@@ -10,4 +10,4 @@ url: https://www.chromium.org/Home
 topic: chromium
 wikipedia_url: https://en.wikipedia.org/wiki/Chromium_(web_browser)
 ---
-Chromium is a free and open-source codebase for a web browser, principally developed and maintained by Google. Google uses the code to make its Chrome web browser, which has additional features. The Chromium codebase is widely used. Microsoft Edge, Opera, and many other browsers are based on the code.
+Chromium is a free and open source codebase for a web browser, principally developed and maintained by Google. Google uses the code to make its Chrome web browser, which has additional features. The Chromium codebase is widely used. Microsoft Edge, Opera, and many other browsers are based on the code.
