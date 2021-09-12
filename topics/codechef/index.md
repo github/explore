@@ -10,4 +10,4 @@ url: https://www.codechef.com/
 topic: codechef
 wikipedia_url: https://en.wikipedia.org/wiki/CodeChef
 ---
-CodeChef is a global competitive programming platform, started as an educational initiative in the year 2009. It hosts three featured contests every month (Long Challenge, CookOff, LunchTime, and Starters) and gives away prizes and goodies to the winners as encouragement. Apart from providing a platform for programming competitions, CodeChef also has various algorithm tutorials and forum discussions to help those who are new to the world of computer programming.
+CodeChef is a global competitive programming platform, started as an educational initiative in the year 2009. It hosts four featured contests every month (Long Challenge, CookOff, LunchTime, and Starters) and gives away prizes and goodies to the winners as encouragement. Apart from providing a platform for programming competitions, CodeChef also has various algorithm tutorials and forum discussions to help those who are new to the world of computer programming.
