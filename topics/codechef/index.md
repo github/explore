@@ -3,7 +3,7 @@ aliases: codechef-solutions
 created_by: Bhavin Turakhia
 display_name: CodeChef
 logo: codechef.png
-related: hackerrank
+related: hackerrank, competitive-programming
 short_description: CodeChef is a competitive programming community of programmers from across the globe.
 released: September 2009
 url: https://www.codechef.com/

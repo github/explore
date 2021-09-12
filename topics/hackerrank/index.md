@@ -3,7 +3,7 @@ aliases: hackerrank-solutions, hackerrank-python, hackerrank-challenges, hackerr
 created_by: Vivek Ravisankar, Hari Karunanidhi
 display_name: HackerRank
 logo: hackerrank.png
-related: codechef
+related: codechef, competitive-programming
 github_url: https://github.com/interviewstreet
 short_description: HackerRank is a tech company that focuses on competitive programming challenges.
 released: July 2009
