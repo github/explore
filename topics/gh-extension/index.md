@@ -2,7 +2,7 @@
 created_by: GitHub
 display_name: gh extension
 github_url: https://github.com/cli/cli
-logo: gh.png
+logo: gh-extension.png
 released: September 16th, 2020
 short_description: Extensions to the GitHub CLI
 topic: gh-extension
