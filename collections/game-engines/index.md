@@ -1,6 +1,5 @@
 ---
 items:
- - aws/lumberyard
  - godotengine/godot
  - turbulenz/turbulenz_engine
  - TorqueGameEngines/Torque3D
@@ -46,6 +45,7 @@ items:
  - HaxeFoundation/haxe
  - bevyengine/bevy
  - Esenthel/EsenthelEngine
+ - aws/lumberyard
 display_name: Game Engines
 created_by: leereilly
 ---
