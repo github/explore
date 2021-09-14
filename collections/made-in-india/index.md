@@ -39,6 +39,7 @@ items:
  - firstcontributions/first-contributions
  - CircuitVerse/CircuitVerse
  - mayankmetha/Rucky
+ - TarunavBA/Currency-Converter
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
