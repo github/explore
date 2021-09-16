@@ -11,7 +11,9 @@ There are a few ways you can contribute:
 
 As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
 
-Note: Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
+Notes: 
+  - Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
+  - Please limit your pull request to the creation/updating of one topic or collection at a time.
 
 ## Improving an existing topic or collection
 
