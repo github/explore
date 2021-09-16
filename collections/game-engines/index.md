@@ -45,6 +45,7 @@ items:
  - HaxeFoundation/haxe
  - bevyengine/bevy
  - Esenthel/EsenthelEngine
+ - aws/lumberyard
 display_name: Game Engines
 created_by: leereilly
 ---

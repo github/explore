@@ -1,5 +1,5 @@
 ---
-aliases: julia-language
+aliases: julia-language, julialang
 created_by: Jeff Bezanson, Stefan Karpinski, Viral B. Shah, Alan Edelman
 display_name: The Julia Language
 github_url: https://github.com/JuliaLang
