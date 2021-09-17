@@ -1,6 +1,6 @@
 ---
 display_name: B4X
-aliases: 
+aliases: b4x-programming-language
 related: b4a, b4i, b4j, b4r
 short_description: B4X is a rapid application development tool and new programming language to create cross platform apps.
 topic: b4x
