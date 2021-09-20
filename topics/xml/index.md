@@ -1,6 +1,7 @@
 ---
 created_by: World Wide Web Consortium
 display_name: XML
+logo: xml.png
 released: 1996
 short_description: XML is subset of SGML (Standard Generalized Markup Language) used to store and transport data.
 topic: xml
