@@ -42,6 +42,6 @@ items:
  - Bilibili/DanmakuFlameMaster
 display_name: Made in China
 created_by: renfei
+image: made-in-china.png
 ---
-
-Open source projects built in or receiving significant contributions from China.
+Open source projects built in or receiving significant contributions from China :cn:
