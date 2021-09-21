@@ -1,5 +1,5 @@
 ---
-aliases: opa, open-policy-agent, openpolicyagent
+aliases: opa, openpolicyagent
 display_name: Open Policy Agent
 github_url: https://github.com/open-policy-agent/opa
 logo: opa.png
