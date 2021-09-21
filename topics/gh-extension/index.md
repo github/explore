@@ -9,4 +9,3 @@ topic: gh-extension
 url: https://cli.github.com
 ---
 GitHub CLI extensions are community-maintained repositories that, when installed locally, add extra functionality to `gh` commands.
-=
