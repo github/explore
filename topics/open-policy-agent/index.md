@@ -2,7 +2,7 @@
 aliases: opa, openpolicyagent
 display_name: Open Policy Agent
 github_url: https://github.com/open-policy-agent/opa
-logo: opa.png
+logo: open-policy-agent.png
 related: policy-as-code, policy, authorization, open-source-policy
 short_description: OPA is an open source, general-purpose policy engine that unifies policy enforcement across the stack.
 topic: open-policy-agent
