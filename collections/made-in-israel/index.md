@@ -14,5 +14,6 @@ items:
  - eranroz/HspellPy
 display_name: Made in Israel
 created_by: donno2048
+image: made-in-israel.png
 ---
-Open source projects built in Israel 🇮🇱
+Open source projects built in Israel :israel:
