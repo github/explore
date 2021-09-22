@@ -26,7 +26,7 @@ items:
  - ElemeFE/mint-ui
  - ElemeFE/node-interview
  - ElemeFE/v-charts
- - ctripcorp/apollo
+ - apolloconfig/apollo
  - netease/pomelo
  - meituan-dianping/mpvue
  - meituan-dianping/walle
