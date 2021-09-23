@@ -4,7 +4,7 @@ display_name: Google Cloud Platform
 topic: google-cloud
 github_url: https://github.com/GoogleCloudPlatform
 logo: google-cloud.png
-related: google, firebase, cloud-computing
+related: google, firebase, cloud-computing, data-analytics
 released: April 7, 2008
 short_description: Google Cloud Platform, offered by Google, is a suite of cloud computing services.
 url: https://cloud.google.com
