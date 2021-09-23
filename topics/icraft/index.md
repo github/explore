@@ -3,7 +3,7 @@ aliases: icraft-game
 created_by: NriotHrreion
 released: May 9, 2021
 display_name: ICraft
-short_description: ICraft is a Minecraft 2D version game based on React.js
+short_description: ICraft is a Minecraft 2D version game based on Node.js & React.js
 topic: icraft
 logo: icraft.png
 url: https://nin.red/#/en/guide/icraft/
