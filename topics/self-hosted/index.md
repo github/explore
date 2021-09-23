@@ -1,5 +1,5 @@
 ---
-aliases: self-hosting
+aliases: selfhosted, self-hosting, selfhosting, self-host, selfhost, self-hostable, selfhostable
 display_name: Self-hosted
 short_description: "Two distinct meanings: (i) a network service that runs on a user's server; or (ii) a computer program that can compile itself."
 topic: self-hosted
