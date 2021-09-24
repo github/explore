@@ -1,10 +1,12 @@
 ---
 aliases: spigot, paper, papermc, craftbukkit
-created_by: Dinnerbone
+created_by: Nathan "Dinnerbone" Adams
 display_name: Bukkit
 logo: bukkit.png
 released: December 22, 2010
 short_description: Bukkit is a Minecraft server modification software
+related: minecraft
+github_url: https://github.com/Bukkit/Bukkit
 topic: bukkit
 url: https://dev.bukkit.org/
 ---
