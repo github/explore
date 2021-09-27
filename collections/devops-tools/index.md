@@ -36,6 +36,7 @@ items:
  - hashicorp/vault
  - NagiosEnterprises/nagioscore
  - zabbix/zabbix
+ - litmuschaos/litmus
  
 display_name: DevOps tools
 ---
