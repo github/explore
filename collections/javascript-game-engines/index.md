@@ -1,6 +1,6 @@
 ---
 items:
- - pixijs/pixi.js
+ - pixijs/pixijs
  - photonstorm/phaser
  - melonjs/melonJS
  - gamelab/kiwi.js
