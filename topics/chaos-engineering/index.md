@@ -1,7 +1,7 @@
 ---
-aliases: chaos-engineering, site-reliability-engineering
+aliases: site-reliability-engineering
 display_name: Chaos Engineering
-logo: chaos-engineering.png
+logo: 
 related: sre, testing
 short_description: Chaos engineering is the process of testing a distributed computing system to ensure that it can withstand unexpected disruptions.
 topic: chaos-engineering
