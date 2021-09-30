@@ -38,7 +38,6 @@ items:
 - terralang/terra
 - dotnet/fsharp
 - skiplang/skip
-- FascinatedBox/lily
 - rakudo/rakudo
 - chapel-lang/chapel
 - lucee/Lucee
@@ -52,6 +51,11 @@ items:
 - dart-lang/sdk
 - pharo-project/pharo
 - ring-lang/ring
+- SenegalLang/Senegal
+- cqfn/eo
+- ChavaScript/chavascript
+- DennisMitchell/jellylanguage
+- beefytech/Beef
 display_name: Programming languages
 created_by: leereilly
 ---

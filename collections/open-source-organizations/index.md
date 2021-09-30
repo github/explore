@@ -11,7 +11,6 @@ items:
  - guardian/guardian.github.com
  - Yelp/yelp.github.io
  - Shopify/shopify.github.com
- - SAP/sap.github.com
  - IBM/ibm.github.io
  - Microsoft/microsoft.github.io
  - artsy/artsy.github.io
@@ -29,6 +28,7 @@ items:
  - newrelic/opensource-website
  - docker/docker.github.io
  - ExpediaGroup/expediagroup.github.io
+ - wikimedia/wikimedia.github.io
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png

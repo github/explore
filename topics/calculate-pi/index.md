@@ -1,5 +1,5 @@
 ---
-aliases: calculatepi, calculate-pi
+aliases: calculatepi
 created_by: github
 display_name: Calculate Pi
 github_url: https://github.com/topics/calculate-pi
