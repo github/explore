@@ -1,5 +1,5 @@
 ---
-aliases: discordjs
+aliases: discordjs, djs, discord-js-bot
 topic: discord-js
 display_name: Discord.JS
 logo: discord-js.png
