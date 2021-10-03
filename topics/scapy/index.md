@@ -1,13 +1,13 @@
 ---
 aliases: scapy
 created_by: Philippe Biondi
-display_name: scapy
+display_name: Scapy
 github_url: https://github.com/secdev/scapy
 logo: scapy.png
-released: April 19, 2021
-short_description: Scapy is a powerful interactive packet manipulation program.
+released: March 26, 2003
+short_description: Scapy is a Python-based interactive packet manipulation program & library. It supports Python 2 & Python 3.
 topic: scapy
-related: scapy, python
+related: python
 url: https://scapy.net/
 wikipedia_url: https://en.wikipedia.org/wiki/Scapy
 ---
