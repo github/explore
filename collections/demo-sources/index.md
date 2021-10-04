@@ -23,7 +23,7 @@ items:
  - excess-demogroup/amoeba
  - theblacklotus/suicide-barbie
  - theblacklotus/4edges
- - kusma/Open-World-Domination
+ - demoscene-source-archive/world-domination
  - jarnoh/doomsday
  - Moon70/ParallelMultiverse
  - aras-p/BlackHoleDemo
