@@ -1,5 +1,4 @@
 ---
-aliases: scapy
 created_by: Philippe Biondi
 display_name: Scapy
 github_url: https://github.com/secdev/scapy
