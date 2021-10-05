@@ -1,5 +1,5 @@
 ---
-aliases: appwrite, appwrite.io, app-write
+aliases: appwrite, appwrite.io, appwriteio
 display_name: Appwrite
 github_url: https://github.com/appwrite/appwrite
 logo: appwrite.png
