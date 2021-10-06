@@ -1,10 +1,10 @@
 ---
-aliases: appwrite.io, appwriteio
+aliases: appwrite-io, appwriteio
 display_name: Appwrite
 github_url: https://github.com/appwrite/appwrite
 logo: appwrite.png
 related: vue, react, flutter, docker, backend, api, serverless, self-hosted, firebase
-released: 3 September, 2019
+released: September 3, 2019
 short_description: Appwrite is an end-to-end backend server for web, mobile, or native applications.
 topic: appwrite
 url: https://appwrite.io/
