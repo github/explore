@@ -2,7 +2,7 @@
 display_name: alternate-reality-game
 topic: alternate-reality-game
 aliases: alternate-reality, arg
-related: virtual-reality, alternate-reality
+related: virtual-reality
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Alternate_reality_game
 ---
