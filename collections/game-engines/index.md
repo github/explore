@@ -1,6 +1,7 @@
 ---
 items:
  - godotengine/godot
+ - FlaxEngine/FlaxEngine
  - turbulenz/turbulenz_engine
  - TorqueGameEngines/Torque3D
  - TorqueGameEngines/Torque2D
