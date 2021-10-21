@@ -53,7 +53,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [spark](https://github.com/topics/spark/)
 - [ ] [spring-mvc](https://github.com/topics/spring-mvc/)
 - [x] [spring](https://github.com/topics/spring/)
-- [ ] [statistics](https://github.com/topics/statistics/)
+- [x] [statistics](https://github.com/topics/statistics/)
 - [x] [telegram-bot](https://github.com/topics/telegram-bot/)
 - [ ] [test](https://github.com/topics/test/)
 - [ ] [tool](https://github.com/topics/tool/)
