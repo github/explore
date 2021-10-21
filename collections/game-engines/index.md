@@ -1,7 +1,6 @@
 ---
 items:
  - godotengine/godot
- - FlaxEngine/FlaxEngine
  - turbulenz/turbulenz_engine
  - TorqueGameEngines/Torque3D
  - TorqueGameEngines/Torque2D
@@ -47,6 +46,7 @@ items:
  - bevyengine/bevy
  - Esenthel/EsenthelEngine
  - aws/lumberyard
+ - FlaxEngine/FlaxEngine
 display_name: Game Engines
 created_by: leereilly
 ---
