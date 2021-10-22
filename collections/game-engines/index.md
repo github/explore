@@ -46,6 +46,7 @@ items:
  - bevyengine/bevy
  - Esenthel/EsenthelEngine
  - aws/lumberyard
+ - FlaxEngine/FlaxEngine
 display_name: Game Engines
 created_by: leereilly
 ---
