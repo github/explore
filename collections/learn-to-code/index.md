@@ -1,3 +1,4 @@
+[Contributing.md](https://github.com/github/explore/files/7429864/Contributing.md)
 ---
 items:
  - 30-seconds/30-seconds-of-code
