@@ -56,6 +56,7 @@ items:
 - ChavaScript/chavascript
 - DennisMitchell/jellylanguage
 - beefytech/Beef
+- cue-lang/cue
 display_name: Programming languages
 created_by: leereilly
 ---
