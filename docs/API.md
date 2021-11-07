@@ -86,7 +86,7 @@ A complete `items` list might look like:
 items:
  - pybee/batavia
  - Homebrew/brew
- - https://www.youtube.com/watch?v=dSl_qnWO104`
+ - https://www.youtube.com/watch?v=dSl_qnWO104
 ```
 
 ### created_by
