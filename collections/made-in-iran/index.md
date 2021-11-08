@@ -4,6 +4,7 @@ items:
  - jadijadi/bestoon
  - jadijadi/justforfun
  - mr-hashemi/mr-hashemi
+ - pashmaklang/pashmak
 
 display_name: Made in Iran
 created_by: Javad
