@@ -1,6 +1,5 @@
 ---
 aliases: inventree-plugin
-created_by: Oliver Walters
 display_name: InvenTree
 github_url: https://github.com/inventree/InvenTree
 logo: inventree.png
