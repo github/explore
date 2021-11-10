@@ -1,5 +1,5 @@
 ---
-aliases: elm-lang, elmlang, elm-language, elm
+aliases: elm-lang, elmlang, elm-language
 created_by: Evan Czaplicki
 display_name: Elm
 github_url: https://github.com/elm/compiler

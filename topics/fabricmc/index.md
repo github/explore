@@ -1,10 +1,10 @@
 ---
-aliases: fabric, fabric-mod
+aliases: fabric, fabric-mod, fabricmc-mod, minecraft-fabric-mod, minecraft-fabric
 created_by: FabricMC Contributors
 display_name: FabricMC
 github_url: https://github.com/FabricMC/
 logo: fabricmc.png
-related: minecraft
+related: minecraft, minecraft-mod
 released: December 20, 2018
 short_description: Next generation, highly modular and open Minecraft modding API.
 topic: fabricmc

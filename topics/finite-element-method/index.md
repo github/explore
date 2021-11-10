@@ -1,5 +1,5 @@
 ---
-aliases: fem, fea, finite-element-method, finite-element-analysis, finite-elements
+aliases: fem, fea, finite-element-analysis, finite-elements
 display_name: Finite Element Method (FEM)
 short_description: The finite element method (FEM) is a numerical method for solving problems of engineering and mathematical physics.
 logo: finite-element-method.png

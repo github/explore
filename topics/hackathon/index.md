@@ -2,7 +2,8 @@
 topic: hackathon
 aliases: hackfest, codefest, hackday
 display_name: Hackathon
-related: game-jam, hacktoberfest, game-off
+aliases: hackathons
+related: game-jam, hacktoberfest, game-off, hackathon-kit, hackathon-organiser
 short_description: A hackathon is a gathering where developers collaboratively code in an extreme manner over a short period of time.
 wikipedia_url: https://en.wikipedia.org/wiki/Hackathon
 ---

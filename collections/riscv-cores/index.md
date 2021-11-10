@@ -1,8 +1,9 @@
 ---
 items:
+ - ghent360/riscvOnColorlight-5A-75B
+ - trabucayre/litexOnColorlightLab004
  - darklife/darkriscv
- - riscv/riscv-opcodes
- - freechipsproject/rocket-chip
+ - chipsalliance/rocket-chip
  - sifive/freedom
  - openhwgroup/cv32e40p
  - lowRISC/ibex
@@ -38,11 +39,18 @@ items:
  - stevehoover/RISC-V_MYTH_Workshop
  - haogwb/starsea_riscv
  - OSCPU/NutShell
- - riscv/riscv-qemu
+ - riscvarchive/riscv-qemu
  - SpinalHDL/VexRiscv
  - riscv-boom/riscv-boom
  - riscv/riscv-isa-sim
  - ultraembedded/riscv
+ - zxmarcos/riscado-v
+ - racerxdl/riskow
+ - dev-board-tech/hdl-core-riscv-lite
+ - DuinOS/RISCuinho
+ - Saanlima/RISC5Verilog_psram
+ - Saanlima/RISC5Verilog_lpddr
+ - jlpteaching/dinocpu
 display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---

@@ -9,9 +9,11 @@ There are a few ways you can contribute:
 - Improving an existing topic or collection
 - Curating a new topic or collection
 
-As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted. Following the style guide will improve the chances of your contribution being accepted.
+As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
 
-Note: Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
+Notes: 
+  - Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
+  - Please limit your pull request to the creation/updating of one topic or collection at a time.
 
 ## Improving an existing topic or collection
 
@@ -32,7 +34,7 @@ To update the image, simply replace the image inside the directory for the topic
 
 To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
 
-For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/master/topics/algorithm/index.md)," data like its canonical URL, Wikipedia URL, or display name are called out in key-value pairs; while its detailed description is accounted for in the body of the document.
+For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/master/topics/algorithm/index.md)," data like its canonical URL, Wikipedia URL, or display name are called out in key-value pairs, while its detailed description is accounted for in the body of the document.
 
 _/topics/algorithm/index.md_:
 ```

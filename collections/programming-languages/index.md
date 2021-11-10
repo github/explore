@@ -38,7 +38,6 @@ items:
 - terralang/terra
 - dotnet/fsharp
 - skiplang/skip
-- FascinatedBox/lily
 - rakudo/rakudo
 - chapel-lang/chapel
 - lucee/Lucee
@@ -56,6 +55,8 @@ items:
 - cqfn/eo
 - ChavaScript/chavascript
 - DennisMitchell/jellylanguage
+- beefytech/Beef
+- cue-lang/cue
 display_name: Programming languages
 created_by: leereilly
 ---
