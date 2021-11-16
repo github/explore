@@ -21,4 +21,4 @@ display_name: Made in France
 created_by: ferdi05
 image: made-in-france.png
 ---
-Open source projects built in or receiving significant contributions from France :france:
+Open source projects built in or receiving significant contributions from France :fr:
