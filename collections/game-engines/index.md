@@ -48,6 +48,8 @@ items:
  - Esenthel/EsenthelEngine
  - aws/lumberyard
  - FlaxEngine/FlaxEngine
+ - ObEngine/ObEngine
+ - KilledByAPixel/LittleJS
 display_name: Game Engines
 created_by: leereilly
 ---
