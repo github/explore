@@ -2,7 +2,7 @@
 display_name: MeiliSearch
 github_url: https://github.com/meilisearch/meilisearch
 related: search-engine, database, site-search, entreprise-search
-short_description: MeiliSearch is an open source typo-tolerant search engine
+short_description: MeiliSearch is an open source typo-tolerant search engine.
 topic: meilisearch
 url: https://github.com/meilisearch/meilisearch
 ---
