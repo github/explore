@@ -1,5 +1,6 @@
 ---
 items:
+- openjdk/jdk
 - golang/go
 - apple/swift
 - Microsoft/TypeScript
