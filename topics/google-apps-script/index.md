@@ -1,7 +1,7 @@
 ---
 created_by: Google
 display_name: Google Apps Script
-logo: apps-script.png
+logo: google-apps-script.png
 related: google, google-cloud
 github_url: https://github.com/googleworkspace
 short_description: Google Apps Script is an automation platform for Google products.
