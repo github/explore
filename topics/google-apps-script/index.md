@@ -1,11 +1,10 @@
 ---
-aliases: apps-script,
 created_by: Google
 display_name: Google Apps Script
 logo: apps-script.png
-related: google
+related: google, google-cloud
 github_url: https://github.com/googleworkspace
-short_description: Google Apps Script is a Google apps automation platform provided by Google.
+short_description: Google Apps Script is an automation platform for Google products.
 released: July 12, 2010
 url: https://developers.google.com/apps-script
 topic: google-apps-script
