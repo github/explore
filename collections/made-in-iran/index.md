@@ -1,5 +1,6 @@
 ---
 items:
+ - hascal/hascal
  - Noah1001000/clean-code-persian
  - jadijadi/bestoon
  - jadijadi/justforfun
