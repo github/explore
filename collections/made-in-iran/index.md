@@ -8,6 +8,7 @@ items:
  - sobhe/moratab
  - PyFarsi/PyAbr
  - JaMedadi/yummy
+ - Hadi7546/Lamp
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
