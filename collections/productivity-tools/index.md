@@ -15,6 +15,7 @@ items:
  - BurntSushi/ripgrep
  - stedolan/jq
  - alacritty/alacritty
+ - ajeetdsouza/zoxide
 display_name: Software productivity tools
 created_by: holman
 ---
