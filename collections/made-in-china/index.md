@@ -40,6 +40,7 @@ items:
  - Bilibili/ijkplayer
  - Bilibili/flv.js
  - Bilibili/DanmakuFlameMaster
+ - ossrs/srs
 display_name: Made in China
 created_by: renfei
 image: made-in-china.png
