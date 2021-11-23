@@ -41,6 +41,7 @@ items:
  - mayankmetha/Rucky
  - resuminator
  - krayin/laravel-crm
+ - ajeetdsouza/zoxide
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
