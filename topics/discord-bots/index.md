@@ -3,7 +3,7 @@ aliases: discordbots
 topic: discord-bots
 github_url: https://github.com/discord
 display_name: Discord Bots (Extensions)
-logo: Discord-Logo-Color.png
+logo: discord-bots.png
 short_description: Discord Bots is extensions for Discord chat app. 
 url: https://top-bots.xyz
 ---
