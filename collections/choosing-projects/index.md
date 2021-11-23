@@ -1,6 +1,7 @@
 ---
 items:
  - rust-lang/rust
+ - golang/go
  - HospitalRun/hospitalrun-frontend
  - hoodiehq/hoodie
  - Homebrew/brew
