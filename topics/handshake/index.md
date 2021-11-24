@@ -4,7 +4,7 @@ github_url: https://github.com/handshake-org
 logo: handshake.png
 released: 2018
 short_description: Handshake is a decentralized naming and certificate authority 
-topic: haskell
+topic: handshake
 url: https://www.handshake.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Alternative_DNS_root
 ---
