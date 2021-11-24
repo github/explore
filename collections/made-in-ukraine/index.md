@@ -1,5 +1,6 @@
 ---
 items:
+ - angrymouse/remote-functions
  - trekhleb/javascript-algorithms
  - mui-org/material-ui
  - ansible/ansible
