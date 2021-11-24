@@ -4,7 +4,7 @@ topic: discord-bots
 github_url: https://github.com/discord
 display_name: Discord Bots (Extensions)
 logo: discord-bots.png
-short_description: Discord Bots is extensions for Discord chat app. 
+short_description: Discord Bots are extensions for the Discord chat app.
 url: https://top-bots.xyz
 ---
 A bot is an automated Discord account. It utilises the Discord API. They have a "BOT" tag next to their username. They can be added through the API. Bots typically follow a command structure, where a user sends a prefixed message and the bot reponds, though bots can work in many different ways.
