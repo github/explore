@@ -51,6 +51,7 @@ items:
  - Saanlima/RISC5Verilog_psram
  - Saanlima/RISC5Verilog_lpddr
  - jlpteaching/dinocpu
+ - carlosedp/chiselv
 display_name: Risc-V Cores
 created_by: carlosdelfino 
 ---
