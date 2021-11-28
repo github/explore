@@ -1,6 +1,5 @@
 ---
 items:
-- openjdk/jdk
 - golang/go
 - apple/swift
 - Microsoft/TypeScript
@@ -58,6 +57,7 @@ items:
 - DennisMitchell/jellylanguage
 - beefytech/Beef
 - cue-lang/cue
+- openjdk/jdk
 display_name: Programming languages
 created_by: leereilly
 ---
