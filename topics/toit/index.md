@@ -1,5 +1,5 @@
 ---
-aliases: toit, toit-language
+aliases: toit-language
 created_by: Toit
 display_name: Toit
 github_url: https://github.com/toitlang
