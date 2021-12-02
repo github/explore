@@ -10,4 +10,4 @@ display_name: Made in Turkey
 created_by: kiliczsh
 image: made-in-turkey.png
 ---
-Open source projects built in or receiving significant contributions from Turkey :turkey:
+Open source projects built in or receiving significant contributions from Turkey :tr:
