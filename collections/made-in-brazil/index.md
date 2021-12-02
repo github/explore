@@ -7,7 +7,6 @@ items:
   - ellisonleao/magictools
   - felipefialho/frontend-challenges
   - go-task/task
-  - goreleaser/goreleaser
   - heartcombo/devise
   - htop-dev/htop/
   - lua/lua
