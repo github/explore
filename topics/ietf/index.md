@@ -1,5 +1,4 @@
 ---
-aliases: IETF
 display_name: Internet Engineering Task Force (IETF)
 github_url: https://github.com/ietf
 logo: ietf.png
