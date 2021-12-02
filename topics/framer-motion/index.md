@@ -1,5 +1,5 @@
 ---
-aliases: motion, framer-motion
+aliases: motion
 created_by: Framer B.V.
 display_name: Framer Motion
 github_url: https://github.com/framer/motion
