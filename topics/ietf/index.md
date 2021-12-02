@@ -1,7 +1,6 @@
 ---
 display_name: Internet Engineering Task Force (IETF)
 github_url: https://github.com/ietf
-logo: ietf.png
 short_description: The IETF is an open international group concerned with the development and promotion of standards.
 topic: ietf
 url: https://ietf.org/
