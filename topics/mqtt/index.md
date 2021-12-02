@@ -4,7 +4,7 @@ logo: mqtt.png
 short_description: MQTT is a lightweight, publish-subscribe messaging protocol.
 github_url: https://github.com/mqtt
 topic: mqtt
-related: internet-of-things, iot, m2m, mosquitto, mqtt-broker, mqtt-client, mqtt-protocol, mqtt-server, mqtt-tool
+related: internet-of-things, iot, m2m, mosquitto, mqtt-broker, mqtt-client, mqtt-protocol, mqtt-server, mqtt-tool, paho
 released: 1999
 url: https://mqtt.org/
 wikipedia_url: https://en.wikipedia.org/wiki/MQTT
