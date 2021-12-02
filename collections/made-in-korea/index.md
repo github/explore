@@ -8,6 +8,7 @@ items:
   - pinpoint-apm/pinpoint
   - summernote/summernote
   - kjw0612/awesome-deep-vision
+  - gyoogle/tech-interview-for-developer
   - milooy/remote-or-flexible-work-company-in-korea
   - 738/awesome-sushi
   - konlpy/konlpy

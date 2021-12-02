@@ -21,8 +21,9 @@ items:
  - jaspervdj/hakyll
  - umijs/umi
  - abelljs/abell
- - snowpackjs/astro
+ - withastro/astro
  - tlienart/Franklin.jl
+ - getzola/zola
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
