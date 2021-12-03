@@ -6,6 +6,10 @@ items:
  - ahmetb/kubectx
  - eserozvataf/laroux.js
  - f/vue-wait
+ - joom/hezarfen
+ - jbytecode/LinRegOutliers
+ - jbytecode/JMcDM
+ - jbytecode/rcaller
  - obss/sahi
  - passwall/passwall-server
  - passwall/passwall-extension
