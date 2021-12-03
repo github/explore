@@ -6,6 +6,7 @@ items:
  - ahmetb/kubectx
  - eserozvataf/laroux.js
  - f/vue-wait
+ - obss/sahi
  - passwall/passwall-server
  - passwall/passwall-extension
  - passwall/passwall-desktop
