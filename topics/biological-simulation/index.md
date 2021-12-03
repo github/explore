@@ -2,6 +2,7 @@
 display_name: Biological Simulation
 related: bioinformatics, genomics, biochemical-networks, systems-biology
 topic: biological-simulation
+aliases: biological-simulations, biological-modelling
 short_description: Biological Simulation is the use of computational methods to simulate mathemtical models of biological systems.
 wikipedia_url: https://en.wikipedia.org/wiki/Modelling_biological_systems
 ---
