@@ -17,6 +17,8 @@ items:
  - passwall/passwall-web
  - pankod/refine
  - pankod/superplate
+ - socketkit/socketkit
+ - malijs/mali
 display_name: Made in Turkey
 created_by: kiliczsh
 image: made-in-turkey.png
