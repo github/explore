@@ -1,5 +1,5 @@
 ---
-aliases: mdx, mdx-js
+aliases: mdx-js
 created_by: John Otander, Guillermo Rauch, James K. Nelson, Tim Neutkens, Brent Jackson, Jessica Stokes, and more.
 display_name: MDX
 github_url: https://github.com/mdx-js/mdx/
