@@ -4,7 +4,7 @@ created_by: John Otander, Guillermo Rauch, James K. Nelson, Tim Neutkens, Brent 
 display_name: MDX
 github_url: https://github.com/mdx-js/mdx/
 logo: mdx.png
-released: Apr 15, 2019
+released: April 15, 2019
 short_description: MDX is an authorable format that lets you seamlessly write JSX in your markdown documents.
 topic: mdx
 url: https://mdxjs.com/
