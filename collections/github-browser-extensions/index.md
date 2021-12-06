@@ -38,6 +38,7 @@ items:
  - matthizou/github-show-avatars
  - dderevjanik/github-vscode-icons
  - npmhub/npmhub
+ - nschloe/xhub
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
