@@ -6,7 +6,7 @@ logo: solana.png
 released: April 2019
 short_description: Solana is a public blockchain that achieves consensus using a unique Proof of History algorithm.
 topic: solana
-url: 	https://solana.com
+url: https://solana.com
 github_url: https://github.com/solana-labs/solana
 wikipedia_url: https://en.wikipedia.org/wiki/Solana_(blockchain_platform)
 related: rust
