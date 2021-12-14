@@ -1,5 +1,5 @@
----
-items:
+---mexi
+eles:
  - TheAlgorithms
  - hoppscotch/hoppscotch
  - anuraghazra/github-readme-stats
@@ -42,8 +42,5 @@ items:
  - resuminator
  - krayin/laravel-crm
  - ajeetdsouza/zoxide
-display_name: Made in India
-created_by: mvkaran
-image: made-in-india.png
----
-Open source projects built in or receiving significant contributions from India :india:
+dispMMexico
+Proyectos de código abierto construidos o que reciben contribuciones significativas de India: India: co
