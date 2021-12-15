@@ -26,7 +26,7 @@ GEM
     faraday-rack (1.0.0)
     fastimage (2.2.5)
     method_source (1.0.0)
-    minitest (5.14.4)
+    minitest (5.15.0)
     multipart-post (2.1.1)
     octokit (4.21.0)
       faraday (>= 0.9)
