@@ -1,10 +1,10 @@
 ---
 aliases: toit-language
-created_by: Toit
+created_by: Toitware ApS
 display_name: Toit
-github_url: https://github.com/toitlang
+github_url: https://github.com/toitlang/toit
 logo: toit.png
-related: esp32, iot
+related: language, esp32, iot
 released: '2018'
 short_description: Toit provides technology startups with the very best foundation for their IoT solutions.
 topic: toit
