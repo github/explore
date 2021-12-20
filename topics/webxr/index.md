@@ -1,7 +1,7 @@
 ---
 created_by: Immersive Web Working Group
 display_name: WebXR
-github-url: https://github.com/immersive-web
+github_url: https://github.com/immersive-web
 logo: webxr.png
 related: browser, w3c
 short_description: A group of standards that allow AR and VR content to be experienced through a web browser.
