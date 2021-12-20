@@ -1,5 +1,5 @@
 ---
-created-by: Immersive Web Working Group
+created_by: Immersive Web Working Group
 display_name: WebXR
 github-url: https://github.com/immersive-web
 logo: webxr.png
