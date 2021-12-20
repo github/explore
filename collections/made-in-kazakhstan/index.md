@@ -1,6 +1,7 @@
 ---
 items:
  - scdesktop/scdesktop
+ - snxx-lppxx/dockerfile-sublime
 
 display_name: Made in Kazakhstan
 created_by: snxx-lppxx
