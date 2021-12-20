@@ -5,7 +5,7 @@ display_name: SAS
 github_url: https://github.com/sassoftware
 logo: sas.png
 released: January 1972
-short_description: The SAS platforms (Foundation, Metadata, Viya) are used mostly for Data Analytics, Data Management, and Enterprise App Development
+short_description: The SAS platforms (Foundation, Metadata, Viya) can be used for Data Analytics, Data Management, and Enterprise App Development.
 topic: sas
 related: sasjs, sas7bdat
 url: https://sas.com
