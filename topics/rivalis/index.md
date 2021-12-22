@@ -1,5 +1,5 @@
 ---
-aliases: rivalis.io
+aliases: rivalis
 created_by: Daniel Kalevski
 display_name: Rivalis
 github_url: https://github.com/rivalis/rivalis
