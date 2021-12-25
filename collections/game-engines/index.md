@@ -50,6 +50,7 @@ items:
  - FlaxEngine/FlaxEngine
  - ObEngine/ObEngine
  - KilledByAPixel/LittleJS
+ - ppy/osu-framework
 display_name: Game Engines
 created_by: leereilly
 ---

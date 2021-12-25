@@ -1,5 +1,5 @@
 ---
-aliases: es6, es6-javascript, es6-tutorial
+aliases: es6
 created_by: Brendan Eich, Ecma International
 display_name: ECMAScript
 github_url: https://github.com/tc39

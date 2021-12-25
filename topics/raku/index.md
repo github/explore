@@ -1,5 +1,5 @@
 ---
-aliases: rakudo, nqp, perl6
+aliases: perl6
 created_by: Larry Wall
 display_name: Raku
 github_url: https://github.com/Raku
