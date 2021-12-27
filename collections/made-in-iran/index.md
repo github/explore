@@ -3,6 +3,7 @@ items:
  - Noah1001000/clean-code-persian
  - jadijadi/bestoon
  - jadijadi/justforfun
+ - codehub-ir/codehub
  - mr-hashemi/mr-hashemi
  - pashmaklang/pashmak
  - sobhe/moratab
