@@ -3,7 +3,7 @@ topic: plover
 github_url: https://github.com/openstenoproject/plover
 display_name: Plover
 logo: plover.png
-short_description: Plover is a free, open source, cross-platform stenography engine
+short_description: Plover is a free, open source, cross-platform stenography engine.
 url: https://www.openstenoproject.org/
 created_by: Open Steno Project
 related: plover-plugins, stenography
