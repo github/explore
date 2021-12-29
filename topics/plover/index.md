@@ -5,6 +5,8 @@ display_name: Plover
 logo: plover.png
 short_description: Plover is a free, open source, cross-platform stenography engine
 url: https://www.openstenoproject.org/
+created_by: Open Steno Project
+related: plover-plugins, stenography
 ---
 Plover is a free, open source, cross-platform stenography engine with support for a variety of hardware, including stenotype machines, hobbyist machines, and computer keyboards. It aims to bring stenography to anyone for free.
 
