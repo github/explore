@@ -32,6 +32,7 @@ items:
  - ToolJet/ToolJet
  - ParthJadhav/Tkinter-Designer
  - dr5hn/countries-states-cities-database
+ - Jaysmito101/TerraForge3D
  - glific/glific
  - gautamkrishnar/blog-post-workflow
  - devtron-labs/devtron
