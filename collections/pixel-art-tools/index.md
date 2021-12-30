@@ -1,6 +1,7 @@
 ---
 items:
  - aseprite/aseprite/
+ - SparkScratch-P/pixel-painter
  - piskelapp/piskel/
  - jvalen/pixel-art-react/
  - maierfelix/poxi/
