@@ -32,7 +32,6 @@ items:
  - ToolJet/ToolJet
  - ParthJadhav/Tkinter-Designer
  - dr5hn/countries-states-cities-database
- - Jaysmito101/TerraForge3D
  - glific/glific
  - gautamkrishnar/blog-post-workflow
  - devtron-labs/devtron
@@ -43,6 +42,7 @@ items:
  - resuminator
  - krayin/laravel-crm
  - ajeetdsouza/zoxide
+ - Jaysmito101/TerraForge3D
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
