@@ -42,6 +42,9 @@ items:
  - resuminator
  - krayin/laravel-crm
  - ajeetdsouza/zoxide
+ - last9/iox-registry
+ - last9/slo-computer
+
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
