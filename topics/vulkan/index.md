@@ -6,4 +6,4 @@ short_description: Vulkan is a cross-platform API that allows a programmer to co
 topic: vulkan
 wikipedia_url: https://en.wikipedia.org/wiki/Vulkan
 ---
-OpenGL is a cross-language, cross-platform application programming interface for rendering 2D and 3D vector graphics. The API is typically used to interact with a graphics processing unit, to achieve hardware-accelerated rendering.
+Vulkan is a low-overhead, cross-platform API, open standard for 3D graphics and computing. Vulkan targets high-performance real-time 3D graphics applications
