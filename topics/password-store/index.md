@@ -3,7 +3,7 @@ topic: password-store
 aliases: passwordstore
 display_name: pass
 url: https://www.passwordstore.org/
-short_description: the standard unix password manager
+short_description: the standard unix password manager.
 created_by: Jason A. Donenfeld
 released: July 23, 2012
 related: password-manager, gpg
