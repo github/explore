@@ -4,7 +4,7 @@ display_name: Selenium
 github_url: https://github.com/SeleniumHQ
 logo: selenium.png
 short_description: Selenium is a browser automation framework and ecosystem.
-topic: mysql
+topic: selenium
 url: https://www.selenium.dev/
 wikipedia_url: https://en.wikipedia.org/wiki/Selenium_(software)
 ---
