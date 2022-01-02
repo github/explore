@@ -4,3 +4,4 @@ short_description: A programming language is a language for developing apps and 
 
 topic: programming-language
 ---
+A programming language is a language for developing apps, games all other sorts of programs. No programming language = plain text.
