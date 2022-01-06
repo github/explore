@@ -5,7 +5,7 @@ display_name: Squeak/Smalltalk
 github_url: https://github.com/squeak-smalltalk
 logo: squeak.png
 related: smalltalk
-released: September 24, 1996
+released: 1996
 short_description: Squeak is a live programming system for Smalltalk that is implemented in itself.
 topic: squeak
 url: https://squeak.org/
