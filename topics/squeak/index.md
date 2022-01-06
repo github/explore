@@ -1,6 +1,6 @@
 ---
 aliases: squeak-smalltalk
-created_by: Alan Kay, Dan Ingalls, Adele Goldberg
+created_by: The Squeak Community
 display_name: Squeak/Smalltalk
 github_url: https://github.com/squeak-smalltalk
 logo: squeak.png
