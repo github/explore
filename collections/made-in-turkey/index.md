@@ -10,6 +10,7 @@ items:
  - jbytecode/LinRegOutliers
  - jbytecode/JMcDM
  - jbytecode/rcaller
+ - limanmys/core
  - obss/sahi
  - passwall/passwall-server
  - passwall/passwall-extension
