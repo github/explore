@@ -16,6 +16,7 @@ items:
  - eciavatta/caronte
  - Schrodinger-Hat/ImageGoNord
  - stoplightio/prism
+ - ercole-io/ercole
 display_name: Made in Italy
 created_by: thejoin95
 image: made-in-italy.png
