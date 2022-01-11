@@ -1,5 +1,6 @@
 ---
 items:
+ - furkandeveloper/EasyProfiler
  - isidentical/refactor
  - fatih/vim-go
  - ssg/streetcoder
@@ -17,6 +18,7 @@ items:
  - passwall/passwall-web
  - pankod/refine
  - pankod/superplate
+ - huseyinnurbaki/mocktail
 display_name: Made in Turkey
 created_by: kiliczsh
 image: made-in-turkey.png
