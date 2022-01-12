@@ -1,5 +1,6 @@
 ---
 items:
+ - furkandeveloper/EasyProfiler
  - isidentical/refactor
  - fatih/vim-go
  - ssg/streetcoder
