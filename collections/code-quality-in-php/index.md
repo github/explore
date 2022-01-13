@@ -8,6 +8,7 @@ items:
  - sebastianbergmann/phploc
  - povils/phpmnd
  - phpmd/phpmd
+ - phpstan/phpstan
  - vimeo/psalm
  - infection/infection
 display_name: Code Quality Checker Tools For PHP Projects
