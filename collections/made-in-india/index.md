@@ -1,6 +1,8 @@
 ---
 items:
+ - odpf
  - TheAlgorithms
+ - odpf/optimus
  - hoppscotch/hoppscotch
  - anuraghazra/github-readme-stats
  - hasura/graphql-engine
