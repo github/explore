@@ -4,7 +4,7 @@ created_by: Sven Assmann
 display_name: cargo-generate
 github_url: https://github.com/cargo-generate/cargo-generate
 related: rust, template
-released: October, 2017
+released: October 2017
 short_description: Cargo, make me a project.
 topic: cargo-generate 
 url: https://crates.io/crates/cargo-generate
