@@ -1,7 +1,7 @@
 ---
 created_by: Facebook's AI Research lab (FAIR)
 display_name: PyTorch
-github_url: https://github.com/topics/pytorch
+github_url: https://github.com/pytorch/pytorch
 logo: pytorch.png
 related: python, pytorch-tutorial
 released: September 2016
