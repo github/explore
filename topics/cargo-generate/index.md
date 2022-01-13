@@ -1,11 +1,11 @@
 ---
-aliases: rust-app-template scaffolding rust-app-scaffolding
+aliases: cargogenerate 
 created_by: Sven Assmann
 display_name: cargo-generate
 github_url: https://github.com/cargo-generate/cargo-generate
-related: rust, template, scaffold
+related: rust, template
 released: Oct, 2017
-short_description: Cargo, mage me a project.
+short_description: Cargo, make me a project.
 topic: cargo-generate 
 url: https://crates.io/crates/cargo-generate
 ---
