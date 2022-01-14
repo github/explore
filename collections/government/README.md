@@ -1,5 +1,6 @@
-#GPG key ID: 4AEE18F83AFDEB23
-Menu:
+GPG
+ID:4AEE18F83AFDEB23
+
  - 18F/development-guide
  - cfpb/open-source-checklist
  - 18F/ads-bpa
