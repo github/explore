@@ -52,6 +52,7 @@ items:
  - komarserjio/notejam
  - ttag-org/ttag
  - vmagamedov/grpclib
+ - angrymouse/remote-functions
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png

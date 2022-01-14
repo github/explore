@@ -40,6 +40,9 @@ items:
  - CircuitVerse/CircuitVerse
  - mayankmetha/Rucky
  - resuminator
+ - krayin/laravel-crm
+ - ajeetdsouza/zoxide
+ - Jaysmito101/TerraForge3D
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png

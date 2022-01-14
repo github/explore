@@ -41,12 +41,17 @@ items:
  - nCine/nCine
  - cocos-creator/engine
  - love2d/love
+ - coronalabs/corona
  - hajimehoshi/ebiten
  - HaxeFoundation/haxe
  - bevyengine/bevy
  - Esenthel/EsenthelEngine
  - aws/lumberyard
  - FlaxEngine/FlaxEngine
+ - ObEngine/ObEngine
+ - KilledByAPixel/LittleJS
+ - ppy/osu-framework
+ - gosu/gosu
 display_name: Game Engines
 created_by: leereilly
 ---

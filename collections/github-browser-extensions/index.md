@@ -18,7 +18,7 @@ items:
  - zenorocha/codecopy
  - kamranahmedse/githunt
  - harshjv/github-repo-size
- - sindresorhus/refined-github
+ - refined-github/refined-github
  - softvar/enhanced-github
  - bitoiu/markwrap
  - bitoiu/github-red-alert
