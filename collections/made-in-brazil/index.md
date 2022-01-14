@@ -15,7 +15,8 @@ items:
   - goreleaser/goreleaser
   - Universidade-Livre/ciencia-da-computacao
   - cuducos/minha-receita
-  - aprenda-frontend
+  - kvnol/aprenda-frontend
+  - felipeorlando/aprenda-rubyonrails
 display_name: Made in Brazil
 created_by: caarlos0
 image: made-in-brazil.png
