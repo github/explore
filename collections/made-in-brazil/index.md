@@ -13,6 +13,10 @@ items:
   - RocketChat/Rocket.Chat
   - tsuru/tsuru
   - goreleaser/goreleaser
+  - Universidade-Livre/ciencia-da-computacao
+  - cuducos/minha-receita
+  - kvnol/aprenda-frontend
+  - felipeorlando/aprenda-rubyonrails
 display_name: Made in Brazil
 created_by: caarlos0
 image: made-in-brazil.png
