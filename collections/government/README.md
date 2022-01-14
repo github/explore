@@ -1,4 +1,4 @@
----
+GPG key ID: 4AEE18F83AFDEB23
 items:
  - 18F/development-guide
  - cfpb/open-source-checklist
