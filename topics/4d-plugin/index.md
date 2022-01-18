@@ -8,4 +8,4 @@ url: https://github.com/4d/4D-Plugin-SDK
 wikipedia_url: https://en.wikipedia.org/wiki/4th_Dimension_(software)
 ---
 
-A plug-in is a piece of code, written in any language such as C or C++, that 4D launches at start up. Plugins add new functionalities to 4D and thus increases its capabilities.
+A plug-in is a piece of code, written in any language such as C or C++, that 4D launches at start up. Plugins add new functionalities to 4D and thus increase its capabilities.
