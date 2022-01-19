@@ -1,5 +1,5 @@
 ---
-aliases: text-based user interface, textual user interface, terminal user interface, text user interface
+aliases: textual user interface, terminal user interface, text user interface
 display_name: Text-based user interface
 short_description: A TUI, or text-based user interface, is a console that helps users
   issue commands to a program.
