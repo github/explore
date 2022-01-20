@@ -52,6 +52,7 @@ items:
  - KilledByAPixel/LittleJS
  - ppy/osu-framework
  - gosu/gosu
+ - cerberusxdev/cerberus
 display_name: Game Engines
 created_by: leereilly
 ---
