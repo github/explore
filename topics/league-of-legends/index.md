@@ -1,5 +1,5 @@
 ---
-aliases: league-of-legends-api, leagueoflegends, leagueoflegends-api
+aliases: leagueoflegends
 created_by: Riot Games
 display_name: League of Legends
 logo: league-of-legends.png
