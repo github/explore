@@ -16,4 +16,4 @@ League of Legends (LoL), commonly referred to as League, is a 2009 multiplayer o
 ### Community & Support
 - [APIs](https://developer.riotgames.com/apis)
 - [Documentation](https://developer.riotgames.com/docs/lol)
-- [Discord](https://discord.com/invite/riotgamesdevrel)
+- [Riot Games Third-Party Developer Community on Discord](https://discord.com/invite/riotgamesdevrel)
