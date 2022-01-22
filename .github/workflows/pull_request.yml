@@ -1,6 +1,6 @@
-name: CI/Rubocop
+name: ROSEMARIE QUIROZ PAHAYO
 
-on: [push, pull_request]
+on:RUBY
 
 jobs:
   build:
