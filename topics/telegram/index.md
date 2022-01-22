@@ -2,6 +2,7 @@
 aliases: telegram-client, telegram-bot, telegram-api
 created_by: Telegram Messenger LLP
 display_name: Telegram
+github_url: https://github.com/TelegramMessenger
 logo: telegram.png
 released: August 2013
 short_description: Telegram is a non-profit, cloud-based instant messaging service.
