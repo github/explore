@@ -1,5 +1,5 @@
 ---
-aliases: riotgames
+aliases: riotgames, riot-games-api, riotgames-api
 created_by: Brandon Beck, Marc Merrill
 display_name: Riot Games
 logo: riot-games.png
@@ -12,4 +12,4 @@ url: https://www.riotgames.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Riot_Games
 ---
 
-Riot Games, Inc. is an American video game developer, publisher and esports tournament organizer. Their list of games include League of Legends, League of Legends: Wild Rift, Legends of Runeterra, Teamfight Tactis and Valorant.
+Riot Games, Inc. is an American video game developer, publisher and esports tournament organizer. Their list of games include League of Legends, League of Legends: Wild Rift, Legends of Runeterra, Teamfight Tactics and VALORANT.
