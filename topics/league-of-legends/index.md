@@ -1,5 +1,5 @@
 ---
-aliases: leagueoflegends, league-of-legends-api, league-of-legends-client, league-client, league-client-api, lcu, lcu-api
+aliases: leagueoflegends, league-of-legends-api, league-of-legends-client, league-client, league-client-api, lcu, lcu-api, riot-games-league
 created_by: Riot Games
 display_name: League of Legends
 logo: league-of-legends.png
