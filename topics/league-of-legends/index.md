@@ -1,9 +1,9 @@
 ---
-aliases: leagueoflegends
+aliases: leagueoflegends, league-of-legends-api, league-of-legends-client, league-client, league-client-api, lcu, lcu-api
 created_by: Riot Games
 display_name: League of Legends
 logo: league-of-legends.png
-related: riot-games, league-client, league-of-legends-wild-rift, legends-of-runeterra, teamfight-tactics, valorant
+related: riot-games, league-of-legends-wild-rift, legends-of-runeterra, teamfight-tactics, valorant
 released: October 27, 2009
 short_description: League of Legends is a multiplayer online battle arena video game developed and published by Riot Games.
 topic: league-of-legends
