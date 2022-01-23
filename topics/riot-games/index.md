@@ -1,5 +1,5 @@
 ---
-aliases: riotgames
+aliases: riotgames, riot-games-api, riotgames-api
 created_by: Brandon Beck, Marc Merrill
 display_name: Riot Games
 logo: riot-games.png
