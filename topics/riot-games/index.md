@@ -12,4 +12,4 @@ url: https://www.riotgames.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Riot_Games
 ---
 
-Riot Games, Inc. is an American video game developer, publisher and esports tournament organizer. Their list of games include League of Legends, League of Legends: Wild Rift, Legends of Runeterra, Teamfight Tactics and Valorant.
+Riot Games, Inc. is an American video game developer, publisher and esports tournament organizer. Their list of games include League of Legends, League of Legends: Wild Rift, Legends of Runeterra, Teamfight Tactics and VALORANT.
