@@ -1,6 +1,6 @@
 ---
 aliases: react-router, react router
-created_by: Tim Dorr
+created_by: Ryan Florence & Michael Jackson
 display_name: react-router
 github_url: https://github.com/remix-run/react-router
 logo: react-router.png
