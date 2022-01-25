@@ -7,7 +7,7 @@ logo: edge.png
 released: April 29, 2015
 short_description: Edge is a cross-platform web browser created and developed by Microsoft.
 topic: edge
-url: https://www.microsoft.com/en-us/edge
+url: https://www.microsoft.com/edge
 wikipedia_url: https://en.wikipedia.org/wiki/Microsoft_Edge
 ---
 
