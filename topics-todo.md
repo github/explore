@@ -24,7 +24,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [data](https://github.com/topics/data/)
 - [ ] [demo](https://github.com/topics/demo/)
 - [x] [devops](https://github.com/topics/devops/)
-- [ ] [docker-compose](https://github.com/topics/docker-compose/)
+- [x] [docker-compose](https://github.com/topics/docker-compose/)
 - [ ] [docker-image](https://github.com/topics/docker-image/)
 - [ ] [dockerfile](https://github.com/topics/dockerfile/)
 - [ ] [education](https://github.com/topics/education/)
