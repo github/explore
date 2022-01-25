@@ -6,7 +6,7 @@ github_url: https://github.com/NixOS
 logo: nix.png
 related: package-manager, language, functional-programming, declarative-language
 released: June 15, 2003
-short_description: Nix, the purely functional package manager
+short_description: Nix, the purely functional package manager.
 topic: nix
 url: https://nixos.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Nix_package_manager
