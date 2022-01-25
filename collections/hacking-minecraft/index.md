@@ -8,7 +8,7 @@ items:
  - pmmp/PocketMine-MP
  - msmhq/msm
  - essentials/Essentials
- - Vazkii/Botania
+ - VazkiiMods/Botania
  - MightyPirates/OpenComputers
  - PrismarineJS/mineflayer
  - EngineHub/WorldEdit
