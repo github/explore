@@ -4,6 +4,7 @@ items:
  - scottschiller/SoundManager2
  - CreateJS/SoundJS
  - musescore/MuseScore
+ - hundredrabbits/Orca
  - tomahawk-player/tomahawk
  - cashmusic/platform
  - mopidy/mopidy
