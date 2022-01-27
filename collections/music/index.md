@@ -15,6 +15,7 @@ items:
  - sonic-pi-net/sonic-pi
  - nukeop/nuclear
  - swdotcom/swdc-vscode-musictime
+ - hundredrabbits/Orca
 display_name: Music
 created_by: jonrohan
 ---
