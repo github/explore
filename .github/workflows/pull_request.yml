@@ -10,8 +10,7 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+        bundler-cache: true
     - name: Build and test with Rake/Rubocop
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
