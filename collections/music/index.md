@@ -4,7 +4,6 @@ items:
  - scottschiller/SoundManager2
  - CreateJS/SoundJS
  - musescore/MuseScore
- - hundredrabbits/Orca
  - tomahawk-player/tomahawk
  - cashmusic/platform
  - mopidy/mopidy
@@ -16,6 +15,7 @@ items:
  - sonic-pi-net/sonic-pi
  - nukeop/nuclear
  - swdotcom/swdc-vscode-musictime
+ - hundredrabbits/Orca
 display_name: Music
 created_by: jonrohan
 ---
