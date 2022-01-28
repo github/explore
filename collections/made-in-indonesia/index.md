@@ -1,12 +1,12 @@
 ---
 items:
- - ariya/phantomjs
- - hyperjumptech/grule-rule-engine
+ - odpf
  - kawalcovid19
- - tanibox/tania-core
  - OpenSID
  - BaritoLog
- - odpf
+ - ariya/phantomjs
+ - hyperjumptech/grule-rule-engine
+ - tanibox/tania-core
 display_name: Made in Indonesia
 created_by: mabdh
 image: made-in-indonesia.png
