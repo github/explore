@@ -45,7 +45,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [personal-website](https://github.com/topics/personal-website/)
 - [x] [portfolio](https://github.com/topics/portfolio/)
 - [ ] [project](https://github.com/topics/project/)
-- [ ] [react-router](https://github.com/topics/react-router/)
+- [x] [react-router](https://github.com/topics/react-router/)
 - [ ] [script](https://github.com/topics/script/)
 - [x] [sdk](https://github.com/topics/sdk/)
 - [ ] [simulation](https://github.com/topics/simulation/)
