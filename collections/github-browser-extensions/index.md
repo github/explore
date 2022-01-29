@@ -18,7 +18,7 @@ items:
  - zenorocha/codecopy
  - kamranahmedse/githunt
  - harshjv/github-repo-size
- - sindresorhus/refined-github
+ - refined-github/refined-github
  - softvar/enhanced-github
  - bitoiu/markwrap
  - bitoiu/github-red-alert
@@ -37,6 +37,7 @@ items:
  - vladgolubev/quickreview-for-github
  - matthizou/github-show-avatars
  - dderevjanik/github-vscode-icons
+ - npmhub/npmhub
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---

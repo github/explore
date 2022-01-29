@@ -12,6 +12,7 @@ items:
  - jenkinsci/jenkins
  - pybuilder/pybuilder
  - klaussinani/signale
+ - gitpod-io/gitpod
 display_name: Software development tools
 ---
 Build apps better, faster, stronger.
