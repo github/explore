@@ -5,17 +5,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-
-jobs:
-  test:
-
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ruby-version: ['2.6', '2.7', '3.0']
-
-    steps:
-    - uses: actions/checkout@v2
+ steps:
+    - uses: actions/checkout@v1.0.0
     - name: Set up Ruby
     # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
     # change this to (see https://github.com/ruby/setup-ruby#versioning):
