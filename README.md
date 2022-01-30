@@ -1,30 +1,15 @@
+
 Name: Ruby Gem
-steps:
-- uses: actions/checkout@master
-- name: Set up Ruby 2.6
-  uses: actions/setup-ruby@v1
-  with:
-    version: 2.6
+$ echo ":github: rosemariepahayo GITHUB_TOKEN"
+$ RubyGems.gemspec
+$ gem push --key github --host https://rosemariepahayo:TOKEN@rubygems.pkg.github.com/OWNER
+Ruby-Gems-1.0.0.gems
+`1.0.0.gems
+:backtrace: false
+:bulk_threshold: 1000
+:sources:
 
-- name: Publish to GPR
-  run: |
-    mkdir -p $HOME/.gem
-    touch $HOME/.gem/credentials
-    chmod 0600 $HOME/.gem/credentials
-    printf -- "---\n:github: Bearer ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
-    gem build *.gemspec
-    gem push --KEY github --host https://rubygems.pkg.github.com/${OWNER} *.gem
-  env:
-    GEM_HOST_API_KEY: ${{secrets.GPR_AUTH_TOKEN}}
-    OWNER: username
-
-- name: Publish to RubyGems
-  run: |
-    mkdir -p $HOME/.gem
-    touch $HOME/.gem/credentials
-    chmod 0600 $HOME/.gem/credentials
-    printf -- "---\n:rubygems_api_key: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
-    gem build *.gemspec
-    gem push *.gem
-  env:
-    GEM_HOST_API_KEY: ${{secrets.RUBYGEMS_AUTH_TOKEN}}
+https://rubygems.org/
+https://rosemariepahayo:TOKEN@rubygems.pkg.github.com/OWNER/
+:update_sources: true
+:verbose: true`
