@@ -1,6 +1,6 @@
 ---
 display_name: Authentication
-logo: Authentication.png
+logo: authentication.png
 short_description: Authentication is the act of proving an assertion, such as the identity of a computer system user.
 topic: authentication
 wikipedia_url: https://en.wikipedia.org/wiki/Authentication
