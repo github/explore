@@ -1,7 +1,7 @@
 ---
 display_name: Ansible Roles
 github_url: https://github.com/ansible
-short_description: Ansible roles provide a framework for fully independent, or interdependent collections of variables, tasks, files, templates, and modules.
+short_description: Ansible roles provide a framework for collections of variables, tasks, files, templates, and modules.
 topic: ansible-role
 url: https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
 related: ansible, ansible-playbook
