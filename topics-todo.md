@@ -7,7 +7,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [android-library](https://github.com/topics/android-library/)
 - [x] [angular-cli](https://github.com/topics/angular-cli/)
 - [ ] [animation](https://github.com/topics/animation/)
-- [ ] [ansible-role](https://github.com/topics/ansible-role/)
+- [x] [ansible-role](https://github.com/topics/ansible-role/)
 - [ ] [app](https://github.com/topics/app/)
 - [ ] [authentication](https://github.com/topics/authentication/)
 - [ ] [automation](https://github.com/topics/automation/)
