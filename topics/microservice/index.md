@@ -1,5 +1,5 @@
 ---
-aliases: microservice
+aliases: microservices
 display_name: Microservice
 short_description: Microservices are an architectural and organizational approach to software development
   of tasks.
