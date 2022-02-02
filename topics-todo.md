@@ -4,12 +4,12 @@ This is a list of the most-used topics on GitHub that don't yet have a curated t
 
 Information included in this repository will appear on each topic's respective page, helping others on GitHub better understand the topic and, by extension, what repositories tagged with that topic are about.
 
-- [ ] [android-library](https://github.com/topics/android-library/)
+- [x] [android-library](https://github.com/topics/android-library/)
 - [x] [angular-cli](https://github.com/topics/angular-cli/)
 - [x] [animation](https://github.com/topics/animation/)
-- [ ] [ansible-role](https://github.com/topics/ansible-role/)
+- [x] [ansible-role](https://github.com/topics/ansible-role/)
 - [ ] [app](https://github.com/topics/app/)
-- [ ] [authentication](https://github.com/topics/authentication/)
+- [x] [authentication](https://github.com/topics/authentication/)
 - [ ] [automation](https://github.com/topics/automation/)
 - [x] [boilerplate](https://github.com/topics/boilerplate/)
 - [ ] [canvas](https://github.com/topics/canvas/)
