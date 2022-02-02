@@ -1,6 +1,7 @@
 ---
 items:
  - aseprite/aseprite/
+ - pulkomandy/grafx2/
  - piskelapp/piskel/
  - jvalen/pixel-art-react/
  - maierfelix/poxi/
