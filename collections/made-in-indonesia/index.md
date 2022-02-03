@@ -7,6 +7,8 @@ items:
  - OpenSID
  - BaritoLog
  - odpf
+ - xitorch/xitorch
+ - mathdroid/covid-19-api
 display_name: Made in Indonesia
 created_by: mabdh
 image: made-in-indonesia.png
