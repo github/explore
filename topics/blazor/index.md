@@ -11,4 +11,4 @@ topic: blazor
 url: https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor
 wikipedia_url: https://en.wikipedia.org/wiki/Blazor
 ---
-Blazor is a .NET-based web application framework that allows you to create single-page applications with C#, Razor, and HTML.
+Blazor is a .NET-based web application framework that allows developers to create single-page applications with C#, Razor, and HTML.
