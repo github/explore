@@ -2,7 +2,7 @@
 items:
  - gnuradio/gnuradio
  - gnuradio/volk
- - csete/gqrx
+ - gqrx-sdr/gqrx
  - jgaeddert/liquid-dsp
  - miek/inspectrum
  - kpreid/shinysdr
