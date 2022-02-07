@@ -1,9 +1,9 @@
 ---
-aliases: blazor, blazorwasm, blazorwebassembly, blazorserver
+aliases: blazor-webassembly, blazor-server
 created_by: Microsoft
 display_name: Blazor
 github_url: https://github.com/dotnet/aspnetcore/tree/main/src/Components
-logo: Blazor.png
+logo: blazor.png
 related: blazor-webassembly, blazor-server, angular, svelte, vue, react
 released: February 2018
 short_description: Blazor is a free and open-source web framework that enables developers to create web apps using C# and HTML.
