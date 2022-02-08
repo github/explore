@@ -1,5 +1,5 @@
 ---
-aliases: user interface
+aliases: user-interface
 display_name: ui
 short_description: User interface(UI) or user interface engineering is the design of user interfaces for machines and software.
 topic: ui
