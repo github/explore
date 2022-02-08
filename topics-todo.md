@@ -38,7 +38,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [iot](https://github.com/topics/iot/)
 - [x] [keras](https://github.com/topics/keras/)
 - [ ] [logging](https://github.com/topics/logging/)
-- [ ] [microservice](https://github.com/topics/microservice/)
+- [x] [microservice](https://github.com/topics/microservice/)
 - [x] [mvc](https://github.com/topics/mvc/)
 - [ ] [network](https://github.com/topics/network/)
 - [ ] [parser](https://github.com/topics/parser/)
