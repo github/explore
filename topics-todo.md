@@ -58,7 +58,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [test](https://github.com/topics/test/)
 - [ ] [tool](https://github.com/topics/tool/)
 - [ ] [tutorial](https://github.com/topics/tutorial/)
-- [ ] [ui](https://github.com/topics/ui/)
+- [x] [ui](https://github.com/topics/ui/)
 - [ ] [utility](https://github.com/topics/utility/)
 - [ ] [video](https://github.com/topics/video/)
 - [x] [web](https://github.com/topics/web/)
