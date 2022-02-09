@@ -1,5 +1,5 @@
 ---
-items:
+items:Gitignore 
  - docker/dockercraft
  - minefold/hubot-minecraft
  - leereilly/hubot-minecraft-skin
