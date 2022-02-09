@@ -60,7 +60,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [tutorial](https://github.com/topics/tutorial/)
 - [x] [ui](https://github.com/topics/ui/)
 - [ ] [utility](https://github.com/topics/utility/)
-- [ ] [video](https://github.com/topics/video/)
+- [x] [video](https://github.com/topics/video/)
 - [x] [web](https://github.com/topics/web/)
 - [x] [website](https://github.com/topics/website/)
 - [x] [ai](https://github.com/topics/ai/)
