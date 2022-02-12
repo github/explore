@@ -12,6 +12,7 @@ items:
 - jashkenas/coffeescript
 - elixir-lang/elixir
 - crystal-lang/crystal
+- arturo-lang/arturo
 - PowerShell/PowerShell
 - scala/scala
 - dotnet/roslyn
