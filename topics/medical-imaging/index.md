@@ -6,4 +6,4 @@ short_description: Medical imaging tasks include methods for acquiring, processi
 topic: medical-imaging
 wikipedia_url: https://en.wikipedia.org/wiki/Medical_imaging
 ---
-Medical imaging is the technique and process of creating visual representations of the interior of a body for clinical analysis and medical intervention.
+Medical imaging is the technique and process of creating visual representations of the interior of a body for clinical analysis, and medical intervention.
