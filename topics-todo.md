@@ -35,7 +35,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [generator](https://github.com/topics/generator/)
 - [x] [gui](https://github.com/topics/gui/)
 - [ ] [image](https://github.com/topics/image/)
-- [ ] [iot](https://github.com/topics/iot/)
+- [x] [iot](https://github.com/topics/iot/)
 - [x] [keras](https://github.com/topics/keras/)
 - [ ] [logging](https://github.com/topics/logging/)
 - [x] [microservice](https://github.com/topics/microservice/)
