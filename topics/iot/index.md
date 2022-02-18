@@ -1,5 +1,5 @@
 --
-aliases: IoT, Internet-of-things
+aliases: Internet-of-things
 display_name: Internet of things
 related: cloud, embedded, devices
 short_description: The iot is a network of devices which exchanging data with other devices and systems over the internet.
