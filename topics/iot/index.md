@@ -2,7 +2,7 @@
 aliases: Internet-of-things
 display_name: Internet of things
 related: cloud, embedded, devices
-short_description: The iot is a network of devices which exchanging data with other devices and systems over the internet.
+short_description: The iot is a network of devices that exchange data with other devices and systems over the internet.
 topic: iot
 wikipedia_url: https://en.wikipedia.org/wiki/Internet_of_things
 ---
