@@ -4,7 +4,7 @@ created_by: Sandstorm Development Group and contributors
 display_name: Sandstorm
 github_url: https://github.com/sandstorm-io/
 logo: sandstorm.png
-short_description: Sandstorm is platform for self-hosting web apps
+short_description: Sandstorm is platform for self-hosting web apps.
 topic: sandstorm
 url: https://sandstorm.io/
 ---
