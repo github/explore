@@ -1,4 +1,4 @@
---
+---
 aliases: Internet-of-things
 display_name: Internet of things
 related: cloud, embedded, devices
