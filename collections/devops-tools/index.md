@@ -36,6 +36,8 @@ items:
  - hashicorp/vault
  - NagiosEnterprises/nagioscore
  - zabbix/zabbix
+ - keploy/keploy
+
  
 display_name: DevOps tools
 ---
