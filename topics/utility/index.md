@@ -1,5 +1,5 @@
 ---
-display_name: Utility-software 
+display_name: Utility Software 
 short_description: Utility software is software designed to help analyze, configure, optimize or maintain a computer.
 topic: utility
 wikipedia_url: https://en.wikipedia.org/wiki/Utility_software
