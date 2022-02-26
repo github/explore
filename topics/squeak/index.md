@@ -11,4 +11,4 @@ topic: squeak
 url: https://squeak.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Squeak
 ---
-Squeak is a live programming system for the object-oriented, reflective, and simple programming language Smalltalk. Squeak is self-supporting, i.e., it is implemented and modifiable entirely in itself. Squeak is used in research, education, and industry. Squeak is free open-source software and runs on all major platforms inside the OpenSmalltalk VM.
+Squeak is a live programming system for the object-oriented, reflective, and simple programming language Smalltalk. Squeak is self-supporting, i.e., it is implemented and modifiable entirely in itself. Squeak is used in research, education, and industry. Squeak is free open source software and runs on all major platforms inside the OpenSmalltalk VM.
