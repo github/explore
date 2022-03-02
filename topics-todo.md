@@ -9,6 +9,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [animation](https://github.com/topics/animation/)
 - [x] [ansible-role](https://github.com/topics/ansible-role/)
 - [ ] [app](https://github.com/topics/app/)
+- [ ] [argo-floats](https://github.com/topics/argo-floats/)
 - [x] [authentication](https://github.com/topics/authentication/)
 - [ ] [automation](https://github.com/topics/automation/)
 - [x] [boilerplate](https://github.com/topics/boilerplate/)
