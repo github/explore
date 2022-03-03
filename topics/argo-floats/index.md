@@ -1,9 +1,9 @@
 ---
 display_name: Argo
-short_description: Argo is an international program that uses profiling floats to observe temperature, salinity, currents, and bio-optical properties in the Earth's oceans
+short_description: Argo is a global system using profiling floats to observe temperature, salinity, and bio-optical properties in the World's ocean.
 topic: argo-floats
 logo: argo-floats.png
-aliases: argo, argo-floats, argo-float
+aliases: argo, argo-float
 wikipedia_url: https://en.wikipedia.org/wiki/Argo_(oceanography)
 related: ocean, sensor, climate
 url: https://argo.ucsd.edu/
