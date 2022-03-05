@@ -1,5 +1,4 @@
 ---
-aliases: utau
 display_name: UTAU
 short_description: UTAU is a freeware singing synthesis platform.
 topic: utau
