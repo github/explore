@@ -1,7 +1,7 @@
 ---
 aliases: utau
 display_name: UTAU
-short_description: UTAU is a freeware singing synthesis platform
+short_description: UTAU is a freeware singing synthesis platform.
 topic: utau
 wikipedia_url: https://en.wikipedia.org/wiki/UTAU
 ---
