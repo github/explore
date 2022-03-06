@@ -1,5 +1,5 @@
 ---
-aliases: transit data, GTFS-RT, GTFS Realtime
+aliases: gtfs-dataset, gtfs-realtime
 display_name: GTFS
 short_description: Open specification for public transit stop locations, route schedules, and related info for riders.
   of tasks.
