@@ -45,6 +45,7 @@ items:
  - ajeetdsouza/zoxide
  - Jaysmito101/TerraForge3D
  - keploy/keploy
+ - IVORY-UI/ivory
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
