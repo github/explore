@@ -7,7 +7,6 @@ items:
  - Esri/esri.github.io
  - square/square.github.io
  - twitter/twitter.github.io
- - gilt/code.gilt.com
  - guardian/guardian.github.com
  - Yelp/yelp.github.io
  - Shopify/shopify.github.com
