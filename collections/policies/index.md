@@ -6,7 +6,6 @@ items:
  - BetaNYC/Bike-Share-Data-Best-Practices
  - project-open-data/project-open-data.github.io
  - usds/playbook
- - catalyzeio/policies
  - 18F/open-source-policy
  - WhiteHouse/fitara
  - GSA/https
