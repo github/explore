@@ -58,6 +58,10 @@ items:
 - beefytech/Beef
 - cue-lang/cue
 - openjdk/jdk
+- TinyCC/tinycc
+- robhagemans/pcbasic
+- QB64Team/qb64
+- gleam-lang/gleam
 display_name: Programming languages
 created_by: leereilly
 ---
