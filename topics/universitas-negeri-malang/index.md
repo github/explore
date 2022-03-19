@@ -1,7 +1,7 @@
 ---
 aliases: um,univmalang,universitasnegerimalang
 display_name: Universitas Negeri Malang
-short_description: Universitas Negeri Malang, disingkat UM, merupakan perguruan tinggi negeri yang terletak di Malang dan Blitar, Jawa Timur, Indonesia.
+short_description: Universitas Negeri Malang, disingkat UM, merupakan perguruan tinggi negeri yang terletak di Malang dan Blitar, Indonesia.
 topic: universitas-negeri-malang
 wikipedia_url: https://id.wikipedia.org/wiki/Universitas_Negeri_Malang
 logo: universitas-negeri-malang.png
