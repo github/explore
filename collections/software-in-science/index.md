@@ -19,6 +19,7 @@ items:
  - fredrik-johansson/arb
  - broadinstitute/picard
  - markusschanta/awesome-jupyter
+ - ZigRazor/CXXGraph
 display_name: Software in science
 image: software-in-science.png
 ---
