@@ -1,8 +1,8 @@
 ---
-aliases: vrealize-orchestrator, vro
+aliases: vro, vmware-vro
 created_by: Mayank Goyal
 display_name: vRealize Orchestrator
-logo: vro.png
+logo: vrealize-orchestrator.png
 released: '2007'
 short_description: VMware vRealize Orchestrator is a workflow based automation tool.
 topic: vrealize-orchestrator
