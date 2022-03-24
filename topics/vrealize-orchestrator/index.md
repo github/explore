@@ -7,6 +7,6 @@ released: '2007'
 short_description: VMware vRealize Orchestrator is a workflow based automation tool.
 topic: vrealize-orchestrator
 url: https://www.vmware.com/in/products/vrealize-orchestrator.html
-wikipedia_url: https://en.wikipedia.org/wiki/JSON
+wikipedia_url: https://en.wikipedia.org/wiki/VMware
 ---
-vRO (vRealize Orchestrator) is a modern workflow automation platform that simplifies and automates complex data center infrastructure tasks for increased extensibility and agility. Supports Javascript, Python, Node.js and Powershell as per 2022.
+vRO (vRealize Orchestrator) is a modern workflow automation platform that simplifies and automates complex data center infrastructure tasks for increased extensibility and agility. Supports Javascript, Python, Node.js and Powershell as programming languages.
