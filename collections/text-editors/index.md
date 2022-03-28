@@ -32,6 +32,7 @@ items:
  - vim/vim
  - Alexey-T/CudaText
  - orbitalquark/textadept
+ - apache/netbeans
 
 display_name: Text editors
 created_by: leereilly
