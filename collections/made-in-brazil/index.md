@@ -9,6 +9,7 @@ items:
   - go-task/task
   - heartcombo/devise
   - htop-dev/htop/
+  - ricardocabral/iskdaemon
   - lua/lua
   - RocketChat/Rocket.Chat
   - tsuru/tsuru
