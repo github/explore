@@ -2,7 +2,7 @@
 aliases: um,univmalang,universitasnegerimalang
 display_name: State University of Malang
 short_description: State University of Malang is a state university located in Malang and Blitar, Indonesia.
-topic: universitas-negeri-malang, state-university-malang
+topic: state-university-of-malang
 wikipedia_url: https://id.wikipedia.org/wiki/Universitas_Negeri_Malang
 logo: universitas-negeri-malang.png
 url: https://um.ac.id
