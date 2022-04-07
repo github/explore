@@ -1,5 +1,4 @@
 ---
-aliases: gitlab
 created_by: Dmitriy Zaporozhets, Sytse Sijbrandij
 display_name: GitLab
 logo: gitlab.png
