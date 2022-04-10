@@ -16,6 +16,7 @@ items:
  - PixiEditor/PixiEditor
  - Kully/pixel-paint
  - pulkomandy/grafx2/
+ - therealbluepandabear/PixaPencil
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png
