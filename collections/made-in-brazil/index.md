@@ -17,6 +17,10 @@ items:
   - cuducos/minha-receita
   - kvnol/aprenda-frontend
   - felipeorlando/aprenda-rubyonrails
+  - ibrahimcesar/estrutura-e-interpretacao-de-programas-de-computador-javascript
+  - ibrahimcesar/react-lite-youtube-embed
+  - ibrahimcesar/middy-recaptcha
+  - ibrahimcesar/middy-idempotent
 display_name: Made in Brazil
 created_by: caarlos0
 image: made-in-brazil.png
