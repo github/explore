@@ -41,7 +41,7 @@ GEM
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    public_suffix (4.0.6)
+    public_suffix (4.0.7)
     rainbow (3.1.1)
     rake (13.0.6)
     regexp_parser (2.3.0)
