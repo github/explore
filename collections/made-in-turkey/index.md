@@ -1,5 +1,6 @@
 ---
 items:
+ - ShareX/ShareX
  - furkandeveloper/EasyProfiler
  - isidentical/refactor
  - fatih/vim-go
