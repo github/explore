@@ -7,5 +7,6 @@ short_description: An 8-bit personal home computer developed by Sinclair Researc
 wikipedia_url: https://en.wikipedia.org/wiki/Action-adventure_game
 created_by: Sinclair Research
 released: APRIL 23, 1982
+logo: zx-spectrum.png
 ---
 Sinclair's ZX Spectrum was an affordable computer that introduced colorful gaming and amateur programming for the masses. 
