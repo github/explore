@@ -19,7 +19,10 @@ jobs:
         with:
           bundler-cache: true
 
-      - name: Build and test with Rake/Rubocop
-        run: |
-          bundle exec rake
-          bundle exec rubocop --display-cop-names
+      - name: Build and test with Rake
+        run: bundle exec rake
+          
+      - name: Run linters
+        uses: wearerequired/lint-action@v1
+        with:
+          rubocop: true
