@@ -8,10 +8,10 @@ MAX_COLLECTION_SLUG_LENGTH = 40
 MAX_COLLECTION_DISPLAY_NAME_LENGTH = 100
 
 COLLECTION_IMAGE_EXTENSIONS = %w[.jpg .jpeg .png .gif].freeze
-COLLECTION_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/.freeze
+COLLECTION_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 
-USERNAME_REGEX = /\A[a-z0-9]+(-[a-z0-9]+)*\z/i.freeze
-USERNAME_AND_REPO_REGEX = %r{\A[^/]+/[^/]+$\z}.freeze
+USERNAME_REGEX = /\A[a-z0-9]+(-[a-z0-9]+)*\z/i
+USERNAME_AND_REPO_REGEX = %r{\A[^/]+/[^/]+$\z}
 
 def invalid_collection_message(collection)
   "'#{collection}' must be between 1-#{MAX_COLLECTION_SLUG_LENGTH} characters, " \
