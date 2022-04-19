@@ -14,7 +14,7 @@ items:
   - Abdur-rahmaanJ/greenBerry
   - Abdur-rahmaanJ/honeybot
   - Abdur-rahmaanJ/meteomoris
-  - cedpoilly/vue-gapi
+  - vue-gapi/vue-gapi
   - reallyaditya/mauritius-speedtest
   - MrSunshyne/mauritius-fuel-prices
   - MrSunshyne/mauritius-dataset-electricity
