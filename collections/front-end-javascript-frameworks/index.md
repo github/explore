@@ -18,7 +18,7 @@ items:
  - jorgebucaran/hyperapp
  - riot/riot
  - daemonite/material
- - polymer/lit-element
+ - lit/lit
  - aurelia/aurelia
  - sveltejs/svelte
  - neomjs/neo
