@@ -1,8 +1,10 @@
 ---
 items:
  - acekyd/made-in-nigeria
+ - javascriptdata/danfojs
  - frontlinesms/frontlinesms2
  - ushahidi/SMSSync
+ - bangajs/banga-cli
  - praekeltfoundation/vumi
  - rapidpro/rapidpro
  - pluspeople/pesaPi
@@ -16,6 +18,7 @@ items:
  - ushahidi/platform
  - Yorubaname/yorubaname-website
  - codedivoire/made-in-ci
+ - beopencloud/cno
 display_name: Made in Africa
 created_by: mozzadrella
 ---
