@@ -19,7 +19,7 @@ items:
  - zyedidia/micro
  - neoedmund/neoeedit
  - mawww/kakoune
- - JasonStein/Notepads
+ - 0x7c13/Notepads
  - onivim/oni2
  - VSCodium/vscodium
  - JetBrains/intellij-community
