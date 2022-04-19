@@ -45,7 +45,7 @@ describe "topics" do
       it "uses the right format for 'released'" do
         metadata = metadata_for(topics_dir, topic) || ""
 
-        if released = metadata["released"]
+        if released = metadata['released']
           text = released.to_s.gsub(/[\d+,\s]/, "").strip
 
           unless text.empty?
