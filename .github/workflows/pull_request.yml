@@ -2,8 +2,9 @@ name: CI/Rubocop
 
 on:
   push:
-    branches: main
-  pull_request: []
+    branches:
+      - master
+  pull_request:
 
 permissions:
   contents: read
@@ -12,12 +13,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true
-    - name: Build and test with Rake/Rubocop
-      run: |
-        bundle exec rake
-        bundle exec rubocop --display-cop-names
+      - uses: actions/checkout@v2
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build and test with Rake/Rubocop
+        run: |
+          bundle exec rake
+          bundle exec rubocop --display-cop-names

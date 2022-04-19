@@ -1,7 +1,7 @@
 require: rubocop-performance
 
 AllCops:
-  TargetRubyVersion: 2.7
+  TargetRubyVersion: 3.1
   Exclude:
     - '**/bin/**/*'
     - '**/db/**/*'
