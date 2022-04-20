@@ -16,6 +16,9 @@ items:
  - ushahidi/platform
  - Yorubaname/yorubaname-website
  - codedivoire/made-in-ci
+ - beopencloud/cno
+ - javascriptdata/danfojs
+ - bangajs/banga-cli
 display_name: Made in Africa
 created_by: mozzadrella
 ---
