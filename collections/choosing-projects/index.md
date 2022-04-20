@@ -1,10 +1,6 @@
 ---
 items:
- - rust-lang/rust
- - HospitalRun/hospitalrun-frontend
- - hoodiehq/hoodie
- - Homebrew/brew
- - https://www.youtube.com/embed/dSl_qnWO104
+ - java
  - public-apis/public-apis
 display_name: How to choose (and contribute to) your first open source project
 created_by: kytrinyx
