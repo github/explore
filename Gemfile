@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
-gem "faraday"
 gem "activesupport"
+gem "faraday"
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-octicons"
-gem "rake"
 gem "pry", require: false
+gem "rake"
 gem "webrick"
 
 group :test do
@@ -18,4 +18,3 @@ group :test do
   gem "rubocop-performance"
   gem "safe_yaml"
 end
-
