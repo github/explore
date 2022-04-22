@@ -71,7 +71,7 @@ items:
  - overtone/overtone
  - samaaron/sonic-pi
 display_name: Music
-created_by: jonrohan
+created_by: shafiul2s,oktacad 
 ---
 Drop the code bass with these musically themed repositories.
 ```
