@@ -1,0 +1,45 @@
+---
+items:
+ - apache/spark
+ - apache/hadoop
+ - jbhuang0604/awesome-computer-vision
+ - GSA/data
+ - GoogleTrends/data
+ - nationalparkservice/data
+ - fivethirtyeight/data
+ - beamandrew/medical-data
+ - src-d/awesome-machine-learning-on-source-code
+ - igrigorik/decisiontree
+ - keon/awesome-nlp
+ - openai/gym
+ - aikorea/awesome-rl
+ - umutisik/Eigentechno
+ - jpmckinney/tf-idf-similarity
+ - scikit-learn-contrib/lightning
+ - gwding/draw_convnet
+ - scikit-learn/scikit-learn
+ - tensorflow/tensorflow
+ - activeloopai/Hub
+ - Theano/Theano
+ - shogun-toolbox/shogun
+ - davisking/dlib
+ - apache/predictionio
+ - deepmind/pysc2
+ - gokceneraslan/awesome-deepbio
+ - buriburisuri/ByteNet
+ - josephmisiti/awesome-machine-learning
+ - ujjwalkarn/Machine-Learning-Tutorials
+ - ChristosChristofidis/awesome-deep-learning
+ - fastai/courses
+ - Yorko/mlcourse.ai
+ - jtoy/awesome-tensorflow
+ - nlintz/TensorFlow-Tutorials
+ - pkmital/tensorflow_tutorials
+ - https://www.youtube.com/embed/KsbQ_HNX6Pg
+ - https://www.youtube.com/embed/bHvf7Tagt18
+ - https://www.youtube.com/embed/ILsA4nyG7I0
+ - AMAI-GmbH/AI-Expert-Roadmap
+display_name: Getting started with machine learning
+created_by: omoju
+---
+Today, machine learning—the study of algorithms that make data-based predictions—has found a new audience and a new set of possibilities.

@@ -1,0 +1,59 @@
+---
+items:
+ - godotengine/godot
+ - turbulenz/turbulenz_engine
+ - TorqueGameEngines/Torque3D
+ - TorqueGameEngines/Torque2D
+ - spring/spring
+ - cocos2d/cocos2d-x
+ - Gamua/Starling-Framework
+ - gameplay3d/GamePlay
+ - jMonkeyEngine/jmonkeyengine
+ - SFTtech/openage
+ - MonoGame/MonoGame
+ - libgdx/libgdx
+ - superpowers/superpowers-core
+ - AtomicGameEngine/AtomicGameEngine
+ - 4ian/GDevelop
+ - CRYTEK/CRYENGINE
+ - urho3d/Urho3D
+ - benoit-dumas/OpenRTS
+ - photonstorm/phaser
+ - melonjs/melonJS
+ - BabylonJS/Babylon.js
+ - WhitestormJS/whs.js
+ - wellcaffeinated/PhysicsJS
+ - playcanvas/engine
+ - cocos2d/cocos2d-html5
+ - craftyjs/Crafty
+ - pixijs/pixijs
+ - renpy/renpy
+ - OpenRA/OpenRA
+ - OpenRCT2/OpenRCT2
+ - stride3d/stride
+ - lance-gg/lance
+ - panda3d/panda3d
+ - OpenXRay/xray-16
+ - korlibs/korge
+ - raysan5/raylib
+ - amethyst/amethyst
+ - orx/orx
+ - nCine/nCine
+ - cocos-creator/engine
+ - love2d/love
+ - coronalabs/corona
+ - hajimehoshi/ebiten
+ - HaxeFoundation/haxe
+ - bevyengine/bevy
+ - Esenthel/EsenthelEngine
+ - aws/lumberyard
+ - FlaxEngine/FlaxEngine
+ - ObEngine/ObEngine
+ - KilledByAPixel/LittleJS
+ - ppy/osu-framework
+ - gosu/gosu
+ - cerberusxdev/cerberus
+display_name: Game Engines
+created_by: leereilly
+---
+Frameworks for building games across multiple platforms.
