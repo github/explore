@@ -8,7 +8,6 @@ plugins:
 
 exclude:
   - .git
-  - CNAME
   - CODEOWNERS
   - Gemfile
   - Gemfile.lock
