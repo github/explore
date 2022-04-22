@@ -25,6 +25,8 @@ exclude:
   - package-lock.json
   - package.json
   - docker-compose.yml
+  - collections
+  - topics
 
 sass:
   sass_dir: node_modules/

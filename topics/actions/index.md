@@ -1,10 +1,14 @@
 ---
-aliases: github-actions,action
+aliases:
+  - github-actions
+  - action
 created_by: GitHub
 display_name: Actions
 github_url: https://github.com/actions
 logo: actions.png
-related: docker,ci
+related:
+  - docker
+  - ci
 released: October 16, 2018
 short_description: GitHub Actions is a platform for developer workflow orchestration and automation.
 topic: actions
