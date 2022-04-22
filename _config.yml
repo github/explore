@@ -1,40 +1,21 @@
 title: GitHub Explore Feed
 description: Feed for GitHub Topics and Collections.
 
-markdown: kramdown
-
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-octicons
 
 exclude:
-  - .bundle
   - .git
-  - Brewfile
   - CNAME
   - CODEOWNERS
   - Gemfile
   - Gemfile.lock
   - README.md
   - Rakefile
-  - bin
-  - script
-  - vendor
-  - node_modules
-  - package-lock.json
-  - package.json
-  - docker-compose.yml
   - collections
   - topics
 
-sass:
-  sass_dir: node_modules/
-
 collections:
   topics:
-    output: true
-    permalink: /:collection/:path/
-  collections:
-    output: true
-    permalink: /:collection/:path/
+  explore_collections:
