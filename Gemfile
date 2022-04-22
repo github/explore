@@ -4,8 +4,6 @@ gem "activesupport"
 gem "faraday"
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-octicons"
-gem "pry", require: false
-gem "rake"
 gem "webrick"
 
 group :test do
