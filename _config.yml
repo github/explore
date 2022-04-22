@@ -2,7 +2,6 @@ title: GitHub Explore Feed
 description: Feed for GitHub Topics and Collections.
 
 plugins:
-  - jekyll-feed
   - jekyll-redirect-from
 
 exclude:
@@ -15,6 +14,7 @@ exclude:
   - Rakefile
   - collections
   - topics
+  - test
 
 collections:
   topics:
