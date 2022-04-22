@@ -13,8 +13,9 @@ exclude:
   - README.md
   - Rakefile
   - collections
-  - topics
   - test
+  - topics
+  - vendor
 
 collections:
   topics:
