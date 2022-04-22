@@ -1,0 +1,21 @@
+title: GitHub Explore Feed
+description: Feed for GitHub Topics and Collections.
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+exclude:
+  - .git
+  - CNAME
+  - CODEOWNERS
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - Rakefile
+  - collections
+  - topics
+
+collections:
+  topics:
+  explore_collections:
