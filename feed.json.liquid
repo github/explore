@@ -7,10 +7,11 @@ permalink: feed.json
 {
   "version": "https://jsonfeed.org/version/1",
   "title": {{ site.title | smartify | jsonify }},
-  "feed_url": "{{ site.url }}/feed.json",
   "expired": false,
   "collections": [
     {% for collection in collections %}
+    {%- assign collection_name_words = collection.id | split: "/" -%}
+    {%- assign collection_name = collection_name_words[2] -%}
       {
         "items": [
           {% for item in collection.items %}
@@ -18,6 +19,7 @@ permalink: feed.json
           {% endfor %}
         ],
         "created_by": {{ collection.created_by | jsonify }},
+        "name": {{ collection_name | jsonify }},
         "display_name": {{ collection.display_name | jsonify }},
         "image": {% if collection.image == null %}
           null,
