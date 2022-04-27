@@ -20,7 +20,7 @@ jobs:
         run: bundle exec rake
           
       - name: Run linters
-        uses: wearerequired/lint-action@v1
+        uses: wearerequired/lint-action@v2
         with:
           auto_fix: true
           rubocop: true
