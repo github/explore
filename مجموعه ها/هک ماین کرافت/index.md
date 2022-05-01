@@ -3,7 +3,7 @@ items:
  - docker/dockercraft
  - minefold/hubot-minecraft
  - leereilly/hubot-minecraft-skin
- - overviewer/Minecraft-Overviewer
+ - مرورگر/Minecraft-Overviewer
  - cuberite/cuberite
  - pmmp/PocketMine-MP
  - msmhq/msm
@@ -31,4 +31,5 @@ display_name: Hacking Minecraft
 created_by: leereilly
 image: hacking-minecraft.png
 ---
-Minecraft is a game about building blocks, but it doesn’t end there. Take Minecraft further with some of the projects below, or dive into the code mines and hammer your own!
+Minecraft یک بازی در مورد بلوک های سازنده است، اما به همین جا ختم نمی شود. با برخی از پروژه‌های زیر، Minecraft را جلوتر ببرید، یا در ماین‌های کد شیرجه بزنید و خودتان را چکش کنید!
+را
