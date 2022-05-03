@@ -23,6 +23,7 @@ items:
  - Cloud9c/taro
  - replit/kaboom
  - straker/kontra
+ - nikeedev/GameEngine_js
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---
