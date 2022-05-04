@@ -5,7 +5,7 @@ display_name: Debian
 github_url: https://github.com/debian
 logo: debian.svg
 related: linux, ubuntu
-released: released: September 15, 1993
+released: September 15, 1993
 short_description: Debian is a Linux based operating system.
 topic: debian
 url: https://www.debian.org
