@@ -1,5 +1,6 @@
 ---
 items:
+  - Amr2812/software-environment-concepts
   - KL13NT/ally-reads
   - 0xSobky/AnonTab
   - RobustaStudio/bkit
