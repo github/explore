@@ -15,8 +15,8 @@ items:
  - bentoml/BentoML 
  - pycaret/pycaret
  - whylabs/whylogs
- - argoproj/argo
- - maiot-io/zenml
+ - argoproj/argo-workflows
+ - zenml-io/zenml
  - aimhubio/aim
  - interpretml/interpret
  - mlrun/mlrun
