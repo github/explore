@@ -1,5 +1,6 @@
 ---
 items:
+ - aimhubio/aim
  - microsoft/nni
  - magda-io/magda
  - milvus-io/milvus
@@ -17,7 +18,6 @@ items:
  - whylabs/whylogs
  - argoproj/argo-workflows
  - zenml-io/zenml
- - aimhubio/aim
  - interpretml/interpret
  - mlrun/mlrun
  - microsoft/pai
