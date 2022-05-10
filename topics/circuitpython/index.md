@@ -1,3 +1,4 @@
+---
 aliases: circuit-python
 created_by: Adafruit Industries
 display_name: CircuitPython
