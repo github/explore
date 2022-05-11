@@ -4,6 +4,7 @@ items:
  - magda-io/magda
  - milvus-io/milvus
  - feast-dev/feast
+ - stitchfix/hamilton
  - tobegit3hub/advisor
  - optuna/optuna
  - h2oai/h2o-3
