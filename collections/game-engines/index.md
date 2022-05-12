@@ -54,6 +54,6 @@ items:
  - gosu/gosu
  - cerberusxdev/cerberus
 display_name: Game Engines
-created_by: leereilly
+created_by: shafiul2s
 ---
 Frameworks for building games across multiple platforms.
