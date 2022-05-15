@@ -2,7 +2,7 @@
 display_name: Dockerfile
 logo: dockerfile.png
 related: docker, docker-image
-github_url: https://github.com/docker-library
+aliases: docker-file
 short_description: A Dockerfile is a text document that contains commands to assemble a docker image.
 url: https://docs.docker.com/engine/reference/builder/
 topic: dockerfile
