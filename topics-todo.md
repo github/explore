@@ -27,7 +27,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [devops](https://github.com/topics/devops/)
 - [x] [docker-compose](https://github.com/topics/docker-compose/)
 - [x] [docker-image](https://github.com/topics/docker-image/)
-- [ ] [dockerfile](https://github.com/topics/dockerfile/)
+- [x] [dockerfile](https://github.com/topics/dockerfile/)
 - [ ] [education](https://github.com/topics/education/)
 - [x] [elasticsearch](https://github.com/topics/elasticsearch/)
 - [ ] [example](https://github.com/topics/example/)
