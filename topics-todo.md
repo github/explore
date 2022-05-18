@@ -13,7 +13,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [authentication](https://github.com/topics/authentication/)
 - [ ] [automation](https://github.com/topics/automation/)
 - [x] [boilerplate](https://github.com/topics/boilerplate/)
-- [ ] [canvas](https://github.com/topics/canvas/)
+- [x] [canvas](https://github.com/topics/canvas/)
 - [x] [chatbot](https://github.com/topics/chatbot/)
 - [ ] [client](https://github.com/topics/client/)
 - [x] [command-line](https://github.com/topics/command-line/)
