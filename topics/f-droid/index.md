@@ -5,7 +5,7 @@ created_by: F-Droid Team
 github_url: https://github.com/f-droid/fdroidclient
 display_name: F-Droid
 logo: f-droid.png
-released: 2010
+released: September 29, 2010
 related: android
 short_description: F-Droid is an installable catalogue of FOSS applications for the Android platform.
 url: https://f-droid.org/
