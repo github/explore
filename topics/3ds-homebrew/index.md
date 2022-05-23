@@ -1,5 +1,4 @@
 ---
-aliases: 3dshacks
 display_name: Nintendo 3ds Homebrew
 short_description: 3ds Homebrew is the task of producing and running code for the Nintendo 3ds system.
 topic: 3ds-homebrew
