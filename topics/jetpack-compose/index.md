@@ -1,7 +1,7 @@
 ---
 created_by: Android
 display_name: Jetpack Compose
-logo: compose.png
+logo: jetpack-compose.png
 released: July 28, 2021
 short_description: Jetpack Compose is Android’s modern toolkit for building native UI.
 topic: jetpack-compose
