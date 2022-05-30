@@ -17,6 +17,8 @@ items:
   - cuducos/minha-receita
   - kvnol/aprenda-frontend
   - felipeorlando/aprenda-rubyonrails
+  - BrasilAPI/BrasilAPI
+  - alt-art/commit
 display_name: Made in Brazil
 created_by: caarlos0
 image: made-in-brazil.png

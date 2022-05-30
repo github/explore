@@ -1,33 +1,27 @@
 name: CI/Rubocop
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup Ruby
-      uses: actions/setup-ruby@v1
-      with:
-        ruby-version: 2.7
-    - name: Install bundler
-      run: |
-        gem install bundler:2.1.4
-        bundle config path vendor/bundle
-    - name: Cache gems
-      uses: actions/cache@v1
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
-    - name: Install gems
-      if: steps.cache.outputs.cache-hit != 'true'
-      run: bundle install --jobs 4 --retry 3
-    - name: Build and test with Rake/Rubocop
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        bundle exec rake
-        bundle exec rubocop --display-cop-names
+      - uses: actions/checkout@v3
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build and test with Rake
+        run: bundle exec rake
+          
+      - name: Run linters
+        uses: wearerequired/lint-action@v2
+        with:
+          auto_fix: true
+          rubocop: true
+          rubocop_command_prefix: bundle exec

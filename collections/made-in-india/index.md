@@ -44,6 +44,9 @@ items:
  - krayin/laravel-crm
  - ajeetdsouza/zoxide
  - Jaysmito101/TerraForge3D
+ - keploy/keploy
+ - LambdaTest/test-at-scale
+ - arnav-kr/json-formatter
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
