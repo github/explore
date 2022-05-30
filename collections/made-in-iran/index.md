@@ -1,6 +1,5 @@
 ---
 items:
- - Noah1001000/clean-code-persian
  - jadijadi/bestoon
  - jadijadi/justforfun
  - mr-hashemi/mr-hashemi
