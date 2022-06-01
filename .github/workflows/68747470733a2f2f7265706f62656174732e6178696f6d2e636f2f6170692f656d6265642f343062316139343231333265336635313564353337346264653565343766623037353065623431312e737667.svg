@@ -1,0 +1,661 @@
+
+    <svg width="814" height="318" viewBox="0 0 814 318" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <style>
+            .sans {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            }
+            .mono {
+                font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+                font-size: 12px;
+                letter-spacing: -0.5px;
+            }
+            .bold {
+                font-weight: 500;
+            }
+            .medium {
+                font-size: 16px;
+            }
+            .small {
+                font-size: 14px;
+            }
+
+            .smaller {
+                font-size: 12px;
+            }
+            .pre {
+                white-space: pre;
+            }
+            .glow {
+                paint-order: stroke;
+            }
+        </style>
+
+        <rect x="0.5" y="0.5" width="813" height="320" fill="rgba(0, 0, 0, 0)"/>
+
+        
+            <g>
+                <rect x="0.5" y="0.5" width="813" height="47" rx="4.5" stroke="rgba(0,0,0,0.15)" />
+                <rect x="0.5" y="0.5" width="813" height="47" rx="4.5" stroke="rgba(255,255,255,0.3)" />
+
+                <g transform="translate(10,16)">
+                <svg width="20" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 .842C0 .377.373 0 .833 0h18.334c.46 0 .833.377.833.842v.421a.838.838 0 0 1-.833.842H.833A.838.838 0 0 1 0 1.263v-.42ZM0 14.737c0-.465.373-.842.833-.842h18.334c.46 0 .833.377.833.842v.42a.838.838 0 0 1-.833.843H.833A.838.838 0 0 1 0 15.158v-.421ZM0 4.632c0-.465.373-.843.833-.843H5c.46 0 .833.377.833.843v.42A.838.838 0 0 1 5 5.896H.833A.838.838 0 0 1 0 5.053v-.421ZM0 8.421c0-.465.373-.842.833-.842H5c.46 0 .833.377.833.842v2.947A.838.838 0 0 1 5 12.21H.833A.838.838 0 0 1 0 11.368V8.421ZM7.083 4.632c0-.465.373-.843.834-.843h4.166c.46 0 .834.377.834.843v.42a.838.838 0 0 1-.834.843H7.917a.838.838 0 0 1-.834-.842v-.421ZM7.083 8.421c0-.465.373-.842.834-.842h4.166c.46 0 .834.377.834.842v2.947a.838.838 0 0 1-.834.842H7.917a.838.838 0 0 1-.834-.842V8.421ZM14.167 4.632c0-.465.373-.843.833-.843h4.167c.46 0 .833.377.833.843v.42a.838.838 0 0 1-.833.843H15a.838.838 0 0 1-.833-.842v-.421ZM14.167 8.421c0-.465.373-.842.833-.842h4.167c.46 0 .833.377.833.842v2.947a.838.838 0 0 1-.833.842H15a.838.838 0 0 1-.833-.842V8.421Z" fill="rgba(236, 72, 153, 1)"/>
+                </svg>
+                </g>
+                <text x="38" y="29" class="sans small bold glow" fill="rgba(236, 72, 153, 1)" stroke-width="0.5" >0 Contributions in the Last 30 Days</text>
+                
+                <rect x="533.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="542.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="551.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="560.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="569.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="578.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="587.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="596.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="605.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="614.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="623.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="632.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="641.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="650.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="659.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="668.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="677.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="686.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="695.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="704.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="713.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="722.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="731.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="740.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="749.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="758.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="767.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="776.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="785.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+                <rect x="794.5" y="20" width="8" height="8" rx="1.5" opacity="0" fill="rgba(236, 72, 153, 1)" />
+            
+
+            </g>
+        
+
+                <g transform="translate(0, 58)">
+                    <rect x="0.5" y="0.5" width="264" height="70" rx="4.5" stroke="rgba(0,0,0,0.15)" />
+                    <rect x="0.5" y="0.5" width="264" height="70" rx="4.5" stroke="rgba(255,255,255,0.3)" />
+                    
+                    <text x="10" y="24" class="sans small bold" fill="#406CC4">0 Opened/Closed Issue Ratio</text>
+                    
+                    <text x="10" y="56" text-anchor="start" class="mono smaller bold" fill="#777">0 (0%)</text>
+                    <text x="254" y="56" text-anchor="end" class="mono smaller bold" fill="#CF3E3E">past month</text>
+
+                    <g transform="translate(170, 46)">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M2.02989 7.836L2.02994 7.83604L5.15494 10.961L5.15498 10.9611C5.24404 11.05 5.36477 11.1 5.49065 11.1C5.61652 11.1 5.73725 11.05 5.82631 10.9611L5.82636 10.961L8.95018 7.83722C8.99622 7.79398 9.03317 7.742 9.05888 7.6843C9.08484 7.62603 9.0988 7.56313 9.09993 7.49936C9.10105 7.43558 9.08932 7.37223 9.06543 7.31308C9.04154 7.25393 9.00598 7.20021 8.96088 7.1551C8.91577 7.11 8.86204 7.07444 8.8029 7.05055C8.74375 7.02666 8.6804 7.01492 8.61662 7.01605C8.55284 7.01717 8.48994 7.03113 8.43168 7.0571C8.37398 7.0828 8.322 7.11976 8.27876 7.16579L5.96565 9.47891L5.96565 2.50033C5.96565 2.37435 5.9156 2.25353 5.82652 2.16445C5.73744 2.07537 5.61662 2.02533 5.49065 2.02533C5.36467 2.02533 5.24385 2.07537 5.15477 2.16445C5.06569 2.25353 5.01565 2.37435 5.01565 2.50033L5.01565 9.47891L2.70136 7.16462L2.70131 7.16458C2.61225 7.07562 2.49152 7.02566 2.36565 7.02566C2.23977 7.02566 2.11904 7.07562 2.02998 7.16458L2.10065 7.23533L2.02989 7.16466C1.94094 7.25373 1.89098 7.37446 1.89098 7.50033C1.89098 7.62621 1.94094 7.74693 2.02989 7.836Z" fill="#CF3E3E" stroke="#CF3E3E" stroke-width="0.5"/>
+                       </svg>
+                    </g>
+                </g>
+            
+
+                <g transform="translate(274, 58)">
+                    <rect x="0.5" y="0.5" width="264" height="70" rx="4.5" stroke="rgba(0,0,0,0.15)" />
+                    <rect x="0.5" y="0.5" width="264" height="70" rx="4.5" stroke="rgba(255,255,255,0.3)" />
+                    
+                    <text x="10" y="24" class="sans small bold" fill="#7B58C9">0 Pull Requests Opened</text>
+                    
+                    <text x="10" y="56" text-anchor="start" class="mono smaller bold" fill="#777">0 (0%)</text>
+                    <text x="254" y="56" text-anchor="end" class="mono smaller bold" fill="#CF3E3E">past month</text>
+
+                    <g transform="translate(170, 46)">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M2.02989 7.836L2.02994 7.83604L5.15494 10.961L5.15498 10.9611C5.24404 11.05 5.36477 11.1 5.49065 11.1C5.61652 11.1 5.73725 11.05 5.82631 10.9611L5.82636 10.961L8.95018 7.83722C8.99622 7.79398 9.03317 7.742 9.05888 7.6843C9.08484 7.62603 9.0988 7.56313 9.09993 7.49936C9.10105 7.43558 9.08932 7.37223 9.06543 7.31308C9.04154 7.25393 9.00598 7.20021 8.96088 7.1551C8.91577 7.11 8.86204 7.07444 8.8029 7.05055C8.74375 7.02666 8.6804 7.01492 8.61662 7.01605C8.55284 7.01717 8.48994 7.03113 8.43168 7.0571C8.37398 7.0828 8.322 7.11976 8.27876 7.16579L5.96565 9.47891L5.96565 2.50033C5.96565 2.37435 5.9156 2.25353 5.82652 2.16445C5.73744 2.07537 5.61662 2.02533 5.49065 2.02533C5.36467 2.02533 5.24385 2.07537 5.15477 2.16445C5.06569 2.25353 5.01565 2.37435 5.01565 2.50033L5.01565 9.47891L2.70136 7.16462L2.70131 7.16458C2.61225 7.07562 2.49152 7.02566 2.36565 7.02566C2.23977 7.02566 2.11904 7.07562 2.02998 7.16458L2.10065 7.23533L2.02989 7.16466C1.94094 7.25373 1.89098 7.37446 1.89098 7.50033C1.89098 7.62621 1.94094 7.74693 2.02989 7.836Z" fill="#CF3E3E" stroke="#CF3E3E" stroke-width="0.5"/>
+                       </svg>
+                    </g>
+                </g>
+            
+
+                <g transform="translate(548, 58)">
+                    <rect x="0.5" y="0.5" width="264" height="70" rx="4.5" stroke="rgba(0,0,0,0.15)" />
+                    <rect x="0.5" y="0.5" width="264" height="70" rx="4.5" stroke="rgba(255,255,255,0.3)" />
+                    
+                    <text x="10" y="24" class="sans small bold" fill="#BA473E">0 Commits</text>
+                    
+                    <text x="10" y="56" text-anchor="start" class="mono smaller bold" fill="#777">0 (0%)</text>
+                    <text x="254" y="56" text-anchor="end" class="mono smaller bold" fill="#CF3E3E">past month</text>
+
+                    <g transform="translate(170, 46)">
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <path d="M2.02989 7.836L2.02994 7.83604L5.15494 10.961L5.15498 10.9611C5.24404 11.05 5.36477 11.1 5.49065 11.1C5.61652 11.1 5.73725 11.05 5.82631 10.9611L5.82636 10.961L8.95018 7.83722C8.99622 7.79398 9.03317 7.742 9.05888 7.6843C9.08484 7.62603 9.0988 7.56313 9.09993 7.49936C9.10105 7.43558 9.08932 7.37223 9.06543 7.31308C9.04154 7.25393 9.00598 7.20021 8.96088 7.1551C8.91577 7.11 8.86204 7.07444 8.8029 7.05055C8.74375 7.02666 8.6804 7.01492 8.61662 7.01605C8.55284 7.01717 8.48994 7.03113 8.43168 7.0571C8.37398 7.0828 8.322 7.11976 8.27876 7.16579L5.96565 9.47891L5.96565 2.50033C5.96565 2.37435 5.9156 2.25353 5.82652 2.16445C5.73744 2.07537 5.61662 2.02533 5.49065 2.02533C5.36467 2.02533 5.24385 2.07537 5.15477 2.16445C5.06569 2.25353 5.01565 2.37435 5.01565 2.50033L5.01565 9.47891L2.70136 7.16462L2.70131 7.16458C2.61225 7.07562 2.49152 7.02566 2.36565 7.02566C2.23977 7.02566 2.11904 7.07562 2.02998 7.16458L2.10065 7.23533L2.02989 7.16466C1.94094 7.25373 1.89098 7.37446 1.89098 7.50033C1.89098 7.62621 1.94094 7.74693 2.02989 7.836Z" fill="#CF3E3E" stroke="#CF3E3E" stroke-width="0.5"/>
+                       </svg>
+                    </g>
+                </g>
+            
+
+            <g transform="translate(0, 138)">
+                <rect x="0.5" y="0.5" width="264" height="120" rx="4.5" stroke="rgba(0,0,0,0.15)" />
+                <rect x="0.5" y="0.5" width="264" height="120" rx="4.5" fill="rgba(255,255,255, 0.0)" stroke="rgba(255,255,255,0.3)" />
+                <g transform="translate(10, 20)">
+                    
+                    <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z" fill="url(#a)" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM1.5 8a6.5 6.5 0 1 1 13 0 6.5 6.5 0 0 1-13 0Z" fill="url(#b)" />
+                        <defs>
+                            <linearGradient id="a" x1="8" y1="6.5" x2="8" y2="9.5" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#00BCF7" />
+                                <stop offset=".729" stop-color="#326CE5" />
+                            </linearGradient>
+                            <linearGradient id="b" x1="8" y1="0" x2="8" y2="16" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#00BCF7" />
+                                <stop offset=".729" stop-color="#326CE5" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                
+                </g>
+                <text x="34" y="33" class="sans small bold" fill="#406CC4">Issues</text>
+
+                <rect x="190" y="15" width="10" height="10" rx="10" fill="#61adf4"/>
+                <text x="205" y="24" class="sans smaller" fill="#61adf4">Opened</text>
+    
+                <rect x="190" y="30" width="10" height="10" rx="10" fill="#406CC4"/>
+                <text x="205" y="39" class="sans smaller" fill="#406CC4">Closed</text>
+
+                
+                    <rect x="1" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="1" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="9.755" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="9.755" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="18.51" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="18.51" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="27.265" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="27.265" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="36.02" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="36.02" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="44.775000000000006" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="44.775000000000006" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="53.53" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="53.53" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="62.285000000000004" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="62.285000000000004" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="71.04" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="71.04" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="79.795" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="79.795" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="88.55000000000001" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="88.55000000000001" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="97.305" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="97.305" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="106.06" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="106.06" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="114.81500000000001" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="114.81500000000001" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="123.57000000000001" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="123.57000000000001" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="132.32500000000002" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="132.32500000000002" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="141.08" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="141.08" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="149.835" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="149.835" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="158.59" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="158.59" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="167.34500000000003" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="167.34500000000003" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="176.10000000000002" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="176.10000000000002" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="184.85500000000002" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="184.85500000000002" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="193.61" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="193.61" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="202.365" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="202.365" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="211.12" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="211.12" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="219.87500000000003" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="219.87500000000003" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="228.63000000000002" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="228.63000000000002" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="237.38500000000002" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="237.38500000000002" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="246.14000000000001" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="246.14000000000001" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+
+                    <rect x="254.895" y="NaN" width="7.7" height="NaN" fill="#61adf4" />
+                    <rect x="254.895" y="NaN" width="7.7" height="NaN" fill="#406CC4"/>
+                
+            </g>
+            
+
+            <g transform="translate(274, 138)">
+                <rect x="0.5" y="0.5" width="264" height="120" rx="4.5" stroke="rgba(0,0,0,0.15)" />
+                <rect x="0.5" y="0.5" width="264" height="120" rx="4.5" fill="rgba(255,255,255, 0.0)" stroke="rgba(255,255,255,0.3)" />
+                <g transform="translate(10, 20)">
+                    
+                    <svg width="14" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.176 3.073 8.572.677A.25.25 0 0 1 9 .854v4.792a.25.25 0 0 1-.427.177L6.176 3.427a.25.25 0 0 1 0-.354ZM2.749 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm-2.25.75a2.25 2.25 0 1 1 3 2.122v5.256a2.25 2.25 0 1 1-1.5 0V5.372a2.25 2.25 0 0 1-1.5-2.122ZM10 2.5H9V4h1a1 1 0 0 1 1 1v5.628a2.25 2.25 0 1 0 1.5 0V5A2.5 2.5 0 0 0 10 2.5Zm1 10.25a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0ZM2.75 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="url(#pra)" />
+                        <defs>
+                            <linearGradient id="pra" x1="0" y1="0" x2="0" y2="16" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#CE5AFF" />
+                                <stop offset="1" stop-color="#7C64BD" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                
+                </g>
+                <text x="34" y="33" class="sans small bold" fill="#7B58C9">Pull Requests</text>
+
+                <rect x="190" y="15" width="10" height="10" rx="10" fill="#cf54fc"/>
+                <text x="205" y="24" class="sans smaller" fill="#cf54fc">Opened</text>
+    
+                <rect x="190" y="30" width="10" height="10" rx="10" fill="#7B58C9"/>
+                <text x="205" y="39" class="sans smaller" fill="#7B58C9">Closed</text>
+
+                
+                    <rect x="1" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="1" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="9.755" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="9.755" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="18.51" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="18.51" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="27.265" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="27.265" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="36.02" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="36.02" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="44.775000000000006" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="44.775000000000006" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="53.53" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="53.53" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="62.285000000000004" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="62.285000000000004" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="71.04" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="71.04" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="79.795" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="79.795" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="88.55000000000001" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="88.55000000000001" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="97.305" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="97.305" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="106.06" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="106.06" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="114.81500000000001" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="114.81500000000001" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="123.57000000000001" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="123.57000000000001" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="132.32500000000002" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="132.32500000000002" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="141.08" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="141.08" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="149.835" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="149.835" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="158.59" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="158.59" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="167.34500000000003" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="167.34500000000003" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="176.10000000000002" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="176.10000000000002" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="184.85500000000002" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="184.85500000000002" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="193.61" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="193.61" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="202.365" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="202.365" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="211.12" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="211.12" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="219.87500000000003" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="219.87500000000003" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="228.63000000000002" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="228.63000000000002" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="237.38500000000002" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="237.38500000000002" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="246.14000000000001" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="246.14000000000001" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+
+                    <rect x="254.895" y="NaN" width="7.7" height="NaN" fill="#cf54fc" />
+                    <rect x="254.895" y="NaN" width="7.7" height="NaN" fill="#7B58C9"/>
+                
+            </g>
+            
+
+            <g transform="translate(548, 138)">
+                <rect x="0.5" y="0.5" width="264" height="120" rx="4.5" stroke="rgba(0,0,0,0.15)" />
+                <rect x="0.5" y="0.5" width="264" height="120" rx="4.5" fill="rgba(255,255,255, 0.0)" stroke="rgba(255,255,255,0.3)" />
+                <g transform="translate(10, 20)">
+                    
+                    <svg width="14" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.5A2.5 2.5 0 013.5 0h8.75a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0V1.5h-8a1 1 0 00-1 1v6.708A2.492 2.492 0 013.5 9h3.25a.75.75 0 010 1.5H3.5a1 1 0 100 2h5.75a.75.75 0 010 1.5H3.5A2.5 2.5 0 011 11.5v-9zm13.23 7.79a.75.75 0 001.06-1.06l-2.505-2.505a.75.75 0 00-1.06 0L9.22 9.229a.75.75 0 001.06 1.061l1.225-1.224v6.184a.75.75 0 001.5 0V9.066l1.224 1.224z" fill="url(#paa)" />
+                        <defs>
+                            <linearGradient id="paa" x1="0" y1="0" x2="0" y2="16" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#ff553a" />
+                                <stop offset="1" stop-color="#cd2e31" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                
+                </g>
+                <text x="34" y="33" class="sans small bold" fill="#BA473E">Pushes &amp; Commits</text>
+
+                <rect x="190" y="15" width="10" height="10" rx="10" fill="#ff7a35"/>
+                <text x="205" y="24" class="sans smaller" fill="#ff7a35">Pushes</text>
+    
+                <rect x="190" y="30" width="10" height="10" rx="10" fill="#BA473E"/>
+                <text x="205" y="39" class="sans smaller" fill="#BA473E">Commits</text>
+
+                
+                    <rect x="1" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="1" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="9.755" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="9.755" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="18.51" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="18.51" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="27.265" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="27.265" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="36.02" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="36.02" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="44.775000000000006" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="44.775000000000006" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="53.53" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="53.53" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="62.285000000000004" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="62.285000000000004" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="71.04" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="71.04" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="79.795" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="79.795" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="88.55000000000001" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="88.55000000000001" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="97.305" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="97.305" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="106.06" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="106.06" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="114.81500000000001" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="114.81500000000001" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="123.57000000000001" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="123.57000000000001" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="132.32500000000002" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="132.32500000000002" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="141.08" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="141.08" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="149.835" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="149.835" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="158.59" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="158.59" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="167.34500000000003" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="167.34500000000003" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="176.10000000000002" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="176.10000000000002" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="184.85500000000002" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="184.85500000000002" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="193.61" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="193.61" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="202.365" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="202.365" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="211.12" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="211.12" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="219.87500000000003" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="219.87500000000003" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="228.63000000000002" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="228.63000000000002" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="237.38500000000002" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="237.38500000000002" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="246.14000000000001" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="246.14000000000001" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+
+                    <rect x="254.895" y="NaN" width="7.7" height="NaN" fill="#ff7a35" />
+                    <rect x="254.895" y="NaN" width="7.7" height="NaN" fill="#BA473E"/>
+                
+            </g>
+            
+
+                <g transform="translate(0, 270)">
+                    <rect x="0.5" y="0.5" width="813" height="47" rx="4.5" stroke="rgba(0,0,0,0.15)" />
+                    <rect x="0.5" y="0.5" width="813" height="47" rx="4.5" stroke="rgba(255,255,255,0.4)" />
+
+                    <g transform="translate(10,16)">
+                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.79536 12.9717L9.79524 12.9718C9.46851 13.1766 9.19498 13.3364 9.00063 13.4464C7.83951 12.7896 6.74227 12.0258 5.72321 11.1649C3.88319 9.59824 2.24091 7.56228 2.24091 5.37382C2.24091 3.541 3.7425 2.24091 5.17164 2.24091C6.62529 2.24091 7.80981 3.19682 8.34062 4.78784L8.34071 4.7881C8.38708 4.92624 8.47567 5.04631 8.59397 5.13138C8.71226 5.21645 8.85429 5.26222 9 5.26222C9.14571 5.26222 9.28774 5.21645 9.40603 5.13138C9.52433 5.04631 9.61292 4.92624 9.65929 4.7881L9.65938 4.78784C10.1902 3.1968 11.374 2.24091 12.8284 2.24091C14.2575 2.24091 15.7591 3.541 15.7591 5.37382C15.7591 7.56237 14.1167 9.5984 12.2766 11.1651L12.2766 11.1651C11.3775 11.9307 10.4748 12.5468 9.79536 12.9717ZM9.34495 14.8432L9.45145 14.7884L9.45007 14.7858C10.7743 14.0577 12.0229 13.1997 13.1775 12.2244L13.1779 12.2241C15.0651 10.6183 17.15 8.22165 17.15 5.37382C17.15 2.77316 15.0247 0.85 12.8284 0.85C11.1862 0.85 9.84811 1.68593 9.00005 2.97557C8.15253 1.68589 6.81376 0.85 5.17164 0.85C2.9746 0.85 0.85 2.7739 0.85 5.37309V5.37382C0.85 8.22165 2.93415 10.6176 4.82206 12.2241L4.82245 12.2244C5.65637 12.9291 6.53984 13.5731 7.46602 14.1512C7.82102 14.3734 8.18244 14.585 8.5498 14.786L8.54855 14.7884L8.65382 14.8426L8.65589 14.8436L8.65658 14.844L8.67407 14.8531L8.67388 14.8535L8.6766 14.8546L8.80709 14.9417L8.82283 14.9111C8.88045 14.9263 8.93999 14.934 9 14.934C9.06043 14.934 9.12038 14.9261 9.17838 14.9108L9.18484 14.9233L9.29065 14.8704C9.29915 14.8665 9.30758 14.8624 9.31593 14.8581L9.31598 14.8583L9.32593 14.8531L9.34341 14.844L9.34411 14.8436L9.34412 14.8436L9.34495 14.8432Z" fill="url(#paint0_linear_428:227)" stroke="url(#paint1_linear_428:227)" stroke-width="0.5"/>
+                            <defs>
+                                <linearGradient id="paint0_linear_428:227" x1="9" y1="1" x2="9" y2="14.784" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#36C5F0"/>
+                                    <stop offset="0.729167" stop-color="#55BA3C"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_428:227" x1="9" y1="1" x2="9" y2="14.784" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#36C5F0"/>
+                                    <stop offset="0.729167" stop-color="#55BA3C"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </g>
+                    <text x="36" y="29" class="sans small bold" fill="#487B41">Top Contributors</text>
+
+                    
+                </g>
+            
+    </svg>
