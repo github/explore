@@ -1,5 +1,6 @@
 ---
 items:
+ - solidjs/solid
  - marko-js/marko
  - mithriljs/mithril.js
  - angular/angular
