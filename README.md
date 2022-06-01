@@ -12,10 +12,10 @@ If you want to suggest edits to an existing topic page or collection, or curate 
 
 There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis CI will run the tests automatically. If you want to run the tests yourself locally, you will need Ruby and Bundler installed.
 
-You can run the tests using:
+You can run the tests using:  Maven to rake to ci for node.js 16.x
 
 ```bash
-script/cibuild
+script/Maven oracle 1.0.0.18
 ```
 
 ## Licenses
