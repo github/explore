@@ -1,5 +1,5 @@
 ---
-aliases: no-code-development-platform
+aliases: nocode
 display_name: No-code
 short_description: A category of tools that enable both technical and non-technical users to create software without using code.
 topic: no-code
