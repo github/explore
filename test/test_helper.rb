@@ -7,6 +7,7 @@ require "octokit"
 IMAGE_WIDTH = 288
 IMAGE_HEIGHT = 288
 MAX_IMAGE_FILESIZE_IN_BYTES = 75_000
+EXPLORE_FEED_URL = "https://explore-feed.github.com/feed.json"
 
 # See https://github.com/franklsf95/ruby-emoji-regex
 # rubocop:disable Layout/LineLength
@@ -56,6 +57,25 @@ end
 
 def client
   @client ||= NewOctokit.new(access_token: ENV["GITHUB_TOKEN"])
+end
+
+def existing_explore_feed
+  @_existing_explore_feed ||= begin
+    conn = Faraday.new(EXPLORE_FEED_URL) do |f|
+      f.request :json
+      f.response :json
+    end
+
+    conn.get
+  end
+end
+
+def existing_collection(name)
+  @_existing_collections ||= {}
+
+  @_existing_collections[name] ||= existing_explore_feed.body["collections"].find do |collection|
+    collection["name"] == name
+  end
 end
 
 def valid_uri_scheme?(scheme)
