@@ -7,6 +7,7 @@ items:
  - getlantern/lantern
  - Psiphon-Inc/psiphon
  - shadowsocks/shadowsocks
+ - torproject/tor
  - trojan-gfw/trojan
  - v2fly/v2ray-core
 display_name: Internet Censorship Circumventions
