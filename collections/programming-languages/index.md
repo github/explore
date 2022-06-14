@@ -24,6 +24,7 @@ items:
 - elm/compiler
 - dotnet/csharplang
 - red/red
+- vlang/v
 - ponylang/ponyc
 - Frege/frege
 - goby-lang/goby
