@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "minitest/autorun"
 require "fastimage"
 require "uri"
@@ -60,7 +62,7 @@ def client
 end
 
 def existing_explore_feed
-  @_existing_explore_feed ||= begin
+  @existing_explore_feed ||= begin
     conn = Faraday.new(EXPLORE_FEED_URL) do |f|
       f.request :json
       f.response :json
