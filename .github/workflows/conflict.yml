@@ -3,6 +3,7 @@ name: Check for conflicts of interest
 on:
   pull_request:
     types:
+      - created
       - ready_for_review
       - edited
 
@@ -13,18 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: harupy/comment-on-pr@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          filename: templates/conflict.md
-
       - name: Add conflict of interest label
         uses: buildsville/add-remove-label@v1
         with:
           token: ${{secrets.GITHUB_TOKEN}}
           label: Potential Conflict of Interest
           type: add
+
+      - name: Comment about no conflict requirement
+      - if: ${{ github.event.pull_request.head.repo.owner.login == github.repository_owner }}
+      - uses: harupy/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: templates/conflict.md
 
   remove-label:
     runs-on: ubuntu-latest
