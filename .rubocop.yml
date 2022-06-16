@@ -16,7 +16,7 @@ Metrics/BlockLength:
 
 Layout/LineLength:
   Max: 100
-  IgnoredPatterns: ['\A\s*#']
+  AllowedPatterns: ['\A\s*#']
 
 Naming/RescuedExceptionsVariableName:
   PreferredName: "error"
