@@ -1,10 +1,13 @@
-name: CI/Rubocop
+name: Lint
 
 on:
-  pull_request_target:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -13,12 +16,9 @@ jobs:
         with:
           bundler-cache: true
 
-      - name: Build and test with Rake
-        run: bundle exec rake
-          
       - name: Run linters
         uses: wearerequired/lint-action@v2
         with:
-          auto_fix: false
+          auto_fix: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.owner.login == github.repository_owner }}
           rubocop: true
           rubocop_command_prefix: bundle exec
