@@ -1,16 +1,14 @@
 name: Check for conflicts of interest
 
 on:
-  issue_comment:
+  pull_request:
     types:
-      - created
-      - edited
-      - deleted
+      - ready_for_review
 
 jobs:
   comment:
     runs-on: ubuntu-latest
-    if: contains(github.event.comment.html_url, '/pull/') && contains(github.event.comment.body, '- [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).')
+    if: contains(github.event.pull_request.body, '- [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).')
     steps:
       - uses: actions/checkout@v3
 
