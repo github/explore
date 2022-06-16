@@ -6,9 +6,6 @@ on:
       - main
   pull_request:
   pull_request_target:
-  
-permissions:
-  checks: write
 
 jobs:
   build:
