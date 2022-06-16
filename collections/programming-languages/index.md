@@ -1,6 +1,7 @@
 ---
 items:
 - golang/go
+- ballerina-platform/ballerina-lang
 - apple/swift
 - Microsoft/TypeScript
 - rust-lang/rust
