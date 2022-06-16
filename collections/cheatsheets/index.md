@@ -6,7 +6,6 @@ items:
  - gto76/python-cheatsheet
  - wilfredinni/python-cheatsheet
  - ihebski/DefaultCreds-cheat-sheet
- - github/explore
 display_name: Useful cheatsheets
 created_by: Luois45
 ---
