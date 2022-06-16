@@ -23,8 +23,8 @@ jobs:
           type: add
 
       - name: Comment about no conflict requirement
-      - if: ${{ github.event.pull_request.head.repo.owner.login == github.repository_owner }}
-      - uses: harupy/comment-on-pr@master
+        if: ${{ github.event.pull_request.head.repo.owner.login == github.repository_owner }}
+        uses: harupy/comment-on-pr@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
