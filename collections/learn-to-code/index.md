@@ -1,4 +1,4 @@
----
+https://ci3.googleusercontent.com/proxy/P23Za4ALcVzwwsa6XZy12ilGWzQ4cOjLqtoU1L1yV0Oqj-emUsTcWh9pzng2fO9JYOGenP3SmRj_gFzPToQMHeRwPzznhKTb2fq7ZsQtJ77JkBc-uB5-1O6BemTm=s0-d-e1-ft#https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8uiiH2oJdg0/v0/-1x-1.png---
 items:
  - 30-seconds/30-seconds-of-code
  - railsgirls/railsgirls.github.io
