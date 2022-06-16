@@ -24,7 +24,6 @@ items:
 - elm/compiler
 - dotnet/csharplang
 - red/red
-- vlang/v
 - ponylang/ponyc
 - Frege/frege
 - goby-lang/goby
@@ -64,6 +63,7 @@ items:
 - QB64Team/qb64
 - gleam-lang/gleam
 - Gwion/Gwion
+- vlang/v
 display_name: Programming languages
 created_by: leereilly
 ---
