@@ -1,0 +1,21 @@
+name: Check for conflicts of interest
+
+on:
+  issue_comment:
+    types:
+      - created
+      - edited
+      - deleted
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    if: contains(github.event.comment.html_url, '/pull/') && contains(github.event.comment.body, '- [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).')
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: harupy/comment-on-pr@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: templates/conflict.md
