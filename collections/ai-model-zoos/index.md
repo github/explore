@@ -12,6 +12,7 @@ items:
  - hindupuravinash/the-gan-zoo
  - likedan/Awesome-CoreML-Models
  - Microsoft/CNTK
+ - github/explore
 display_name: Model Zoos of machine and deep learning technologies
 created_by: alanbraz
 ---
