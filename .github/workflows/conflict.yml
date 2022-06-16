@@ -3,7 +3,7 @@ name: Check for conflicts of interest
 on:
   pull_request:
     types:
-      - created
+      - opened
       - ready_for_review
       - edited
 
