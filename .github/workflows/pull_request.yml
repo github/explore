@@ -20,7 +20,7 @@ jobs:
       - name: Build and test with Rake
         run: bundle exec rake
           
-      - name: Run linters w/ autofix
+      - name: Run linters with autofix
         uses: wearerequired/lint-action@v2
         if: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.owner.login == github.repository_owner }}
         with:
@@ -28,7 +28,7 @@ jobs:
           rubocop: true
           rubocop_command_prefix: bundle exec
       
-      - name: Run linters w/ autofix
+      - name: Run linters without autofix
         uses: wearerequired/lint-action@v2
         if: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.owner.login != github.repository_owner }}
         with:
