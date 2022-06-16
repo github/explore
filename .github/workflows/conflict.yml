@@ -1,19 +1,25 @@
 name: Check for conflicts of interest
 
 on:
-  pull_request:
+  pull_request_target:
     types:
       - ready_for_review
 
 jobs:
-  comment:
+  run:
     runs-on: ubuntu-latest
-    if: contains(github.event.pull_request.body, '- [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).')
     steps:
-      - uses: actions/checkout@v3
+    - uses: superbrothers/close-pull-request@v3
+      with:
+        comment: |
+          In order to review it for acceptance, we need to make sure that all of the prerequisites are satisfied.
 
-      - uses: harupy/comment-on-pr@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          filename: templates/conflict.md
+          This was not checked:
+
+          > I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee)
+
+          This is a requirement to maintain a high level of independence in this project.
+
+          Please reopen this PR and update appropriately if you are able to verify that you meet that requirement.
+
+          Thank you!
