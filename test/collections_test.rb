@@ -185,7 +185,7 @@ describe "collections" do
       assert_equal(
         collection_items_minus_new_additions,
         existing_items,
-        "expected collection changes to have been appended to the existing item list",
+        "expected collection changes to have been appended to the existing item list"
       )
     end
   end
