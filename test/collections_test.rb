@@ -175,6 +175,19 @@ describe "collections" do
         end
       end
     end
+
+    it "has the same order and new items are at the end" do
+      collection_items = items_for_collection(collection)
+      existing_items = existing_items_for_collection(collection)
+
+      collection_items_minus_new_additions = collection_items[0, existing_items.length]
+
+      assert_equal(
+        collection_items_minus_new_additions,
+        existing_items,
+        "expected collection changes to have been appended to the existing item list"
+      )
+    end
   end
 
   def repository_exists?(item)
@@ -183,5 +196,9 @@ describe "collections" do
 
   def user_exists?(item)
     client.user(item)
+  end
+
+  def existing_items_for_collection(collection)
+    existing_collection(collection)["items"]
   end
 end
