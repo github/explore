@@ -1,10 +1,11 @@
-name: CI/Rubocop w/ autofix
+name: CI/Rubocop
 
 on:
   push:
     branches:
       - main
   pull_request:
+  pull_request_target:
 
 jobs:
   build:
@@ -19,9 +20,18 @@ jobs:
       - name: Build and test with Rake
         run: bundle exec rake
           
-      - name: Run linters
+      - name: Run linters w/ autofix
         uses: wearerequired/lint-action@v2
+        if: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.owner.login == github.repository_owner }}
         with:
           auto_fix: true
+          rubocop: true
+          rubocop_command_prefix: bundle exec
+      
+      - name: Run linters w/ autofix
+        uses: wearerequired/lint-action@v2
+        if: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.owner.login != github.repository_owner }}
+        with:
+          auto_fix: false
           rubocop: true
           rubocop_command_prefix: bundle exec
