@@ -15,7 +15,6 @@ items:
  - superpowers/superpowers-core
  - AtomicGameEngine/AtomicGameEngine
  - 4ian/GDevelop
- - CRYTEK/CRYENGINE
  - urho3d/Urho3D
  - benoit-dumas/OpenRTS
  - photonstorm/phaser

@@ -40,12 +40,19 @@ describe "collections" do
 
       it "fails if a repository does not exist or is private" do
         errors = []
+        repos_to_check = []
 
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX)
 
-          unless repository_exists?(item)
-            errors << "#{collection}: #{item} does not exist or is private"
+          repos_to_check << item
+        end
+
+        cache_repos_exist_check!(repos_to_check)
+
+        repos_to_check.each do |repo|
+          unless repository_exists?(repo)
+            errors << "#{collection}: #{repo} does not exist or is private"
           end
         end
 
@@ -54,11 +61,18 @@ describe "collections" do
 
       it "fails if a user or organization does not exist" do
         errors = []
+        users_to_check = []
 
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_REGEX)
 
-          errors << "#{collection}: #{item} does not exist" unless user_exists?(item)
+          users_to_check << item
+        end
+
+        cache_users_exist_check!(users_to_check)
+
+        users_to_check.each do |login|
+          errors << "#{collection}: #{login} does not exist" unless user_exists?(login)
         end
 
         assert_empty errors
@@ -66,15 +80,28 @@ describe "collections" do
 
       it "fails if a user, organization, or repository has been renamed" do
         errors = []
+        repos_to_check = []
+        users_to_check = []
 
         items_for_collection(collection).each do |item|
           next unless item.match?(USERNAME_AND_REPO_REGEX) || item.match?(USERNAME_REGEX)
 
           if item.match?(USERNAME_AND_REPO_REGEX)
-            errors << "#{collection}: #{item} has been renamed" unless repository_exists?(item)
+            repos_to_check << item
           else
-            errors << "#{collection}: #{item} has been renamed" unless user_exists?(item)
+            users_to_check << item
           end
+        end
+
+        cache_repos_exist_check!(repos_to_check)
+        cache_users_exist_check!(users_to_check)
+
+        repos_to_check.each do |repo|
+          errors << "#{collection}: #{repo} has been renamed" unless repository_exists?(repo)
+        end
+
+        users_to_check.each do |login|
+          errors << "#{collection}: #{login} has been renamed" unless user_exists?(login)
         end
 
         assert_empty errors
