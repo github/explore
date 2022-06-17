@@ -64,6 +64,10 @@ describe "collections" do
             errors << "#{collection}: #{repo} does not exist or has been made private"
           elsif current_name_with_owner != repo
             errors << "#{collection}: #{repo} has been renamed to #{current_name_with_owner}"
+
+            if ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
+              update_collection_item(collection, repo, current_name_with_owner)
+            end
           end
         end
 

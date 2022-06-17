@@ -53,6 +53,17 @@ def image_paths_for_collection(collection)
   end
 end
 
+def update_collection_item(collection, old_repo_with_owner, new_repo_with_owner)
+  file = "#{collections_dir}/#{collection}/index.md"
+
+  File.open(file, "r+") do |f|
+    new_content = f.read.gsub(old_repo_with_owner, new_repo_with_owner)
+    f.rewind
+    f.write(new_content)
+    f.truncate(f.pos)
+  end
+end
+
 def possible_image_file_names_for_collection(collection)
   COLLECTION_IMAGE_EXTENSIONS.map { |ext| "#{collection}#{ext}" }
 end
