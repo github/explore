@@ -38,7 +38,7 @@ describe "collections" do
                "(currently #{items.length})"
       end
 
-      it "fails if a user, organization, or repository has been renamed" do
+      it "fails if a user, organization, or repository has been renamed or removed" do
         errors = []
         repos_to_check = []
         users_to_check = []
