@@ -179,25 +179,23 @@ describe "collections" do
           end
         end
 
-        unless ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
-          assert_empty errors
-        end
+        assert_empty errors unless ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
       end
     end
 
-    unless ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
-      it "has the same order and new items are at the end" do
-        collection_items = items_for_collection(collection)
-        existing_items = existing_items_for_collection(collection)
+    next if ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
 
-        collection_items_minus_new_additions = collection_items[0, existing_items.length]
+    it "has the same order and new items are at the end" do
+      collection_items = items_for_collection(collection)
+      existing_items = existing_items_for_collection(collection)
 
-        assert_equal(
-          collection_items_minus_new_additions,
-          existing_items,
-          "expected collection changes to have been appended to the existing item list"
-        )
-      end
+      collection_items_minus_new_additions = collection_items[0, existing_items.length]
+
+      assert_equal(
+        collection_items_minus_new_additions,
+        existing_items,
+        "expected collection changes to have been appended to the existing item list"
+      )
     end
   end
 
