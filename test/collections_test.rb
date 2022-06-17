@@ -77,9 +77,7 @@ describe "collections" do
             errors << "#{collection}: #{login} has been renamed to #{current_login}"
           end
 
-          if user_result.nil?
-            errors << "#{collection}: #{login} does not exist"
-          end
+          errors << "#{collection}: #{login} does not exist" if user_result.nil?
         end
 
         assert_empty errors
