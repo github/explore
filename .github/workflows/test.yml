@@ -25,3 +25,5 @@ jobs:
 
       - name: Build and test with Rake
         run: bundle exec rake ${{ matrix.test_type }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
