@@ -64,7 +64,7 @@ class NewOctokit < Octokit::Client
 end
 
 def client
-  @client ||= NewOctokit.new(access_token: ENV["GITHUB_TOKEN"])
+  @client ||= NewOctokit.new(access_token: ENV.fetch("GITHUB_TOKEN"))
 end
 
 def graphql_query(query)
