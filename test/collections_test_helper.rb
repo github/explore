@@ -77,7 +77,7 @@ def annotate_collection_item_error(collection, repo, error_message)
 end
 
 def echo_system_message(type, file, line_number, message)
-  system("echo '::#{type} file=#{file},line=#{line_number}::#{message}'")
+  puts "::#{type} file=#{file},line=#{line_number}::#{message}"
 end
 
 def possible_image_file_names_for_collection(collection)
