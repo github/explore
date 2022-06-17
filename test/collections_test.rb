@@ -94,7 +94,8 @@ describe "collections" do
             paths = image_paths_for_collection(collection)
             valid_file_names = paths.map { |path| File.basename(path) }
             error_message = if valid_file_names.empty?
-                              "should not specify image #{metadata['image']} when file does not exist"
+                              "should not specify image #{metadata['image']} when file does not "\
+                                "exist"
                             else
                               "image should be #{valid_file_names.join(' or ')}, but was " +
                                 metadata["image"].to_s
