@@ -63,6 +63,7 @@ items:
 - QB64Team/qb64
 - gleam-lang/gleam
 - Gwion/Gwion
+- vlang/v
 display_name: Programming languages
 created_by: leereilly
 ---
