@@ -132,6 +132,16 @@ def cache_users_exist_check!(user_logins)
   end
 end
 
+def cache_orgs_exist_check!(user_logins)
+  results = graphql_query(graphql_query_string_for_org_logins(user_logins))
+  return unless results
+
+  results.each do |login, result|
+    converted_back_login = convert_from_query_safe_to_real(login)
+    client.users[converted_back_login] = result
+  end
+end
+
 def cache_repos_exist_check!(repos)
   results = graphql_query(graphql_query_string_for_repos(repos))
   return unless results
@@ -142,10 +152,27 @@ def cache_repos_exist_check!(repos)
   end
 end
 
+def users_not_found_from(logins)
+  logins.select { |login| client.users[login].nil? }
+end
+
 def graphql_query_string_for_user_logins(logins)
   query_parts = logins.map do |login|
     key = convert_from_real_to_query_safe(login)
     "#{key}: user(login: \"#{login}\") { login }"
+  end
+
+  [
+    "query {",
+    query_parts.join(" "),
+    "}",
+  ].join(" ")
+end
+
+def graphql_query_string_for_org_logins(logins)
+  query_parts = logins.map do |login|
+    key = convert_from_real_to_query_safe(login)
+    "#{key}: organization(login: \"#{login}\") { login }"
   end
 
   [
