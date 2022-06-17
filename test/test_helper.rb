@@ -104,11 +104,11 @@ def cache_repos_exist_check!(repos)
   return unless results
 
   results.each do |repo, result|
-    converted_back_repo_and_name = repo.
-      to_s.
-      gsub("___slash___", "/").
-      gsub("___dash___", "-").
-      gsub("___dot___", ".")
+    converted_back_repo_and_name = repo
+                                   .to_s
+                                   .gsub("___slash___", "/")
+                                   .gsub("___dash___", "-")
+                                   .gsub("___dot___", ".")
     client.repos[converted_back_repo_and_name] = result
   end
 end
