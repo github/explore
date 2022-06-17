@@ -35,7 +35,7 @@ class NewOctokit < Octokit::Client
   end
 
   def repository?(item)
-    return repos[item] if repos.has_key?(item)
+    return repos[item] if repos.key?(item)
 
     repos[item] = super
   rescue Octokit::TooManyRequests
@@ -44,7 +44,7 @@ class NewOctokit < Octokit::Client
   end
 
   def user(item)
-    return users[item] if users.has_key?(item)
+    return users[item] if users.key?(item)
 
     users[item] = super
   rescue Octokit::TooManyRequests
