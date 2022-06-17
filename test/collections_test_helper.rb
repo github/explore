@@ -73,11 +73,11 @@ def annotate_collection_item_error(collection, repo, error_message)
     index + 1 if index
   end
 
-  echo_system_message("error", "collections/#{collection}/index.md", line_number, error_message)
+  add_message("error", "collections/#{collection}/index.md", line_number, error_message)
 end
 
-def echo_system_message(type, file, line_number, message)
-  puts "::#{type} file=#{file},line=#{line_number}::#{message}"
+def add_message(type, file, line_number, message)
+  client.messages << "::#{type} file=#{file},line=#{line_number}::#{message}"
 end
 
 def possible_image_file_names_for_collection(collection)
