@@ -71,10 +71,10 @@ def annotate_collection_item_error(collection, repo, error_message)
     file_contents = f.readlines
 
     index = if repo == ""
-      0
-    else
-      file_contents.index { |line| line.include?(repo) }
-    end
+              0
+            else
+              file_contents.index { |line| line.include?(repo) }
+            end
 
     index + 1 if index
   end
