@@ -99,7 +99,7 @@ def graphql_query_string_for_repos(repos)
   query_parts = repos.map do |repo|
     key = repo.gsub("/", "___s___").gsub("-", "___d___")
     owner, name = repo.split("/")
-    "#{key}: repository(owner: \"#{owner}\", name: \"#{name}\") { name }"
+    "#{key}: repository(owner: \"#{owner}\", name: \"#{name}\", followRenames: false) { name }"
   end
 
   [
