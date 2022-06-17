@@ -69,7 +69,13 @@ def annotate_collection_item_error(collection, repo, error_message)
 
   line_number = File.open(file, "r") do |f|
     file_contents = f.readlines
-    index = file_contents.index { |line| line.include?(repo) }
+
+    index = if repo == ""
+      0
+    else
+      file_contents.index { |line| line.include?(repo) }
+    end
+
     index + 1 if index
   end
 

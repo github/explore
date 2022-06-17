@@ -1,8 +1,8 @@
 ---
 items:
  - standard/standard
- - eslint/eslint
  - jshint/jshint
+ - eslint/eslint
  - clutchski/coffeelint
  - csscomb/csscomb.js
  - sds/scss-lint
