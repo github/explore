@@ -3,7 +3,7 @@ items:
  - ariya/phantomjs
  - hyperjumptech/grule-rule-engine
  - kawalcovid19
- - tanibox/tania-core
+ - usetania/tania-core
  - OpenSID
  - BaritoLog
  - odpf

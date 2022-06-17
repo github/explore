@@ -6,7 +6,7 @@ items:
  - freeCodeCamp/freeCodeCamp
  - leachim6/hello-world
  - datasciencemasters/go
- - tuvtran/project-based-learning
+ - practical-tutorials/project-based-learning
  - zhiwehu/Python-programming-exercises
  - MunGell/awesome-for-beginners
  - appacademy/welcome-to-open
@@ -14,11 +14,11 @@ items:
  - kamranahmedse/developer-roadmap
  - AMAI-GmbH/AI-Expert-Roadmap
  - trekhleb/javascript-algorithms
- - Microsoft/web-dev-for-beginners
+ - microsoft/Web-Dev-For-Beginners
  - karan/Projects
  - sindresorhus/awesome
  - donnemartin/system-design-primer
- - danistefanovic/build-your-own-x
+ - codecrafters-io/build-your-own-x
  - public-apis/public-apis
  - EbookFoundation/free-programming-books
  - amitness/learning

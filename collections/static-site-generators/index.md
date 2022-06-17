@@ -8,7 +8,7 @@ items:
  - hexojs/hexo
  - vercel/next.js
  - getpelican/pelican
- - facebook/Docusaurus
+ - facebook/docusaurus
  - slatedocs/slate
  - nuxt/nuxt.js
  - gridsome/gridsome

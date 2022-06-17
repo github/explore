@@ -1,7 +1,7 @@
 ---
 items:
  - adobe/adobe.github.com
- - redhatofficial/redhatofficial.github.io
+ - RedHatOfficial/RedHatOfficial.github.io
  - cfpb/cfpb.github.io
  - Netflix/netflix.github.com
  - Esri/esri.github.io
@@ -11,7 +11,7 @@ items:
  - Yelp/yelp.github.io
  - Shopify/shopify.github.com
  - IBM/ibm.github.io
- - Microsoft/microsoft.github.io
+ - microsoft/microsoft.github.io
  - artsy/artsy.github.io
  - OSGeo/osgeo
  - godaddy/godaddy.github.io
