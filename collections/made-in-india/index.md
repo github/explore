@@ -5,7 +5,7 @@ items:
  - hoppscotch/hoppscotch
  - anuraghazra/github-readme-stats
  - hasura/graphql-engine
- - geekyants/nativebase
+ - GeekyAnts/NativeBase
  - kovidgoyal/calibre
  - frappe/erpnext
  - chatwoot/chatwoot

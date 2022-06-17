@@ -22,12 +22,12 @@ items:
  - innogames/igcommit
  - rodjek/puppet-lint
  - koalaman/shellcheck
- - jimhester/lintr
+ - r-lib/lintr
  - testdouble/standard
  - realm/SwiftLint
  - replicatedhq/dockerfilelint
  - mvdan/sh
- - ansible-community/ansible-lint
+ - ansible/ansible-lint
  - dotenv-linter/dotenv-linter
 display_name: Clean code linters
 created_by: holman

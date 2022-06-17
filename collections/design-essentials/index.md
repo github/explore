@@ -1,7 +1,7 @@
 ---
 items:
  - twbs/bootstrap
- - daneden/animate.css
+ - animate-css/animate.css
  - nathansmith/960-Grid-System
  - necolas/normalize.css
  - ionic-team/ionicons

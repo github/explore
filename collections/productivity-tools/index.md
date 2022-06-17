@@ -10,7 +10,7 @@ items:
  - rtyley/bfg-repo-cleaner
  - mhagger/git-imerge
  - eddiezane/lunchy
- - awaescher/repoz
+ - awaescher/RepoZ
  - sharkdp/fd
  - BurntSushi/ripgrep
  - stedolan/jq
