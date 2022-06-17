@@ -39,7 +39,8 @@ def collection_dirs
 end
 
 def collections
-  collection_dirs.map { |dir_path| File.basename(dir_path) }
+  c=collection_dirs.map { |dir_path| File.basename(dir_path) }
+  c.select { |collection| collection == "ai-model-zoos" }
 end
 
 def items_for_collection(collection)
@@ -62,6 +63,29 @@ def update_collection_item(collection, old_repo_with_owner, new_repo_with_owner)
     f.write(new_content)
     f.truncate(f.pos)
   end
+end
+
+def annotate_collection_item_error(collection, repo, error_message)
+  file = "#{collections_dir}/#{collection}/index.md"
+  line_number = 0
+
+  File.open(file, "r") do |file|
+    file_contents = file.readlines
+    index = file_contents.index { |line| line.include?(repo) }
+    line_number = index + 1 if index
+  end
+
+  system([
+    "echo ",
+    "\"",
+    "::",
+    "error ",
+    "file=collections/#{collection}/index.md,",
+    "line=#{line_number}",
+    "::",
+    error_message,
+    "\"",
+  ].join(""))
 end
 
 def possible_image_file_names_for_collection(collection)

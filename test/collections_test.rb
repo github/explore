@@ -160,12 +160,17 @@ describe "collections" do
           current_name_with_owner = repo_result&.full_name
 
           if repo_result.nil?
-            errors << "#{collection}: #{repo} does not exist or has been made private"
+            error_message = "#{collection}: #{repo} does not exist or has been made private"
+            annotate_collection_item_error(collection, repo, error_message)
+            errors << error_message
           elsif current_name_with_owner != repo
             if ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
               update_collection_item(collection, repo, current_name_with_owner)
             else
-              errors << "#{collection}: #{repo} has been renamed to #{current_name_with_owner}"
+              error_message =
+                "#{collection}: #{repo} has been renamed to #{current_name_with_owner}"
+              annotate_collection_item_error(collection, repo, error_message)
+              errors << error_message
             end
           end
         end
@@ -175,9 +180,13 @@ describe "collections" do
           current_login = user_result&.login
 
           if user_result.nil?
-            errors << "#{collection}: #{login} does not exist"
+            error_message = "#{collection}: #{login} does not exist"
+            annotate_collection_item_error(collection, login, error_message)
+            errors << error_message
           elsif current_login != login
-            errors << "#{collection}: #{login} has been renamed to #{current_login}"
+            error_message = "#{collection}: #{login} has been renamed to #{current_login}"
+            annotate_collection_item_error(collection, login, error_message)
+            errors << error_message
           end
         end
 
