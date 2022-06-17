@@ -97,9 +97,7 @@ describe "collections" do
         cache_users_exist_check!(users_to_check)
 
         repos_to_check.each do |repo|
-          unless repository_exists?(repo)
-            errors << "#{collection}: #{repo} has been renamed"
-          end
+          errors << "#{collection}: #{repo} has been renamed" unless repository_exists?(repo)
         end
 
         users_to_check.each do |login|

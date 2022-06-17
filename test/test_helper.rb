@@ -68,16 +68,14 @@ def client
 end
 
 def graphql_query(query)
-  jsonified_query = { query: query }.to_json
+  jsonified_query = { query: }.to_json
   client.post(GRAPHQL_ENDPOINT, jsonified_query).data
 end
 
 def cache_users_exist_check!(user_logins)
   results = graphql_query(graphql_query_string_for_user_logins(user_logins))
 
-  if results
-    results.each { |login, result| client.users[login] = result }
-  end
+  results.each { |login, result| client.users[login] = result } if results
 end
 
 def cache_repos_exist_check!(repos)
