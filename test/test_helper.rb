@@ -25,6 +25,8 @@ class NewOctokit < Octokit::Client
 
   @@repos = {} unless defined? @@repos
   @@users = {} unless defined? @@users
+  @@repo_request_count = 0 unless defined? @@repo_request_count
+  @@user_request_count = 0 unless defined? @@user_request_count
 
   def repos
     @@repos
@@ -34,9 +36,18 @@ class NewOctokit < Octokit::Client
     @@users
   end
 
+  def repo_request_count
+    @@repo_request_count
+  end
+
+  def user_request_count
+    @@user_request_count
+  end
+
   def repository?(item)
     return repos[item] if repos.key?(item)
 
+    @@repo_request_count += 1
     repos[item] = super
   rescue Octokit::TooManyRequests
     repos[:skip_requests] = true
@@ -46,6 +57,7 @@ class NewOctokit < Octokit::Client
   def user(item)
     return users[item] if users.key?(item)
 
+    @@user_request_count += 1
     users[item] = super
   rescue Octokit::TooManyRequests
     users[:skip_requests] = true
@@ -58,6 +70,14 @@ class NewOctokit < Octokit::Client
 
   def self.users_skipped?
     @@users[:skip_requests] ? true : false
+  end
+
+  def self.repo_request_count
+    @@repo_request_count
+  end
+
+  def self.user_request_count
+    @@user_request_count
   end
 
   # rubocop:enable Style/ClassVars
@@ -84,7 +104,11 @@ def cache_repos_exist_check!(repos)
   return unless results
 
   results.each do |repo, result|
-    converted_back_repo_and_name = repo.to_s.gsub("___slash___", "/").gsub("___dash___", "-")
+    converted_back_repo_and_name = repo.
+      to_s.
+      gsub("___slash___", "/").
+      gsub("___dash___", "-").
+      gsub("___dot___", ".")
     client.repos[converted_back_repo_and_name] = result
   end
 end
@@ -97,7 +121,7 @@ end
 
 def graphql_query_string_for_repos(repos)
   query_parts = repos.map do |repo|
-    key = repo.gsub("/", "___s___").gsub("-", "___d___")
+    key = repo.gsub("/", "___slash___").gsub("-", "___dash___").gsub(".", "___dot___")
     owner, name = repo.split("/")
     "#{key}: repository(owner: \"#{owner}\", name: \"#{name}\") { name }"
   end
@@ -161,4 +185,6 @@ end
 MiniTest.after_run do
   warn "Repo checks were rate limited during this CI run" if NewOctokit.repos_skipped?
   warn "User checks were rate limited during this CI run" if NewOctokit.users_skipped?
+  warn "Repo api was called #{NewOctokit.repo_request_count} times!"
+  warn "User api was called #{NewOctokit.user_request_count} times!"
 end
