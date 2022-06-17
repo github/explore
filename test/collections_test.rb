@@ -153,6 +153,7 @@ describe "collections" do
 
         cache_repos_exist_check!(repos_to_check)
         cache_users_exist_check!(users_to_check)
+        cache_orgs_exist_check!(users_not_found_from(users_to_check))
 
         repos_to_check.each do |repo|
           repo_result = client.repository(repo)
