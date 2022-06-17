@@ -2,7 +2,7 @@
 items:
 - golang/go
 - apple/swift
-- Microsoft/TypeScript
+- microsoft/TypeScript
 - rust-lang/rust
 - JetBrains/kotlin
 - python/cpython
@@ -52,7 +52,7 @@ items:
 - pharo-project/pharo
 - ring-lang/ring
 - SenegalLang/Senegal
-- cqfn/eo
+- objectionary/eo
 - ChavaScript/chavascript
 - DennisMitchell/jellylanguage
 - beefytech/Beef

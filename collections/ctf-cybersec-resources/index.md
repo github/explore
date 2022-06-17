@@ -14,7 +14,7 @@ items:
  - quasar/Quasar
  - AlisamTechnology/ATSCAN
  - Ciphey/Ciphey
- - bkimminich/juice-shop
+ - juice-shop/juice-shop
  - pwndbg/pwndbg
  - yeyintminthuhtut/Awesome-Red-Teaming
  - google/google-ctf
@@ -42,7 +42,7 @@ items:
  - teambi0s/BSides-CTF
  - cliffe/SecGen
  - vaib25vicky/awesome-mobile-security
- - mantvydasb/RedTeam-Tactics-and-Techniques
+ - mantvydasb/RedTeaming-Tactics-and-Techniques
  - api0cradle/UltimateAppLockerByPassList
  - hisxo/gitGraber
  - S3cur3Th1sSh1t/WinPwn
@@ -50,7 +50,7 @@ items:
  - s0md3v/Photon
  - jivoi/awesome-osint
  - Manisso/fsociety
- - j3ssie/Osmedeus
+ - j3ssie/osmedeus
  - rsmusllp/king-phisher
  - abhisharma404/vault
  - t0thkr1s/revshellgen

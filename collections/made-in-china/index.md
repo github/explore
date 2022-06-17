@@ -5,19 +5,19 @@ items:
  - alibaba/druid
  - alibaba/fastjson
  - alibaba/flutter-go
- - tencent/weui
- - tencent/wepy
- - tencent/tinker
- - tencent/mars
- - tencent/weui-wxss
- - tencent/vConsole
- - tencent/QMUI_Android
- - tencent/MMKV
- - tencent/omi
- - tencent/ncnn
- - tencent/VasSonic
- - tencent/rapidjson
- - tencent/APIJSON
+ - Tencent/weui
+ - Tencent/wepy
+ - Tencent/tinker
+ - Tencent/mars
+ - Tencent/weui-wxss
+ - Tencent/vConsole
+ - Tencent/QMUI_Android
+ - Tencent/MMKV
+ - Tencent/omi
+ - Tencent/ncnn
+ - Tencent/VasSonic
+ - Tencent/rapidjson
+ - Tencent/APIJSON
  - baidu/amis
  - baidu/san
  - baidu/uid-generator
@@ -27,19 +27,19 @@ items:
  - ElemeFE/node-interview
  - ElemeFE/v-charts
  - apolloconfig/apollo
- - netease/pomelo
- - meituan-dianping/mpvue
- - meituan-dianping/walle
+ - NetEase/pomelo
+ - Meituan-Dianping/mpvue
+ - Meituan-Dianping/walle
  - dianping/cat
- - xiaomi/soar
- - xiaomi/mace
- - didi/DoraemonKit
+ - XiaoMi/soar
+ - XiaoMi/mace
+ - didi/DoKit
  - didi/cube-ui
  - didi/chameleon
  - didi/VirtualAPK
- - Bilibili/ijkplayer
- - Bilibili/flv.js
- - Bilibili/DanmakuFlameMaster
+ - bilibili/ijkplayer
+ - bilibili/flv.js
+ - bilibili/DanmakuFlameMaster
 display_name: Made in China
 created_by: renfei
 image: made-in-china.png

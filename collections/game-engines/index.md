@@ -7,7 +7,7 @@ items:
  - spring/spring
  - cocos2d/cocos2d-x
  - Gamua/Starling-Framework
- - gameplay3d/GamePlay
+ - gameplay3d/gameplay
  - jMonkeyEngine/jmonkeyengine
  - SFTtech/openage
  - MonoGame/MonoGame
@@ -16,7 +16,7 @@ items:
  - AtomicGameEngine/AtomicGameEngine
  - 4ian/GDevelop
  - urho3d/Urho3D
- - benoit-dumas/OpenRTS
+ - methusalah/OpenRTS
  - photonstorm/phaser
  - melonjs/melonJS
  - BabylonJS/Babylon.js
@@ -38,7 +38,7 @@ items:
  - amethyst/amethyst
  - orx/orx
  - nCine/nCine
- - cocos-creator/engine
+ - cocos/cocos-engine
  - love2d/love
  - coronalabs/corona
  - hajimehoshi/ebiten

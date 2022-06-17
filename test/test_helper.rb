@@ -12,6 +12,36 @@ IMAGE_HEIGHT = 288
 MAX_IMAGE_FILESIZE_IN_BYTES = 75_000
 EXPLORE_FEED_URL = "https://explore-feed.github.com/feed.json"
 GRAPHQL_ENDPOINT = "/graphql"
+UNSAFE_TO_SAFE_STRING_MAPPINGS = {
+  "-" => "___dash___",
+  "." => "___dot___",
+  "/" => "___slash___",
+  "0" => "___zero___",
+  "1" => "___one___",
+  "2" => "___two___",
+  "3" => "___three___",
+  "4" => "___four___",
+  "5" => "___five___",
+  "6" => "___six___",
+  "7" => "___seven___",
+  "8" => "___eight___",
+  "9" => "___nine___",
+}.freeze
+SAFE_TO_UNSAFE_STRING_MAPPINGS = {
+  "___dash___" => "-",
+  "___dot___" => ".",
+  "___slash___" => "/",
+  "___zero___" => "0",
+  "___one___" => "1",
+  "___two___" => "2",
+  "___three___" => "3",
+  "___four___" => "4",
+  "___five___" => "5",
+  "___six___" => "6",
+  "___seven___" => "7",
+  "___eight___" => "8",
+  "___nine___" => "9",
+}.freeze
 
 # See https://github.com/franklsf95/ruby-emoji-regex
 # rubocop:disable Layout/LineLength
@@ -25,6 +55,8 @@ class NewOctokit < Octokit::Client
 
   @@repos = {} unless defined? @@repos
   @@users = {} unless defined? @@users
+  @@repo_request_count = 0 unless defined? @@repo_request_count
+  @@user_request_count = 0 unless defined? @@user_request_count
 
   def repos
     @@repos
@@ -34,9 +66,18 @@ class NewOctokit < Octokit::Client
     @@users
   end
 
-  def repository?(item)
+  def repo_request_count
+    @@repo_request_count
+  end
+
+  def user_request_count
+    @@user_request_count
+  end
+
+  def repository(item)
     return repos[item] if repos.key?(item)
 
+    @@repo_request_count += 1
     repos[item] = super
   rescue Octokit::TooManyRequests
     repos[:skip_requests] = true
@@ -46,6 +87,7 @@ class NewOctokit < Octokit::Client
   def user(item)
     return users[item] if users.key?(item)
 
+    @@user_request_count += 1
     users[item] = super
   rescue Octokit::TooManyRequests
     users[:skip_requests] = true
@@ -58,6 +100,14 @@ class NewOctokit < Octokit::Client
 
   def self.users_skipped?
     @@users[:skip_requests] ? true : false
+  end
+
+  def self.repo_request_count
+    @@repo_request_count
+  end
+
+  def self.user_request_count
+    @@user_request_count
   end
 
   # rubocop:enable Style/ClassVars
@@ -76,7 +126,10 @@ def cache_users_exist_check!(user_logins)
   results = graphql_query(graphql_query_string_for_user_logins(user_logins))
   return unless results
 
-  results.each { |login, result| client.users[login] = result }
+  results.each do |login, result|
+    converted_back_login = convert_from_query_safe_to_real(login)
+    client.users[converted_back_login] = result
+  end
 end
 
 def cache_repos_exist_check!(repos)
@@ -84,22 +137,29 @@ def cache_repos_exist_check!(repos)
   return unless results
 
   results.each do |repo, result|
-    converted_back_repo_and_name = repo.to_s.gsub("___slash___", "/").gsub("___dash___", "-")
+    converted_back_repo_and_name = convert_from_query_safe_to_real(repo)
     client.repos[converted_back_repo_and_name] = result
   end
 end
 
 def graphql_query_string_for_user_logins(logins)
-  graphql_query_string = "query {"
-  logins.each { |login| graphql_query_string += " #{login}: user(login: \"#{login}\") { login }" }
-  graphql_query_string += "}"
+  query_parts = logins.map do |login|
+    key = convert_from_real_to_query_safe(login)
+    "#{key}: user(login: \"#{login}\") { login }"
+  end
+
+  [
+    "query {",
+    query_parts.join(" "),
+    "}",
+  ].join(" ")
 end
 
 def graphql_query_string_for_repos(repos)
   query_parts = repos.map do |repo|
-    key = repo.gsub("/", "___s___").gsub("-", "___d___")
+    key = convert_from_real_to_query_safe(repo)
     owner, name = repo.split("/")
-    "#{key}: repository(owner: \"#{owner}\", name: \"#{name}\", followRenames: false) { name }"
+    "#{key}: repository(owner: \"#{owner}\", name: \"#{name}\") { full_name: nameWithOwner }"
   end
 
   [
@@ -158,7 +218,25 @@ def body_for(dir, name)
   parts[2]
 end
 
+def convert_from_real_to_query_safe(string)
+  duplicate = string.dup.to_s
+
+  UNSAFE_TO_SAFE_STRING_MAPPINGS.keys.each_with_object(duplicate) do |key, new_string|
+    new_string.gsub!(key, UNSAFE_TO_SAFE_STRING_MAPPINGS[key])
+  end
+end
+
+def convert_from_query_safe_to_real(string)
+  duplicate = string.dup.to_s
+
+  SAFE_TO_UNSAFE_STRING_MAPPINGS.keys.each_with_object(duplicate) do |key, new_string|
+    new_string.gsub!(key, SAFE_TO_UNSAFE_STRING_MAPPINGS[key])
+  end
+end
+
 MiniTest.after_run do
   warn "Repo checks were rate limited during this CI run" if NewOctokit.repos_skipped?
   warn "User checks were rate limited during this CI run" if NewOctokit.users_skipped?
+  warn "Repo api was called #{NewOctokit.repo_request_count} times!"
+  warn "User api was called #{NewOctokit.user_request_count} times!"
 end

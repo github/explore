@@ -32,7 +32,7 @@ items:
  - StylishThemes/GitHub-Dark
  - xthexder/wide-github
  - berzniz/github_pr_tree
- - n1ck/gifs-for-github
+ - N1ck/gifs-for-github
  - EnixCoda/Gitako
  - vladgolubev/quickreview-for-github
  - matthizou/github-show-avatars

@@ -2,7 +2,7 @@
 items:
  - solidjs/solid
  - marko-js/marko
- - mithriljs/mithril.js
+ - MithrilJS/mithril.js
  - angular/angular
  - emberjs/ember.js
  - knockout/knockout
@@ -18,7 +18,7 @@ items:
  - dojo/dojo
  - jorgebucaran/hyperapp
  - riot/riot
- - daemonite/material
+ - Daemonite/material
  - lit/lit
  - aurelia/aurelia
  - sveltejs/svelte

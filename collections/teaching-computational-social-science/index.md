@@ -18,7 +18,7 @@ items:
  - vtraag/4TU-CSS
  - honeyAndSw/computational-social-science
  - 5harad/css
- - jaeyk/PS239T
+ - jaeyk/comp_thinking_social_science
  - jhofman/css2013
  - mac389/snappy
  - peterdalle/mediacommtools
