@@ -75,15 +75,9 @@ def annotate_collection_item_error(collection, repo, error_message)
   end
 
   system([
-    "echo ",
-    "\"",
-    "::",
-    "error ",
+    "echo \"::error ",
     "file=collections/#{collection}/index.md,",
-    "line=#{line_number}",
-    "::",
-    error_message,
-    "\"",
+    "line=#{line_number}::#{error_message}\"",
   ].join(""))
 end
 
