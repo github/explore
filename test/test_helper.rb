@@ -44,7 +44,7 @@ class NewOctokit < Octokit::Client
     @@user_request_count
   end
 
-  def repository?(item)
+  def repository(item)
     return repos[item] if repos.key?(item)
 
     @@repo_request_count += 1
@@ -96,7 +96,10 @@ def cache_users_exist_check!(user_logins)
   results = graphql_query(graphql_query_string_for_user_logins(user_logins))
   return unless results
 
-  results.each { |login, result| client.users[login] = result }
+  results.each do |login, result|
+    converted_back_login = login.to_s.gsub("___dash___", "-").gsub("___dot___", ".")
+    client.users[converted_back_login] = result
+  end
 end
 
 def cache_repos_exist_check!(repos)
@@ -114,16 +117,23 @@ def cache_repos_exist_check!(repos)
 end
 
 def graphql_query_string_for_user_logins(logins)
-  graphql_query_string = "query {"
-  logins.each { |login| graphql_query_string += " #{login}: user(login: \"#{login}\") { login }" }
-  graphql_query_string += "}"
+  query_parts = logins.map do |login|
+    key = login.gsub("-", "___dash___").gsub(".", "___dot___")
+    "#{key}: user(login: \"#{login}\") { login }"
+  end
+
+  [
+    "query {",
+    query_parts.join(" "),
+    "}",
+  ].join(" ")
 end
 
 def graphql_query_string_for_repos(repos)
   query_parts = repos.map do |repo|
     key = repo.gsub("/", "___slash___").gsub("-", "___dash___").gsub(".", "___dot___")
     owner, name = repo.split("/")
-    "#{key}: repository(owner: \"#{owner}\", name: \"#{name}\", followRenames: false) { name }"
+    "#{key}: repository(owner: \"#{owner}\", name: \"#{name}\") { full_name: nameWithOwner }"
   end
 
   [
