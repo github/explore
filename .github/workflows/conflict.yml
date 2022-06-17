@@ -9,36 +9,20 @@ on:
       - edited
 
 jobs:
-  comment-and-label:
+  fail:
     runs-on: ubuntu-latest
     if: contains(github.event.pull_request.body, '- [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).')
     steps:
-      - uses: actions/checkout@v3
+      - run: |
+          echo "In order to review it for acceptance, we need to make sure that all of the prerequisites are satisfied."
+          echo "This was not checked:"
+          echo "> I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee)"
+          echo "This is a requirement to maintain a high level of independence in this project. Please update if you are able to verify that you meet that requirement."
+          echo "Thank you!"
+          exit 1
 
-      - name: Add conflict of interest label
-        uses: buildsville/add-remove-label@v1
-        with:
-          token: ${{secrets.GITHUB_TOKEN}}
-          label: Potential Conflict of Interest
-          type: add
-
-      - name: Comment about no conflict requirement
-        if: ${{ github.event.pull_request.head.repo.owner.login == github.repository_owner }}
-        uses: harupy/comment-on-pr@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          filename: templates/conflict.md
-
-  remove-label:
+  succeed:
     runs-on: ubuntu-latest
     if: contains(github.event.pull_request.body, '- [x] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).')
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Remove conflict of interest label
-        uses: buildsville/add-remove-label@v1
-        with:
-          token: ${{secrets.GITHUB_TOKEN}}
-          label: Potential Conflict of Interest
-          type: remove
+      - run: exit 0
