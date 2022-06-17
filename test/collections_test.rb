@@ -58,26 +58,24 @@ describe "collections" do
 
         repos_to_check.each do |repo|
           repo_result = client.repository(repo)
-          current_name_with_owner = repo_result.full_name
-
-          if current_name_with_owner != repo
-            errors << "#{collection}: #{repo} has been renamed to #{current_name_with_owner}"
-          end
+          current_name_with_owner = repo_result&.full_name
 
           if repo_result.nil?
             errors << "#{collection}: #{repo} does not exist or has been made private"
+          elsif current_name_with_owner != repo
+            errors << "#{collection}: #{repo} has been renamed to #{current_name_with_owner}"
           end
         end
 
         users_to_check.each do |login|
           user_result = client.user(login)
-          current_login = user_result.login
+          current_login = user_result&.login
 
-          if current_login != login
+          if user_result.nil?
+            errors << "#{collection}: #{login} does not exist"
+          elsif current_login != login
             errors << "#{collection}: #{login} has been renamed to #{current_login}"
           end
-
-          errors << "#{collection}: #{login} does not exist" if user_result.nil?
         end
 
         assert_empty errors
