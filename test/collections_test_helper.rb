@@ -68,8 +68,8 @@ def annotate_collection_item_error(collection, repo, error_message)
   file = "#{collections_dir}/#{collection}/index.md"
   line_number = 0
 
-  File.open(file, "r") do |file|
-    file_contents = file.readlines
+  File.open(file, "r") do |f|
+    file_contents = f.readlines
     index = file_contents.index { |line| line.include?(repo) }
     line_number = index + 1 if index
   end
