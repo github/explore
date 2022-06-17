@@ -39,8 +39,7 @@ def collection_dirs
 end
 
 def collections
-  c = collection_dirs.map { |dir_path| File.basename(dir_path) }
-  # c.select { |collection| collection == "social-impact" }
+  collection_dirs.map { |dir_path| File.basename(dir_path) }
 end
 
 def items_for_collection(collection)
