@@ -1,0 +1,27 @@
+name: Check and update renamed collection items
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  "0 5 * * *" # 5 AM UTC every day
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Test collections with Rake and autofix
+        run: bundle exec rake collections
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTOCORRECT_RENAMED_REPOS: 1
+
+      - uses: EndBug/add-and-commit@v7
+        with:
+          message: "✨ Autofixing renamed collection items ✨"
