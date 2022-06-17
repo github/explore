@@ -57,6 +57,7 @@ class NewOctokit < Octokit::Client
   @@users = {} unless defined? @@users
   @@repo_request_count = 0 unless defined? @@repo_request_count
   @@user_request_count = 0 unless defined? @@user_request_count
+  @@messages = [] unless defined? @@messages
 
   def repos
     @@repos
@@ -64,6 +65,10 @@ class NewOctokit < Octokit::Client
 
   def users
     @@users
+  end
+
+  def messages
+    @@messages
   end
 
   def repo_request_count
@@ -108,6 +113,10 @@ class NewOctokit < Octokit::Client
 
   def self.user_request_count
     @@user_request_count
+  end
+
+  def self.messages
+    @@messages
   end
 
   # rubocop:enable Style/ClassVars
@@ -261,9 +270,17 @@ def convert_from_query_safe_to_real(string)
   end
 end
 
+def add_message(type, file, line_number, message)
+  client.messages << "::#{type} file=#{file},line=#{line_number}::#{message}"
+end
+
 MiniTest.after_run do
   warn "Repo checks were rate limited during this CI run" if NewOctokit.repos_skipped?
   warn "User checks were rate limited during this CI run" if NewOctokit.users_skipped?
   warn "Repo api was called #{NewOctokit.repo_request_count} times!"
   warn "User api was called #{NewOctokit.user_request_count} times!"
+
+  NewOctokit.messages.each do |message|
+    puts message
+  end
 end
