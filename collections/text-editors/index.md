@@ -15,7 +15,7 @@ items:
  - atom/atom
  - LightTable/LightTable
  - zedapp/zed
- - Microsoft/vscode
+ - microsoft/vscode
  - zyedidia/micro
  - neoedmund/neoeedit
  - mawww/kakoune

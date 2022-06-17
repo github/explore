@@ -1,12 +1,12 @@
 ---
 items:
  - adar2378/pin_code_fields
- - agontuk/react-native-geolocation-service
+ - Agontuk/react-native-geolocation-service
  - alamkanak/Android-Week-View
  - appzcoder/crud-generator
  - appzcoder/laravel-admin
  - halfo/lambda-mod-zsh-theme
- - lordAmit/Brightness
+ - LordAmit/Brightness
  - mmahmoodictbd/production-ready-microservices-starter
  - mugli/Avro-Keyboard
  - nahid/gohttp

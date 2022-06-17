@@ -6,7 +6,7 @@ items:
  - slimphp/Slim
  - yiisoft/yii
  - cakephp/cakephp
- - dinophp/dinophp
+ - DinoPHP/DinoPHP
 display_name: PHP Frameworks
 created_by: Ahmed-Ibrahimm
 ---

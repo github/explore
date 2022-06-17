@@ -1,7 +1,7 @@
 ---
 items:
  - trekhleb/javascript-algorithms
- - mui-org/material-ui
+ - mui/material-ui
  - ansible/ansible
  - Leaflet/Leaflet
  - denysdovhan/wtfjs
