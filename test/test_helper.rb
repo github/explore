@@ -5,11 +5,13 @@ require "fastimage"
 require "uri"
 require "yaml"
 require "octokit"
+require "json"
 
 IMAGE_WIDTH = 288
 IMAGE_HEIGHT = 288
 MAX_IMAGE_FILESIZE_IN_BYTES = 75_000
 EXPLORE_FEED_URL = "https://explore-feed.github.com/feed.json"
+GRAPHQL_ENDPOINT = "/graphql"
 
 # See https://github.com/franklsf95/ruby-emoji-regex
 # rubocop:disable Layout/LineLength
@@ -33,14 +35,18 @@ class NewOctokit < Octokit::Client
   end
 
   def repository?(item)
-    repos.fetch(item, super)
+    return repos[item] if repos.key?(item)
+
+    repos[item] = super
   rescue Octokit::TooManyRequests
     repos[:skip_requests] = true
     repos[item] = true
   end
 
   def user(item)
-    users.fetch(item, super)
+    return users[item] if users.key?(item)
+
+    users[item] = super
   rescue Octokit::TooManyRequests
     users[:skip_requests] = true
     users[item] = true
@@ -58,7 +64,49 @@ class NewOctokit < Octokit::Client
 end
 
 def client
-  @client ||= NewOctokit.new(access_token: ENV["GITHUB_TOKEN"])
+  @client ||= NewOctokit.new(access_token: ENV.fetch("GITHUB_TOKEN"))
+end
+
+def graphql_query(query)
+  jsonified_query = { query: }.to_json
+  client.post(GRAPHQL_ENDPOINT, jsonified_query).data
+end
+
+def cache_users_exist_check!(user_logins)
+  results = graphql_query(graphql_query_string_for_user_logins(user_logins))
+  return unless results
+
+  results.each { |login, result| client.users[login] = result }
+end
+
+def cache_repos_exist_check!(repos)
+  results = graphql_query(graphql_query_string_for_repos(repos))
+  return unless results
+
+  results.each do |repo, result|
+    converted_back_repo_and_name = repo.to_s.gsub("___slash___", "/").gsub("___dash___", "-")
+    client.repos[converted_back_repo_and_name] = result
+  end
+end
+
+def graphql_query_string_for_user_logins(logins)
+  graphql_query_string = "query {"
+  logins.each { |login| graphql_query_string += " #{login}: user(login: \"#{login}\") { login }" }
+  graphql_query_string += "}"
+end
+
+def graphql_query_string_for_repos(repos)
+  query_parts = repos.map do |repo|
+    key = repo.gsub("/", "___s___").gsub("-", "___d___")
+    owner, name = repo.split("/")
+    "#{key}: repository(owner: \"#{owner}\", name: \"#{name}\") { name }"
+  end
+
+  [
+    "query {",
+    query_parts.join(" "),
+    "}",
+  ].join(" ")
 end
 
 def existing_explore_feed
