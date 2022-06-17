@@ -12,6 +12,36 @@ IMAGE_HEIGHT = 288
 MAX_IMAGE_FILESIZE_IN_BYTES = 75_000
 EXPLORE_FEED_URL = "https://explore-feed.github.com/feed.json"
 GRAPHQL_ENDPOINT = "/graphql"
+UNSAFE_TO_SAFE_STRING_MAPPINGS = {
+  "-" => "___dash___",
+  "." => "___dot___",
+  "/" => "___slash___",
+  "0" => "___zero___",
+  "1" => "___one___",
+  "2" => "___two___",
+  "3" => "___three___",
+  "4" => "___four___",
+  "5" => "___five___",
+  "6" => "___six___",
+  "7" => "___seven___",
+  "8" => "___eight___",
+  "9" => "___nine___",
+}.freeze
+SAFE_TO_UNSAFE_STRING_MAPPINGS = {
+  "___dash___" => "-",
+  "___dot___" => ".",
+  "___slash___" => "/",
+  "___zero___" => "0",
+  "___one___" => "1",
+  "___two___" => "2",
+  "___three___" => "3",
+  "___four___" => "4",
+  "___five___" => "5",
+  "___six___" => "6",
+  "___seven___" => "7",
+  "___eight___" => "8",
+  "___nine___" => "9",
+}.freeze
 
 # See https://github.com/franklsf95/ruby-emoji-regex
 # rubocop:disable Layout/LineLength
@@ -97,7 +127,7 @@ def cache_users_exist_check!(user_logins)
   return unless results
 
   results.each do |login, result|
-    converted_back_login = login.to_s.gsub("___dash___", "-").gsub("___dot___", ".")
+    converted_back_login = convert_from_query_safe_to_real(login)
     client.users[converted_back_login] = result
   end
 end
@@ -107,18 +137,14 @@ def cache_repos_exist_check!(repos)
   return unless results
 
   results.each do |repo, result|
-    converted_back_repo_and_name = repo
-                                   .to_s
-                                   .gsub("___slash___", "/")
-                                   .gsub("___dash___", "-")
-                                   .gsub("___dot___", ".")
+    converted_back_repo_and_name = convert_from_query_safe_to_real(repo)
     client.repos[converted_back_repo_and_name] = result
   end
 end
 
 def graphql_query_string_for_user_logins(logins)
   query_parts = logins.map do |login|
-    key = login.gsub("-", "___dash___").gsub(".", "___dot___")
+    key = convert_from_real_to_query_safe(login)
     "#{key}: user(login: \"#{login}\") { login }"
   end
 
@@ -131,7 +157,7 @@ end
 
 def graphql_query_string_for_repos(repos)
   query_parts = repos.map do |repo|
-    key = repo.gsub("/", "___slash___").gsub("-", "___dash___").gsub(".", "___dot___")
+    key = convert_from_real_to_query_safe(repo)
     owner, name = repo.split("/")
     "#{key}: repository(owner: \"#{owner}\", name: \"#{name}\") { full_name: nameWithOwner }"
   end
@@ -190,6 +216,22 @@ def body_for(dir, name)
   return "" unless parts.size >= 2
 
   parts[2]
+end
+
+def convert_from_real_to_query_safe(string)
+  duplicate = string.dup.to_s
+
+  UNSAFE_TO_SAFE_STRING_MAPPINGS.keys.each_with_object(duplicate) do |key, new_string|
+    new_string.gsub!(key, UNSAFE_TO_SAFE_STRING_MAPPINGS[key])
+  end
+end
+
+def convert_from_query_safe_to_real(string)
+  duplicate = string.dup.to_s
+
+  SAFE_TO_UNSAFE_STRING_MAPPINGS.keys.each_with_object(duplicate) do |key, new_string|
+    new_string.gsub!(key, SAFE_TO_UNSAFE_STRING_MAPPINGS[key])
+  end
 end
 
 MiniTest.after_run do
