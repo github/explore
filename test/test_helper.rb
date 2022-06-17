@@ -270,6 +270,10 @@ def convert_from_query_safe_to_real(string)
   end
 end
 
+def add_message(type, file, line_number, message)
+  client.messages << "::#{type} file=#{file},line=#{line_number}::#{message}"
+end
+
 MiniTest.after_run do
   warn "Repo checks were rate limited during this CI run" if NewOctokit.repos_skipped?
   warn "User checks were rate limited during this CI run" if NewOctokit.users_skipped?

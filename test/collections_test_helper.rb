@@ -75,10 +75,6 @@ def annotate_collection_item_error(collection, string, error_message)
   add_message("error", "collections/#{collection}/index.md", line_number, error_message)
 end
 
-def add_message(type, file, line_number, message)
-  client.messages << "::#{type} file=#{file},line=#{line_number}::#{message}"
-end
-
 def possible_image_file_names_for_collection(collection)
   COLLECTION_IMAGE_EXTENSIONS.map { |ext| "#{collection}#{ext}" }
 end
