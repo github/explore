@@ -66,19 +66,18 @@ end
 
 def annotate_collection_item_error(collection, repo, error_message)
   file = "#{collections_dir}/#{collection}/index.md"
-  line_number = 0
 
-  File.open(file, "r") do |f|
+  line_number = File.open(file, "r") do |f|
     file_contents = f.readlines
     index = file_contents.index { |line| line.include?(repo) }
-    line_number = index + 1 if index
+    index + 1 if index
   end
 
-  system([
-    "echo \"::error ",
-    "file=collections/#{collection}/index.md,",
-    "line=#{line_number}::#{error_message}\"",
-  ].join(""))
+  echo_system_message("error", "collections/#{collection}/index.md", line_number, error_message)
+end
+
+def echo_system_message(type, file, line_number, message)
+  system("echo '::#{type} file=#{file},line=#{line_number}::#{message}'")
 end
 
 def possible_image_file_names_for_collection(collection)
