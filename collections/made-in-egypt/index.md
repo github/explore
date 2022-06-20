@@ -15,7 +15,7 @@ items:
   - gogearbox/gearbox
   - ahegazy/php-mvc-skeleton
   - aboul3la/Sublist3r
-  - MohabMohie/SHAFT_ENGINE
+  - ShaftHQ/SHAFT_ENGINE
   - fawry-api/fawry
   - harryadel/AI-ML-Driven-Companies-In-Egypt
   - abdumostafa/awesome-in-arabic
