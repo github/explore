@@ -64,17 +64,6 @@ def update_collection_item(collection, old_repo_with_owner, new_repo_with_owner)
   end
 end
 
-def annotate_collection_item_error(collection, string, error_message)
-  file = "#{collections_dir}/#{collection}/index.md"
-
-  line_number = File.open(file, "r") do |f|
-    file_contents = f.readlines
-    string == "" ? 1 : file_contents.index { |line| line.include?(string) } + 1
-  end
-
-  add_message("error", "collections/#{collection}/index.md", line_number, error_message)
-end
-
 def possible_image_file_names_for_collection(collection)
   COLLECTION_IMAGE_EXTENSIONS.map { |ext| "#{collection}#{ext}" }
 end

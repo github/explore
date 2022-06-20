@@ -160,17 +160,12 @@ describe "collections" do
           current_name_with_owner = repo_result&.full_name
 
           if repo_result.nil?
-            error_message = "#{collection}: #{repo} does not exist or has been made private"
-            annotate_collection_item_error(collection, repo, error_message)
-            errors << error_message
+            errors << "#{collection}: #{repo} does not exist or has been made private"
           elsif current_name_with_owner != repo
             if ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
               update_collection_item(collection, repo, current_name_with_owner)
             else
-              error_message =
-                "#{collection}: #{repo} has been renamed to #{current_name_with_owner}"
-              annotate_collection_item_error(collection, repo, error_message)
-              errors << error_message
+              errors << "#{collection}: #{repo} has been renamed to #{current_name_with_owner}"
             end
           end
         end
@@ -180,13 +175,9 @@ describe "collections" do
           current_login = user_result&.login
 
           if user_result.nil?
-            error_message = "#{collection}: #{login} does not exist"
-            annotate_collection_item_error(collection, login, error_message)
-            errors << error_message
+            errors << "#{collection}: #{login} does not exist"
           elsif current_login != login
-            error_message = "#{collection}: #{login} has been renamed to #{current_login}"
-            annotate_collection_item_error(collection, login, error_message)
-            errors << error_message
+            errors << "#{collection}: #{login} has been renamed to #{current_login}"
           end
         end
 
@@ -199,16 +190,14 @@ describe "collections" do
     it "has the same order and new items are at the end" do
       collection_items = items_for_collection(collection)
       existing_items = existing_items_for_collection(collection)
-      errors = []
 
       collection_items_minus_new_additions = collection_items[0, existing_items.length]
 
-      if collection_items_minus_new_additions != existing_items
-        errors << "expected collection changes to have been appended to the existing item list"
-        annotate_collection_item_error(collection, "", errors.join("\n"))
-      end
-
-      assert_empty errors
+      assert_equal(
+        collection_items_minus_new_additions,
+        existing_items,
+        "expected collection changes to have been appended to the existing item list"
+      )
     end
   end
 
