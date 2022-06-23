@@ -1,5 +1,4 @@
 ---
-aliases: jest
 display_name: Jest
 short_description: Jest is a JavaScript testing framework built on top of Jasmine.
 topic: jest
