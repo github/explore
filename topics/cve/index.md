@@ -1,7 +1,7 @@
 ---
 aliases: 
 display_name: Common Vulnerabilities and Exposures (CVE)
-short_description: The Common Vulnerabilities and Exposures (CVE) system provides a reference-method for publicly known information-security vulnerabilities and exposures. 
+short_description: The Common Vulnerabilities and Exposures (CVE) system provides a reference-method for publicly known vulnerabilities. 
 topic: cve
 wikipedia_url: https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures
 ---
