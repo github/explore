@@ -1,5 +1,5 @@
 ---
-aliases: nvd
+aliases: 
 display_name: National Vulnerability Database (NVD)
 short_description: The National Vulnerability Database (NVD) is the U.S. government repository of standards-based vulnerability management data.
 topic: nvd
