@@ -12,4 +12,4 @@ url: https://www.brave.com
 wikipedia_url: https://en.wikipedia.org/wiki/Brave_(web_browser)
 ---
 
-Brave is a free and open source web browser developed by Brave Software. It is a privacy-focused browser based on tbe open source Chroimum project. It's available for most operating systems including Windows, macOS, Linux and most phones and tablets.
+Brave is a free and open source web browser developed by Brave Software. It is a privacy-focused browser based on the open source Chroimum project. It's available for most operating systems including Windows, macOS, Linux and most phones and tablets.
