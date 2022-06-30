@@ -1,7 +1,6 @@
 ---
 items:
   - KL13NT/ally-reads
-  - 0xSobky/AnonTab
   - RobustaStudio/bkit
   - aliftype/amiri
   - Gue3bara/Cairo
