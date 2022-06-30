@@ -71,9 +71,7 @@ def remove_collection_item(collection, old_repo_with_owner)
   File.open("#{file}.tmp", "w") do |output|
     File.open(file, "r") do |input|
       input.each_line do |line|
-        unless /#{old_repo_with_owner}/i.match?(line)
-          output.write(line)
-        end
+        output.write(line) unless /#{old_repo_with_owner}/i.match?(line)
       end
     end
   end
