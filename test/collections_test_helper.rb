@@ -70,9 +70,7 @@ def remove_collection_item(collection, old_repo_with_owner)
   File.open(file, "r+") do |f|
     line = f.readline
 
-    unless line =~ /#{old_repo_with_owner}/i
-      f.write(line)
-    end
+    f.write(line) unless /#{old_repo_with_owner}/i.match?(line)
   end
 end
 
