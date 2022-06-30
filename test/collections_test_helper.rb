@@ -1,5 +1,5 @@
 require_relative "./test_helper"
-require 'fileutils'
+require "fileutils"
 
 VALID_COLLECTION_METADATA_KEYS = %w[collection created_by display_name image items].freeze
 REQUIRED_COLLECTION_METADATA_KEYS = %w[items display_name].freeze
@@ -68,8 +68,8 @@ end
 def remove_collection_item(collection, old_repo_with_owner)
   file = "#{collections_dir}/#{collection}/index.md"
 
-  open(file, 'r') do |original_file|
-    open("#{file}.tmp", 'w') do |new_file|
+  open(file, "r") do |original_file|
+    open("#{file}.tmp", "w") do |new_file|
       original_file.each_line do |line|
         new_file.write(line) unless /#{old_repo_with_owner}/i.match?(line)
       end
