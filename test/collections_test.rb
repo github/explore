@@ -160,9 +160,13 @@ describe "collections" do
           current_name_with_owner = repo_result&.full_name
 
           if repo_result.nil?
-            error_message = "#{collection}: #{repo} does not exist or has been made private"
-            annotate_collection_item_error(collection, repo, error_message)
-            errors << error_message
+            if ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
+              remove_collection_item(collection, repo)
+            else
+              error_message = "#{collection}: #{repo} does not exist or has been made private"
+              annotate_collection_item_error(collection, repo, error_message)
+              errors << error_message
+            end
           elsif current_name_with_owner != repo
             if ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
               update_collection_item(collection, repo, current_name_with_owner)
