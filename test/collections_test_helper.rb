@@ -64,6 +64,18 @@ def update_collection_item(collection, old_repo_with_owner, new_repo_with_owner)
   end
 end
 
+def remove_collection_item(collection, old_repo_with_owner)
+  file = "#{collections_dir}/#{collection}/index.md"
+
+  File.open(file, "r+") do |f|
+    line = f.readline
+
+    unless line =~ /#{old_repo_with_owner}/i
+      f.write(line)
+    end
+  end
+end
+
 def annotate_collection_item_error(collection, string, error_message)
   file = "#{collections_dir}/#{collection}/index.md"
 
