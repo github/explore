@@ -1,7 +1,7 @@
 ---
 display_name: data
 related: datum
-short_description: Facts and statistics (numerical data), these may be analysed.
+short_description: Facts and statistics (numerical data) that may be analysed.
 topic: data
 wikipedia_url: https://en.wikipedia.org/wiki/Data
 ---
