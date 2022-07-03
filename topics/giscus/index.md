@@ -1,5 +1,4 @@
 ---
-aliases: giscus
 display_name: Giscus
 short_description: A comment system powered by GitHub Discussions.
 topic: giscus
