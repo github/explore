@@ -12,7 +12,7 @@ items:
  - histolab/histolab
  - strawberry-graphql/strawberry
  - notable/notable
- - espanso/espanso
+ - federico-terzi/espanso
  - eciavatta/caronte
  - Schrodinger-Hat/ImageGoNord
  - stoplightio/prism
