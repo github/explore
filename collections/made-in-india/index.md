@@ -19,7 +19,7 @@ items:
  - frappe/frappe
  - spacecloud-io/space-cloud
  - shivammathur/setup-php
- - infracloudio/botkube
+ - kubeshop/botkube
  - SigNoz/signoz
  - uvdesk/community-skeleton
  - CRED-CLUB/synth-android
