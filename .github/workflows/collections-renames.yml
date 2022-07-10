@@ -3,7 +3,7 @@ name: Check and update renamed/removed collection items
 on:
   workflow_dispatch:
   schedule:
-    - cron:  "0 5 * * *" # 5 AM UTC every day
+    - cron:  "0 * * * *" # every hour
 
 jobs:
   update:
