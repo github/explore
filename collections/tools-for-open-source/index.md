@@ -18,7 +18,7 @@ items:
  - WeAllJS/weallcontribute
  - danger/danger
  - icecrime/poule
- - probot/settings
+ - repository-settings/app
  - cla-assistant/cla-assistant
  - zeke/package-json-to-readme
  - hakirisec/hakiri_toolbelt

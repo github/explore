@@ -20,7 +20,7 @@ items:
  - google/google-ctf
  - laramies/theHarvester
  - orangetw/My-CTF-Web-Challenges
- - Ganapati/RsaCtfTool
+ - RsaCtfTool/RsaCtfTool
  - Ignitetechnologies/Privilege-Escalation
  - w181496/Web-CTF-Cheatsheet
  - terjanq/Tiny-XSS-Payloads
