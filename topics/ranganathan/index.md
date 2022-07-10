@@ -1,7 +1,6 @@
 ---
 created_by: Mauro Bertani
 display_name: ranganathan
-logo: ranganathan.png
 related: colon classification, subject indexing, lattice, hypercube, facet classification
 github_url: https://github.com/topics/ranganathan
 short_description: the evolution and study of the work of the father of Library science Shiyali Ramamrita Ranganathan. 
