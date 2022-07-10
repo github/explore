@@ -1,6 +1,6 @@
 ---
-display_name: Blogger (Service)
-logo: Blogger_icon_2017.png
+display_name: Blogger
+logo: blogger.png
 short_description: is an online content management system which enables multi-user blogs with time-stamped entries.
 topic: blogger
 wikipedia_url: https://en.wikipedia.org/wiki/Blogger_(service)
