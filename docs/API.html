@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Making edits to a topic | GitHub Explore Feed</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Making edits to a topic" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Feed for GitHub Topics and Collections." />
+<meta property="og:description" content="Feed for GitHub Topics and Collections." />
+<link rel="canonical" href="https://github.com/pages/github/explore/docs/API.html" />
+<meta property="og:url" content="https://github.com/pages/github/explore/docs/API.html" />
+<meta property="og:site_name" content="GitHub Explore Feed" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Making edits to a topic" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Feed for GitHub Topics and Collections.","headline":"Making edits to a topic","url":"https://github.com/pages/github/explore/docs/API.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/pages/github/explore/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/pages/github/explore/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://github.com/pages/github/explore/">GitHub Explore Feed</a></h1>
+      
+
+      <h2 id="making-edits-to-a-topic">Making edits to a topic</h2>
+
+<p>If you’re making edits to a topic page, the following fields are available for use. Not all fields are required.</p>
+
+<h3 id="aliases">aliases</h3>
+<p>(if applicable) Synonyms for the topic name. For example, <code class="language-plaintext highlighter-rouge">react</code> and <code class="language-plaintext highlighter-rouge">reactjs</code> are aliases. You
+should only list an alias for your topic if the majority of repositories using that alias are
+referring to the same subject matter as the topic. You should not list another topic as an alias
+if the alias is a superset of your topic.</p>
+
+<p>For example, <code class="language-plaintext highlighter-rouge">api</code> makes sense in the <code class="language-plaintext highlighter-rouge">related</code> field for the <code class="language-plaintext highlighter-rouge">graphql</code> topic, but because many
+repositories tagged with <code class="language-plaintext highlighter-rouge">api</code> are <em>not</em> be associated with <code class="language-plaintext highlighter-rouge">graphql</code>, <code class="language-plaintext highlighter-rouge">api</code> does not make sense
+in the <code class="language-plaintext highlighter-rouge">aliases</code> field for <code class="language-plaintext highlighter-rouge">graphql</code>.</p>
+
+<p>Each alias must be formatted like that topic’s <code class="language-plaintext highlighter-rouge">topic</code> field (same as the URL slug). Acceptable formatting:</p>
+
+<ul>
+  <li>Starts with a letter or number</li>
+  <li>Contains only letters, numbers, and hyphens</li>
+  <li>At most 35 characters long</li>
+</ul>
+
+<h3 id="created_by">created_by</h3>
+<p>(if applicable) Names of the people and/or organizations who authored the topic (NOT your name). For example, <code class="language-plaintext highlighter-rouge">Jordan Walke</code> is the author of <code class="language-plaintext highlighter-rouge">react</code>.</p>
+
+<h3 id="display_name">display_name</h3>
+<p>(required) The topic name that will be displayed on the topic page (ex. <code class="language-plaintext highlighter-rouge">React</code>). Should use proper noun capitalization. Emoji are not allowed.</p>
+
+<h3 id="github_url">github_url</h3>
+<p>(if applicable) URL of the topic’s official GitHub organization or repository. Must start with <code class="language-plaintext highlighter-rouge">https://github.com/</code>.</p>
+
+<h3 id="logo">logo</h3>
+<p>(if applicable) The official logo associated with that topic. You must have permission to use this logo. If no official logo exists, do not include an image.</p>
+
+<p>If you’re submitting content for a topic page, upload the image to the topic’s folder and put its name (ex. <code class="language-plaintext highlighter-rouge">logo.png</code>) here. The image must be square, <code class="language-plaintext highlighter-rouge">*.png</code> format, dimensions 288x288 and no larger than 75 kB. The file name must be the same as the <code class="language-plaintext highlighter-rouge">topic</code> with an image extension.</p>
+
+<h3 id="related">related</h3>
+<p>(if applicable) Any related topics you can think of. Related topic suggestions are automatically generated by GitHub, but you have the option to call out any specific topics here.</p>
+
+<p>Each related topic must be formatted like that topic’s <code class="language-plaintext highlighter-rouge">topic</code> field (same as the URL slug). Acceptable formatting:</p>
+
+<ul>
+  <li>Starts with a letter or number</li>
+  <li>Contains only letters, numbers, and hyphens</li>
+  <li>At most 35 characters long</li>
+</ul>
+
+<p>Formatted as <code class="language-plaintext highlighter-rouge">topic1, topic2, topic3</code>.</p>
+
+<h3 id="released">released</h3>
+<p>(if applicable) Date of first release. Formatted as <code class="language-plaintext highlighter-rouge">MONTH DD, YYYY</code>, <code class="language-plaintext highlighter-rouge">MONTH YYYY</code>, or just <code class="language-plaintext highlighter-rouge">YYYY</code>.</p>
+
+<h3 id="short_description">short_description</h3>
+<p>(required) A short description of the topic, which will be used on the Explore homepage, Topics subpage, and other preview areas. Must be 130 characters or less. Emoji are not allowed.</p>
+
+<h3 id="topic">topic</h3>
+<p>(required) Name of the topic, which will be used in the URL, e.g. <code class="language-plaintext highlighter-rouge">https://github.com/topics/[URL]</code>. Formatted as lowercase.</p>
+
+<p>Acceptable formatting:</p>
+
+<ul>
+  <li>Starts with a letter or number</li>
+  <li>Contains only letters, numbers, and hyphens</li>
+  <li>At most 35 characters long</li>
+</ul>
+
+<h3 id="url">url</h3>
+<p>(if applicable) URL to the topic’s official website</p>
+
+<h3 id="wikipedia_url">wikipedia_url</h3>
+<p>(if applicable) URL to a Wikipedia article about the topic</p>
+
+<h3 id="the-body-of-your-document">The body of your document</h3>
+<p>(required) A longer description of the topic, which will appear on its topic page. Must be 1,000 characters or less. Should not be the same as <code class="language-plaintext highlighter-rouge">short_description</code>. Some Markdown is allowed, such as links. Emoji are allowed.</p>
+
+<h2 id="making-edits-to-a-collection">Making edits to a collection</h2>
+
+<p>If you’re making edits to a collection, the following fields are available for use. Not all fields are required.</p>
+
+<h3 id="items">items</h3>
+<p>A <a href="https://en.wikipedia.org/wiki/YAML#Basic_components">YAML list</a> containing any of the following values:</p>
+
+<ul>
+  <li>GitHub repository path (e.g. <code class="language-plaintext highlighter-rouge">defunkt/dotjs</code>)</li>
+  <li>GitHub username (e.g. <code class="language-plaintext highlighter-rouge">defunkt</code>)</li>
+  <li>GitHub organization (e.g. <code class="language-plaintext highlighter-rouge">github</code>)</li>
+  <li>Any web URL (e.g. <code class="language-plaintext highlighter-rouge">https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners</code>)</li>
+  <li>Any YouTube video URL (e.g. <code class="language-plaintext highlighter-rouge">https://www.youtube.com/watch?v=0fKg7e37bQE</code>)</li>
+</ul>
+
+<p>A complete <code class="language-plaintext highlighter-rouge">items</code> list might look like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>items:
+ - pybee/batavia
+ - Homebrew/brew
+ - https://www.youtube.com/watch?v=dSl_qnWO104
+</code></pre></div></div>
+
+<h3 id="created_by-1">created_by</h3>
+<p>(if applicable) GitHub username of the person and/or organization that authored the collection.</p>
+
+<h3 id="display_name-1">display_name</h3>
+<p>(required) The collection name that will be displayed on its page (ex. <code class="language-plaintext highlighter-rouge">How to choose (and contribute to) your first open source project</code>). Should use proper noun capitalization. Emoji are not allowed.</p>
+
+<h3 id="the-body-of-your-document-1">The body of your document</h3>
+<p>(required) A longer description of the collection, which will appear on its page. Must be 1,000 characters or less. Some Markdown is allowed, such as links. Emoji are allowed.</p>
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/github/explore/edit/gh-pages/docs/API.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
