@@ -1,4 +1,3 @@
----
 aliases: brave-browser
 related: chrome,firefox,safari,edge,opera,chromium,browser
 created_by: Brave Software
