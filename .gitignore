@@ -1,5 +1,6 @@
 Gemfile.lock
 .DS_Store
+/.DS_Store
 scripts/
 _site
 .sass-cache
