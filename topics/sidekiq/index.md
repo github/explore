@@ -1,12 +1,11 @@
 ---
-aliases: sidekiq
 created_by: Mike Perham
 display_name: Sidekiq
 github_url: https://github.com/mperham/sidekiq
 logo: sidekiq.png
 related: resque, activejob, delayed-job
 released: February 05, 2012
-short_description: Simple, efficient background processing for Ruby
+short_description: Simple, efficient background processing for Ruby.
 topic: sidekiq
 url: https://sidekiq.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Sidekiq
