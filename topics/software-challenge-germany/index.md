@@ -1,11 +1,11 @@
 ---
-aliases: sc, softwarechallenge
-display_name: Software Challenge
+aliases: softwarechallengegermany
+display_name: Software-Challenge Germany
 github_url: https://github.com/software-challenge
 logo: software-challenge.png
 released: 2004
 short_description: Programming competition for students, held by the CAU Kiel and FH Wedel.
-topic: software-challenge
+topic: software-challenge-germany
 url: https://software-challenge.de
 ---
 
