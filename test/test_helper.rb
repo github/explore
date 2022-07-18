@@ -10,7 +10,7 @@ require "json"
 IMAGE_WIDTH = 288
 IMAGE_HEIGHT = 288
 MAX_IMAGE_FILESIZE_IN_BYTES = 75_000
-EXPLORE_FEED_URL = "https://explore-feed.github.com/feed.json"
+EXPLORE_FEED_URL = "https://github.github.io/explore/feed.json"
 GRAPHQL_ENDPOINT = "/graphql"
 UNSAFE_TO_SAFE_STRING_MAPPINGS = {
   "-" => "___dash___",
