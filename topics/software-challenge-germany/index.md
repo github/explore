@@ -2,7 +2,7 @@
 aliases: softwarechallengegermany
 display_name: Software-Challenge Germany
 github_url: https://github.com/software-challenge
-logo: software-challenge.png
+logo: software-challenge-germany.png
 released: 2004
 short_description: Programming competition for students, held by the CAU Kiel and FH Wedel.
 topic: software-challenge-germany
