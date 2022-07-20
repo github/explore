@@ -6,6 +6,7 @@ require "uri"
 require "yaml"
 require "octokit"
 require "json"
+require "httparty"
 
 IMAGE_WIDTH = 288
 IMAGE_HEIGHT = 288
@@ -206,20 +207,13 @@ def graphql_query_string_for_repos(repos)
 end
 
 def existing_explore_feed
-  @existing_explore_feed ||= begin
-    conn = Faraday.new(EXPLORE_FEED_URL) do |f|
-      f.request :json
-      f.response :json
-    end
-
-    conn.get
-  end
+  @existing_explore_feed ||= JSON.parse(HTTParty.get(EXPLORE_FEED_URL).body)
 end
 
 def existing_collection(name)
   @_existing_collections ||= {}
 
-  @_existing_collections[name] ||= existing_explore_feed.body["collections"].find do |collection|
+  @_existing_collections[name] ||= existing_explore_feed["collections"].find do |collection|
     collection["name"] == name
   end
 end
