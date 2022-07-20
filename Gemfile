@@ -3,8 +3,8 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 
 group :test do
-  gem "httparty"
   gem "fastimage"
+  gem "httparty"
   gem "minitest"
   gem "octokit"
   gem "pry", require: false
