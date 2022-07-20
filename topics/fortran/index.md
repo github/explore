@@ -12,6 +12,6 @@ wikipedia_url: https://wikipedia.org/wiki/Fortran
 ---
 Fortran is a statically typed compiled programming language that is especially suited to numeric computation, and scientific computing.
 While Fortran has been in use since its inception by John Backus at IBM in 1957, it still remains popular today, especially for computationally intensive
-applications including numerical weather prediction, finite element analysis, computational fuild dynamics, computational physics, crystallography, and
+applications including numerical weather prediction, finite element analysis, computational fluid dynamics, computational physics, crystallography, and
 computational chemistry. Despite its age, new language revisions include syntax and semantics for modern language ideas including pointers, recursion,
 object orientated programming features, and parallel programming using Coarray Fortran.
