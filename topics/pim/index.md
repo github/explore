@@ -1,9 +1,9 @@
 ---
 topic: pim
-related: 
+related:
 display_name: PIM
 short_description: Personal Information Management OR Product Information Management.
-url: 
+url:
 wikipedia_url: https://en.wikipedia.org/wiki/PIM
 ---
-The abbrevation PIM may refer to Personal Information Management OR Product Information Management (among others).
+The abbreviation PIM may refer to Personal Information Management OR Product Information Management (among others).
