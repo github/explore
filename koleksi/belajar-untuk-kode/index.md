@@ -1,3 +1,4 @@
+<img width="401" alt="gpg-verified-with-expired-key" src="https://user-images.githubusercontent.com/109708975/180194118-8659764b-73de-4a5b-aca8-a93b8ade8561.png">
 ---
 items:
  - 30-seconds/30-seconds-of-code
