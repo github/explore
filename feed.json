@@ -6438,7 +6438,7 @@
             "chrome-extensions, google-chrome-extension, extension-chrome"
           
         ],
-        "content": "<p>Chrome extensions are add-ons for Chromium-based browsers, such as Google Chrome, which enable users to customize the Chrome browsing experience. Built using web technologies like HTML, CSS, and JavaScript, extensions make use of various APIs supported by the browser. Extensions are typically downloaded from online marketplaces, with the Chrome Web Store being the most widely used. Chrome extensions work on most Chromium browsers, not just Google Chome developed by Google.</p>\n"
+        "content": "<p>Chrome extensions are add-ons for Chromium-based browsers, such as Google Chrome, which enable users to customize the Chrome browsing experience. Built using web technologies like HTML, CSS, and JavaScript, extensions make use of various APIs supported by the browser. Extensions are typically downloaded from online marketplaces, with the Chrome Web Store being the most widely used. Chrome extensions work on most Chromium browsers, not just Google Chrome developed by Google.</p>\n"
       },
     
       {
@@ -6920,7 +6920,7 @@
         "aliases": [
           
         ],
-        "content": "<p>Common Lisp is a general-purpose programming language in the Lisp language family. Its syntax is defined on top of s-expressions, however it can be extended through the use of reader macros. It supports compile-time meta-programming through the use of macros. It supports the OOP paradigm through the Common Lisp Object System. The API upon which CLOS is implemented is exposed to the programmer so they can extent the object system. This API is refered as the Meta-Object Protocol. There are multiple implementations available: SBCL, which generates fast code, CCL, which compiles code fast, ABCL, which runs on the JVM, JSCL which runs on Node, and the browser, etc.</p>\n"
+        "content": "<p>Common Lisp is a general-purpose programming language in the Lisp language family. Its syntax is defined on top of s-expressions, however it can be extended through the use of reader macros. It supports compile-time meta-programming through the use of macros. It supports the OOP paradigm through the Common Lisp Object System. The API upon which CLOS is implemented is exposed to the programmer so they can extent the object system. This API is referred as the Meta-Object Protocol. There are multiple implementations available: SBCL, which generates fast code, CCL, which compiles code fast, ABCL, which runs on the JVM, JSCL which runs on Node, and the browser, etc.</p>\n"
       },
     
       {
@@ -7975,7 +7975,7 @@
             "discordbots"
           
         ],
-        "content": "<p>A bot is an automated Discord account. It utilizes the Discord API. They have a “BOT” tag next to their username. They can be added through the API. Bots typically follow a command structure, where a user sends a prefixed message or a slash command, and the bot reponds, though bots can work in many different ways.</p>\n"
+        "content": "<p>A bot is an automated Discord account. It utilizes the Discord API. They have a “BOT” tag next to their username. They can be added through the API. Bots typically follow a command structure, where a user sends a prefixed message or a slash command, and the bot responds, though bots can work in many different ways.</p>\n"
       },
     
       {
@@ -8422,7 +8422,7 @@
         "aliases": [
           
         ],
-        "content": "<p>Elasticsearch is a distributed, open source search and analytics engine for all types of data, including textual, numerical, geospatial, structured, and unstructured. Elasticsearch is built on Apache Lucene and was first released in 2010 by Elasticsearch N.V. (now known as Elastic).</p>\n\n"
+        "content": "<p>Elasticsearch is a distributed, open source search and analytics engine for all types of data, including textual, numerical, geospatial, structured, and unstructured. Elasticsearch is built on Apache Lucene and was first released in 2010 by Elasticsearch N.V. (now known as Elastic).</p>\n"
       },
     
       {
@@ -8472,7 +8472,7 @@
             "11ty"
           
         ],
-        "content": "<p>Eleventy is a JavaScript-based alternative to Jekyll, built by <a href=\"https://twitter.com/zachleat\">@zachleat</a>. It can transform template files of various formats into HTML. Eleventy’s mascot is an opossum suspended by a red baloon.</p>\n"
+        "content": "<p>Eleventy is a JavaScript-based alternative to Jekyll, built by <a href=\"https://twitter.com/zachleat\">@zachleat</a>. It can transform template files of various formats into HTML. Eleventy’s mascot is an opossum suspended by a red balloon.</p>\n"
       },
     
       {
@@ -8823,7 +8823,7 @@
             "esolangs, esoteric-language, esoteric"
           
         ],
-        "content": "<p>An esoteric programming language, or “esolang”, is a computer programming language\nintended to entertain or confuse, to be a joke or to exlore new concepts.\nEsolangs may be minimalistic or, conversely, bloated.\nOften an esolang has features that made it harder to use on purpose.\nEsolangs are mostly not designed for serious use, unlike mainstream languages.</p>\n"
+        "content": "<p>An esoteric programming language, or “esolang”, is a computer programming language\nintended to entertain or confuse, to be a joke or to explore new concepts.\nEsolangs may be minimalistic or, conversely, bloated.\nOften an esolang has features that made it harder to use on purpose.\nEsolangs are mostly not designed for serious use, unlike mainstream languages.</p>\n"
       },
     
       {
@@ -9506,7 +9506,7 @@
             "f95, f77, fortran90, fortran77, fortran95, fortran2003, fortran2008, fortran2018"
           
         ],
-        "content": "<p>Fortran is a statically typed compiled programming language that is especially suited to numeric computation, and scientific computing.\nWhile Fortran has been in use since its inception by John Backus at IBM in 1957, it still remains popular today, especially for computationally intensive\napplications including numerical weather prediction, finite element analysis, computational fuild dynamics, computational physics, crystallography, and\ncomputational chemistry. Despite its age, new language revisions include syntax and semantics for modern language ideas including pointers, recursion,\nobject orientated programming features, and parallel programming using Coarray Fortran.</p>\n"
+        "content": "<p>Fortran is a statically typed compiled programming language that is especially suited to numeric computation, and scientific computing.\nWhile Fortran has been in use since its inception by John Backus at IBM in 1957, it still remains popular today, especially for computationally intensive\napplications including numerical weather prediction, finite element analysis, computational fluid dynamics, computational physics, crystallography, and\ncomputational chemistry. Despite its age, new language revisions include syntax and semantics for modern language ideas including pointers, recursion,\nobject orientated programming features, and parallel programming using Coarray Fortran.</p>\n"
       },
     
       {
@@ -13936,7 +13936,7 @@
         "aliases": [
           
         ],
-        "content": "<p>Nextcloud is a server-side PHP application along with an ecosystem of client and server apps allowing users to synchronize, and share and collaborate on files, and contacts, and calendars and other dataand can be installed on a private server. The code is free and open source, developed by the Nextcloud GmbH and the Nextcloud community.</p>\n"
+        "content": "<p>Nextcloud is a server-side PHP application along with an ecosystem of client and server apps allowing users to synchronize, and share and collaborate on files, and contacts, and calendars and other data and can be installed on a private server. The code is free and open source, developed by the Nextcloud GmbH and the Nextcloud community.</p>\n"
       },
     
       {
@@ -15124,7 +15124,7 @@
         "aliases": [
           
         ],
-        "content": "<p>The abbrevation PIM may refer to Personal Information Management OR Product Information Management (among others).</p>\n"
+        "content": "<p>The abbreviation PIM may refer to Personal Information Management OR Product Information Management (among others).</p>\n"
       },
     
       {
@@ -18478,7 +18478,7 @@
           "https://github.com/topics/supabase/supabase.png",
         
         "released": "February 2020",
-        "short_description": "Supabase is a Open-Souce Firebase Alternative.",
+        "short_description": "Supabase is a Open-Source Firebase Alternative.",
         "url": "/topics/supabase/index.html",
         "wikipedia_url": null,
         "related": [
@@ -18491,7 +18491,7 @@
             "supabase-js, supabasejs"
           
         ],
-        "content": "<p>Supabase is an Open-Souce Firebase Alternative.</p>\n\n<p>It’s been in development since April 2015 and is currently in production at <a href=\"https://supabase.com\">supabase.com</a>. It’s built on top of <a href=\"https://www.postgresql.org/\">PostgreSQL</a>, <a href=\"https://github.com/netlify/gotrue\">GoTrue</a>, <a href=\"https://github.com/Kong/kong\">Kong</a>, and <a href=\"https://postgrest.org/\">PostgREST</a>.</p>\n"
+        "content": "<p>Supabase is an Open-Source Firebase Alternative.</p>\n\n<p>It’s been in development since April 2015 and is currently in production at <a href=\"https://supabase.com\">supabase.com</a>. It’s built on top of <a href=\"https://www.postgresql.org/\">PostgreSQL</a>, <a href=\"https://github.com/netlify/gotrue\">GoTrue</a>, <a href=\"https://github.com/Kong/kong\">Kong</a>, and <a href=\"https://postgrest.org/\">PostgREST</a>.</p>\n"
       },
     
       {
