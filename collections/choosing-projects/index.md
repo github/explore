@@ -1,6 +1,6 @@
 ---
 items:
- - rust-lang/rust
+ - javascript
  - HospitalRun/hospitalrun-frontend
  - Homebrew/brew
  - https://www.youtube.com/embed/dSl_qnWO104
