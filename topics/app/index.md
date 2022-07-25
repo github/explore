@@ -1,6 +1,5 @@
 ---
 display_name: App
-logo: app.png
 short_description: The term "app" usually refers to applications for mobile devices such as phones.
 topic: app
 wikipedia_url: https://en.wikipedia.org/wiki/Application_software
