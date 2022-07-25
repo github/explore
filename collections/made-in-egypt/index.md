@@ -19,6 +19,7 @@ items:
   - harryadel/AI-ML-Driven-Companies-In-Egypt
   - abdumostafa/awesome-in-arabic
   - hci-lab/PyQuran
+  - MoatazBadawy/Sunset-hadith
   - DrWaleedAYousef/Teaching
 display_name: Made in Egypt
 created_by: AN4553R
