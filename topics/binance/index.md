@@ -1,7 +1,7 @@
 ---
 display_name: Binance
 logo: binance.png
-short_description: Binance is a cryptocurrency exchange which is the largest exchange in the world in terms of daily trading volume of cryptocurrencies.
+short_description: Is a cryptocurrency exchange which is the largest exchange in the world in terms of daily trading volume of cryptocurrencies.
 topic: binance
 related: binance-api
 wikipedia_url: https://en.wikipedia.org/wiki/Binance
