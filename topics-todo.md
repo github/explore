@@ -8,7 +8,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [angular-cli](https://github.com/topics/angular-cli/)
 - [x] [animation](https://github.com/topics/animation/)
 - [x] [ansible-role](https://github.com/topics/ansible-role/)
-- [ ] [app](https://github.com/topics/app/)
+- [x] [app](https://github.com/topics/app/)
 - [x] [argo-floats](https://github.com/topics/argo-floats/)
 - [x] [authentication](https://github.com/topics/authentication/)
 - [ ] [automation](https://github.com/topics/automation/)
