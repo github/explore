@@ -5730,6 +5730,29 @@
       },
     
       {
+        "topic_name": "binance",
+        "created_by": null,
+        "display_name": "Binance",
+        "github_url": null,
+        "logo": 
+          "https://github.com/topics/binance/binance.png",
+        
+        "released": null,
+        "short_description": "The largest cryptocurrency exchange in the world in terms of daily trading volume of cryptocurrencies.",
+        "url": "/topics/binance/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Binance",
+        "related": [
+          
+            "binance-api"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Binance is a cryptocurrency exchange which is the largest exchange in the world in terms of daily trading volume of cryptocurrencies. It was founded in 2017 and is registered in the Cayman Islands. Binance was founded by Changpeng Zhao (aka CZ), a developer who had previously created high frequency trading software. Binance was initially based in China, but later moved its headquarters out of China following the Chinese government’s increasing regulation of cryptocurrency.</p>\n"
+      },
+    
+      {
         "topic_name": "bioinformatics",
         "created_by": null,
         "display_name": "Bioinformatics",
