@@ -19,6 +19,7 @@ items:
   - felipeorlando/aprenda-rubyonrails
   - BrasilAPI/BrasilAPI
   - alt-art/commit
+  - luciano-work/we_slide
 display_name: Made in Brazil
 created_by: caarlos0
 image: made-in-brazil.png
