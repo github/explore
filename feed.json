@@ -18775,6 +18775,29 @@
       },
     
       {
+        "topic_name": "t3-stack",
+        "created_by": "T3 Open Source",
+        "display_name": "T3 Stack",
+        "github_url": "https://github.com/t3-oss",
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "The T3 Stack is a web development stack focused on simplicity, modularity, and full-stack typesafety.",
+        "url": "/topics/t3-stack/index.html",
+        "wikipedia_url": null,
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "t3"
+          
+        ],
+        "content": "<p>The T3 Stack is a web development stack made by <a href=\"https://twitter.com/t3dotgg\">Theo</a> focused on simplicity, modularity, and full-stack type safety. It consists of:</p>\n\n<ul>\n  <li><a href=\"https://nextjs.org\">Next.js</a></li>\n  <li><a href=\"https://trpc.io\">tRPC</a></li>\n  <li><a href=\"https://tailwindcss.com\">Tailwind CSS</a></li>\n  <li><a href=\"https://typescriptlang.org\">TypeScript</a></li>\n  <li><a href=\"https://prisma.io\">Prisma</a></li>\n  <li><a href=\"https://next-auth.js.org\">NextAuth.js</a></li>\n</ul>\n"
+      },
+    
+      {
         "topic_name": "tactical-role-playing",
         "created_by": null,
         "display_name": "tactical-role-playing",
