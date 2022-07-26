@@ -1,5 +1,5 @@
 ---
-aliases: t3, t3-stack
+aliases: t3
 created_by: T3 Open Source
 display_name: T3 Stack
 github_url: https://github.com/t3-oss
