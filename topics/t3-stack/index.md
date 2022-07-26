@@ -8,7 +8,7 @@ topic: t3-stack
 url: https://create.t3.gg
 ---
 
-The _"T3 Stack"_ is a web development stack made by [Theo](https://twitter.com/t3dotgg) focused on **simplicity**, **modularity**, and **full-stack typesafety**. It consists of:
+The T3 Stack is a web development stack made by [Theo](https://twitter.com/t3dotgg) focused on simplicity, modularity, and full-stack type safety. It consists of:
 
 - [Next.js](https://nextjs.org)
 - [tRPC](https://trpc.io)
