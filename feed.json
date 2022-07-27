@@ -14011,6 +14011,31 @@
       },
     
       {
+        "topic_name": "nexus-mods",
+        "created_by": "Black Tree Gaming Limited",
+        "display_name": "Nexus Mods",
+        "github_url": "https://github.com/Nexus-Mods",
+        "logo": 
+          "https://github.com/topics/nexus-mods/nexus-mods.png",
+        
+        "released": null,
+        "short_description": "Nexus Mods is a site which allows users to upload and download game mods.",
+        "url": "/topics/nexus-mods/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nexus_Mods",
+        "related": [
+          
+            "modding"
+          
+        ],
+        "aliases": [
+          
+            "nexusmods"
+          
+        ],
+        "content": "<p>Nexus Mods is a site which allows users to upload and download “mods” (modifications) for computer games. It acts as a source for the distribution of original content. It is one of the largest gaming modification websites on the web.</p>\n"
+      },
+    
+      {
         "topic_name": "nginx",
         "created_by": "Igor Sysoev",
         "display_name": "nginx",
