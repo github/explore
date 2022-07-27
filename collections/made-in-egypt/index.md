@@ -20,6 +20,7 @@ items:
   - abdumostafa/awesome-in-arabic
   - hci-lab/PyQuran
   - DrWaleedAYousef/Teaching
+  - MoatazBadawy/Sunset-hadith
 display_name: Made in Egypt
 created_by: AN4553R
 image: made-in-egypt.png
