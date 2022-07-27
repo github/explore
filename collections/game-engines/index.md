@@ -52,6 +52,7 @@ items:
  - ppy/osu-framework
  - gosu/gosu
  - cerberusxdev/cerberus
+ - ganelson/inform
 display_name: Game Engines
 created_by: leereilly
 ---
