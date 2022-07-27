@@ -763,7 +763,9 @@
           
             "gosu/gosu",
           
-            "cerberusxdev/cerberus"
+            "cerberusxdev/cerberus",
+          
+            "ganelson/inform"
           
         ],
         "created_by": "leereilly",
