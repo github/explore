@@ -1,5 +1,6 @@
 ---
 items:
+ - usablica/intro.js
  - jadijadi/bestoon
  - jadijadi/justforfun
  - mr-hashemi/mr-hashemi
@@ -13,6 +14,8 @@ items:
  - Hameds/APIs-made-in-Iran
  - Kiarash-Z/react-modern-calendar-datepicker
  - MahdiMajidzadeh/bootstrap-v4-rtl
+ - imaNNeoFighT/fl_chart
+ - persian-tools/persian-tools
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
