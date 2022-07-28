@@ -7,6 +7,15 @@ items:
  - sobhe/moratab
  - PyFarsi/pyabr
  - jamedadi/yummy
+ - sobhe/hazm
+ - rastikerdar/vazirmatn
+ - mohebifar/made-in-iran
+ - Hameds/APIs-made-in-Iran
+ - Kiarash-Z/react-modern-calendar-datepicker
+ - MahdiMajidzadeh/bootstrap-v4-rtl
+ - novaday-co/flutter_event_calendar
+ - novaday-co/inspection
+ - faridfr/react-personal-website
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
