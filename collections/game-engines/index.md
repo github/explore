@@ -53,6 +53,7 @@ items:
  - gosu/gosu
  - cerberusxdev/cerberus
  - ganelson/inform
+ - inanevin/LinaEngine
 display_name: Game Engines
 created_by: leereilly
 ---
