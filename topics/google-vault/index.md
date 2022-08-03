@@ -5,6 +5,7 @@ display_name: Google Vault
 github_url: https://github.com/googleworkspace
 logo: google-vault.png
 related: google-workspace, google-admin
+short_description: Data retention and eDiscovery for Google Workspace.
 topic: google-vault
 url: https://workspace.google.com/products/vault/
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Vault

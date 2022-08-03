@@ -5,6 +5,7 @@ display_name: Google Sheets
 github_url: https://github.com/googleworkspace
 logo: google-sheets.png
 related: google-workspace, google-docs, google-drive, google-forms, google-slides
+short_description: Create and edit online spreadsheets.
 topic: google-sheets
 url: https://workspace.google.com/products/sheets/
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Sheets

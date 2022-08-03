@@ -4,9 +4,10 @@ created_by: Google
 display_name: Google Workspace
 github_url: https://github.com/googleworkspace
 logo: google-workspace.png
-related: google-admin, google-classroom, google-workspace, gmail,
-  google-calendar, google-chat, google-meet, google-docs, google-drive,
-  google-sheets, google-forms, google-slides
+related: google-admin, google-classroom, gmail, google-calendar, google-chat,
+  google-meet, google-docs, google-drive, google-sheets, google-forms,
+  google-slides
+short_description: Secure collaboration and productivity apps for businesses of all sizes.
 topic: google-workspace
 url: https://workspace.google.com
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Workspace

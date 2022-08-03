@@ -5,6 +5,7 @@ display_name: Google Classroom
 github_url: https://github.com/googleworkspace
 logo: google-classroom.png
 related: google-workspace
+short_description: Google Classroom is mission control for your classes.
 topic: google-classroom
 url: https://developers.google.com/classroom
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Classroom

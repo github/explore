@@ -6,6 +6,7 @@ github_url: https://github.com/googleworkspace
 logo: gmail.png
 related: google-workspace, google-chat, google-meet
 released: April 1, 2004
+short_description: Gmail is an email service provided by Google.
 topic: gmail
 url: https://workspace.google.com/products/gmail/
 wikipedia_url: https://en.wikipedia.org/wiki/Gmail
