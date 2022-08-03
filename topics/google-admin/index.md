@@ -6,7 +6,7 @@ github_url: https://github.com/googleworkspace
 logo: google-admin.png
 related: google-workspace, google-cloud-identity, google-groups
 short_description: Allow administrator accounts to configure and manage all
-  aspects of Google Workspace for an organization
+  aspects of Google Workspace for an organization.
 topic: google-admin
 url: https://developers.google.com/admin-sdk
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Workspace
