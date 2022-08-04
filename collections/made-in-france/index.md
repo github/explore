@@ -14,7 +14,6 @@ items:
  - nuxt
  - api-platform/api-platform
  - lichess-org/lila
- - GitbookIO/gitbook
  - mui/material-ui
  - PrestaShop/PrestaShop
 display_name: Made in France
