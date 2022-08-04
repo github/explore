@@ -1,7 +1,8 @@
 ---
 aliases: mathematics
 display_name: Mathematics
-short_description: Mathematics is a subject that deals with numbers, shapes, logic, quantity and arrangements..
+logo: math.png
+short_description: Mathematics is a subject that deals with numbers, shapes, logic, quantity, and arrangements.
 topic: math
 wikipedia_url: https://en.wikipedia.org/wiki/Mathematics
 ---
