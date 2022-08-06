@@ -4,7 +4,7 @@ display_name: WebView
 logo: webview.png
 related: webkit, kde, chromium, apple, google, web, browser, html, css, js
 short_description: A browser engine contained within an application.
-released: April, 2013
+released: April 2013
 url: https://developer.android.com/guide/webapps/webview
 topic: webview
 wikipedia_url: https://en.wikipedia.org/wiki/WebView
