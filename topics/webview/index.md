@@ -1,8 +1,8 @@
 ---
-created_by: Android, Google
+created_by: WebKit
 display_name: WebView
 logo: webview.png
-related: webkit, chromium, apple, google, web, browser, html, css, js
+related: webkit, kde, chromium, apple, google, web, browser, html, css, js
 short_description: A browser engine contained within an application.
 released: April, 2013
 url: https://developer.android.com/guide/webapps/webview
