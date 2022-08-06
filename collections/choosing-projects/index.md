@@ -1,5 +1,7 @@
 ---
 items:
+ - C#
+ - C++
  - rust-lang/rust
  - HospitalRun/hospitalrun-frontend
  - Homebrew/brew
