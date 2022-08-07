@@ -1,5 +1,6 @@
 ---
 items:
+ - geziyor/geziyor
  - ShareX/ShareX
  - furkandeveloper/EasyProfiler
  - isidentical/refactor
