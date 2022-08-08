@@ -10304,7 +10304,7 @@
         "topic_name": "gmail",
         "created_by": "Paul Buchheit",
         "display_name": "Gmail",
-        "github_url": "https://github.com/google",
+        "github_url": "https://github.com/googleworkspace",
         "logo": 
           "https://github.com/topics/gmail/gmail.png",
         
@@ -10314,15 +10314,15 @@
         "wikipedia_url": "https://en.wikipedia.org/wiki/Gmail",
         "related": [
           
-            "gmail-api, google, email, smtp"
+            "google-workspace, google-chat, google-meet"
           
         ],
         "aliases": [
           
-            "gmail-inbox, gmail-login, gmail-smtp"
+            "google-mail, gmail-inbox, gmail-smtp, gmail-bot, gmail-api, gmail-login"
           
         ],
-        "content": "<p>Gmail is an email service provided by Google. With Gmail, you can send and receive emails, block spam, create an address book, and perform other basic email tasks. It also has a built-in-chat feature, with which you can send someone an instant message or use the voice and video chat feature if your computer has a microphone and/or webcam.</p>\n"
+        "content": "<p>Gmail is an email service provided by Google. With Gmail, you can send and receive emails, block spam, create an address book, and perform other basic email tasks. It also has a built-in-chat feature, with which you can send someone an instant message or use the voice and video chat feature if your computer has a microphone and/or webcam.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/gmail\">https://developers.google.com/gmail</a></li>\n  <li>Access the application at <a href=\"https://mail.google.com\">https://mail.google.com</a></li>\n</ul>\n"
       },
     
       {
@@ -10447,6 +10447,31 @@
       },
     
       {
+        "topic_name": "google-admin",
+        "created_by": "Google",
+        "display_name": "Google Admin",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-admin/google-admin.png",
+        
+        "released": null,
+        "short_description": "Allow administrator accounts to configure and manage all aspects of Google Workspace for an organization.",
+        "url": "/topics/google-admin/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Workspace",
+        "related": [
+          
+            "google-workspace, google-cloud-identity, google-groups"
+          
+        ],
+        "aliases": [
+          
+            "google-admin-sdk, google-admin-api"
+          
+        ],
+        "content": "<p>Allow administrator accounts to configure and manage all aspects of <a href=\"https://workspace.google.com\">Google Workspace</a> for an organization</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/admin-sdk\">https://developers.google.com/admin-sdk</a></li>\n  <li>Access the application at <a href=\"https://admin.google.com\">https://admin.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
         "topic_name": "google-apps-script",
         "created_by": "Google",
         "display_name": "Google Apps Script",
@@ -10460,13 +10485,115 @@
         "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Apps_Script",
         "related": [
           
-            "google, google-cloud"
+            "google-workspace, gmail, google-docs, google-drive, google-sheets, google-forms, google-slides"
           
         ],
         "aliases": [
           
+            "apps-script, google-script, google-apps-script-api"
+          
         ],
-        "content": "<p>Google Apps Script is a cloud-based JavaScript platform provided by Google that lets you integrate with and automate tasks across Google products. \nYou write code in modern JavaScript and have access to built-in libraries for favorite Google Workspace applications like Gmail, Calendar, Drive, and more.</p>\n"
+        "content": "<p>A cloud-based JavaScript platform that lets you integrate with and automate tasks across Google products. You write code in modern JavaScript and have access to built-in libraries for favorite Google Workspace applications like Gmail, Calendar, Drive, and more.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/apps-script\">https://developers.google.com/apps-script</a></li>\n  <li>Access the application at <a href=\"https://script.google.com\">https://script.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-calendar",
+        "created_by": "Google",
+        "display_name": "Google Calendar",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-calendar/google-calendar.png",
+        
+        "released": null,
+        "short_description": "Millions of people use Google Calendar to track their events.",
+        "url": "/topics/google-calendar/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Calendar",
+        "related": [
+          
+            "google-workspace, gmail, google-docs, google-drive, google-sheets, google-forms, google-slides"
+          
+        ],
+        "aliases": [
+          
+            "gcalendar, google-calendar-api"
+          
+        ],
+        "content": "<p>Millions of people use Google Calendar to track their events. The Calendar API lets you integrate your app with Google Calendar, creating new ways for you to engage your users.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/calendar\">https://developers.google.com/calendar</a></li>\n  <li>Access the application at <a href=\"https://calendar.google.com\">https://calendar.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-chat",
+        "created_by": "Google",
+        "display_name": "Google Chat",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-chat/google-chat.png",
+        
+        "released": null,
+        "short_description": "Build Chat apps that bring your services and resources right into Google Chat.",
+        "url": "/topics/google-chat/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Chat",
+        "related": [
+          
+            "google-workspace, gmail, google-meet"
+          
+        ],
+        "aliases": [
+          
+            "hangouts-chat, google-chat-api"
+          
+        ],
+        "content": "<p>Build Chat apps that bring your services and resources right into Google Chat, letting users get information and take action without leaving the conversation.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/chat\">https://developers.google.com/chat</a></li>\n  <li>Access the application at <a href=\"https://chat.google.com\">https://chat.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-classroom",
+        "created_by": "Google",
+        "display_name": "Google Classroom",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-classroom/google-classroom.png",
+        
+        "released": null,
+        "short_description": "Google Classroom is mission control for your classes.",
+        "url": "/topics/google-classroom/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Classroom",
+        "related": [
+          
+            "google-workspace"
+          
+        ],
+        "aliases": [
+          
+            "google-classroom-api"
+          
+        ],
+        "content": "<p>Google Classroom is mission control for your classes. As a free service for teachers and students, you can create classes, distribute assignments, send feedback, and see everything in one place.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/classroom\">https://developers.google.com/classroom</a></li>\n  <li>Access the application at <a href=\"https://classroom.google.com\">https://classroom.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-cloud-identity",
+        "created_by": "Google",
+        "display_name": "Google Cloud Identity",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-cloud-identity/google-cloud-identity.png",
+        
+        "released": null,
+        "short_description": "Cloud Identity API is an API for provisioning and managing identity resources.",
+        "url": "/topics/google-cloud-identity/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Workspace",
+        "related": [
+          
+            "google-workspace, google-admin, google-groups"
+          
+        ],
+        "aliases": [
+          
+            "google-cloud-identity-api"
+          
+        ],
+        "content": "<p>Cloud Identity API is an API for provisioning and managing identity resources.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://cloud.google.com/identity/docs\">https://cloud.google.com/identity/docs</a></li>\n  <li>Access the application at <a href=\"https://cloud.google.com/identity\">https://cloud.google.com/identity</a></li>\n</ul>\n"
       },
     
       {
@@ -10495,6 +10622,131 @@
       },
     
       {
+        "topic_name": "google-docs",
+        "created_by": "Google",
+        "display_name": "Google Docs",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-docs/google-docs.png",
+        
+        "released": null,
+        "short_description": "Create and collaborate on online documents in real-time and from any device.",
+        "url": "/topics/google-docs/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Docs",
+        "related": [
+          
+            "google-workspace, google-drive, google-sheets, google-forms, google-slides"
+          
+        ],
+        "aliases": [
+          
+            "gdocs, google-docs-api"
+          
+        ],
+        "content": "<p>Create and collaborate on online documents in real-time and from any device. Use the API to access and update Google Docs programmatically, just like any other user.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/docs\">https://developers.google.com/docs</a></li>\n  <li>Access the application at <a href=\"https://docs.google.com\">https://docs.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-drive",
+        "created_by": "Google",
+        "display_name": "Google Drive",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-drive/google-drive.png",
+        
+        "released": null,
+        "short_description": "Store, access, and share your files in one secure place.",
+        "url": "/topics/google-drive/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Drive",
+        "related": [
+          
+            "google-workspace, google-docs, google-sheets, google-forms, google-slides"
+          
+        ],
+        "aliases": [
+          
+            "gdrive, google-drive-api"
+          
+        ],
+        "content": "<p>Store any and every file. Access files anytime, anywhere from your desktop and mobile devices. Control how files are shared.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/drive\">https://developers.google.com/drive</a></li>\n  <li>Access the application at <a href=\"https://drive.google.com\">https://drive.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-forms",
+        "created_by": "Google",
+        "display_name": "Google Forms",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-forms/google-forms.png",
+        
+        "released": null,
+        "short_description": "Easy to create surveys and forms for everyone.",
+        "url": "/topics/google-forms/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Forms",
+        "related": [
+          
+            "google-workspace, google-docs, google-drive, google-sheets, google-slides"
+          
+        ],
+        "aliases": [
+          
+            "google-forms-api"
+          
+        ],
+        "content": "<p>Easily create and share online forms and surveys, and analyze responses in real-time. The Google Forms API lets you programmatically collect information, or quiz people and assign a grade based on their responses.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/forms\">https://developers.google.com/forms</a></li>\n  <li>Access the application at <a href=\"https://forms.google.com\">https://forms.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-groups",
+        "created_by": "Google",
+        "display_name": "Google Groups",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-groups/google-groups.png",
+        
+        "released": null,
+        "short_description": "Google Groups is a service from Google that provides discussion groups for people sharing common interests.",
+        "url": "/topics/google-groups/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Groups",
+        "related": [
+          
+            "google-workspace, google-admin, gmail, google-cloud-identity"
+          
+        ],
+        "aliases": [
+          
+            "google-groups-api"
+          
+        ],
+        "content": "<p>Google Groups is a service from Google that provides discussion groups for people sharing common interests. The Google Groups API lets you manage groups and their members.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://cloud.google.com/identity/docs/groups\">https://cloud.google.com/identity/docs/groups</a></li>\n  <li>Access the application at <a href=\"https://groups.google.com\">https://groups.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-keep",
+        "created_by": "Google",
+        "display_name": "Google Keep",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-keep/google-keep.png",
+        
+        "released": null,
+        "short_description": "Capture what’s important and get more done.",
+        "url": "/topics/google-keep/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Keep",
+        "related": [
+          
+            "google-workspace"
+          
+        ],
+        "aliases": [
+          
+            "google-keep-api"
+          
+        ],
+        "content": "<p>Capture notes, share them with others, and access them from your computer, phone or tablet. The Google Keep API is used in an enterprise environment to manage Google Keep content and to resolve issues identified by cloud security software.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/keep\">https://developers.google.com/keep</a></li>\n  <li>Access the application at <a href=\"https://keep.google.com\">https://keep.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
         "topic_name": "google-maps",
         "created_by": "Google",
         "display_name": "Google Maps",
@@ -10515,6 +10767,156 @@
           
         ],
         "content": "<p>Google Maps is a web mapping platform and consumer application offered by Google. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, air and public transportation.</p>\n"
+      },
+    
+      {
+        "topic_name": "google-meet",
+        "created_by": "Google",
+        "display_name": "Google Meet",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-meet/google-meet.png",
+        
+        "released": null,
+        "short_description": "Premium video meetings for everyone.",
+        "url": "/topics/google-meet/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Meet",
+        "related": [
+          
+            "google-workspace, google-chat, google-calendar"
+          
+        ],
+        "aliases": [
+          
+            "google-meet-api"
+          
+        ],
+        "content": "<p>Enterprise-grade video conferencing is available to everyone with Google Meet.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/meet\">https://developers.google.com/meet</a></li>\n  <li>Access the application at <a href=\"https://meet.google.com\">https://meet.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-sheets",
+        "created_by": "Google",
+        "display_name": "Google Sheets",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-sheets/google-sheets.png",
+        
+        "released": null,
+        "short_description": "Create and edit online spreadsheets.",
+        "url": "/topics/google-sheets/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Sheets",
+        "related": [
+          
+            "google-workspace, google-docs, google-drive, google-forms, google-slides"
+          
+        ],
+        "aliases": [
+          
+            "gsheets, google-sheets-api"
+          
+        ],
+        "content": "<p>Use Google Sheets to create and edit online spreadsheets. Get insights together with secure sharing in real-time and from any device. The Google Sheets API lets you read, write, and format Google Sheets data with your preferred programming language, including Java, JavaScript, and Python.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/sheets\">https://developers.google.com/sheets</a></li>\n  <li>Access the application at <a href=\"https://sheets.google.com\">https://sheets.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-slides",
+        "created_by": "Google",
+        "display_name": "Google Slides",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-slides/google-slides.png",
+        
+        "released": null,
+        "short_description": "Beautiful presentations created together.",
+        "url": "/topics/google-slides/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Slides",
+        "related": [
+          
+            "google-workspace, google-docs, google-drive, google-sheets, google-forms"
+          
+        ],
+        "aliases": [
+          
+            "google-slides-api"
+          
+        ],
+        "content": "<p>Use Google Slides to create online slideshows. Make beautiful presentations together with secure sharing in real-time and from any device. The Google Slides API lets you access and update presentations programmatically, integrating data from various sources and producing finished presentations in a fraction of the time.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/slides\">https://developers.google.com/slides</a></li>\n  <li>Access the application at <a href=\"https://slides.google.com\">https://slides.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-tasks",
+        "created_by": "Google",
+        "display_name": "Google Tasks",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-tasks/google-tasks.png",
+        
+        "released": null,
+        "short_description": "Keep track of your daily tasks, organize multiple lists, and track important deadlines.",
+        "url": "/topics/google-tasks/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Tasks",
+        "related": [
+          
+            "google-workspace, gmail, google-chat, google-docs, google-drive, google-sheets, google-forms, google-slides"
+          
+        ],
+        "aliases": [
+          
+            "google-tasks-api"
+          
+        ],
+        "content": "<p>Keep track of your daily tasks, organize multiple lists, and track important deadlines with Google Tasks. Tasks synchronizes across all your devices, so your lists and tasks go with you, wherever you are. The Google Tasks API lets you search, read, and update Google Tasks content and metadata.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/tasks\">https://developers.google.com/tasks</a></li>\n  <li>Access the application at <a href=\"https://mail.google.com\">https://mail.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-vault",
+        "created_by": "Google",
+        "display_name": "Google Vault",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-vault/google-vault.png",
+        
+        "released": null,
+        "short_description": "Data retention and eDiscovery for Google Workspace.",
+        "url": "/topics/google-vault/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Vault",
+        "related": [
+          
+            "google-workspace, google-admin"
+          
+        ],
+        "aliases": [
+          
+            "google-vault-api"
+          
+        ],
+        "content": "<p>Keep track of what matters. Retain, search, and export your organization’s data from select apps with Vault for Google Workspace Business and Enterprise editions.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/vault\">https://developers.google.com/vault</a></li>\n  <li>Access the application at <a href=\"https://vault.google.com\">https://vault.google.com</a></li>\n</ul>\n"
+      },
+    
+      {
+        "topic_name": "google-workspace",
+        "created_by": "Google",
+        "display_name": "Google Workspace",
+        "github_url": "https://github.com/googleworkspace",
+        "logo": 
+          "https://github.com/topics/google-workspace/google-workspace.png",
+        
+        "released": null,
+        "short_description": "Secure collaboration and productivity apps for businesses of all sizes.",
+        "url": "/topics/google-workspace/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Google_Workspace",
+        "related": [
+          
+            "gmail, google-calendar, google-chat, google-meet, google-docs, google-drive, google-sheets, google-forms, google-slides"
+          
+        ],
+        "aliases": [
+          
+            "gsuite, google-workspace-api"
+          
+        ],
+        "content": "<p>Secure collaboration and productivity apps for businesses of all sizes. Google Workspace offers a wide range of developer products and tools that let you connect your service with Google Workspace or extend Google Workspace apps like Gmail, Drive, and Chat.</p>\n\n<p>Other resources:</p>\n\n<ul>\n  <li>Read the API documentation at <a href=\"https://developers.google.com/workspace\">https://developers.google.com/workspace</a></li>\n  <li>Access the application at <a href=\"https://workspace.google.com/business/signup/welcome\">https://workspace.google.com/business/signup/welcome</a></li>\n</ul>\n"
       },
     
       {
