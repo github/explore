@@ -20,6 +20,7 @@ items:
  - pankod/refine
  - pankod/superplate
  - Huseyinnurbaki/mocktail
+ - geziyor/geziyor
 display_name: Made in Turkey
 created_by: kiliczsh
 image: made-in-turkey.png
