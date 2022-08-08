@@ -10,7 +10,7 @@ items:
  - zhiwehu/Python-programming-exercises
  - MunGell/awesome-for-beginners
  - appacademy/welcome-to-open
- - webgems/webgems
+ - lostdesign/webgems
  - kamranahmedse/developer-roadmap
  - AMAI-GmbH/AI-Expert-Roadmap
  - trekhleb/javascript-algorithms
