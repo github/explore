@@ -21028,6 +21028,29 @@
       },
     
       {
+        "topic_name": "webkit",
+        "created_by": "Apple, KDE and others",
+        "display_name": "WebKit",
+        "github_url": "https://github.com/WebKit/WebKit",
+        "logo": 
+          "https://github.com/topics/webkit/webkit.png",
+        
+        "released": "June 7, 2005",
+        "short_description": "WebKit is a layout engine designed to allow web browsers to render web pages.",
+        "url": "/topics/webkit/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/WebKit",
+        "related": [
+          
+            "chromium, apple, google, web, browser"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>WebKit is a browser engine developed by Apple and primarily used in its Safari web browser, as well as all iOS web browsers. WebKit’s HTML and JavaScript engine started as a fork of the KHTML and KJS libraries from KDE, and has since been further developed by KDE contributors, Apple, Google, Nokia, Bitstream, BlackBerry, Sony, Igalia, and others.</p>\n"
+      },
+    
+      {
         "topic_name": "webpack",
         "created_by": "Tobias Koppers, Sean Larkin, Johannes Ewald, Juho Vepsäläinen, Kees Kluskens",
         "display_name": "Webpack",
@@ -21069,6 +21092,29 @@
           
         ],
         "content": "<p>A website is a collection of web pages and related content that is identified by a common domain name and published on at least one web server.</p>\n"
+      },
+    
+      {
+        "topic_name": "webview",
+        "created_by": "WebKit",
+        "display_name": "WebView",
+        "github_url": null,
+        "logo": 
+          "https://github.com/topics/webview/webview.png",
+        
+        "released": "April 2013",
+        "short_description": "A browser engine contained within an application.",
+        "url": "/topics/webview/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/WebView",
+        "related": [
+          
+            "webkit, kde, chromium, apple, google, web, browser, html, css, js"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>The “WebView” is the window through which your device displays these web pages. The WebView allows the programmer to write the bulk of the application using HTML, JavaScript and CSS, the standard Web programming tools.</p>\n"
       },
     
       {
