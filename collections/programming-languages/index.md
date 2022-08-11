@@ -64,6 +64,7 @@ items:
 - gleam-lang/gleam
 - Gwion/Gwion
 - vlang/v
+- carbon-language/carbon-lang
 display_name: Programming languages
 created_by: leereilly
 ---
