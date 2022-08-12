@@ -10,6 +10,7 @@ items:
 - JuliaLang/julia
 - ruby/ruby
 - jashkenas/coffeescript
+- imba/imba
 - elixir-lang/elixir
 - crystal-lang/crystal
 - PowerShell/PowerShell
