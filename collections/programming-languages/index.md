@@ -65,6 +65,7 @@ items:
 - Gwion/Gwion
 - vlang/v
 - carbon-language/carbon-lang
+- imba/imba
 display_name: Programming languages
 created_by: leereilly
 ---
