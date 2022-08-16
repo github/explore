@@ -21496,6 +21496,52 @@
       },
     
       {
+        "topic_name": "xonsh",
+        "created_by": "Anthony Scopatz and the team",
+        "display_name": "Xonsh",
+        "github_url": "https://github.com/xonsh/xonsh",
+        "logo": 
+          "https://github.com/topics/xonsh/xonsh.png",
+        
+        "released": "January 1, 2016",
+        "short_description": "Python-powered, cross-platform, Unix-gazing shell.",
+        "url": "/topics/xonsh/index.html",
+        "wikipedia_url": null,
+        "related": [
+          
+            "xontrib, xonsh-dev"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Xonsh is a Python-powered, cross-platform, Unix-gazing shell language and command prompt. The language is a superset of Python 3.6+ with additional shell primitives that you are used to from Bash and IPython. It works on all major systems including Linux, OSX, and Windows. Xonsh is meant for the daily use of experts and novices.</p>\n"
+      },
+    
+      {
+        "topic_name": "xontrib",
+        "created_by": null,
+        "display_name": "Xontrib",
+        "github_url": null,
+        "logo": 
+          "https://github.com/topics/xontrib/xontrib.png",
+        
+        "released": null,
+        "short_description": "Xontribs are a set of tools and conventions for extending the functionality of xonsh shell.",
+        "url": "/topics/xontrib/index.html",
+        "wikipedia_url": null,
+        "related": [
+          
+            "xonsh, xonsh-dev"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Xontributions, or xontribs, are a set of tools and conventions for extending the functionality of xonsh beyond what is provided by default. This allows 3rd party developers and users to improve their xonsh experience without having to go through the xonsh development and release cycle.</p>\n"
+      },
+    
+      {
         "topic_name": "yaml",
         "created_by": null,
         "display_name": "YAML",
