@@ -1,10 +1,10 @@
 ---
 created_by: Microsoft
 display_name: Azure Developer CLI templates
-github_url: https://github.com/Azure/azure-dev-cli
+github_url: https://github.com/Azure/azure-dev
 logo: azd-templates.png
 released: July 12, 2022
-short_description: The Azure Developer CLI templates are idiomatic application templates that accelerate the time it takes to get started on Azure.
+short_description: The Azure Developer CLI (azd) templates are idiomatic application templates that leverage azd to accelerate the time it takes to get started on Azure.
 topic: azd-templates
 url: https://docs.microsoft.com/en-us/azure/developer/azure-developer-cli/overview
 ---
