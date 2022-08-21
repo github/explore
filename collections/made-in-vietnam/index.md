@@ -27,7 +27,7 @@ items:
  - hoanhan101/ultimate-go
  - ProxymanApp/Proxyman
  - bangoc123/learn-machine-learning-in-two-months
- - 1milligram/csslayout
+ - phuocng/csslayout
  - nguyenquangminh0711/ruby_jard
  - phuocng/1loc
  - BambooEngine/ibus-bamboo
