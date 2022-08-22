@@ -8,5 +8,4 @@ short_description: The Azure Developer CLI templates are idiomatic application t
 topic: azd-templates
 url: https://docs.microsoft.com/en-us/azure/developer/azure-developer-cli/overview
 ---
-
 Azure Developer CLI (azd) templates are idiomatic application templates created using the `azd` conventions so that you can use `azd` to get started on Azure. Each template includes application code, infrastructure as code files needed to provision the Azure resources, and configuration file to set up your continuous integration and delivery (CI/CD) pipeline. 
