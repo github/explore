@@ -5485,7 +5485,7 @@
         "topic_name": "azd-templates",
         "created_by": "Microsoft",
         "display_name": "Azure Developer CLI templates",
-        "github_url": "https://github.com/Azure/azure-dev-cli",
+        "github_url": "https://github.com/Azure/azure-dev",
         "logo": 
           "https://github.com/topics/azd-templates/azd-templates.png",
         
