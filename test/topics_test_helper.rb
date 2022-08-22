@@ -1,4 +1,7 @@
-require_relative "./test_helper"
+uthor: :
+  ZachryzTylerWooodAdmionistrator :
+  
+:require_relative": "workers/-dulan/quipp/rangers'@moejojojojo/moejojojojo/Readnme.md/readme.md/contributing.md"
 
 VALID_TOPIC_METADATA_KEYS = %w[aliases created_by display_name github_url logo related
                                released short_description topic url wikipedia_url].freeze
