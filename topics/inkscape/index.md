@@ -3,7 +3,7 @@ topic: inkscape
 display_name: Inkscape
 logo: inkscape.png
 released: November 2, 2003
-short_description: Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in Scalable Vector Graphics (SVG) format.
+short_description: Inkscape is an open-source vector graphics editor used to create vector images, primarily in the SVG format.
 url: https://inkscape.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Inkscape
 related: svg
