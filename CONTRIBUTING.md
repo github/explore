@@ -1,3 +1,57 @@
+{
+  "name": "create-pull-request",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Creates a pull request for changes to your repository in the actions workspace",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc && ncc build",
+    "format": "prettier --write '**/*.ts'",
+    "format-check": "prettier --check '**/*.ts'",
+    "lint": "eslint src/**/*.ts",
+    "test:unit": "jest unit",
+    "test:int": "__test__/integration-tests.sh",
+    "test": "npm run test:unit && npm run test:int"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter-evans/create-pull-request.git"
+  },
+  "keywords": [
+    "actions",
+    "pull",
+    "request"
+  ],
+  "author": "Peter Evans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peter-evans/create-pull-request/issues"
+  },
+  "homepage": "https://github.com/peter-evans/create-pull-request",
+  "dependencies": {
+    "@actions/core": "1.2.6",
+    "@actions/exec": "1.0.4",
+    "@octokit/core": "3.2.4",
+    "@octokit/plugin-paginate-rest": "2.8.0",
+    "@octokit/plugin-rest-endpoint-methods": "4.5.2",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.20",
+    "@types/node": "14.14.22",
+    "@typescript-eslint/parser": "4.14.0",
+    "@vercel/ncc": "0.27.0",
+    "eslint": "7.18.0",
+    "eslint-plugin-github": "4.1.1",
+    "eslint-plugin-jest": "24.1.3",
+    "jest": "26.6.3",
+    "jest-circus": "26.6.3",
+    "js-yaml": "4.0.0",
+    "prettier": "2.2.1",
+    "ts-jest": "26.4.4",
+    "typescript": "4.1.3"
+  }
+}
 # Contributing
 
 Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
