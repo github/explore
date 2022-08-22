@@ -1,4 +1,4 @@
-# BdBVclub Explore
+# BdB-AVATARS Explore
 
 This repository houses all of the community-curated content for BdB Topics and Collections.
 
