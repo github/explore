@@ -23,6 +23,7 @@ items:
  - Cloud9c/taro
  - replit/kaboom
  - straker/kontra
+ - playcanvas/engine
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---
