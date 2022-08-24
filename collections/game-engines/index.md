@@ -53,6 +53,7 @@ items:
  - gosu/gosu
  - cerberusxdev/cerberus
  - ganelson/inform
+ - hexops/mach
 display_name: Game Engines
 created_by: leereilly
 ---
