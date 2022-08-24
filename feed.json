@@ -1103,7 +1103,9 @@
           
             "replit/kaboom",
           
-            "straker/kontra"
+            "straker/kontra",
+          
+            "playcanvas/engine"
           
         ],
         "created_by": "leereilly",
