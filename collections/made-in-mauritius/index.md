@@ -11,7 +11,7 @@ items:
   - LaraChimp/pine-annotations
   - percymamedy/crafter
   - jcplaboratory/rashell
-  - Abdur-rahmaanJ/greenBerry
+  - Abdur-rahmaanJ/greenberry
   - Abdur-rahmaanJ/honeybot
   - Abdur-rahmaanJ/meteomoris
   - vue-gapi/vue-gapi
