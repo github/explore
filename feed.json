@@ -17329,6 +17329,27 @@
       },
     
       {
+        "topic_name": "rocketseat",
+        "created_by": "Cleiton Souza, Diego Fernandes and Robson Marques",
+        "display_name": "Rocketseat",
+        "github_url": "https://github.com/rocketseat",
+        "logo": 
+          null,
+        
+        "released": 2017,
+        "short_description": "Rocketseat is a Brazilian coding platform that professionalizes people in programming.",
+        "url": "/topics/rocketseat/index.html",
+        "wikipedia_url": null,
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Rocketseat is a coding platform founded in Brazil in 2017. It focuses on professionalizes people independently from their knowledge on programming world. It’s famous by the vast amount and quality of it programs, bootcamps and events.</p>\n"
+      },
+    
+      {
         "topic_name": "rockset",
         "created_by": "Rockset Inc.",
         "display_name": "Rockset",
