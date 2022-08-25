@@ -19,7 +19,7 @@
           
             "apache/incubator-mxnet",
           
-            "eclipse/deeplearning4j",
+            "deeplearning4j/deeplearning4j",
           
             "sdhnshu/Pytorch-Model-Zoo",
           
