@@ -4,7 +4,6 @@ display_name: Rocketseat
 short_description: Rocketseat is a Brazilian coding platform that professionalizes people in programming.
 released: 2017
 topic: rocketseat
-logo: rocketseat.png
 github_url: https://github.com/rocketseat
 url: https://www.rocketseat.com.br
 ---
