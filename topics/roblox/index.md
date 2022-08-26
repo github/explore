@@ -9,4 +9,4 @@ topic: roblox
 url: https://roblox.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Roblox
 ---
-Roblox is a platform that makes it easier for people to find free games that are fun and easy to play. Creating and publishing games can be completely free with the tools Roblox provides within Roblox Studio such as gamepasses, data storage, game hosting.
+Roblox is a platform that makes it easier for people to find free games that are fun and easy to play. Creating and publishing games can be completely free with the tools Roblox provides within Roblox Studio such as microtransactions, data storage, game hosting.
