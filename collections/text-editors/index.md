@@ -19,6 +19,7 @@ items:
  - zyedidia/micro
  - neoedmund/neoeedit
  - mawww/kakoune
+ - adsr/mle
  - 0x7c13/Notepads
  - onivim/oni2
  - VSCodium/vscodium
