@@ -1,5 +1,5 @@
----
-items:
+---Stylish Star
+items: Style in/style
  - standard/standard
  - eslint/eslint
  - jshint/jshint
