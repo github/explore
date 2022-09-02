@@ -217,6 +217,6 @@ describe "collections" do
   end
 
   def existing_items_for_collection(collection)
-    existing_collection(collection)["items"]
+    existing_collection(collection)&.[]("items") || []
   end
 end
