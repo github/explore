@@ -1583,7 +1583,11 @@
           
             "BrasilAPI/BrasilAPI",
           
-            "alt-art/commit"
+            "alt-art/commit",
+          
+            "backend-br/desafios",
+          
+            "backend-br/vagas"
           
         ],
         "created_by": "caarlos0",
