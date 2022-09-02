@@ -8295,6 +8295,29 @@
       },
     
       {
+        "topic_name": "dotfiles",
+        "created_by": null,
+        "display_name": "dotfiles",
+        "github_url": "https://github.com/dotfiles",
+        "logo": 
+          "https://github.com/topics/dotfiles/dotfiles.png",
+        
+        "released": null,
+        "short_description": "Dotfiles are user-specific application configuration files.",
+        "url": "/topics/dotfiles/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory#Unix_and_Unix-like_environments",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "dot-files"
+          
+        ],
+        "content": "<p>Legend goes, that dotfiles were invented when <code class=\"language-plaintext highlighter-rouge\">ls</code> used to skip files and directories starting with a <code class=\"language-plaintext highlighter-rouge\">.</code> (dot). As a result, files that begin with such a character were not shown when listing using <code class=\"language-plaintext highlighter-rouge\">ls</code> — i.e. it was a “hidden” file. Since dotfiles are ususually user-specific, a predestined place for them is the <code class=\"language-plaintext highlighter-rouge\">$HOME</code> directory.</p>\n\n<p>Commonly used files are for example: <code class=\"language-plaintext highlighter-rouge\">.bashrc</code>, <code class=\"language-plaintext highlighter-rouge\">.zshrc</code> or <code class=\"language-plaintext highlighter-rouge\">.vimrc</code>.</p>\n"
+      },
+    
+      {
         "topic_name": "dotnet",
         "created_by": "Microsoft",
         "display_name": ".NET",
