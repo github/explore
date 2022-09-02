@@ -571,6 +571,30 @@
     {
         "items": [
           
+            "alisaifee/coredis",
+          
+            "ziishaned/dumper.js",
+          
+            "wajahatkarim3/EasyFlipView",
+          
+            "alisaifee/flask-limiter",
+          
+            "ziishaned/learn-regex",
+          
+            "sarfraznawaz2005/whatspup"
+          
+        ],
+        "created_by": "alisaifee",
+        "name": "dil-dil-pakistan",
+        "display_name": "Dil Dil Pakistan",
+        "image": 
+          "https://github.com/explore_collections/dil-dil-pakistan/dil-dil-pakistan.png",
+        
+        "content": "<p>Open source projects built in Pakistan or by individuals or groups with :pakistan: in their :heart:.</p>\n\n"
+      },
+    {
+        "items": [
+          
             "PixelVision8/PixelVision8",
           
             "https://www.youtube.com/watch?v=UKVNmHCxwk4",
