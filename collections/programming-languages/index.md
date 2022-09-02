@@ -66,6 +66,7 @@ items:
 - vlang/v
 - carbon-language/carbon-lang
 - imba/imba
+- Jackojc/cane
 display_name: Programming languages
 created_by: leereilly
 ---
