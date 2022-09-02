@@ -63,10 +63,10 @@ items:
 - QB64Team/qb64
 - gleam-lang/gleam
 - Gwion/Gwion
-- Jackojc/cane
 - vlang/v
 - carbon-language/carbon-lang
 - imba/imba
+- Jackojc/cane
 display_name: Programming languages
 created_by: leereilly
 ---
