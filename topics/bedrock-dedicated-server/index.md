@@ -9,6 +9,5 @@ released: 2018
 short_description: BDS is a server hosting tool similar to the Java Edition server.
 topic: bedrock-dedicated-server
 url: https://www.minecraft.net/download/server/bedrock
-wikipedia_url: https://minecraft.fandom.com/wiki/Bedrock_Dedicated_Server
 ---
 Bedrock Dedicated Servers allow Minecraft players on Windows and Linux computers to set up their own server at home, or host their server using a cloud-based service.
