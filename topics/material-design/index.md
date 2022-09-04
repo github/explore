@@ -6,7 +6,6 @@ short_description: Material Design is a unified system of theory and tools for c
   digital experiences developed by Google.
 topic: material-design
 created_by: Google
-related: material
 url: https://material.io/
 wikipedia_url: https://en.wikipedia.org/wiki/Material_Design
 ---
