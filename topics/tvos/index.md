@@ -2,6 +2,7 @@
 display_name: tvOS
 short_description: tvOS is the operating system used in the Apple TV line of products since the fourth generation model.
 created_by: Apple
+logo: tvos.png
 released: October 29, 2015
 url: https://developer.apple.com/tvos/
 topic: tvos
