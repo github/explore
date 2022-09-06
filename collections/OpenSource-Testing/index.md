@@ -11,7 +11,7 @@ items:
  - laurentj/slimerjs
  - sdesalas/trifleJS
  - karma-runner/karma
- - eWert-Online/osnap
+ - eWert-Online/OSnap
  - katalon-studio
  - qawolf/qawolf
  - basset/basset
