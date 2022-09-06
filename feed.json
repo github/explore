@@ -9574,6 +9574,29 @@
       },
     
       {
+        "topic_name": "fluent-design",
+        "created_by": "Microsoft",
+        "display_name": "Fluent Design System",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "Fluent Design is a design language developed by Microsoft.",
+        "url": "/topics/fluent-design/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fluent_Design_System",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "fluent"
+          
+        ],
+        "content": "<p>Fluent Design is a design language developed in 2017 by Microsoft and was first used in the Windows 10 Fall Creators Update.</p>\n"
+      },
+    
+      {
         "topic_name": "flutter",
         "created_by": null,
         "display_name": "Flutter",
@@ -13266,27 +13289,25 @@
     
       {
         "topic_name": "material-design",
-        "created_by": null,
-        "display_name": "Material design",
+        "created_by": "Google",
+        "display_name": "Material Design",
         "github_url": null,
         "logo": 
           "https://github.com/topics/material-design/material-design.png",
         
         "released": null,
-        "short_description": "Material design is a unified system of theory and tools for creating digital experiences developed by Google.",
+        "short_description": "Material Design is a unified system of theory and tools for creating digital experiences developed by Google.",
         "url": "/topics/material-design/index.html",
         "wikipedia_url": "https://en.wikipedia.org/wiki/Material_Design",
         "related": [
           
-            "material"
-          
         ],
         "aliases": [
           
-            "material-design-principles"
+            "material-design-principles, material, materialdesign, material3"
           
         ],
-        "content": "<p>Material design is a design language developed by Google. It makes use of grid-based layouts, responsive animation, and transitioning.</p>\n"
+        "content": "<p>Material Design is a design language developed by Google. It makes use of grid-based layouts, responsive animation, and transitioning.</p>\n"
       },
     
       {
@@ -20047,6 +20068,27 @@
       },
     
       {
+        "topic_name": "tvos",
+        "created_by": "Apple",
+        "display_name": "tvOS",
+        "github_url": null,
+        "logo": 
+          "https://github.com/topics/tvos/tvos.png",
+        
+        "released": "October 29, 2015",
+        "short_description": "tvOS is the operating system used in the Apple TV line of products since the fourth generation model.",
+        "url": "/topics/tvos/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/TvOS",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>tvOS is an operating system developed by Apple for use in the Apple TV line of products since the fourth generation model. Before tvOS, Apple used a variant of Mac OS X Tiger for the first generation model and a variant of iOS for the 2nd and 3rd gen models.</p>\n"
+      },
+    
+      {
         "topic_name": "twitch",
         "created_by": null,
         "display_name": "Twitch",
@@ -20970,6 +21012,27 @@
       },
     
       {
+        "topic_name": "watchos",
+        "created_by": "Apple",
+        "display_name": "watchOS",
+        "github_url": null,
+        "logo": 
+          "https://github.com/topics/watchos/watchos.png",
+        
+        "released": "April 24, 2015",
+        "short_description": "watchOS is the operating system for the Apple Watch line of products.",
+        "url": "/topics/watchos/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/WatchOS",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>watchOS is an operating system developed by Apple for use in the Apple Watch line of products. It is based on iOS.</p>\n"
+      },
+    
+      {
         "topic_name": "web-assembly",
         "created_by": null,
         "display_name": "WebAssembly",
@@ -21278,11 +21341,11 @@
     
       {
         "topic_name": "windows-subsystem-for-android",
-        "created_by": null,
+        "created_by": "Microsoft",
         "display_name": "Windows Subsystem for Android (WSA)",
         "github_url": null,
         "logo": 
-          null,
+          "https://github.com/topics/windows-subsystem-for-android/windows-subsystem-for-android.png",
         
         "released": null,
         "short_description": "A subsystem for Windows 11 that allows users to run Android apps on Windows 11 computers.",
@@ -21292,6 +21355,8 @@
           
         ],
         "aliases": [
+          
+            "wsa"
           
         ],
         "content": "<p>A subsystem for Windows 11 that allows users to run Android apps on Windows 11 computers. Originally known as Project Astoria.</p>\n"
@@ -21314,7 +21379,7 @@
         ],
         "aliases": [
           
-            "windows-10, windows10, windows-7, windows-8"
+            "windows-10, windows10, windows-7, windows-8, windows-11, windows11"
           
         ],
         "content": "<p>Windows is Microsoft’s GUI-based operating system. It is known for its graphical display and is designed to be user-friendly.</p>\n"
@@ -21343,6 +21408,29 @@
           
         ],
         "content": "<p>Windows Forms (WinForms) is a UI framework for building Windows desktop applications. It is a .NET wrapper over Windows user interface libraries, such as User32 and GDI+.</p>\n"
+      },
+    
+      {
+        "topic_name": "winui",
+        "created_by": "Microsoft",
+        "display_name": "Windows UI Library (WinUI)",
+        "github_url": "https://github.com/microsoft/microsoft-ui-xaml",
+        "logo": 
+          "https://github.com/topics/winui/winui.png",
+        
+        "released": null,
+        "short_description": "WinUI is a UX framework developed by Microsoft.",
+        "url": "/topics/winui/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Windows_UI_Library",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "winui2, winui3"
+          
+        ],
+        "content": "<p>The Windows UI Library (WinUI) is a native user experience (UX) framework developed by Microsoft for both Windows desktop and UWP applications.</p>\n"
       },
     
       {
