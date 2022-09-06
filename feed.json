@@ -5775,6 +5775,31 @@
       },
     
       {
+        "topic_name": "bedrock-dedicated-server",
+        "created_by": "Mojang",
+        "display_name": "Bedrock Dedicated Server",
+        "github_url": "https://github.com/Mojang",
+        "logo": 
+          "https://github.com/topics/bedrock-dedicated-server/bedrock-dedicated-server.png",
+        
+        "released": 2018,
+        "short_description": "BDS is a server hosting tool similar to the Java Edition server.",
+        "url": "/topics/bedrock-dedicated-server/index.html",
+        "wikipedia_url": null,
+        "related": [
+          
+            "minecraft, mc, minecraft-bedrock-edition, mcbe, minecraft-server, mcbe-server"
+          
+        ],
+        "aliases": [
+          
+            "bds"
+          
+        ],
+        "content": "<p>Bedrock Dedicated Servers allow Minecraft players on Windows and Linux computers to set up their own server at home, or host their server using a cloud-based service.</p>\n"
+      },
+    
+      {
         "topic_name": "bevy",
         "created_by": "Carter Anderson",
         "display_name": "Bevy",
