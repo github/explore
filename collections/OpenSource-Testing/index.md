@@ -15,7 +15,7 @@ items:
  - katalon-studio
  - qawolf/qawolf
  - basset/basset
- - newsuk/ayespy
+ - newsuk/AyeSpy
  - RobotiumTech/robotium
  - bbc/wraith
  - watir/watir
