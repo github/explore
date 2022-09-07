@@ -21,6 +21,7 @@ items:
  - watir/watir
  - sikuli/sikuli
  - garris/BackstopJS
+ - keploy/keploy
  - karatelabs/karate
  - SmartBear/soapui
  - teamcapybara/capybara
