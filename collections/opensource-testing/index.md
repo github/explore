@@ -20,8 +20,8 @@ items:
  - bbc/wraith
  - watir/watir
  - sikuli/sikuli
- -  garris/BackstopJS
- -  karatelabs/karate
+ - garris/BackstopJS
+ - karatelabs/karate
  - SmartBear/soapui
  - teamcapybara/capybara
  - prove/tarantula
