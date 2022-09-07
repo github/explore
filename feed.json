@@ -81,9 +81,9 @@
           
             "public-apis/public-apis",
           
-            "C#",
+            "dotnet/csharplang",
           
-            "C++"
+            "cplusplus"
           
         ],
         "created_by": "kytrinyx",
