@@ -11617,7 +11617,7 @@
           "https://explore-feed.github.com/topics/hacktoberfest/hacktoberfest.png",
         
         "released": "October 2014",
-        "short_description": "Hacktoberfest is a month-long celebration of open source software.",
+        "short_description": "Hacktoberfest is a a month-long celebration of open source projects, their maintainers, and the entire community of contributors.",
         "url": "https://github.com/topics/hacktoberfest",
         "wikipedia_url": null,
         "related": [
@@ -11626,7 +11626,7 @@
         "aliases": [
           
         ],
-        "content": "<p>Hacktoberfest is a month-long celebration of open source software. Each October, open source maintainers give new contributors extra attention as they guide developers through their first pull requests on GitHub.</p>\n"
+        "content": "<p>Hacktoberfest is a a month-long celebration of open source projects, their maintainers, and the entire community of contributors. Each October, open source maintainers give new contributors extra attention as they guide developers through their first pull requests on GitHub.</p>\n"
       },
     
       {
