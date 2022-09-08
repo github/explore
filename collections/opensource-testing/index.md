@@ -21,7 +21,6 @@ items:
  - watir/watir
  - sikuli/sikuli
  - garris/BackstopJS
- - keploy/keploy
  - karatelabs/karate
  - SmartBear/soapui
  - teamcapybara/capybara
@@ -61,6 +60,7 @@ items:
  - selenide/selenide
  - trytouca/trytouca
  - HuddleEng/PhantomCSS
+ - keploy/keploy
 display_name: OpenSource Testing Frameworks & Tools
 created_by: msupernaut
 ---
