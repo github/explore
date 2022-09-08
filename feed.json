@@ -12420,6 +12420,27 @@
       },
     
       {
+        "topic_name": "jetbrains-mps",
+        "created_by": "JetBrains",
+        "display_name": "JetBrains MPS",
+        "github_url": "https://github.com/JetBrains/MPS",
+        "logo": 
+          "https://github.com/topics/jetbrains-mps/jetbrains-mps.png",
+        
+        "released": "May 29, 2009",
+        "short_description": "JetBrains MPS is a language workbench developed by JetBrains.",
+        "url": "/topics/jetbrains-mps/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/JetBrains_MPS",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>JetBrains MPS (Meta Programming System) is a language workbench developed by JetBrains. MPS is a tool to design domain-specific languages (DSL).\nIt uses projectional editing which allows users to overcome the limits of language parsers, and build DSL editors, such as ones with tables and diagrams.\nIt implements language-oriented programming. MPS is an environment for language definition, a language workbench, and integrated development environment (IDE) for such languages.</p>\n"
+      },
+    
+      {
         "topic_name": "jetpack-compose",
         "created_by": "Android",
         "display_name": "Jetpack Compose",
