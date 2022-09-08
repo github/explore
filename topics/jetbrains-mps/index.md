@@ -6,7 +6,6 @@ github_url: https://github.com/JetBrains/MPS
 logo: jetbrains-mps.png
 released: May 29, 2009
 short_description: JetBrains MPS is a language workbench developed by JetBrains.
-interfaces.
 topic: jetbrains-mps
 url: https://www.jetbrains.com/mps/
 wikipedia_url: https://en.wikipedia.org/wiki/JetBrains_MPS
