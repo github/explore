@@ -1,5 +1,4 @@
 ---
-aliases: jetbrains_mps
 created_by: JetBrains
 display_name: JetBrains MPS
 github_url: https://github.com/JetBrains/MPS
