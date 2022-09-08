@@ -60,6 +60,7 @@ items:
  - selenide/selenide
  - trytouca/trytouca
  - HuddleEng/PhantomCSS
+ - keploy/keploy
 display_name: OpenSource Testing Frameworks & Tools
 created_by: msupernaut
 ---
