@@ -10256,6 +10256,27 @@
       },
     
       {
+        "topic_name": "genshin-impact",
+        "created_by": null,
+        "display_name": "Genshin Impact",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "Genshin Impact is a role-playing game developed by miHoYo.",
+        "url": "/topics/genshin-impact/index.html",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Genshin_Impact",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Genshin Impact is a cross-platform role-playing game developed by miHoYo.</p>\n"
+      },
+    
+      {
         "topic_name": "geometry-dash",
         "created_by": null,
         "display_name": "Geometry Dash",
