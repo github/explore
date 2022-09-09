@@ -11,6 +11,7 @@ items:
  - sympy/sympy
  - spack/spack
  - ipython/ipython
+ - ropensci-archive/rplos
  - LaurentRDC/scikit-ued
  - sagemath/sage
  - gap-system/gap
