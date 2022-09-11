@@ -10,7 +10,6 @@ topic: visual-studio
 url: https://visualstudio.microsoft.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Microsoft_Visual_Studio
 ---
-
 Visual Studio is a develpment software suite for Windows and MacOS made by Microsoft.
 The last version is called Visual Studio 2022 and Visual Studio It is used to develop computer programs, as well as websites, web apps, web services and mobile apps and it also uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight.
 It can produce both native code and managed code.
