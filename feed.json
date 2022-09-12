@@ -3979,7 +3979,9 @@
           
             "broadinstitute/picard",
           
-            "markusschanta/awesome-jupyter"
+            "markusschanta/awesome-jupyter",
+          
+            "ropensci-archive/rplos"
           
         ],
         "created_by": null,
