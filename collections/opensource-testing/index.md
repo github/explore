@@ -32,7 +32,7 @@ items:
  - wiremock/wiremock
  - grafana/k6
  - DevExpress/testcafe
- - wKich/creevey
+ - creevey/creevey
  - cburgmer/csscritic
  - wearefriday/spectre
  - shoov/shoov
