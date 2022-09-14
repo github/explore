@@ -79,7 +79,9 @@
           
             "https://www.youtube.com/embed/dSl_qnWO104",
           
-            "public-apis/public-apis"
+            "public-apis/public-apis",
+          
+            "SerenityOS/serenity"
           
         ],
         "created_by": "kytrinyx",
