@@ -9,15 +9,22 @@ jobs:
   jekyll:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - name: 📂 setup
+      uses: actions/checkout@v3
 
-    - uses: actions/cache@v3
+    - name: 💎 setup ruby
+      uses: ruby/setup-ruby@v1
       with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
+        ruby-version: 3.1.2
 
-    - uses:  helaili/jekyll-action@v2
+    - name: 🔨 install dependencies & build site
+      uses: limjh16/jekyll-action-ts@v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        enable_cache: true
+        
+    - name: 🚀 deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        publish_branch: gh-pages

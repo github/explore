@@ -1,8 +1,11 @@
 ---
 items:
   - 3imed-jaberi/fake-rest-json-api
-  - heithemmoumni/svelte-mindmap
   - azizamari/Ncodi
+  - hamedbaatour/angularfire-lite
+  - hamedbaatour/minimus
+  - Dainerx/InputTounsi
+  - Dainerx/wpam
 display_name: Made in Tunisia
 created_by: heithemmoumni
 image: made-in-tunisia.png

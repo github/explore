@@ -5,13 +5,14 @@ items:
  - BVLC/caffe
  - facebookarchive/models
  - apache/incubator-mxnet
- - eclipse/deeplearning4j
+ - deeplearning4j/deeplearning4j
  - sdhnshu/Pytorch-Model-Zoo
  - Lasagne/Recipes
  - albertomontesg/keras-model-zoo
  - hindupuravinash/the-gan-zoo
  - likedan/Awesome-CoreML-Models
  - microsoft/CNTK
+ - github/explore
 display_name: Model Zoos of machine and deep learning technologies
 created_by: alanbraz
 ---

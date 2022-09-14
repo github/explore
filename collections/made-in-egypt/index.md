@@ -1,7 +1,6 @@
 ---
 items:
   - KL13NT/ally-reads
-  - 0xSobky/AnonTab
   - RobustaStudio/bkit
   - aliftype/amiri
   - Gue3bara/Cairo
@@ -15,12 +14,13 @@ items:
   - gogearbox/gearbox
   - ahegazy/php-mvc-skeleton
   - aboul3la/Sublist3r
-  - MohabMohie/SHAFT_ENGINE
+  - ShaftHQ/SHAFT_ENGINE
   - fawry-api/fawry
   - harryadel/AI-ML-Driven-Companies-In-Egypt
   - abdumostafa/awesome-in-arabic
   - hci-lab/PyQuran
   - DrWaleedAYousef/Teaching
+  - MoatazBadawy/Sunset-hadith
 display_name: Made in Egypt
 created_by: AN4553R
 image: made-in-egypt.png

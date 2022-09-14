@@ -1,4 +1,3 @@
-Gemfile.lock
 .DS_Store
 scripts/
 _site
@@ -7,3 +6,4 @@ _site
 .jekyll-metadata
 vendor
 .bundle
+.idea

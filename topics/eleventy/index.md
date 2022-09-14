@@ -10,4 +10,4 @@ short_description: A simple static site generator for JavaScript.
 topic: eleventy
 url: https://11ty.dev
 ---
-Eleventy is a JavaScript-based alternative to Jekyll, built by [@zachleat](https://twitter.com/zachleat). It can transform template files of various formats into HTML. Eleventy's mascot is an opossum suspended by a red baloon.
+Eleventy is a JavaScript-based alternative to Jekyll, built by [@zachleat](https://twitter.com/zachleat). It can transform template files of various formats into HTML. Eleventy's mascot is an opossum suspended by a red balloon.
