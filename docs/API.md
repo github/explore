@@ -47,7 +47,7 @@ Formatted as `topic1, topic2, topic3`.
 (if applicable) Date of first release. Formatted as `MONTH DD, YYYY`, `MONTH YYYY`, or just `YYYY`.
 
 ### short_description
-(required) A short description of the topic, which will be used on the Explore homepage, Topics subpage, and other preview areas. Must be 130 characters or less. Emoji are not allowed.
+(required) A short description of the topic, which will be used on the Explore homepage, Topics subpage, and other preview areas. Must be 130 characters or less. Emojis are not allowed.
 
 ### topic
 (required) Name of the topic, which will be used in the URL, e.g. `https://github.com/topics/[URL]`. Formatted as lowercase.
@@ -65,7 +65,7 @@ Acceptable formatting:
 (if applicable) URL to a Wikipedia article about the topic
 
 ### The body of your document
-(required) A longer description of the topic, which will appear on its topic page. Must be 1,000 characters or less. Should not be the same as `short_description`. Some Markdown is allowed, such as links. Emoji are allowed.
+(required) A longer description of the topic, which will appear on its topic page. Must be 1,000 characters or less. Should not be the same as `short_description`. Some Markdown is allowed, such as links. Emojis are allowed.
 
 ##  Making edits to a collection
 
@@ -93,7 +93,7 @@ items:
 (if applicable) GitHub username of the person and/or organization that authored the collection.
 
 ### display_name
-(required) The collection name that will be displayed on its page (ex. `How to choose (and contribute to) your first open source project`). Should use proper noun capitalization. Emoji are not allowed.
+(required) The collection name that will be displayed on its page (ex. `How to choose (and contribute to) your first open source project`). Should use proper noun capitalization. Emojis are not allowed.
 
 ### The body of your document
 (required) A longer description of the collection, which will appear on its page. Must be 1,000 characters or less. Some Markdown is allowed, such as links. Emoji are allowed.
