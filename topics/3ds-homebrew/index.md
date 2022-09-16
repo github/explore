@@ -1,6 +1,7 @@
 ---
 display_name: Nintendo 3ds Homebrew
 short_description: 3ds Homebrew is the task of producing and running code for the Nintendo 3ds system.
+aliases: 3ds
 topic: 3ds-homebrew
 logo: 3ds-homebrew.png
 wikipedia_url: https://en.wikipedia.org/wiki/Homebrew_(video_games)#3DS
