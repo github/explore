@@ -15269,6 +15269,27 @@
       },
     
       {
+        "topic_name": "oculus",
+        "created_by": null,
+        "display_name": "oculus",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/oculus/oculus.png",
+        
+        "released": null,
+        "short_description": "Oculus is a VR headset, and relates to creating games for the platform.",
+        "url": "https://github.com/topics/oculus",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Reality_Labs",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Oculus is a VR (virtual reality) headset, and relates to creating games for the VR platform/headset.</p>\n"
+      },
+    
+      {
         "topic_name": "online-judge",
         "created_by": null,
         "display_name": "Online Judge",
