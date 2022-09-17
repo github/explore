@@ -1,5 +1,5 @@
 ---
-aliases: littlelinkcustom, littlelink_custom
+aliases: littlelinkcustom
 created_by: Julian Prieber
 display_name: LittleLink-Custom
 github_url: https://github.com/LittleLink-Custom
