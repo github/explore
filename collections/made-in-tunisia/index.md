@@ -1,5 +1,7 @@
 ---
 items:
+  - McZen-Technologies/TUI
+  - BesrourMS/ZodiacSigns
   - 3imed-jaberi/fake-rest-json-api
   - azizamari/Ncodi
   - hamedbaatour/angularfire-lite
