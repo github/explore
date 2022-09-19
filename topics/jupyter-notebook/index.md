@@ -1,5 +1,5 @@
 ---
-aliases: notebook, jupyter, ipython-notebook, ipynb, ipynb-jupyter-notebook, ipynb-notebook
+aliases: jupyter, ipython-notebook, ipynb, ipynb-jupyter-notebook, ipynb-notebook
 created_by: Fernando Pérez, Brian Granger, and Min Ragan-Kelley
 display_name: Jupyter Notebook
 github_url: https://github.com/jupyter/notebook
