@@ -13773,6 +13773,31 @@
       },
     
       {
+        "topic_name": "medium",
+        "created_by": "Evan Williams",
+        "display_name": "Medium",
+        "github_url": "https://github.com/medium",
+        "logo": 
+          "https://explore-feed.github.com/topics/medium/medium.png",
+        
+        "released": "August 15, 2012",
+        "short_description": "Medium is an American online publishing platform.",
+        "url": "https://github.com/topics/medium",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Medium_(website)",
+        "related": [
+          
+            "blog, publishing, journalism, reading"
+          
+        ],
+        "aliases": [
+          
+            "medium-article, medium-api, medium-editor, medium-app, medium-com"
+          
+        ],
+        "content": "<p>Medium is an American online publishing platform owned by A Medium Corporation. The platform is an example of social journalism, having a hybrid collection of amateur and professional people and publications, or exclusive blogs or publishers on Medium, and is regularly regarded as a blog host.</p>\n"
+      },
+    
+      {
         "topic_name": "meilisearch",
         "created_by": null,
         "display_name": "MeiliSearch",
