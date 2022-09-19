@@ -2,7 +2,7 @@
 topic: itmo
 display_name: ITMO
 aliases: ifmo, itmo-university
-logo: image.png
+logo: itmo.png
 released: 1900
 short_description: IT's MOre than a UNIVERSITY!
 url: https://itmo.ru/
