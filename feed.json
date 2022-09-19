@@ -21161,6 +21161,31 @@
       },
     
       {
+        "topic_name": "vite",
+        "created_by": "Evan You",
+        "display_name": "Vite",
+        "github_url": "https://github.com/vitejs/vite",
+        "logo": 
+          "https://explore-feed.github.com/topics/vite/vite.png",
+        
+        "released": 2021,
+        "short_description": "Vite is a next generation frontend tooling.",
+        "url": "https://github.com/topics/vite",
+        "wikipedia_url": null,
+        "related": [
+          
+            "hmr, dev-server, build-tool, vue, react, preact, lit, svelte"
+          
+        ],
+        "aliases": [
+          
+            "vitejs"
+          
+        ],
+        "content": "<p>Vite is a JavaScript development server and bundler for modern frontend development. It enhances the development experience by serving the source files over native ES modules, with rich built-in features and astonishingly fast Hot Module Replacement (HMR).</p>\n"
+      },
+    
+      {
         "topic_name": "viur",
         "created_by": "Mausbrand",
         "display_name": "ViUR",
