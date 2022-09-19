@@ -9301,15 +9301,15 @@
         "wikipedia_url": "https://en.wikipedia.org/wiki/Facebook",
         "related": [
           
-            "react, social-media"
+            "react, social-media, graphql"
           
         ],
         "aliases": [
           
-            "fb"
+            "fb, facebook-api, facebook-graph-api"
           
         ],
-        "content": "<p>Facebook is an online social media and social networking service owned by Facebook, Inc. It can be accessed from devices with Internet connectivity, such as personal computers, tablets and smartphones. After registering, users can create a profile revealing information about themselves. They can post text, photos and multimedia which are shared with any other users who have agreed to be their “friend” or, with different privacy settings, publicly.</p>\n"
+        "content": "<p>Facebook is an online social media and social networking service owned by Meta Platforms, Inc. It can be accessed from devices with Internet connectivity, such as personal computers, tablets and smartphones. After registering, users can create a profile revealing information about themselves. They can post text, photos and multimedia which are shared with any other users who have agreed to be their “friend” or, with different privacy settings, publicly.</p>\n"
       },
     
       {
