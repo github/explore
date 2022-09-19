@@ -12,4 +12,4 @@ url: https://jupyter.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Project_Jupyter#Jupyter_Notebook
 ---
 
-The Jupyter Notebook, previously known as the IPython Notebook is a language-agnostic HTML notebook application for Project Jupyter. Jupyter notebooks are documents that allow for creating and sharing live code, equations, visualizations, and narrative text together. People use them for data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+The Jupyter Notebook, previously known as the IPython Notebook, is a language-agnostic HTML notebook application for Project Jupyter. Jupyter notebooks are documents that allow for creating and sharing live code, equations, visualizations, and narrative text together. People use them for data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
