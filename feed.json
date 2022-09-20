@@ -13221,6 +13221,29 @@
       },
     
       {
+        "topic_name": "littlelink-custom",
+        "created_by": "Julian Prieber",
+        "display_name": "LittleLink-Custom",
+        "github_url": "https://github.com/LittleLink-Custom",
+        "logo": 
+          "https://explore-feed.github.com/topics/littlelink-custom/littlelink-custom.png",
+        
+        "released": "February 23, 2022",
+        "short_description": "LittleLink Custom is a link sharing platform.",
+        "url": "https://github.com/topics/littlelink-custom",
+        "wikipedia_url": null,
+        "related": [
+          
+            "laravel, blade, skeleton, self-hosted, linktree, linktree-alternative, littlelink, awesome-list, personal-website, webapp"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<h1 id=\"littlelink-custom\">LittleLink-Custom</h1>\n\n<p>LittleLink Custom is an open source, self-hosted, plug-and-play, highly customizable link sharing platform with an intuitive, easy to use user interface - a direct alternative to LinkTree.</p>\n"
+      },
+    
+      {
         "topic_name": "llvm",
         "created_by": "Vikram Adve, Chris Lattner",
         "display_name": "LLVM",
