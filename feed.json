@@ -6901,6 +6901,27 @@
       },
     
       {
+        "topic_name": "client",
+        "created_by": null,
+        "display_name": "client",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "Any computer hardware or software that requests access to a server.",
+        "url": "https://github.com/topics/client",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Client_(computing)",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>A client is a computer hardware or software that accesses a service made available by a server.</p>\n"
+      },
+    
+      {
         "topic_name": "climate-change",
         "created_by": "Humanity",
         "display_name": "Climate change",
