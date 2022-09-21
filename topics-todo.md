@@ -15,7 +15,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [boilerplate](https://github.com/topics/boilerplate/)
 - [x] [canvas](https://github.com/topics/canvas/)
 - [x] [chatbot](https://github.com/topics/chatbot/)
-- [ ] [client](https://github.com/topics/client/)
+- [x] [client](https://github.com/topics/client/)
 - [x] [command-line](https://github.com/topics/command-line/)
 - [ ] [configuration](https://github.com/topics/configuration/)
 - [ ] [crawler](https://github.com/topics/crawler/)
