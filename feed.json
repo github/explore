@@ -15248,6 +15248,31 @@
       },
     
       {
+        "topic_name": "oai-pmh",
+        "created_by": "Open Archives Initiative",
+        "display_name": "OAI-PMH",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": 2001,
+        "short_description": "OAI-PMH is an XML-based HTTP-API for harvesting metadata of records in digital libraries and archives.",
+        "url": "https://github.com/topics/oai-pmh",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/OAI-PMH",
+        "related": [
+          
+            "api, web, xml, rss, atom"
+          
+        ],
+        "aliases": [
+          
+            "oai"
+          
+        ],
+        "content": "<p>The OAI Protocol for Metadata Harvesting (OAI-PMH) is an API using XML over HTTP to retrieve metadata about archived digital publications. It allows to get record updates in Dublin Core and other metadata formats. In contrast to RSS and ATOM Feeds, updates can also be selected by date.</p>\n"
+      },
+    
+      {
         "topic_name": "objective-c",
         "created_by": "Tom Love and Brad Cox",
         "display_name": "Objective-C",
