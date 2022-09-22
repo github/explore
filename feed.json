@@ -16808,6 +16808,29 @@
       },
     
       {
+        "topic_name": "puppet",
+        "created_by": "Luke Kanies",
+        "display_name": "Puppet",
+        "github_url": "https://github.com/puppetlabs",
+        "logo": 
+          "https://explore-feed.github.com/topics/puppet/puppet.png",
+        
+        "released": 2005,
+        "short_description": "Puppet is a powerful and operating system agnostic configuration management tool.",
+        "url": "https://github.com/topics/puppet",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Puppet_(software)",
+        "related": [
+          
+            "devops, config, automation"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Puppet is a powerful configuration management tool. It is open source and operating system agnostic, with freely downloadable <a href=\"https://forge.puppet.com\">modules</a> providing capabilities to manage everything from core OS settings to full technology stacks.</p>\n\n"
+      },
+    
+      {
         "topic_name": "purescript",
         "created_by": "Phil Freeman",
         "display_name": "PureScript",
