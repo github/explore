@@ -7404,6 +7404,27 @@
       },
     
       {
+        "topic_name": "configuration",
+        "created_by": null,
+        "display_name": "Configuration",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "The arrangement of function details for a computer program.",
+        "url": "https://github.com/topics/configuration",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Computer_configuration",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>The arrangement of function details and information that is stored and used in a computer program.</p>\n"
+      },
+    
+      {
         "topic_name": "contentful",
         "created_by": "Sascha Konietzke and Paolo Negri",
         "display_name": "Contentful",
