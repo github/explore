@@ -5,6 +5,7 @@ items:
  - alibaba/druid
  - alibaba/fastjson
  - alibaba/flutter-go
+ - alibaba/lowcode-engine
  - Tencent/weui
  - Tencent/wepy
  - Tencent/tinker
