@@ -26,7 +26,7 @@ items:
  - determined-ai/determined
  - InfuseAI/primehub
  - treeverse/lakeFS
- - activeloopai/Hub
+ - activeloopai/deeplake
  - Netflix/metaflow
  - flyteorg/flyte
  - SchedMD/slurm
