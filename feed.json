@@ -1361,7 +1361,7 @@
           
             "tensorflow/tensorflow",
           
-            "activeloopai/Hub",
+            "activeloopai/deeplake",
           
             "Theano/Theano",
           
@@ -2897,7 +2897,7 @@
           
             "treeverse/lakeFS",
           
-            "activeloopai/Hub",
+            "activeloopai/deeplake",
           
             "Netflix/metaflow",
           
