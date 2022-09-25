@@ -17,6 +17,7 @@ items:
  - Schrodinger-Hat/ImageGoNord
  - stoplightio/prism
  - ercole-io/ercole
+ - tryvium-travels/memongo
 display_name: Made in Italy
 created_by: thejoin95
 image: made-in-italy.png
