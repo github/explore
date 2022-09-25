@@ -34,6 +34,12 @@ items:
  - orbitalquark/textadept
  - apache/netbeans
  - adsr/mle
+ - LunarVim/LunarVim
+ - AstroNvim/AstroNvim
+ - helix-editor/helix
+ - lapce/lapce
+ - xi-editor/xi-editor
+ - doomenacs/doomemacs
 
 display_name: Text editors
 created_by: leereilly
