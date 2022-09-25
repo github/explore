@@ -39,7 +39,7 @@ items:
  - helix-editor/helix
  - lapce/lapce
  - xi-editor/xi-editor
- - doomenacs/doomemacs
+ - doomemacs/doomemacs
 
 display_name: Text editors
 created_by: leereilly
