@@ -23,6 +23,7 @@ items:
  - Cloud9c/taro
  - replit/kaboom
  - straker/kontra
+ - space2pacman/elpy
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---
