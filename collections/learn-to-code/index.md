@@ -32,6 +32,7 @@ items:
  - ripienaar/free-for-dev
  - gothinkster/realworld
  - thedaviddias/Front-End-Checklist
+ - gustavofreze/kotlin4noobs
 
 display_name: Learn to Code
 created_by: alysonla
