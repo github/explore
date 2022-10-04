@@ -7,7 +7,7 @@ wikipedia_url: https://en.wikipedia.org/wiki/OpenACC
 released: November 2011
 url: https://www.openacc.org/
 github_url: https://github.com/OpenACC/
-logo: OpenACC-logo-tagline-2C-RGB.png
+logo: openacc.png
 ---
 OpenACC is a directive-based parallel programming model for C, C++, and Fortran.
 It is most often associated with directive-based programming for GPU computers,
