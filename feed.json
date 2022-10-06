@@ -15553,6 +15553,27 @@
       },
     
       {
+        "topic_name": "openacc",
+        "created_by": null,
+        "display_name": "OpenACC",
+        "github_url": "https://github.com/OpenACC/",
+        "logo": 
+          "https://explore-feed.github.com/topics/openacc/openacc.png",
+        
+        "released": "November 2011",
+        "short_description": "OpenACC is a directives-based parallel programming model for C, C++, and Fortran.",
+        "url": "https://github.com/topics/openacc",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/OpenACC",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>OpenACC is a directive-based parallel programming model for C, C++, and Fortran.\nIt is most often associated with directive-based programming for GPU computers,\nbut has also been used for programming multi-core CPUs and FPGAs. OpenACC is\ndeveloped and maintained by members of the OpenACC standard organization.</p>\n"
+      },
+    
+      {
         "topic_name": "openbsd",
         "created_by": "Theo de Raadt",
         "display_name": "OpenBSD",
