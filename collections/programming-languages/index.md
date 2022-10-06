@@ -41,7 +41,7 @@ items:
 - rakudo/rakudo
 - chapel-lang/chapel
 - lucee/Lucee
-- eclipse/golo-lang
+- eclipse-archived/golo-lang
 - gosu-lang/gosu-lang
 - ziglang/zig
 - HaxeFoundation/haxe
