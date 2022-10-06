@@ -13723,6 +13723,29 @@
       },
     
       {
+        "topic_name": "matter",
+        "created_by": "Connectivity Standards Alliance",
+        "display_name": "Matter",
+        "github_url": "https://github.com/project-chip",
+        "logo": 
+          "https://explore-feed.github.com/topics/matter/matter.png",
+        
+        "released": null,
+        "short_description": "Matter is a royalty-free standard for the Internet of Things to unify how to interact with devices.",
+        "url": "https://github.com/topics/matter",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Matter_(standard)",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "matter-iot, matter-smarthome, matter-devices"
+          
+        ],
+        "content": "<p>Matter, formerly Project Connected Home over IP (CHIP), is a royalty-free home automation connectivity standard, with manufacturers only incurring certification costs.</p>\n"
+      },
+    
+      {
         "topic_name": "maven",
         "created_by": "Apache Software Foundation",
         "display_name": "Maven",
