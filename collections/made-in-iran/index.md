@@ -1,6 +1,4 @@
 ---
-display_name: Made in Iran
-image: made-in-iran.png
 items:
  - jadijadi/linuxandlife
  - jadijadi/justforfun
@@ -21,7 +19,6 @@ items:
  - persian-tools/persian-tools
  - usablica/intro.js
 display_name: Made in Iran
-created_by: Javad
 image: made-in-iran.png
 ---
 
