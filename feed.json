@@ -22454,6 +22454,29 @@
       },
     
       {
+        "topic_name": "zustand",
+        "created_by": null,
+        "display_name": "Zustand",
+        "github_url": "https://github.com/pmndrs/zustand/",
+        "logo": 
+          "https://explore-feed.github.com/topics/zustand/zustand.png",
+        
+        "released": null,
+        "short_description": "Bear necessities for state management in React.",
+        "url": "https://github.com/topics/zustand",
+        "wikipedia_url": null,
+        "related": [
+          
+            "react, state-management"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Zustand is a small, fast, and scalable bearbones state-management solution using simplified flux principles. It has a comfy API based on hooks, isn’t boilerplatey or opinionated.</p>\n"
+      },
+    
+      {
         "topic_name": "zx-spectrum",
         "created_by": "Sinclair Research",
         "display_name": "ZX Spectrum",
