@@ -1,9 +1,7 @@
 ---
 items:
- - jadijadi/linuxandlife
  - jadijadi/justforfun
  - jadijadi/bestoon
- - KambizAsadzadeh/Project-Template
  - rastikerdar/vazirmatn
  - mohebifar/made-in-iran
  - Hameds/APIs-made-in-Iran
@@ -18,6 +16,8 @@ items:
  - imaNNeoFighT/fl_chart
  - persian-tools/persian-tools
  - usablica/intro.js
+ - jadijadi/linuxandlife
+ - KambizAsadzadeh/Project-Template
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
