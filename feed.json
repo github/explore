@@ -2971,7 +2971,7 @@
           
             "newrelic/opensource-website",
           
-            "docker/docker.github.io",
+            "docker/docs",
           
             "ExpediaGroup/expediagroup.github.io",
           
@@ -3481,7 +3481,7 @@
           
             "lucee/Lucee",
           
-            "eclipse/golo-lang",
+            "eclipse-archived/golo-lang",
           
             "gosu-lang/gosu-lang",
           
