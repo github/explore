@@ -11660,6 +11660,29 @@
       },
     
       {
+        "topic_name": "hackclub",
+        "created_by": "Zach Latta",
+        "display_name": "Hack Club",
+        "github_url": "https://github.com/hackclub",
+        "logo": 
+          "https://explore-feed.github.com/topics/hackclub/hackclub.png",
+        
+        "released": 2014,
+        "short_description": "Hack Club is a worldwide community of high school hackers. We make things. We help one another. We have fun.",
+        "url": "https://github.com/topics/hackclub",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hack_Club",
+        "related": [
+          
+            "hackathons, clubs, hacking"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Welcome to Hack Club, a worldwide community of high school hackers. We’re artists, writers, engineers, tinkerers, campers, filmmakers, volunteers. We make things. We help one another. We have fun.</p>\n"
+      },
+    
+      {
         "topic_name": "hackerrank",
         "created_by": "Vivek Ravisankar, Hari Karunanidhi",
         "display_name": "HackerRank",
