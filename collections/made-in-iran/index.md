@@ -16,8 +16,11 @@ items:
  - imaNNeoFighT/fl_chart
  - persian-tools/persian-tools
  - usablica/intro.js
+ - jadijadi/linuxandlife
+ - KambizAsadzadeh/Project-Template
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
 ---
+
 Iranian developer's list of open source projects :iran:
