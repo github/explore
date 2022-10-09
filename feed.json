@@ -8776,6 +8776,27 @@
       },
     
       {
+        "topic_name": "education",
+        "created_by": null,
+        "display_name": "Education",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "The act or process of imparting or acquiring particular knowledge or skills, as for a profession.",
+        "url": "https://github.com/topics/education",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Education",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Education is a purposeful activity directed at achieving certain aims, such as transmitting knowledge or fostering skills and character traits.</p>\n"
+      },
+    
+      {
         "topic_name": "effector",
         "created_by": "ZeroBias",
         "display_name": "Effector",
