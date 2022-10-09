@@ -1,6 +1,6 @@
 ---
 aliases: stoneclane-development, sdevs
-founded_by: JanjyTapYT
+created_by: JanjyTapYT
 display_name: Stoneclane Development
 github_url: https://github.com/Stoneclane-Development
 logo: sdevs.png
