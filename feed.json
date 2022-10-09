@@ -5624,6 +5624,27 @@
       },
     
       {
+        "topic_name": "automation",
+        "created_by": null,
+        "display_name": "Automation",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "The technique of making an apparatus, a process, or a system operate automatically.",
+        "url": "https://github.com/topics/automation",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Automation",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Automation describes a wide range of technologies that reduce human intervention in processes, namely by predetermining decision criteria, subprocess relationships, and related actions, as well as embodying those predeterminations in machines. Automation has been achieved by various means including mechanical, hydraulic, pneumatic, electrical, electronic devices, and computers, usually in combination. Complicated systems, such as modern factories, airplanes, and ships typically use combinations of all of these techniques. The benefit of automation includes labor savings, reducing waste, savings in electricity costs, savings in material costs, and improvements to quality, accuracy, and precision.</p>\n"
+      },
+    
+      {
         "topic_name": "avalonia",
         "created_by": "Steven Kirk",
         "display_name": "Avalonia",
