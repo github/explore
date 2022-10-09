@@ -1,5 +1,5 @@
 ---
-aliases: stoneclane-development, sdevs
+aliases: sdevs
 created_by: JanjyTapYT
 display_name: Stoneclane Development
 github_url: https://github.com/Stoneclane-Development
