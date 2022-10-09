@@ -6720,8 +6720,6 @@
         ],
         "aliases": [
           
-            "site-reliability-engineering"
-          
         ],
         "content": "<p>Chaos engineering is the discipline of experimenting on a software system in production in order to build confidence in the system’s capability to withstand turbulent and unexpected conditions. Chaos engineering is a disciplined approach to identifying failures before they become outages</p>\n"
       },
@@ -19322,6 +19320,29 @@
           
         ],
         "content": "<p>Squeak is a live programming system for the object-oriented, reflective, and simple programming language Smalltalk. Squeak is self-supporting, i.e., it is implemented and modifiable entirely in itself. Squeak is used in research, education, and industry. Squeak is free open source software and runs on all major platforms inside the OpenSmalltalk VM.</p>\n"
+      },
+    
+      {
+        "topic_name": "sre",
+        "created_by": null,
+        "display_name": "SRE",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "Site reliability engineering (SRE) is a software engineering approach to IT operations.",
+        "url": "https://github.com/topics/sre",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Site_reliability_engineering",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "site-reliability-engineering"
+          
+        ],
+        "content": "<p>Site reliability engineering (SRE) is a set of principles and practices that incorporates aspects of software engineering and applies them to infrastructure and operations problems. The main goals are to create scalable and highly reliable software systems. Site reliability engineering is closely related to DevOps, a set of practices that combine software development and IT operations, and SRE has also been described as a specific implementation of DevOps.</p>\n"
       },
     
       {
