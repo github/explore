@@ -11,7 +11,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [app](https://github.com/topics/app/)
 - [x] [argo-floats](https://github.com/topics/argo-floats/)
 - [x] [authentication](https://github.com/topics/authentication/)
-- [ ] [automation](https://github.com/topics/automation/)
+- [x] [automation](https://github.com/topics/automation/)
 - [x] [boilerplate](https://github.com/topics/boilerplate/)
 - [x] [canvas](https://github.com/topics/canvas/)
 - [x] [chatbot](https://github.com/topics/chatbot/)
