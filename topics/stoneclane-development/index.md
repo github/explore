@@ -3,7 +3,7 @@ aliases: sdevs
 created_by: JanjyTapYT
 display_name: Stoneclane Development
 github_url: https://github.com/Stoneclane-Development
-logo: sdevs.png
+logo: stoneclane-development.png
 released: January 18, 2020
 short_description: a development team that develops discord bots and shares them as open source projects.
 topic: stoneclane-development
