@@ -1,6 +1,6 @@
 ---
 display_name: Automation
-short_description: Automation has been achieved by various means including mechanical, hydraulic, pneumatic, electrical, electronic devices, and computers, usually in combination.
+short_description: The technique of making an apparatus, a process, or a system operate automatically.
 topic: automation
 wikipedia_url: https://en.wikipedia.org/wiki/Automation
 ---
