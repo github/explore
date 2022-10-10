@@ -12,6 +12,5 @@ items:
  - getsentry/sentry-laravel
 display_name: Laravel Awesome Library
 created_by: ezhasyafaat
-image: laravel-logo.png
 ---
-List of awesome libraries that can be used for Laravel applications. 
+Collection of useful libraries for Laravel applications.
