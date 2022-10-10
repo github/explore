@@ -151,7 +151,9 @@
           
             "ansible/ansible-lint",
           
-            "dotenv-linter/dotenv-linter"
+            "dotenv-linter/dotenv-linter",
+          
+            "florianschanda/miss_hit"
           
         ],
         "created_by": "holman",
