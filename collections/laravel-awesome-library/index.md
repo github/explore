@@ -10,7 +10,7 @@ items:
  - devtical/laravel-helpers
  - thephpleague/flysystem-aws-s3-v3
  - getsentry/sentry-laravel
-display_name: Laravel Awesome Library.
+display_name: Laravel Awesome Library
 created_by: ezhasyafaat
 image: laravel-logo.png
 ---
