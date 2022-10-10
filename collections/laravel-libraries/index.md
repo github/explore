@@ -10,7 +10,7 @@ items:
  - devtical/laravel-helpers
  - thephpleague/flysystem-aws-s3-v3
  - getsentry/sentry-laravel
-display_name: Laravel Awesome Library
+display_name: Laravel Libraries
 created_by: ezhasyafaat
 ---
 Collection of useful libraries for Laravel applications.
