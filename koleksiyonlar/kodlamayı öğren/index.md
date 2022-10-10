@@ -1,5 +1,24 @@
 ---
-items:
+items# fastlane/fastfile
+default_platform :ios
+
+platform :ios do
+  before_all do
+    setup_circle_ci
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    scan
+  end
+
+  desc "Ad-hoc build"
+  lane :adhoc do
+    match(type: "adhoc")
+    gym(export_method: "ad-hoc")
+  end
+end
+
  - 30-seconds/30-seconds-of-code
  - railsgirls/railsgirls.github.io
  - railsbridge/docs
