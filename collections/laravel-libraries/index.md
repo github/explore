@@ -10,6 +10,7 @@ items:
  - devtical/laravel-helpers
  - thephpleague/flysystem-aws-s3-v3
  - getsentry/sentry-laravel
+ - romanzipp/Laravel-Queue-Monitor
 display_name: Laravel Libraries
 created_by: ezhasyafaat
 ---
