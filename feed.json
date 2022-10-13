@@ -1173,6 +1173,40 @@
     {
         "items": [
           
+            "spatie/laravel-permission",
+          
+            "laravel-mix/laravel-mix",
+          
+            "filamentphp/filament",
+          
+            "bavix/laravel-wallet",
+          
+            "mpociot/teamwork",
+          
+            "hammerstonedev/fast-paginate",
+          
+            "opcodesio/log-viewer",
+          
+            "devtical/laravel-helpers",
+          
+            "thephpleague/flysystem-aws-s3-v3",
+          
+            "getsentry/sentry-laravel",
+          
+            "romanzipp/Laravel-Queue-Monitor"
+          
+        ],
+        "created_by": "ezhasyafaat",
+        "name": "laravel-libraries",
+        "display_name": "Laravel Libraries",
+        "image": 
+          null,
+        
+        "content": "<p>Collection of useful libraries for Laravel applications.</p>\n"
+      },
+    {
+        "items": [
+          
             "30-seconds/30-seconds-of-code",
           
             "railsgirls/railsgirls.github.io",
