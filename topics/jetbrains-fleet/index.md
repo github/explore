@@ -1,6 +1,6 @@
 ---
 display_name: JetBrains Fleet
-short_description: A next-generation IDE by JetBrains
+short_description: A next-generation IDE by JetBrains.
 logo: jetbrains-fleet.png
 created_by: JetBrains
 url: https://www.jetbrains.com/fleet/
