@@ -29,6 +29,7 @@ items:
  - mvdan/sh
  - ansible/ansible-lint
  - dotenv-linter/dotenv-linter
+ - florianschanda/miss_hit
 display_name: Clean code linters
 created_by: holman
 ---
