@@ -6,6 +6,7 @@ items:
  - gto76/python-cheatsheet
  - wilfredinni/python-cheatsheet
  - ihebski/DefaultCreds-cheat-sheet
+ - emilioleon/react-cheatsheet
 display_name: Useful cheatsheets
 created_by: Luois45
 ---
