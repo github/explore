@@ -17,7 +17,7 @@ items:
  - passwall/passwall-extension
  - passwall/passwall-desktop
  - passwall/passwall-web
- - pankod/refine
+ - refinedev/refine
  - pankod/superplate
  - Huseyinnurbaki/mocktail
  - geziyor/geziyor
