@@ -1,5 +1,5 @@
 ---
-aliases: astro
+aliases: astro-build
 created_by: Fred Schott and Nate Moore 
 display_name: Astro
 github_url: https://github.com/withastro/astro
