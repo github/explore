@@ -12910,31 +12910,6 @@
       },
     
       {
-        "topic_name": "kentico-kontent",
-        "created_by": "Ilesh Mistry",
-        "display_name": "Kentico Kontent",
-        "github_url": "https://github.com/kentico",
-        "logo": 
-          "https://explore-feed.github.com/topics/kentico-kontent/kentico-kontent.png",
-        
-        "released": 2016,
-        "short_description": "Kentico Kontent provides an environment for easy content collaboration and features a flexible API to power modern websites/apps.",
-        "url": "https://github.com/topics/kentico-kontent",
-        "wikipedia_url": null,
-        "related": [
-          
-            "cms, content-delivery"
-          
-        ],
-        "aliases": [
-          
-            "kentico-cloud"
-          
-        ],
-        "content": "<p>Kentico Kontent is a Content as a Service system that can replace a legacy CMS. It offers a unified environment for content collaboration, flexible APIs for content management and delivery, and content delivery network and SDKs for building websites and apps with a modern development stack.</p>\n"
-      },
-    
-      {
         "topic_name": "keras",
         "created_by": "François Chollet",
         "display_name": "Keras",
@@ -13070,6 +13045,31 @@
           
         ],
         "content": "<p>In programming Koans are exercises, puzzles, or problems - typically presented as a suite of unit tests - intended to get developers up to speed with the idioms and features of a programming language.</p>\n"
+      },
+    
+      {
+        "topic_name": "kontent-ai",
+        "created_by": "Ilesh Mistry",
+        "display_name": "Kontent.ai",
+        "github_url": "https://github.com/kontent-ai",
+        "logo": 
+          "https://explore-feed.github.com/topics/kontent-ai/kontent-ai.png",
+        
+        "released": 2022,
+        "short_description": "Kontent.ai provides an environment for easy content collaboration and features a flexible API to power modern websites/apps.",
+        "url": "https://github.com/topics/kontent-ai",
+        "wikipedia_url": null,
+        "related": [
+          
+            "cms, content-delivery"
+          
+        ],
+        "aliases": [
+          
+            "kontent"
+          
+        ],
+        "content": "<p>Kontent.ai is a Content as a Service system that can replace a legacy CMS. It offers a unified environment for content collaboration, flexible APIs for content management and delivery, and content delivery network and SDKs for building websites and apps with a modern development stack.</p>\n"
       },
     
       {
