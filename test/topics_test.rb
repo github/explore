@@ -292,7 +292,7 @@ describe "topics" do
         metadata = metadata_for(topics_dir, topic) || {}
 
         if metadata["short_description"]
-          valid_range = 1...MAX_SHORT_DESCRIPTION_LENGTH
+          valid_range = 1..MAX_SHORT_DESCRIPTION_LENGTH
           current_length = metadata["short_description"].length
           assert valid_range.cover?(current_length),
                  "must have a short_description no more than #{MAX_SHORT_DESCRIPTION_LENGTH} " \
