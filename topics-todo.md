@@ -19,7 +19,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [command-line](https://github.com/topics/command-line/)
 - [x] [configuration](https://github.com/topics/configuration/)
 - [ ] [crawler](https://github.com/topics/crawler/)
-- [ ] [cryptography](https://github.com/topics/cryptography/)
+- [x] [cryptography](https://github.com/topics/cryptography/)
 - [ ] [data-analysis](https://github.com/topics/data-analysis/)
 - [x] [data-science](https://github.com/topics/data-science/)
 - [ ] [data](https://github.com/topics/data/)
