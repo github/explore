@@ -6,7 +6,6 @@ items:
  - usetania/tania-core
  - OpenSID
  - BaritoLog
- - odpf
  - xitorch/xitorch
  - mathdroid/covid-19-api
  - Kristories/awesome-guidelines
