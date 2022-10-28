@@ -1,5 +1,4 @@
 ---
-aliases: cryptography
 display_name: Cryptography
 logo: cryptography.png
 short_description: Cryptography is the practice and study of techniques for secure communication in the presence of adversarial behavior.
