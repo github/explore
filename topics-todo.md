@@ -31,7 +31,7 @@ Information included in this repository will appear on each topic's respective p
 - [ ] [education](https://github.com/topics/education/)
 - [x] [elasticsearch](https://github.com/topics/elasticsearch/)
 - [ ] [example](https://github.com/topics/example/)
-- [ ] [functional-programming](https://github.com/topics/functional-programming/)
+- [x] [functional-programming](https://github.com/topics/functional-programming/)
 - [x] [game-development](https://github.com/topics/game-development/)
 - [ ] [generator](https://github.com/topics/generator/)
 - [x] [gui](https://github.com/topics/gui/)
