@@ -20230,6 +20230,31 @@
       },
     
       {
+        "topic_name": "teamfight-tactics",
+        "created_by": "Riot Games",
+        "display_name": "Teamfight Tactics",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/teamfight-tactics/teamfight-tactics.png",
+        
+        "released": "June 26, 2019",
+        "short_description": "Teamfight Tactics is an auto battler game developed and published by Riot Games.",
+        "url": "https://github.com/topics/teamfight-tactics",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Teamfight_Tactics",
+        "related": [
+          
+            "riot-games, league-of-legends, league-of-legends-wild-rift, legends-of-runeterra, valorant"
+          
+        ],
+        "aliases": [
+          
+            "teamfighttactics"
+          
+        ],
+        "content": "<p>Teamfight Tactics (TFT) is an auto battler game developed and published by Riot Games. The game is a spinoff of League of Legends and is based on Dota Auto Chess, where players compete online against seven other opponents by building a team to be the last one standing.</p>\n\n<h3 id=\"community--support\">Community &amp; Support</h3>\n<ul>\n  <li><a href=\"https://developer.riotgames.com/apis\">APIs</a></li>\n  <li><a href=\"https://developer.riotgames.com/docs/tft\">Documentation</a></li>\n  <li><a href=\"https://discord.com/invite/riotgamesdevrel\">Riot Games Third-Party Developer Community on Discord</a></li>\n</ul>\n"
+      },
+    
+      {
         "topic_name": "teeworlds",
         "created_by": "Magnus Auvinen",
         "display_name": "Teeworlds",
