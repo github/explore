@@ -1,12 +1,13 @@
 ---
 created_by: Eugen Rochko
 display_name: Mastodon
-github_url: https://github.com/tootsuite
+github_url: https://github.com/mastodon
 logo: mastodon.png
+related: activitypub, fediverse, microblog, social-network, webfinger
 released: October 5, 2016
-short_description: Mastodon is a free, decentralized, open-source microblogging network.
+short_description: Mastodon is a free, decentralized, open source microblogging network.
 topic: mastodon
 url: https://joinmastodon.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Mastodon_(software)
 ---
-Mastodon is a large social media network built as a decentralized federation of independently operated servers. It has a strong focus on privacy and anti-abuse features. Mastodon's server-side technology is Ruby on Rails, and its front end is written in JavaScript (React.js and Redux). It implements both the [OStatus](https://www.w3.org/community/ostatus/) and [ActivityPub](https://activitypub.rocks/) protocols and is thus interoperable with other social networks. [There are several client applications for different platforms available.](https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/Apps.md)
+Mastodon is a free and open source microblogging network built as a decentralized federation of independently-operated servers. The server-side technology is Ruby on Rails, and the front end is written in JavaScript (React.js and Redux). It implements the [ActivityPub](https://activitypub.rocks/) and [WebFinger](https://webfinger.net/) protocols for interoperability with other social networks. [There are several client applications for different platforms available.](https://joinmastodon.org/apps).
