@@ -17,8 +17,8 @@ items:
  - Kully/pixel-paint
  - pulkomandy/grafx2/
  - pixa-pics/pixa-pics.github.io
-display_name: Pixel Art Tools
-created_by: leereilly
-image: pixel-art-tools.png
+display_name: ice🧊erg I 19
+created_by: icebergi19
+image: iceberg.png
 ---
 Creating pixel art for fun or animated sprites for a game? The digital artist in you will love these apps and tools!
