@@ -1,5 +1,6 @@
 ---
 items:
+ - rahji/ghswapper
  - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
