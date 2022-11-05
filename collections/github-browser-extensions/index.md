@@ -1,6 +1,5 @@
 ---
 items:
- - rahji/ghswapper
  - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
@@ -40,6 +39,7 @@ items:
  - dderevjanik/github-vscode-icons
  - npmhub/npmhub
  - octobox/extension
+ - rahji/ghswapper
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
