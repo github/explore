@@ -56,7 +56,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [spring](https://github.com/topics/spring/)
 - [x] [statistics](https://github.com/topics/statistics/)
 - [x] [telegram-bot](https://github.com/topics/telegram-bot/)
-- [ ] [test](https://github.com/topics/test/)
+- [x] [test](https://github.com/topics/test/)
 - [ ] [tool](https://github.com/topics/tool/)
 - [ ] [tutorial](https://github.com/topics/tutorial/)
 - [x] [ui](https://github.com/topics/ui/)
