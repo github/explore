@@ -1,5 +1,6 @@
 ---
 items:
+ - GoFarsi/book
  - jadijadi/bestoon
  - jadijadi/justforfun
  - mr-hashemi/mr-hashemi
