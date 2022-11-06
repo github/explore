@@ -1,6 +1,7 @@
 ---
 display_name: Crawler
 short_description: A computer program that gathers and categorizes information on the World Wide Web.
+logo: crawler.png
 topic: crawler
 wikipedia_url: https://en.wikipedia.org/wiki/Web_crawler
 ---
