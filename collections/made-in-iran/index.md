@@ -19,6 +19,7 @@ items:
  - jadijadi/linuxandlife
  - KambizAsadzadeh/Project-Template
  - HyperDbg/HyperDbg
+ - GoFarsi/book
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
