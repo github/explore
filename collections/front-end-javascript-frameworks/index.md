@@ -25,6 +25,8 @@ items:
  - neomjs/neo
  - preactjs/preact
  - ionic-team/stencil
+ - withastro/astro
+ - BuilderIO/qwik
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
