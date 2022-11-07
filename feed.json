@@ -675,7 +675,11 @@
           
             "preactjs/preact",
           
-            "ionic-team/stencil"
+            "ionic-team/stencil",
+          
+            "withastro/astro",
+          
+            "BuilderIO/qwik"
           
         ],
         "created_by": "jonrohan",
