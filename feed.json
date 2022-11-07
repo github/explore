@@ -7705,6 +7705,27 @@
       },
     
       {
+        "topic_name": "crawler",
+        "created_by": null,
+        "display_name": "Crawler",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/crawler/crawler.png",
+        
+        "released": null,
+        "short_description": "A computer program that gathers and categorizes information on the World Wide Web.",
+        "url": "https://github.com/topics/crawler",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Web_crawler",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>A Web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web and that is typically operated by search engines for the purpose of Web indexing (web spidering).</p>\n"
+      },
+    
+      {
         "topic_name": "creative-commons",
         "created_by": "Creative Commons",
         "display_name": "Creative Commons License",
@@ -8074,6 +8095,27 @@
           
         ],
         "content": "<p>Dart is a general-purpose programming language originally developed by Google and later approved as a standard by Ecma (ECMA-408). It is used to build web, server, and mobile applications.</p>\n\n<p>Dart is an object-oriented, class defined language using a C-style syntax that transcompiles optionally into JavaScript. It supports interfaces, mixins, abstract classes, reified generics, static typing, and a sound type system.</p>\n"
+      },
+    
+      {
+        "topic_name": "data-analysis",
+        "created_by": null,
+        "display_name": "Data analysis",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "Data analysis is a process of inspecting, cleansing, transforming, and modeling data.",
+        "url": "https://github.com/topics/data-analysis",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Data_analysis",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Data analysis is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making.</p>\n"
       },
     
       {
