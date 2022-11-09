@@ -37,7 +37,6 @@ items:
  - klessydra/T02x
  - klessydra/F03x
  - stevehoover/RISC-V_MYTH_Workshop
- - haogwb/starsea_riscv
  - OSCPU/NutShell
  - riscvarchive/riscv-qemu
  - SpinalHDL/VexRiscv
