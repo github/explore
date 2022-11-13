@@ -1,5 +1,5 @@
 ---
-aliases: reducing-ghg-emissions, reducing-greenhouse-gas-emissions, reducing-carbon-emissions, recapturing-ghg-emissions, recapturing-greenhouse-gas-emissions, recapturing-carbon-emissions
+aliases: reducing-ghg-emissions, reducing-carbon-emissions, recapturing-ghg-emissions, recapturing-carbon-emissions
 created_by: Humanity
 display_name: Climate change mitigation
 github_url: https://github.com/topics/climate-change-mitigation
