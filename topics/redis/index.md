@@ -2,7 +2,7 @@
 aliases: redis-db, redisdb
 created_by: Salvatore Sanfilippo
 display_name: Redis
-github_url: https://github.com/antirez/redis
+github_url: https://github.com/redis/redis
 logo: redis.png
 released: May 10, 2009
 short_description: Redis is an in-memory data structure project implementing a distributed, in-memory key-value database with optional durability.

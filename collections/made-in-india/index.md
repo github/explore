@@ -5,7 +5,7 @@ items:
  - hoppscotch/hoppscotch
  - anuraghazra/github-readme-stats
  - hasura/graphql-engine
- - geekyants/nativebase
+ - GeekyAnts/NativeBase
  - kovidgoyal/calibre
  - frappe/erpnext
  - chatwoot/chatwoot
@@ -19,7 +19,7 @@ items:
  - frappe/frappe
  - spacecloud-io/space-cloud
  - shivammathur/setup-php
- - infracloudio/botkube
+ - kubeshop/botkube
  - SigNoz/signoz
  - uvdesk/community-skeleton
  - CRED-CLUB/synth-android
@@ -45,6 +45,8 @@ items:
  - ajeetdsouza/zoxide
  - Jaysmito101/TerraForge3D
  - keploy/keploy
+ - LambdaTest/test-at-scale
+ - arnav-kr/json-formatter
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png

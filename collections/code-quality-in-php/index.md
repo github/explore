@@ -1,7 +1,7 @@
 ---
 items:
  - squizlabs/PHP_CodeSniffer
- - FriendsOfPHP/PHP-CS-Fixer
+ - PHP-CS-Fixer/PHP-CS-Fixer
  - psecio/parse
  - phan/phan
  - sebastianbergmann/phpcpd

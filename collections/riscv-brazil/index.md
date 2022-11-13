@@ -3,7 +3,7 @@ items:
  - darklife/darkriscv
  - zxmarcos/riscado-v
  - racerxdl/riskow
- - duinos/riscuinho
+ - DuinOS/riscuinho
  - carlosedp/chiselv
 display_name: Risc-V Cores Made in Brazil
 created_by: carlosdelfino 

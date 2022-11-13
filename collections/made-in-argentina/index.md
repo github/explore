@@ -6,7 +6,7 @@ items:
   - redis/jedis
   - Mango/slideout
   - pazguille/offline-first
-  - aerolab/midnight.js
+  - Aerolab/midnight.js
   - cazala/synaptic
   - cazala/coin-hive
   - decentraland/marketplace

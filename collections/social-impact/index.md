@@ -10,14 +10,14 @@ items:
  - RefugeRestrooms/refugerestrooms
  - hurricane-response/florence-api
  - Terrastories/terrastories
- - rubyforgood/diaper
+ - rubyforgood/human-essentials
  - rubyforgood/playtime
  - rubyforgood/demand-progress
  - ebimodeling/ghgvc
  - raksha-life/rescuekerala
  - Data4Democracy/ethics-resources
  - civicdata/civicdata.github.io
- - yunity/karrot-frontend
+ - karrot-dev/karrot-frontend
 display_name: Social Impact
 created_by: bescalante
 ---

@@ -1,0 +1,23 @@
+title: GitHub Explore Feed
+description: Feed for GitHub Topics and Collections.
+
+repository: github/explore
+
+plugins:
+  - jekyll-redirect-from
+
+exclude:
+  - .git
+  - CODEOWNERS
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - Rakefile
+  - collections
+  - test
+  - topics
+  - vendor
+
+collections:
+  topics:
+  explore_collections:

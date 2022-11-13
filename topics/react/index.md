@@ -4,7 +4,7 @@ created_by: Jordan Walke
 display_name: React
 github_url: https://github.com/facebook/react
 logo: react.png
-related: vue, angular, react-native
+related: vue, angular, react-native, nextjs
 released: March 2013
 short_description: React is an open source JavaScript library used for designing user
   interfaces.

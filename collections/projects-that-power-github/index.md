@@ -1,6 +1,6 @@
 ---
 items:
- - codahale/bcrypt-ruby
+ - bcrypt-ruby/bcrypt-ruby
  - zeroclipboard/zeroclipboard
  - github/resque
  - leereilly/swot
@@ -16,11 +16,11 @@ items:
  - github/linguist
  - elastic/elasticsearch
  - rails/rails
- - antirez/redis
+ - redis/redis
  - rails/sprockets
  - libgit2/libgit2
  - libgit2/rugged
- - jch/html-pipeline
+ - gjtorikian/html-pipeline
  - github/gemoji
  - jekyll/jekyll
  - octokit/octokit.rb

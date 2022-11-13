@@ -1,7 +1,7 @@
 <!-- Thank you for contributing! -->
 ### Please confirm this pull request meets the following requirements:
 
-- [ ] I followed the contributing guidelines: <https://github.com/github/explore/blob/master/CONTRIBUTING.md>.
+- [ ] I followed the contributing guidelines: <https://github.com/github/explore/blob/main/CONTRIBUTING.md>.
 - [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).
 
 ### Which change are you proposing?
@@ -26,7 +26,7 @@ I'm suggesting these edits to an existing topic or collection:
 
 - [ ] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
 - [ ] My folder contains a `*.png` image (if applicable) and `index.md`
-- [ ] All required fields in my `index.md` conform to the Style Guide and API docs: <https://github.com/github/explore/tree/master/docs>
+- [ ] All required fields in my `index.md` conform to the Style Guide and API docs: <https://github.com/github/explore/tree/main/docs>
 
 > Please replace this line with an explanation of why you think this topic or collection should be curated.
 
@@ -35,7 +35,7 @@ I'm suggesting these edits to an existing topic or collection:
 
 - [ ] My suggested edits are not about an existing topic or collection, or at least not a single one
 - [ ] My suggested edits are not about curating a new topic or collection, or at least not a single one
-- [ ] My suggested edits conform to the Style Guide and API docs: https://github.com/github/explore/tree/master/docs
+- [ ] My suggested edits conform to the Style Guide and API docs: https://github.com/github/explore/tree/main/docs
 
 > Please replace this line with an explanation of your proposed changes.
 

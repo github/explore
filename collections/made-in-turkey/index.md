@@ -1,5 +1,6 @@
 ---
 items:
+ - ShareX/ShareX
  - furkandeveloper/EasyProfiler
  - isidentical/refactor
  - fatih/vim-go
@@ -16,9 +17,10 @@ items:
  - passwall/passwall-extension
  - passwall/passwall-desktop
  - passwall/passwall-web
- - pankod/refine
+ - refinedev/refine
  - pankod/superplate
- - huseyinnurbaki/mocktail
+ - Huseyinnurbaki/mocktail
+ - geziyor/geziyor
 display_name: Made in Turkey
 created_by: kiliczsh
 image: made-in-turkey.png

@@ -13,11 +13,11 @@ items:
  - minerva-cpu/minerva
  - onchipuis/mriscv
  - SpinalHDL/VexRiscv
- - roalogic/RV12
+ - RoaLogic/RV12
  - syntacore/scr1
  - SI-RISCV/e200_opensource
  - lcbcFoo/ReonV
- - cliffordwolf/picorv32
+ - YosysHQ/picorv32
  - tomverbeure/mr1
  - olofk/serv
  - chipsalliance/Cores-SweRV
@@ -37,7 +37,6 @@ items:
  - klessydra/T02x
  - klessydra/F03x
  - stevehoover/RISC-V_MYTH_Workshop
- - haogwb/starsea_riscv
  - OSCPU/NutShell
  - riscvarchive/riscv-qemu
  - SpinalHDL/VexRiscv
@@ -47,7 +46,7 @@ items:
  - zxmarcos/riscado-v
  - racerxdl/riskow
  - dev-board-tech/hdl-core-riscv-lite
- - DuinOS/RISCuinho
+ - DuinOS/riscuinho
  - Saanlima/RISC5Verilog_psram
  - Saanlima/RISC5Verilog_lpddr
  - jlpteaching/dinocpu

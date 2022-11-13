@@ -27,9 +27,9 @@ items:
  - hoanhan101/ultimate-go
  - ProxymanApp/Proxyman
  - bangoc123/learn-machine-learning-in-two-months
- - phuoc-ng/csslayout
+ - phuocng/csslayout
  - nguyenquangminh0711/ruby_jard
- - phuoc-ng/1loc
+ - phuocng/1loc
  - BambooEngine/ibus-bamboo
 display_name: Made in Vietnam
 created_by: duythanhvn

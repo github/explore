@@ -1,5 +1,5 @@
 ---
-aliases: windows-10, windows10, windows-7, windows-8
+aliases: windows-10, windows10, windows-7, windows-8, windows-11, windows11
 created_by: Microsoft Corporation
 display_name: Windows
 github_url: https://github.com/Microsoft

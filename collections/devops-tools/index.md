@@ -32,7 +32,7 @@ items:
  - apache/mesos
  - SeleniumHQ/selenium
  - opendiffy/diffy
- - drone/drone
+ - harness/drone
  - hashicorp/vault
  - NagiosEnterprises/nagioscore
  - zabbix/zabbix

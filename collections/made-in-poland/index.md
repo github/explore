@@ -1,13 +1,13 @@
 ---
 items:
- - mirumee/saleor
+ - saleor/saleor
  - callstack
  - software-mansion/react-native-reanimated
  - jsfiddle
  - impress/impress.js
  - sindresorhus/got
  - mirumee/ariadne
- - chaps-io/public_activity
+ - public-activity/public_activity
  - YetiForceCompany/YetiForceCRM
  - razorjack/quicksand
  - handsontable/handsontable
