@@ -1,5 +1,5 @@
 # Explore BdBVclub-NFTs
-https://linktr.ee/blesseddeebliss
+https://linktr.ee/bdbvclub
 
 https://bdbavatars.wlbl.xyz/ 
 
