@@ -16316,7 +16316,7 @@
             "pharo-smalltalk, pharo-project"
           
         ],
-        "content": "<p>Pharo is an open source dynamic and reflective language inspired from the programming language \nand integrated development environment (IDE) Smalltalk. \nPharo offers strong live programming features such as immediate object manipulation, \nlive update and hot recompiling. The live programming environment is at the heart of the system.</p>\n"
+        "content": "<p>Pharo is an open source dynamic and reflective language inspired from the Smalltalk programming language \nand integrated development environment (IDE). \nPharo offers strong live programming features such as immediate object manipulation, \nlive update and hot recompiling. The live programming environment is at the heart of the system.</p>\n"
       },
     
       {
