@@ -17,7 +17,7 @@ items:
  - persian-tools/persian-tools
  - usablica/intro.js
  - jadijadi/linuxandlife
- - KambizAsadzadeh/Project-Template
+ - genyleap/Project-Template
  - HyperDbg/HyperDbg
  - GoFarsi/book
 display_name: Made in Iran
