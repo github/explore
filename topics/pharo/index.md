@@ -10,7 +10,7 @@ topic: pharo
 url: https://pharo.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Pharo
 ---
-Pharo is an open source dynamic and reflective language inspired from the programming language 
-and integrated development environment (IDE) Smalltalk. 
+Pharo is an open source dynamic and reflective language inspired from the Smalltalk programming language 
+and integrated development environment (IDE). 
 Pharo offers strong live programming features such as immediate object manipulation, 
 live update and hot recompiling. The live programming environment is at the heart of the system.
