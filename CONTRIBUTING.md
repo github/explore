@@ -2,7 +2,7 @@
 
 Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
 
-This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).By participating, you are expected to uphold this code.
 
 There are a few ways you can contribute:
 
@@ -86,11 +86,11 @@ The [pull request template](./.github/PULL_REQUEST_TEMPLATE.md) also provides gu
 
 If a topic or collection is not yet curated, it will NOT be listed in its respective directory.
 
-We are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/) and could benefit from the addition of important information. When suggesting content, please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.
+We are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/) and could benefit from the addition of important information. When suggesting content,please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.
 
 Please note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.
 
-To propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
+To propose a new topic or collection, please **open a pull request** with your proposed additions.The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
 
 This repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).
 
@@ -106,7 +106,7 @@ There are some lint tests in place to ensure each topic is formatted in the way 
 Actions will run the tests automatically. If you want to run the tests yourself locally, you will
 need Ruby and Bundler installed.
 
-You can run the tests using:
+You can run the tests using following commands:
 
 ```bash
 bundle install
