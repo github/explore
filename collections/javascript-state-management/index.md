@@ -1,11 +1,11 @@
 ---
 items:
- - zerobias/effector
+ - effector/effector
  - mobxjs/mobx
  - reduxjs/redux
  - Yomguithereal/baobab
  - immerjs/immer
- - davidkpiano/xstate
+ - statelyai/xstate
  - cerebral/cerebral
  - storeon/storeon
  - artalar/reatom

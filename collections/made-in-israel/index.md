@@ -6,7 +6,7 @@ items:
  - wix/react-native-navigation
  - linnovate/mean
  - appwrite/appwrite
- - snyk/snyk
+ - snyk/cli
  - ealush/vest
  - aantn/smag
  - lirantal/licenseye

@@ -2,15 +2,19 @@
 items:
  - gnuradio/gnuradio
  - gnuradio/volk
- - csete/gqrx
+ - gqrx-sdr/gqrx
  - jgaeddert/liquid-dsp
  - miek/inspectrum
  - kpreid/shinysdr
  - RangeNetworks/openbts
- - srsRAN/srsRAN
+ - srsran/srsRAN
  - xmikos/qspectrumanalyzer
  - cjcliffe/CubicSDR
  - jopohl/urh
+ - AlbrechtL/welle.io
+ - merbanan/rtl_433
+ - fsphil/hacktv
+ - antirez/dump1090
  - https://www.youtube.com/embed/kWfU1G3Jq4w
 display_name: Software Defined Radio
 created_by: jbjonesjr

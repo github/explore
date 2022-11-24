@@ -1,5 +1,5 @@
 ---
-aliases: umbraco-cms, umbraco-backoffice, umbraco-v7, umbraco-v8
+aliases: umbraco-cms, umbraco-backoffice, umbraco-v7, umbraco-v8, umbraco-v9, umbraco-v10
 created_by: Niels Hartvig
 display_name: Umbraco
 github_url: https://github.com/umbraco/
