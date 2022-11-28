@@ -1,5 +1,6 @@
 ---
 items:
+ - komodorio/helm-dashboard
  - adobe/adobe.github.com
  - RedHatOfficial/RedHatOfficial.github.io
  - cfpb/cfpb.github.io
