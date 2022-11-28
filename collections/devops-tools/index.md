@@ -1,6 +1,7 @@
 ---
 items:
  - puppetlabs/puppet
+ - komodorio/helm-dashboard
  - chef/chef
  - ansible/ansible
  - hashicorp/terraform
