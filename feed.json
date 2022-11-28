@@ -10074,6 +10074,31 @@
       },
     
       {
+        "topic_name": "flightgear",
+        "created_by": "David Murr, Curt Olson, Michael Basler, Eric Korpela",
+        "display_name": "FlightGear",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/flightgear/flightgear.png",
+        
+        "released": "July 17, 1997",
+        "short_description": "FlightGear is a free to download flight simulator software.",
+        "url": "https://github.com/topics/flightgear",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/FlightGear",
+        "related": [
+          
+            "flightgear-addon, flightgear-aircraft, flightgear-scenery, flightgear-aircraft-models, flightgear-scripts"
+          
+        ],
+        "aliases": [
+          
+            "flightgear-flight-simulator, flightgear-simulator"
+          
+        ],
+        "content": "<p>FlightGear Flight Simulator (often shortened to FlightGear or FGFS) is a free, open source multi-platform flight simulator developed by the FlightGear project since 1997.</p>\n\n<p>David Murr started the project on April 8, 1996. The project had its first release in 1997 and continued in development. It has specific builds for a variety of operating systems including Microsoft Windows, macOS, Linux, IRIX, and Solaris.</p>\n\n<p>FlightGear is an atmospheric and orbital flight simulator used in aerospace research and industry. Its flight dynamics engine (JSBSim) is used in a 2015 NASA benchmark to judge new simulation code to the standards of the space industry.</p>\n"
+      },
+    
+      {
         "topic_name": "fluent-design",
         "created_by": "Microsoft",
         "display_name": "Fluent Design System",
