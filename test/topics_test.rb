@@ -263,8 +263,8 @@ describe "topics" do
 
           all_lines = lines.slice(1..-1)
           end_index = all_lines.index("---\n") ||
-            all_lines.index("---\r") ||
-            all_lines.index("---\r\n")
+                      all_lines.index("---\r") ||
+                      all_lines.index("---\r\n")
           assert end_index, "expected Jekyll front matter to end with ---"
         end
       end

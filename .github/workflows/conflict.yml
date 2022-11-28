@@ -7,6 +7,7 @@ on:
       - reopened
       - ready_for_review
       - edited
+  workflow_dispatch:
 
 jobs:
   fail:
