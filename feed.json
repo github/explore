@@ -909,7 +909,7 @@
           
             "github/government.github.com",
           
-            "electron/electronjs.org",
+            "electron/electronjs.org-old",
           
             "square/square.github.io",
           
@@ -1569,9 +1569,9 @@
           
             "alamkanak/Android-Week-View",
           
-            "appzcoder/crud-generator",
+            "sohelamin/crud-generator",
           
-            "appzcoder/laravel-admin",
+            "sohelamin/laravel-admin",
           
             "halfo/lambda-mod-zsh-theme",
           
@@ -2887,7 +2887,7 @@
           
             "dukechronicle/chronline",
           
-            "BloombergMedia/whatiscode",
+            "BloombergGraphics/whatiscode",
           
             "times/cardkit",
           
