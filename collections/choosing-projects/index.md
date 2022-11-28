@@ -1,6 +1,7 @@
 ---
 items:
  - rust-lang/rust
+ - komodorio/helm-dashboard
  - HospitalRun/hospitalrun-frontend
  - Homebrew/brew
  - https://www.youtube.com/embed/dSl_qnWO104
