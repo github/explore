@@ -10,6 +10,7 @@ logo: flightgear.png
 created_by: David Murr, Curt Olson, Michael Basler, Eric Korpela
 released: July 17, 1997
 ---
+
 FlightGear Flight Simulator (often shortened to FlightGear or FGFS) is a free, open source multi-platform flight simulator developed by the FlightGear project since 1997.
 
 David Murr started the project on April 8, 1996. The project had its first release in 1997 and continued in development. It has specific builds for a variety of operating systems including Microsoft Windows, macOS, Linux, IRIX, and Solaris.
