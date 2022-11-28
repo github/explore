@@ -258,7 +258,8 @@ describe "topics" do
           lines = File.readlines(path)
 
           refute lines.empty?
-          assert_equal "---\n", lines[0], "expected file to start with Jekyll front matter ---"
+          assert_includes ["---\n", "---\r", "---\r\n"], lines[0],
+                          "expected file to start with Jekyll front matter ---"
 
           end_index = lines.slice(1..-1).index("---\n")
           assert end_index, "expected Jekyll front matter to end with ---"

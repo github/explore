@@ -11,7 +11,7 @@ items:
  - TimeMagazineLabs/babynames
  - guardian/frontend
  - dukechronicle/chronline
- - BloombergMedia/whatiscode
+ - BloombergGraphics/whatiscode
  - times/cardkit
  - mkiser/WTFJHT
 display_name: Open journalism
