@@ -1,7 +1,7 @@
 ---
 created_by: Intel
 display_name: UEFI
-short_description: The Unified Extensible Firmware Interface (UEFI) is a publicly available specification that defines a software interface between an operating system and platform firmware.
+short_description: UEFI is a publicly available specification that defines a software interface between an operating system and platform firmware.
 topic: uefi
 logo: uefi.png
 url: https://www.4d.com/
