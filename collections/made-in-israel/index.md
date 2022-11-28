@@ -1,5 +1,6 @@
 ---
 items:
+ - komodorio/helm-dashboard
  - yaronn/blessed-contrib
  - getredash/redash
  - cool-RR/PySnooper
