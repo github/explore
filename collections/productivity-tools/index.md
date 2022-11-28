@@ -1,5 +1,6 @@
 ---
 items:
+ - komodorio/helm-dashboard
  - ohmyzsh/ohmyzsh
  - microsoft/terminal
  - ggreer/the_silver_searcher
