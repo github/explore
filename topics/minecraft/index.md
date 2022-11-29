@@ -3,6 +3,7 @@ aliases: minecraft-mod, minecraft-plugin
 created_by: Markus Persson, Jens Bergensten
 display_name: Minecraft
 logo: minecraft.png
+related: minecraft-bedrock-edition, minecraft-mod, minecraft-plugin
 released: November 18, 2011
 short_description: Minecraft is a sandbox video game.
 topic: minecraft
