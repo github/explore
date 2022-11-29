@@ -21922,6 +21922,29 @@
       },
     
       {
+        "topic_name": "vscode-extension",
+        "created_by": null,
+        "display_name": "VS Code Extension",
+        "github_url": "https://github.com/microsoft/vscode-extension-samples",
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "An extension for the Visual Studio Code editor.",
+        "url": "https://github.com/topics/vscode-extension",
+        "wikipedia_url": null,
+        "related": [
+          
+            "visual-studio-code"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Visual Studio Code is a free code editor from Microsoft, based on open source.</p>\n\n<p>Visual Studio Code is built with extensibility in mind. From the UI to the editing experience, almost every part of VS Code can be customized and enhanced through the Extension API.</p>\n"
+      },
+    
+      {
         "topic_name": "vue",
         "created_by": "Evan You",
         "display_name": "Vue.js",
