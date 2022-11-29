@@ -1,0 +1,21 @@
+name: Topics/Collections Test
+
+on:
+  workflow_run:
+    workflows: ["Topics Test", "Collections Test"]
+    types:
+      - completed
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for Topics or Collections test failure
+        if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+        uses: actions/github-script@v3
+        with:
+          script: |
+            core.setFailed('Topics or Collections test failed!')
+      - name: Check for Topics or Collections test failure
+        if: ${{ github.event.workflow_run.conclusion == 'success' }}
+        run: echo "Success!"
