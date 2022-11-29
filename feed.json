@@ -21120,6 +21120,27 @@
       },
     
       {
+        "topic_name": "uefi",
+        "created_by": "Intel",
+        "display_name": "UEFI",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/uefi/uefi.png",
+        
+        "released": null,
+        "short_description": "UEFI is a publicly available specification that defines a software interface between an operating system and platform firmware.",
+        "url": "https://github.com/topics/uefi",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/UEFI",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>The Unified Extensible Firmware Interface (UEFI) is a publicly available specification that defines a software interface between an operating system and platform firmware. UEFI replaces the legacy Basic Input/Output System (BIOS) boot firmware originally present in all IBM PC-compatible personal computers, with most UEFI firmware implementations providing support for legacy BIOS services. UEFI can support remote diagnostics and repair of computers, even with no operating system installed.</p>\n"
+      },
+    
+      {
         "topic_name": "ui-design",
         "created_by": null,
         "display_name": "User interface design",
