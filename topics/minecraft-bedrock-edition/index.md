@@ -1,5 +1,5 @@
 ---
-aliases: bedrock-edition, mcpe, minecraft-addon
+aliases: bedrock-edition, mcpe, mcbe, minecraft-addon
 created_by: Mojang Studios
 display_name: Minecraft Bedrock Edition
 logo: minecraft.png
