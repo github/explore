@@ -14486,6 +14486,29 @@
       },
     
       {
+        "topic_name": "minecraft-bedrock-edition",
+        "created_by": "Mojang Studios",
+        "display_name": "Minecraft Bedrock Edition",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/minecraft-bedrock-edition/minecraft-bedrock-edition.png",
+        
+        "released": "August 16, 2011",
+        "short_description": "Minecraft is a sandbox video game.",
+        "url": "https://github.com/topics/minecraft-bedrock-edition",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Minecraft",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "bedrock-edition, mcpe, mcbe, minecraft-addon"
+          
+        ],
+        "content": "<p>Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.</p>\n\n<p>Minecraft Bedrock Edition is the version of the game released for mobile devices, gaming consoles, and Windows devices.</p>\n"
+      },
+    
+      {
         "topic_name": "minecraft",
         "created_by": "Markus Persson, Jens Bergensten",
         "display_name": "Minecraft",
