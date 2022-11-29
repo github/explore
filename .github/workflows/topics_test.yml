@@ -1,0 +1,30 @@
+name: Topics Test
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'topics/**'
+  pull_request:
+    paths:
+      - 'topics/**'
+  workflow_dispatch:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build and test with Rake
+        run: bundle exec rake topics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
