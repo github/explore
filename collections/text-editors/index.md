@@ -34,6 +34,7 @@ items:
  - orbitalquark/textadept
  - apache/netbeans
  - adsr/mle
+ - DaveJarvis/keenwrite
 
 display_name: Text editors
 created_by: leereilly
