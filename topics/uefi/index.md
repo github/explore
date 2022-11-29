@@ -4,7 +4,7 @@ display_name: UEFI
 short_description: UEFI is a publicly available specification that defines a software interface between an operating system and platform firmware.
 topic: uefi
 logo: uefi.png
-url: https://www.4d.com/
+url: https://uefi.org/
 wikipedia_url: https://en.wikipedia.org/wiki/UEFI
 ---
 
