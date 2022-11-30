@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Check for Topics or Collections test failure
         if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-        uses: actions/github-script@v3
+        uses: actions/github-script@v6
         with:
           script: |
             core.setFailed('Topics or Collections test failed!')
