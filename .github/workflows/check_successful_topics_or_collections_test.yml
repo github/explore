@@ -2,7 +2,9 @@ name: Topics/Collections Test
 
 on:
   workflow_run:
-    workflows: ["Topics Test", "Collections Test"]
+    workflows: 
+      - Topics Test
+      - Collections Test
     types:
       - completed
 
