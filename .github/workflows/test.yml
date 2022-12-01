@@ -18,24 +18,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - uses: dorny/paths-filter@v2
-        id: filter
         with:
-          filters: |
-            topics:
-              - 'topics/**'
-            collections:
-              - 'collections/**'
+          fetch-depth: 0
+
+      - name: Get changed topic files
+        id: topics
+        if: matrix.test_type == 'topics'
+        run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep ^topics\/ | xargs)" >> $GITHUB_OUTPUT
+
+      - name: Get changed collection files
+        id: collections
+        if: matrix.test_type == 'collections'
+        run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep ^collections\/ | xargs)" >> $GITHUB_OUTPUT
 
       - name: Setup Ruby
-        if: steps.filter.outputs.topics == 'true' || steps.filter.outputs.collections == 'true'
+        if: ${{ steps.topics.outputs.changed || steps.collections.outputs.changed }}
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
 
       - name: Build and test with Rake
-        if: (matrix.test_type == 'topics' && steps.filter.outputs.topics == 'true') || (matrix.test_type == 'collections' && steps.filter.outputs.collections == 'true')
+        if: (matrix.test_type == 'topics' && steps.topics.outputs.changed) || (matrix.test_type == 'collections' && steps.collections.outputs.changed)
         run: bundle exec rake ${{ matrix.test_type }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOPIC_FILES: ${{ steps.topics.outputs.changed }}
+          COLLECTION_FILES: ${{ steps.collections.outputs.changed }}
