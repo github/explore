@@ -1,5 +1,4 @@
 ---
-aliases: minecraft-mod, minecraft-plugin
 created_by: Markus Persson, Jens Bergensten
 display_name: Minecraft
 logo: minecraft.png
