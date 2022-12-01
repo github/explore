@@ -14499,10 +14499,12 @@
         "wikipedia_url": "https://en.wikipedia.org/wiki/Minecraft",
         "related": [
           
+            "minecraft"
+          
         ],
         "aliases": [
           
-            "bedrock-edition, mcpe, mcbe, minecraft-addon"
+            "bedrock-edition, mcpe, mcbe"
           
         ],
         "content": "<p>Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.</p>\n\n<p>Minecraft Bedrock Edition is the version of the game released for mobile devices, gaming consoles, and Windows devices.</p>\n"
@@ -14522,10 +14524,10 @@
         "wikipedia_url": "https://en.wikipedia.org/wiki/Minecraft",
         "related": [
           
+            "minecraft-bedrock-edition"
+          
         ],
         "aliases": [
-          
-            "minecraft-mod, minecraft-plugin"
           
         ],
         "content": "<p>Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.</p>\n"
