@@ -34,7 +34,12 @@ def collections_dir
 end
 
 def collection_dirs
-  Dir["#{collections_dir}/*"].select do |entry|
+  collection_directories = ENV.fetch("COLLECTION_FILES", "collections/*").split(" ").map do |file|
+    directory = file.split("/")[1]
+    [collections_dir, directory].join("/")
+  end
+
+  Dir[*collection_directories].select do |entry|
     entry != "." && entry != ".." && File.directory?(entry)
   end
 end
