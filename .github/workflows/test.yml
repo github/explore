@@ -1,0 +1,41 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        test_type:
+          - collections
+          - topics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            topics:
+              - 'topics/**'
+            collections:
+              - 'collections/**'
+
+      - name: Setup Ruby
+        if: steps.filter.outputs.topics == 'true' || steps.filter.outputs.collections == 'true'
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build and test with Rake
+        if: (matrix.test_type == 'topics' && steps.filter.outputs.topics == 'true') || (matrix.test_type == 'collections' && steps.filter.outputs.collections == 'true')
+        run: bundle exec rake ${{ matrix.test_type }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
