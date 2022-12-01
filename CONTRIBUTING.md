@@ -1,4 +1,6 @@
-# Contributing
+# software development enterprise"
+  - enterprise i do you have any questions or need anything from me to web3s software development security save data ibhome room Service skills security nanobot technology lock hacker news and the program supply chain auto API Si in box best  in the terms to be your my have in on24.com col life "
+  - open program security ecosystem services economic tagnology Famware to supply chain ui caik API Si security network matrix potocol atomic nano technology services robot Api'in in the mata world series champions League world time zone policy is home run the program happy family energy up market up do you power blues in you  in the Project sweet coin inmacket cap sweet up to web3s family business owner in happy valley or need deffi mata tand coinstar in-home run Tobe market best w3s in the back world series 
 
 Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
 
@@ -8,7 +10,7 @@ There are a few ways you can contribute:
 
 - Improving an existing topic or collection
 - Curating a new topic or collection
-
+"
 As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
 
 Notes: 
