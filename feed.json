@@ -14486,6 +14486,29 @@
       },
     
       {
+        "topic_name": "minecraft-addon",
+        "created_by": null,
+        "display_name": "Minecraft Addon",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/minecraft-addon/minecraft-addon.png",
+        
+        "released": null,
+        "short_description": "Add-ons change mechanics and appearance of Minecraft BE.",
+        "url": "https://github.com/topics/minecraft-addon",
+        "wikipedia_url": null,
+        "related": [
+          
+            "minecraft-bedrock-edition, minecraft-mod, minecraft-plugin"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.</p>\n\n<p>Minecraft Bedrock Edition is the version of the game released for mobile devices, gaming consoles, and Windows devices.</p>\n\n<p>Add-ons are behavior and resource packs which change the mechanics and appearance of the game respectively.</p>\n"
+      },
+    
+      {
         "topic_name": "minecraft-bedrock-edition",
         "created_by": "Mojang Studios",
         "display_name": "Minecraft Bedrock Edition",
@@ -14536,6 +14559,54 @@
       },
     
       {
+        "topic_name": "minecraft-mod",
+        "created_by": null,
+        "display_name": "Minecraft Mod",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/minecraft-mod/minecraft-mod.png",
+        
+        "released": null,
+        "short_description": "Mods change Minecraft​'s game content in some way.",
+        "url": "https://github.com/topics/minecraft-mod",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Minecraft_modding",
+        "related": [
+          
+            "minecraft, minecraft-plugin, minecraft-addon"
+          
+        ],
+        "aliases": [
+          
+            "minecraft-modding"
+          
+        ],
+        "content": "<p>Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.</p>\n\n<p>Mods (short for modifications) change Minecraft​’s game content in some way, such as to make minor adjustments to the game’s mechanics or implement entirely new features.</p>\n"
+      },
+    
+      {
+        "topic_name": "minecraft-plugin",
+        "created_by": null,
+        "display_name": "Minecraft Plugin",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/minecraft-plugin/minecraft-plugin.png",
+        
+        "released": null,
+        "short_description": "A plugin (or a multiplayer plug-in) is an additive file for a Minecraft multiplayer server.",
+        "url": "https://github.com/topics/minecraft-plugin",
+        "wikipedia_url": null,
+        "related": [
+          
+            "minecraft, minecraft-mod, minecraft-addon"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.</p>\n\n<p>A plugin (or a multiplayer plug-in) is an additive file for a Minecraft multiplayer server. Plugins are often used to change certain aspects of the game, such as adding user rankings, or the addition of a “factions” game mode. Plugins do not change the game itself, as a mod does.</p>\n"
+      },
+    
+      {
         "topic_name": "minecraft",
         "created_by": "Markus Persson, Jens Bergensten",
         "display_name": "Minecraft",
@@ -14553,6 +14624,8 @@
           
         ],
         "aliases": [
+          
+            "minecraft-java"
           
         ],
         "content": "<p>Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.</p>\n"
