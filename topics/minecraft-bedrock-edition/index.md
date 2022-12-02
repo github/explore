@@ -1,8 +1,9 @@
 ---
-aliases: bedrock-edition, mcpe, mcbe, minecraft-addon
+aliases: bedrock-edition, mcpe, mcbe
 created_by: Mojang Studios
 display_name: Minecraft Bedrock Edition
 logo: minecraft-bedrock-edition.png
+related: minecraft
 released: August 16, 2011
 short_description: Minecraft is a sandbox video game.
 topic: minecraft-bedrock-edition
