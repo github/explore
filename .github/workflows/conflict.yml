@@ -21,5 +21,7 @@ jobs:
           echo "Thank you!"
           exit 1
         if: contains(github.event.pull_request.body, '- [ ] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).')
+        name: Fail
       - run: exit 0
         if: contains(github.event.pull_request.body, '- [x] I have no affiliation with the project I am suggesting (as a maintainer, creator, contractor, or employee).')
+        name: Succeed
