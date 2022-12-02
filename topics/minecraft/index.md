@@ -1,4 +1,5 @@
 ---
+aliases: minecraft-java
 created_by: Markus Persson, Jens Bergensten
 display_name: Minecraft
 logo: minecraft.png
