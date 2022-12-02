@@ -1,5 +1,5 @@
 ---
-created_by: Team Win
+created_by: TeamWin
 display_name: TWRP (software)
 short_description: Team Win Recovery Project (TWRP), pronounced "twerp", is an open-source software custom recovery image for Android-based devices.
 topic: twrp
