@@ -6,7 +6,6 @@ released: August 16, 2011
 short_description: Add-ons change mechanics and appearance of Minecraft BE.
 topic: minecraft-addon
 url: https://minecraft.net/
-wikipedia_url: https://en.wikipedia.org/wiki/Minecraft
 ---
 Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.
 
