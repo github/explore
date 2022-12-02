@@ -14511,6 +14511,31 @@
       },
     
       {
+        "topic_name": "minecraft-forge",
+        "created_by": null,
+        "display_name": "Minecraft CurseForge",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/minecraft-forge/minecraft-forge.png",
+        
+        "released": null,
+        "short_description": "CurseForge is a popular modloader for Minecraft.",
+        "url": "https://github.com/topics/minecraft-forge",
+        "wikipedia_url": null,
+        "related": [
+          
+            "minecraft, minecraft-mod, minecraft-modpack"
+          
+        ],
+        "aliases": [
+          
+            "minecraftforge, minecraft-forge-mod, minecraft-forge-mods, minecraft-forge-modpack, minecraft-forge-modpacks, minecraft-forge-modification"
+          
+        ],
+        "content": "<p>Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.</p>\n\n<p>CurseForge is the largest and safest repository for modded Minecraft, featuring thousands of mods, texture packs, and worlds.</p>\n"
+      },
+    
+      {
         "topic_name": "minecraft",
         "created_by": "Markus Persson, Jens Bergensten",
         "display_name": "Minecraft",
