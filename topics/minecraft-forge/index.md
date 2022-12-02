@@ -5,7 +5,7 @@ logo: minecraft-forge.png
 related: minecraft, minecraft-mod, minecraft-modpack
 short_description: CurseForge is a popular modloader for Minecraft.
 topic: minecraft-forge
-url: hhttps://www.curseforge.com/minecraft/
+url: https://www.curseforge.com/minecraft/
 ---
 Published by Mojang, Minecraft is a game that allows its players virtually unlimited creative and building authority in their 3D cube world.
 
