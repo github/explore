@@ -1,7 +1,7 @@
 ---
 aliases: minecraftforge
 display_name: Minecraft CurseForge
-# logo: minecraft-mod.png
+logo: minecraft-forge.png
 related: minecraft, minecraft-mod, minecraft-modpack
 short_description: CurseForge is a popular modloader for Minecraft.
 topic: minecraft-forge
