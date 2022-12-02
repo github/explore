@@ -38,7 +38,12 @@ def topics_dir
 end
 
 def topic_dirs
-  Dir["#{topics_dir}/*"].select do |entry|
+  topic_directories = ENV.fetch("TOPIC_FILES", "topics/*").split(" ").map do |file|
+    directory = file.split("/")[1]
+    [topics_dir, directory].join("/")
+  end
+
+  Dir[*topic_directories].select do |entry|
     entry != "." && entry != ".." && File.directory?(entry)
   end
 end
