@@ -2,7 +2,6 @@
 display_name: Minecraft Addon
 logo: minecraft-addon.png
 related: minecraft-bedrock-edition, minecraft-mod, minecraft-plugin
-released: August 16, 2011
 short_description: Add-ons change mechanics and appearance of Minecraft BE.
 topic: minecraft-addon
 url: https://minecraft.net/
