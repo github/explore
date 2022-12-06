@@ -28,6 +28,8 @@ items:
  - hashicorp/nomad
  - spinnaker/spinnaker
  - Kong/kong
+ - kubeshop/monokle
+ - kubeshop/testkube
  - jenkinsci/jenkins
  - apache/mesos
  - SeleniumHQ/selenium
