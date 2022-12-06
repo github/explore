@@ -15,6 +15,7 @@ items:
  - MahdiMajidzadeh/bootstrap-v4-rtl
  - imaNNeoFighT/fl_chart
  - persian-tools/persian-tools
+ - mohammad-hassani/iran-city
  - usablica/intro.js
  - jadijadi/linuxandlife
  - genyleap/Project-Template
