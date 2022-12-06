@@ -22513,6 +22513,31 @@
       },
     
       {
+        "topic_name": "wiki",
+        "created_by": null,
+        "display_name": "Wiki",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "Wikis are public, online repositories of information; created and often edited by many writers.",
+        "url": "https://github.com/topics/wiki",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wiki",
+        "related": [
+          
+            "mediawiki, wikipedia"
+          
+        ],
+        "aliases": [
+          
+            "wikis"
+          
+        ],
+        "content": "<p>Popularized by <a href=\"https://en.wikipedia.org\">Wikipedia</a>, wikis aim to be a comprehensive reference material to either specific or general subjects. Wikis typically consist of lots of individual articles, updated by a team of volunteer writers.</p>\n\n<p>Wikis are frequently hosted using open source software due to the open source nature of HTML; a popular example amongst these projects is <a href=\"https://www.mediawiki.org/\">MediaWiki</a>, being repsonsible for Wikipedia’s backend.</p>\n\n<p>GitHub allows for each repository to host <a href=\"https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis\">a wiki of their own</a>, allowing for detailed documentation of any repository’s function. GitHub wikis may be relevant to continued development, relevant to those utilizing a repository’s application, or a repository’s entire purpose.</p>\n"
+      },
+    
+      {
         "topic_name": "windows-subsystem-for-android",
         "created_by": "Microsoft",
         "display_name": "Windows Subsystem for Android (WSA)",
