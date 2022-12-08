@@ -29,7 +29,7 @@ GEM
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
     fastimage (2.2.6)
-    json (2.6.2)
+    json (2.6.3)
     method_source (1.0.0)
     minitest (5.16.3)
     multipart-post (2.2.3)
