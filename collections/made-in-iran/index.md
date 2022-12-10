@@ -4,10 +4,10 @@ items:
  - jadijadi/justforfun
  - mr-hashemi/mr-hashemi
  - pashmaklang/pashmak
- - sobhe/moratab
+ - roshan-research/moratab
  - PyFarsi/pyabr
  - jamedadi/yummy
- - sobhe/hazm
+ - roshan-research/hazm
  - rastikerdar/vazirmatn
  - mohebifar/made-in-iran
  - Hameds/APIs-made-in-Iran
