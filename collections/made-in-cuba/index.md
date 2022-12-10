@@ -1,6 +1,5 @@
 ---
 items:
- - n3omaster/bachecubano
  - codestrange
  - codestrange/matcom-messenger
  - daxslab/fotorecarga
