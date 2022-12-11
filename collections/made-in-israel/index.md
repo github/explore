@@ -1,6 +1,5 @@
 ---
 items:
- - komodorio/helm-dashboard
  - yaronn/blessed-contrib
  - getredash/redash
  - cool-RR/PySnooper
@@ -13,6 +12,7 @@ items:
  - lirantal/licenseye
  - lirantal/dockly
  - eranroz/HspellPy
+ - komodorio/helm-dashboard
 display_name: Made in Israel
 created_by: donno2048
 image: made-in-israel.png
