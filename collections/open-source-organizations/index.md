@@ -1,6 +1,5 @@
 ---
 items:
- - komodorio/helm-dashboard.github.com
  - adobe/adobe.github.com
  - RedHatOfficial/RedHatOfficial.github.io
  - cfpb/cfpb.github.io
@@ -30,6 +29,7 @@ items:
  - ExpediaGroup/expediagroup.github.io
  - wikimedia/wikimedia.github.io
  - fairfield-programming/fairfield-programming.github.io
+ - komodorio/helm-dashboard.github.com
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
