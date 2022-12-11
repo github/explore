@@ -1,6 +1,5 @@
 ---
 items:
- - komodorio/helm-dashboard
  - puppetlabs/puppet
  - chef/chef
  - ansible/ansible
@@ -37,6 +36,7 @@ items:
  - hashicorp/vault
  - NagiosEnterprises/nagioscore
  - zabbix/zabbix
+ - komodorio/helm-dashboard
  
 display_name: DevOps tools
 ---
