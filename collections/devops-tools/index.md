@@ -36,6 +36,7 @@ items:
  - hashicorp/vault
  - NagiosEnterprises/nagioscore
  - zabbix/zabbix
+ - komodorio/helm-dashboard
  
 display_name: DevOps tools
 ---
