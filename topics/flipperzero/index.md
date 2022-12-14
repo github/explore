@@ -1,7 +1,7 @@
 ---
 aliases: flipperzero
 display_name: Flipper Zero
-logo: flipperzero.png
+logo: flipper.png
 github_url: https://github.com/flipperdevices
 short_description: A hardware security module for your pocket. 
 topic: flipperzero
