@@ -21,6 +21,15 @@ bundle install
 bundle exec rubocop
 ```
 
+You might encounter an error when bundler installs `rdiscount`. To resolve this, set the cflag:
+
+```bash
+bundle config build.rdiscount --with-cflags=-"Wno-error=implicit-function-declaration"
+bundle install
+```
+
+Trouble following through? Here's a [video walkthrough](https://replayable.io/replay/639b2b10edb8ac0065938ab8/?share=f57E6Qva24xcJ8Mo5X26OA).
+
 ## Licenses
 
 Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) which gives you permission to use content for almost any purpose (but does not grant you any trademark permissions). See [notices](notices.md) for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.
