@@ -1,6 +1,6 @@
 ---
 display_name: Developer experience
-alias: dx
+aliases: dx
 short_description: Set of utilities, libraries or frameworks that help software engineers build productivity.
 topic: developer-experience
 ---
