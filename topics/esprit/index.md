@@ -4,7 +4,7 @@ display_name: École supérieure privée d'ingénierie et de technologie
 logo: esprit.png
 related: university
 github_url: https://github.com/Esprit-UP-ASI
-short_description: ESPRIT, is a private engineering school in Tunisia
+short_description: ESPRIT, is a private engineering school in Tunisia.
 released: March 1, 2003
 url: https://www.esprit.tn/
 topic: esprit
