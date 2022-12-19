@@ -5,7 +5,7 @@ display_name: VBA
 logo: vba.png
 related: language, visual-basic-6
 released: 1993 
-short_description: VBA (Visual Basic for Applications) is an implementation of Microsoft's event-driven programming language Visual Basic 6.0 built into most desktop Microsoft Office applications.
+short_description: VBA (Visual Basic for Applications) is an implementation of Visual Basic (classic) for Microsoft Office applications.
 topic: vba
 url: https://learn.microsoft.com/en-us/office/vba/api/overview/
 wikipedia_url: https://en.wikipedia.org/wiki/Visual_Basic_for_Applications
