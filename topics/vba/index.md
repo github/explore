@@ -1,5 +1,5 @@
 ---
-aliases: vba, vba7, visual-basic-for-applications, vba-macros
+aliases: vba7, visual-basic-for-applications, vba-macros
 created_by: Microsoft
 display_name: VBA
 logo: vba.png
