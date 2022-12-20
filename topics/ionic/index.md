@@ -1,6 +1,6 @@
 ---
 aliases: ionicframework
-topic: ui-toolkits
+topic: ionic
 github_url: https://github.com/ionic-team
 display_name: Ionic
 logo: ionic.png
@@ -8,4 +8,4 @@ short_description: Ionic is a well documented UI toolkit for progressive web-app
 url: https://ionicframework.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Ionic_(Framework)
 ---
-Ionic framework is an open-source UI toolkit for building performant, high-quality mobile apps, desktop apps, and progressive web apps using web technologies such as HTML, CSS, and JavaScript based on either Angular, React or Vue.
+Ionic framework is a open-source UI toolkit for building performant, high-quality mobile apps, desktop apps, and progressive web apps using web technologies such as HTML, CSS, and JavaScript based on either Angular, React or Vue.
