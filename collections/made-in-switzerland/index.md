@@ -8,5 +8,4 @@ display_name: Made in Switzerland
 created_by: Sigmale1000
 image: made-in-switzerland.png
 ---
-
 Open source projects built in or receiving significant contributions from Switzerland :ch: 
