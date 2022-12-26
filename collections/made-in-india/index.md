@@ -23,7 +23,7 @@ items:
  - SigNoz/signoz
  - uvdesk/community-skeleton
  - CRED-CLUB/synth-android
- - resetercss/reseter.css
+ - krshkun/reseter.css
  - pupilfirst/pupilfirst
  - kadalu/kadalu
  - project-sunbird
