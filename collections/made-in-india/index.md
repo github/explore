@@ -47,6 +47,7 @@ items:
  - keploy/keploy
  - LambdaTest/test-at-scale
  - arnav-kr/json-formatter
+ - obsei/obsei
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
