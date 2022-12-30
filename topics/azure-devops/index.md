@@ -2,8 +2,8 @@
 created_by: Microsoft
 display_name: Azure DevOps
 logo: azure-devops.png
-released: 2005, formerly Team Foundation Server (TFS) and Azure DevOps Server
-short_description: Azure DevOps is a Microsoft product that provides version control, reporting, requirements/project management, and automated builds/tests/release capabilities.
+released: October 2018
+short_description: Azure DevOps is a Microsoft product that provides version control, project management, and builds/tests/release features.
 topic: azure-devops
 url: https://dev.azure.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Visual_Studio#Azure_DevOps_Services
