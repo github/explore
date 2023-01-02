@@ -1,7 +1,7 @@
 ---
 created_by: SAP SE
 display_name: ABAP
-git_url: https://github.com/sap
+github_url: https://github.com/sap
 logo: abap.png
 related: language
 released: 1983
