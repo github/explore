@@ -24,4 +24,4 @@ jobs:
           auto_fix: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.owner.login == github.repository_owner }}
           rubocop: true
           rubocop_command_prefix: bundle exec
-          github_token: ${{ ACTIONS_TOKEN }}
+          github_token: ${{ secrets.ACTIONS_TOKEN }}
