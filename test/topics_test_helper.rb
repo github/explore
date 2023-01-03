@@ -58,6 +58,7 @@ def dirs_to_test
   end
 end
 
+
 def topics
   topic_dirs.map { |dir_path| File.basename(dir_path) }
 end
