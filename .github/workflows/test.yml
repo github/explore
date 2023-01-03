@@ -38,7 +38,7 @@ jobs:
         run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep ^collections\/ | xargs)" >> $GITHUB_OUTPUT
 
       - name: Setup Ruby
-        if: ${{ steps.topics.outputs.changed || steps.collections.outputs.changed }}
+        if: ${{ steps.topics.outputs.changed || steps.collections.outputs.changed || steps.all.outputs.changed }}
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
