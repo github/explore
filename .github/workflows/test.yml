@@ -25,7 +25,7 @@ jobs:
       - name: Get non-topic and non-collection changed files
         id: all
         if: matrix.test_type == 'all'
-        run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep -e '^topics\/' -e '^collections\/' | xargs)" >> $GITHUB_OUTPUT
+        run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep -ve '^topics\/' -ve '^collections\/' | xargs)" >> $GITHUB_OUTPUT
 
       - name: Get changed topic files
         id: topics
