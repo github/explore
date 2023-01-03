@@ -22,6 +22,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Get non-topic and non-collection changed files
+        id: all
+        if: matrix.test_type == 'all'
+        run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep -e '^topics\/' -e '^collections\/' | xargs)" >> $GITHUB_OUTPUT
+
       - name: Get changed topic files
         id: topics
         if: matrix.test_type == 'topics'
@@ -42,7 +47,7 @@ jobs:
         if: |
           (matrix.test_type == 'topics' && steps.topics.outputs.changed) ||
           (matrix.test_type == 'collections' && steps.collections.outputs.changed) ||
-          (matrix.test_type == 'all' && steps.collections.outputs.changed == '' && steps.topics.outputs.changed == '')
+          (matrix.test_type == 'all' && steps.all.outputs.changed)
         run: bundle exec rake ${{ matrix.test_type }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
