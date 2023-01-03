@@ -40,13 +40,21 @@ def topics_dir
 end
 
 def topic_dirs
-  topic_directories = ENV.fetch("TOPIC_FILES", "topics/*").split(" ").map do |file|
+  topic_directories = dirs_to_test.split(" ").map do |file|
     directory = file.split("/")[1]
     [topics_dir, directory].join("/")
   end
 
   Dir[*topic_directories].select do |entry|
     entry != "." && entry != ".." && File.directory?(entry)
+  end
+end
+
+def dirs_to_test
+  if ENV.fetch("TEST_ALL_FILES", false)
+    "topics/*"
+  else
+    ENV.fetch("TOPIC_FILES", "topics/*")
   end
 end
 
