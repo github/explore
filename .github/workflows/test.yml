@@ -53,3 +53,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TOPIC_FILES: ${{ steps.topics.outputs.changed }}
           COLLECTION_FILES: ${{ steps.collections.outputs.changed }}
+          TEST_ALL_FILES: ${{ steps.all.outputs.changed }}
