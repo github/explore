@@ -81,7 +81,9 @@
           
             "public-apis/public-apis",
           
-            "SerenityOS/serenity"
+            "SerenityOS/serenity",
+          
+            "komodorio/helm-dashboard"
           
         ],
         "created_by": "kytrinyx",
@@ -557,7 +559,9 @@
           
             "NagiosEnterprises/nagioscore",
           
-            "zabbix/zabbix"
+            "zabbix/zabbix",
+          
+            "komodorio/helm-dashboard"
           
         ],
         "created_by": null,
@@ -723,7 +727,7 @@
           
             "4ian/GDevelop",
           
-            "urho3d/Urho3D",
+            "urho3d/urho3d",
           
             "methusalah/OpenRTS",
           
@@ -1779,8 +1783,6 @@
     {
         "items": [
           
-            "n3omaster/bachecubano",
-          
             "codestrange",
           
             "codestrange/matcom-messenger",
@@ -1989,7 +1991,7 @@
           
             "CRED-CLUB/synth-android",
           
-            "resetercss/reseter.css",
+            "krshkun/gardevoir",
           
             "pupilfirst/pupilfirst",
           
@@ -2097,13 +2099,13 @@
           
             "pashmaklang/pashmak",
           
-            "sobhe/moratab",
+            "roshan-research/moratab",
           
             "PyFarsi/pyabr",
           
             "jamedadi/yummy",
           
-            "sobhe/hazm",
+            "roshan-research/hazm",
           
             "rastikerdar/vazirmatn",
           
@@ -2163,7 +2165,9 @@
           
             "lirantal/dockly",
           
-            "eranroz/HspellPy"
+            "eranroz/HspellPy",
+          
+            "komodorio/helm-dashboard"
           
         ],
         "created_by": "donno2048",
@@ -2179,7 +2183,7 @@
           
             "fastify/fastify",
           
-            "immuni-app/immuni",
+            "immuni-app/.github",
           
             "italia/covid19-opendata-vaccini",
           
@@ -2429,6 +2433,24 @@
           "https://github.com/explore_collections/made-in-spain/made-in-spain.png",
         
         "content": "<p>Open source projects built in or receiving significant contributions from Spain :es:</p>\n"
+      },
+    {
+        "items": [
+          
+            "daenuprobst/covid19-cases-switzerland",
+          
+            "OCA/l10n-switzerland",
+          
+            "interactivethings/swiss-maps"
+          
+        ],
+        "created_by": "Sigmale1000",
+        "name": "made-in-switzerland",
+        "display_name": "Made in Switzerland",
+        "image": 
+          "https://github.com/explore_collections/made-in-switzerland/made-in-switzerland.png",
+        
+        "content": "<p>Open source projects built in or receiving significant contributions from Switzerland :ch:</p>\n"
       },
     {
         "items": [
@@ -3037,7 +3059,9 @@
           
             "wikimedia/wikimedia.github.io",
           
-            "fairfield-programming/fairfield-programming.github.io"
+            "fairfield-programming/fairfield-programming.github.io",
+          
+            "komodorio/helm-dashboard"
           
         ],
         "created_by": "benbalter",
@@ -3797,11 +3821,7 @@
           
             "olofk/serv",
           
-            "chipsalliance/Cores-SweRV",
-          
-            "chipsalliance/Cores-SweRV-EL2",
-          
-            "chipsalliance/Cores-SweRV-EH2",
+            "chipsalliance/Cores-VeeR-EH1",
           
             "ultraembedded/biriscv",
           
@@ -4555,6 +4575,52 @@
       },
     
       {
+        "topic_name": "abap",
+        "created_by": "SAP SE",
+        "display_name": "ABAP",
+        "github_url": "https://github.com/sap",
+        "logo": 
+          "https://explore-feed.github.com/topics/abap/abap.png",
+        
+        "released": 1983,
+        "short_description": "ABAP is a high-level programming language created by the German software company SAP SE.",
+        "url": "https://github.com/topics/abap",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/ABAP",
+        "related": [
+          
+            "language"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>ABAP (Advanced Business Application Programming, originally Allgemeiner Berichts-Aufbereitungs-Prozessor, German for “general report preparation processor”) is a high-level programming language created by the German software company SAP SE.</p>\n\n<p>The <a href=\"https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm\">ABAP keyword documentation</a> describes the syntax and semantics of the keywords of programming language.</p>\n"
+      },
+    
+      {
+        "topic_name": "abapgit",
+        "created_by": "Lars Hvam",
+        "display_name": "abapGit",
+        "github_url": "https://github.com/abapGit/abapGit",
+        "logo": 
+          "https://explore-feed.github.com/topics/abapgit/abapgit.png",
+        
+        "released": "July 17, 2014",
+        "short_description": "abapGit is an open source Git client for ABAP, maintained and built by the community.",
+        "url": "https://github.com/topics/abapgit",
+        "wikipedia_url": null,
+        "related": [
+          
+            "git, abap"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>abapGit is a Git client for ABAP. It is the one and only way to publish <a href=\"https://github.com/topics/abap\">ABAP</a> projects on GitHub.</p>\n"
+      },
+    
+      {
         "topic_name": "action-adventure",
         "created_by": null,
         "display_name": "action-adventure",
@@ -4701,6 +4767,31 @@
       },
     
       {
+        "topic_name": "adobe-acrobat",
+        "created_by": null,
+        "display_name": "Adobe Acrobat",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/adobe-acrobat/adobe-acrobat.png",
+        
+        "released": null,
+        "short_description": "The main function of Adobe Acrobat is creating, viewing, and editing PDF documents.",
+        "url": "https://github.com/topics/adobe-acrobat",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Adobe_Acrobat",
+        "related": [
+          
+            "pdf-reader, edit-pdfs, pdf, pdf-editor, adobe"
+          
+        ],
+        "aliases": [
+          
+            "adobe-acrobat-dc, adobe-acrobat-reader"
+          
+        ],
+        "content": "<p>PDF is an abbreviation that stands for Portable Document Format. It’s a versatile file format created by Adobe that gives people an easy, reliable way to present and exchange documents - regardless of the software, hardware, or operating systems being used by anyone who views the document. \nThe PDF format is now an open standard, maintained by the International Organ zation for Standardization (ISO). PDF docs can contain links and buttons, form fields, audio, video, and business logic. They can be signed electronically and can easily be viewed on Windows or MacOS using the free Adobe Acrobat Reader software.</p>\n"
+      },
+    
+      {
         "topic_name": "advent-of-code",
         "created_by": "Eric Wastl",
         "display_name": "Advent of Code",
@@ -4717,7 +4808,7 @@
         ],
         "aliases": [
           
-            "aoc, adventofcode, advent-of-code-2015, aoc-2015, advent-of-code-2016, aoc-2016, advent-of-code-2017, aoc-2017, advent-of-code-2018, aoc-2018, advent-of-code-2019, aoc-2019, advent-of-code-2020, aoc-2020, advent-of-code-2021, aoc-2021"
+            "aoc, adventofcode, advent-of-code-2015, aoc-2015, advent-of-code-2016, aoc-2016, advent-of-code-2017, aoc-2017, advent-of-code-2018, aoc-2018, advent-of-code-2019, aoc-2019, advent-of-code-2020, aoc-2020, advent-of-code-2021, aoc-2021, advent-of-code-2022, aoc-2022"
           
         ],
         "content": "<p>Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.</p>\n\n<p>You don’t need a computer science background to participate - just a little programming knowledge and some problem solving skills will get you pretty far. Nor do you need a fancy computer; every problem has a solution that completes in at most 15 seconds on ten-year-old hardware.</p>\n"
@@ -5818,6 +5909,27 @@
           
         ],
         "content": "<p>Azure Developer CLI (azd) templates are idiomatic application templates created using the <code class=\"language-plaintext highlighter-rouge\">azd</code> conventions so that you can use <code class=\"language-plaintext highlighter-rouge\">azd</code> to get started on Azure. Each template includes application code, infrastructure as code files needed to provision the Azure resources, and configuration file to set up your continuous integration and delivery (CI/CD) pipeline.</p>\n"
+      },
+    
+      {
+        "topic_name": "azure-devops",
+        "created_by": "Microsoft",
+        "display_name": "Azure DevOps",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/azure-devops/azure-devops.png",
+        
+        "released": "October 2018",
+        "short_description": "Azure DevOps is a Microsoft product that provides version control, project management, and builds/tests/release features.",
+        "url": "https://github.com/topics/azure-devops",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Visual_Studio#Azure_DevOps_Services",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>Azure DevOps (formerly Team Foundation Server (TFS) and Visual Studio Team System (VSTS)) is a Microsoft product that provides version control (either TFVC or Git), reporting, requirements management, project management (for both agile and waterfall teams), automated builds, testing and release management capabilities. It covers the entire application lifecycle, and enables DevOps capabilities.</p>\n"
       },
     
       {
@@ -8478,6 +8590,29 @@
       },
     
       {
+        "topic_name": "developer-experience",
+        "created_by": null,
+        "display_name": "Developer experience",
+        "github_url": null,
+        "logo": 
+          null,
+        
+        "released": null,
+        "short_description": "Set of utilities, libraries or frameworks that help software engineers build productivity.",
+        "url": "https://github.com/topics/developer-experience",
+        "wikipedia_url": null,
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "dx"
+          
+        ],
+        "content": "<p>Developer experience, also abbreviated as DX means a set of utilities, libraries or frameworks that help software engineers build productivity surrounding their projects. A good DX helps developers ship features faster and more reliably.</p>\n"
+      },
+    
+      {
         "topic_name": "devops",
         "created_by": null,
         "display_name": "DevOps",
@@ -9207,6 +9342,29 @@
       },
     
       {
+        "topic_name": "emqx",
+        "created_by": "EMQ Technologies",
+        "display_name": "EMQX",
+        "github_url": "https://github.com/emqx",
+        "logo": 
+          "https://explore-feed.github.com/topics/emqx/emqx.png",
+        
+        "released": "January 8, 2015",
+        "short_description": "EMQX is a scalable open source MQTT broker for IoT, IIoT, and connected vehicles.",
+        "url": "https://github.com/topics/emqx",
+        "wikipedia_url": null,
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "emq, emqtt"
+          
+        ],
+        "content": "<p>EMQX is a scalable and popular open source MQTT broker with a high performance that connects 100M+ IoT devices in 1 cluster at 1ms latency.</p>\n"
+      },
+    
+      {
         "topic_name": "emulator",
         "created_by": null,
         "display_name": "Emulator",
@@ -9459,6 +9617,29 @@
           
         ],
         "content": "<p>The ESP8266 is a low-cost Wi-Fi microchip, with highly integrated chip designed to provide full internet connectivity and microcontroller capability in a small package. Perfectly suited for DIY projects in the Internet of Things (IoT) and automation fields.</p>\n"
+      },
+    
+      {
+        "topic_name": "esprit",
+        "created_by": "Tahar Ben Lakhdar",
+        "display_name": "ESPRIT",
+        "github_url": "https://github.com/Esprit-UP-ASI",
+        "logo": 
+          "https://explore-feed.github.com/topics/esprit/esprit.png",
+        
+        "released": "March 1, 2003",
+        "short_description": "ESPRIT, is a private engineering school in Tunisia.",
+        "url": "https://github.com/topics/esprit",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/ESPRIT_(School)",
+        "related": [
+          
+            "university"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>École supérieure privée d’ingénierie et de technologie (the Private Graduate School of Engineering and Technology) or ESPRIT is a private engineering school in Tunisia based in Ariana. ESPRIT also has a business school branch, the ESPRIT Business School.\nSince 2020, it has been part of the Honoris United Universities group.\nIn 2021, Entreprises Magazine ranks ESPRIT, Tunisia’s first engineering school.</p>\n"
       },
     
       {
@@ -10096,6 +10277,29 @@
           
         ],
         "content": "<p>FlightGear Flight Simulator (often shortened to FlightGear or FGFS) is a free, open source multi-platform flight simulator developed by the FlightGear project since 1997.</p>\n\n<p>David Murr started the project on April 8, 1996. The project had its first release in 1997 and continued in development. It has specific builds for a variety of operating systems including Microsoft Windows, macOS, Linux, IRIX, and Solaris.</p>\n\n<p>FlightGear is an atmospheric and orbital flight simulator used in aerospace research and industry. Its flight dynamics engine (JSBSim) is used in a 2015 NASA benchmark to judge new simulation code to the standards of the space industry.</p>\n"
+      },
+    
+      {
+        "topic_name": "flipperzero",
+        "created_by": null,
+        "display_name": "Flipper Zero",
+        "github_url": "https://github.com/flipperdevices",
+        "logo": 
+          "https://explore-feed.github.com/topics/flipperzero/flipperzero.png",
+        
+        "released": null,
+        "short_description": "A hardware security module for your pocket.",
+        "url": "https://github.com/topics/flipperzero",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Flipper_Zero",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "flipper-zero"
+          
+        ],
+        "content": "<p>The Flipper Zero is a hardware security module for your pocket. It is a small, open source, hacker-friendly device that allows you to store and manage your passwords, secrets, and keys in a secure way. It is based on the STM32F411CEU6 microcontroller and has a 2.4” color display, a microSD card slot, a USB-C connector, and a 3.7V 500mAh battery. The Flipper Zero is a part of the Flipper family of devices, which also includes the Flipper Desktop and Flipper Cloud.</p>\n"
       },
     
       {
@@ -12550,6 +12754,29 @@
           
         ],
         "content": "<p>A style if video game that presents its gameplay in a cinematic, scripted manner, often through the use of video or animation.</p>\n"
+      },
+    
+      {
+        "topic_name": "ionic",
+        "created_by": null,
+        "display_name": "Ionic",
+        "github_url": "https://github.com/ionic-team",
+        "logo": 
+          "https://explore-feed.github.com/topics/ionic/ionic.png",
+        
+        "released": null,
+        "short_description": "Ionic is a well documented UI toolkit for progressive web-app developement with Angular, React or Vue.",
+        "url": "https://github.com/topics/ionic",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ionic_(Framework)",
+        "related": [
+          
+        ],
+        "aliases": [
+          
+            "ionicframework"
+          
+        ],
+        "content": "<p>Ionic framework is a UI toolkit for building performant, high-quality mobile apps, desktop apps, and progressive web apps using web technologies such as HTML, CSS, and JavaScript based on either Angular, React or Vue.</p>\n"
       },
     
       {
@@ -21705,6 +21932,31 @@
       },
     
       {
+        "topic_name": "vba",
+        "created_by": "Microsoft",
+        "display_name": "VBA",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/vba/vba.png",
+        
+        "released": 1993,
+        "short_description": "VBA (Visual Basic for Applications) is an implementation of Visual Basic (classic) for Microsoft Office applications.",
+        "url": "https://github.com/topics/vba",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Visual_Basic_for_Applications",
+        "related": [
+          
+            "language, visual-basic-6"
+          
+        ],
+        "aliases": [
+          
+            "vba7, visual-basic-for-applications, vba-macros"
+          
+        ],
+        "content": "<p>VBA is an implementation of Microsoft’s event-driven programming language Visual Basic 6.0 built into most desktop Microsoft (and some Mac) Office applications.</p>\n"
+      },
+    
+      {
         "topic_name": "vehicle-simulator",
         "created_by": null,
         "display_name": "vehicle-simulator",
@@ -21875,7 +22127,7 @@
         "logo": 
           "https://explore-feed.github.com/topics/visual-basic/visual-basic.png",
         
-        "released": "May 1991",
+        "released": 2001,
         "short_description": "Visual Basic is an object-oriented and type-safe programming language.",
         "url": "https://github.com/topics/visual-basic",
         "wikipedia_url": "https://en.wikipedia.org/wiki/Visual_Basic_.NET",
@@ -22087,6 +22339,29 @@
       },
     
       {
+        "topic_name": "vrchat",
+        "created_by": null,
+        "display_name": "VRChat",
+        "github_url": "https://github.com/VRChat",
+        "logo": 
+          "https://explore-feed.github.com/topics/vrchat/vrchat.png",
+        
+        "released": null,
+        "short_description": "VRChat is an immersive virtual reality social platform.",
+        "url": "https://github.com/topics/vrchat",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/VRChat",
+        "related": [
+          
+            "udon, unity"
+          
+        ],
+        "aliases": [
+          
+        ],
+        "content": "<p>VRChat is an online virtual world platform which allows users to interact with others with user-created 3D avatars and worlds.</p>\n"
+      },
+    
+      {
         "topic_name": "vscode-extension",
         "created_by": null,
         "display_name": "VS Code Extension",
@@ -22132,6 +22407,31 @@
           
         ],
         "content": "<p>Vue is a JavaScript framework for building websites. The intent of Vue is to make the integration of other JavaScript libraries easy. It is designed to organize and simplify web development.</p>\n"
+      },
+    
+      {
+        "topic_name": "vut",
+        "created_by": null,
+        "display_name": "Vysoké učení technické v Brně",
+        "github_url": null,
+        "logo": 
+          "https://explore-feed.github.com/topics/vut/vut.png",
+        
+        "released": null,
+        "short_description": "Vysoké učení technické v Brně (VUT), a Czech university of technical, economic and artistic studies.",
+        "url": "https://github.com/topics/vut",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brno_University_of_Technology",
+        "related": [
+          
+            "university, education, vut-fit"
+          
+        ],
+        "aliases": [
+          
+            "vutbr, brno-university-of-technology"
+          
+        ],
+        "content": "<p>Vysoké učení technické v Brně (VUT), or Brno University of Technology (BUT) in English, is a Czech public vocational university located in Brno, Czechia, offering technical, natural scientific, economic and artistic disciplines with eight faculties and three institutes. Founded in 1899, VUT is one of the largest universities in the Czech Republic, cooperating with numerous research institutions and consistently ranking in QS World University Rankings and EECA University Rankings.</p>\n"
       },
     
       {
