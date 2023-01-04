@@ -2,8 +2,7 @@
 aliases: m68k, 68k, m68000, 68000, 68000-series, 68000-family, 68000-processor, mc68000, motorola-680x0
 created_by: Motorola
 display_name: Motorola 68000
-related: 68k-assembly, assembly-68000, m68k-atari-mint, m68k-assembly, m68k-disassembler, m68k-assembly, m68k-elf-gcc, assembly-m68k, m68k-emulation, motorola-6805
-
+related: 68k-assembly, assembly-68000, m68k-atari-mint, m68k-assembly, m68k-disassembler, m68k-elf-gcc, assembly-m68k, m68k-emulation, motorola-6805
 released: 1979
 short_description: The Motorola 68000 is a 16/32-bit microprocessor (family).
 topic: motorola-68000
