@@ -22,7 +22,7 @@ Information included in this repository will appear on each topic's respective p
 - [x] [cryptography](https://github.com/topics/cryptography/)
 - [x] [data-analysis](https://github.com/topics/data-analysis/)
 - [x] [data-science](https://github.com/topics/data-science/)
-- [ ] [data](https://github.com/topics/data/)
+- [x] [data](https://github.com/topics/data/)
 - [ ] [demo](https://github.com/topics/demo/)
 - [x] [devops](https://github.com/topics/devops/)
 - [x] [docker-compose](https://github.com/topics/docker-compose/)
