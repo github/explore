@@ -1,8 +1,7 @@
 ---
-aliases: motorola-68000, m68k, m68000
+aliases: m68k, m68000
 created_by: Motorola
 display_name: Motorola 68000
-logo: motorola-68000.png
 related: assembly, cpu, microprocessor, processor,
 released: 1979
 short_description: The Motorola 68000 is a 16/32-bit microprocessor (family).
