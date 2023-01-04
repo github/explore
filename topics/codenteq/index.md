@@ -1,5 +1,5 @@
 ---
-aliases: codenteq, e-exam, codenteq-open-source,
+aliases: codenteq-open-source, e-exam
 created_by: Ahmet Sefa Arşiv, Ali Karabay
 display_name: Codenteq
 github_url: https://github.com/codenteq
