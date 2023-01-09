@@ -1,6 +1,5 @@
 ---
 items:
-
  - SchweizerischeBundesbahnen/springboot-graceful-shutdown
  - Sigmale1000/neonote
  - daenuprobst/covid19-cases-switzerland
