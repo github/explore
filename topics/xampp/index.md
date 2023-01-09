@@ -4,7 +4,7 @@ created_by: Apache Friends
 display_name: XAMPP
 logo: xampp.png
 released: 2002
-short_description: XAMPP is the combination of the Apache web server, the MySQL database and scripting langs
+short_description: XAMPP is the combination of the Apache web server, the MySQL database and scripting langs.
 topic: xampp
 url: https://www.apachefriends.org/de/index.html
 wikipedia_url: https://de.wikipedia.org/wiki/XAMPP
