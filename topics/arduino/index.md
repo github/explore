@@ -5,7 +5,7 @@ github_url: https://github.com/arduino
 logo: arduino.png
 related: electronics, microcontroller, programming, raspberry-pi
 released: March 21, 2005
-short_description: Arduino is an open-source platform for building electronic devices.
+short_description: Arduino is an open source platform for building electronic devices.
 topic: arduino
 url: https://www.arduino.cc/
 wikipedia_url: https://en.wikipedia.org/wiki/Arduino
