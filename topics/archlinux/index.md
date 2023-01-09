@@ -1,5 +1,5 @@
 ---
-aliases: arch, arch-linux, archlinux
+aliases: arch, arch-linux   
 created_by: Judd Vinet
 display_name: Arch Linux
 github_url: https://github.com/archlinux

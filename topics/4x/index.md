@@ -2,7 +2,6 @@
 aliases: 4x-game, xxxx
 display_name: 4X
 topic: 4x
-logo: 4x.png
 related: command-and-conquer, real-time-strategy, strategy, empire-building
 short_description: A genre of video game where players control an empire and "explore, expand, exploit, and exterminate".
 wikipedia_url: https://en.wikipedia.org/wiki/4X

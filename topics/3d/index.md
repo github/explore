@@ -1,7 +1,7 @@
 ---
 aliases: 3d-printing, 3d-graphics, 3d-modeling, 3d-animation, 3d-cad, 3d-rendering, 3d-models
 display_name: 3D
-short_description: 3D refers to the use of three-dimensional graphics, modeling, and animation in various industries, including film, video games, and product design.
+short_description: 3D refers to the use of three-dimensional graphics, modeling, and animation in various industries.
 related: graphics, animation, modeling, cad, printing, computer-graphics, product-design, video-games
 topic: 3d
 wikipedia_url: https://en.wikipedia.org/wiki/3D_computer_graphics
