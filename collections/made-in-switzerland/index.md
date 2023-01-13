@@ -1,11 +1,10 @@
 ---
 items:
- - SchweizerischeBundesbahnen/springboot-graceful-shutdown
- - Sigmale1000/neonote
  - daenuprobst/covid19-cases-switzerland
- - LarsWerkman/HoloColorPicker
  - OCA/l10n-switzerland
  - interactivethings/swiss-maps
+ - SchweizerischeBundesbahnen/springboot-graceful-shutdown
+ - LarsWerkman/HoloColorPicker
 
 display_name: Made in Switzerland
 created_by: Sigmale1000
