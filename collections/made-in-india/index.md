@@ -23,7 +23,7 @@ items:
  - SigNoz/signoz
  - uvdesk/community-skeleton
  - CRED-CLUB/synth-android
- - krshkun/gardevoir
+ - krshoss/gardevoir
  - pupilfirst/pupilfirst
  - kadalu/kadalu
  - project-sunbird
