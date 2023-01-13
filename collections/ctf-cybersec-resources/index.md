@@ -59,7 +59,7 @@ items:
  - belane/I-CTF-FWHIBBIT
  - ihebski/factordb
  - CFI-UL/2018-CFI-CTF
- - Execut3/Held-CTF
+ - Execut3/CTF
  - teambi0s/InCTFj
  - trimstray/the-book-of-secret-knowledge
  - ctf-wiki/ctf-wiki
