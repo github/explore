@@ -1,6 +1,5 @@
 ---
 display_name: Syntax Highlighting
-related: 
 short_description: A feature of text editors that displays text in different colors.
 topic: syntax-highlighting
 wikipedia_url: https://en.wikipedia.org/wiki/Syntax_highlighting
