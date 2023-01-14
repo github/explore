@@ -2,10 +2,14 @@
 aliases: adobe-acrobat-dc, adobe-acrobat-reader
 display_name: Adobe Acrobat
 logo: adobe-acrobat.png
-related: pdf-reader, edit-pdfs, pdf, pdf-editor, adobe
-short_description: The main function of Adobe Acrobat is creating, viewing, and editing PDF documents.
+related: pdf-reader, pdf, pdf-editor, adobe, document-management, digital-signatures
+short_description: Adobe Acrobat is a software suite used for creating, viewing, and editing PDF documents.
 topic: adobe-acrobat
+url: https://www.adobe.com/acrobat
 wikipedia_url: https://en.wikipedia.org/wiki/Adobe_Acrobat
 ---
-PDF is an abbreviation that stands for Portable Document Format. It's a versatile file format created by Adobe that gives people an easy, reliable way to present and exchange documents - regardless of the software, hardware, or operating systems being used by anyone who views the document. 
-The PDF format is now an open standard, maintained by the International Organ zation for Standardization (ISO). PDF docs can contain links and buttons, form fields, audio, video, and business logic. They can be signed electronically and can easily be viewed on Windows or MacOS using the free Adobe Acrobat Reader software. 
+Adobe Acrobat is a software suite used for creating, viewing, and editing PDF (Portable Document Format) documents. It is developed and maintained by Adobe Systems and is available for Windows and macOS.
+
+One of the main functions of Adobe Acrobat is to allow users to create and edit PDF documents. This includes features such as adding text, images, and links to a PDF, as well as the ability to fill out and submit PDF forms. Adobe Acrobat also includes tools for organizing and managing PDF documents, such as the ability to merge multiple PDFs into a single document and add digital signatures.
+
+In addition to its editing and management capabilities, Adobe Acrobat also includes a PDF reader, allowing users to view PDFs on their computers without the need for additional software.
