@@ -8,6 +8,7 @@ items:
  - cocos2d/cocos2d-x
  - Gamua/Starling-Framework
  - gameplay3d/gameplay
+ - defold/defold
  - jMonkeyEngine/jmonkeyengine
  - SFTtech/openage
  - MonoGame/MonoGame
