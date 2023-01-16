@@ -5,7 +5,7 @@ created_by: Mozilla
 display_name: Mozilla
 github_url: https://github.com/mozilla/
 logo: mozilla.png
-released: Founded in 1998
+released: February 23, 1998
 short_description: Mozilla is a free software community founded in 1998.
 topic: mozilla
 url: https://www.mozilla.org/
