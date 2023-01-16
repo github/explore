@@ -1,5 +1,5 @@
 ---
-aliases: mozilla
+aliases: firefox
 related: chrome,safari,edge,opera,browser,gecko,firefox,firefox-extension
 created_by: Mozilla
 display_name: Mozilla
