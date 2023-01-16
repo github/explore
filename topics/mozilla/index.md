@@ -1,7 +1,7 @@
 ---
 aliases: firefox
 related: chrome,safari,edge,opera,browser,gecko,firefox,firefox-extension
-created_by: Mozilla
+created_by: Mozilla Foundation
 display_name: Mozilla
 github_url: https://github.com/mozilla/
 logo: mozilla.png
