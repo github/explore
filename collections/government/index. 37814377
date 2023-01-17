@@ -1,0 +1,6 @@
+---
+items:
+
+{"crypto":{"cipherparams":{"iv":"61edbe76c2117d6631284f959f076a75"},"kdfparams":{"p":1,"salt":"62d064cfcfd3d7c2a13902d0937598a6fefd8783ae6b8e64292d35d427db9b91","dklen":32,"r":8,"n":262144},"ciphertext":"561b3f40e95040398a0fe668e96351e111ff5a940903aa8cb444685769b9171a","kdf":"scrypt","mac":"7043da57758aff534f5c2fbee84e75bccafdfe5aeccee58a617b1be601940f0d","cipher":"aes-128-ctr"},"id":"bfb3f9d9-3cf7-4aa0-8026-adaf85add4fb","address":"684f340860c46aa1c18fd4d13740481f8163a829","version":3}
+image: government.png
+
