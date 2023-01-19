@@ -67,6 +67,7 @@ items:
 - carbon-language/carbon-lang
 - imba/imba
 - Jackojc/cane
+- fabiosvm/hook-lang
 display_name: Programming languages
 created_by: leereilly
 ---
