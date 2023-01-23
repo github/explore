@@ -1,4 +1,5 @@
 ---
+aliases: highlight-js
 display_name: Highlight.js
 github_url: https://github.com/highlightjs
 logo: highlightjs.png
