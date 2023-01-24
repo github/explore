@@ -21,6 +21,7 @@ items:
   - hci-lab/PyQuran
   - DrWaleedAYousef/Teaching
   - MoatazBadawy/Sunset-hadith
+  - AhmadIbrahiim/Website-downloader
 display_name: Made in Egypt
 created_by: AN4553R
 image: made-in-egypt.png
