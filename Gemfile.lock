@@ -32,7 +32,7 @@ GEM
     json (2.6.3)
     method_source (1.0.0)
     minitest (5.16.3)
-    multipart-post (2.2.3)
+    multipart-post (2.3.0)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
