@@ -1,5 +1,5 @@
 ---
-aliases: stata, stata-command, stata-packages, stata-package
+aliases: stata-command, stata-packages, stata-package
 display_name: Stata
 created_by: StataCorp
 logo: stata.png
