@@ -1,5 +1,5 @@
 ---
-aliases: altvmp, altmp
+aliases: altvmp 
 display_name: alt:V
 logo: altv.png
 short_description: A free alternative multiplayer platform for GTA:V.
