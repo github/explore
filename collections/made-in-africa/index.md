@@ -19,6 +19,7 @@ items:
  - beopencloud/cno
  - javascriptdata/danfojs
  - bangajs/banga-cli
+ - amar-jay/go-graphql-boilerplate
 display_name: Made in Africa
 created_by: mozzadrella
 ---
