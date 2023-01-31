@@ -1,6 +1,7 @@
 ---
 items:
  - acekyd/made-in-nigeria
+ - amar-jay/go-graphql-boilerplate
  - frontlinesms/frontlinesms2
  - ushahidi/SMSSync
  - praekeltfoundation/vumi
