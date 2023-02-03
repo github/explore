@@ -1,4 +1,5 @@
 ---
+aliases: mc-server, mcpe-server, bedrock-server
 display_name: Minecraft Server
 logo: minecraft-server.png
 related: minecraft

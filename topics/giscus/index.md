@@ -6,4 +6,4 @@ github_url: https://github.com/giscus/giscus
 url: https://giscus.app/
 logo: giscus.png
 ---
-Giscus is a website comments system powered by Github Discussions.
+Giscus is a website comments system powered by GitHub Discussions.
