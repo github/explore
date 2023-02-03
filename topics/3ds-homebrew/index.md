@@ -3,7 +3,7 @@ aliases: nintendo-3ds-homebrew, 3ds-custom-firmware
 created_by: Nintendo
 display_name: Nintendo 3DS Homebrew
 short_description: 3DS Homebrew is the task of producing and running custom code for the Nintendo 3DS system.
-related: homebrew, custom-firmware, nintendo-3ds
+related: custom-firmware, nintendo-3ds
 released: 2011
 topic: 3ds-homebrew
 logo: 3ds-homebrew.png

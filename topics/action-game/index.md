@@ -1,7 +1,6 @@
 ---
 display_name: Action Game
 topic: action-game
-aliases: action-based-game, action-packed-game
 related: action-adventure-game, platformer, first-person-shooter, hack-and-slash, fighting-game
 released: 1970
 short_description: A genre of video game that emphasizes fast-paced gameplay and physical challenges.

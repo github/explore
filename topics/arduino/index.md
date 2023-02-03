@@ -3,7 +3,7 @@ created_by: Massimo Banzi, David Cuartielles, Tom Igoe, Gianluca Martino
 display_name: Arduino
 github_url: https://github.com/arduino
 logo: arduino.png
-related: electronics, microcontroller, programming, raspberry-pi
+related: electronics, microcontroller, raspberry-pi
 released: March 21, 2005
 short_description: Arduino is an open source platform for building electronic devices.
 topic: arduino

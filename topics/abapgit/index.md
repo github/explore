@@ -1,7 +1,6 @@
 ---
 created_by: Lars Hvam
 display_name: abapGit
-aliases: abap-git, sap-git, git-abap
 github_url: https://github.com/abapGit/abapGit
 logo: abapgit.png
 related: git, abap, version-control, source-code-management

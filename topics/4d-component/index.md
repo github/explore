@@ -4,7 +4,7 @@ display_name: 4D Components
 short_description: 4D components are sets of 4D methods, classes and forms that add new functionalities to 4D applications.
 topic: 4d-component
 logo: 4d-component.png
-related: 4d, database, software-development, programming, app-development
+related: 4d
 url: https://www.4d.com/
 wikipedia_url: https://en.wikipedia.org/wiki/4th_Dimension_(software)
 ---

@@ -1,10 +1,10 @@
 ---
-aliases: arch, arch-linux   
+aliases: arch, arch-linux
 created_by: Judd Vinet
 display_name: Arch Linux
 github_url: https://github.com/archlinux
 logo: archlinux.png
-related: linux, aur, pacman, pkgbuilds, arch-linux-packages, arch-linux-setup, rolling-release, package-management, lightweight, customizability
+related: linux, aur, pacman, pkgbuilds, arch-linux-packages, arch-linux-setup
 released: March 11, 2002
 short_description: A lightweight and flexible Linux distribution that tries to Keep It Simple.
 topic: archlinux

@@ -3,7 +3,7 @@ created_by: SAP SE
 display_name: ABAP
 github_url: https://github.com/sap
 logo: abap.png
-related: language, programming, sap, enterprise-resource-planning
+related: language, sap, enterprise-resource-planning
 released: 1983
 short_description: ABAP is a high-level programming language for enterprise resource planning systems developed by SAP.
 topic: abap
