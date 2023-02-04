@@ -1,6 +1,5 @@
 ---
 items:
- - 996icu/996.ICU
  - alibaba/arthas
  - alibaba/p3c
  - alibaba/druid
