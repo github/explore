@@ -9,7 +9,7 @@ items:
  - shakiba/stage.js
  - cocos2d/cocos2d-html5
  - playcanvas/engine
- - cookiengineer/lycheejs
+ - ARC-MARKET/lycheejs
  - BabylonJS/Babylon.js
  - ekelokorpi/panda-engine
  - qiciengine/qiciengine
