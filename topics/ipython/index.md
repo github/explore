@@ -2,7 +2,7 @@
 created_by: ipython
 display_name: IPython
 github_url: https://github.com/ipython/ipython
-logo: IPy_logo.png
+logo: ipython.png
 related: python, jupyter, repl, notebook
 released: January 30, 2006
 short_description: IPython (Interactive Python) is a command shell for interactive computing in multiple programming languages.
