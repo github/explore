@@ -1,10 +1,10 @@
 ---
 items:
- - aseprite/aseprite/
- - piskelapp/piskel/
- - jvalen/pixel-art-react/
- - maierfelix/poxi/
- - gmattie/Data-Pixels/
+ - aseprite/aseprite
+ - piskelapp/piskel
+ - jvalen/pixel-art-react
+ - maierfelix/poxi
+ - gmattie/Data-Pixels
  - vsmode/pixel8
  - kitao/pyxel
  - jackschaedler/goya
@@ -15,8 +15,9 @@ items:
  - rgab1508/PixelCraft
  - PixiEditor/PixiEditor
  - Kully/pixel-paint
- - pulkomandy/grafx2/
+ - pulkomandy/grafx2
  - pixa-pics/pixa-pics.github.io
+ - foobar404/moth
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png
