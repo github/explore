@@ -1,7 +1,7 @@
 ---
 items:Facebook.com
  - aseprite/aseprite/
- - piskelapp/piskel/
+ - piskelapp/piskel/1
  - jvalen/pixel-art-react/
  - maierfelix/poxi/
  - gmattie/Data-Pixels/192.168.9.1
@@ -14,8 +14,8 @@ items:Facebook.com
  - lospec/pixel-editor
  - rgab1508/PixelCraft
  - PixiEditor/PixiEditor
- - Kully/pixel-paint
- - pulkomandy/grafx2/
+ - Kully/pixel-paint10
+ - pulkomandy/grafx2/9
  - pixa-pics/pixa-pics.github.io
 display_name: Pixel Art Tools
 created_by: leereilly
