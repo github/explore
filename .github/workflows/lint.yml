@@ -20,8 +20,13 @@ jobs:
           bundler-cache: true
 
       - name: Run linters
+        if: ${{ github.event_name != 'merge_group' }}
         uses: wearerequired/lint-action@v2
         with:
           auto_fix: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.owner.login == github.repository_owner }}
           rubocop: true
           rubocop_command_prefix: bundle exec
+
+      - name: Skip with successful status
+        if: ${{ github.event_name == 'merge_group' }}
+        run: exit 0
