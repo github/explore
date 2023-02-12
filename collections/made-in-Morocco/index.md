@@ -9,7 +9,7 @@ items:
   - redouanelg/AppliedMathsInDarija
   - yjose/reactjs-popup
   - Edd13Mora/HackerNewsBdarija
-  - leriaetnasta/OpenAI-Question-Answering-API
+  
   
 display_name: Made in Morocco
 created_by: leriaetnasta
