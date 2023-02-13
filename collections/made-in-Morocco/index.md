@@ -13,6 +13,6 @@ items:
   
 display_name: Made in Morocco
 created_by: leriaetnasta
-image: Flag_of_Morocco.svg.png
+image: made-in-nmorocco.png
 ---
 Open source projects built in or receiving significant contributions from Morocco :morocco:
