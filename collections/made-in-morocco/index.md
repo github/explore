@@ -1,6 +1,6 @@
 ---
 items:
-  - DevC-Casa/geeksblabla.com
+  - geeksblabla/geeksblabla.com
   - mouadziani/laravel-mercanet
   - darija-open-dataset/dataset
   - ngMorocco/ngx-darija
