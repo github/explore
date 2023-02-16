@@ -1,7 +1,7 @@
 ---
 display_name: Deta Space
 github_url: https://github.com/deta/
-logo: deta.png
+logo: deta-space.png
 short_description: \"Personal cloud\" app marketplace and development/hosting platform.
 topic: deta-space
 url: https://www.deta.space/
