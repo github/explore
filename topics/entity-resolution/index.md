@@ -1,9 +1,9 @@
 ---
-aliases: entity-matching, entity-linking, link-discovery, deduplication, de-duplication, data-matching,  record-linkage, data-disambigation, data-matching
+aliases: entity-matching, entity-linking, link-discovery, deduplication, de-duplication, data-matching,  record-linkage, data-disambigation
 created_by: Halbert L. Dunn
 display_name: Entity resolution
 released: 1946
-short_description: Entity Resolution is the task of detecting different entity profiles that describe the same real-world objects
+short_description: Entity Resolution is the task of detecting different entity profiles that describe the same real-world objects.
 topic: entity-resolution
 related: artificial-intelligence, nlp
 github_url: https://github.com/entity-resolution
