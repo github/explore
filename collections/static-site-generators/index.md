@@ -10,7 +10,7 @@ items:
  - getpelican/pelican
  - facebook/docusaurus
  - slatedocs/slate
- - nuxt/nuxt.js
+ - nuxt/nuxt
  - gridsome/gridsome
  - middleman/middleman
  - react-static/react-static

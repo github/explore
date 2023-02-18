@@ -1,4 +1,5 @@
 ---
+aliases: minecraft-bedrock-addon, mcpe-addon, minecraftpe-mods
 display_name: Minecraft Addon
 logo: minecraft-addon.png
 related: minecraft-bedrock-edition, minecraft-mod, minecraft-plugin

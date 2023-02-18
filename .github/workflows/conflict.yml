@@ -2,7 +2,7 @@ name: Check for conflicts of interest
 
 on:
   pull_request:
-  pull_request_review:
+  merge_group:
 
 jobs:
   check:

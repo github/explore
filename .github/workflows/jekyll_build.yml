@@ -1,30 +1,52 @@
 name: Build and Publish Jekyll for GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  jekyll:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: 📂 setup
+    - name: 📂 checkout
       uses: actions/checkout@v3
 
     - name: 💎 setup ruby
-      uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
       with:
-        ruby-version: 3.1.2
+        bundler-cache: true
+        cache-version: 0
+
+    - name: 📄 setup pages
+      id: pages
+      uses: actions/configure-pages@v3
 
     - name: 🔨 install dependencies & build site
-      uses: limjh16/jekyll-action-ts@v2
-      with:
-        enable_cache: true
-        
-    - name: 🚀 deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
-        publish_branch: gh-pages
+      uses: actions/jekyll-build-pages@v1.0.7
+      
+    - name: ⚡️ upload artifact
+      uses: actions/upload-pages-artifact@v1
+
+  deploy:
+    needs: build
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚀 deploy
+        id: deployment
+        uses: actions/deploy-pages@v1.2.4

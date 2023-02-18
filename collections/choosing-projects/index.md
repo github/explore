@@ -6,6 +6,8 @@ items:
  - https://www.youtube.com/embed/dSl_qnWO104
  - public-apis/public-apis
  - SerenityOS/serenity
+ - komodorio/helm-dashboard
+ - cloudquery/cloudquery
 display_name: How to choose (and contribute to) your first open source project
 created_by: kytrinyx
 ---

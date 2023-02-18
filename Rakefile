@@ -29,3 +29,4 @@ task collections: :test
 
 desc "Run all tests"
 task default: :test
+task all: :default
