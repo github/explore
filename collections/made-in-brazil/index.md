@@ -22,6 +22,8 @@ items:
   - backend-br/desafios
   - backend-br/vagas
   - githubpresente/octogatosconf22
+  - lipe14-ops/isostore
+  - lipe14-ops/brasilapy
   
 display_name: Made in Brazil
 created_by: caarlos0
