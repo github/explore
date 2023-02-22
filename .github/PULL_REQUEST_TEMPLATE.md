@@ -42,3 +42,4 @@ I'm suggesting these edits to an existing topic or collection:
 ---
 
 **Please note: we will close your PR without comment if you do not check the boxes above and provide ALL requested information.**
+[![Rails - Install dependencies and run linters](https://github.com/github/explore/actions/workflows/rubyonrails-lint.yml/badge.svg?branch=create-pr-action%2Fupdate-collections-0&event=check_run)](https://github.com/github/explore/actions/workflows/rubyonrails-lint.yml)
