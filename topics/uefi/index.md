@@ -2,7 +2,6 @@
 created_by: Intel
 display_name: UEFI
 short_description: UEFI is a publicly available specification that defines a software interface between an operating system and platform firmware.
-github_url: https://github.com/Intel
 topic: uefi
 logo: uefi.png
 url: https://uefi.org/
