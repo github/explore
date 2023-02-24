@@ -1,5 +1,5 @@
 ---
-aliases: deep-neural-network,
+aliases: deep-neural-network
 display_name: Deep neural networks
 short_description: ANNs that are deep in the sense that they have many layers of hidden units between the input and output layers.
 topic: deep-neural-networks
