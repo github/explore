@@ -1,5 +1,5 @@
 ---
-aliases: cs, copmsci, comp-sci
+aliases: cs, compsci, comp-sci
 display_name: Computer science
 short_description: Study of computers and computational systems, including their design, development, and application in various fields.
 topic: computer-science
