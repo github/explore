@@ -1,12 +1,11 @@
 ---
 display_name: ActionScript
 topic: actionscript
-aliases: as
 created_by: Gary Grossman
 logo: actionscript.png
 related: flash, adobe-flash, flash-player, adobe-air, air, as3, as2 
 released: 1998
-short_description: A object-oriented programming language used in Flash Player applications
+short_description: A object-oriented programming language used in Flash Player applications.
 wikipedia_url: https://en.wikipedia.org/wiki/ActionScript
 ---
 
