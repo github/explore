@@ -1,7 +1,6 @@
 ---
 display_name: Disk image
 topic: disk-image
-aliases: disk-copy, image-disk, copy-disk
 short_description: A disk image is a snapshot of a storage device's structure and mostly stored in (a) computer file(s) on another storage device.
 wikipedia_url: https://en.wikipedia.org/wiki/Disk_image
 ---
