@@ -12,7 +12,7 @@ items:
  - takanassyi/react-and-rekognition
  - takanassyi/react-tutorial-ts-mui
  - thepureinx000/crowdmeeting
- - ERS-HCL/react-atomic-lib
+ - technextacg/react-atomic-lib
 display_name: Material-UI Projects Using Atomic Design
 created_by: trentschnee
 ---
