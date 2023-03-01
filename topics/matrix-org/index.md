@@ -4,7 +4,7 @@ topic: matrix-org
 github_url: https://github.com/matrix-org
 display_name: Matrix
 logo: matrix.png
-short_description: An open network for secure, decentralized communication
+short_description: An open network for secure, decentralized communication.
 url: https://matrix.org/
 wikipedia_url: https://fr.wikipedia.org/wiki/Matrix_(protocole)
 ---
