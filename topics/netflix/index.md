@@ -1,5 +1,5 @@
 ---
-aliases: netflix
+aliases: none
 topic: netflix
 github_url: https://github.com/Netflix
 display_name: Netflix
