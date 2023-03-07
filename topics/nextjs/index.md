@@ -1,5 +1,5 @@
 ---
-aliases: next, next-js
+aliases: next, next-js, next.js
 created_by: Vercel
 display_name: Next
 github_url: https://github.com/vercel/next.js
