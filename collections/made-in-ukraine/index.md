@@ -9,7 +9,11 @@ items:
  - trailofbits/algo
  - RedisInsight/RedisDesktopManager
  - trekhleb/homemade-machine-learning
+ - react-bootstrap/react-bootstrap
+ - avajs/ava
  - vadimdemedes/ink
+ - graphql/graphql-js
+ - Redocly/redoc
  - spaceship-prompt/spaceship-prompt
  - aio-libs/aiohttp
  - pnpm/pnpm
