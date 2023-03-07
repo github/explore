@@ -1,5 +1,5 @@
 ---
-aliases: low-code-development, low-code-production
+aliases: low-code-development
 display_name: Low code
 short_description: Developing software with minimal coding experience using visual interfaces and pre-built components.
 topic: low-code
