@@ -17,7 +17,7 @@ items:
  - docsifyjs/docsify
  - mkdocs/mkdocs
  - sintaxi/harp
- - netlify/netlify-cms
+ - decaporg/decap-cms
  - jaspervdj/hakyll
  - umijs/umi
  - abelljs/abell
