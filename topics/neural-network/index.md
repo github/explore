@@ -1,6 +1,7 @@
 ---
 aliases: artificial-neural-network
 display_name: Neural Network
+logo: neuralnetwork.png
 related: machine-learning, deep-learning, tensorflow
 short_description: Artificial neural network is a computational model based on the structure and functions of biological neural networks.
 topic: neural-network
