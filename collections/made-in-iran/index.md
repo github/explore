@@ -20,6 +20,7 @@ items:
  - genyleap/Project-Template
  - HyperDbg/HyperDbg
  - GoFarsi/book
+ - PlatypusSec/Platypus
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
