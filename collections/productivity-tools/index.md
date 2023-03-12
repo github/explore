@@ -10,13 +10,13 @@ items:
  - rtyley/bfg-repo-cleaner
  - mhagger/git-imerge
  - eddiezane/lunchy
- - Slackadays/Clipboard
  - awaescher/RepoZ
  - sharkdp/fd
  - BurntSushi/ripgrep
  - stedolan/jq
  - alacritty/alacritty
  - ajeetdsouza/zoxide
+ - Slackadays/Clipboard
 display_name: Software productivity tools
 created_by: holman
 ---
