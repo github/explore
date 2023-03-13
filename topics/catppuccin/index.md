@@ -1,5 +1,4 @@
 ---
-aliases: catppuccin
 created_by: Pocco81
 display_name: Catppuccin
 github_url: https://github.com/catppuccin
