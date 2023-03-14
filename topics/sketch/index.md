@@ -1,13 +1,13 @@
 ---
-aliases: sketch-plugin
-created_by: Pieter Omvlee
-display_name: Sketch
-github_url: https://github.com/BohemianCoding
-logo: sketch.png
-released: September 7, 2010
-short_description: Sketch is a vector graphics editor for Apple's macOS, used primarily for user interface and icon design.
-topic: sketch
-url: https://www.sketchapp.com/
-wikipedia_url: https://en.wikipedia.org/wiki/Sketch_(application)
+aliases: slack messaging, slack chat
+created_by: Slack Technologies
+display_name: Slack
+github_url: https://github.com/slackapi
+logo: slack.png
+released: August 2013
+short_description: Slack is a cloud-based instant messaging and collaboration platform for teams and organizations.
+topic: slack
+url: https://slack.com/
+wikipedia_url: https://en.wikipedia.org/wiki/Slack_(software)
 ---
-Sketch is a digital design toolkit built for designers, intended for editing vector graphics in macOS. It is used primarily for user interface and icon design.
+Slack is a cloud-based instant messaging and collaboration platform designed for teams and organizations to communicate and work together efficiently. It offers features such as channels, direct messaging, file sharing, and integration with various third-party applications. Slack is available on desktop and mobile devices, and has become a popular tool for remote work and team collaboration. It was released in August 2013 by Slack Technologies.
