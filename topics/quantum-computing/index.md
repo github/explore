@@ -1,5 +1,5 @@
 ---
-aliases: quantum, quantum-computing
+aliases: quantum, quantum-computer, quantum-computers
 created_by: Sigmale1000
 display_name: Quantum Computing
 github_url: https://github.com/qsharp-community
