@@ -1,5 +1,4 @@
 ---
-aliases: implementation
 created_by: OpenAI
 display_name: ChatGPT API
 logo: chatgpt-api.png
