@@ -1,6 +1,6 @@
 ---
 aliases: quantum, quantum-computer, quantum-computers
-created_by: Sigmale1000
+created_by: Richard Feynman and Yuri Manin
 display_name: Quantum Computing
 github_url: https://github.com/qsharp-community
 logo: quantum-computing.png
