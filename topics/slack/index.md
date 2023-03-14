@@ -1,5 +1,5 @@
 ---
-aliases: slack messaging, slack chat
+aliases: slack-messaging, slack-chat
 created_by: Slack Technologies
 display_name: Slack
 github_url: https://github.com/slackapi
