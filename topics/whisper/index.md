@@ -2,7 +2,6 @@
 created_by: OpenAI
 display_name: Whisper
 github_url: https://github.com/openai/whisper
-logo: whisper.png
 related: machine-learning, artificial-intelligence, language-modeling
 released: August 2021
 short_description: Whisper is an autoregressive language model that generates high-quality natural language text.
