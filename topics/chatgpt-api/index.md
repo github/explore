@@ -1,9 +1,9 @@
 ---
-aliases: chatgpt, implementation
+aliases: implementation
 created_by: OpenAI
 display_name: ChatGPT API
 logo: chatgpt-api.png
-related: artificial-intelligence, machine-learning, natural-language-processing
+related: artificial-intelligence, machine-learning, natural-language-processing, chatgpt, openai
 released: 2022
 short_description: ChatGPT API is a RESTful API that provides a simple interface to interact with OpenAI's GPT-3 and GPT-Neo language models.
 topic: chatgpt-api
