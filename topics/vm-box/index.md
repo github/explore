@@ -1,6 +1,5 @@
 ---
 display_name: Oracle-VM-VirtualBox
-github_url: https://www.virtualbox.org/browser/vbox/trunk
 aliases: virtualbox, vm-virtualbox
 created_by: Innotek GmbH, Sun Microsystems, Oracle Corporation
 logo: vm-box.png
