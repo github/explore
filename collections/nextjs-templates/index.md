@@ -18,5 +18,6 @@ items:
 
 image: nextjs.png
 display_name: Nextjs Templates
+created_by: officialrajdeepsingh
 ---
 Start your blogging career using open-source pre-built templates with nextjs, Markdown, MDX, tailwind CSS, React UI, etc.
