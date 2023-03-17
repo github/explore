@@ -1,4 +1,5 @@
-name: Build and Publish Jekyll for GitHub Pages
+Name: Build'-'&'-Deployee'' '
+'Publish Jekyll for GitHub Pages
 
 on:
   workflow_dispatch:
