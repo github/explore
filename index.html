@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Suraj's Web</title>
+</head>
+
+<body>
+     <div class="center">
+          <fieldset aria-setsize="center">
+               <h1><b>Celsius to Fahrenheit Converter</b></h1>
+               <label><b>Enter Celsius:</b></label>
+               <input type="number" id="celsius" placeholder="Enter Celsius" />
+               <br><br><br>
+               <b><button onclick="convert()">Convert</button></b>
+               <br><br><br>
+               <B><label>Fahrenheit:</label></B>
+               <input type="text" id="fahrenheit" readonly />
+               <script>
+                    function convert() {
+                         var celsius = parseFloat(document.getElementById("celsius").value);
+                         var fahrenheit = (celsius * 1.8) + 32;
+                         document.getElementById("fahrenheit").value = fahrenheit.toFixed(2);
+                    }
+               </script>
+          </fieldset>
+     </div>
+     <style>
+          label {
+
+
+               color: black
+          }
+
+          button {
+               margin-left: 15%;
+               font-size: large;
+               background-color: greenyellow;
+
+          }
+
+          h1 {
+
+               margin-left: 15%
+          }
+
+          fieldset {
+               background-color: yellow;
+          }
+
+          .center {
+               position: absolute;
+               top: 40%;
+               left: 45%;
+               transform: translate(-30%, -30%);
+               width: 600px;
+
+               background-color: yellowgreen;
+               border: 600px;
+          }
+
+          body {
+               background-color: aqua;
+          }
+     </style>
+</body>
+
+</html>
