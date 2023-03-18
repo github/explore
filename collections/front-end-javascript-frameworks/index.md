@@ -26,6 +26,7 @@ items:
  - preactjs/preact
  - ionic-team/stencil
  - withastro/astro
+ - vercel/next.js
  - BuilderIO/qwik
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
