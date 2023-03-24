@@ -28,6 +28,8 @@ items:
  - thesabbir/simple-line-icons
  - usmanhalalit/charisma
  - usmanhalalit/laracsv
+ - rakibdevs/number-to-bangla
+ - rakibdevs/mrz-parser
 
 display_name: Made in Bangladesh
 created_by: kuttumiah
