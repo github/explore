@@ -7,7 +7,7 @@ logo: prestashop.png
 related: platform
 released: 2007
 short_description: PrestaShop is a open source e-commerce platform. PrestaShop is currently used by 300,000 shops worldwide and is available in 60 different languages.
-topic: php,mysql,symfony,ecommerce,smarty,prestashop
+topic: prestashop
 url: https://www.prestashop-project.org/
 wikipedia_url: https://en.wikipedia.org/wiki/PrestaShop
 ---
