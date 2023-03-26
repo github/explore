@@ -1,15 +1,13 @@
 ---
 aliases: webextensions,web-extension,web-extensions,browserext
 related: w3c, browser, firefox, firefox-extension, chrome, chrome-extension, mozilla, opera, edge
-created_by: Browser Extension Community Group
 display_name: WebExtension
-released: May 7, 2015
-short_description: Universal standard for creating add-ons that allow users to customize their web browser.
+short_description: Universal specification for creating browser extensions that allow users to customize their web browser.
 topic: webextension
-url: https://browserext.github.io
+url: https://github.com/w3c/webextensions
 ---
-Universal standard for creating browser extensions.
+A common approach to building browser extensions supported by multiple web browsers.
 
-Working through a W3C charter group, Mozilla has partnered with Microsoft and Opera to define a browser extension API that works across multiple browsers. 
+The goal: produced a preliminary specification that described an browser extension platform that was closely modeled after Chrome's approach. Extensions written to this specification could potentially work on Chrome, Edge, Opera and Firefox. Currently, extension developers are collaborating to increase compatibility across browsers and to specify a common extension platform.
 
-There is currently a preliminary specification that matches what Google has implemented in Chrome so that extensions written to the specification could potentially work on Chrome, Edge, Opera and Firefox.
+WebExtensions were first specified by the [Browser Extension Community Group](https://browserext.github.io/). Due to the drop in activity in this pioneering group, they have invited their participants to participate in a new and more active one: [WebExtension Community Group](https://github.com/w3c/webextensions).
