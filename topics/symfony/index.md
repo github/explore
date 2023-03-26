@@ -1,5 +1,5 @@
 ---
-aliases: symfony2, symfony3, symfony4,symfony4,symfony6,symfony-framework,symfony-component, symfony-bundle
+aliases: symfony2, symfony3, symfony4,symfony5,symfony6,symfony-framework,symfony-component, symfony-bundle
 related: prestashop, laravel, cakephp, codeigniter, php, php-framework, php-component, php-library, php-package
 created_by: Fabien Potencier
 display_name: Symfony
