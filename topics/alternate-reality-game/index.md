@@ -1,5 +1,5 @@
 ---
-display_name: alternate-reality-game
+display_name: Alternate reality game
 topic: alternate-reality-game
 aliases: alternate-reality, arg
 related: virtual-reality

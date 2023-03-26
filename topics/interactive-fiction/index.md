@@ -1,5 +1,5 @@
 ---
-display_name: interactive-fiction
+display_name: Interactive fiction
 topic: interactive-fiction
 aliases: if
 related: visual-novel, text-adventure

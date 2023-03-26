@@ -1,7 +1,6 @@
 ---
 items:
  - rust-lang/rust
- - HospitalRun/hospitalrun-frontend
  - Homebrew/brew
  - https://www.youtube.com/embed/dSl_qnWO104
  - public-apis/public-apis

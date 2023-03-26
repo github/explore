@@ -16,6 +16,7 @@ items:
  - stedolan/jq
  - alacritty/alacritty
  - ajeetdsouza/zoxide
+ - Slackadays/Clipboard
 display_name: Software productivity tools
 created_by: holman
 ---
