@@ -6,7 +6,7 @@ github_url: https://github.com/prestashop
 logo: prestashop.png
 related: platform
 released: 2007
-short_description: PrestaShop is a open source e-commerce platform. PrestaShop is currently used by 300,000 shops worldwide and is available in 60 different languages.
+short_description: PrestaShop is a open source e-commerce platform, currently used by 300K shops worldwide and is available in 60 languages.
 topic: prestashop
 url: https://www.prestashop-project.org/
 wikipedia_url: https://en.wikipedia.org/wiki/PrestaShop
