@@ -28,6 +28,7 @@ items:
  - withastro/astro
  - BuilderIO/qwik
  - vercel/next.js
+ - gatsbyjs/gatsby
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---
