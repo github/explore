@@ -2,7 +2,7 @@
 aliases: uncertainty-propagation
 display_name: Error Propagation
 related: measurement
-short_description: Error propagation is the analysis of how uncertainties on numeric quantities affect the result of functions that involve them.
+short_description: Error propagation is the analysis of the effect of numeric variables' uncertainties on the results of functions that depend on them.
 topic: error-propagation
 wikipedia_url: https://en.wikipedia.org/wiki/Propagation_of_uncertainty
 ---
