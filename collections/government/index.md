@@ -1,4 +1,4 @@
----
+T-shirt 
 items:
  - 18F/development-guide
  - cfpb/open-source-checklist
