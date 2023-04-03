@@ -1,5 +1,5 @@
 ---
-aliases: anime
+aliases: animes
 display_name: Anime
 short_description: Anime is hand-drawen and computer-generated animation originating from Japan. Outside of Japan and in English, anime refers specifically to animation produced in Japan.
 topic: anime
