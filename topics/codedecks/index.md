@@ -1,5 +1,5 @@
 ---
-aliases: codedecks, codedecks-compete
+aliases: codedecks-compete
 created_by: Gourav Rusiya
 display_name: codedecks
 logo: codedecks.png
