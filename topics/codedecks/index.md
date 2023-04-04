@@ -5,7 +5,7 @@ display_name: codedecks
 logo: codedecks.png
 related: codechef, competitive-programming, hackerrank, leetcode
 github_url: https://github.com/codedecks-in
-short_description: codedecks is an initiative to contribute to Competitive Programming, Data Structures & Algorithms, Tech Interviews and System Design.
+short_description: codedecks is an initiative to contribute to Data Structures & Algorithms, Tech Interviews, System Design & CP.
 released: June 2020
 url: https://youtube.com/codedecks
 topic: codedecks
