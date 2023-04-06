@@ -5,4 +5,4 @@ short_description: Anime is hand-drawen & computer-generated animation produced 
 topic: anime
 wikipedia_url: https://en.wikipedia.org/wiki/Anime
 ---
-Anime (Japanese: アニメ, IPA: [aɲime] (listen)) is hand-drawn and computer-generated animation originating from Japan. Outside of Japan and in English, anime refers specifically to animation produced in Japan.
+Anime (Japanese: アニメ, IPA: [aɲime] (listen)) is hand-drawn and computer-generated animation often originating from Japan.
