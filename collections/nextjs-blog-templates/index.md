@@ -16,7 +16,7 @@ items:
  - devkiran/NextAPI
  - statichunt/hydrogen-nextjs
 image: nextjs-blog-templates.png
-display_name: Nextjs Templates
+display_name: Nextjs Blog Template
 created_by: officialrajdeepsingh
 ---
 
