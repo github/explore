@@ -16,8 +16,8 @@ items:
  - devkiran/NextAPI
  - statichunt/hydrogen-nextjs
 image: nextjs-blog-templates.png
-display_name: Nextjs Blog Template
+display_name: Next.js Blog Template
 created_by: officialrajdeepsingh
 ---
 
-Start your blogging career using open-source pre-built templates with nextjs, Markdown, MDX, tailwind CSS, React UI, etc.
+Start your blogging career using open-source pre-built templates with Next.js, Markdown, MDX, Tailwind CSS, React UI, etc.
