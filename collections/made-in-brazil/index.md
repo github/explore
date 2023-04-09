@@ -1,5 +1,6 @@
 ---
 items:
+  - WillianAgostini/nordus
   - clappr/clappr
   - devhubapp/devhub
   - dracula/dracula-theme
