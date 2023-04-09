@@ -1,6 +1,5 @@
 ---
 items:
-  - WillianAgostini/nordus
   - clappr/clappr
   - devhubapp/devhub
   - dracula/dracula-theme
@@ -23,6 +22,7 @@ items:
   - backend-br/desafios
   - backend-br/vagas
   - githubpresente/octogatosconf22
+  - WillianAgostini/nordus
   
 display_name: Made in Brazil
 created_by: caarlos0
