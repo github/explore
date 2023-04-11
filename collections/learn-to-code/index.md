@@ -1,7 +1,7 @@
 ---
 items:
  - 30-seconds/30-seconds-of-code
- - railsgirls/railsgirls.github.io
+ - railsgirls/guides.railsgirls.org
  - railsbridge/docs
  - freeCodeCamp/freeCodeCamp
  - leachim6/hello-world
