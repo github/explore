@@ -1,7 +1,6 @@
 ---
 items:
  - 30-seconds/30-seconds-of-code
- - railsgirls/guides.railsgirls.org
  - railsbridge/docs
  - freeCodeCamp/freeCodeCamp
  - leachim6/hello-world
@@ -33,6 +32,7 @@ items:
  - gothinkster/realworld
  - thedaviddias/Front-End-Checklist
  - gustavofreze/kotlin4noobs
+ - railsgirls/guides.railsgirls.org
 
 display_name: Learn to Code
 created_by: alysonla
