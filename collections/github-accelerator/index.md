@@ -11,7 +11,6 @@ items:
 - formbricks/formbricks
 - GyulyVGC/sniffnet
 - JessicaTegner/pypandoc
-- mockoon/mockoon
 - nuxt/framework
 - responsively-org/responsively-app
 - simonw/datasette
