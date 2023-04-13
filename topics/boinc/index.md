@@ -7,6 +7,5 @@ short_description: BOINC (Berkeley Open Infrastructure for Network Computing) is
 released: 2002
 topic: boinc
 logo: boinc.png
-wikipedia_url: https://en.wikipedia.org/wiki/Homebrew_(video_games)#3DS
 ---
 BOINC (Berkeley Open Infrastructure for Network Computing) is an open source middleware system for volunteer computing (a type of distributed computing) and a network of volunteer computing projects. Developed originally to support SETI@home, the BOINC computing network now encompasses dozens of active research project across all scientific disciplines from medical research to physics, astrophysics, math, biology, and AI. It provides scientists across the globe with petaFLOPS of free computing power daily and is one of the largest distributed computing platforms in the world.
