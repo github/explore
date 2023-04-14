@@ -1,7 +1,7 @@
 ---
 aliases: asc
 display_name: EduPage
-short_description: Everything from Teacher's agenda to Student's Homework
+short_description: Everything from Teacher's agenda to Student's Homework.
 topic: edupage
 created_by: asc Applied Software Consultants, s.r.o.
 related: school
