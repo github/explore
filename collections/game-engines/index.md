@@ -54,6 +54,8 @@ items:
  - cerberusxdev/cerberus
  - ganelson/inform
  - hexops/mach
+ - PurpleKingdomGames/indigo
+ - nivanov/cosplay
 display_name: Game Engines
 created_by: leereilly
 ---
