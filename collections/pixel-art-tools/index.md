@@ -4,7 +4,8 @@ items:
  - piskelapp/piskel/
  - jvalen/pixel-art-react/
  - maierfelix/poxi/
- - gmattie/Data-Pixels/
+ - gmattie/Data-Pixels/![P ngủ Linh Chi](https://github.com/github/explore/assets/42445933/d0c31cec-4b3c-47f7-99ba-e826a1978b82)
+
  - vsmode/pixel8
  - kitao/pyxel
  - jackschaedler/goya
