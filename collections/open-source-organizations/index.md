@@ -1,5 +1,6 @@
 ---
 items:
+ - StreetCommunityProgrammer/metaphore
  - adobe/adobe.github.com
  - RedHatOfficial/RedHatOfficial.github.io
  - cfpb/cfpb.github.io
