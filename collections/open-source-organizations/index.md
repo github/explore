@@ -9,7 +9,6 @@ items:
  - twitter/opensource-website
  - guardian/guardian.github.com
  - Yelp/yelp.github.io
- - Shopify/shopify.github.com
  - IBM/ibm.github.io
  - microsoft/microsoft.github.io
  - artsy/artsy.github.io
