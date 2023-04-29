@@ -16,26 +16,26 @@
 ### Editing an existing topic or collection
 
 I'm suggesting these edits to an existing topic or collection:
-- [ ] Image (and my file is `*.png`, square, dimensions 288x288, size <= 75 kB)
-- [ ] Content (and my changes are in `index.md`)
+- [ x] Image (and my file is `*.png`, square, dimensions 288x288, size <= 75 kB)
+- [ x] Content (and my changes are in `index.md`)
 
 > Please replace this line with an explanation of why you think these changes should be made.
 
 <!-- ⚠️ ... or this section ⚠️ -->
 ### Curating a new topic or collection
 
-- [ ] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
-- [ ] My folder contains a `*.png` image (if applicable) and `index.md`
-- [ ] All required fields in my `index.md` conform to the Style Guide and API docs: <https://github.com/github/explore/tree/main/docs>
+- [x ] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)
+- [x ] My folder contains a `*.png` image (if applicable) and `index.md`
+- [ x] All required fields in my `index.md` conform to the Style Guide and API docs: <https://github.com/github/explore/tree/main/docs>
 
 > Please replace this line with an explanation of why you think this topic or collection should be curated.
 
 <!-- ⚠️ ... or this section ⚠️ -->
 ### Something that does not neatly fit into the binary options above
 
-- [ ] My suggested edits are not about an existing topic or collection, or at least not a single one
-- [ ] My suggested edits are not about curating a new topic or collection, or at least not a single one
-- [ ] My suggested edits conform to the Style Guide and API docs: https://github.com/github/explore/tree/main/docs
+- [x ] My suggested edits are not about an existing topic or collection, or at least not a single one
+- [ x] My suggested edits are not about curating a new topic or collection, or at least not a single one
+- [x ] My suggested edits conform to the Style Guide and API docs: https://github.com/github/explore/tree/main/docs
 
 > Please replace this line with an explanation of your proposed changes.
 
