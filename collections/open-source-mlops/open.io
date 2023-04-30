@@ -1,4 +1,4 @@
----
+open.io
 items:
  - microsoft/nni
  - magda-io/magda
