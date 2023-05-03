@@ -6,4 +6,4 @@ topic: geode-mods
 related: geometry-dash
 url: https://geode-sdk.org
 ---
-A huge percentage, if not a majority of all bugs reported in GD mods are caused by hook conflicts, direct node tree access, and other mod incompatabilities. This is what Geode has been made to solve.
+Geode is a GD modding framework meant to reduce incompatibilities to a minimum
