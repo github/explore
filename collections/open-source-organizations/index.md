@@ -28,6 +28,7 @@ items:
  - ExpediaGroup/expediagroup.github.io
  - fairfield-programming/fairfield-programming.github.io
  - komodorio/helm-dashboard
+ - devtron-labs/devtron
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
