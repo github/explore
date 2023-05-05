@@ -39,6 +39,7 @@ items:
  - dderevjanik/github-vscode-icons
  - npmhub/npmhub
  - octobox/extension
+ - hypertrons/hypertrons-crx
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
