@@ -5,7 +5,7 @@ items:
  - muan/github-dashboard
  - muan/github-gmail
  - thieman/github-selfies
- - Yatser/prettypullrequests
+ - brentyates/prettypullrequests
  - sanemat/do-not-merge-wip-for-github
  - jasonlong/isometric-contributions
  - ForbesLindesay/github-real-names
