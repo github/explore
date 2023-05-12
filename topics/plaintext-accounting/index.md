@@ -1,5 +1,5 @@
 ---
-aliases: plaintextaccounting plain-text-accounting
+aliases: plaintextaccounting, plain-text-accounting
 display_name: Plain Text Accounting
 short_description: Bookkeeping and accounting done with plain text files and scriptable, command-line-friendly software
 topic: plaintext-accounting
