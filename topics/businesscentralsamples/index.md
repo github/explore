@@ -2,7 +2,7 @@
 aliases: businesscentralsamples
 created_by: Microsoft
 display_name: Business Central Samples
-logo: aspnet.png
+logo: businesscentral.png
 released: May 2023
 short_description: Samples for Microsoft Dynamics 365 Business Central
 topic: businesscentralsamples
