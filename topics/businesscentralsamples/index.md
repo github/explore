@@ -1,10 +1,10 @@
 ---
-aliases: businesscentralsamples
+aliases: businesscentraldemos
 created_by: Microsoft
 display_name: Business Central Samples
-logo: businesscentral.png
+logo: businesscentralsamples.png
 released: May 2023
-short_description: Samples for Microsoft Dynamics 365 Business Central
+short_description: Samples for Microsoft Dynamics 365 Business Central.
 topic: businesscentralsamples
 url: https://dynamics.microsoft.com/business-central
 ---
