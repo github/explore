@@ -21,7 +21,7 @@ items:
  - vanhuyz/CycleGAN-TensorFlow
  - TablePlus/TablePlus
  - khangich/machine-learning-interview
- - huytd/agar.io-clone
+ - owenashurst/agar.io-clone
  - opencardev/crankshaft
  - binhnguyennus/awesome-scalability
  - hoanhan101/ultimate-go
