@@ -5,7 +5,7 @@ items:
  - muan/github-dashboard
  - muan/github-gmail
  - thieman/github-selfies
- - Yatser/prettypullrequests
+ - brentyates/prettypullrequests
  - sanemat/do-not-merge-wip-for-github
  - jasonlong/isometric-contributions
  - ForbesLindesay/github-real-names
@@ -39,6 +39,7 @@ items:
  - dderevjanik/github-vscode-icons
  - npmhub/npmhub
  - octobox/extension
+ - hypertrons/hypertrons-crx
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
