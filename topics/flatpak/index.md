@@ -1,5 +1,4 @@
 ---
-aliases: flatpak
 display_name: Flatpak
 short_description: Linux application sandboxing and distribution framework
 github_url: https://github.com/flatpak
