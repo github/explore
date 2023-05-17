@@ -1,6 +1,6 @@
 ---
 display_name: Flatpak
-short_description: Linux application sandboxing and distribution framework
+short_description: Linux application sandboxing and distribution framework.
 github_url: https://github.com/flatpak
 logo: flatpak.png
 topic: flatpak
