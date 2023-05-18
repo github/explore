@@ -5,7 +5,6 @@ items:
  - TorqueGameEngines/Torque3D
  - TorqueGameEngines/Torque2D
  - spring/spring
- - cocos/cocos-engine
  - cocos2d/cocos2d-x
  - Gamua/Starling-Framework
  - gameplay3d/gameplay
