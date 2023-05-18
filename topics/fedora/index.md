@@ -4,6 +4,7 @@ display_name: Fedora
 related: linux, silverblue, dnf, rhel
 released: November 6, 2003
 created_by: Warren Togami
+logo: fedora.png
 short_description: Fedora Linux is a free and open source Linux distribution that is designed to be on the leading edge of open source technologies.
 topic: fedora
 url: https://fedoraproject.org
