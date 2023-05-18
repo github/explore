@@ -1,11 +1,11 @@
 ---
-aliases: drupal
+aliases: drupal7, drupal8, drupal9, drupal10
 created_by: Dries Buytaert
 display_name: Drupal
 github_url: https://github.com/drupal
 logo: drupal.png
 released: January 15, 2001
-short_description: Drupal is a free and open-source web content management system (CMS) written in PHP and distributed under the GNU General Public License
+short_description: Drupal is a free and opensource web content management system written in PHP and distributed under the GNU General Public License.
 topic: drupal
 url: https://www.drupal.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Drupal
