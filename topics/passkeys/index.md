@@ -1,7 +1,7 @@
 ---
 aliases: passkey
 display_name: Passkeys
-related: fido2, fido, webauthn, authentication, touchid, faceid, 2FA, public-key-infrastructure, ctap
+related: fido2, fido, webauthn, authentication, touchid, faceid, two-factor-authentication, public-key-infrastructure, ctap
 short_description: Passkeys are a form of passwordless authentication.
 topic: passkeys
 wikipedia_url: https://en.wikipedia.org/wiki/Passkey_(authentication) 
