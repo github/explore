@@ -23,7 +23,6 @@ items:
  - WhitestormJS/whs.js
  - wellcaffeinated/PhysicsJS
  - playcanvas/engine
- - cocos2d/cocos2d-html5
  - craftyjs/Crafty
  - pixijs/pixijs
  - renpy/renpy
@@ -56,6 +55,7 @@ items:
  - hexops/mach
  - PurpleKingdomGames/indigo
  - nivanov/cosplay
+ - cocos/cocos-engine
 display_name: Game Engines
 created_by: leereilly
 ---
