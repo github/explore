@@ -5,7 +5,6 @@ related: cloud-computing
 display_name: BigQuery
 released: May 19, 2010
 logo: bigquery.png
-created_by: Jordan Tigani, Siddartha Naidu, Jeremy Condit, Michael Sheldon, Craig Citro, Amit Aggarwal, Ju-kay Kwek, Jim Caputo
 short_description: BigQuery is a serverless (cloud) data warehouse with built-in machine learning, geospatial analysis, BI, and other capabilities.
 url: https://cloud.google.com/bigquery/
 github_url: https://github.com/GoogleCloudPlatform/bigquery-utils/
