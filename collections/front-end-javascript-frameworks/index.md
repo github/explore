@@ -1,35 +1,36 @@
 ---
 items:
- - solidjs/solid
- - marko-js/marko
- - MithrilJS/mithril.js
  - angular/angular
+ - aurelia/aurelia
+ - aurelia/framework
+ - BuilderIO/qwik
+ - Daemonite/material
+ - dojo/dojo
  - emberjs/ember.js
- - knockout/knockout
- - tastejs/todomvc
- - spine/spine
- - vuejs/vue
- - Polymer/polymer
  - facebook/react
  - finom/seemple
- - aurelia/framework
- - optimizely/nuclear-js
- - jashkenas/backbone
- - dojo/dojo
- - jorgebucaran/hyperapp
- - riot/riot
- - Daemonite/material
- - lit/lit
- - aurelia/aurelia
- - sveltejs/svelte
- - neomjs/neo
- - preactjs/preact
- - ionic-team/stencil
- - withastro/astro
- - BuilderIO/qwik
- - vercel/next.js
  - gatsbyjs/gatsby
+ - hybridsjs/hybrids
+ - ionic-team/stencil
+ - jashkenas/backbone
+ - jorgebucaran/hyperapp
+ - knockout/knockout
+ - lit/lit
+ - marko-js/marko
+ - MithrilJS/mithril.js
+ - neomjs/neo
+ - optimizely/nuclear-js
+ - Polymer/polymer
+ - preactjs/preact
+ - riot/riot
+ - solidjs/solid
+ - spine/spine
  - sveltejs/kit
+ - sveltejs/svelte
+ - tastejs/todomvc
+ - vercel/next.js
+ - vuejs/vue
+ - withastro/astro
 
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
