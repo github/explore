@@ -18,6 +18,8 @@ MAX_DISPLAY_NAME_LENGTH = 50
 
 MAX_SHORT_DESCRIPTION_LENGTH = 130
 
+MAX_CREATED_BY_LENGTH = 100
+
 TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 
 def invalid_topic_message(topic)
