@@ -1,11 +1,11 @@
 ---
-aliases: Netty
+aliases: netty
 created_by: Trustin Lee
 display_name: Netty
 logo: netty.png
-related: MINA, Grizzly
+related: mina, grizzly
 github_url: https://github.com/netty/netty
-short_description: Netty is an asynchronous event-driven network application framework
+short_description: Netty is an asynchronous event-driven network application framework.
 released: June 2004
 url: https://netty.io/
 topic: netty
