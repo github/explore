@@ -1,5 +1,4 @@
 ---
-aliases: netty
 created_by: Trustin Lee
 display_name: Netty
 logo: netty.png
