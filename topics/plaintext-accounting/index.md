@@ -14,12 +14,12 @@ and scriptable, command-line-friendly software, such as
 Benefits include version control, scriptability, data portability and privacy.
 See https://plaintextaccounting.org and https://wiki.plaintextaccounting.org for more details.
 
-If you have a PTA-ish project on Github, consider adding the `#plaintext-accounting` (*) topic in your repo settings.
+If you have a PTA-ish project on Github, consider adding the `plaintext-accounting` (*) topic in your repo settings.
 
 Some related topics:
-[`#ledger-cli`](https://github.com/topics/ledger-cli),
-[`#hledger`](https://github.com/topics/hledger),
-[`#beancount`](https://github.com/topics/beancount).
+[`ledger-cli`](https://github.com/topics/ledger-cli),
+[`hledger`](https://github.com/topics/hledger),
+[`beancount`](https://github.com/topics/beancount).
 
 ----
 (*) The de facto spelling on Github. Try to get repos to switch to the idiomatic `#plaintextaccounting` if you wish!
