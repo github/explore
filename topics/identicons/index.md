@@ -1,6 +1,7 @@
 ---
 aliases: identicon
 display_name: Identicons
+logo: identicons.png
 short_description: Identicons are visual representations of data in the form of avatars
 topic: identicons
 wikipedia_url: https://en.wikipedia.org/wiki/Identicon
