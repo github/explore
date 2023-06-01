@@ -1,5 +1,4 @@
 ---
-aliases: artificial satellite
 display_name: satellite
 topic: satellite
 related: space, geospatial, science
