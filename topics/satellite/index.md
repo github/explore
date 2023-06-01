@@ -1,8 +1,8 @@
 ---
-aliases: satellite
+aliases: artificial satellite
 display_name: satellite
 topic: satellite
-related: space
+related: space, geospatial, science
 short_description: An object intentionally placed into orbit in outer space for a variety of uses.
 wikipedia_url: https://en.wikipedia.org/wiki/Satellite
 ---
