@@ -13,7 +13,7 @@ items:
  - eslint/eslint
  - mochajs/mocha
  - lerna/lerna
- - github/linguist
+ - github-linguist/linguist
  - elastic/elasticsearch
  - rails/rails
  - redis/redis

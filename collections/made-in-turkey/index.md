@@ -21,6 +21,7 @@ items:
  - pankod/superplate
  - Huseyinnurbaki/mocktail
  - geziyor/geziyor
+ - Trendyol/baklava
 display_name: Made in Turkey
 created_by: kiliczsh
 image: made-in-turkey.png
