@@ -1,5 +1,6 @@
 ---
-aliases: wordpress-development, wordpress-site, wordpress-theme, wordpress-plugin,automattic,woocommerce
+aliases: wordpress-development, wordpress-site
+related: wordpress-theme, wordpress-plugin, automattic, woocommerce
 created_by: Matt Mullenweg, Mike Little
 display_name: WordPress
 github_url: https://github.com/WordPress
@@ -15,5 +16,3 @@ WordPress is a popular content management system, used for websites and blogs. W
 It allows the addition of functionalities through plugins. These plugins make WordPress one of the most versatile and widely used platforms for forums, community social networks, ecommerce (WooCommerce), intranet websites, education and learning platforms (LMS), magazines and newspapers, etc.
 
 WordPress has its open source version at its "org" domain address, to be installed on any compatible server, and its cloud SaaS version at "com", with a managed and ready-to-use infrastructure.
-
-Some reports say that WordPress represents around 35% of the sites on the public internet.
