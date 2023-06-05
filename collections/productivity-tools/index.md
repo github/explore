@@ -13,6 +13,7 @@ items:
  - awaescher/RepoZ
  - sharkdp/fd
  - BurntSushi/ripgrep
+ - jqlang/jq
  - alacritty/alacritty
  - ajeetdsouza/zoxide
  - Slackadays/Clipboard
