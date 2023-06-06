@@ -18,7 +18,8 @@ items:
  - ajeetdsouza/zoxide
  - Slackadays/Clipboard
  - devtron-labs/devtron
+ - jqlang/jq
 display_name: Software productivity tools
 created_by: holman
 ---
-Build software faster with fewer headaches, using these tools and tricks
+Build software faster with fewer headaches, using these tools and tricks.
