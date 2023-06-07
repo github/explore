@@ -15,6 +15,7 @@ items:
  - WhitestormJS/whs.js
  - GooTechnologies/goojs
  - shakiba/planck.js
+ - quinton-ashley/p5play
  - Irrelon/ige
  - 4ian/GDevelop
  - mrdoob/three.js
