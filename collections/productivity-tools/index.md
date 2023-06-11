@@ -18,6 +18,7 @@ items:
  - ajeetdsouza/zoxide
  - Slackadays/Clipboard
  - devtron-labs/devtron
+ - livecycle/preevy
 display_name: Software productivity tools
 created_by: holman
 ---
