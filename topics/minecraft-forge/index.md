@@ -1,5 +1,5 @@
 ---
-aliases: minecraftforge, minecraft-forge-mod, minecraft-forge-mods, minecraft-forge-modpack, minecraft-forge-modpacks, minecraft-forge-modification
+aliases: forge, minecraftforge, minecraft-forge-mod, minecraft-forge-mods, minecraft-forge-modpack, minecraft-forge-modpacks, minecraft-forge-modification
 display_name: Minecraft CurseForge
 logo: minecraft-forge.png
 related: minecraft, minecraft-mod, minecraft-modpack
