@@ -2,7 +2,6 @@
 display_name: OSINT
 short_description: Open-source intelligence is the collection and analysis of data gathered from open sources to produce actionable intelligence.
 topic: osint
-aliases: osint-tool osint-tools osint-resources
 related: open-source
 wikipedia_url: https://en.wikipedia.org/wiki/Open-source_intelligence
 ---
