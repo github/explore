@@ -2,6 +2,7 @@
 items:
  - fastify/fastify
  - immuni-app/.github
+ - Exifly/ApiVault
  - italia/covid19-opendata-vaccini
  - middyjs/middy
  - nodejs/undici
