@@ -22,6 +22,7 @@ items:
  - Cloud9c/taro
  - replit/kaboom
  - straker/kontra
+ - jay19240/Haiku
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---
