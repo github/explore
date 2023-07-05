@@ -5,7 +5,7 @@ github_url:
 logo: fred.png
 related: economics, data, research,
 released: 1991
-short_description: Online econ database with vast data, tools, and visuals from global sources. Empowering users to understand, interact, and share economic insights.
+short_description: an online database consisting of hundreds of thousands of economic data time series.
 topic: fred
 url: https://fred.stlouisfed.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Federal_Reserve_Economic_Data
