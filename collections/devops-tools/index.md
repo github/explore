@@ -17,7 +17,6 @@ items:
  - prometheus/prometheus
  - fabric/fabric
  - grafana/grafana
- - docker/docker
  - StackStorm/st2
  - openshift/origin
  - getsentry/sentry
