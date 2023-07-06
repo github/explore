@@ -9,6 +9,9 @@ items:
  - LordAmit/Brightness
  - mmahmoodictbd/production-ready-microservices-starter
  - mugli/Avro-Keyboard
+ - boss-net/license-checker
+ - sscsb/action-sbom-upload
+ - sulaiman-coder/profiler
  - nahid/gohttp
  - nahid/jsonq
  - nahid/talk
