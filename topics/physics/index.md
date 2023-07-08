@@ -1,6 +1,6 @@
 ---
 display_name: Physics
-short_description: A natural science concerned with the properties of matter and energy
+short_description: A natural science concerned with the properties of matter and energy.
 topic: physics
 wikipedia_url: https://en.wikipedia.org/wiki/Physics
 ---
