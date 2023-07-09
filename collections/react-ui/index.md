@@ -30,4 +30,4 @@ items:
 
 ---
 
-A React UI library or React component library of a collection of components. You can use it, and ready for production.
+A React UI library or collection of React components. React is an open source JavaScript framework for designing user interfaces.
