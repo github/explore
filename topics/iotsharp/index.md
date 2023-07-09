@@ -9,6 +9,6 @@ released: December 2018
 short_description: IoTSharp is an open source IoT platform .
 topic: iotsharp
 url: https://iotsharp.io/
-wikipedia_url: https://en.wikipedia.org/wiki/TikTok
+wikipedia_url: https://en.wikipedia.org/wiki/Iotsharp
 ---
 IoTSharp is an open source IoT platform for data collection, processing, visualization, and device management.
