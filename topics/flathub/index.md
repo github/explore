@@ -7,5 +7,4 @@ topic: flathub
 url: https://flathub.org
 related: flatpak, linux
 ---
-Flathub is the place to get and distribute apps for all of desktop Linux. It is powered by Flatpak, 
-allowing Flathub apps to run on almost any Linux distribution.
+Flathub is the place to get and distribute apps for all of desktop Linux. It is powered by Flatpak, allowing Flathub apps to run on almost any Linux distribution.
