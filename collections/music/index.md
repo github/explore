@@ -27,6 +27,7 @@ items:
  - schismtracker/schismtracker
  - chunkypixel/TIATracker
  - milkytracker/MilkyTracker
+ - amschel99/vinyl-video-creator
 display_name: Music
 created_by: jonrohan
 ---
