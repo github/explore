@@ -1,7 +1,7 @@
 ---
 aliases: tldr-pages
 display_name: tldr pages
-short_description: 📚 Collaborative cheatsheets for console commands.
+short_description: Collaborative cheatsheets for console commands.
 github_url: https://github.com/tldr-pages
 logo: tldr.png
 released: 8 December 2013
