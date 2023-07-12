@@ -1,5 +1,5 @@
 ---
-aliases: tlde-pages
+aliases: tldr-pages
 display_name: tldr pages
 short_description: 📚 Collaborative cheatsheets for console commands.
 github_url: https://github.com/tldr-pages
