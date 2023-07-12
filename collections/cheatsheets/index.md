@@ -6,7 +6,12 @@ items:
  - gto76/python-cheatsheet
  - wilfredinni/python-cheatsheet
  - ihebski/DefaultCreds-cheat-sheet
+ - tldr-pages/tldr
+ - cheat/cheat
+ - srsudar/eg
+ - gnebbia/kb
+ - denisidoro/navi
 display_name: Useful cheatsheets
 created_by: Luois45
 ---
-A list of useful cheatsheets for various programming languages
+A list of useful cheat sheets for various programming languages and commands.
