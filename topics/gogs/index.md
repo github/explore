@@ -1,7 +1,7 @@
 ---
 created_by: Joe Chen 
 display_name: Gogs
-short_description: A painless self-hosted Git service
+short_description: A painless self-hosted Git service.
 github_url: https://github.com/gogs/gogs
 logo: gogs.png
 released: 31 March 2014

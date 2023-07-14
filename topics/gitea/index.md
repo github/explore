@@ -1,7 +1,7 @@
 ---
 created_by: Lunny Xiao
 display_name: Gitea
-short_description: Git with a cup of tea
+short_description: Git with a cup of tea.
 github_url: https://github.com/go-gitea/gitea
 logo: gitea.png
 released: 17 October 2016
