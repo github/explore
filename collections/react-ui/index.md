@@ -1,7 +1,7 @@
 ---
 display_name: React UI
 created_by: officialrajdeepsingh
-image: react.png
+image: react-ui.png
 items:
  - mui/material-ui
  - react-bootstrap/react-bootstrap
