@@ -7,5 +7,6 @@ released: September 2015
 topic: flatpak
 url: https://flatpak.org
 wikipedia_url: https://en.wikipedia.org/wiki/Flatpak
+related: flathub, linux
 ---
 Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.
