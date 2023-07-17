@@ -1,5 +1,6 @@
 ---
 items:
+ - castle-engine/castle-engine
  - godotengine/godot
  - turbulenz/turbulenz_engine
  - TorqueGameEngines/Torque3D
