@@ -1,6 +1,5 @@
 ---
 items:
- - castle-engine/castle-engine
  - godotengine/godot
  - turbulenz/turbulenz_engine
  - TorqueGameEngines/Torque3D
@@ -56,6 +55,7 @@ items:
  - hexops/mach
  - PurpleKingdomGames/indigo
  - nivanov/cosplay
+ - castle-engine/castle-engine
 display_name: Game Engines
 created_by: leereilly
 ---
