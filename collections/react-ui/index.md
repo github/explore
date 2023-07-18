@@ -18,7 +18,7 @@ items:
  - praveenjuge/myna/
  - TailGrids/tailwind-ui-components
  - htmlstreamofficial/preline
- - shadcn/ui
+ - shadcn-ui/ui
  - primefaces/primereact
  - nextui-org/nextui
  - chakra-ui/chakra-ui
