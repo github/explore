@@ -112,3 +112,8 @@ You can run the tests using:
 bundle install
 bundle exec rubocop
 ```
+/JavaScript
+/Hotmail
++++
+#2
+#&=have 
