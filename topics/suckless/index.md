@@ -1,4 +1,5 @@
 ---
+aliases: suckless-org
 created_by: Anselm R. Garbe
 display_name: suckless.org
 logo: suckless.png
