@@ -1,5 +1,5 @@
 ---
-aliases: libsdl
+aliases: libsdl, sdl2, sdl3
 created_by: SDL Community
 display_name: Simple DirectMedia Layer
 github_url: https://github.com/libsdl-org
