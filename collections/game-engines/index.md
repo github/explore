@@ -55,6 +55,7 @@ items:
  - hexops/mach
  - PurpleKingdomGames/indigo
  - nivanov/cosplay
+ - gurkenlabs/litiengine
 display_name: Game Engines
 created_by: leereilly
 ---
