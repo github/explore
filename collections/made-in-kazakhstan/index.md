@@ -2,9 +2,11 @@
 items:
  - fnc12/sqlite_orm
  - aitemr/awesome-git-hooks
+ - sozdik-kz/sozdik-android
  - mixdesign/AAShareBubbles
  - kekland/equinox
  - Slava/meteor-rethinkdb
+ - SergeyMyssak/nextjs-sitemap
  - Slava/tern-meteor-sublime
  - Slava/tern-meteor-sublime
  - binchik/SubscriptionPrompt
@@ -14,7 +16,7 @@ items:
  - SergeyMyssak/nextjs-sitemap
  - ironsoul0/laddy
  - danabeknar/taza
- - sozdik-kz/sozdik-android
+ - Slava/tern-meteor-sublime
  - yerlantemir/leetcoder
 
 display_name: Made in Kazakhstan
