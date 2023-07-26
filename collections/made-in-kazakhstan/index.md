@@ -8,7 +8,6 @@ items:
  - Slava/meteor-rethinkdb
  - SergeyMyssak/nextjs-sitemap
  - Slava/tern-meteor-sublime
- - Slava/tern-meteor-sublime
  - binchik/SubscriptionPrompt
  - malikzh/NCANode
  - danchokobo/react-native-code-verification
@@ -16,11 +15,11 @@ items:
  - SergeyMyssak/nextjs-sitemap
  - ironsoul0/laddy
  - danabeknar/taza
- - Slava/tern-meteor-sublime
  - yerlantemir/leetcoder
 
 display_name: Made in Kazakhstan
-created_by: nugmanoff
+created_by: snxx-lppxx
 image: made-in-kazakhstan.png
 ---
 Open source projects built in or receiving significant contributions from Kazakhstan :kazakhstan:
+
