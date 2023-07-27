@@ -1,5 +1,6 @@
 ---
 items:
+ - scdesktop/scdesktop
  - fnc12/sqlite_orm
  - aitemr/awesome-git-hooks
  - sozdik-kz/sozdik-android
@@ -12,7 +13,6 @@ items:
  - malikzh/NCANode
  - danchokobo/react-native-code-verification
  - yenbekbay/AYStepperView
- - SergeyMyssak/nextjs-sitemap
  - ironsoul0/laddy
  - danabeknar/taza
  - yerlantemir/leetcoder
