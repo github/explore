@@ -13,7 +13,6 @@ items:
  - malikzh/NCANode
  - danchokobo/react-native-code-verification
  - yenbekbay/AYStepperView
- - SergeyMyssak/nextjs-sitemap
  - ironsoul0/laddy
  - danabeknar/taza
  - yerlantemir/leetcoder
