@@ -33,6 +33,9 @@ items:
  - gothinkster/realworld
  - thedaviddias/Front-End-Checklist
  - gustavofreze/kotlin4noobs
+ - hexlet-basics/hexlet-basics
+ - hexlet-codebattle/codebattle
+ - Hexlet/hexletguides.github.io
 
 display_name: Learn to Code
 created_by: alysonla
