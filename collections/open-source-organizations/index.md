@@ -30,6 +30,7 @@ items:
  - komodorio/helm-dashboard
  - devtron-labs/devtron
  - socialincome-san/public
+ - https://github.com/aiven-open
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
