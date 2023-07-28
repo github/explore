@@ -24,6 +24,7 @@ items:
   - githubpresente/octogatosconf22
   - github/brasil
   - raphamorim/rio
+  - avelino/awesome-go
   
 display_name: Made in Brazil
 created_by: caarlos0
