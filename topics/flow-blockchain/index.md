@@ -1,7 +1,7 @@
 ---
 created_by: Flow
 display_name: Flow blockchain
-logo: flow.png
+logo: flow-blockchain.png
 released: Sep 29, 2020
 short_description: Flow is permissionless layer 1 blockchain.
 topic: flow-blockchain
