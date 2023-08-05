@@ -4,7 +4,7 @@ short_description: Nextra is a simple, powerful and flexible site generation fra
 topic: nextra
 github_url: https://github.com/shuding/nextra
 url: https://nextra.site/
-related: nextjs mdx markdown
+related: nextjs, mdx, markdown
 logo: nextra.png
 ---
 
