@@ -1,7 +1,7 @@
 ---
 display_name: Electronic data interchange
 related: edifact, x12, tradacoms, un-edifact, ansi-x12
-short_description: EDI, which stands for electronic data interchange, is the intercompany communication of business documents in a standard format 
+short_description: EDI, which stands for electronic data interchange, is the intercompany communication of business documents in a standard format.
 topic: edi
 wikipedia_url: https://en.wikipedia.org/wiki/Electronic_data_interchange
 ---
