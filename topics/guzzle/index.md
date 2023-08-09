@@ -6,6 +6,6 @@ related: psr-7, httpclient, http-client, curl
 url: https://docs.guzzlephp.org
 github_url: https://github.com/guzzle/guzzle
 created_by: Matthew Weier O'Phinney
-released: Mar 2, 2011
+released: March 2, 2011
 ---
 Guzzle is a PHP HTTP client that makes it easy to send HTTP requests and trivial to integrate with web services.
