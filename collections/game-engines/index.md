@@ -23,7 +23,7 @@ items:
  - WhitestormJS/whs.js
  - wellcaffeinated/PhysicsJS
  - playcanvas/engine
- - cocos2d/cocos2d-html5
+ - cocos/cocos-engine
  - craftyjs/Crafty
  - pixijs/pixijs
  - renpy/renpy
@@ -38,7 +38,6 @@ items:
  - amethyst/amethyst
  - orx/orx
  - nCine/nCine
- - cocos/cocos-engine
  - love2d/love
  - coronalabs/corona
  - hajimehoshi/ebiten
@@ -54,6 +53,9 @@ items:
  - cerberusxdev/cerberus
  - ganelson/inform
  - hexops/mach
+ - PurpleKingdomGames/indigo
+ - nivanov/cosplay
+ - gurkenlabs/litiengine
 display_name: Game Engines
 created_by: leereilly
 ---

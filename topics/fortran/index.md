@@ -2,6 +2,7 @@
 aliases: f95, f77, fortran90, fortran77, fortran95, fortran2003, fortran2008, fortran2018
 created_by: John W. Backus
 display_name: Fortran
+logo: fortran.png
 github_url: https://github.com/j3-fortran
 related: mpi, coarrays, coarray-fortran, hpc, high-performance-computing, c, compiler, finite-element-method
 released: April 1957

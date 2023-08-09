@@ -38,6 +38,8 @@ items:
  - zabbix/zabbix
  - komodorio/helm-dashboard
  - cloudquery/cloudquery
+ - devtron-labs/devtron
+ - livecycle/preevy 
  
 display_name: DevOps tools
 ---

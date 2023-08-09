@@ -3,6 +3,7 @@ created_by: OpenAI
 display_name: ChatGPT
 short_description: ChatGPT is a chatbot built on top of OpenAI's GPT-3 family of large language models.
 released: November 30, 2022
+logo: chatgpt.png
 url: https://chat.openai.com/
 topic: chatgpt
 wikipedia_url: https://en.wikipedia.org/wiki/ChatGPT
