@@ -1,6 +1,6 @@
 ---
 display_name: Guzzle
-short_description: Guzzle, an extensible PHP HTTP client
+short_description: Guzzle, an extensible PHP HTTP client.
 topic: guzzle
 related: psr-7, httpclient, http-client, curl
 url: https://docs.guzzlephp.org
