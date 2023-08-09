@@ -57,6 +57,7 @@ items:
  - avajs/ava
  - graphql/graphql-js
  - Redocly/redoc
+ - retejs/rete
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png
