@@ -59,6 +59,7 @@ items:
  - Redocly/redoc
  - javadev/underscore-java
  - javadev/LeetCode-in-Java
+ - retejs/rete
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png
