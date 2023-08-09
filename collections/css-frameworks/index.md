@@ -8,6 +8,7 @@ items:
  - Dogfalo/materialize
  - pure-css/pure
  - tailwindlabs/tailwindcss
+ - Trendyol/baklava
 display_name: CSS Frameworks
 created_by: krishdevdb
 ---

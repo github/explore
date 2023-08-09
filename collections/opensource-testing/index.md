@@ -43,7 +43,7 @@ items:
  - stefanjudis/grunt-photobox
  - nathanmarks/vrtest
  - reg-viz/reg-cli
- - segmentio/nightmare
+ - segment-boneyard/nightmare
  - reg-viz/reg-suit
  - xolvio/chimp
  - NimaSoroush/differencify

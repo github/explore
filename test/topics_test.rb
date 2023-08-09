@@ -316,6 +316,18 @@ describe "topics" do
         end
       end
 
+      it "has a valid created_by" do
+        metadata = metadata_for(topics_dir, topic) || {}
+
+        if (created_by = metadata["created_by"])
+          valid_range = 1..MAX_CREATED_BY_LENGTH
+          current_length = created_by.length
+          assert valid_range.cover?(current_length),
+                 "must have a created_by no more than #{MAX_CREATED_BY_LENGTH} " \
+                 "characters (currently #{current_length})"
+        end
+      end
+
       it "follows the Topic Page Style Guide" do
         text = body_for(topics_dir, topic)
         metadata = metadata_for(topics_dir, topic)

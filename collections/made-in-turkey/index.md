@@ -6,7 +6,7 @@ items:
  - fatih/vim-go
  - ssg/streetcoder
  - ahmetb/kubectx
- - eserozvataf/laroux.js
+ - eser/laroux.js
  - f/vue-wait
  - joom/hezarfen
  - jbytecode/LinRegOutliers
@@ -21,6 +21,7 @@ items:
  - pankod/superplate
  - Huseyinnurbaki/mocktail
  - geziyor/geziyor
+ - Trendyol/baklava
 display_name: Made in Turkey
 created_by: kiliczsh
 image: made-in-turkey.png

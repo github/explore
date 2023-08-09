@@ -27,6 +27,10 @@ items:
  - ionic-team/stencil
  - withastro/astro
  - BuilderIO/qwik
+ - vercel/next.js
+ - gatsbyjs/gatsby
+ - sveltejs/kit
+
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---

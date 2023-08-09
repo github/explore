@@ -47,6 +47,8 @@ items:
  - keploy/keploy
  - LambdaTest/test-at-scale
  - arnav-kr/json-formatter
+ - abhimanyu003/sttr
+ - juspay/hyperswitch
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png

@@ -13,7 +13,6 @@ items:
  - metabrainz/picard
  - overtone/overtone
  - sonic-pi-net/sonic-pi
- - nukeop/nuclear
  - swdotcom/swdc-vscode-musictime
  - hundredrabbits/Orca
  - 8bitbubsy/pt2-clone

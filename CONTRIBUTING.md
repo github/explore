@@ -98,7 +98,7 @@ This repository includes [a list of the most-used GitHub topics that don't yet h
 
 ## Guidelines
 
-* Avoid conflicts of interest. Maintainers of a project cannot add a topic or collection for their own project. If a topic is popular enough to warrant inclusion, someone else will add or improve it.
+* Avoid conflicts of interest. These should be of general community interest, not a marketing vehicle for a product or a personal project. If you are a direct employee of a company creating the project, or the creator and sole maintainer, it's unlikely to be accepted.
 
 ## Running tests
 

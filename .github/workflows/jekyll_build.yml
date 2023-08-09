@@ -23,7 +23,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: 💎 setup ruby
-      uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
+      uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939 # v1.152.0
       with:
         bundler-cache: true
         cache-version: 0
@@ -33,10 +33,10 @@ jobs:
       uses: actions/configure-pages@v3
 
     - name: 🔨 install dependencies & build site
-      uses: actions/jekyll-build-pages@v1.0.7
+      uses: actions/jekyll-build-pages@v1.0.8
       
     - name: ⚡️ upload artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v2
 
   deploy:
     needs: build
@@ -49,4 +49,4 @@ jobs:
     steps:
       - name: 🚀 deploy
         id: deployment
-        uses: actions/deploy-pages@v1.2.4
+        uses: actions/deploy-pages@v2.0.3
