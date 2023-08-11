@@ -57,6 +57,9 @@ items:
  - avajs/ava
  - graphql/graphql-js
  - Redocly/redoc
+ - retejs/rete
+ - javadev/underscore-java
+ - javadev/LeetCode-in-Java
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png
