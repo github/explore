@@ -6,7 +6,6 @@ items:
  - cypress-io/cypress
  - casperjs/casperjs
  - webdriverio/webdriverio
- - joelgriffith/navalia
  - webcatalog/chromeless
  - laurentj/slimerjs
  - sdesalas/trifleJS
