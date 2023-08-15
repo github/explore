@@ -4,7 +4,6 @@ items:
  - appium/appium
  - microsoft/playwright
  - cypress-io/cypress
- - casperjs/casperjs
  - webdriverio/webdriverio
  - joelgriffith/navalia
  - webcatalog/chromeless
