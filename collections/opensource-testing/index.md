@@ -61,6 +61,7 @@ items:
  - trytouca/trytouca
  - HuddleEng/PhantomCSS
  - keploy/keploy
+ - vividus-framework
 display_name: OpenSource Testing Frameworks & Tools
 created_by: msupernaut
 ---
