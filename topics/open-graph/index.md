@@ -1,5 +1,6 @@
 ---
 aliases: opengraph, open-graph-tags, opengraph-tags, open-graph-protocol
+related: meta-tags, twitter-cards, dublin-core, semantic-web
 created_by: Facebook
 display_name: Open Graph protocol
 released: 2010
