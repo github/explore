@@ -1,0 +1,8 @@
+---
+related: meta-tags, metatags
+display_name: SEO
+short_description: Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.
+topic: seo
+wikipedia_url: https://en.wikipedia.org/wiki/Search_engine_optimization
+---
+As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior, what people search for, the actual search terms or keywords typed into search engines, and which search engines are preferred by their targeted audience. SEO is performed because a website will receive more visitors from a search engine when websites rank higher on the search engine results page (SERP). These visitors can then potentially be converted into customers.
