@@ -1,8 +1,7 @@
 ---
-aliases: dll-injector, dll-injection-tool
 display_name: DLL Injector
 topic: dll-injector
-related: process-injection, code-injection, software-development
+related: process-injection, code-injection
 short_description: A method or tool used to inject or run code within another process by means of a dynamic-link library (DLL).
 wikipedia_url: https://en.wikipedia.org/wiki/DLL_injection
 ---
