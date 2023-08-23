@@ -7,7 +7,7 @@ github_url: https://github.com/curl/curl
 logo: curl.svg
 released: April 8, 1997
 short_description: cURL is a computer software project providing a library and command-line tool for transferring data. The name stands for "Client for URL".
-topic: chrome
+topic: curl
 url: https://curl.se/
 wikipedia_url: https://en.wikipedia.org/wiki/CURL
 ---
