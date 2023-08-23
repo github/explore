@@ -4,7 +4,7 @@ aliases: libcurl
 created_by: Daniel Stenberg
 display_name: cURL
 github_url: https://github.com/curl/curl
-logo: curl.svg
+logo: curl.png
 released: April 8, 1997
 short_description: cURL is a software project providing a library and command-line tool for transferring data. The name stands for "Client for URL".
 topic: curl
