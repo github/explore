@@ -2,6 +2,7 @@
 items:
  - puppetlabs/puppet
  - chef/chef
+ - cloudposse/atmos
  - ansible/ansible
  - hashicorp/terraform
  - saltstack/salt
