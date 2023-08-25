@@ -1,7 +1,7 @@
 ---
-display_name: A11y (Accessibility)
-topic: a11y
-aliases: accessibility, web-accessibility
+display_name: Web Accessibility (a11y)
+topic: web-accessibility
+aliases: accessibility, a11y
 related: wai-aria
 short_description: During server-side rendering, the content of a webpage is prepared on the server and only needs to be hydrated by the client.
 wikipedia_url: https://en.wikipedia.org/wiki/Web_accessibility
