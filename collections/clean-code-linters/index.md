@@ -31,6 +31,7 @@ items:
  - dotenv-linter/dotenv-linter
  - florianschanda/miss_hit
  - pmd/pmd
+ - diffplug/spotless
 display_name: Clean code linters
 created_by: holman
 ---
