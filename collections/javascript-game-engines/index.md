@@ -1,5 +1,6 @@
 ---
 items:
+ - jay19240/Haiku
  - pixijs/pixijs
  - photonstorm/phaser
  - melonjs/melonJS
