@@ -40,6 +40,7 @@ items:
  - cloudquery/cloudquery
  - devtron-labs/devtron
  - livecycle/preevy 
+ - cloudposse/atmos
  
 display_name: DevOps tools
 ---
