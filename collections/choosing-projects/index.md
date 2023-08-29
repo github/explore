@@ -7,7 +7,7 @@ items:
  - SerenityOS/serenity
  - komodorio/helm-dashboard
  - cloudquery/cloudquery
- - EddieHubCommunity/LinkFree
+ - EddieHubCommunity/BioDrop
  - Ileriayo/markdown-badges
 
 display_name: How to choose (and contribute to) your first open source project
