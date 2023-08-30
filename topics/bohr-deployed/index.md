@@ -1,7 +1,7 @@
 ---
 display_name: bohr.io
 github_url: https://github.com/bohr-io
-logo: bohr-io.png
+logo: bohr-deployed.png
 short_description: The first brazilian serverless platform.
 topic: bohr-deployed
 url: https://bohr.io
