@@ -15,6 +15,7 @@ items:
  - gitpod-io/gitpod
  - gnustep/apps-gorm
  - koalaman/shellcheck
+ - finehq/fine
 display_name: Software development tools
 ---
 Build apps better, faster, stronger.
