@@ -32,6 +32,7 @@ items:
  - florianschanda/miss_hit
  - pmd/pmd
  - diffplug/spotless
+ - spotbugs/spotbugs
 display_name: Clean code linters
 created_by: holman
 ---
