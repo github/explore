@@ -6,4 +6,4 @@ related: psr, psr-7
 url: https://www.php-fig.org/psr/psr-15/
 created_by: Woody Gilk
 ---
-common interfaces for HTTP server request handlers ("request handlers") and HTTP server middleware components ("middleware") that use HTTP messages as described by PSR-7 or subsequent replacement PSRs.
+**PSR 15** is a set of common interfaces for HTTP server request handlers ("request handlers") and HTTP server middleware components ("middleware") that use HTTP messages as described by PSR-7 or subsequent replacement PSRs.
