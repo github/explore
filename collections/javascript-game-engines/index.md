@@ -22,6 +22,7 @@ items:
  - Cloud9c/taro
  - replit/kaboom
  - straker/kontra
+ - excaliburjs/excaliburjs.github.io
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---
