@@ -1,11 +1,11 @@
 ---
 display_name: CSS Framework
-short_description: CSS Frameworks offer one or multiple stylesheets with basic styling to generic components to some extend, often times have their own class notation and many of them use preprocessors.
+short_description: CSS Frameworks usually offer one or more stylesheets with basic styling/generic components, and many of them use preprocessors.
 topic: css-framework
 related: css, bootstrap, tailwind, zurb-foundation
 wikipedia_url: https://en.wikipedia.org/wiki/CSS_framework
 ---
-**CSS Frameworks** offer one or multiple stylesheets with basic styling to generic components to some extend, including but not limited to
+**CSS Frameworks** offer one or multiple stylesheets from basic styling to generic components to some extend, including but not limited to
 * Reboot (aka "Preflight")
 * Layout (often times "Grid")
 * Forms, Tables, etc.
