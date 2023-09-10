@@ -12,4 +12,4 @@ wikipedia_url: https://en.wikipedia.org/wiki/CSS_framework
 * [Typography](https://github.com/topics/typography)
 * [Responsiveness](https://github.com/topics/responsive) (often times including breakpoints and [viewport](https://github.com/topics/viewport))
 
-They often times have their own class notation and many of them use [preprocessors](https://github.com/topics/css-preprocessor) like [Sass](https://github.com/topics/sass), [Less](https://github.com/topics/less) oder [Stylus](https://github.com/topics/stylus).
+They often have their own class notation and many use [preprocessors](https://github.com/topics/css-preprocessor) like [Sass](https://github.com/topics/sass), [Less](https://github.com/topics/less) or [Stylus](https://github.com/topics/stylus).
