@@ -5,7 +5,7 @@ topic: css-framework
 related: css, bootstrap, tailwind, zurb-foundation
 wikipedia_url: https://en.wikipedia.org/wiki/CSS_framework
 ---
-**CSS Frameworks** offer one or multiple stylesheets from basic styling to generic components to some extend, including but not limited to
+**CSS Frameworks** offer one or multiple stylesheets from basic styling to generic components to some extent, including but not limited to
 * Reboot (aka "Preflight")
 * Layout (often times "Grid")
 * Forms, Tables, etc.
