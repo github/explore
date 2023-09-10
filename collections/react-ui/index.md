@@ -27,6 +27,7 @@ items:
  - palantir/blueprint
  - rsuite/rsuite
  - Semantic-Org/Semantic-UI-React
+ - creativetimofficial/material-tailwind
 
 ---
 
