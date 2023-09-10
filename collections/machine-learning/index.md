@@ -24,7 +24,7 @@ items:
  - shogun-toolbox/shogun
  - davisking/dlib
  - apache/predictionio
- - deepmind/pysc2
+ - google-deepmind/pysc2
  - gokceneraslan/awesome-deepbio
  - buriburisuri/ByteNet
  - josephmisiti/awesome-machine-learning
