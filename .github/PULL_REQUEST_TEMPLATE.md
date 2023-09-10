@@ -1,4 +1,4 @@
-<!-- Thank you for contributing! -->
+<!--- Thank you for contributing! --->
 ### Please confirm this pull request meets the following requirements:
 
 - [ ] I followed the contributing guidelines: <https://github.com/github/explore/blob/main/CONTRIBUTING.md>.
