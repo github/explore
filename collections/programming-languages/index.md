@@ -63,7 +63,6 @@ items:
 - QB64Team/qb64
 - gleam-lang/gleam
 - Gwion/Gwion
-- vlang/v
 - carbon-language/carbon-lang
 - imba/imba
 - Jackojc/cane
