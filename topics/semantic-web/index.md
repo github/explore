@@ -2,7 +2,7 @@
 display_name: Semantic Web
 short_description: The Semantic Web is an extension of the World Wide Web to make Internet data machine-readable. 
 topic: semantic-web
-related: semantic-html, rdf, linked-data, microformats
+related: semantic-html, rdf, linked-data, microformats, microdata
 wikipedia_url: https://en.wikipedia.org/wiki/Semantic_Web
 created_by: Tim Berners-Lee, James Alexander Hendler, Ora Lassila
 ---
