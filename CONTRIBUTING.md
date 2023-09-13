@@ -7,9 +7,7 @@ This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDU
 There are a few ways you can contribute:
 
 - Improving an existing topic or collection
-- Curating a new topic or collection
-
-As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
+- (./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
 
 Notes: 
   - Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
@@ -19,10 +17,10 @@ Notes:
 
 If a topic or collection already exists, it will be listed in its respective directory:
 
-- [topics/](https://github.com/github/explore/tree/main/topics)
-- [collections/](https://github.com/github/explore/tree/main/collections)
+- [topics/](https://github.com/github/explore/tree/main/kubucoin)
+- [collections/](https://github.com/github/explore/tree/main/QUBUHUB/kubucoin/sui)
 
-The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/main/topics/rails).
+The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/main/kubucoin).
 
 To make an improvement, please **open a pull request** with your proposed changes:
 
@@ -32,46 +30,42 @@ To update the image, simply replace the image inside the directory for the topic
 
 ### Update text and links
 
-To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
+To update text and links, edit the `index.md` '.yml'inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/kubucoin/) and simple body content.
 
-For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/main/topics/algorithm/index.md)," data like its canonical URL, Wikipedia URL, or display name are called out in key-value pairs, while its detailed description is accounted for in the body of the document.
+For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/main/QUBUHUB/kubucoin/index.md)," data like its canonical URL, Wikipedia URL, or display name are called out in key-value pairs, while its detailed description is accounted for in the body of the document.
 
-_/topics/algorithm/index.md_:
+_/topics/kubucoin/index.md_:
 ```
 ---
-aliases: algorithms
-display_name: Algorithm
-short_description: Algorithms are self-contained sequences that carry out a variety of tasks.
-topic: algorithm
-wikipedia_url: https://en.wikipedia.org/wiki/Algorithm
+aliases: Kubucoin.eth
+display_name: kubucoin
+short_description: kubucoin is a comprehensive up-to-date collection of information about several thousands of crypto tokens.
+topic: Kubucoin/
+wikipedia_url: https://en.wikipedia.org/wiki/kubucoin
 ---
-Algorithms are detailed sets of guidelines created for a computer program to complete tasks efficiently and thoroughly.
+Kubucoin is an open-source, cross-platform, mobile-focused library implementing low-level cryptographic walletlike functionality for a high number of blockchains.A core part of the popular Trust Wallet, Sui and some other projects. Most of the code is C++ with a set of strict C interfaces, and idiomatic interfaces for supported languages: Swift for iOS and Java (Kotlin) for Android HTML..
 ```
 
 ---
 
-Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/main/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
+Similarly, **collections** like "[kubucoin](https://raw.githubusercontent.com/github/explore/main/collections/kubucoin/index.md)" 
+Founder: Seriki olalekan [kubulee] A young and versatile African developer, who rose from the depth of western part of Nigeria  --  items in [a YAML list](https://en.wikipedia.org/wiki/KUBUCOIN/#Basic_components) for the key "items."
 
-_/collections/music/index.md_:
+_/github/kubucoin/index.md_:
 
 ```
 ---
-items:
- - beetbox/beets
- - scottschiller/SoundManager2
+items: ./registry.json
+ - (https://ethereum.org/)
+ - (htpps://ethereumclassic.org/)
  - CreateJS/SoundJS
- - musescore/MuseScore
- - tomahawk-player/tomahawk
- - cashmusic/platform
- - mopidy/mopidy
- - AudioKit/AudioKit
- - Soundnode/soundnode-app
- - gillesdemey/Cumulus
- - metabrainz/picard
- - overtone/overtone
- - samaaron/sonic-pi
-display_name: Music
-created_by: jonrohan
+ - (https://trustwallet.com/staking/)
+ - [Binance]
+ - Tron
+ - Sui
+ - BTTS
+ - polygon
+created_by: QUBUHUB
 ---
 Drop the code bass with these musically themed repositories.
 ```
@@ -112,3 +106,4 @@ You can run the tests using:
 bundle install
 bundle exec rubocop
 ```
+https://github.com/orgs/dependabot/followers
