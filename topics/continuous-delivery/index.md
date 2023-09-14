@@ -2,7 +2,8 @@
 display_name: Continuous Delivery (CD)
 short_description: Continuous delivery is a software engineering approach in which teams produce software in short cycles without doing so manually.
 topic: continuous-delivery
-related: ci-cd, cicd, continuous-deployment, continuous-integration 
+related: ci-cd, cicd, continuous-deployment, continuous-integration
+wikipedia_url: https://en.wikipedia.org/wiki/Continuous_delivery
 ---
 **Continuous delivery** (**CD**) is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, following a pipeline through a "production-like environment", without doing so manually. It aims at building, testing, and releasing software with greater speed and frequency. The approach helps reduce the cost, time, and risk of delivering changes by allowing for more incremental updates to applications in production. A straightforward and repeatable deployment process is important for continuous delivery.
 
