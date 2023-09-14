@@ -1,5 +1,6 @@
 ---
 items:
+ - trunk-io/plugins
  - standard/standard
  - eslint/eslint
  - jshint/jshint
