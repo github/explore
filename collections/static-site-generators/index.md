@@ -25,6 +25,7 @@ items:
  - tlienart/Franklin.jl
  - getzola/zola
  - lumeland/lume
+ - docsifyjs/docsify
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
