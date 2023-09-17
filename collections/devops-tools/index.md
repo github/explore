@@ -41,6 +41,7 @@ items:
  - devtron-labs/devtron
  - livecycle/preevy 
  - cloudposse/atmos
+ - basti-app/basti
  
 display_name: DevOps tools
 ---
