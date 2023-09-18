@@ -6,6 +6,7 @@ related: postman-collection, newman, swagger, openapi, rest-api, graphql, api-de
 wikipedia_url: https://en.wikipedia.org/wiki/Postman_(software)
 github_url: https://github.com/postmanlabs
 created_by: Abhinav Asthana, Ankit Sobti, Abhijit Kane
+logo: postman.png
 ---
 **Postman** is an API platform for developers for building and using APIs. This tool cannot only make requests with different HTTP verbs to different URLs, it also offers
 * using variables (collection, environment, etc.) in different places (path, query string, etc.)
