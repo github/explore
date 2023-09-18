@@ -1,6 +1,6 @@
 ---
 display_name: Postman
-short_description: Postman is a HTTP and REST API testing tool
+short_description: Postman is a HTTP and REST API testing tool.
 topic: postman
 related: postman-collection, newman, swagger, openapi, rest-api, graphql, api-design, developer-tools, api-testing
 wikipedia_url: https://en.wikipedia.org/wiki/Postman_(software)
