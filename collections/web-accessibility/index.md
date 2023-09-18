@@ -1,7 +1,7 @@
 ---
 items:
  - github/lightcrawler
- - Khan/tota11y
+ - jdan/tota11y
  - addyosmani/a11y
  - ffoodd/a11y.css
  - jxnblk/colorable
