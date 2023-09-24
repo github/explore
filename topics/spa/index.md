@@ -1,6 +1,6 @@
 ---
 display_name: Single-page application (SPA)
-short_description: Single-page applications are client-side applications that don't route via different pages but rather combine the logic for different contents into one page.
+short_description: Single-page applications are client-side applications that combine the logic for different contents into one page.
 topic: spa
 related: mpa, vuejs, reactjs, svelte, astro, angular, emberjs, javascript, routing, pushstate
 wikipedia_url: https://en.wikipedia.org/wiki/Single-page_application
