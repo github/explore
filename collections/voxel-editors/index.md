@@ -15,6 +15,9 @@ items:
  - cubzh/cubzh
  - nimadez/voxel-builder
  - matpow2/voxie
+ - rubenwardy/NodeBoxEditor
+ - chrmoritz/Troxel
+ - zakorgy/voxel-editor
 display_name: Voxel Editors
 ---
 Software to design and edit 3D voxel files.
