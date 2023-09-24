@@ -18,6 +18,7 @@ items:
  - rubenwardy/NodeBoxEditor
  - chrmoritz/Troxel
  - zakorgy/voxel-editor
+ - simlu/voxelshop
 display_name: Voxel Editors
 ---
 Software to design and edit 3D voxel files.
