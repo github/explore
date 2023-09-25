@@ -8,7 +8,6 @@ items:
  - Perkovec/Vuxel
  - GaidamakUA/Voxenko
  - gerardparareda/BlockyTracer
- - komorra/PhotoVoxelKit
  - Bequen/GridEditor
  - honestabelink/stonevox3d
  - jval1972/DD_VOXEL
