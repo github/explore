@@ -43,7 +43,6 @@ items:
  - hajimehoshi/ebiten
  - HaxeFoundation/haxe
  - bevyengine/bevy
- - Esenthel/EsenthelEngine
  - aws/lumberyard
  - FlaxEngine/FlaxEngine
  - ObEngine/ObEngine
