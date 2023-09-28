@@ -1,6 +1,6 @@
 ---
 display_name: Eloquent ORM
-short_description: Eloquent is an ORM which is part of the Laravel framework
+short_description: Eloquent is an ORM which is part of the Laravel framework.
 aliases: eloquent-orm
 topic: eloquent
 related: laravel, orm, moloquent
