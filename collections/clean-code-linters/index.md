@@ -33,6 +33,7 @@ items:
  - pmd/pmd
  - diffplug/spotless
  - spotbugs/spotbugs
+ - trunk-io/plugins
 display_name: Clean code linters
 created_by: holman
 ---
