@@ -1,7 +1,7 @@
 ---
 aliases: event-logging, data-logging, application-logging, system-logging, error-logging, audit-trail, logging-framework, log-analysis
 display_name: Logging
-short_description: Logging involves recording events, actions, or messages that occur in a software application for analysis, debugging, and monitoring purposes.
+short_description: Logging events, actions, and messages for analysis, debugging, and monitoring.
 topic: logging
 wikipedia_url: https://en.wikipedia.org/wiki/Logging_(computing)
 ---
