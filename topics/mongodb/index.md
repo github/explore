@@ -1,5 +1,5 @@
 ---
-aliases: mongodb-database, mongo, mongodb, mongo-db
+aliases: mongodb-database, mongo, mongo-db
 created_by: MongoDB Inc.
 display_name: MongoDB
 github_url: https://github.com/mongodb
