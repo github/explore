@@ -1,7 +1,7 @@
 ---
 aliases: local-storage
 display_name: LocalStorage
-short_description: LocalStorage is a JavaScript API of storing arbitrary key-value data in the web browser as an alternative to cookies.
+short_description: LocalStorage is a JavaScript object that allows storing arbitrary key-value pairs in the web browser as an alternative to cookies.
 topic: localstorage
 url: https://html.spec.whatwg.org/multipage/webstorage.html#dom-localstorage-dev
 wikipedia_url: https://en.wikipedia.org/wiki/Web_storage
