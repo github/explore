@@ -4,7 +4,7 @@ display_name: Nunjucks
 topic: nunjucks
 github_url: https://github.com/mozilla/nunjucks
 logo: nunjucks.jpg
-related: jinja2, liquid
+related: jinja2, liquid, javascript, templating, handlebars, mustache-js, ejs-templates
 released: September 2012
 short_description: Templating language for JavaScript.
 url: https://mozilla.github.io/nunjucks/
