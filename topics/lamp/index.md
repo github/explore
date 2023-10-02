@@ -4,6 +4,7 @@ display_name: LAMP
 short_description: LAMP is a software bundle containing Linux and the Apache server.
 topic: lamp
 wikipedia_url: https://en.wikipedia.org/wiki/LAMP_(software_bundle)
+related: wamp, mamp, xampp, mean, mern
 ---
 LAMP is a bundle of software consisting of four open source programs.
 It is one of the most popular software categories for servers.
