@@ -29,7 +29,7 @@ items:
  - usmanhalalit/charisma
  - usmanhalalit/laracsv
  - boss-net/license-checker
- - sscsb/action-sbom-upload
+ - distronode/action-sbom-upload
  - sulaiman-coder/profiler
 
 display_name: Made in Bangladesh
