@@ -3,7 +3,6 @@ items:
  - RedSiege/EyeWitness
  - projectdiscovery/nuclei
  - epi052/feroxbuster
- - EricChiang/pup
  - 0xsha/CloudBrute
  - D3Ext/AORT
  - BishopFox/spoofcheck
