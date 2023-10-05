@@ -30,7 +30,6 @@ items:
  - usmanhalalit/laracsv
  - boss-net/license-checker
  - distronode/action-sbom-upload
- - sulaiman-coder/profiler
 
 display_name: Made in Bangladesh
 created_by: kuttumiah
