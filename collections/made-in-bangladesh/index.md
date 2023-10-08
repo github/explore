@@ -29,7 +29,6 @@ items:
  - usmanhalalit/charisma
  - usmanhalalit/laracsv
  - boss-net/license-checker
- - distronode/action-sbom-upload
 
 display_name: Made in Bangladesh
 created_by: kuttumiah
