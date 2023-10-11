@@ -9,6 +9,7 @@ short_description: Node.js is a tool for executing JavaScript in a variety of en
 topic: nodejs
 url: https://nodejs.org/en/
 wikipedia_url: https://en.wikipedia.org/wiki/Node.js
+related: javascript, express, mean, meteor, next, v8, event-driven-architecture, event-loop, npm, deno
 ---
 
-Node.js is a tool for executing JavaScript in a variety of environments. JavaScript had humble beginnings as a language that lived only in web browsers, but the Node.js project has expanded its reach and helped make it the most  popular programming language in the world. Node.js extends the creative potential of people with web development experience, enabling a new generation  of developers to create servers, command-line tools, desktop apps, and even robots.
+**Node.js** is a tool for executing JavaScript in a variety of environments. JavaScript had humble beginnings as a language that lived only in web browsers, but the Node.js project has expanded its reach and helped make it the most  popular programming language in the world. Node.js extends the creative potential of people with web development experience, enabling a new generation  of developers to create servers, command-line tools, desktop apps, and even robots.
