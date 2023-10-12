@@ -9,6 +9,6 @@ short_description: Less is the dynamic stylesheet language.
 topic: less
 url: http://lesscss.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Less_(stylesheet_language)
-related: css, sass, stylus, css-variables, css-nesting, scoped
+related: css, sass, stylus, css-variables, css-nesting, scoped-css
 ---
 **Less** is a dynamic preprocessor style sheet language that can be compiled into Cascading Style Sheets (CSS) and run on the client side or server side.
