@@ -9,6 +9,6 @@ short_description: Telegram is a non-profit, cloud-based instant messaging servi
 topic: telegram
 url: https://telegram.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Telegram_(messaging_service)
-related: whatsapp, signal, threema, instant-messaging, open-source, mtproto, wechat, imessage
+related: whatsapp, threema, instant-messaging, open-source, mtproto, wechat, imessage
 ---
 **Telegram** is a cloud-based instant messaging service. It offers open source clients [for a multitude of operating systems](https://telegram.org/apps) and powerful APIs that allow developers to create their [own clients](https://core.telegram.org/api#telegram-api) and [chat bots](https://core.telegram.org/bots).
