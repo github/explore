@@ -55,6 +55,7 @@ items:
  - PurpleKingdomGames/indigo
  - nivanov/cosplay
  - gurkenlabs/litiengine
+ - o3de/o3de
 display_name: Game Engines
 created_by: leereilly
 ---

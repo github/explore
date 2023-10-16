@@ -1,6 +1,5 @@
 ---
 items:
- - antonmedv/fx
  - hashicorp/vault
  - pytorch/pytorch
  - https://nostalgic-css.github.io/NES.css/
