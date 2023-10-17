@@ -5,7 +5,7 @@ related: iced, iced-rs
 created_by: Emil Ernerfeldt
 display_name: egui
 github_url: https://github.com/emilk/egui/
-short_description: egui (pronounced "e-gooey") is a simple, fast, and highly portable immediate mode GUI library for Rust. egui runs on the web, natively, and in your favorite game engine. it aims to be the easiest-to-use Rust GUI library.
+short_description: egui (pronounced "e-gooey") is a simple, fast, and highly portable immediate mode GUI library for Rust. 
 ---
 egui (pronounced "e-gooey") is a simple, fast, and highly portable immediate mode GUI library for Rust. egui runs on the web, natively, and in your favorite game engine.
 
