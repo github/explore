@@ -3,7 +3,7 @@ created_by: The Bearodactyl
 display_name: Geode Mods
 short_description: This topic is for people to advertise Geode mods.
 topic: geode-mods
-related: geometry-dash
+related: geometry-dash, geode-sdk, geometrydash, modding
 url: https://geode-sdk.org
 logo: geode-mods.png
 ---
