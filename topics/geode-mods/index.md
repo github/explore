@@ -1,7 +1,7 @@
 ---
 created_by: The Bearodactyl
 display_name: Geode Mods
-short_description: Geode is a modding platform/sdk for the game Geometry Dash
+short_description: Geode is a modding platform/sdk for the game Geometry Dash.
 topic: geode-mods
 related: geometry-dash, geode-sdk, geometrydash, modding
 url: https://geode-sdk.org
