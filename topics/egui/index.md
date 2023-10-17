@@ -1,6 +1,6 @@
 ---
 topic: egui
-aliases: egui-rs, egui-rust, egui_rs, egui_rust
+aliases: egui-rs, egui-rust
 related: iced, iced-rs
 created_by: Emil Ernerfeldt
 display_name: egui
