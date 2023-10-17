@@ -1,9 +1,9 @@
 ---
-aliases: casejs,case-app,case-js
+aliases: case,case-app,case-js
 created_by: CASE
 display_name: CASE
 github_url: https://github.com/casejs/case
-logo: case.png
+logo: casejs.png
 related: open-source-framework, typescript, platform
 released: 2023
 short_description: CASE is a frameworkless and open source tool for creating and deploying web apps.
