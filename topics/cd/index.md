@@ -1,6 +1,6 @@
 ---
 display_name: CD (Disambiguation)
-short_description: YAML is a human-friendly data serialization standard.
+short_description: 'CD can either mean "continuous deployment" or "Continuous delivery"'
 topic: cd
 related: continuous-deployment, continuous-delivery, continuous-integration, cicd, devops
 ---
