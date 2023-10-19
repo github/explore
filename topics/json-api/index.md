@@ -1,6 +1,6 @@
 ---
 display_name: "JSON:API"
-created_by: Yehuda Katz, Dan Gebhardt, Gabe Sullice, Jeldrik Hanschke, Tyler Kellen, Steve Klabnik, Ethan Resnick
+created_by: Yehuda Katz, Dan Gebhardt, Gabe Sullice, Jeldrik Hanschke, Tyler Kellen, Steve Klabnik,Ethan Resnick
 logo: json-api.png
 released: May 3, 2013
 short_description: "JSON:API is a specification for building APIs in JSON."
