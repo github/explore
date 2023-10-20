@@ -11,13 +11,10 @@ aliases: hacktoberfest-contributions, hacktoberfest-repo, hacktoberfest-contribu
 **Hacktoberfest** is a month-long celebration of open source projects, their maintainers, and the entire community of contributors. Each October, open source maintainers give new contributors extra attention as they guide developers through their first pull requests on GitHub.
 
 # By year
-[2017](https://github.com/topics/hacktoberfest2017) &bull; [2018](https://github.com/topics/hacktoberfest2018) &bull; [2019](https://github.com/topics/hacktoberfest2019) &bull; [2020](https://github.com/topics/hacktoberfest2020) &bull; **[2021](https://github.com/topics/hacktoberfest2021)** ([accepted](https://github.com/topics/hacktoberfest-accepted2021)) &bull; **[2022](https://github.com/topics/hacktoberfest2022)** ([accepted](https://github.com/topics/hacktoberfest2022-accepted)) &bull; **[2023](https://github.com/topics/hacktoberfest2023)** ([accepted](https://github.com/topics/hacktoberfest2023-accepted) &bull; [approved](https://github.com/topics/hacktoberfest2023-approved)) &bull; [2024](https://github.com/topics/hacktoberfest2024) &bull; [2025](https://github.com/topics/hacktoberfest2025) &bull; [2026](https://github.com/topics/hacktoberfest2026)
+[2017](https://github.com/topics/hacktoberfest2017) &bull; [2018](https://github.com/topics/hacktoberfest2018) &bull; [2019](https://github.com/topics/hacktoberfest2019) &bull; [2020](https://github.com/topics/hacktoberfest2020) &bull; [2021](https://github.com/topics/hacktoberfest2021) &bull; [2022](https://github.com/topics/hacktoberfest2022) &bull; [2023](https://github.com/topics/hacktoberfest2023) &bull; [2024](https://github.com/topics/hacktoberfest2024) &bull; [2025](https://github.com/topics/hacktoberfest2025) &bull; [2026](https://github.com/topics/hacktoberfest2026)
 
 # [By status](https://github.com/topics/hacktoberfest-status)
-**[accepted](https://github.com/topics/hacktoberfest-accepted)**  ([2021](https://github.com/topics/hacktoberfest-accepted2021) &bull; [2022](https://github.com/topics/hacktoberfest2022-accepted) &bull; [2023](https://github.com/topics/hacktoberfest2023-accepted)) &bull; **[approved](https://github.com/topics/hacktoberfest-approved)** ([2023](https://github.com/topics/hacktoberfest2023-approved)) &bull; [ready](https://github.com/topics/hacktoberfest-ready) &bull; [rejected](hacktoberfest-rejected)
-
-# By experience
-[beginners](https://github.com/topics/hacktoberfest-beginners)
+[accepted](https://github.com/topics/hacktoberfest-accepted) &bull; [approved](https://github.com/topics/hacktoberfest-approved)
 
 # By country
 [🇳🇵 Nepal](https://github.com/topics/hacktoberfestnepal) &bull; [🇮🇩 Indonesia](https://github.com/topics/hacktoberfest-indonesia) &bull; **[🇮🇳 India](https://github.com/topics/hacktoberfest-india)** ([West Bengal](https://github.com/topics/hacktoberfest-westbengal)) &bull; [🇧🇷 Brazil](https://github.com/topics/hacktoberfest-brasil)
