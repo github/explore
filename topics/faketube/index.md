@@ -1,5 +1,4 @@
 ---
-aliases: faketube
 display_name: FakeTube
 short_description: FakeTube is a Czech social network for sharing videos.
 topic: faketube
