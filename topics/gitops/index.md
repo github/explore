@@ -1,6 +1,6 @@
 ---
 display_name: GitOps
-short_description: GitOps is an operational framework that takes DevOps best practices used for application development and applies them to infrastructure automation.
+short_description: GitOps is an operational framework that takes DevOps best practices and applies them to infrastructure automation.
 topic: gitops
 related: devops, winops, git, gitflow, devsecops, infrastructure-automation, infrastructure-as-code, containerization, monitoring, observability
 wikipedia_url: https://en.wikipedia.org/wiki/gitops
