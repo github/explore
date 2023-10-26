@@ -6,6 +6,14 @@ items:
  - AlexNisnevich/untrusted
  - doublespeakgames/adarkroom
  - Hextris/hextris
+ - mrbid/Cubes2
+ - mrbid/Snowboarder
+ - mrbid/Snowling
+ - mrbid/SNOWBALL2
+ - mrbid/SpaceMiner
+ - mrbid/FractalAttackOnlineLite
+ - mrbid/CoinPusher
+ - mrbid/TuxPusher
 display_name: Web games
 created_by: leereilly
 ---
