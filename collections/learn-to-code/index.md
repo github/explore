@@ -1,5 +1,6 @@
 ---
 items:
+ - good-first-issues/good-first-issues.github.io
  - 30-seconds/30-seconds-of-code
  - railsgirls/guides.railsgirls.com
  - railsbridge/docs
