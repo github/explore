@@ -1,7 +1,7 @@
 ---
 aliases: testing-tools, testing-framework, testing-practices, software-testing, test
 display_name: Testing
-short_description: The act of examining behavior of the software under test to Eliminate bugs and ship with more confidence.
+short_description: The act of examining behavior of the software under test to eliminate bugs and ship with more confidence.
 topic: testing
 wikipedia_url: https://en.wikipedia.org/wiki/Software_testing
 ---
