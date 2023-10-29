@@ -3,7 +3,7 @@ display_name: Kokkos
 github_url: https://github.com/kokkos
 logo: kokkos.png
 related: c-plus-plus, parallel-computing, high-performance-computing
-short_description: Kokkos C++ Performance Portability EcoSystem.
+short_description: Kokkos C++ Performance Portability Ecosystem.
 topic: kokkos
 url: https://kokkos.github.io/
 ---
