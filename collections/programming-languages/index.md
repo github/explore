@@ -6,6 +6,7 @@ items:
 - rust-lang/rust
 - JetBrains/kotlin
 - python/cpython
+- cython/cython
 - php/php-src
 - JuliaLang/julia
 - ruby/ruby
