@@ -15,6 +15,7 @@ items:
  - gitpod-io/gitpod
  - gnustep/apps-gorm
  - koalaman/shellcheck
+ - axem-solutions/dem
 display_name: Software development tools
 ---
 Build apps better, faster, stronger.
