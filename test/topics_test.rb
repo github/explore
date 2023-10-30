@@ -162,6 +162,13 @@ describe "topics" do
                      "a topic should only be an alias or a related topic, but not both"
       end
 
+      it "has existing related topics" do
+        related_topics = related_topics_for(topic)
+        related_topics.each do |related_topic|
+          assert !existing_topic(related_topic)
+        end
+      end
+
       it "has a matching topic key" do
         metadata = metadata_for(topics_dir, topic)
 
