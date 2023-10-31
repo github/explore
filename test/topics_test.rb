@@ -165,7 +165,8 @@ describe "topics" do
       it "has existing related topics" do
         related_topics = related_topics_for(topic)
         related_topics.each do |related_topic|
-          assert existing_topic(related_topic)
+          assert existing_topic(related_topic),
+                  "A related topic for '#{topic}' should have at least one repository tagged with it, however, '#{related_topic}' does not" 
         end
       end
 
