@@ -70,6 +70,10 @@ class NewOctokit < Octokit::Client
     @@users
   end
 
+  def topics
+    @@topics
+  end
+
   def messages
     @@messages
   end
@@ -82,8 +86,8 @@ class NewOctokit < Octokit::Client
     @@user_request_count
   end
 
-  def topics
-    @@topics
+  def topic_request_count
+    @@topic_request_count
   end
 
   def repository(item)
@@ -104,6 +108,17 @@ class NewOctokit < Octokit::Client
   rescue Octokit::TooManyRequests
     users[:skip_requests] = true
     users[item] = true
+  end
+
+  def existing_topic(name)
+    return topics[name] if topics.key?(name)
+    topics[name] = client.search_repositories("topic:#{name}").total_count > 0
+    @@topic_request_count += 1
+    sleep client.rate_limit.resets_in if client.rate_limit.remaining == 0
+    topics[name]
+  rescue Octokit::TooManyRequests
+    topics[:skip_requests] = true
+    topics[name] = true
   end
 
   def self.repos_skipped?
@@ -230,18 +245,6 @@ def existing_collection(name)
   @_existing_collections[name] ||= existing_explore_feed["collections"].find do |collection|
     collection["name"] == name
   end
-end
-
-def existing_topic(name)
-  @_existing_topics ||= {}
-  @_existing_topics[name] ||= client.search_repositories("topic:#{name}").total_count > 0
-  #return users[item] if users.key?(item)
-  @@topic_request_count += 1
-  sleep client.rate_limit.resets_in if client.rate_limit.remaining == 0
-  @_existing_topics[name]
-rescue Octokit::TooManyRequests
-  topics[:skip_requests] = true
-  topics[name] = true
 end
 
 def valid_uri_scheme?(scheme)
