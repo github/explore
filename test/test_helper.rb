@@ -220,7 +220,7 @@ end
 
 def existing_topic(name)
   @_existing_topics ||= {}
-  @_existing_topics[name] ||= client.search_repositories("q=topic:#{name}").total_count > 0
+  @_existing_topics[name] ||= client.search_repositories("topic:#{name}").total_count > 0
 end
 
 def valid_uri_scheme?(scheme)
