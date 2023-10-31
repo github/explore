@@ -165,7 +165,7 @@ describe "topics" do
       it "has existing related topics" do
         related_topics = related_topics_for(topic)
         related_topics.each do |related_topic|
-          assert !existing_topic(related_topic)
+          assert existing_topic(related_topic)
         end
       end
 
