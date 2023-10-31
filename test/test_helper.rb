@@ -56,8 +56,10 @@ class NewOctokit < Octokit::Client
 
   @@repos = {} unless defined? @@repos
   @@users = {} unless defined? @@users
+  @@topics = {} unless defined? @@topics
   @@repo_request_count = 0 unless defined? @@repo_request_count
   @@user_request_count = 0 unless defined? @@user_request_count
+  @@topic_request_count = 0 unless defined? @@topic_request_count
   @@messages = [] unless defined? @@messages
 
   def repos
@@ -78,6 +80,10 @@ class NewOctokit < Octokit::Client
 
   def user_request_count
     @@user_request_count
+  end
+
+  def topics
+    @@topics
   end
 
   def repository(item)
@@ -108,12 +114,20 @@ class NewOctokit < Octokit::Client
     @@users[:skip_requests] ? true : false
   end
 
+  def self.topics_skipped?
+    @@topics[:skip_requests] ? true : false
+  end
+
   def self.repo_request_count
     @@repo_request_count
   end
 
   def self.user_request_count
     @@user_request_count
+  end
+
+  def self.topic_request_count
+    @@topic_request_count
   end
 
   def self.messages
@@ -221,8 +235,13 @@ end
 def existing_topic(name)
   @_existing_topics ||= {}
   @_existing_topics[name] ||= client.search_repositories("topic:#{name}").total_count > 0
+  #return users[item] if users.key?(item)
+  @@topic_request_count += 1
   sleep client.rate_limit.resets_in if client.rate_limit.remaining == 0
   @_existing_topics[name]
+rescue Octokit::TooManyRequests
+  topics[:skip_requests] = true
+  topics[name] = true
 end
 
 def valid_uri_scheme?(scheme)
@@ -278,8 +297,10 @@ end
 Minitest.after_run do
   warn "Repo checks were rate limited during this CI run" if NewOctokit.repos_skipped?
   warn "User checks were rate limited during this CI run" if NewOctokit.users_skipped?
+  warn "Topic checks were rate limited during this CI run" if NewOctokit.topics_skipped?
   warn "Repo api was called #{NewOctokit.repo_request_count} times!"
   warn "User api was called #{NewOctokit.user_request_count} times!"
+  warn "Topic api was called #{NewOctokit.topic_request_count} times!"
 
   NewOctokit.messages.each do |message|
     puts message
