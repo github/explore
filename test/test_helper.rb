@@ -110,7 +110,7 @@ class NewOctokit < Octokit::Client
     users[item] = true
   end
 
-  def existing_topic(name)
+  def topic(name)
     return topics[name] if topics.key?(name)
     topics[name] = client.search_repositories("topic:#{name}").total_count > 0
     @@topic_request_count += 1
