@@ -221,6 +221,8 @@ end
 def existing_topic(name)
   @_existing_topics ||= {}
   @_existing_topics[name] ||= client.search_repositories("topic:#{name}").total_count > 0
+  sleep client.rate_limit.resets_in if client.rate_limit.remaining == 0
+  @_existing_topics[name]
 end
 
 def valid_uri_scheme?(scheme)
