@@ -1,5 +1,5 @@
 ---
-created_by: Kris Zyp
+created_by: Kris Zyp, Francis Galiegue, Gary Court, Austin Wright, Henry Andrews, Ben Hutton and Greg Dennis 
 aliases: jsonschema
 display_name: JSON Schema
 logo: json-schema.png
