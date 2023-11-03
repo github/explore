@@ -1,6 +1,5 @@
 ---
 items:
- - Dreamacro/clash
  - Psiphon-Inc/psiphon
  - getlantern/lantern
  - shadowsocks/shadowsocks
