@@ -162,7 +162,9 @@ def graphql_query(query)
 end
 
 def cache_users_exist_check!(user_logins)
-  results = graphql_query(graphql_query_string_for_user_logins(user_logins))
+  query_string = graphql_query_string_for_user_logins(user_logins)
+  puts "[GraphlQL] #{query_string}"
+  results = graphql_query(query_string)
   return unless results
 
   results.each do |login, result|
@@ -172,7 +174,9 @@ def cache_users_exist_check!(user_logins)
 end
 
 def cache_orgs_exist_check!(user_logins)
-  results = graphql_query(graphql_query_string_for_org_logins(user_logins))
+  query_string = graphql_query_string_for_org_logins(user_logins)
+  puts "[GraphlQL] #{query_string}"
+  results = graphql_query(query_string)
   return unless results
 
   results.each do |login, result|
@@ -182,7 +186,9 @@ def cache_orgs_exist_check!(user_logins)
 end
 
 def cache_repos_exist_check!(repos)
-  results = graphql_query(graphql_query_string_for_repos(repos))
+  query_string = graphql_query_string_for_repos(repos)
+  puts "[GraphlQL] #{query_string}"
+  results = graphql_query(query_string)
   return unless results
 
   results.each do |repo, result|
