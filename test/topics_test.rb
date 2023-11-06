@@ -7,11 +7,11 @@ describe "topics" do
   git_verbs = %w[GitHubbing Gitting]
   bad_github_variants = %w[Github github]
 
-  all_related_topics = topics.reduce(Set::new) do |carry, topic|
-    related_topics = related_topics_for(topic)
-    carry.merge(related_topics)
-  end
-  cache_topics_exist_check!(all_related_topics)
+  #all_related_topics = topics.reduce(Set::new) do |carry, topic|
+  #  related_topics = related_topics_for(topic)
+  #  carry.merge(related_topics)
+  #end
+  #cache_topics_exist_check!(all_related_topics)
 
   topics.each do |topic|
     describe "#{topic} topic" do
@@ -170,6 +170,7 @@ describe "topics" do
 
       it "has existing related topics" do
         related_topics = related_topics_for(topic)
+        cache_topics_exist_check!(related_topics)
         related_topics.each do |related_topic|
           assert client.topic(related_topic),
                  "A related topic for '#{topic}' should have at least one repository tagged with it, however, '#{related_topic}' does not" 
