@@ -192,7 +192,9 @@ def cache_repos_exist_check!(repos)
 end
 
 def cache_topics_exist_check!(topics)
-  results = graphql_query(graphql_query_string_for_topics(topics))
+  query_string = graphql_query_string_for_topics(topics)
+  puts "[GraphlQL] #{query_string}"
+  results = graphql_query(query_string)
   return unless results
 
   results.each do |topic, result|
