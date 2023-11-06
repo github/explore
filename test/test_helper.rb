@@ -200,6 +200,7 @@ end
 def cache_topics_exist_check!(topics)
   query_string = graphql_query_string_for_topics(topics)
   puts "[GraphlQL] #{query_string}"
+  return if query_string.nil?
   results = graphql_query(query_string)
   return unless results
 
@@ -254,6 +255,12 @@ def graphql_query_string_for_repos(repos)
 end
 
 def graphql_query_string_for_topics(topics)
+  topics = topice.filter do |topic|
+    !client.topics.has_key?(topic)
+  end
+
+  return if topics.empty?
+
   query_parts = topics.map do |topic|
     key = convert_from_real_to_query_safe(topic)
     "#{key}: topic(name: \"#{topic}\") { ...topicFields }"
