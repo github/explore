@@ -9,7 +9,7 @@ describe "topics" do
 
   all_related_topics = topics.reduce(Set::new) do |carry, topic|
     related_topics = related_topics_for(topic)
-    carry.merge(topic.related)
+    carry.merge(related_topics)
   end
   cache_topics_exist_check!(all_related_topics)
 
