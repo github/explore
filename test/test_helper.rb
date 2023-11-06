@@ -250,12 +250,19 @@ end
 def graphql_query_string_for_topics(topics)
   query_parts = topics.map do |topic|
     key = convert_from_real_to_query_safe(topic)
-    "#{key}: topic(name: \"#{topic}\") { name, repositories { totalCount } }"
+    "#{key}: topic(name: \"#{topic}\") { ...topicFields }"
   end
 
   [
+    "fragment topicFields on Topic {",
+      "name",
+      "repositories {",
+        "totalCount",
+      "}",
+    "}",
+    "",
     "query {",
-    query_parts.join(" "),
+      query_parts.join(" "),
     "}",
   ].join(" ")
 end
