@@ -255,7 +255,7 @@ def graphql_query_string_for_repos(repos)
 end
 
 def graphql_query_string_for_topics(topics)
-  topics = topice.filter do |topic|
+  topics = topics.filter do |topic|
     !client.topics.has_key?(topic)
   end
 
