@@ -163,10 +163,9 @@ describe "topics" do
       end
 
       it "has existing related topics" do
-        related_topics = related_topics_for(topic)
-        related_topics.each do |related_topic|
+        related_topics_for(topic).each do |related_topic|
           assert client.topic(related_topic),
-                  "A related topic for '#{topic}' should have at least one repository tagged with it, however, '#{related_topic}' does not" 
+                 "A related topic for '#{topic}' should have at least one repository tagged with it, however, '#{related_topic}' does not" 
         end
       end
 
