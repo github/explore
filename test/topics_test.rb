@@ -170,6 +170,7 @@ describe "topics" do
 
       it "has existing related topics" do
         related_topics = related_topics_for(topic)
+        puts "[Cache] topic"
         cache_topics_exist_check!(related_topics)
         related_topics.each do |related_topic|
           assert client.topic(related_topic),
