@@ -6,7 +6,6 @@ items:
 - rust-lang/rust
 - JetBrains/kotlin
 - python/cpython
-- cython/cython
 - php/php-src
 - JuliaLang/julia
 - ruby/ruby
@@ -67,6 +66,7 @@ items:
 - carbon-language/carbon-lang
 - imba/imba
 - Jackojc/cane
+- cython/cython
 display_name: Programming languages
 created_by: leereilly
 ---
