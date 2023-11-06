@@ -191,6 +191,16 @@ def cache_repos_exist_check!(repos)
   end
 end
 
+def cache_topics_exist_check!(topics)
+  results = graphql_query(graphql_query_string_for_topics(topics))
+  return unless results
+
+  results.each do |topic, result|
+    converted_back_topic_and_name = convert_from_query_safe_to_real(topic)
+    client.topics[converted_back_topic_and_name] = result
+  end
+end
+
 def users_not_found_from(logins)
   logins.select { |login| client.users[login].nil? }
 end
@@ -226,6 +236,19 @@ def graphql_query_string_for_repos(repos)
     key = convert_from_real_to_query_safe(repo)
     owner, name = repo.split("/")
     "#{key}: repository(owner: \"#{owner}\", name: \"#{name}\") { full_name: nameWithOwner }"
+  end
+
+  [
+    "query {",
+    query_parts.join(" "),
+    "}",
+  ].join(" ")
+end
+
+def graphql_query_string_for_topics(topics)
+  query_parts = topics.map do |topic|
+    key = convert_from_real_to_query_safe(topic)
+    "#{key}: topic(name: \"#{topic}\") { name, repositories { totalCount } }"
   end
 
   [
