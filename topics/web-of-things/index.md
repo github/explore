@@ -7,6 +7,7 @@ wikipedia_url: https://en.wikipedia.org/wiki/Web_of_Things
 related: iot
 url: https://www.w3.org/WoT/
 created_by: World Wide Web Consortium
+logo: WOT-transparent.png
 ---
 The Web of Things (WoT) seeks to counter the fragmentation of the IoT by using and extending existing, standardized Web technologies. 
 By providing standardized metadata and other re-usable technological building blocks, W3C WoT enables easy integration across IoT platforms and application domains. 
