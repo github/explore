@@ -1,7 +1,7 @@
 ---
 display_name: Jasmine
 created_by: Pivotal Labs, Gwendolyn Van Hove, Steve Gravrock, Davis W. Frank, Rajan Agaskar, Greg Cobb, Chris Amavisca, Christian Williams, Sheel Choksi
-released_at: Oct 31, 2013
+released_at: Aug 13, 2009
 github_url: https://github.com/jasmine
 logo: jasmine.png
 short_description: Jasmine is a framework for testing JavaScript code.
