@@ -2,7 +2,6 @@
 created_by: syuilo
 display_name: Misskey
 github_url: https://github.com/misskey-dev
-logo: misskey.png
 related: activitypub, fediverse, microblog, social-network, webfinger
 released: 2014
 short_description: Misskey is open source software for free distributed microblogging network.
