@@ -7,8 +7,8 @@ items:
  - SpaceVim/SpaceVim
  - briangonzalez/rgbaster.js
  - Kong/kong
- - https://flutter.io/
- - http://fishshell.com/
+ - https://flutter.dev/
+ - https://fishshell.com/
  - https://developer.nvidia.com/physx-sdk
 display_name: Release Radar · December 2018
 created_by: leereilly
