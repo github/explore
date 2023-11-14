@@ -17,4 +17,4 @@ aliases: hacktoberfest-contributions, hacktoberfest-repo, hacktoberfest-contribu
 [🇳🇵 Nepal](https://github.com/topics/hacktoberfestnepal) &bull; [🇮🇩 Indonesia](https://github.com/topics/hacktoberfest-indonesia) &bull; **[🇮🇳 India](https://github.com/topics/hacktoberfest-india)** ([West Bengal](https://github.com/topics/hacktoberfest-westbengal)) &bull; [🇧🇷 Brazil](https://github.com/topics/hacktoberfest-brasil)
 
 # By programming language
-[React.js](https://github.com/topics/react-hacktoberfest) ([topic](https://github.com/topics/react)) &bull; [Python](https://github.com/topics/hacktoberfestpy) ([topic](https://github.com/topics/python)) &bull; [Java](https://github.com/topics/hacktoberfest-java) ([topic](https://github.com/topics/java))
+[JavaScript](https://github.com/topics/hacktoberfest?l=javascript) &bull; [Python](https://github.com/topics/hacktoberfest?l=python) &bull; [Java](https://github.com/topics/hacktoberfest?l=java)
