@@ -4,7 +4,7 @@ created_by: Humanity
 display_name: Climate change mitigation
 github_url: https://github.com/topics/climate-change-mitigation
 logo: climate-change-mitigation.png
-related: climate-change, climate-change-adaptation, clean-energy, energy-conservation, agriculture-and-industry, carbon-sequestration
+related: climate-change, climate-change-adaptation, clean-energy, energy-conservation, carbon-sequestration
 short_description: Reducing emissions of and stabilizing the levels of heat-trapping greenhouse gases in the atmosphere.
 topic: climate-change-mitigation
 url: https://climate.nasa.gov/solutions/adaptation-mitigation/
