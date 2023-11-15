@@ -5,7 +5,7 @@ display_name: Mocha
 github_url: https://github.com/mochajs/mocha
 logo: mocha.png
 released: November 22, 2011
-short_description: Mocha is a testing framework for JavaScript
+short_description: Mocha is a testing framework for JavaScript.
 topic: mocha
 url: https://mochajs.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Mocha_(JavaScript_framework)
