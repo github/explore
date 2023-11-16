@@ -4,7 +4,7 @@ items:
  - guillaumechereau/goxel
  - emilk/sproxel
  - grking/zoxel
- - mgerhardy/vengi
+ - vengi-voxel/vengi
  - Perkovec/Vuxel
  - GaidamakUA/Voxenko
  - gerardparareda/BlockyTracer
