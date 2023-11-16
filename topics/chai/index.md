@@ -1,7 +1,7 @@
 ---
 aliases: chaijs
 created_by: Jake Luer, Keith Cirkel, Lucas F. da Costa, Grant Snodgrass, vesln
-released: Dec 7, 2011
+released: December 7, 2011
 display_name: Chai
 github_url: https://github.com/chaijs
 url: https://www.chaijs.com/
