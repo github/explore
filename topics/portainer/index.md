@@ -4,7 +4,6 @@ topic: portainer
 created_by: Portainer
 github_url: https://github.com/portainer/portainer
 logo: portainer.png
-related: portainer
 released: June 2, 2016
 short_description: Making Docker and Kubernetes management easy.
 url: https://portainer.io/
