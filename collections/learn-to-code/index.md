@@ -1,6 +1,6 @@
 ---
 items:
- - 30-seconds/30-seconds-of-code
+ - Chalarangelo/30-seconds-of-code
  - railsgirls/guides.railsgirls.com
  - railsbridge/docs
  - freeCodeCamp/freeCodeCamp
