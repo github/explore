@@ -1,7 +1,7 @@
 ---
 display_name: Visual novel
 topic: visual-novel
-related: text-adventure, interactive-fiction, nscripter, zork, renpy
+related: text-adventure, interactive-fiction, nscripter, zork, renpy, twine
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Visual_novel
 ---
