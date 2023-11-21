@@ -31,6 +31,7 @@ items:
  - devtron-labs/devtron
  - socialincome-san/public
  - Aiven-Open
+ - refinedev/refine
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png
