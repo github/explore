@@ -9,7 +9,7 @@ url: https://bun.sh
 wikipedia_url: https://en.wikipedia.org/wiki/Bun_(software)
 created_by: Oven
 released: September 2021
-short_description: All-in-one JavaScript runtime & toolkit
+short_description: All-in-one JavaScript runtime & toolkit.
 ---
 
 **Bun** is an all-in-one JavaScript toolkit, including a runtime, package manager, test runner, and bundler.
