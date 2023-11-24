@@ -1,5 +1,4 @@
 ---
-aliases: notes-and-other-stuff-transmitted-by-relay
 display_name: Nostr
 logo: nostr.png
 short_description: Nostr is a decentralized network protocol for a distributed social networking system.
