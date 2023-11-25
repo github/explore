@@ -3,7 +3,7 @@ aliases: test-driven-development
 created_by: Kent Beck, D.D. McCracken
 display_name: Test-driven development
 released: 1957
-short_description: Test-driven development is a sofware development process with a test-first approach relying on software requirements being converted to test cases.
+short_description: Test-driven development is a development process with a test-first approach relying on requirements being converted to test cases.
 topic: tdd
 wikipedia_url: https://en.wikipedia.org/wiki/Test-driven_development
 related: atdd, bdd, testing, extreme-programming, continuous-testing
