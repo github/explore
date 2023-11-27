@@ -5,7 +5,7 @@ display_name: Kiota Index
 github_url: https://github.com/microsoft/kiota
 logo: kiota-index.png
 released: March 09, 2023
-short_description: Kiota Index allows any API developer to add their OpenAPI description to a global index of APIs
+short_description: Kiota Index allows any API developer to add their OpenAPI description to a global index of APIs.
 topic: kiota-index
 url: https://aka.ms/kiota/addapi
 ---
