@@ -7,6 +7,7 @@ related: mvc, hmvc, rapid-development, content-security-policy, owasp, routing, 
 wikipedia_url: https://en.wikipedia.org/wiki/CodeIgniter
 github_url: https://github.com/codeigniter4
 created_by: British Columbia Institute of Technology, EllisLab
-released: Feb 28, 2006
+released: February 28, 2006
+logo: codeigniter.png
 ---
-**CodeIgniter** is an open-source software rapid development web framework, for use in building dynamic web sites with PHP.
+**CodeIgniter** is an open source software rapid development web framework, for use in building dynamic web sites with PHP.
