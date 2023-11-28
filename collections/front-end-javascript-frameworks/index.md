@@ -30,6 +30,7 @@ items:
  - vercel/next.js
  - gatsbyjs/gatsby
  - sveltejs/kit
+ - refinedev/refine
 
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
