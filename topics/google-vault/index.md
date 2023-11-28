@@ -11,9 +11,8 @@ url: https://workspace.google.com/products/vault/
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Vault
 
 ---
-Keep track of what matters. Retain, search, and export your organization’s data from select apps with Vault for Google Workspace Business and Enterprise editions.
+**Google Vault** an archiving and electronic discovery service exclusively available to Google Workspace customers.
 
-Other resources:
-
+# Other resources
 - Read the API documentation at [https://developers.google.com/vault](https://developers.google.com/vault)
 - Access the application at [https://vault.google.com](https://vault.google.com)

@@ -2,7 +2,7 @@
 ### Please confirm this pull request meets the following requirements:
 
 - [ ] I followed the contributing guidelines: <https://github.com/github/explore/blob/main/CONTRIBUTING.md>.
-- [ ] I am not the sole author or employee of a company who created the topic or collection I'm changing.
+- [ ] I am not the sole author or employee of a company who created the topic or collection I am changing.
 
 ### Which change are you proposing?
 
