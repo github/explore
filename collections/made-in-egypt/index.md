@@ -1,5 +1,6 @@
 ---
 items:
+  - amr3k/sveltegram
   - KL13NT/ally-reads
   - RobustaStudio/bkit
   - aliftype/amiri
