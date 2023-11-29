@@ -3,13 +3,13 @@ display_name: Deno
 topic: deno
 github_url: https://github.com/denoland
 logo: deno.png
-related: typescript, rust
+related: typescript, rust, javascript, nodejs, v8, webassembly, package-manager, event-driven-architecture, event-loop, tokio
 short_description: A secure runtime for JavaScript and TypeScript.
 url: https://deno.land
 wikipedia_url: https://en.wikipedia.org/wiki/Deno_(software)
 created_by: Ryan Dahl
 ---
-Deno is a JavaScript/TypeScript runtime with secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.
+**Deno** is a JavaScript/TypeScript runtime with secure defaults and a great developer experience. It's built on V8, Rust, and Tokio.
 
 - Secure by default. No file, network, or environment access (unless explicitly enabled).
 - Supports TypeScript out of the box.
