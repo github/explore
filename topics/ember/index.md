@@ -9,5 +9,6 @@ short_description: Ember is a framework for creating web applications.
 topic: ember
 url: https://www.emberjs.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Ember.js
+related: javascript, angular, vue, react, svelte, backbone
 ---
 Ember is a JavaScript framework that uses a Component <-> Service approach to building applications. It is mainly used to build web-based applications, but can also be ported over to build desktop applications.

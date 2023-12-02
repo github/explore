@@ -3,7 +3,7 @@ aliases: valorant-video-game, valorant-api, valorant-stats, valorant-skins
 created_by: Riot Games
 display_name: VALORANT
 logo: valorant.png
-related: riot-games, league-of-legends, league-of-legends-wild-rift, legends-of-runeterra, teamfight-tactics
+related: riot-games, league-of-legends, legends-of-runeterra, teamfight-tactics
 released: June 2, 2020
 short_description: VALORANT is a free-to-play first-person hero shooter developed and published by Riot Games.
 topic: valorant
