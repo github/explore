@@ -1,7 +1,7 @@
 ---
 display_name: Jasmine
-created_by: Gwendolyn Van Hove, Steve Gravrock, Davis Frank, Rajan Agaskar, Greg Cobb, Chris Amavisca, Sheel Choksi
-released: Aug 13, 2009
+created_by: Gwendolyn Van Hove, Steve Gravrock, Rajan Agaskar, Greg Cobb, Chris Amavisca, Sheel Choksi
+released: August 13, 2009
 github_url: https://github.com/jasmine
 logo: jasmine.png
 short_description: Jasmine is a framework for testing JavaScript code.
