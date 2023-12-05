@@ -23,7 +23,7 @@ A media query is composed of an optional media type and any number of media feat
     * **Display Quality**
     * **Color**
     * **Interaction**
-    * **Video-prefixed:** The spec references user agents, including TVs, that render video and graphics in two separate planes that each have their own characteristics. The following features describe those planes.
-    * **Scripting**
-    * **User Preference**
+    * **Video-prefixed:** The spec references user agents, including TVs, that render video and graphics in two separate planes that each have their own characteristics. The following features describe those planes. _(upcoming Media Queries Level 5)_
+    * **Scripting** _(upcoming Media Queries Level 5)_
+    * **User Preference** _(upcoming Media Queries Level 5)_
 * Logical operators can be used to compose a complex media query: not, and, and only. You can also combine multiple media queries into a single rule by separating them with commas. 
