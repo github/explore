@@ -9,6 +9,6 @@ short_description: PostgreSQL is an open source database system.
 topic: postgresql
 url: https://www.postgresql.org/
 wikipedia_url: https://en.wikipedia.org/wiki/PostgreSQL
-releated: mvcc, postgrest, dbms, database, sqlite, sql, mysql, mssql
+related: mvcc, postgrest, dbms, database, sqlite, sql, mysql, mssql
 ---
 **PostgreSQL** is a database management system that is object-relational. PostgreSQL originated from the Ingres project at the University of California, Berkeley.
