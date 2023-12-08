@@ -1,10 +1,10 @@
 ---
-aliases: angular2, angular4, angular-2, 
+aliases: angular2, angular4, angular-2
 created_by: Google
 display_name: Angular
 github_url: https://github.com/angular/angular
 logo: angular.png
-related: vue, react, angularjs
+related: vue, react, angularjs, typescript, angulardart, angular-universal, rxjs, pwa, angular-material, angular-elements
 released: September 14, 2016
 short_description: Angular is an open source web application platform.
 topic: angular
