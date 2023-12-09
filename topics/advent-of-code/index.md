@@ -1,5 +1,5 @@
 ---
-aliases: aoc, adventofcode, advent-of-code-2015, aoc-2015, advent-of-code-2016, aoc-2016, advent-of-code-2017, aoc-2017, advent-of-code-2018, aoc-2018, advent-of-code-2019, aoc-2019, advent-of-code-2020, aoc-2020, advent-of-code-2021, aoc-2021, advent-of-code-2022, aoc-2022
+aliases: aoc, adventofcode, advent-of-code-2015, aoc-2015, advent-of-code-2016, aoc-2016, advent-of-code-2017, aoc-2017, advent-of-code-2018, aoc-2018, advent-of-code-2019, aoc-2019, advent-of-code-2020, aoc-2020, advent-of-code-2021, aoc-2021, advent-of-code-2022, aoc-2022, advent-of-code-2023, aoc-2023
 created_by: Eric Wastl
 display_name: Advent of Code
 released: December 2015
