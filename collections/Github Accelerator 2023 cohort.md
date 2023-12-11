@@ -18,7 +18,7 @@ Projects:
  - spyder-ide/spyde
  - strawberry-graphql/strawberry
  - termux/termux-app
- - TimothyStiles/poly
+ - bebop/poly
  - trpc/trpc
 display_name: GitHub Accelerator Cohort 2023
 created_by: karasowles
