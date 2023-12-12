@@ -3,6 +3,7 @@ aliases: julia-fractal, julia-set
 display_name: Julia Sets
 short_description: Julia Sets are mathematical objects generally associated with fractals.
 topic: julia-sets
+logo: julia-sets.png
 wikipedia_url: https://en.wikipedia.org/wiki/Julia_set
 related: mandelbrot, fractal
 ---
