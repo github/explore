@@ -11,9 +11,8 @@ url: https://workspace.google.com/products/slides/
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Slides
 
 ---
-Use Google Slides to create online slideshows. Make beautiful presentations together with secure sharing in real-time and from any device. The Google Slides API lets you access and update presentations programmatically, integrating data from various sources and producing finished presentations in a fraction of the time.
+**Google Slides** is a presentation program included as part of the free, web-based Google Docs Editors suite offered by Google. The app is compatible with Microsoft PowerPoint file formats.
 
-Other resources:
-
+# Other resources
 - Read the API documentation at [https://developers.google.com/slides](https://developers.google.com/slides)
 - Access the application at [https://slides.google.com](https://slides.google.com)

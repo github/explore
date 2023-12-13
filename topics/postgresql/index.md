@@ -1,5 +1,5 @@
 ---
-aliases: postgres
+aliases: postgres, psql, pgsql, plpgsql
 created_by: Michael Stonebraker
 display_name: PostgreSQL
 github_url: https://github.com/postgres/postgres
@@ -9,5 +9,6 @@ short_description: PostgreSQL is an open source database system.
 topic: postgresql
 url: https://www.postgresql.org/
 wikipedia_url: https://en.wikipedia.org/wiki/PostgreSQL
+related: mvcc, postgrest, dbms, database, sqlite, sql, mysql, mssql
 ---
-PostgreSQL is a database management system that is object-relational. PostgreSQL originated from the Ingres project at the University of California, Berkeley.
+**PostgreSQL** is a database management system that is object-relational. PostgreSQL originated from the Ingres project at the University of California, Berkeley.

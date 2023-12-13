@@ -6,5 +6,9 @@ released: October 2014
 short_description: Hacktoberfest is a month-long celebration of open source projects, their maintainers, and the entire community of contributors.
 topic: hacktoberfest
 url: https://hacktoberfest.com/
+aliases: hacktoberfest-contributions, hacktoberfest-repo, hacktoberfest-contribute, hacktoberfest-participants, hacktoberfest-challenge, hacktoberfest-topic, hacktoberfest-project, hacktoberfest-maintainer
 ---
-Hacktoberfest is a month-long celebration of open source projects, their maintainers, and the entire community of contributors. Each October, open source maintainers give new contributors extra attention as they guide developers through their first pull requests on GitHub.
+**Hacktoberfest** is a month-long celebration of open source projects, their maintainers, and the entire community of contributors. Each October, open source maintainers give new contributors extra attention as they guide developers through their first pull requests on GitHub.
+
+# By programming language
+[JavaScript](https://github.com/topics/hacktoberfest?l=javascript) &bull; [Python](https://github.com/topics/hacktoberfest?l=python) &bull; [Java](https://github.com/topics/hacktoberfest?l=java)
