@@ -3,7 +3,7 @@ aliases: teamfighttactics
 created_by: Riot Games
 display_name: Teamfight Tactics
 logo: teamfight-tactics.png
-related: riot-games, league-of-legends, league-of-legends-wild-rift, legends-of-runeterra, valorant
+related: riot-games, league-of-legends, legends-of-runeterra, valorant
 released: June 26, 2019
 short_description: Teamfight Tactics is an auto battler game developed and published by Riot Games.
 topic: teamfight-tactics
