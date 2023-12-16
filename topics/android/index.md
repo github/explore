@@ -11,4 +11,4 @@ topic: android
 url: https://www.android.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Android_(operating_system)
 ---
-Android was designed and built by Google in 2008. The operating system is written mainly in Java, with core components in C and C++. It is built on top of the Linux kernel, giving it incorporated security benefits.
+Android was designed and built by Google in 2008. The operating system is written mainly in Java, with core components in C and C++. It is built on top of the Linux kernel, giving it incorporated security benefits. Android is known for its vast array of features, primarily due to its very user-friendly interface. It supports multiple languages and multitasking. Furthermore, Android’s Play Store serves as the main tool for downloading and updating applications on the operating system.
