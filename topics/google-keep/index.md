@@ -11,9 +11,8 @@ url: https://workspace.google.com/products/keep/
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Keep
 
 ---
-Capture notes, share them with others, and access them from your computer, phone or tablet. The Google Keep API is used in an enterprise environment to manage Google Keep content and to resolve issues identified by cloud security software.
+**Google Keep** is a note-taking service with a variety of tools for notes, including text, lists, voice, and images. It became part of Google Workspace in February 2017.
 
-Other resources:
-
+# Other resources
 - Read the API documentation at [https://developers.google.com/keep](https://developers.google.com/keep)
 - Access the application at [https://keep.google.com](https://keep.google.com)
