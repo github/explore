@@ -1,6 +1,7 @@
 ---
 topic: promise
 display_name: Promise
+short_description: A promise is an object returned by an asynchronous function, which represents the current state of the operation.
 related: future, async-await, callback, deferred, coroutines, fiber, concurrency
 wikipedia_url: https://en.wikipedia.org/wiki/Futures_and_promises
 created_by: Barbara Liskov, Liuba Shrira, Mark S. Miller, Dean Tribble, Rob Jellinghaus, Daniel P. Friedman
