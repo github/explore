@@ -11,9 +11,8 @@ url: https://workspace.google.com/products/chat/
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Chat
 
 ---
-Build Chat apps that bring your services and resources right into Google Chat, letting users get information and take action without leaving the conversation.
+**Google Chat** is a communication software developed by Google built for teams that provides direct messages and team chat rooms, similar to competitors Slack and Microsoft Teams. It is one of two apps that constitute the replacement for Google Hangouts, the other being Google Meet.
 
-Other resources:
-
+# Other resources
 - Read the API documentation at [https://developers.google.com/chat](https://developers.google.com/chat)
 - Access the application at [https://chat.google.com](https://chat.google.com)
