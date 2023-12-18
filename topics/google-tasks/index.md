@@ -13,9 +13,8 @@ url: https://workspace.google.com/products/tasks/
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Tasks
 
 ---
-Keep track of your daily tasks, organize multiple lists, and track important deadlines with Google Tasks. Tasks synchronizes across all your devices, so your lists and tasks go with you, wherever you are. The Google Tasks API lets you search, read, and update Google Tasks content and metadata.
+**Google Tasks** lets users capture and manage to-dos anywhere in Google Workspace or using iOS and Android apps. It began as a feature of Gmail and Calendar before launching as a standalone app in June 2018. It integrates directly with Google Calendar, and tasks can be created from emails in Gmail. 
 
-Other resources:
-
+# Other resources
 - Read the API documentation at [https://developers.google.com/tasks](https://developers.google.com/tasks)
 - Access the application at [https://mail.google.com](https://mail.google.com)
