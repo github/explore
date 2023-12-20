@@ -2,7 +2,7 @@
 topic: openapi
 aliases: open-api, swagger-spec, swagger-specification, openapi-spec, openapi-specification, open-api-specification, oas, openapi-description
 display_name: OpenAPI Specification
-short_description: The OpenAPI Specification is a specification for describing, producing, consuming, and visualizing web services
+short_description: The OpenAPI Specification is a specification for describing, producing, consuming, and visualizing web services.
 related: json-schema, raml, rest-api
 created_by: OpenAPI Initiative, Tony Tam, Darrel Miller, Mike Ralphson, Ron Ratovsky, Uri Sarid, Jason Harmon
 released: August 10, 2011
