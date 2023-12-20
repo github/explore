@@ -12,13 +12,13 @@ github_url: https://github.com/OAI/OpenAPI-Specification
 ---
 The **OpenAPI Specification** (**OAS**), previously known as the **Swagger Specification**, is a specification for a programming language-agnostic, machine-readable interface definition language for describing, producing, consuming and visualizing web services. OpenAPI documents describe API services and are represented in YAML or JSON formats.
 
-# Advantages of Using OpenAPI
-* **Description Validation and Linting**: Check that your description file is syntactically correct and adheres to a specific version of the Specification and the rest of your team’s formatting guidelines.
-* **Data Validation**: Check that the data flowing through your API (in both directions) is correct, during development and once deployed.
-* **Documentation Generation**: Create traditional human-readable documentation based on the machine-readable description, which always stays up-to-date.
-* **Code Generation**: Create both server and client code in any programming language, freeing developers from having to perform data validation or write SDK glue code, for example.
-* **Graphical Editors**: Allow easy creation of description files using a GUI instead of typing them by hand.
-* **Mock Servers**: Create fake servers providing example responses which you and your customers can start testing with before you write a single line of code.
-* **Security Analysis**: Discover possible vulnerabilities at the API design stage instead of much, much later.
+# Features
+* **Description Validation and [Linting](/topics/linting)**: Can check that the description file is syntactically correct and adheres to a specific version of the specification and the rest of the team’s formatting guidelines.
+* **[Data Validation](/topics/data-validation)**: Can check that the data flowing through the API (in both directions) is correct, during development and once deployed.
+* **[Documentation Generation](/topics/documentation-generation)**: Can create traditional human-readable documentation based on the machine-readable description, which always stays up-to-date.
+* **[Code Generation](/topics/code-generation)**: Can create both server and client code in any programming language, freeing developers from having to perform data validation or write SDK glue code, for example.
+* **Graphical Editors**: Allows easy creation of description files using a GUI instead of typing them by hand.
+* **[Mock Servers](/topics/mock-server)**: Can create fake servers providing example responses which can be tested by developers and customers before writing a single line of code.
+* **[Security Analysis](/topics/security-analysis)**: Discovers possible vulnerabilities at the API design stage instead of much, much later.
 * A non-proprietary format
 
