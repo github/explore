@@ -11,7 +11,7 @@ There are a few ways you can contribute:
 
 As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
 
-Notes: 
+Notes:
   - Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
   - Please limit your pull request to the creation/updating of one topic or collection at a time.
 
@@ -99,6 +99,10 @@ This repository includes [a list of the most-used GitHub topics that don't yet h
 ## Guidelines
 
 * Avoid conflicts of interest. These should be of general community interest, not a marketing vehicle for a product or a personal project. If you are a direct employee of a company creating the project, or the creator and sole maintainer, it's unlikely to be accepted.
+* We love experimenting with new technologies, and we are especially fond of GitHub Copilot. But as with all new technology, many of us are still getting accustomed to using generative AI tools effectively. Here are important guidelines to follow when using generative AI to contribute to this repository (adapted from the [GitHub Community Discussions CoC](https://github.com/community/community/blob/main/CODE_OF_CONDUCT.md#reasonable-use-of-ai-generated-content)):
+  * Read and revise the content before you post it. Use your own authentic voice and edit.
+  * Do not post AI-generated content verbatim to pad out the size and number of your contributions. Your changes should materially improve the site, not just say the same thing in different words.
+  * AI tools will often provide completely inaccurate or invented answers to prompts. Verify with an independent source that the information is correct before including it.
 
 ## Running tests
 

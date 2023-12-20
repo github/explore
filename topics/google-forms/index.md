@@ -11,9 +11,8 @@ url: https://workspace.google.com/products/forms/
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Forms
 
 ---
-Easily create and share online forms and surveys, and analyze responses in real-time. The Google Forms API lets you programmatically collect information, or quiz people and assign a grade based on their responses.
+**Google Forms** is a survey application. Forms features all of the collaboration and sharing features found in Docs, Sheets, and Slides. It can also be used to create quizzes, including some specialized functions that are of use in educational settings.
 
-Other resources:
-
+# Other resources
 - Read the API documentation at [https://developers.google.com/forms](https://developers.google.com/forms)
 - Access the application at [https://forms.google.com](https://forms.google.com)
