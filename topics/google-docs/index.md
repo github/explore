@@ -11,9 +11,8 @@ url: https://workspace.google.com/products/docs/
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Docs
 
 ---
-Create and collaborate on online documents in real-time and from any device. Use the API to access and update Google Docs programmatically, just like any other user.
+**Google Docs** is an online word processor included as part of the free, web-based Google Docs Editors suite offered by Google. It supports opening and saving documents in the standard OpenDocument format as well as in Rich text format, plain Unicode text, zipped HTML, and Microsoft Word. Exporting to PDF and EPUB formats is implemented.
 
-Other resources:
-
+# Other resources
 - Read the API documentation at [https://developers.google.com/docs](https://developers.google.com/docs)
 - Access the application at [https://docs.google.com](https://docs.google.com)
