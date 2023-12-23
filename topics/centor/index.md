@@ -1,5 +1,5 @@
 ---
-aliases: centor, central-mangement
+aliases: central-mangement
 created_by: mrtdeh
 display_name: Centor
 github_url: https://github.com/valasr/centor
