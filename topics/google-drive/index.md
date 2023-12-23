@@ -11,9 +11,8 @@ url: https://workspace.google.com/products/drive/
 wikipedia_url: https://en.wikipedia.org/wiki/Google_Drive
 
 ---
-Store any and every file. Access files anytime, anywhere from your desktop and mobile devices. Control how files are shared.
+**Google Drive** is a file storage and synchronization service, launched on April 24, 2012. The official announcement described Drive as "a place where you can create, share, collaborate, and keep all of your stuff"
 
-Other resources:
-
+# Other resources
 - Read the API documentation at [https://developers.google.com/drive](https://developers.google.com/drive)
 - Access the application at [https://drive.google.com](https://drive.google.com)
