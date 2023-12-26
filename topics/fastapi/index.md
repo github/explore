@@ -3,8 +3,9 @@ display_name: FastAPI
 logo: fastapi.png
 short_description: FastAPI is a modern & fast web framework for building APIs with Python 3.7+ based on standard Python type hints.
 topic: fastapi
-github_url: https://github.com/tiangolo/fastapi
-   https://github.com/EmperialX/System-Monitor
+github_url:
+  - https://github.com/tiangolo/fastapi
+  - https://github.com/EmperialX/System-Monitor
 created_by: Sebastián Ramírez
 ---
 
