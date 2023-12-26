@@ -1,0 +1,10 @@
+---
+display_name: Malware
+logo: malware.png
+short_description: "This repo contains tools for designing and protection methods for Malwares."
+topic: malware
+github_url: https://github.com/EmperialX/System-Monitor
+created_by: "@Emperialx"
+---
+
+Malware can take various forms, including viruses, worms, Trojans, ransomware, spyware, and more. Its primary goal is to compromise the integrity, confidentiality, or availability of information, often for financial gain, espionage, or other malicious purposes.
