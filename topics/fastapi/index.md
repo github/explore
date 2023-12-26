@@ -10,6 +10,3 @@ created_by: Sebastián Ramírez
 ---
 
 **FastAPI** is a high-performance, easy-to-learn, fast-to-code Python 3.7+ framework ready for production. It boasts performance on par with NodeJS and Go, thanks to Starlette and Pydantic. FastAPI is intuitive and standards-based, following API standards like OpenAPI (previously known as Swagger) and JSON Schema.
-
-# Other resources
-- For more information, visit the [official FastAPI GitHub repository](https://github.com/tiangolo/fastapi)
