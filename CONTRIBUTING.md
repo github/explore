@@ -1,3 +1,4 @@
+![f3d80a7b-96bd-4771-b261-e43c44168577](https://github.com/github/explore/assets/125035968/d4328992-7740-4c5b-81cc-211fc13e7c59)
 # Contributing
 
 Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
