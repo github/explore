@@ -1,7 +1,7 @@
 ---
 topic: query
 display_name: Query (disambiguation)
-short_description: The term query can either mean query-string or sql-query
+short_description: The term query can either mean query-string or sql-query.
 related: query-string, sql-query
 ---
 The term "**query**" can mean multiple things:
