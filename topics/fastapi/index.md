@@ -1,10 +1,10 @@
 ---
 display_name: FastAPI
-aliases: FastAPI, FastAPI-Framework, Python-API
+aliases: fastapi, fastapi-framework, python-api
 logo: fastapi.png
 short_description: FastAPI is a modern & fast web framework for building APIs with Python 3.7+ based on standard Python type hints.
 topic: fastapi
-related: API, Python3, Django, flask
+related: api, Python3, Django, flask
 github_url: https://github.com/tiangolo/fastapi
 created_by: Sebastián Ramírez
 ---
