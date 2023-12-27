@@ -1,6 +1,6 @@
 ---
 topic: jsx
-display_name: JSX
+display_name: JSX (JavaScript XML)
 short_description: JSX is an XML-like syntax extension to ECMAScript without any defined semantics that allows creation of DOM trees.
 related: jxon, xhp, xml, babel, reactjs
 created_by: Facebook
