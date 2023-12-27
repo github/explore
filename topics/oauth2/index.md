@@ -5,7 +5,7 @@ display_name: OAuth 2.0
 short_description: OAuth 2.0 is the industry-standard protocol for authorization.
 created_by: IETF OAuth Working Group
 released: October 2012
-related: oauth, authentication, openid, openid-connect, saml, raml, xacml, indieauth, access-token, refresh-token
+related: oauth, authentication, openid, oidc, saml, raml, xacml, indieauth, access-token, refresh-token
 url: https://oauth.net/2/
 wikipedia_url: https://en.wikipedia.org/wiki/OAuth#OAuth_2.0
 logo: oauth2.png
