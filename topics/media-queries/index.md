@@ -2,6 +2,7 @@
 topic: media-queries
 aliases: media-query
 display_name: Media Queries
+short_description: Media Queries are a way to target browser by certain characteristics, features, and user preferences, then apply styles or run other code based on those things.
 related: responsive-design, container-queries, client-hints, css-breakpoints, css-viewport
 url: https://drafts.csswg.org/mediaqueries/
 wikipedia_url: https://en.wikipedia.org/wiki/Media_queries
