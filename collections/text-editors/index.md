@@ -4,6 +4,7 @@ items:
  - limetext/lime
  - textmate/textmate
  - neovim/neovim
+ - helix-editor/helix
  - overleaf/overleaf
  - slap-editor/slap
  - thomaswilburn/Caret
@@ -13,6 +14,7 @@ items:
  - SpaceVim/SpaceVim
  - alm-tools/alm
  - atom/atom
+ - mawww/kakoune
  - LightTable/LightTable
  - zedapp/zed
  - microsoft/vscode
