@@ -1,7 +1,7 @@
 ---
 topic: protocol
 display_name: Protocol (disambiguation)
-short_description: Protocol can mean either interface in OOP or communication protocol in networking and data exchange
+short_description: Protocol can mean either interface in OOP or communication protocol in networking and data exchange.
 related: interface, network-protocol, communication-protocol
 wikipedia_url: https://en.wikipedia.org/wiki/Protocol#computing
 ---
