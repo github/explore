@@ -6,5 +6,5 @@ related: interface, network-protocol, communication-protocol
 wikipedia_url: https://en.wikipedia.org/wiki/Protocol#computing
 ---
 **Protocol** can mean different things, depending on the context:
-* **In [OOP](/topics/oop)**, it refers to [interface](/topics/interface)
-* **In networking/data exchange**, it refers to [network-protocol](/topics/network-protocol) or [communication-protocol](/topics/communication-protocol)
+* In **[OOP](/topics/oop)**, it refers to [interface](/topics/interface)
+* In **networking/data exchange**, it refers to [network-protocol](/topics/network-protocol) or [communication-protocol](/topics/communication-protocol)
