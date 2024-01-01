@@ -2,6 +2,7 @@
 aliases: unit-tests
 topic: unit-testing
 display_name: Unit testing
+short_description: Unit testing is a type of software testing that focusses on testing small units instead of whole processes.
 related: testing, integration-testing, tdd, test-automation, e2e-tests, contract-testing, ui-testing, acceptance-testing, api-testing, junit
 created_by: Kent Beck, Erich Gamma
 released: 1997
