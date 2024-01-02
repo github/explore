@@ -2,6 +2,7 @@
 topic: agile
 aliases: agile-development, agile-software-development
 display_name: Agile
+short_description: Agile is a software development methology, popularized in the 2001 Manifesto for Agile Software Development.
 related: kanban, scrum, kanboard, project-management, scrumban, agile-testing, okr, extreme-programming, feature-driven-development, tdd, waterfall-model
 url: https://agilemanifesto.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Agile_software_development
