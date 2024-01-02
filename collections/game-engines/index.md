@@ -1,6 +1,7 @@
 ---
 items:
  - godotengine/godot
+ - 4ian/GDevelop
  - turbulenz/turbulenz_engine
  - TorqueGameEngines/Torque3D
  - TorqueGameEngines/Torque2D
@@ -14,7 +15,6 @@ items:
  - libgdx/libgdx
  - superpowers/superpowers-core
  - AtomicGameEngine/AtomicGameEngine
- - 4ian/GDevelop
  - urho3d/urho3d
  - methusalah/OpenRTS
  - photonstorm/phaser
