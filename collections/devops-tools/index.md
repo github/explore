@@ -1,4 +1,4 @@
----
+
 items:
  - puppetlabs/puppet
  - chef/chef
@@ -44,5 +44,4 @@ items:
  - axem-solutions/dem
  
 display_name: DevOps tools
----
-These tools help you manage servers and deploy happier and more often with more confidence.
+
