@@ -3,11 +3,11 @@ topic: agile
 aliases: agile-development, agile-software-development
 display_name: Agile
 short_description: Agile is a software development methology, popularized in the 2001 Manifesto for Agile Software Development.
-related: kanban, scrum, kanboard, project-management, scrumban, agile-testing, okr, extreme-programming, feature-driven-development, tdd, waterfall-model
+related: kanban, scrum, kanboard, project-management, agile-testing, okr, extreme-programming, feature-driven-development, tdd, waterfall-model
 url: https://agilemanifesto.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Agile_software_development
 released: 2001
-created_by: Kent Beck, Ward Cunningham, Dave Thomas, Jeff Sutherland, Ken Schwaber, Jim Highsmith, Alistair Cockburn, Robert C. Martin, Mike Beedle, Arie van Bennekum, Martin Fowler, James Grenning, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Steve Mellor
+created_by: Kent Beck, Ward Cunningham, Dave Thomas, Jeff Sutherland, Ken Schwaber, Jim Highsmith
 ---
 **Agile** is a software development methology. Popularized in the 2001 Manifesto for Agile Software Development, these values and principles were derived from and underpin a broad range of software development frameworks, including Scrum and Kanban.
 
