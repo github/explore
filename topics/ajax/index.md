@@ -6,5 +6,5 @@ related: json, html, xml, javascript
 wikipedia_url: https://en.wikipedia.org/wiki/Ajax_(programming)
 logo: ajax.png
 ---
-Ajax stands for asynchronous JavaScript and XML. It is collection of several web technologies including HTML, CSS, JSON, XML, and JavaScript. It is used for creating dynamic web pages in which small parts of web page change without reloading the page.
+Ajax stands for asynchronous JavaScript and XML. It is collection of several web technologies including HTML, CSS, JSON, XML, and JavaScript. It is used for creating dynamic web pages in which small parts of web page change without reloading the page. Additionally, Ajax is fundamental for front-end developers in creating Single Page Applications (SPAs) where content updates seamlessly.
 
