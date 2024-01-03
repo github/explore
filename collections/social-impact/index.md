@@ -18,6 +18,7 @@ items:
  - Data4Democracy/ethics-resources
  - civicdata/civicdata.github.io
  - karrot-dev/karrot-frontend
+ - activist-org/activist
 display_name: Social Impact
 created_by: bescalante
 ---
