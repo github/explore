@@ -7,12 +7,6 @@ describe "topics" do
   git_verbs = %w[GitHubbing Gitting]
   bad_github_variants = %w[Github github]
 
-  #all_related_topics = topics.reduce(Set::new) do |carry, topic|
-  #  related_topics = related_topics_for(topic)
-  #  carry.merge(related_topics)
-  #end
-  #cache_topics_exist_check!(all_related_topics)
-
   topics.each do |topic|
     describe "#{topic} topic" do
       it "has a valid name" do
