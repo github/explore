@@ -198,7 +198,9 @@ def cache_repos_exist_check!(repos)
 end
 
 def cache_topics_exist_check!(topics)
-  query_string = graphql_query_string_for_topics(topics)
+  query_string = graphql_query_string_for_topics(topics.filter do |topic|
+    topic != 'config'
+  end)
   puts "[GraphlQL] #{query_string}"
   return if query_string.nil?
   results = graphql_query(query_string)
