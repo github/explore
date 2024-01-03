@@ -4,7 +4,7 @@ created_by: Eclipse Foundation
 display_name: Adoptium
 github_url: https://github.com/adoptium/
 logo: adoptium.png
-related: java, openjdk, temurin
+related: java, openjdk
 released: March 2021
 short_description: Community build of OpenJDK.
 topic: adoptium
