@@ -163,7 +163,6 @@ end
 
 def cache_users_exist_check!(user_logins)
   query_string = graphql_query_string_for_user_logins(user_logins)
-  puts "[GraphlQL] #{query_string}"
   results = graphql_query(query_string)
   return unless results
 
@@ -175,7 +174,6 @@ end
 
 def cache_orgs_exist_check!(user_logins)
   query_string = graphql_query_string_for_org_logins(user_logins)
-  puts "[GraphlQL] #{query_string}"
   results = graphql_query(query_string)
   return unless results
 
@@ -187,7 +185,6 @@ end
 
 def cache_repos_exist_check!(repos)
   query_string = graphql_query_string_for_repos(repos)
-  puts "[GraphlQL] #{query_string}"
   results = graphql_query(query_string)
   return unless results
 
@@ -201,7 +198,6 @@ def cache_topics_exist_check!(topics)
   query_string = graphql_query_string_for_topics(topics.filter do |topic|
     topic != 'config'
   end)
-  puts "[GraphlQL] #{query_string}"
   return if query_string.nil?
   results = graphql_query(query_string)
   return unless results
