@@ -7,7 +7,7 @@ related: separation-of-concerns, loose-coupling, dependency-inversion-principle,
 wikipedia_url: https://en.wikipedia.org/wiki/Dependency_injection
 url: https://martinfowler.com/articles/injection.html
 created_by: Martin Fowler
-released: 23 January, 2004
+released: January 23, 2004
 ---
 **Dependency injection** (**DI**) is an implementation of the [dependency inversion principle](/topics/dependency-inversion-principle) with the aim of [separation of concerns](/topics/separation-of-concerns) by separating the depndency's implementation from the class that's using it. That kind of abstraction makes it possible to have different implementations with the same public methods so the class using it, doesn't need to care which of the implementations is used. This is also especially useful for [unit testing](/topics/unit-testing).
 
