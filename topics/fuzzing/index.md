@@ -2,7 +2,7 @@
 aliases: fuzz-testing, api-fuzzing, 
 topic: fuzzing
 display_name: Fuzzing/Fuzz testing
-short_description: Fuzzing is an automated black box testing technique that evaluates the program's reaction to providing invalid, unexpected, or random data as inputs.
+short_description: Fuzzing is a testing technique that evaluates the program's reaction to providing invalid, unexpected, or random data as inputs.
 related: stress-testing, fault-injection, monkey-testing, random-testing, security-testing, test-automation, mutation-testing, cicd, black-box-testing
 released: September 1988
 created_by: Barton Miller
