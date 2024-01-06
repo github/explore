@@ -4,7 +4,6 @@ items:
  - limetext/lime
  - textmate/textmate
  - neovim/neovim
- - helix-editor/helix
  - overleaf/overleaf
  - slap-editor/slap
  - thomaswilburn/Caret
@@ -20,7 +19,6 @@ items:
  - microsoft/vscode
  - zyedidia/micro
  - neoedmund/neoeedit
- - mawww/kakoune
  - 0x7c13/Notepads
  - onivim/oni2
  - VSCodium/vscodium
@@ -36,6 +34,8 @@ items:
  - orbitalquark/textadept
  - apache/netbeans
  - adsr/mle
+ - helix-editor/helix
+ - mawww/kakoune
 
 display_name: Text editors
 created_by: leereilly
