@@ -26,6 +26,7 @@ items:
  - getzola/zola
  - lumeland/lume
  - docsifyjs/docsify
+ - shuding/nextra
 display_name: Static Site Generators
 created_by: jakejarvis
 ---

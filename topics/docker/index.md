@@ -9,5 +9,6 @@ short_description: Docker is a platform built for developers to build and run ap
 topic: docker
 url: https://www.docker.com
 wikipedia_url: https://en.wikipedia.org/wiki/Docker_(software)
+related: container-image, containerization, docker-compose
 ---
-Docker is software that provides containers, which allows teams to emulate development environments. Docker began as an internal project, initially developed by dotCloud engineers.
+**Docker** is software that provides containers, which allows teams to emulate development environments. It began as an internal project, initially developed by dotCloud engineers.
