@@ -18,6 +18,7 @@ items:
  - microsoft/vscode
  - zyedidia/micro
  - neoedmund/neoeedit
+ - mawww/kakoune
  - 0x7c13/Notepads
  - onivim/oni2
  - VSCodium/vscodium
@@ -34,7 +35,6 @@ items:
  - apache/netbeans
  - adsr/mle
  - helix-editor/helix
- - mawww/kakoune
 
 display_name: Text editors
 created_by: leereilly
