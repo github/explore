@@ -1,7 +1,7 @@
 ---
 aliases: publish-subscribe-pattern, publish-subscribe
 topic: pubsub
-display: Publish-subscribe pattern
+display_name: Publish-subscribe pattern
 short_description: The publish-subscribe pattern is a messaging pattern where the consumer subscribes to the provider.
 related: message-queue, message-oriented-middleware, message-passing, event-bus, event-handlers, event-listener, message-bus, event-sourcing, observer-pattern, event-driven-programming
 released: 1987
