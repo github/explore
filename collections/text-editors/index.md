@@ -13,7 +13,6 @@ items:
  - SpaceVim/SpaceVim
  - alm-tools/alm
  - atom/atom
- - mawww/kakoune
  - LightTable/LightTable
  - zedapp/zed
  - microsoft/vscode
