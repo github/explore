@@ -8,5 +8,6 @@ short_description: gRPC is a high performance RPC framework.
 topic: grpc
 url: https://grpc.io/
 wikipedia_url: https://en.wikipedia.org/wiki/GRPC
+related: rpc, http2, protobuf, capn-proto, json-rpc
 ---
-gRPC is a modern open source high performance RPC framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services.
+**gRPC** (**gRPC Remote Procedure Calls**) is a modern open source high performance RPC framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services.
