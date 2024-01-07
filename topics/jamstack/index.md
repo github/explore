@@ -1,4 +1,5 @@
 ---
+aliases: jam-stack
 display_name: Jamstack
 github_url: https://github.com/jamstack
 logo: jamstack.png
