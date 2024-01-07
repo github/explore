@@ -2,7 +2,7 @@
 aliases: inversion-of-control
 topic: ioc
 display_name: Inversion of Control (IoC)
-short_description: Inversion of control (IoC) is a design pattern in which custom-written portions of a computer program receive the flow of control from a generic framework.
+short_description: Inversion of control is a design pattern in which custom-written program parts receive the control flow from a generic framework.
 related: event-driven-programming, event-loop, dependency-injection, program-inversion, bottom-up-parser, service-locator, late-binding, template-method-pattern
 released: 1988
 wikipedia_url: https://en.wikipedia.org/wiki/Inversion_of_control
