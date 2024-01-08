@@ -32,7 +32,6 @@ items:
  - stride3d/stride
  - lance-gg/lance
  - panda3d/panda3d
- - OpenXRay/xray-16
  - korlibs/korge
  - raysan5/raylib
  - amethyst/amethyst
