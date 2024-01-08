@@ -17,7 +17,7 @@ items:
  - 4ian/GDevelop
  - urho3d/urho3d
  - methusalah/OpenRTS
- - photonstorm/phaser
+ - phaserjs/phaser
  - melonjs/melonJS
  - BabylonJS/Babylon.js
  - WhitestormJS/whs.js
