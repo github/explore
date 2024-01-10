@@ -1,7 +1,7 @@
 ---
 topic: ioc
 display_name: IoC (Disambiguation)
-short_description: 'IoC can either mean "Inversion of Control" or "Indicator of Compromise".'
+short_description: 'IoC can either mean "Inversion of Control" or "Indicator of Compromise", depending on the context.'
 related: inversion-of-control, indicator-of-compromise
 ---
 The term "**IoC**" can mean multiple things:
