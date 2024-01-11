@@ -11,4 +11,4 @@ topic: rails
 url: https://rubyonrails.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Ruby_on_Rails
 ---
-Ruby on Rails (Rails) is a web application framework written in Ruby. It is meant to help simplify the building of complex websites.
+Ruby on Rails (Rails) is a web application framework written in Ruby. It is meant to help simplify the building of complex websites
