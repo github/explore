@@ -1,6 +1,7 @@
 ---
 items:
  - rust-lang/rust
+ - vercel/next.js
  - Homebrew/brew
  - https://www.youtube.com/embed/dSl_qnWO104
  - public-apis/public-apis
