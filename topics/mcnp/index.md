@@ -2,6 +2,7 @@
 aliases: mcnp5, mcnp6,
 display_name: MCNP
 short_description: MCNP is the Monte Carlo N-Particle radiation transport code.
+created_by: Los Alamos National Laboratory
 topic: mcnp
 url: https://mcnp.lanl.gov/
 wikipedia_url: https://en.wikipedia.org/wiki/Monte_Carlo_N-Particle_Transport_Code
