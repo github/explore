@@ -1,5 +1,6 @@
 ---
 items:
+  - ahelmy/xdev
   - KL13NT/ally-reads
   - RobustaStudio/bkit
   - aliftype/amiri
