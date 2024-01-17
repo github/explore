@@ -2,6 +2,7 @@
 aliases: laravel-livewire
 topic: livewire
 display_name: Livewire
+short_description: Livewire is a is a full-stack framework for Laravel that utilizes SSR and AJAX..
 related: laravel, ajax, htmx, ssr, laravel-blade, alpinejs, laravel-echo, inertiajs, nuxtjs, nextjs
 github_url: https://github.com/livewire/livewire
 url: https://livewire.laravel.com/
