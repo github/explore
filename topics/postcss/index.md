@@ -1,6 +1,7 @@
 ---
 topic: postcss
 display_name: PostCSS
+short_description: PostCSS is a tool for transforming CSS with JavaScript. It can be used to develop a template language such as Sass and LESS.
 wikipedia_url: https://en.wikipedia.org/wiki/PostCSS
 url: https://postcss.org/
 github_url: https://github.com/postcss
