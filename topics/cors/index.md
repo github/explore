@@ -1,7 +1,7 @@
 ---
 topic: cors
 display_name: Cross-origin resource sharing (CORS)
-short_description: CORS is a mechanism that allows restricted resources on a web page to be accessed from another domain outside the domain from which the first resource was served.
+short_description: CORS is a mechanism that allows restricted resources on a web page to be accessed from another domain outside the domain.
 related: xhr, ajax, jsonp, content-security-policy
 wikipedia_url: https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
 url: https://fetch.spec.whatwg.org/#http-cors-protocol
