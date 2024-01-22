@@ -2,7 +2,7 @@
 aliases: mern-stack
 topic: mern
 display_name: MERN
-short_description: MERN is a source-available JavaScript solution stack consisting of MongoDB, Express.js, React.js, Node.js
+short_description: MERN is a source-available JavaScript solution stack consisting of MongoDB, Express.js, React.js, Node.js.
 related: mean, meen, mevn
 ---
 **MERN** is a source-available JavaScript solution stack/software bundle, consisting of the following components:
