@@ -2,6 +2,7 @@
 aliases: meteorjs
 topic: meteor
 display_name: Meteor
+short_description: MeteorJS is a partly proprietary, mostly free and open-source isomorphic JavaScript web framework written using Node.js.
 logo: meteor.png
 related: mongodb, vulcanjs, pubsub
 created_by: Meteor Software, Meteor Development Group
