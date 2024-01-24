@@ -36,7 +36,7 @@ jobs:
       uses: actions/jekyll-build-pages@v1.0.9
       
     - name: ⚡️ upload artifact
-      uses: actions/upload-pages-artifact@v2
+      uses: actions/upload-pages-artifact@v3
 
   deploy:
     needs: build
@@ -49,4 +49,4 @@ jobs:
     steps:
       - name: 🚀 deploy
         id: deployment
-        uses: actions/deploy-pages@v3.0.0
+        uses: actions/deploy-pages@v4.0.3
