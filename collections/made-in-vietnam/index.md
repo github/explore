@@ -9,7 +9,7 @@ items:
  - holistics/dbml
  - google/edward2
  - vncorenlp/VnCoreNLP
- - google/tink
+ - tink-crypto/tink
  - blei-lab/edward
  - ZuzooVn/machine-learning-for-software-engineers
  - chiphuyen/ml-interviews-book
