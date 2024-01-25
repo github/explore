@@ -1,3 +1,4 @@
+![378464](https://github.com/github/explore/assets/100510653/0d23155a-6e05-4a28-9713-3445f60b3b32)
 ---
 items:
  - aseprite/aseprite/
