@@ -1,6 +1,6 @@
 # Contributing
 
-Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
+Hi there! We're excited you have ideas to improve topics and collections. You're helping the community discover valuable information.
 
 This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
@@ -24,7 +24,7 @@ If a topic or collection already exists, it will be listed in its respective dir
 
 The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/main/topics/rails).
 
-To make an improvement, please **open a pull request** with your proposed changes:
+To make an improvement, please **open a pull request** with your proposed changes. 
 
 ### Update the image
 
@@ -80,7 +80,7 @@ Drop the code bass with these musically themed repositories.
 
 The [pull request template](./.github/PULL_REQUEST_TEMPLATE.md) also provides guidance on the information you need to include.
 
-**Please fill out the pull request template completely.** If you do not fill out the template, your PR will be closed.
+**Please fill out the pull request template completely,** if you do not fill out the template, your PR will be closed.
 
 ## Curating a new topic or collection
 
