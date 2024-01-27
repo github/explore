@@ -1,3 +1,4 @@
+index.md
 ---
 items:
  - 18F/development-guide
