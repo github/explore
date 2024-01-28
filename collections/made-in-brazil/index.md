@@ -1,5 +1,6 @@
 ---
 items:
+  - htrgouvea/nipe
   - clappr/clappr
   - devhubapp/devhub
   - dracula/dracula-theme
