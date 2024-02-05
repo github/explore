@@ -1,7 +1,7 @@
 ---
 items:
  - pixijs/pixijs
- - photonstorm/phaser
+ - phaserjs/phaser
  - melonjs/melonJS
  - gamelab/kiwi.js
  - craftyjs/Crafty
