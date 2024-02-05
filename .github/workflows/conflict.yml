@@ -11,12 +11,12 @@ jobs:
       - run: |
           echo "In order to review this pull request for acceptance, we need to make sure that all of the prerequisites are satisfied."
           echo "This was not checked:"
-          echo "> I am not the sole author or employee of a company who created the topic or collection I am changing."
+          echo "> I am not the sole author or employee of a company who created either the topic I am modifying/adding or the collection entry I am modifying/adding."
           echo "This is a requirement to maintain a high level of independence in this project. Please update if you are able to verify that you meet that requirement."
           echo "Thank you!"
           exit 1
-        if: contains(github.event.pull_request.body, '- [ ] I am not the sole author or employee of a company who created the topic or collection I am changing.')
+        if: contains(github.event.pull_request.body, '- [ ] I am not the sole author or employee of a company who created either the topic I am modifying/adding or the collection entry I am modifying/adding.')
         name: Fail
       - run: exit 0
-        if: contains(github.event.pull_request.body, '- [x] I am not the sole author or employee of a company who created the topic or collection I am changing.')
+        if: contains(github.event.pull_request.body, '- [x] I am not the sole author or employee of a company who created either the topic I am modifying/adding or the collection entry I am modifying/adding.')
         name: Succeed
