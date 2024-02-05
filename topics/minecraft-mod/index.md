@@ -1,5 +1,5 @@
 ---
-aliases: minecraft-modding
+aliases: minecraft-modding, minecraft-modpack
 display_name: Minecraft Mod
 logo: minecraft-mod.png
 related: minecraft, minecraft-plugin, minecraft-addon
