@@ -48,7 +48,7 @@ items:
  - KilledByAPixel/LittleJS
  - ppy/osu-framework
  - gosu/gosu
- - cerberusxdev/cerberus
+ - PhilMoe/cerberus
  - ganelson/inform
  - hexops/mach
  - PurpleKingdomGames/indigo
