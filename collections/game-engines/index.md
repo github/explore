@@ -55,6 +55,7 @@ items:
  - nivanov/cosplay
  - gurkenlabs/litiengine
  - o3de/o3de
+ - minetest/minetest
 display_name: Game Engines
 created_by: leereilly
 ---
