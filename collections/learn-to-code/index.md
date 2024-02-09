@@ -37,6 +37,7 @@ items:
  - hexlet-codebattle/codebattle
  - Hexlet/hexletguides.github.io
  - aykutkardas/regexlearn.com
+ - olexale/flutter_roadmap
 
 display_name: Learn to Code
 created_by: alysonla
