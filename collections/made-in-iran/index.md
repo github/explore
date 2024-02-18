@@ -2,6 +2,7 @@
 items:
  - jadijadi/bestoon
  - jadijadi/justforfun
+ - majidh1/JalaliDatePicker
  - mr-hashemi/mr-hashemi
  - pashmaklang/pashmak
  - roshan-research/moratab
