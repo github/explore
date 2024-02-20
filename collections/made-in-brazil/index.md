@@ -21,7 +21,7 @@ items:
   - alt-art/commit
   - backend-br/desafios
   - backend-br/vagas
-  - githubpresente/octogatosconf22
+  - githubmeetups/octogatosconf22
   - github/brasil
   - raphamorim/rio
   - avelino/awesome-go
