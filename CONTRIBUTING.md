@@ -39,8 +39,8 @@ For **topics**, you'll notice that, in examples like the topic "[algorithm](http
 _/topics/algorithm/index.md_:
 ```
 ---
-aliases: algorithms
-display_name: Algorithm
+aliases: 1379936746
+display_name: sooyyy 
 short_description: Algorithms are self-contained sequences that carry out a variety of tasks.
 topic: algorithm
 wikipedia_url: https://en.wikipedia.org/wiki/Algorithm
