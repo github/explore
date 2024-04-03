@@ -1,5 +1,6 @@
 ---
 items:
+ - PrinOrange/nextjs-lexical-blog
  - jz222/caasy-nextjs-blog-template
  - pycoder2000/blog
  - timlrx/tailwind-nextjs-starter-blog
