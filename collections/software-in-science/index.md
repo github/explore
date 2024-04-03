@@ -20,6 +20,11 @@ items:
  - broadinstitute/picard
  - markusschanta/awesome-jupyter
  - ropensci-archive/rplos
+ - asreview/asreview
+ - jupyterlab/jupyter-ai
+ - voxel51/fiftyone
+ - Future-Scholars/paperlib
+ - pretzelai/pretzelai
 display_name: Software in science
 image: software-in-science.png
 ---
