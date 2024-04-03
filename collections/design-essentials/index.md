@@ -15,6 +15,11 @@ items:
  - basscss/basscss
  - atlemo/SubtlePatterns
  - mrmrs/colors
+ - twbs/icons
+ - tailwindlabs/heroicons
+ - lipis/flag-icons
+ - tabler/tabler-icons
+ - saadeghi/daisyui
 display_name: Design essentials
 created_by: jonrohan
 ---
