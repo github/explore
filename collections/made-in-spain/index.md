@@ -12,7 +12,7 @@ items:
  - browserslist/browserslist
  - carloscuesta/gitmoji
  - penpot/penpot
- - kaleidos-ventures/taiga-back
+ - taigaio/taiga-back
 display_name: Made in Spain
 created_by: eschiclers
 image: made-in-spain.png
