@@ -28,6 +28,23 @@ items:
  - badges/shields
  - bitrise-io/bitrise
  - devhubapp/devhub
+ - anuraghazra/github-readme-stats
+ - Ileriayo/markdown-badges
+ - alexandresanlim/Badges4-README.md-Profile
+ - tholman/github-corners
+ - jstrieb/github-stats
+ - vn7n24fzkq/github-profile-summary-cards
+ - ryo-ma/github-profile-trophy
+ - DenverCoder1/github-readme-streak-stats
+ - Ashutosh00710/github-readme-activity-graph
+ - star-history/star-history
+ - jamesgeorge007/github-activity-readme
+ - Yizack/gists-readme
+ - lacolaco/contributors-img
+ - all-contributors/all-contributors
+ - VishwaGauravIn/pretty-readme-badges
+ - buttons/github-buttons
+ - DenverCoder1/readme-typing-svg
 display_name: Tools for Open Source
 created_by: mozzadrella
 image: tools-for-open-source.png

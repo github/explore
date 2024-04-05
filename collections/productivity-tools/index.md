@@ -18,6 +18,26 @@ items:
  - ajeetdsouza/zoxide
  - Slackadays/Clipboard
  - devtron-labs/devtron
+ - Maximus5/ConEmu
+ - wavetermdev/waveterm
+ - termux/termux-app
+ - zed-industries/zed
+ - lapce/lapce
+ - Syllo/nvtop
+ - rclone/rclone
+ - tldr-pages/tldr
+ - aria2/aria2
+ - Bash-it/bash-it
+ - iterative/dvc
+ - starship/starship
+ - gnunn1/tilix
+ - fabioz/mu-repo
+ - nvbn/thefuck
+ - sharkdp/bat
+ - dandavison/delta
+ - bootandy/dust
+ - eza-community/eza
+ - bensadeh/tailspin
 display_name: Software productivity tools
 created_by: holman
 ---
