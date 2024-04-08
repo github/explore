@@ -9,7 +9,7 @@ items:
  - pacifiquem/lin
   
 display_name: Made in Rwanda
-created_by: FADHILI Josue
+created_by: "FADHILI Josue"
 image: made-in-rwanda.png
 ---
 Open source projects built in or receiving significant contributions from Rwanda :rwanda:
