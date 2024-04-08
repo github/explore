@@ -1,5 +1,5 @@
 ---
-aliases: testing-tools, testing-framework, testing-practices, software-testing, test
+aliases: test, testing-framework, testing-practices, testing-tools, software-testing
 display_name: Testing
 short_description: The act of examining behavior of the software under test to eliminate bugs and ship with more confidence.
 topic: testing
