@@ -4,7 +4,7 @@ items:
  - veritem/eslint-plugin-vitest
  - divinrkz/swaggiffy
  - pacifiquem/awesome-go
- - mutesa-Cedric/react-swift-reveal
+ - Mutesa-Cedric/react-swift-reveal
  - pacifiquem/lepper
  - pacifiquem/lin
   
