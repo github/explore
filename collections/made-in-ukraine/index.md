@@ -17,7 +17,7 @@ items:
  - trekhleb/learn-python
  - brunch/brunch
  - resilience4j/resilience4j
- - eclipse/che
+ - eclipse-che/che
  - dmytrodanylyk/circular-progress-button
  - valor-software/ngx-bootstrap
  - platformio/platformio-core
