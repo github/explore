@@ -7,7 +7,6 @@ items:
  - denysdovhan/wtfjs
  - dimsemenov/PhotoSwipe
  - trailofbits/algo
- - Redis-Insight/RedisDesktopManager
  - trekhleb/homemade-machine-learning
  - vadimdemedes/ink
  - spaceship-prompt/spaceship-prompt
@@ -60,6 +59,7 @@ items:
  - retejs/rete
  - javadev/underscore-java
  - javadev/LeetCode-in-Java
+ - Redis-Insight/RedisDesktopManager
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png
