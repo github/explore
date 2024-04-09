@@ -26,7 +26,7 @@ items:
  - preactjs/preact
  - ionic-team/stencil
  - withastro/astro
- - BuilderIO/qwik
+ - QwikDev/qwik
  - vercel/next.js
  - gatsbyjs/gatsby
  - sveltejs/kit
