@@ -2,11 +2,18 @@
 items:
  - kin-lang/kin
  - veritem/eslint-plugin-vitest
+ - veritem/gcommit
  - divinrkz/swaggiffy
  - pacifiquem/awesome-go
  - Mutesa-Cedric/react-swift-reveal
  - pacifiquem/lepper
  - pacifiquem/lin
+ - ndungtse/next13-progressbar
+ - regisrex/json-base
+ - regisrex/string-hunt
+ - IVainqueur/auto-push
+ - IVainqueur/package-mover
+ - MuhireIghor/repo_initiator
   
 display_name: Made in Rwanda
 created_by: FADHILI-Josue
