@@ -1,5 +1,4 @@
 ---
-aliases: ln-fun-animation
 created_by: Leonel Ngoya
 display_name: LN Fun Animation
 github_url: https://github.com/ln-dev7
