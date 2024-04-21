@@ -1,5 +1,5 @@
 ---
-aliases: yonodejs, yonode
+aliases: yonodejs
 created_by: Mr Sharafdin
 display_name: Yonode
 github_url: https://github.com/sharafdin/yonode
