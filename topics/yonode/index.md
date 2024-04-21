@@ -4,7 +4,7 @@ created_by: Mr Sharafdin
 display_name: Yonode
 github_url: https://github.com/sharafdin/yonode
 related: vite, node, express, dev-server, build-tool
-released: Mar 11, 2024
+released: March 11, 2024
 short_description: Yonode is the Node.js Toolkit for Rapid Development.
 topic: yonode
 url: https://yonode.org
