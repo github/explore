@@ -33,7 +33,7 @@ items:
  - linuxscout/qalsadi
  - linuxscout/mishkal
 display_name: Made in Algeria
-created_by: mohammed-elhaouari
+created_by: the-dijkstra
 image: made-in-algeria.png
 ---
 Open source projects built in or receiving significant contributions from Algeria 🇩🇿
