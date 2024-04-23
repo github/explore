@@ -9,6 +9,7 @@ items:
  - htmlhint/HTMLHint
  - validator/validator
  - CSSLint/csslint
+ - astral-sh/ruff
  - PyCQA/pycodestyle
  - PyCQA/flake8
  - psf/black
