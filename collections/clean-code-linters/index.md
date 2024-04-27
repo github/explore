@@ -9,7 +9,6 @@ items:
  - htmlhint/HTMLHint
  - validator/validator
  - CSSLint/csslint
- - astral-sh/ruff
  - PyCQA/pycodestyle
  - PyCQA/flake8
  - psf/black
@@ -35,6 +34,7 @@ items:
  - diffplug/spotless
  - spotbugs/spotbugs
  - trunk-io/plugins
+ - astral-sh/ruff
 display_name: Clean code linters
 created_by: holman
 ---
