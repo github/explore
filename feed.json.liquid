@@ -32,6 +32,8 @@ permalink: feed.json
   ],
   "topics": [
     {% for topic in topics %}
+      {% assign related = topic.related | split: ', ' %}
+      {% assign aliases = topic.aliases | split: ', ' %}
       {
         "topic_name": {{ topic.topic | jsonify }},
         "created_by": {{ topic.created_by | jsonify }},
@@ -40,19 +42,19 @@ permalink: feed.json
         "logo": {% if topic.logo == null %}
           null,
         {% else %}
-          "{{ site.url | replace: "github.", "explore-feed.github." }}{{ topic.id | remove_first: "/index" }}/{{ topic.logo }}",
+          "{{ site.url }}{{ topic.id | remove_first: "/index" }}/{{ topic.logo }}",
         {% endif %}
         "released": {{ topic.released | jsonify }},
         "short_description": {{ topic.short_description | jsonify }},
-        "url": "{{ site.url }}{{ topic.url | remove_first: "/index.html" }}",
+        "url": "{{ site.url | replace: "explore-feed.github.", "github." }}{{ topic.url | remove_first: "/index.html" }}",
         "wikipedia_url": {{ topic.wikipedia_url | jsonify }},
         "related": [
-          {% for related_topic in topic.related %}
+          {% for related_topic in related %}
             "{{ related_topic }}"{% unless forloop.last == true %},{% endunless %}
           {% endfor %}
         ],
         "aliases": [
-          {% for alias in topic.aliases %}
+          {% for alias in aliases %}
             "{{ alias }}"{% unless forloop.last == true %},{% endunless %}
           {% endfor %}
         ],

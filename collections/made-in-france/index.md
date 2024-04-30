@@ -18,6 +18,7 @@ items:
  - mui/material-ui
  - PrestaShop/PrestaShop
  - rlibre/x4js
+ - QuivrHQ/quivr
 display_name: Made in France
 created_by: ferdi05
 image: made-in-france.png

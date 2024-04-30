@@ -1,7 +1,7 @@
 ---
 items:
  - pixijs/pixijs
- - photonstorm/phaser
+ - phaserjs/phaser
  - melonjs/melonJS
  - gamelab/kiwi.js
  - craftyjs/Crafty
@@ -22,7 +22,6 @@ items:
  - Cloud9c/taro
  - replit/kaboom
  - straker/kontra
- - jay19240/Haiku
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---

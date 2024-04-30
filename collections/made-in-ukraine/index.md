@@ -7,7 +7,6 @@ items:
  - denysdovhan/wtfjs
  - dimsemenov/PhotoSwipe
  - trailofbits/algo
- - RedisInsight/RedisDesktopManager
  - trekhleb/homemade-machine-learning
  - vadimdemedes/ink
  - spaceship-prompt/spaceship-prompt
@@ -17,7 +16,7 @@ items:
  - trekhleb/learn-python
  - brunch/brunch
  - resilience4j/resilience4j
- - eclipse/che
+ - eclipse-che/che
  - dmytrodanylyk/circular-progress-button
  - valor-software/ngx-bootstrap
  - platformio/platformio-core
@@ -60,6 +59,7 @@ items:
  - retejs/rete
  - javadev/underscore-java
  - javadev/LeetCode-in-Java
+ - RedisInsight/RedisDesktopManager
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png

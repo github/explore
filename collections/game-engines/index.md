@@ -17,7 +17,7 @@ items:
  - 4ian/GDevelop
  - urho3d/urho3d
  - methusalah/OpenRTS
- - photonstorm/phaser
+ - phaserjs/phaser
  - melonjs/melonJS
  - BabylonJS/Babylon.js
  - WhitestormJS/whs.js
@@ -32,7 +32,6 @@ items:
  - stride3d/stride
  - lance-gg/lance
  - panda3d/panda3d
- - OpenXRay/xray-16
  - korlibs/korge
  - raysan5/raylib
  - amethyst/amethyst
@@ -49,12 +48,14 @@ items:
  - KilledByAPixel/LittleJS
  - ppy/osu-framework
  - gosu/gosu
- - cerberusxdev/cerberus
+ - PhilMoe/cerberus
  - ganelson/inform
  - hexops/mach
  - PurpleKingdomGames/indigo
  - nivanov/cosplay
  - gurkenlabs/litiengine
+ - o3de/o3de
+ - minetest/minetest
 display_name: Game Engines
 created_by: leereilly
 ---
