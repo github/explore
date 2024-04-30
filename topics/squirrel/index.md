@@ -3,7 +3,6 @@ aliases: squirrel-lang
 created_by: Alberto Demichelis
 display_name: Squirrel
 github_url: https://github.com/albertodemichelis/squirrel
-logo: squirrel.png
 released: 2003
 short_description: Squirrel is a high-level object-oriented scripting language.
 topic: squirrel
