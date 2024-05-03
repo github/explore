@@ -23,8 +23,12 @@ items:
   - kavi-kv/oraahyo_app
   - ENG-CJ/Job-Finder-App
   - ENG-CJ/Freelancing-WebApp
+  - aaqyaar/sooyaal-app
+  - aaqyaar/ijaar-platform
   - XudayfiIbra/user-authetications
   - AbdullahiKhalif/iskuxire-web-app
+  - aaqyaar/ogaalkoob-app
+  - aaqyaar/SimpleBank.API
   
 display_name: Made in Somalia
 created_by: isasharafdin
