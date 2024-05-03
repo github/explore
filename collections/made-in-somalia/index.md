@@ -29,6 +29,8 @@ items:
   - AbdullahiKhalif/iskuxire-web-app
   - aaqyaar/ogaalkoob-app
   - aaqyaar/SimpleBank.API
+  - aaqyaar/e-commerce-mern
+  - aaqyaar/chatting-web-app
   
 display_name: Made in Somalia
 created_by: isasharafdin
