@@ -11,6 +11,7 @@ items:
   - JUST-4EVER/CAZA-MART
   - hanad124/graadkaabPlatform
   - miirshe/Al-caasima-Hospital-Management-System
+  - dugsiiyeinc/native-skeleton
   - miirshe/doctor-appointment
   - ENG-CJ/exam-complaining-app
   - hanad124/clothing-e-commerce
