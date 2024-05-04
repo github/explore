@@ -21,16 +21,20 @@ items:
   - miirshe/webblogs
   - ENG-CJ/Food-Order-App-Server
   - kavi-kv/oraahyo_app
+  - MoDev40/ai-bg-remover
   - ENG-CJ/Job-Finder-App
   - ENG-CJ/Freelancing-WebApp
   - aaqyaar/sooyaal-app
   - aaqyaar/ijaar-platform
   - XudayfiIbra/user-authetications
   - AbdullahiKhalif/iskuxire-web-app
+  - MoDev40/quizera
   - aaqyaar/ogaalkoob-app
   - aaqyaar/SimpleBank.API
   - aaqyaar/e-commerce-mern
   - aaqyaar/chatting-web-app
+  - MoDev40/expense-tracker
+  - MoDev40/budget-management
   
 display_name: Made in Somalia
 created_by: isasharafdin
