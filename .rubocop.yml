@@ -9,7 +9,7 @@ AllCops:
     - '**/vendor/**/*'
 
 Lint/AssignmentInCondition:
-  Enabled: false
+  Enabled: true
 
 Metrics/BlockLength:
   Enabled: false
