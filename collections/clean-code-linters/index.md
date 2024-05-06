@@ -34,6 +34,7 @@ items:
  - diffplug/spotless
  - spotbugs/spotbugs
  - trunk-io/plugins
+ - astral-sh/ruff
 display_name: Clean code linters
 created_by: holman
 ---
