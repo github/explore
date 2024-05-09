@@ -9,6 +9,7 @@ items:
   - redouanelg/AppliedMathsInDarija
   - yjose/reactjs-popup
   - Edd13Mora/HackerNewsBdarija
+  - zakarialaoui10/ziko.js
   
   
 display_name: Made in Morocco
