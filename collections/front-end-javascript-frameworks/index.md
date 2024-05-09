@@ -31,6 +31,7 @@ items:
  - gatsbyjs/gatsby
  - sveltejs/kit
  - refinedev/refine
+ - zakarialaoui10/ziko.js
 
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
