@@ -38,6 +38,7 @@ items:
  - bootandy/dust
  - eza-community/eza
  - bensadeh/tailspin
+ - logdyhq/logdy-core
 display_name: Software productivity tools
 created_by: holman
 ---
