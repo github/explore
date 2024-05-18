@@ -1,6 +1,6 @@
 ---
-aliases: software-dev, software-design
-created_by: The software engineering community
+aliases: software-development, software-design
+created_by: Software engineers
 display_name: Software Engineering
 related: programming, project-management, quality-assurance, computer-science
 short_description: Software Engineering involves the application of engineering principles to software development.
