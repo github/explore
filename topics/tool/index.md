@@ -1,5 +1,5 @@
 ---
-aliases: tools, utility, utilities
+aliases: tools
 created_by: The technology community
 display_name: Tool
 related: software-development, automation, productivity
