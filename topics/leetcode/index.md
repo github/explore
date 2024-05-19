@@ -3,7 +3,7 @@ created_by: LeetCode
 display_name: LeetCode
 short_description: LeetCode offers a platform for improving coding skills and preparing for technical interviews.
 topic: leetcode
-logo: LeetCode.png
+logo: leetcode.png
 url: https://leetcode.com/
 wikipedia_url: https://en.wikipedia.org/wiki/LeetCode
 ---
