@@ -1,8 +1,8 @@
 ---
-aliases: coding, software-programming
+aliases: software-programming
 created_by: Programmers
 display_name: Programming
-related: software-development, algorithms, data-structures, computer-science
+related: coding, software-development, algorithms, data-structures, computer-science
 short_description: Programming involves writing, testing, and maintaining code to build software applications.
 topic: programming
 wikipedia_url: https://en.wikipedia.org/wiki/Computer_programming
