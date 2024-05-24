@@ -27,6 +27,7 @@ items:
  - lumeland/lume
  - docsifyjs/docsify
  - shuding/nextra
+ - twostraws/Ignite
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
