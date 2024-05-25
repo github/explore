@@ -1,5 +1,6 @@
 ---
 items:
+  - 6km/react-quran
   - KL13NT/ally-reads
   - RobustaStudio/bkit
   - aliftype/amiri
