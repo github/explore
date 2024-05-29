@@ -1,5 +1,4 @@
 ---
-aliases: remix-stacks
 display_name: Remix Stacks
 short_description: Remix Stacks are production-ready application starters from the https://remix.run team and community.
 topic: remix-stacks
