@@ -20,4 +20,4 @@ items:
  - https://devforum.play.date
  - http://playdate-wiki.com/wiki/Developing_for_Playdate
 ---
-Packages, tools and examples that helpful to make game for Playdate in Rust programming language.
+Packages, tools, and examples that are helpful to make games for Playdate in the Rust programming language.
