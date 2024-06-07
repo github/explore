@@ -1,3 +1,4 @@
+---
 created_by: Isabel Schoeps Thiel
 display_name: 4D Components
 short_description: 4D components are sets of 4D methods, classes and forms that add new functionalities to 4D applications.
