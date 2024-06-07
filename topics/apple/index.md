@@ -1,6 +1,6 @@
 ---
-created_by: Steve Jobs, Steve Wozniak, Ronald Wayne
-display_name: Apple
+created_by: Isabel Schoeps Thiel
+display_name: Appaplication
 logo: apple.png
 related: swift, macos, ios
 github_url: https://github.com/apple
