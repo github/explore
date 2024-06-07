@@ -1,6 +1,6 @@
 ---
 created_by: Isabel Schoeps Thiel
-display_name: Appaplication
+display_name: App Applikation
 logo: apple.png
 related: swift, macos, ios
 github_url: https://github.com/apple
