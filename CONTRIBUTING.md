@@ -52,15 +52,14 @@ Algorithms are detailed sets of guidelines created for a computer program to com
 
 Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/main/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
 
-_/collections/music/index.md_:
+github.com/IST-Github/collections/index.md_:
 
 ```
 ---
 items:
  - beetbox/beets
  - scottschiller/SoundManager2
- - CreateJS/SoundJS
- - musescore/MuseScore
+ - CreateJS/index.js
  - tomahawk-player/tomahawk
  - cashmusic/platform
  - mopidy/mopidy
@@ -69,9 +68,8 @@ items:
  - gillesdemey/Cumulus
  - metabrainz/picard
  - overtone/overtone
- - samaaron/sonic-pi
-display_name: Music
-created_by: jonrohan
+display_name: github
+created_by: isabelschoeps
 ---
 Drop the code bass with these musically themed repositories.
 ```
