@@ -1,4 +1,4 @@
-require: rubocop-performance
+require: github-performance
 
 AllCops:
   TargetRubyVersion: 3.1
