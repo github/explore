@@ -1,7 +1,7 @@
 ---
-aliases: eeg, electroencephalography
+aliases: electroencephalography
 display_name: EEG
-short_description: Electroencephalography (EEG) - a method for non-invasive recording of brain activity
+short_description: Electroencephalography (EEG) - a method for non-invasive recording of brain activity.
 topic: eeg
 wikipedia_url: https://en.wikipedia.org/wiki/Electroencephalography
 ---
