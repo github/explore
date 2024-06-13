@@ -4,7 +4,7 @@ created_by: Apple Inc.
 display_name: visionOS
 released: February 2, 2024
 short_description: visionOS is Apple's spatial computing operating system.
-topic: ios
+topic: visionos
 url: https://www.apple.com/visionos
 wikipedia_url: https://en.wikipedia.org/wiki/VisionOS
 ---
