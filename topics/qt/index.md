@@ -1,5 +1,5 @@
 ---
-aliases: qt-framework, qt-application, qt5
+aliases: qt-framework, qt-application, qt5, qt6
 created_by: Haavard Nord, Eirik Chambe-Eng
 display_name: Qt
 github_url: https://github.com/qt
