@@ -1,7 +1,7 @@
 ---
 aliases: bangladesh, bangladesh-developer, bangladesh-github
 display_name: Bangladesh
-short_description: GitHub open-source developers from Bangladesh to collaborate on projects and share their contributions with the global community.
+short_description: GitHub open source developers from Bangladesh to collaborate on projects and share their contributions with the global community.
 topic: Bangladesh
 wikipedia_url: https://en.wikipedia.org/wiki/Bangladesh
 ---
