@@ -7,7 +7,6 @@ items:
  - SerenityOS/serenity
  - komodorio/helm-dashboard
  - cloudquery/cloudquery
- - EddieHubCommunity/BioDrop
  - Ileriayo/markdown-badges
  - embedchain/embedchain
  - Codecademy/docs
