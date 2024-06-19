@@ -35,6 +35,7 @@ items:
  - spotbugs/spotbugs
  - trunk-io/plugins
  - astral-sh/ruff
+ - golangci/golangci-lint
 display_name: Clean code linters
 created_by: holman
 ---
