@@ -15,7 +15,6 @@ items:
  - checkstyle/checkstyle
  - rubocop/rubocop
  - oclint/oclint
- - golangci/golangci-lint
  - dominikh/go-tools
  - ndmitchell/hlint
  - coala/coala
@@ -36,6 +35,7 @@ items:
  - spotbugs/spotbugs
  - trunk-io/plugins
  - astral-sh/ruff
+ - golangci/golangci-lint
 display_name: Clean code linters
 created_by: holman
 ---
