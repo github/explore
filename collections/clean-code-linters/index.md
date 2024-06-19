@@ -15,6 +15,7 @@ items:
  - checkstyle/checkstyle
  - rubocop/rubocop
  - oclint/oclint
+ - golangci/golangci-lint
  - dominikh/go-tools
  - ndmitchell/hlint
  - coala/coala
