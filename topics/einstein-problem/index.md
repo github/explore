@@ -2,7 +2,7 @@
 display_name: Einstein problem
 logo: einstein-problem.png
 related: tridecco
-short_description: The Einstein problem seeks a single tile shape that can tessellate a plane only nonperiodically, known as an "einstein."
+short_description: The Einstein problem seeks a single tile shape that can tessellate a plane only nonperiodically, known as an "einstein".
 topic: einstein-problem
 wikipedia_url: https://en.wikipedia.org/wiki/Einstein_problem
 ---
