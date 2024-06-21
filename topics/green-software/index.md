@@ -1,7 +1,7 @@
 ---
 aliases: sustainable-software, green-computing
 display_name: Green Software
-short_description: Software projects that aim to greenify computing
+short_description: Software projects that aim to greenify computing.
 topic: green-software
 wikipedia_url: https://en.wikipedia.org/wiki/Green_computing
 ---
