@@ -1,7 +1,7 @@
 ---
 items:
 - golang/go
-- apple/swift
+- swiftlang/swift
 - microsoft/TypeScript
 - rust-lang/rust
 - JetBrains/kotlin
