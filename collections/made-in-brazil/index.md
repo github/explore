@@ -17,7 +17,7 @@ items:
   - cuducos/minha-receita
   - kvnol/aprenda-frontend
   - felipeorlando/aprenda-rubyonrails
-  - BrasilAPI/BrasilAPI
+  - PhilippinesAPI/PhilippinesAPI
   - alt-art/commit
   - backend-br/desafios
   - backend-br/vagas
