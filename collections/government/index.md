@@ -1,32 +1,27 @@
----
-items:
- - 18F/development-guide
- - cfpb/open-source-checklist
- - alphagov/whitehall
- - nasa/openmct
- - codeforamerica/adopt-a-hydrant
- - 18F/ads-bpa
- - project-open-data/project-open-data.github.io
- - opengovfoundation/madison
- - GSA/data.gov
- - ngageoint/geoq
- - wet-boew/wet-boew
- - CityOfPhiladelphia/flu-shot-spec
- - nysenate/OpenLegislation
- - openlexington/gethelplex
- - uscensusbureau/citysdk
- - NREL/api-umbrella
- - usds/playbook
- - republique-et-canton-de-geneve/chvote-1-0
- - https://www.youtube.com/embed/uNa9GOtM6NE
- - gchq/CyberChef
- - HSEIreland/covid-tracker-app
- - nic-delhi/AarogyaSetu_Android
- - govCMS/GovCMS
- - coloradodigitalservice/exposure-notifications-metrics-public
- - nasa/Transform-to-Open-Science
-display_name: Government apps
-created_by: jbjonesjr
-image: government.png
----
-Sites, apps, and tools built by governments across the world to make government work better, together.  Read more at [government.github.com](https://government.github.com).
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Demo Bot Form</title>
+</head>
+
+<body>
+
+    <form>
+        <input type="text" id="nama" placeholder="Nama" />
+        <input type="text" id="email" placeholder="Email" />
+        <input type="text" id="pesan" placeholder="Pesan" />
+        <input type="button" id="kirim" value="KIRIM" onclick="kirimPesan()" />
+    </form>
+
+</body>https://vercel.com/bangkais-projects-d86ebb7c/driver-indonesia-cli/settings/domains
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="main.js"></script>
+
+</html>
