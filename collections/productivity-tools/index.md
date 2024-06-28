@@ -39,6 +39,8 @@ items:
  - eza-community/eza
  - bensadeh/tailspin
  - logdyhq/logdy-core
+ - ajayyy/SponsorBlock
+ - WofWca/jumpcutter
 display_name: Software productivity tools
 created_by: holman
 ---
