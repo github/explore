@@ -1,6 +1,6 @@
 ---
 display_name: Nottingham Trent University
-short_description:  Nottingham Trent University is a public research university in Nottingham, UK
+short_description:  Nottingham Trent University is a public research university in Nottingham, UK.
 topic: nottingham-trent-university
 logo: nottingham-trent-university.png
 wikipedia_url: https://en.wikipedia.org/wiki/Nottingham_Trent_University
