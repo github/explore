@@ -36,6 +36,7 @@ items:
  - trunk-io/plugins
  - astral-sh/ruff
  - golangci/golangci-lint
+ - nicklockwood/SwiftFormat
 display_name: Clean code linters
 created_by: holman
 ---
