@@ -36,6 +36,7 @@ items:
  - trunk-io/plugins
  - astral-sh/ruff
  - golangci/golangci-lint
+ - super-linter/super-linter
 display_name: Clean code linters
 created_by: holman
 ---
