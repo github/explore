@@ -1,6 +1,7 @@
 ---
 items:
  - ovity/octotree
+ - NirmalScaria/le-git-graph
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
  - muan/github-gmail
