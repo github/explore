@@ -8,7 +8,7 @@ items:
  - komodorio/helm-dashboard
  - cloudquery/cloudquery
  - Ileriayo/markdown-badges
- - embedchain/embedchain
+ - mem0ai/mem0
  - Codecademy/docs
  - open-sauced/guestbook 
  - firstcontributions/first-contributions
