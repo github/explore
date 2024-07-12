@@ -1,118 +1,53 @@
-# Contributing
+## Rootkit
 
-Hi there! We're excited you have ideas to improve topics and collections. You're helping the community discover valuable information.
+### Description
+A rootkit is a type of malicious software that provides unauthorized access to a computer system and conceals its presence. Rootkits can operate at different levels within a computer system, including user mode, kernel mode, firmware, and even in virtualized environments. They are typically used by attackers to maintain persistent access to a system while avoiding detection.
 
-This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+### Types of Rootkits
+1. **User-Mode Rootkits**: These rootkits operate at the user level and often replace application binaries or modify behavior through hooks.
+2. **Kernel-Mode Rootkits**: These rootkits run with high privileges and can manipulate the operating system kernel, making them more powerful and difficult to detect.
+3. **Bootkits**: A type of rootkit that infects the master boot record (MBR) or volume boot record (VBR) to gain control during the boot process before the operating system loads.
+4. **Firmware Rootkits**: These rootkits target the firmware of hardware components, such as BIOS or UEFI, and can persist even after reinstallation of the operating system.
+5. **Virtual Rootkits**: These operate in a virtual machine environment and can control the host operating system from outside its context.
+6. **Hypervisor Rootkits**: Also known as Type-2 hypervisors, these rootkits install themselves between the hardware and the operating system, creating a virtual machine that runs the real OS.
 
-There are a few ways you can contribute:
+### Methods of Infection
+- **Phishing Attacks**: Trick users into downloading and installing malicious software.
+- **Software Vulnerabilities**: Exploit weaknesses in software to gain access and install the rootkit.
+- **Drive-by Downloads**: Automatically download and install the rootkit when a user visits a compromised website.
+- **Social Engineering**: Manipulate users into performing actions that install the rootkit.
 
-- Improving an existing topic or collection
-- Curating a new topic or collection
+### Capabilities of Rootkits
+- **Stealth and Concealment**: Hide their presence from users and security software by intercepting and modifying system calls.
+- **Persistent Access**: Maintain long-term access to the infected system.
+- **Data Theft**: Capture and exfiltrate sensitive information such as passwords, credit card numbers, and personal data.
+- **System Manipulation**: Modify system configurations, disable security features, and create backdoors for future access.
+- **Propagation**: Spread to other systems within a network.
 
-As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
+### Detection and Removal
+Detecting and removing rootkits can be challenging due to their stealth capabilities. Here are some common methods:
 
-Notes:
-  - Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
-  - Please limit your pull request to the creation/updating of one topic or collection at a time.
+1. **Behavioral Analysis**: Monitor system behavior for anomalies that may indicate the presence of a rootkit.
+2. **Signature-Based Detection**: Use antivirus software to detect known rootkit signatures.
+3. **Integrity Checking**: Compare system files and configurations to known good states to identify unauthorized changes.
+4. **Memory Dump Analysis**: Analyze memory dumps to identify hidden processes and hooks.
+5. **Specialized Rootkit Removal Tools**: Use dedicated tools designed to detect and remove rootkits.
 
-## Improving an existing topic or collection
+### Prevention Tips
+- **Keep Software Updated**: Regularly update operating systems, applications, and firmware to patch vulnerabilities.
+- **Use Security Software**: Employ reputable antivirus and anti-malware solutions with real-time protection.
+- **Avoid Suspicious Links and Attachments**: Be cautious when clicking links or opening attachments from unknown sources.
+- **Enable Secure Boot**: Use Secure Boot features in modern UEFI firmware to prevent unauthorized code from running during the boot process.
+- **Educate Users**: Train users to recognize phishing attempts and other social engineering tactics.
 
-If a topic or collection already exists, it will be listed in its respective directory:
+### Image
+![Rootkit](https://www.example.com/rootkit_image.jpg)
 
-- [topics/](https://github.com/github/explore/tree/main/topics)
-- [collections/](https://github.com/github/explore/tree/main/collections)
-
-The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/main/topics/rails).
-
-To make an improvement, please **open a pull request** with your proposed changes. 
-
-### Update the image
-
-To update the image, simply replace the image inside the directory for the topic or collection.
-
-### Update text and links
-
-To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
-
-For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/main/topics/algorithm/index.md)," data like its canonical URL, Wikipedia URL, or display name are called out in key-value pairs, while its detailed description is accounted for in the body of the document.
-
-_/topics/algorithm/index.md_:
-```
----
-aliases: algorithms
-display_name: Algorithm
-short_description: Algorithms are self-contained sequences that carry out a variety of tasks.
-topic: algorithm
-wikipedia_url: https://en.wikipedia.org/wiki/Algorithm
----
-Algorithms are detailed sets of guidelines created for a computer program to complete tasks efficiently and thoroughly.
-```
-
----
-
-Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/main/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
-
-_/collections/music/index.md_:
-
-```
----
-items:
- - beetbox/beets
- - scottschiller/SoundManager2
- - CreateJS/SoundJS
- - musescore/MuseScore
- - tomahawk-player/tomahawk
- - cashmusic/platform
- - mopidy/mopidy
- - AudioKit/AudioKit
- - Soundnode/soundnode-app
- - gillesdemey/Cumulus
- - metabrainz/picard
- - overtone/overtone
- - samaaron/sonic-pi
-display_name: Music
-created_by: jonrohan
----
-Drop the code bass with these musically themed repositories.
-```
-
----
-
-The [pull request template](./.github/PULL_REQUEST_TEMPLATE.md) also provides guidance on the information you need to include.
-
-**Please fill out the pull request template completely,** if you do not fill out the template, your PR will be closed.
-
-## Curating a new topic or collection
-
-If a topic or collection is not yet curated, it will NOT be listed in its respective directory.
-
-We are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/) and could benefit from the addition of important information. When suggesting content, please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.
-
-Please note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.
-
-To propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
-
-This repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).
-
-**Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
-
-## Guidelines
-
-* Avoid conflicts of interest. These should be of general community interest, not a marketing vehicle for a product or a personal project. If you are a direct employee of a company creating the project, or the creator and sole maintainer, it's unlikely to be accepted.
-* We love experimenting with new technologies, and we are especially fond of GitHub Copilot. But as with all new technology, many of us are still getting accustomed to using generative AI tools effectively. Here are important guidelines to follow when using generative AI to contribute to this repository (adapted from the [GitHub Community Discussions CoC](https://github.com/community/community/blob/main/CODE_OF_CONDUCT.md#reasonable-use-of-ai-generated-content)):
-  * Read and revise the content before you post it. Use your own authentic voice and edit.
-  * Do not post AI-generated content verbatim to pad out the size and number of your contributions. Your changes should materially improve the site, not just say the same thing in different words.
-  * AI tools will often provide completely inaccurate or invented answers to prompts. Verify with an independent source that the information is correct before including it.
-
-## Running tests
-
-There are some lint tests in place to ensure each topic is formatted in the way we expect. GitHub
-Actions will run the tests automatically. If you want to run the tests yourself locally, you will
-need Ruby and Bundler installed.
-
-You can run the tests using:
-
-```bash
-bundle install
-bundle exec rubocop
-```
+### Useful Links
+- [Understanding Rootkits: What They Are and How to Protect Against Them](https://www.kaspersky.com/resource-center/threats/rootkits)
+- [Wikipedia: Rootkit](https://en.wikipedia.org/wiki/Rootkit)
+- [Rootkits: The Obscure Threat](https://www.symantec.com/connect/blogs/rootkits-obscure-threat)
+- [How Rootkits Work](https://www.howtogeek.com/125157/htg-explains-how-rootkits-work-and-how-to-avoid-them/)
+- [Detecting and Removing Rootkits](https://www.microsoft.com/security/blog/2019/04/10/detecting-and-removing-rootkits/)
+- [Rootkits: A Guide for the Perplexed](https://www.sans.org/reading-room/whitepapers/incident/rootkits-guide-perplexed-2010)
+- [Advanced Rootkit and Malware Techniques](https://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Rutkowska.pdf)
