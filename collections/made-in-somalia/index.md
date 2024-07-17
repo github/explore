@@ -7,7 +7,6 @@ items:
   - hanad124/furqan-constructions
   - abdinasir-Tman/shaqo-sahal
   - WorkHubSo/WorkHubSo
-  - hanad124/tiktok-video-downloader
   - JUST-4EVER/CAZA-MART
   - hanad124/graadkaabPlatform
   - miirshe/Al-caasima-Hospital-Management-System
