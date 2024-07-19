@@ -40,6 +40,7 @@ items:
  - npmhub/npmhub
  - octobox/extension
  - hypertrons/hypertrons-crx
+ - NirmalScaria/le-git-graph
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
