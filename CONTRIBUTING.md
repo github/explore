@@ -1,4 +1,4 @@
-# Contributing
+shivans gupta # Contributing
 
 Hi there! We're excited you have ideas to improve topics and collections. You're helping the community discover valuable information.
 
