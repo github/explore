@@ -41,6 +41,7 @@ items:
  - logdyhq/logdy-core
  - ajayyy/SponsorBlock
  - WofWca/jumpcutter
+ - mnfst/manifest
 display_name: Software productivity tools
 created_by: holman
 ---
