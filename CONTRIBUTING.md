@@ -1,6 +1,6 @@
 # Contributing
 
-Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
+Hi there! We're excited you have ideas to improve topics and collections. You're helping the community discover valuable information.
 
 This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
@@ -9,20 +9,22 @@ There are a few ways you can contribute:
 - Improving an existing topic or collection
 - Curating a new topic or collection
 
-As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted. Following the style guide will improve the chances of your contribution being accepted.
+As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
 
-Note: Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
+Notes:
+  - Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
+  - Please limit your pull request to the creation/updating of one topic or collection at a time.
 
 ## Improving an existing topic or collection
 
 If a topic or collection already exists, it will be listed in its respective directory:
 
-- [topics/](https://github.com/github/explore/tree/master/topics)
-- [collections/](https://github.com/github/explore/tree/master/collections)
+- [topics/](https://github.com/github/explore/tree/main/topics)
+- [collections/](https://github.com/github/explore/tree/main/collections)
 
-The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/master/topics/rails).
+The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/main/topics/rails).
 
-To make an improvement, please **open a pull request** with your proposed changes:
+To make an improvement, please **open a pull request** with your proposed changes. 
 
 ### Update the image
 
@@ -32,7 +34,7 @@ To update the image, simply replace the image inside the directory for the topic
 
 To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
 
-For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/master/topics/algorithm/index.md)," data like the its canonical URL, Wikipedia URL, or display name are called out in key-value pairs; while its detailed description is accounted for in the body of the document.
+For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/main/topics/algorithm/index.md)," data like its canonical URL, Wikipedia URL, or display name are called out in key-value pairs, while its detailed description is accounted for in the body of the document.
 
 _/topics/algorithm/index.md_:
 ```
@@ -48,7 +50,7 @@ Algorithms are detailed sets of guidelines created for a computer program to com
 
 ---
 
-Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/master/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
+Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/main/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
 
 _/collections/music/index.md_:
 
@@ -78,13 +80,13 @@ Drop the code bass with these musically themed repositories.
 
 The [pull request template](./.github/PULL_REQUEST_TEMPLATE.md) also provides guidance on the information you need to include.
 
-**Please fill out the pull request template completely.** If you do not fill out the template, your PR will be closed.
+**Please fill out the pull request template completely,** if you do not fill out the template, your PR will be closed.
 
 ## Curating a new topic or collection
 
 If a topic or collection is not yet curated, it will NOT be listed in its respective directory.
 
-We are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/), or a topic that currently lacks important information. When suggesting content, please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.
+We are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/) and could benefit from the addition of important information. When suggesting content, please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.
 
 Please note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.
 
@@ -96,16 +98,21 @@ This repository includes [a list of the most-used GitHub topics that don't yet h
 
 ## Guidelines
 
-* Avoid conflicts of interest. Maintainers of a project cannot add a topic or collection for their own project. If a topic is popular enough to warrant inclusion, someone else will add or improve it.
+* Avoid conflicts of interest. These should be of general community interest, not a marketing vehicle for a product or a personal project. If you are a direct employee of a company creating the project, or the creator and sole maintainer, it's unlikely to be accepted.
+* We love experimenting with new technologies, and we are especially fond of GitHub Copilot. But as with all new technology, many of us are still getting accustomed to using generative AI tools effectively. Here are important guidelines to follow when using generative AI to contribute to this repository (adapted from the [GitHub Community Discussions CoC](https://github.com/community/community/blob/main/CODE_OF_CONDUCT.md#reasonable-use-of-ai-generated-content)):
+  * Read and revise the content before you post it. Use your own authentic voice and edit.
+  * Do not post AI-generated content verbatim to pad out the size and number of your contributions. Your changes should materially improve the site, not just say the same thing in different words.
+  * AI tools will often provide completely inaccurate or invented answers to prompts. Verify with an independent source that the information is correct before including it.
 
 ## Running tests
 
-There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis
-CI will run the tests automatically. If you want to run the tests yourself locally, you will need
-Ruby and Bundler installed.
+There are some lint tests in place to ensure each topic is formatted in the way we expect. GitHub
+Actions will run the tests automatically. If you want to run the tests yourself locally, you will
+need Ruby and Bundler installed.
 
 You can run the tests using:
 
 ```bash
-script/cibuild
+bundle install
+bundle exec rubocop
 ```

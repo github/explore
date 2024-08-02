@@ -1,0 +1,65 @@
+---
+permalink: feed.json
+---
+{% assign collections = site.explore_collections %}
+{% assign topics = site.topics %}
+
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": {{ site.title | smartify | jsonify }},
+  "expired": false,
+  "collections": [
+    {% for collection in collections %}
+    {%- assign collection_name_words = collection.id | split: "/" -%}
+    {%- assign collection_name = collection_name_words[2] -%}
+      {
+        "items": [
+          {% for item in collection.items %}
+            "{{ item }}"{% unless forloop.last == true %},{% endunless %}
+          {% endfor %}
+        ],
+        "created_by": {{ collection.created_by | jsonify }},
+        "name": {{ collection_name | jsonify }},
+        "display_name": {{ collection.display_name | jsonify }},
+        "image": {% if collection.image == null %}
+          null,
+        {% else %}
+          "{{ site.url }}{{ collection.id | remove_first: "/index" }}/{{ collection.image }}",
+        {% endif %}
+        "content": {{ collection.content | jsonify }}
+      }{% unless forloop.last == true %},{% endunless %}
+    {% endfor %}
+  ],
+  "topics": [
+    {% for topic in topics %}
+      {% assign related = topic.related | split: ', ' %}
+      {% assign aliases = topic.aliases | split: ', ' %}
+      {
+        "topic_name": {{ topic.topic | jsonify }},
+        "created_by": {{ topic.created_by | jsonify }},
+        "display_name": {{ topic.display_name | jsonify }},
+        "github_url": {{ topic.github_url | jsonify }},
+        "logo": {% if topic.logo == null %}
+          null,
+        {% else %}
+          "{{ site.url }}{{ topic.id | remove_first: "/index" }}/{{ topic.logo }}",
+        {% endif %}
+        "released": {{ topic.released | jsonify }},
+        "short_description": {{ topic.short_description | jsonify }},
+        "url": "{{ site.url | replace: "explore-feed.github.", "github." }}{{ topic.url | remove_first: "/index.html" }}",
+        "wikipedia_url": {{ topic.wikipedia_url | jsonify }},
+        "related": [
+          {% for related_topic in related %}
+            "{{ related_topic }}"{% unless forloop.last == true %},{% endunless %}
+          {% endfor %}
+        ],
+        "aliases": [
+          {% for alias in aliases %}
+            "{{ alias }}"{% unless forloop.last == true %},{% endunless %}
+          {% endfor %}
+        ],
+        "content": {{ topic.content | jsonify }}
+      }{% unless forloop.last == true %},{% endunless %}
+    {% endfor %}
+  ]
+}

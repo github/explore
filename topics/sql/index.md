@@ -8,4 +8,4 @@ topic: sql
 related: database
 wikipedia_url: https://en.wikipedia.org/wiki/SQL
 ---
-SQL stands for structured query language. It uses commands such as "select", "insert", "delete". Some common relational database management systems that use SQL are: Oracle, MySQL, Microsoft SQL Server, PostgreSQL, etc. 
+SQL stands for structured query language. It uses commands such as "select", "insert", "update", "delete". Some common relational database management systems that use SQL are: Oracle, MySQL, Microsoft SQL Server, PostgreSQL, etc. 

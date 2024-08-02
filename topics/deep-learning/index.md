@@ -6,4 +6,4 @@ short_description: Deep Learning is an artificial neural network composed of man
 topic: deep-learning
 wikipedia_url: https://en.wikipedia.org/wiki/Deep_learning
 ---
-Deep learning is an AI function and subset of machine learning, used for processing large amounts of complex data.
+Deep learning is an AI function and a subset of machine learning, used for processing large amounts of complex data. Deep learning can automatically create algorithms based on data patterns.

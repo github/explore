@@ -1,8 +1,8 @@
 ---
 items:
 - golang/go
-- apple/swift
-- Microsoft/TypeScript
+- swiftlang/swift
+- microsoft/TypeScript
 - rust-lang/rust
 - JetBrains/kotlin
 - python/cpython
@@ -19,6 +19,7 @@ items:
 - micropython/micropython
 - erlang/otp
 - nim-lang/Nim
+- AssemblyScript/assemblyscript
 - purescript/purescript
 - elm/compiler
 - dotnet/csharplang
@@ -30,19 +31,42 @@ items:
 - idris-lang/Idris-dev
 - ocaml/ocaml
 - typelead/eta
-- nulang/nu
+- programming-nu/nu
 - gkz/LiveScript
 - IoLanguage/io
 - dlang/dmd
-- zdevito/terra
-- Microsoft/visualfsharp
+- terralang/terra
+- dotnet/fsharp
 - skiplang/skip
-- FascinatedBox/lily
 - rakudo/rakudo
 - chapel-lang/chapel
 - lucee/Lucee
-- eclipse/golo-lang
+- eclipse-archived/golo-lang
 - gosu-lang/gosu-lang
+- ziglang/zig
+- HaxeFoundation/haxe
+- livecode/livecode
+- coq/coq
+- vlang/v
+- dart-lang/sdk
+- pharo-project/pharo
+- ring-lang/ring
+- SenegalLang/Senegal
+- objectionary/eo
+- ChavaScript/chavascript
+- DennisMitchell/jellylanguage
+- beefytech/Beef
+- cue-lang/cue
+- openjdk/jdk
+- TinyCC/tinycc
+- robhagemans/pcbasic
+- QB64Team/qb64
+- gleam-lang/gleam
+- Gwion/Gwion
+- carbon-language/carbon-lang
+- imba/imba
+- Jackojc/cane
+- cython/cython
 display_name: Programming languages
 created_by: leereilly
 ---

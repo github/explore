@@ -5,10 +5,10 @@ items:
  - leereilly/hubot-minecraft-skin
  - overviewer/Minecraft-Overviewer
  - cuberite/cuberite
- - PocketMine/PocketMine-MP
+ - pmmp/PocketMine-MP
  - msmhq/msm
  - essentials/Essentials
- - Vazkii/Botania
+ - VazkiiMods/Botania
  - MightyPirates/OpenComputers
  - PrismarineJS/mineflayer
  - EngineHub/WorldEdit
@@ -21,7 +21,14 @@ items:
  - Bukkit/Bukkit
  - GlowstoneMC/Glowstone
  - MovingBlocks/Terasology
+ - Zerite/CraftLib
+ - PaperMC/Paper
+ - CaffeineMC/sodium-fabric
+ - FabricMC/fabric
+ - lambda-client/lambda/
+ - nerdsinspace/nocom-explanation
 display_name: Hacking Minecraft
 created_by: leereilly
+image: hacking-minecraft.png
 ---
-Minecraft is a game about building blocks, but it doesn’t end there. Take Minecraft further with some of the projects below, or dive into the code mines and :hammer: your own!
+Minecraft is a game about building blocks, but it doesn’t end there. Take Minecraft further with some of the projects below, or dive into the code mines and hammer your own!

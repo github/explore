@@ -1,5 +1,6 @@
 ---
 items:
+ - acekyd/made-in-nigeria
  - frontlinesms/frontlinesms2
  - ushahidi/SMSSync
  - praekeltfoundation/vumi
@@ -14,7 +15,14 @@ items:
  - gernest/utron
  - ushahidi/platform
  - Yorubaname/yorubaname-website
+ - codedivoire/made-in-ci
+ - beopencloud/cno
+ - javascriptdata/danfojs
+ - bangajs/banga-cli
+ - jembi/openhim-core-js
+ - Hexastack/eazychart
 display_name: Made in Africa
 created_by: mozzadrella
+image: made-in-africa.png
 ---
 Developers in Africa use open source technology to solve some of the world's most intractable problems and grow their business ecosystems. Here's a snapshot of local projects across the continent.

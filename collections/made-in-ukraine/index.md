@@ -1,0 +1,67 @@
+---
+items:
+ - trekhleb/javascript-algorithms
+ - mui/material-ui
+ - ansible/ansible
+ - Leaflet/Leaflet
+ - denysdovhan/wtfjs
+ - dimsemenov/PhotoSwipe
+ - trailofbits/algo
+ - trekhleb/homemade-machine-learning
+ - vadimdemedes/ink
+ - spaceship-prompt/spaceship-prompt
+ - aio-libs/aiohttp
+ - pnpm/pnpm
+ - paulmillr/chokidar
+ - trekhleb/learn-python
+ - brunch/brunch
+ - resilience4j/resilience4j
+ - eclipse-che/che
+ - dmytrodanylyk/circular-progress-button
+ - valor-software/ngx-bootstrap
+ - platformio/platformio-core
+ - denysdovhan/bash-handbook
+ - Codeception/Codeception
+ - mapbox/pixelmatch
+ - wasm3/wasm3
+ - codeceptjs/CodeceptJS
+ - paulmillr/es6-shim
+ - dmytrodanylyk/android-process-button
+ - glushchenko/fsnotes
+ - Tyrrrz/DiscordChatExporter
+ - mourner/suncalc
+ - leits/MeetingBar
+ - trekhleb/nano-neuron
+ - mourner/simplify-js
+ - dmytrodanylyk/shadow-layout
+ - mourner/rbush
+ - tailhook/vagga
+ - JSMonk/hegel
+ - Tyrrrz/YoutubeExplode
+ - dmytrodanylyk/folding-plugin
+ - mapbox/delaunator
+ - mapbox/flamebearer
+ - mourner/bullshit.js
+ - mapbox/earcut
+ - cherrypy/cherrypy
+ - mapbox/geojson-vt
+ - vadimdemedes/pastel
+ - mapbox/supercluster
+ - dmytrodanylyk/android-morphing-button
+ - komarserjio/notejam
+ - ttag-org/ttag
+ - vmagamedov/grpclib
+ - angrymouse/remote-functions
+ - react-bootstrap/react-bootstrap
+ - avajs/ava
+ - graphql/graphql-js
+ - Redocly/redoc
+ - retejs/rete
+ - javadev/underscore-java
+ - javadev/LeetCode-in-Java
+ - RedisInsight/RedisDesktopManager
+
+display_name: Made in Ukraine
+image: made-in-ukraine.png
+---
+Open source projects built in or receiving significant contributions from Ukraine :ukraine:

@@ -1,7 +1,8 @@
 ---
 items:
+ - solidjs/solid
  - marko-js/marko
- - mithriljs/mithril.js
+ - MithrilJS/mithril.js
  - angular/angular
  - emberjs/ember.js
  - knockout/knockout
@@ -10,16 +11,27 @@ items:
  - vuejs/vue
  - Polymer/polymer
  - facebook/react
- - matreshkajs/matreshka
+ - finom/seemple
  - aurelia/framework
  - optimizely/nuclear-js
  - jashkenas/backbone
  - dojo/dojo
  - jorgebucaran/hyperapp
  - riot/riot
- - daemonite/material
- - polymer/lit-element
+ - Daemonite/material
+ - lit/lit
  - aurelia/aurelia
+ - sveltejs/svelte
+ - neomjs/neo
+ - preactjs/preact
+ - ionic-team/stencil
+ - withastro/astro
+ - QwikDev/qwik
+ - vercel/next.js
+ - gatsbyjs/gatsby
+ - sveltejs/kit
+ - refinedev/refine
+
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
 ---

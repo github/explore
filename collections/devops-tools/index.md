@@ -3,7 +3,10 @@ items:
  - puppetlabs/puppet
  - chef/chef
  - ansible/ansible
+ - hashicorp/terraform
  - saltstack/salt
+ - apache/maven
+ - gradle/gradle
  - hashicorp/vagrant
  - openstack/openstack
  - moby/moby
@@ -11,6 +14,7 @@ items:
  - statsd/statsd
  - graphite-project/graphite-web
  - elastic/logstash
+ - prometheus/prometheus
  - fabric/fabric
  - grafana/grafana
  - StackStorm/st2
@@ -20,11 +24,24 @@ items:
  - kubernetes/kubernetes
  - netdata/netdata
  - cloud66-oss/habitus
+ - hashicorp/consul
+ - hashicorp/nomad
+ - spinnaker/spinnaker
  - Kong/kong
  - jenkinsci/jenkins
- - kubernetes/kubernetes
  - apache/mesos
  - SeleniumHQ/selenium
+ - opendiffy/diffy
+ - harness/gitness
+ - hashicorp/vault
+ - NagiosEnterprises/nagioscore
+ - zabbix/zabbix
+ - komodorio/helm-dashboard
+ - cloudquery/cloudquery
+ - devtron-labs/devtron
+ - livecycle/preevy 
+ - cloudposse/atmos
+ - axem-solutions/dem
  
 display_name: DevOps tools
 ---

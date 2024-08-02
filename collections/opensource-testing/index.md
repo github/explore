@@ -1,0 +1,68 @@
+---
+items:
+ - SeleniumHQ/selenium
+ - appium/appium
+ - microsoft/playwright
+ - cypress-io/cypress
+ - casperjs/casperjs
+ - webdriverio/webdriverio
+ - joelgriffith/navalia
+ - webcatalog/chromeless
+ - laurentj/slimerjs
+ - sdesalas/trifleJS
+ - karma-runner/karma
+ - eWert-Online/OSnap
+ - katalon-studio
+ - qawolf/qawolf
+ - basset/basset
+ - newsuk/AyeSpy
+ - RobotiumTech/robotium
+ - bbc/wraith
+ - watir/watir
+ - sikuli/sikuli
+ - garris/BackstopJS
+ - karatelabs/karate
+ - SmartBear/soapui
+ - teamcapybara/capybara
+ - prove/tarantula
+ - TestLinkOpenSourceTRMS/testlink-code
+ - windmill/windmill
+ - galenframework/galen
+ - MarathonLabs/marathon
+ - wiremock/wiremock
+ - grafana/k6
+ - DevExpress/testcafe
+ - creevey/creevey
+ - cburgmer/csscritic
+ - wearefriday/spectre
+ - shoov/shoov
+ - kdzwinel/Look-alike
+ - thingsinjars/Hardy
+ - python-needle/needle
+ - gabrielrotbart/gatling
+ - stefanjudis/grunt-photobox
+ - nathanmarks/vrtest
+ - reg-viz/reg-cli
+ - segment-boneyard/nightmare
+ - reg-viz/reg-suit
+ - xolvio/chimp
+ - NimaSoroush/differencify
+ - rsmbl/Resemble.js
+ - wttech/aet
+ - angrykoala/wendigo
+ - oblador/loki
+ - assaf/zombie
+ - bitovi/funcunit
+ - nightwatchjs/nightwatch
+ - angular/protractor
+ - Hapag-Lloyd/jest-puppeteer-react
+ - americanexpress/jest-image-snapshot
+ - selenide/selenide
+ - trytouca/trytouca
+ - HuddleEng/PhantomCSS
+ - keploy/keploy
+ - vividus-framework
+display_name: OpenSource Testing Frameworks & Tools
+created_by: msupernaut
+---
+Open source testing tools and frameworks to help testers/QA teams with automating and delivering high quality software.
