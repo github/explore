@@ -37,7 +37,7 @@ items:
  - helix-editor/helix
  - lapce/lapce
  - zed-industries/zed
- - kde/kate
+ - KDE/kate
 
 display_name: Text editors
 created_by: leereilly
