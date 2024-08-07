@@ -33,7 +33,7 @@ jobs:
       uses: actions/configure-pages@v5
 
     - name: 🔨 install dependencies & build site
-      uses: actions/jekyll-build-pages@v1.0.12
+      uses: actions/jekyll-build-pages@v1.0.13
       
     - name: ⚡️ upload artifact
       uses: actions/upload-pages-artifact@v3
