@@ -26,7 +26,6 @@ items:
   - ENG-CJ/Freelancing-WebApp
   - aaqyaar/sooyaal-app
   - aaqyaar/ijaar-platform
-  - XudayfiIbra/user-authetications
   - AbdullahiKhalif/iskuxire-web-app
   - MoDev40/quizera
   - aaqyaar/ogaalkoob-app
