@@ -4,6 +4,7 @@ items:
  - kube-green/kube-green
  - marmelab/greenframe-cli
  - ThijsRay/coppers
+ - invpe/GridShell
  
 display_name: Green Software
 created_by: tomthorogood
