@@ -19,7 +19,7 @@ items:
  - 4ian/GDevelop
  - mrdoob/three.js
  - phoboslab/Impact
- - Cloud9c/taro
+ - cloud9c/taro
  - replit/kaboom
  - straker/kontra
  - quinton-ashley/p5play
