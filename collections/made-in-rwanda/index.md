@@ -1,7 +1,7 @@
 ---
 items:
  - kin-lang/kin
- - veritem/eslint-plugin-vitest
+ - vitest-dev/eslint-plugin-vitest
  - veritem/gcommit
  - divinrkz/swaggiffy
  - pacifiquem/awesome-go
