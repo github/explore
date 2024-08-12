@@ -1,5 +1,5 @@
 ---
-aliases: pepeland, ppl
+aliases: ppl
 display_name: Pepeland
 logo: pepeland.png
 related: minecraft, minecraft-server
