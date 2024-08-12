@@ -1,7 +1,7 @@
 ---
 aliases: pepeland, ppl
 display_name: Pepeland
-logo: ppl.png
+logo: pepeland.png
 related: minecraft, minecraft-server
 github_url: https://github.com/pepelandnet
 short_description: Private Minecraft server.
