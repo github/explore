@@ -9,7 +9,7 @@ items:
  - mantinedev/mantine
  - radix-ui/website
  - sailboatui/sailboatui
- - merakiui/merakiui
+ - merakiuilabs/merakiui
  - saadeghi/daisyui
  - markmead/hyperui
  - tailwindlabs/headlessui
