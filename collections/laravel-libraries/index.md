@@ -5,7 +5,7 @@ items:
  - filamentphp/filament
  - bavix/laravel-wallet
  - mpociot/teamwork
- - hammerstonedev/fast-paginate
+ - aarondfrancis/fast-paginate
  - opcodesio/log-viewer
  - devtical/laravel-helpers
  - thephpleague/flysystem-aws-s3-v3
