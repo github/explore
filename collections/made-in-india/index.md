@@ -50,6 +50,7 @@ items:
  - abhimanyu003/sttr
  - juspay/hyperswitch
  - nammayatri/nammayatri
+ - darkdevil3610/portfolio
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
