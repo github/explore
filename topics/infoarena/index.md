@@ -1,6 +1,6 @@
 ---
 display_name: infoarena
-aliases: infoarena-ro, info-arena
+aliases: infoarena-ro, info-arena, info-arena-ro
 github_url: https://github.com/topics/infoarena
 logo: infoarena.png
 created_by: Cristian Strat, Mircea Pasoi, Silviu-Ionut Ganceanu, Dan-Leonard Crestez
