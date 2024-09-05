@@ -2,7 +2,7 @@
 created_by: Google
 display_name: WebRTC
 logo: webrtc.png
-related: webrtc, rtc, web-real-time-communication
+related: rtc, web-real-time-communication
 released: May 4, 2018
 short_description: With WebRTC, you can add real-time communication capabilities to your application that works on top of an open standard.
 topic: webrtc
