@@ -9,7 +9,6 @@ items:
  - mantinedev/mantine
  - radix-ui/website
  - sailboatui/sailboatui
- - merakiui/merakiui
  - saadeghi/daisyui
  - markmead/hyperui
  - tailwindlabs/headlessui
@@ -28,6 +27,7 @@ items:
  - rsuite/rsuite
  - Semantic-Org/Semantic-UI-React
  - creativetimofficial/material-tailwind
+ - merakiuilabs/merakiui
 
 ---
 
