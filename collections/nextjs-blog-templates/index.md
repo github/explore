@@ -4,7 +4,7 @@ items:
  - pycoder2000/blog
  - timlrx/tailwind-nextjs-starter-blog
  - wutali/nextjs-netlify-blog-template
- - leerob/leerob.io
+ - leerob/site
  - prismicio-community/nextjs-starter-prismic-blog
  - web3templates/stablo
  - Blazity/next-saas-starter
