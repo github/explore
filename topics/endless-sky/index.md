@@ -1,6 +1,6 @@
 ---
 display_name: Endless Sky
-logo: endless-sky-icon.png
+logo: endless-sky.png
 short_description: Space exploration, trading, and combat game.
 topic: endless-sky
 url: https://github.com/endless-sky/endless-sky
