@@ -50,6 +50,7 @@ items:
  - abhimanyu003/sttr
  - juspay/hyperswitch
  - nammayatri/nammayatri
+ - kubewall/kubewall
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
