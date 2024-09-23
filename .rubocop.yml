@@ -1,7 +1,7 @@
 require: rubocop-performance
 
 AllCops:
-  TargetRubyVersion: 2.7
+  TargetRubyVersion: 3.1
   Exclude:
     - '**/bin/**/*'
     - '**/db/**/*'
@@ -16,7 +16,7 @@ Metrics/BlockLength:
 
 Layout/LineLength:
   Max: 100
-  IgnoredPatterns: ['\A\s*#']
+  AllowedPatterns: ['\A\s*#']
 
 Naming/RescuedExceptionsVariableName:
   PreferredName: "error"

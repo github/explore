@@ -1,5 +1,4 @@
 ---
-aliases: site-reliability-engineering
 display_name: Chaos Engineering
 related: sre, testing
 short_description: The process of testing distributed computing systems to ensure that they can withstand unexpected disruptions.

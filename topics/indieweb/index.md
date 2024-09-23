@@ -9,5 +9,6 @@ short_description: The IndieWeb is a people-focused alternative to the "corporat
 topic: indieweb
 url: https://indieweb.org/
 wikipedia_url: https://en.wikipedia.org/wiki/IndieWeb
+related: microformats, webmention, decentralized-web, decentralized, decentralization
 ---
-The IndieWeb is a community of individual personal websites, connected by simple standards, based on the principles of owning your domain, using it as your primary identity, to publish on your own site (optionally syndicate elsewhere), and own your data.
+The **IndieWeb** is a community of individual personal websites, connected by simple standards, based on the principles of owning your domain, using it as your primary identity, to publish on your own site (optionally syndicate elsewhere), and own your data.

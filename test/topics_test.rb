@@ -258,9 +258,13 @@ describe "topics" do
           lines = File.readlines(path)
 
           refute lines.empty?
-          assert_equal "---\n", lines[0], "expected file to start with Jekyll front matter ---"
+          assert_includes ["---\n", "---\r", "---\r\n"], lines[0],
+                          "expected file to start with Jekyll front matter ---"
 
-          end_index = lines.slice(1..-1).index("---\n")
+          all_lines = lines.slice(1..-1)
+          end_index = all_lines.index("---\n") ||
+                      all_lines.index("---\r") ||
+                      all_lines.index("---\r\n")
           assert end_index, "expected Jekyll front matter to end with ---"
         end
       end
@@ -291,11 +295,35 @@ describe "topics" do
       it "has a valid short_description" do
         metadata = metadata_for(topics_dir, topic) || {}
 
-        if metadata["short_description"]
-          valid_range = 1...MAX_SHORT_DESCRIPTION_LENGTH
-          current_length = metadata["short_description"].length
+        if (short_description = metadata["short_description"])
+          valid_range = 1..MAX_SHORT_DESCRIPTION_LENGTH
+          current_length = short_description.length
           assert valid_range.cover?(current_length),
                  "must have a short_description no more than #{MAX_SHORT_DESCRIPTION_LENGTH} " \
+                 "characters (currently #{current_length})"
+        end
+      end
+
+      it "has a valid display_name" do
+        metadata = metadata_for(topics_dir, topic) || {}
+
+        if (display_name = metadata["display_name"])
+          valid_range = 1..MAX_DISPLAY_NAME_LENGTH
+          current_length = display_name.length
+          assert valid_range.cover?(current_length),
+                 "must have a display_name no more than #{MAX_DISPLAY_NAME_LENGTH} " \
+                 "characters (currently #{current_length})"
+        end
+      end
+
+      it "has a valid created_by" do
+        metadata = metadata_for(topics_dir, topic) || {}
+
+        if (created_by = metadata["created_by"])
+          valid_range = 1..MAX_CREATED_BY_LENGTH
+          current_length = created_by.length
+          assert valid_range.cover?(current_length),
+                 "must have a created_by no more than #{MAX_CREATED_BY_LENGTH} " \
                  "characters (currently #{current_length})"
         end
       end

@@ -1,2 +1,10 @@
 .DS_Store
+Gemfile.lock
 scripts/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+.bundle
+.idea

@@ -14,9 +14,13 @@ MAX_ALIAS_COUNT = 120
 
 MAX_RELATED_TOPIC_COUNT = 10
 
+MAX_DISPLAY_NAME_LENGTH = 50
+
 MAX_SHORT_DESCRIPTION_LENGTH = 130
 
-TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/.freeze
+MAX_CREATED_BY_LENGTH = 100
+
+TOPIC_REGEX = /\A[a-z0-9][a-z0-9-]*\Z/
 
 def invalid_topic_message(topic)
   "'#{topic}' must be between 1-#{MAX_TOPIC_LENGTH} characters, start with a letter or number, " \
@@ -38,8 +42,21 @@ def topics_dir
 end
 
 def topic_dirs
-  Dir["#{topics_dir}/*"].select do |entry|
+  topic_directories = dirs_to_test.split(" ").map do |file|
+    directory = file.split("/")[1]
+    [topics_dir, directory].join("/")
+  end
+
+  Dir[*topic_directories].select do |entry|
     entry != "." && entry != ".." && File.directory?(entry)
+  end
+end
+
+def dirs_to_test
+  if ENV.fetch("TEST_ALL_FILES", false)
+    "topics/*"
+  else
+    ENV.fetch("TOPIC_FILES", "topics/*")
   end
 end
 

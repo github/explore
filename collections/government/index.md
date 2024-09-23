@@ -22,8 +22,9 @@ items:
  - gchq/CyberChef
  - HSEIreland/covid-tracker-app
  - nic-delhi/AarogyaSetu_Android
- - govCMS/govCMS
+ - govCMS/GovCMS
  - coloradodigitalservice/exposure-notifications-metrics-public
+ - nasa/Transform-to-Open-Science
 display_name: Government apps
 created_by: jbjonesjr
 image: government.png

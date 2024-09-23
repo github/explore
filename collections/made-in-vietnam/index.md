@@ -9,7 +9,7 @@ items:
  - holistics/dbml
  - google/edward2
  - vncorenlp/VnCoreNLP
- - google/tink
+ - tink-crypto/tink
  - blei-lab/edward
  - ZuzooVn/machine-learning-for-software-engineers
  - chiphuyen/ml-interviews-book
@@ -21,15 +21,15 @@ items:
  - vanhuyz/CycleGAN-TensorFlow
  - TablePlus/TablePlus
  - khangich/machine-learning-interview
- - huytd/agar.io-clone
+ - owenashurst/agar.io-clone
  - opencardev/crankshaft
  - binhnguyennus/awesome-scalability
  - hoanhan101/ultimate-go
  - ProxymanApp/Proxyman
  - bangoc123/learn-machine-learning-in-two-months
- - phuoc-ng/csslayout
- - nguyenquangminh0711/ruby_jard
- - phuoc-ng/1loc
+ - phuocng/csslayout
+ - 0x2c7/ruby_jard
+ - phuocng/1loc
  - BambooEngine/ibus-bamboo
 display_name: Made in Vietnam
 created_by: duythanhvn

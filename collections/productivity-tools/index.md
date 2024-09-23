@@ -10,13 +10,39 @@ items:
  - rtyley/bfg-repo-cleaner
  - mhagger/git-imerge
  - eddiezane/lunchy
- - awaescher/repoz
+ - awaescher/RepoZ
  - sharkdp/fd
  - BurntSushi/ripgrep
- - stedolan/jq
+ - jqlang/jq
  - alacritty/alacritty
  - ajeetdsouza/zoxide
+ - Slackadays/Clipboard
+ - devtron-labs/devtron
+ - Maximus5/ConEmu
+ - wavetermdev/waveterm
+ - termux/termux-app
+ - zed-industries/zed
+ - lapce/lapce
+ - Syllo/nvtop
+ - rclone/rclone
+ - tldr-pages/tldr
+ - aria2/aria2
+ - Bash-it/bash-it
+ - iterative/dvc
+ - starship/starship
+ - gnunn1/tilix
+ - fabioz/mu-repo
+ - nvbn/thefuck
+ - sharkdp/bat
+ - dandavison/delta
+ - bootandy/dust
+ - eza-community/eza
+ - bensadeh/tailspin
+ - logdyhq/logdy-core
+ - ajayyy/SponsorBlock
+ - WofWca/jumpcutter
+ - mnfst/manifest
 display_name: Software productivity tools
 created_by: holman
 ---
-Build software faster with fewer headaches, using these tools and tricks
+Build software faster with fewer headaches, using these tools and tricks.

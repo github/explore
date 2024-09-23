@@ -5,8 +5,8 @@ items:
  - apigee/apib
  - apache/jmeter
  - bengadbois/pewpew
- - blazemeter/taurus
- - buoyantio/slow_cooker
+ - Blazemeter/taurus
+ - BuoyantIO/slow_cooker
  - codesenberg/bombardier
  - fcsonline/drill
  - flood-io/element
@@ -16,22 +16,22 @@ items:
  - GoogleChrome/lighthouse
  - hatoo/oha
  - lighttpd/weighttp
- - loadimpact/k6
- - loads/molotov
+ - grafana/k6
+ - tarekziade/molotov
  - locustio/locust
  - mcollina/autocannon
  - mhausenblas/kboom
  - pinterest/bender
  - rabbitmq/rabbitmq-perf-test
  - rakyll/hey
- - redislabs/memtier_benchmark
+ - RedisLabs/memtier_benchmark
  - rogerwelin/cassowary
  - satori-com/tcpkali
  - tsenart/vegeta
  - processone/tsung
  - wg/wrk
  - yandex/yandex-tank
- - zooz/predator
+ - Zooz/predator
 display_name: Load testing
 created_by: jucke
 image: load-testing.png

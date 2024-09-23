@@ -1,14 +1,15 @@
 ---
 items:
- - zerobias/effector
+ - effector/effector
  - mobxjs/mobx
  - reduxjs/redux
  - Yomguithereal/baobab
  - immerjs/immer
- - davidkpiano/xstate
+ - statelyai/xstate
  - cerebral/cerebral
  - storeon/storeon
  - artalar/reatom
+ - persevie/statemanjs
 display_name: JavaScript State Management Tools
 created_by: lestad
 ---

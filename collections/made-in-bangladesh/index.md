@@ -1,12 +1,12 @@
 ---
 items:
  - adar2378/pin_code_fields
- - agontuk/react-native-geolocation-service
+ - Agontuk/react-native-geolocation-service
  - alamkanak/Android-Week-View
- - appzcoder/crud-generator
- - appzcoder/laravel-admin
+ - sohelamin/crud-generator
+ - sohelamin/laravel-admin
  - halfo/lambda-mod-zsh-theme
- - lordAmit/Brightness
+ - LordAmit/Brightness
  - mmahmoodictbd/production-ready-microservices-starter
  - mugli/Avro-Keyboard
  - nahid/gohttp
@@ -28,6 +28,8 @@ items:
  - thesabbir/simple-line-icons
  - usmanhalalit/charisma
  - usmanhalalit/laracsv
+ - boss-net/license-checker
+ - bangladeshos/bangladeshos
 
 display_name: Made in Bangladesh
 created_by: kuttumiah

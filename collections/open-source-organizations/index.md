@@ -1,18 +1,16 @@
 ---
 items:
  - adobe/adobe.github.com
- - redhatofficial/redhatofficial.github.io
+ - RedHatOfficial/RedHatOfficial.github.io
  - cfpb/cfpb.github.io
  - Netflix/netflix.github.com
  - Esri/esri.github.io
  - square/square.github.io
- - twitter/twitter.github.io
- - gilt/code.gilt.com
+ - twitter/opensource-website
  - guardian/guardian.github.com
  - Yelp/yelp.github.io
- - Shopify/shopify.github.com
  - IBM/ibm.github.io
- - Microsoft/microsoft.github.io
+ - microsoft/microsoft.github.io
  - artsy/artsy.github.io
  - OSGeo/osgeo
  - godaddy/godaddy.github.io
@@ -26,10 +24,13 @@ items:
  - zalando/zalando.github.io
  - stripe/stripe.github.io
  - newrelic/opensource-website
- - docker/docker.github.io
+ - docker/docs
  - ExpediaGroup/expediagroup.github.io
- - wikimedia/wikimedia.github.io
  - fairfield-programming/fairfield-programming.github.io
+ - komodorio/helm-dashboard
+ - devtron-labs/devtron
+ - socialincome-san/public
+ - Aiven-Open
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png

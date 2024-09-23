@@ -1,7 +1,7 @@
 ---
 items:
  - fastify/fastify
- - immuni-app/immuni
+ - immuni-app/.github
  - italia/covid19-opendata-vaccini
  - middyjs/middy
  - nodejs/undici
@@ -12,11 +12,12 @@ items:
  - histolab/histolab
  - strawberry-graphql/strawberry
  - notable/notable
- - federico-terzi/espanso
+ - espanso/espanso
  - eciavatta/caronte
- - Schrodinger-Hat/ImageGoNord
+ - Schroedinger-Hat/ImageGoNord
  - stoplightio/prism
  - ercole-io/ercole
+ - Exifly/ApiVault
 display_name: Made in Italy
 created_by: thejoin95
 image: made-in-italy.png

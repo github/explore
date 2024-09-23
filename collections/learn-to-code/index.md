@@ -1,24 +1,24 @@
 ---
 items:
- - 30-seconds/30-seconds-of-code
- - railsgirls/railsgirls.github.io
+ - Chalarangelo/30-seconds-of-code
+ - railsgirls/guides.railsgirls.com
  - railsbridge/docs
  - freeCodeCamp/freeCodeCamp
  - leachim6/hello-world
  - datasciencemasters/go
- - tuvtran/project-based-learning
+ - practical-tutorials/project-based-learning
  - zhiwehu/Python-programming-exercises
  - MunGell/awesome-for-beginners
  - appacademy/welcome-to-open
- - webgems/webgems
+ - lostdesign/webgems
  - kamranahmedse/developer-roadmap
  - AMAI-GmbH/AI-Expert-Roadmap
  - trekhleb/javascript-algorithms
- - Microsoft/web-dev-for-beginners
+ - microsoft/Web-Dev-For-Beginners
  - karan/Projects
  - sindresorhus/awesome
  - donnemartin/system-design-primer
- - danistefanovic/build-your-own-x
+ - codecrafters-io/build-your-own-x
  - public-apis/public-apis
  - EbookFoundation/free-programming-books
  - amitness/learning
@@ -32,6 +32,12 @@ items:
  - ripienaar/free-for-dev
  - gothinkster/realworld
  - thedaviddias/Front-End-Checklist
+ - gustavofreze/kotlin4noobs
+ - hexlet-basics/hexlet-basics
+ - hexlet-codebattle/codebattle
+ - Hexlet/hexletguides.github.io
+ - aykutkardas/regexlearn.com
+ - olexale/flutter_roadmap
 
 display_name: Learn to Code
 created_by: alysonla

@@ -19,12 +19,12 @@ items:
  - gwding/draw_convnet
  - scikit-learn/scikit-learn
  - tensorflow/tensorflow
- - activeloopai/Hub
+ - activeloopai/deeplake
  - Theano/Theano
  - shogun-toolbox/shogun
  - davisking/dlib
  - apache/predictionio
- - deepmind/pysc2
+ - google-deepmind/pysc2
  - gokceneraslan/awesome-deepbio
  - buriburisuri/ByteNet
  - josephmisiti/awesome-machine-learning

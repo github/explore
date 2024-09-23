@@ -1,23 +1,24 @@
 ---
 items:
- - mirumee/saleor
+ - saleor/saleor
  - callstack
  - software-mansion/react-native-reanimated
  - jsfiddle
  - impress/impress.js
  - sindresorhus/got
  - mirumee/ariadne
- - chaps-io/public_activity
+ - public-activity/public_activity
  - YetiForceCompany/YetiForceCRM
  - razorjack/quicksand
  - handsontable/handsontable
  - oskarkrawczyk/heyoffline
- - sickill/git-dude
+ - ku1ik/git-dude
  - damian-kolakowski/iOS-Hierarchy-Viewer
- - sickill/bitpocket
+ - ku1ik/bitpocket
  - bernii/gauge.js
  - wuub/SublimeREPL
  - kamilkisiela/graphql-config
+ - invpe/GridShell
 
 display_name: Made in Poland
 created_by: Tymek

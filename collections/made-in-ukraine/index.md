@@ -1,13 +1,12 @@
 ---
 items:
  - trekhleb/javascript-algorithms
- - mui-org/material-ui
+ - mui/material-ui
  - ansible/ansible
  - Leaflet/Leaflet
  - denysdovhan/wtfjs
  - dimsemenov/PhotoSwipe
  - trailofbits/algo
- - uglide/RedisDesktopManager
  - trekhleb/homemade-machine-learning
  - vadimdemedes/ink
  - spaceship-prompt/spaceship-prompt
@@ -17,7 +16,7 @@ items:
  - trekhleb/learn-python
  - brunch/brunch
  - resilience4j/resilience4j
- - eclipse/che
+ - eclipse-che/che
  - dmytrodanylyk/circular-progress-button
  - valor-software/ngx-bootstrap
  - platformio/platformio-core
@@ -53,6 +52,14 @@ items:
  - ttag-org/ttag
  - vmagamedov/grpclib
  - angrymouse/remote-functions
+ - react-bootstrap/react-bootstrap
+ - avajs/ava
+ - graphql/graphql-js
+ - Redocly/redoc
+ - retejs/rete
+ - javadev/underscore-java
+ - javadev/LeetCode-in-Java
+ - RedisInsight/RedisDesktopManager
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png

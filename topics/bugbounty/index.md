@@ -1,6 +1,7 @@
 ---
+aliases: bug-bounty
 display_name: Bug Bounty
-related: bug-bounty,security,penetration-testing,pentesting,pentest
+related: security,penetration-testing,pentesting,pentest
 short_description: Deal by which individuals can receive recognition and compensation for reporting bugs.
 topic: bugbounty
 wikipedia_url: https://en.wikipedia.org/wiki/Bug_bounty_program

@@ -15,11 +15,11 @@ items:
  - atom/atom
  - LightTable/LightTable
  - zedapp/zed
- - Microsoft/vscode
+ - microsoft/vscode
  - zyedidia/micro
  - neoedmund/neoeedit
  - mawww/kakoune
- - JasonStein/Notepads
+ - 0x7c13/Notepads
  - onivim/oni2
  - VSCodium/vscodium
  - JetBrains/intellij-community
@@ -32,6 +32,12 @@ items:
  - vim/vim
  - Alexey-T/CudaText
  - orbitalquark/textadept
+ - apache/netbeans
+ - adsr/mle
+ - helix-editor/helix
+ - lapce/lapce
+ - zed-industries/zed
+ - KDE/kate
 
 display_name: Text editors
 created_by: leereilly
