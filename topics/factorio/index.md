@@ -1,6 +1,7 @@
 ---
 created_by: Wube Software
 display_name: Factorio
+logo: factorio.png
 github_url: https://github.com/wube
 short_description: Factorio is a game of building factories on an alien planet.
 released: August 14, 2020
