@@ -1,6 +1,6 @@
 ---
 aliases: chapel-lang
-created_by: Bradford Chamberlain
+created_by: Cray Inc.
 display_name: The Chapel Parallel Programming Language
 github_url: https://github.com/chapel-lang
 logo: chapel.png
