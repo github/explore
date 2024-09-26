@@ -47,7 +47,7 @@ items:
  - ec0lint/ec0lint
  - green-code-initiative/ecoCode
  - geopm/geopm
- - green-code-initiative/ecocode-mobile
+ - green-code-initiative/ecoCode-android
  - Accenture/EcoSonar
  - green-code-initiative/ecoCode-ios
  - GoogleCloudPlatform/region-carbon-info
