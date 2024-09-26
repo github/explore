@@ -1,7 +1,7 @@
 ---
 display_name: BZFlag
 logo: bzflag.png
-short_description: 3D multiplayer tank game created in 1992
+short_description: 3D multiplayer tank game created in 1992.
 topic: bzflag
 url: https://bzflag.org
 wikipedia_url: https://en.wikipedia.org/wiki/BZFlag
