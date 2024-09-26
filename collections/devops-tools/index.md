@@ -32,7 +32,7 @@ items:
  - apache/mesos
  - SeleniumHQ/selenium
  - opendiffy/diffy
- - harness/gitness
+ - harness/harness
  - hashicorp/vault
  - NagiosEnterprises/nagioscore
  - zabbix/zabbix
