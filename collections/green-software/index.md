@@ -43,7 +43,7 @@ items:
  - digital4better/carbonara
  - sosy-lab/cpu-energy-meter
  - Green-Software-Foundation/if
- - kerneltuner/kernel_tuner
+ - KernelTuner/kernel_tuner
  - ec0lint/ec0lint
  - green-code-initiative/ecoCode
  - geopm/geopm
