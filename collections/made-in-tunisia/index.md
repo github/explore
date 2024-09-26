@@ -5,6 +5,7 @@ items:
   - hamedbaatour/angularfire-lite
   - hamedbaatour/minimus
   - Dainerx/InputTounsi
+  - Hexastack/Hexabot
 display_name: Made in Tunisia
 created_by: heithemmoumni
 image: made-in-tunisia.png
