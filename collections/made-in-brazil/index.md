@@ -37,6 +37,7 @@ items:
   - bacen/pix-api
   - Abacatinhos/eventos-tech-brasil
   - vinteumorg/Floresta
+  - frontendbr/vagas
   
 display_name: Made in Brazil
 created_by: caarlos0
