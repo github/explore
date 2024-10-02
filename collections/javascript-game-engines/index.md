@@ -20,7 +20,7 @@ items:
  - mrdoob/three.js
  - phoboslab/Impact
  - cloud9c/taro
- - replit/kaboom
+ - kaplayjs/kaplay
  - straker/kontra
  - quinton-ashley/p5play
 display_name: JavaScript Game Engines
