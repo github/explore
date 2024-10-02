@@ -14,7 +14,7 @@ items:
  - notable/notable
  - espanso/espanso
  - eciavatta/caronte
- - Schroedinger-Hat/ImageGoNord
+ - Schroedinger-Hat/ImageGoNord-Web
  - stoplightio/prism
  - ercole-io/ercole
  - Exifly/ApiVault
