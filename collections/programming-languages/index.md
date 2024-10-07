@@ -67,6 +67,7 @@ items:
 - imba/imba
 - Jackojc/cane
 - cython/cython
+- wa-lang/wa
 display_name: Programming languages
 created_by: leereilly
 ---
