@@ -1,5 +1,5 @@
 ---
-aliases: algorithms
+aliases: linux-education, learn-linux
 display_name: Linux learning
 short_description: Projects designed to make learning Linux easier
 topic: linux-learning
