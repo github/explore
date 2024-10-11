@@ -3,7 +3,7 @@ display_name: Tweakpane
 github_url: https://github.com/cocopon/tweakpane
 logo: tweakpane.png
 related: gui
-short_description: 🎛️ Compact GUI library
+short_description: Compact GUI library.
 topic: tweakpane
 url: https://tweakpane.github.io/docs/
 ---
