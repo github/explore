@@ -1,12 +1,16 @@
+---
 version: 2
 updates:
-  - package-ecosystem: github-actions
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: daily
-      time: "10:00"
-      timezone: Europe/Vienna
-    pull-request-branch-name:
-      separator: "-"
+      interval: "daily"
+    commit-message:
+      prefix: "chore(deps)"
     open-pull-requests-limit: 99
-    rebase-strategy: disabled
+    groups:
+      dependencies:
+        applies-to: version-updates
+        update-types:
+          - "minor"
+          - "patch"
