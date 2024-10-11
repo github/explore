@@ -42,6 +42,7 @@ jobs:
   deploy:
     needs: build
     permissions:
+      pages: write
       id-token: write
 
     environment:
