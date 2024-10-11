@@ -8,35 +8,36 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-  
+
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
   build:
+    permissions:
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     steps:
-    - name: 📂 checkout
-      uses: actions/checkout@v4
+      - name: 📂 checkout
+        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4
 
-    - name: 💎 setup ruby
-      uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939 # v1.152.0
-      with:
-        bundler-cache: true
-        cache-version: 0
+      - name: 💎 setup ruby
+        uses: ruby/setup-ruby@250fcd6a742febb1123a77a841497ccaa8b9e939 # v1.152.0
+        with:
+          bundler-cache: true
+          cache-version: 0
 
-    - name: 📄 setup pages
-      id: pages
-      uses: actions/configure-pages@v5
+      - name: 📄 setup pages
+        id: pages
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
 
-    - name: 🔨 install dependencies & build site
-      uses: actions/jekyll-build-pages@v1.0.13
-      
-    - name: ⚡️ upload artifact
-      uses: actions/upload-pages-artifact@v3
+      - name: 🔨 install dependencies & build site
+        uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697 # v1.0.13
+
+      - name: ⚡️ upload artifact
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
 
   deploy:
     needs: build
@@ -49,4 +50,4 @@ jobs:
     steps:
       - name: 🚀 deploy
         id: deployment
-        uses: actions/deploy-pages@v4.0.5
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5
