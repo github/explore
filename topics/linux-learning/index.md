@@ -1,5 +1,5 @@
 ---
-aliases: linux-education, learn-linux
+aliases: linux-education, learn-linux, linux-tutorials, linux-guides, linux-knowledge
 display_name: Linux learning
 short_description: Projects designed to make learning Linux easier.
 topic: linux-learning
