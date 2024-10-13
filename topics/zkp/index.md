@@ -3,6 +3,8 @@ aliases: zkps, zkproof, zero-knowledge-proofs
 display_name: Zero-knowledge proof
 short_description: ZKP allows one party to prove a statement to another party without revealing any information about that statement.
 topic: zkp
+logo: zkp.png
+related: cryptography, zk
 wikipedia_url: https://en.wikipedia.org/wiki/Zero-knowledge_proof
 ---
 
