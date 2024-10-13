@@ -1,5 +1,5 @@
 ---
-aliases: hardware description language, HDL, verilog
+aliases: hdl, hardware-description-language
 display_name: Verilog
 short_description: Verilog is a hardware description language used to model electronic systems.
 topic: Verilog
