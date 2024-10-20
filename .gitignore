@@ -1,5 +1,4 @@
 .DS_Store
-Gemfile.lock
 scripts/
 _site
 .sass-cache
