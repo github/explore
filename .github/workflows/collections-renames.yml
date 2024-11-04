@@ -12,6 +12,7 @@ jobs:
   update:
     permissions:
       pull-requests: write
+      contents: write
     runs-on: ubuntu-latest
     if: github.repository_owner == 'github'
     steps:
