@@ -23,7 +23,7 @@ items:
  - MovingBlocks/Terasology
  - Zerite/CraftLib
  - PaperMC/Paper
- - CaffeineMC/sodium-fabric
+ - CaffeineMC/sodium
  - FabricMC/fabric
  - lambda-client/lambda/
  - nerdsinspace/nocom-explanation
