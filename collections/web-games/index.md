@@ -23,9 +23,9 @@ items:
  - mrbid/TempleDriver
  - mrbid/TuxPusherAF
  - mrbid/PAC-GAL
- - mrbid/tuxfishing
- - mrbid/tuxscape2
- - mrbid/catrooms
+ - mrbid/TuxFishing
+ - mrbid/TuxScape2
+ - mrbid/Catrooms
 display_name: Web games
 created_by: leereilly
 ---
