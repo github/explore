@@ -6,7 +6,6 @@ items:
  - maierfelix/poxi/
  - gmattie/Data-Pixels/
  - vsmode/pixel8
- - kitao/pyxel
  - jackschaedler/goya
  - cloudhead/rx
  - Orama-Interactive/Pixelorama
