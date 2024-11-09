@@ -4,7 +4,7 @@ created_by: Apple
 display_name: MLX
 logo: mlx.png
 released: December 13, 2023
-short_description: An array framework for Apple silicon
+short_description: An array framework for Apple silicon.
 topic: mlx
 url: https://ml-explore.github.io/mlx/
 ---
