@@ -9,7 +9,6 @@ items:
  - BuoyantIO/slow_cooker
  - codesenberg/bombardier
  - fcsonline/drill
- - flood-io/element
  - fortio/fortio
  - gatling/gatling
  - goadapp/goad
