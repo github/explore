@@ -7,7 +7,7 @@ items:
  - DioxusLabs/dioxus
  - EddieHubCommunity/BioDrop
  - FashionFreedom/Seamly2D
- - fastai/nbdev
+ - AnswerDotAI/nbdev
  - formbricks/formbricks
  - GyulyVGC/sniffnet
  - JessicaTegner/pypandoc
