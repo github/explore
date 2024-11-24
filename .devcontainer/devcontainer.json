@@ -1,5 +1,5 @@
-{
-  "name": "Jekyll website",
+
+  "name": "Jones Technology Foundation,
   "image": "mcr.microsoft.com/devcontainers/jekyll:latest",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
