@@ -5,7 +5,7 @@ logo: bluesky-social.png
 created_by: Jack Dorsey
 released: 2021
 short_description: Bluesky is a microblogging social networking service modeled after and inspired by Twitter.
-related: bluesky, atprotocol, atproto, bluesky-social, bluesky-api, bluesky-bot, bluesky-clients 
+related: bluesky, atprotocol, atproto, bluesky-api, bluesky-bot, bluesky-clients 
 topic: bluesky-social
 url: https://bsky.app
 wikipedia_url: https://en.wikipedia.org/wiki/Bluesky
