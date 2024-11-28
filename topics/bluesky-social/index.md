@@ -11,4 +11,4 @@ url: https://bsky.app
 wikipedia_url: https://en.wikipedia.org/wiki/Bluesky
 
 ---
-Bluesky is a microblogging social networking service modeled after and inspired by Twitter. Users can share text messages, images, and videos in short posts. The service is primarily operated by Bluesky Social, an American benefit corporation.
+Bluesky is a microblogging social networking service modeled after and inspired by Twitter. Users can share text messages, images, and videos in short posts.
