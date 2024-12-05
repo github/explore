@@ -5,7 +5,7 @@ display_name: Magisk
 github_url: https://github.com/topjohnwu/Magisk
 logo: magisk.png
 released: October 3 2016
-short_description: Magisk is a systemless root solution for Android, allowing modifications without altering system files and maintaining app compatibility.
+short_description: Magisk is a systemless root tool for Android, enabling modifications without altering system files or breaking app compatibility.
 topic: magisk
 url: https://topjohnwu.github.io/Magisk/
 wikipedia_url: https://en.m.wikipedia.org/wiki/Magisk_(software)
