@@ -1,0 +1,68 @@
+name: Ruby Gem
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    name: Build + Publish
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Ruby 2.6
+    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+    # change this to (see https://github.com/ruby/setup-ruby#versioning):
+    # uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
+      with:
+        ruby-version: 2.6.x
+
+    - name: Publish to GPR
+      run: |
+        mkdir -p $HOME/.gem
+        touch $HOME/.gem/credentials
+        chmod 0600 $HOME/.gem/credentials
+        printf -- "---\n:github: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
+        gem build *.gemspec
+        gem push --KEY github --host https://rubygems.pkg.github.com/${OWNER} *.gem
+      env:
+        GEM_HOST_API_KEY: "Bearer ${{secrets.GITHUB_TOKEN}}"
+        OWNER: ${{ github.repository_owner }}
+
+    - name: Publish to RubyGems
+      run: |
+        mkdir -p $HOME/.gem
+        touch $HOME/.gem/credentials
+        chmod 0600 $HOME/.gem/credentials
+        printf -- "---\n:rubygems_api_key: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
+        gem build *.gemspec
+        gem push *.gem
+      env:
+        GEM_HOST_API_KEY: "${{secrets.RUBYGEMS_AUTH_TOKEN}}"
+
+                    - name: Download a Build Artifact
+  uses: actions/download-artifact@v4.1.8
+  with:
+    # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
+    name: # optional
+    # Destination path. Supports basic tilde expansion. Defaults to $GITHUB_WORKSPACE
+    path: # optional
+    # A glob pattern matching the artifacts that should be downloaded. Ignored if name is specified.
+    pattern: # optional
+    # When multiple artifacts are matched, this changes the behavior of the destination directories. If true, the downloaded artifacts will be in the same directory specified by path. If false, the downloaded artifacts will be extracted into individual named directories within the specified path.
+    merge-multiple: # optional, default is false
+    # The GitHub token used to authenticate with the GitHub API. This is required when downloading artifacts from a different repository or from a different workflow run. If this is not specified, the action will attempt to download artifacts from the current repository and the current workflow run.
+    github-token: # optional
+    # The repository owner and the repository name joined together by "/". If github-token is specified, this is the repository that artifacts will be downloaded from.
+    repository: # optional, default is ${{ github.repository }}
+    # The id of the workflow run where the desired download artifact was uploaded from. If github-token is specified, this is the run that artifacts will be downloaded from.
+    run-id: # optional, default is ${{ github.run_id }}
+
+          
