@@ -45,9 +45,9 @@ items:
  - Green-Software-Foundation/if
  - KernelTuner/kernel_tuner
  - ec0lint/ec0lint
- - green-code-initiative/ecoCode
+ - green-code-initiative/creedengo-rules-specifications
  - geopm/geopm
- - green-code-initiative/ecoCode-android
+ - green-code-initiative/creedengo-rules-specifications-android
  - Accenture/EcoSonar
  - green-code-initiative/creedengo-ios
  - GoogleCloudPlatform/region-carbon-info
