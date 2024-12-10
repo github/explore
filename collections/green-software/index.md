@@ -49,7 +49,7 @@ items:
  - geopm/geopm
  - green-code-initiative/ecoCode-android
  - Accenture/EcoSonar
- - green-code-initiative/ecoCode-ios
+ - green-code-initiative/creedengo-ios
  - GoogleCloudPlatform/region-carbon-info
  - Azure/carbon-aware-keda-operator
  - thegreenwebfoundation/grid-intensity-go
