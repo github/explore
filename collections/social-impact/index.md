@@ -19,6 +19,8 @@ items:
     - civicdata/civicdata.github.io
     - karrot-dev/karrot-frontend
     - activist-org/activist
+    - braillerap/BrailleRap
+    
 display_name: Social Impact
 created_by: bescalante
 ---
