@@ -3,8 +3,6 @@ items:
   - sharafdin/yonode
   - sharafdin/markdown-master
   - duraanali/luuqad
-  - https://github.com/dugsiiyeinc/dhaqsoPay
-  - https://github.com/sharafdin/yocode
   - sharafdin/better-react-js-code-snippet-extension
   - hanad124/furqan-constructions
   - abdinasir-Tman/shaqo-sahal
@@ -36,6 +34,8 @@ items:
   - aaqyaar/chatting-web-app
   - MoDev40/expense-tracker
   - MoDev40/budget-management
+  - https://github.com/dugsiiyeinc/dhaqsoPay
+  - https://github.com/sharafdin/yocode
   
 display_name: Made in Somalia
 created_by: isasharafdin
