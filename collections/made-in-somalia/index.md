@@ -3,6 +3,8 @@ items:
   - sharafdin/yonode
   - sharafdin/markdown-master
   - duraanali/luuqad
+  - https://github.com/dugsiiyeinc/dhaqsoPay
+  - https://github.com/sharafdin/yocode
   - sharafdin/better-react-js-code-snippet-extension
   - hanad124/furqan-constructions
   - abdinasir-Tman/shaqo-sahal
