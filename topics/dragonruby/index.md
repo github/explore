@@ -9,5 +9,4 @@ short_description: A perfomant, cross-platform 2D game engine.
 topic: dragonruby
 url: https://dragonruby.org/
 ---
-DragonRuby is a perfomant, cross-platform 2D game engine that's indie-focused, productive and easy to use. It uses
-Ruby as a scripting language and targets desktop, mobile, web, and console platforms.
+DragonRuby is a perfomant, cross-platform 2D game engine that's indie-focused, productive and easy to use. It uses Ruby as a scripting language and targets desktop, mobile, web, and console platforms.
