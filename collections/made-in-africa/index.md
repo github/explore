@@ -22,6 +22,7 @@ items:
  - jembi/openhim-core-js
  - Hexastack/eazychart
  - Hexastack/Hexabot
+ - GalsenDev221/made.in.senegal
 display_name: Made in Africa
 created_by: mozzadrella
 image: made-in-africa.png
