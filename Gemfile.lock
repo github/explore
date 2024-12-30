@@ -274,7 +274,7 @@ GEM
       racc
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    pry (0.15.0)
+    pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (5.1.1)
