@@ -1,6 +1,6 @@
 ---
 display_name: GeoJSON
-short_description: GeoJSON is a JSON-based open standard file format for representation of geographical data
+short_description: GeoJSON is a JSON-based open standard file format for representation of geographical data.
 topic: geojson
 released: August 2016
 created_by: Geographic JSON working group
