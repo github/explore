@@ -2,7 +2,7 @@
 display_name: DateTime
 short_description: DateTime is the term used in programming when referring to date and time related topics.
 topic: datetime
-alias: date-time
+aliases: date-time
 related: date-formatting, daterange, timezones, intl, timestamp
 ---
 **DateTime** is the term used in programming when referring to **date** and **time** related topics, which is a complex field, including
