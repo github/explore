@@ -2,7 +2,6 @@
 display_name: PHP Data Objects (PDO)
 short_description: PDO is a database driver extension for PHP.
 topic: pdo
-language: php
 related: php, orm, sql, jdbc, odbc, dbal, odm, database
 url: https://www.php.net/manual/en/book.pdo.php
 ---
