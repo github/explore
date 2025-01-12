@@ -4,7 +4,6 @@ short_description: DateTime is the term used in programming when referring to da
 topic: datetime
 alias: date-time
 related: date-formatting, daterange, timezones, intl, timestamp
-wikipedia_url: https://en.wikipedia.org/wiki/OpenID#OpenID_Connect_(OIDC)
 ---
 **DateTime** is the term used in programming when referring to **date** and **time** related topics, which is a complex field, including
 * handling of [timezones](https://github.com/topics/timezones)
