@@ -287,7 +287,7 @@ GEM
     regexp_parser (2.10.0)
     rexml (3.3.9)
     rouge (3.30.0)
-    rubocop (1.69.2)
+    rubocop (1.70.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
