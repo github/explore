@@ -1,5 +1,5 @@
 ---
-aliases: mcu, microcontrollers
+aliases: mcu, microcontrollers, micro-controllers, micro-controller
 display_name: Microcontroller
 short_description: Microcontrollers are compact integrated circuits that control embedded systems.
 topic: microcontroller
