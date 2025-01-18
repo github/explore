@@ -19,7 +19,7 @@ items:
  - htmlstreamofficial/preline
  - shadcn-ui/ui
  - primefaces/primereact
- - nextui-org/nextui
+ - frontio-ai/heroui
  - chakra-ui/chakra-ui
  - primefaces/primeng
  - rewindui/rewindui
