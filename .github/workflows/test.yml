@@ -43,7 +43,7 @@ jobs:
 
       - name: Setup Ruby
         if: ${{ steps.topics.outputs.changed || steps.collections.outputs.changed || steps.all.outputs.changed }}
-        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4 # v1
+        uses: ruby/setup-ruby@28c4deda893d5a96a6b2d958c5b47fc18d65c9d3 # v1
         with:
           bundler-cache: true
 
