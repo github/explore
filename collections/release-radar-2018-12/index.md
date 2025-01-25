@@ -4,7 +4,7 @@ items:
  - pytorch/pytorch
  - https://nostalgic-css.github.io/NES.css/
  - vitessio/vitess
- - SpaceVim/SpaceVim
+ - wsdjeg/SpaceVim
  - briangonzalez/rgbaster.js
  - Kong/kong
  - https://flutter.dev/
