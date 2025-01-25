@@ -10,7 +10,7 @@ items:
  - Komodo/KomodoEdit
  - leo-editor/leo-editor
  - syl20bnr/spacemacs
- - SpaceVim/SpaceVim
+ - wsdjeg/SpaceVim
  - alm-tools/alm
  - atom/atom
  - LightTable/LightTable
