@@ -67,6 +67,11 @@ items:
 - imba/imba
 - Jackojc/cane
 - cython/cython
+- modular/mojo
+- odin-lang/Odin
+- apache/groovy
+- ValeLang/Vale
+- factor/factor
 display_name: Programming languages
 created_by: leereilly
 ---
