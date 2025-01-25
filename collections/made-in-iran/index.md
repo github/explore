@@ -20,7 +20,7 @@ items:
  - genyleap/Project-Template
  - HyperDbg/HyperDbg
  - GoFarsi/book
- - Doroudi/YummyAdmin
+ - doroudi/YummyAdmin
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
