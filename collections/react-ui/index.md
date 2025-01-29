@@ -9,7 +9,6 @@ items:
  - mantinedev/mantine
  - radix-ui/website
  - sailboatui/sailboatui
- - merakiui/merakiui
  - saadeghi/daisyui
  - markmead/hyperui
  - tailwindlabs/headlessui
@@ -20,13 +19,15 @@ items:
  - htmlstreamofficial/preline
  - shadcn-ui/ui
  - primefaces/primereact
- - nextui-org/nextui
+ - heroui-inc/heroui
  - chakra-ui/chakra-ui
  - primefaces/primeng
  - rewindui/rewindui
  - palantir/blueprint
  - rsuite/rsuite
  - Semantic-Org/Semantic-UI-React
+ - creativetimofficial/material-tailwind
+ - merakiuilabs/merakiui
 
 ---
 

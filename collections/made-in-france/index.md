@@ -17,6 +17,9 @@ items:
  - GitbookIO/gitbook
  - mui/material-ui
  - PrestaShop/PrestaShop
+ - rlibre/x4js
+ - QuivrHQ/quivr
+ - axone-protocol
 display_name: Made in France
 created_by: ferdi05
 image: made-in-france.png

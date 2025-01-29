@@ -6,7 +6,6 @@ items:
  - maierfelix/poxi/
  - gmattie/Data-Pixels/
  - vsmode/pixel8
- - kitao/pyxel
  - jackschaedler/goya
  - cloudhead/rx
  - Orama-Interactive/Pixelorama
@@ -15,7 +14,6 @@ items:
  - rgab1508/PixelCraft
  - PixiEditor/PixiEditor
  - Kully/pixel-paint
- - pulkomandy/grafx2/
  - pixa-pics/pixa-pics.github.io
 display_name: Pixel Art Tools
 created_by: leereilly

@@ -1,7 +1,7 @@
 ---
 created_by: Dan Abramov and Andrew Clark
 display_name: Redux
-github_url: https://github.com/reactjs/redux/
+github_url: https://github.com/reduxjs/redux
 logo: redux.png
 related: javascript, react
 released: June 2, 2015

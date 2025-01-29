@@ -21,7 +21,7 @@ items:
  - interpretml/interpret
  - mlrun/mlrun
  - microsoft/pai
- - allegroai/clearml
+ - clearml/clearml
  - iterative/dvc
  - determined-ai/determined
  - InfuseAI/primehub

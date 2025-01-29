@@ -5,7 +5,7 @@ items:
  - alexander-elgin/atomic-react-redux
  - fernandohenriques/chat-app
  - marcelorl/tastin-front
- - kumiko-haraguchi/live-jazz-tokyo
+ - kumilange/live-jazz-tokyo
  - JoshEvan/StockManagementSystem
  - yudwig/next-redux-todo
  - atomixinteractions/materialized

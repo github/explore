@@ -32,7 +32,7 @@ items:
  - apache/mesos
  - SeleniumHQ/selenium
  - opendiffy/diffy
- - harness/drone
+ - harness/harness
  - hashicorp/vault
  - NagiosEnterprises/nagioscore
  - zabbix/zabbix
@@ -40,6 +40,8 @@ items:
  - cloudquery/cloudquery
  - devtron-labs/devtron
  - livecycle/preevy 
+ - cloudposse/atmos
+ - axem-solutions/dem
  
 display_name: DevOps tools
 ---

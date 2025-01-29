@@ -10,6 +10,7 @@ items:
  - le-doux/bitsy
  - morgan3d/quadplay
  - emmachase/Riko4
+ - aduros/wasm4
 display_name: Fantasy Consoles
 created_by: leereilly
 ---

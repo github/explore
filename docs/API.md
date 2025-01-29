@@ -9,7 +9,7 @@ referring to the same subject matter as the topic. You should not list another t
 if the alias is a superset of your topic.
 
 For example, `api` makes sense in the `related` field for the `graphql` topic, but because many
-repositories tagged with `api` are _not_ be associated with `graphql`, `api` does not make sense
+repositories tagged with `api` are _not_ to be associated with `graphql`, `api` does not make sense
 in the `aliases` field for `graphql`.
 
 Each alias must be formatted like that topic's `topic` field (same as the URL slug). Acceptable formatting:

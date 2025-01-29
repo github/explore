@@ -34,12 +34,13 @@ items:
  - berzniz/github_pr_tree
  - N1ck/gifs-for-github
  - EnixCoda/Gitako
- - vladgolubev/quickreview-for-github
+ - vladholubiev/quickreview-for-github
  - matthizou/github-show-avatars
  - dderevjanik/github-vscode-icons
  - npmhub/npmhub
  - octobox/extension
  - hypertrons/hypertrons-crx
+ - NirmalScaria/le-git-graph
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---

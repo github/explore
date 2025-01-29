@@ -12,12 +12,13 @@ items:
  - razorjack/quicksand
  - handsontable/handsontable
  - oskarkrawczyk/heyoffline
- - sickill/git-dude
+ - ku1ik/git-dude
  - damian-kolakowski/iOS-Hierarchy-Viewer
- - sickill/bitpocket
+ - ku1ik/bitpocket
  - bernii/gauge.js
  - wuub/SublimeREPL
  - kamilkisiela/graphql-config
+ - invpe/GridShell
 
 display_name: Made in Poland
 created_by: Tymek

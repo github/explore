@@ -9,7 +9,7 @@ items:
  - holistics/dbml
  - google/edward2
  - vncorenlp/VnCoreNLP
- - google/tink
+ - tink-crypto/tink
  - blei-lab/edward
  - ZuzooVn/machine-learning-for-software-engineers
  - chiphuyen/ml-interviews-book
@@ -28,7 +28,7 @@ items:
  - ProxymanApp/Proxyman
  - bangoc123/learn-machine-learning-in-two-months
  - phuocng/csslayout
- - nguyenquangminh0711/ruby_jard
+ - 0x2c7/ruby_jard
  - phuocng/1loc
  - BambooEngine/ibus-bamboo
 display_name: Made in Vietnam

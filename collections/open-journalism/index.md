@@ -2,7 +2,6 @@
 items:
  - fivethirtyeight/data
  - datadesk/notebooks
- - nytimes/objective-c-style-guide
  - newsapps/beeswithmachineguns
  - voxmedia/meme
  - propublica/guides

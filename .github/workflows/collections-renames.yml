@@ -3,30 +3,36 @@ name: Check and update renamed/removed collection items
 on:
   workflow_dispatch:
   schedule:
-    - cron:  "0 * * * *" # every hour
+    - cron: "0 * * * *" # every hour
+
+permissions:
+  contents: read
 
 jobs:
   update:
+    permissions:
+      pull-requests: write
+      contents: write
     runs-on: ubuntu-latest
     if: github.repository_owner == 'github'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4.2.2
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@1287d2b408066abada82d5ad1c63652e758428d9 # v1.214.0
         with:
           bundler-cache: true
 
       - name: Test collection with autofix and commit changes
-        uses: technote-space/create-pr-action@v2
+        uses: technote-space/create-pr-action@91114507cf92349bec0a9a501c2edf1635427bc5 # v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AUTOCORRECT_RENAMED_REPOS: 1
         with:
           EXECUTE_COMMANDS: |
             bundle exec rake collections
-          COMMIT_MESSAGE: '✨ Autofixing renamed/removed collection items ✨'
-          COMMIT_NAME: 'GitHub Actions'
-          COMMIT_EMAIL: 'actions@github.com'
-          PR_BRANCH_NAME: 'update-collections-${PR_ID}'
-          PR_TITLE: '✨ Autofixing renamed/removed collection items ✨'
+          COMMIT_MESSAGE: "✨ Autofixing renamed/removed collection items ✨"
+          COMMIT_NAME: "GitHub Actions"
+          COMMIT_EMAIL: "actions@github.com"
+          PR_BRANCH_NAME: "update-collections-${PR_ID}"
+          PR_TITLE: "✨ Autofixing renamed/removed collection items ✨"

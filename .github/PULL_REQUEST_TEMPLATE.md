@@ -2,7 +2,7 @@
 ### Please confirm this pull request meets the following requirements:
 
 - [ ] I followed the contributing guidelines: <https://github.com/github/explore/blob/main/CONTRIBUTING.md>.
-- [ ] I am not the sole author or employee of a company who created the topic or collection I'm changing.
+- [ ] I am not the sole author or employee of a company who created either the topic I am modifying/adding or the collection entry I am modifying/adding.
 
 ### Which change are you proposing?
 
@@ -21,7 +21,7 @@ I'm suggesting these edits to an existing topic or collection:
 
 > Please replace this line with an explanation of why you think these changes should be made.
 
-<!-- ⚠️ ... or this section ⚠️ -->
+<!-- ⚠️ this section... ⚠️ -->
 ### Curating a new topic or collection
 
 - [ ] I've formatted my changes as a new folder directory, named for the topic or collection as it appears in the URL on GitHub (e.g. `https://github.com/topics/[NAME]` or `https://github.com/collections/[NAME]`)

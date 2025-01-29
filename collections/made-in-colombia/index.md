@@ -27,7 +27,7 @@ items:
   - esbanarango/Competitive-Programming
   - DiegoRBaquero/node-fb-messenger
   - erikagtierrez/multiple-media-picker
-  - tiangolo/fastapi
+  - fastapi/fastapi
   
 display_name: Made in Colombia
 created_by: andresayac
