@@ -2,7 +2,7 @@
 display_name: Yu-Gi-Oh!
 created_by: Kazuki Takahashi, Konami
 related: game, card-game
-short_description: Yu-Gi-Oh! is a collectible card game developed and published by Konami
+short_description: Yu-Gi-Oh! is a collectible card game developed and published by Konami.
 topic: yugioh
 aliases: yu-gi-oh
 url: https://www.yugioh-card.com/
