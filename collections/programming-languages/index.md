@@ -72,6 +72,7 @@ items:
 - apache/groovy
 - ValeLang/Vale
 - factor/factor
+- julelang/jule
 display_name: Programming languages
 created_by: leereilly
 ---
