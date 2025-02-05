@@ -23,19 +23,15 @@ jobs:
         with:
           bundler-cache: true
 
-      - name: Install dependencies
-        run: bundle install --with test
+      - name: Test collections and commit the changes
+        env:
+          AUTOCORRECT_RENAMED_REPOS: 1
+        run: bundle exec rake collections
 
       - name: Test collection with autofix and commit changes
-        uses: technote-space/create-pr-action@91114507cf92349bec0a9a501c2edf1635427bc5 # v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          AUTOCORRECT_RENAMED_REPOS: 1
+        uses: peter-evans/create-pull-request@v7
         with:
-          EXECUTE_COMMANDS: |
-            bundle exec rake collections
-          COMMIT_MESSAGE: "✨ Autofixing renamed/removed collection items ✨"
-          COMMIT_NAME: "GitHub Actions"
-          COMMIT_EMAIL: "actions@github.com"
-          PR_BRANCH_NAME: "update-collections-${PR_ID}"
-          PR_TITLE: "✨ Autofixing renamed/removed collection items ✨"
+          commit-message: "✨ Autofixing renamed/removed collection items ✨"
+          commiter: "github-actions[bot] <actions@github.com>"
+          branch: "update-collections-${PR_ID}"
+          title: "✨ Autofixing renamed/removed collection items ✨"
