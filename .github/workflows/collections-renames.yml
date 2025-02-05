@@ -26,12 +26,11 @@ jobs:
       - name: Test collections and commit the changes
         env:
           AUTOCORRECT_RENAMED_REPOS: 1
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bundle exec rake collections
 
       - name: Test collection with autofix and commit changes
         uses: peter-evans/create-pull-request@v7
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           commit-message: "✨ Autofixing renamed/removed collection items ✨"
           commiter: "github-actions[bot] <actions@github.com>"
