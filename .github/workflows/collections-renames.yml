@@ -23,16 +23,16 @@ jobs:
         with:
           bundler-cache: true
 
-      - name: Test collections and commit the changes
+      - name: Test collections and modify with changes
         env:
           AUTOCORRECT_RENAMED_REPOS: 1
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bundle exec rake collections
 
-      - name: Test collection with autofix and commit changes
+      - name: Commit changes and open PR
         uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "✨ Autofixing renamed/removed collection items ✨"
-          commiter: "github-actions[bot] <actions@github.com>"
+          committer: "github-actions[bot] <actions@github.com>"
           branch: "update-collections-${PR_ID}"
           title: "✨ Autofixing renamed/removed collection items ✨"
