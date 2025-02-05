@@ -23,6 +23,9 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Install dependencies
+        run: bundle install --with test
+
       - name: Test collection with autofix and commit changes
         uses: technote-space/create-pr-action@91114507cf92349bec0a9a501c2edf1635427bc5 # v2
         env:
