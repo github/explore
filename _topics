@@ -1,1 +1,132 @@
-topics
+ _**ERROR AND LOGGING**_
+
+// Enhanced error handling in proxy
+app.post('/proxy/gemini', async (req, res) => {
+  try {
+    // Request validation
+    if (!req.body) {
+      throw new Error('Request body is required');
+    }
+    
+    // Logging incoming requests
+    console.log('Incoming request:', {
+      timestamp: new Date().toISOString(),
+      body: req.body,
+      headers: req.headers
+    });
+    
+    const response = await axios({
+      // ... axios configuration
+    });
+    
+    // Logging successful responses
+    console.log('Successful response:', {
+      timestamp: new Date().toISOString(),
+      status: response.status,
+      data: response.data
+    });
+    
+    res.json(response.data);
+  } catch (error) {
+    // Detailed error logging
+    console.error('Proxy Error:', {
+      timestamp: new Date().toISOString(),
+      error: error.message,
+      stack: error.stack,
+      response: error.response?.data
+    });
+    
+    res.status(error.response?.status || 500).json({
+      error: error.message,
+      timestamp: new Date().toISOString(),
+      details: error.response?.data
+    });
+  }
+});
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.json({
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+    version: process.env.VERSION || '1.0.0'
+  });
+});
+
+// Basic metrics
+let requestCount = 0;
+let errorCount = 0;
+
+app.get('/metrics', (req, res) => {
+  res.json({
+    totalRequests: requestCount,
+    errorCount: errorCount,
+    uptime: process.uptime()
+  });
+});
+
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.json({
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+    version: process.env.VERSION || '1.0.0'
+  });
+});
+
+// Basic metrics
+let requestCount = 0;
+let errorCount = 0;
+
+app.get('/metrics', (req, res) => {
+  res.json({
+    totalRequests: requestCount,
+    errorCount: errorCount,
+    uptime: process.uptime()
+  });
+});
+// .env file
+GEMINI_API_KEY=your_gemini_api_key
+PROXY_API_KEY=your_proxy_api_key
+NODE_ENV=production
+PORT=8080
+// Production configuration
+if (process.env.NODE_ENV === 'production') {
+  // Enable compression
+  const compression = require('compression');
+  app.use(compression());
+  
+  // Set security headers
+  const helmet = require('helmet');
+  app.use(helmet());
+  
+  // Enable CORS with specific origin
+  app.use(cors({
+    origin: process.env.ALLOWED_ORIGIN,
+    methods: ['POST'],
+    allowedHeaders: ['Content-Type', 'x-api-key']
+  }));
+}// test.js
+const request = require('supertest');
+const app = require('./app');
+
+describe('Proxy Server', () => {
+  test('should proxy requests successfully', async () => {
+    const response = await request(app)
+      .post('/proxy/gemini')
+      .set('x-api-key', process.env.PROXY_API_KEY)
+      .send({
+        // test data
+      });
+    
+    expect(response.status).toBe(200);
+    expect(response.body).toBeDefined();
+  });
+  
+  test('should handle authentication', async () => {
+    const response = await request(app)
+      .post('/proxy/gemini')
+      .send({});
+    
+    expect(response.status).toBe(401);
+  });
+});
