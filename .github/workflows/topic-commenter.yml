@@ -32,9 +32,8 @@ jobs:
             for (const file of files) {
               if (file.filename.startsWith('topics/')) {
                 const parts = file.filename.split('/');
-                const fileName = parts[parts.length - 1];
-                const topic = fileName.split('.')[0]; // Remove any file extension
-                topics.push(topic);
+                const topicName = parts[parts.length - 2];
+                topics.push(topicName);
               }
             }
             
