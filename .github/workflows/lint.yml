@@ -9,7 +9,7 @@ on:
   merge_group:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   lint:
@@ -26,6 +26,7 @@ jobs:
         if: ${{ github.event_name != 'merge_group' }}
         uses: wearerequired/lint-action@548d8a7c4b04d3553d32ed5b6e91eb171e10e7bb # v2
         with:
+          auto_fix: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.owner.login == github.repository_owner }}
           rubocop: true
           rubocop_command_prefix: bundle exec
 
