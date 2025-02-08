@@ -14,6 +14,8 @@ items:
  - IVainqueur/auto-push
  - IVainqueur/package-mover
  - MuhireIghor/repo_initiator
+ - idee8/shipfree
+ - irere123/relaunch
   
 display_name: Made in Rwanda
 created_by: FADHILI-Josue
