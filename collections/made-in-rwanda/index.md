@@ -2,6 +2,7 @@
 items:
  - kin-lang/kin
  - vitest-dev/eslint-plugin-vitest
+ - idee8/shipfree
  - veritem/gcommit
  - divinrkz/swaggiffy
  - pacifiquem/awesome-go
