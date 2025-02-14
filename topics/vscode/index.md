@@ -1,4 +1,5 @@
 ---
+aliases: visual-studio-code
 display_name: Visual Studio Code  
 created_by: Microsoft  
 github_url: https://github.com/microsoft/vscode  
