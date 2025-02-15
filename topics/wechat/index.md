@@ -2,7 +2,7 @@
 display_name: WeChat  
 created_by: Tencent   
 released: January 21, 2011  
-short_description: WeChat is a multi-purpose messaging and social media app developed by Tencent, offering instant messaging, voice calls, video calls, and integrated services like mobile payments and mini-programs.  
+short_description: Messaging and social media app developed by Tencent, offering instant messaging, video calls, mobile payments and mini-programs.
 topic: wechat  
 aliases: weixin
 url: https://weixin.qq.com/  
