@@ -57,6 +57,7 @@ items:
  - o3de/o3de
  - luanti-org/luanti
  - defold/defold
+ - openfl/openfl
 display_name: Game Engines
 created_by: leereilly
 ---
