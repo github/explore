@@ -88,6 +88,8 @@ class NewOctokit < Octokit::Client
   rescue Octokit::TooManyRequests
     repos[:skip_requests] = true
     repos[item] = true
+  rescue Octokit::NotFound
+    repos[item] = nil
   end
 
   def user(item)

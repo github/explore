@@ -24,7 +24,7 @@ items:
  - sveltejs/svelte
  - neomjs/neo
  - preactjs/preact
- - ionic-team/stencil
+ - stenciljs/core
  - withastro/astro
  - QwikDev/qwik
  - vercel/next.js

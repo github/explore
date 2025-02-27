@@ -67,7 +67,7 @@ items:
 - imba/imba
 - Jackojc/cane
 - cython/cython
-- modular/mojo
+- modular/max
 - odin-lang/Odin
 - apache/groovy
 - ValeLang/Vale
