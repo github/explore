@@ -25,7 +25,6 @@ items:
  - rakyll/hey
  - RedisLabs/memtier_benchmark
  - rogerwelin/cassowary
- - satori-com/tcpkali
  - tsenart/vegeta
  - processone/tsung
  - wg/wrk
