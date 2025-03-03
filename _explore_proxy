@@ -1,0 +1,95 @@
+const express = require('express');
+const axios = require('axios');
+const cors = require('cors');
+
+const app = express();
+app.use(cors());
+app.use(express.json());
+
+// Proxy endpoint
+app.post('/proxy/gemini', async (req, res) => {
+  try {
+    const response = await axios({
+      method: 'POST',
+      url: 'https://api.gemini.com/v1/...',  // Gemini API endpoint
+      headers: {
+        'Authorization': `Bearer ${process.env.GEMINI_API_KEY}`,
+        'Content-Type': 'application/json',
+        // Add any additional required headers
+      },
+      data: req.body
+    });
+    
+    res.json(response.data);
+  } catch (error) {
+    console.error('Proxy Error:', error);
+    res.status(error.response?.status || 500).json({
+      error: error.message,
+      details: error.response?.data
+    });
+  }
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Proxy server running on port ${PORT}`);
+});# Dockerfile
+FROM node:16-slim
+
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+
+ENV PORT=8080
+EXPOSE 8080
+
+CMD ["node", "server.js"]
+# Deploy commands
+gcloud builds submit --tag gcr.io/YOUR_PROJECT/gemini-proxy
+gcloud run deploy gemini-proxy \
+  --image gcr.io/YOUR_PROJECT/gemini-proxy \
+  --platform managed \
+  --region us-central1 \
+  --allow-unauthenticated
+const functions = require('firebase-functions');
+const axios = require('axios');
+
+exports.geminiFunction = functions
+  .region('us-central1')
+  .https.onRequest(async (req, res) => {
+    try {
+      const proxyResponse = await axios({
+        method: 'POST',
+        url: 'https://your-proxy-url/proxy/gemini',
+        headers: {
+          'Content-Type': 'application/json',
+          // Add any necessary authentication headers
+        },
+        data: req.body
+      });
+      
+      res.json(proxyResponse.data);
+    } catch (error) {
+      console.error('Function Error:', error);
+      res.status(error.response?.status || 500).json({
+        error: error.message
+      });
+    }
+  });
+const rateLimit = require('express-rate-limit');
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100 // limit each IP to 100 requests per windowMs
+});
+
+app.use(limiter);
+const rateLimit = require('express-rate-limit');
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100 // limit each IP to 100 requests per windowMs
+});
+
+app.use(limiter);
