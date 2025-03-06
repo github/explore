@@ -1,6 +1,6 @@
 ---
 display_name: Computational Fluid Dynamics (CFD)
-short_description: Computational Fluid Dynamics (CFD) is a branch of fluid mechanics that uses numerical analysis and algorithms to solve and analyze problems involving fluid flows.
+short_description: Use numerical algorithms to solve and analyze problems involving fluid flows.
 topic: cfd 
 wikipedia_url: https://en.wikipedia.org/wiki/Computational_fluid_dynamics
 ---
