@@ -1,6 +1,7 @@
 ---
 items:
  - twbs/bootstrap
+ - argyleink/open-props
  - animate-css/animate.css
  - nathansmith/960-Grid-System
  - necolas/normalize.css
