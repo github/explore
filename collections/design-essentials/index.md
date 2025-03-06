@@ -21,6 +21,7 @@ items:
  - tabler/tabler-icons
  - saadeghi/daisyui
  - responsively-org/responsively-app
+ - argyleink/open-props
 display_name: Design essentials
 created_by: jonrohan
 ---
