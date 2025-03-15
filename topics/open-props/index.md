@@ -1,5 +1,5 @@
 ---
-aliases: open-props, openprops, open props
+aliases: openprops, open props
 created_by: Adam Argyle
 display_name: Open Props
 github_url: https://github.com/argyleink/open-props
@@ -19,5 +19,3 @@ items:
 It is compatible with tailwind and any frontend framework, is customizable, with predictable name conventions and provides a great and harmonious developer experience. Quite easy to integrate and incrementally adoptable, very much worth to check it out for quick prototyping and full fledge projects.
 
 Also features options to import it from CDN, NPM or CLI, works with CSS-In-JS, CSS modules, PostCSS-JIT-Props, can be loaded from JS, has a very thoughtful normalize script with options to light/dark theming, has VScode and Sublime autocomplete... 
-
-Have I mentioned that is very easy to learn and the docs are so amazing that you wish your site just could look like that? It can with Open Props. 😘
