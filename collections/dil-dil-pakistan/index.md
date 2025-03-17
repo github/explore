@@ -1,5 +1,6 @@
 ---
 items:
+ - streetwriters/notesnook
  - alisaifee/coredis
  - ziishaned/dumper.js
  - wajahatkarim3/EasyFlipView
