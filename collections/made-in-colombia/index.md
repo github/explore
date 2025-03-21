@@ -2,7 +2,6 @@
 items:
   - jofpin/trape
   - juliandavidmr/sails-inverse-model
-  - anboralabs/spatia-room
   - tomasr/viasfora
   - jofpin/brutto
   - jahirfiquitiva/Blueprint
@@ -29,6 +28,7 @@ items:
   - DiegoRBaquero/node-fb-messenger
   - erikagtierrez/multiple-media-picker
   - fastapi/fastapi
+  - anboralabs/spatia-room
   
 display_name: Made in Colombia
 created_by: andresayac
