@@ -2,6 +2,7 @@
 items:
   - jofpin/trape
   - juliandavidmr/sails-inverse-model
+  - anboralabs/spatia-room
   - tomasr/viasfora
   - jofpin/brutto
   - jahirfiquitiva/Blueprint
