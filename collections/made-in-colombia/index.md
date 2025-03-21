@@ -28,6 +28,7 @@ items:
   - DiegoRBaquero/node-fb-messenger
   - erikagtierrez/multiple-media-picker
   - fastapi/fastapi
+  - anboralabs/spatia-room
   
 display_name: Made in Colombia
 created_by: andresayac
