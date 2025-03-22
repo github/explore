@@ -10,7 +10,7 @@ items:
  - Bequen/GridEditor
  - honestabelink/stonevox3d
  - jval1972/DD_VOXEL
- - cubzh/cubzh
+ - bliporg/blip
  - nimadez/voxel-builder
  - matpow2/voxie
  - rubenwardy/NodeBoxEditor
