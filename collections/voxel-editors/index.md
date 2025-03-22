@@ -17,7 +17,6 @@ items:
  - zakorgy/voxel-editor
  - simlu/voxelshop
  - vengi-voxel/vengi
- - bliporg/blip
 
 display_name: Voxel Editors
 ---
