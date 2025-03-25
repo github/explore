@@ -15,11 +15,3 @@ related: tailwind, css-framework, css-layout, css-reset, responsive-design, medi
 It is compatible with tailwind and any frontend framework, is customizable, with predictable name conventions and provides a great and harmonious developer experience. Quite easy to integrate and incrementally adoptable, very much worth to check it out for quick prototyping and full fledge projects.
 
 Also features options to import it from CDN, NPM or CLI, works with CSS-In-JS, CSS modules, PostCSS-JIT-Props, can be loaded from JS, has a very thoughtful normalize script with options to light/dark theming, has VScode and Sublime autocomplete...
-
-**Overview**
-
-[//youtube-embed-unfurl//]: # (hW-itQMKyiU)
-
-**Watch it in action**
-
-[//youtube-embed-unfurl//]: # (9VXR_qRgROE)
