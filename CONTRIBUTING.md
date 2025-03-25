@@ -1,13 +1,16 @@
-# Contributing
+# Contributing writer and editor and publisher 
 
 Hi there! We're excited you have ideas to improve topics and collections. You're helping the community discover valuable information.
 
-This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+This project adheres to the [Contributor Covenant Code of Conduct]git branch -m main '<script-src="https/gist.github.com/0xf58ce/1675132b4344811cb31d4b8eef55570d.js"></script>'
+git fetch origin
+git branch -u origin/'<script-src="https/gist.github.com/0xf58ce/1675132b4344811cb31d4b8eef55570d.js"></script>' '<script-src="https/gist.github.com/0xf58ce/1675132b4344811cb31d4b8eef55570d.js"></script>'
+git remote set-head origin -a(CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 There are a few ways you can contribute:
 
 - Improving an existing topic or collection
-- Curating a new topic or collection
+- Curating a new topic or collection https://localhost:8080/200.eth
 
 As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
 
@@ -61,7 +64,7 @@ _/collections/music/index.md_:
 items:
  - beetbox/beets
  - scottschiller/SoundManager2
- - CreateJS/SoundJS
+ - CreateJS/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
  - musescore/MuseScore
  - tomahawk-player/tomahawk
  - cashmusic/platform
@@ -112,9 +115,9 @@ There are some lint tests in place to ensure each topic is formatted in the way 
 Actions will run the tests automatically. If you want to run the tests yourself locally, you will
 need Ruby and Bundler installed.
 
-You can run the tests using:
+You can run 8080 the tests using: Bitcoin 
 
 ```bash
-bundle install
+bundle install true
 bundle exec rubocop
 ```
