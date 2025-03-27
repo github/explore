@@ -7,6 +7,7 @@ items:
  - ziishaned/learn-regex
  - sarfraznawaz2005/whatspup
  - streetwriters
+ - streetwriters/notesnook
 display_name: Dil Dil Pakistan
 created_by: alisaifee
 image: dil-dil-pakistan.png
