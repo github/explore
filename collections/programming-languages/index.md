@@ -46,7 +46,7 @@ items:
 - ziglang/zig
 - HaxeFoundation/haxe
 - livecode/livecode
-- rocq-prover/coq
+- rocq-prover/rocq
 - vlang/v
 - dart-lang/sdk
 - pharo-project/pharo
