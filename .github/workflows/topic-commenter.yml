@@ -1,0 +1,75 @@
+name: Topic PR Commenter
+
+on:
+  pull_request:
+    paths:
+      - 'topics/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Comment on PR with topic info
+        uses: actions/github-script@v7
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          script: |
+            // Get the PR number from the event payload
+            const prNumber = context.payload.pull_request.number;
+            
+            // List the files changed in the PR
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+            });
+            
+            // Extract topics from any file changed in the "topics/" folder.
+            // Assumes the file name (e.g. "python.md") indicates the topic "python"
+            const topics = [];
+            for (const file of files) {
+              if (file.filename.startsWith('topics/')) {
+                const parts = file.filename.split('/');
+                const topicName = parts[parts.length - 2];
+                topics.push(topicName);
+              }
+            }
+            
+            if (topics.length === 0) {
+              console.log('No topics found in changed files.');
+              return;
+            }
+            
+            // Remove duplicate topic names (in case multiple files reference the same topic)
+            const uniqueTopics = [...new Set(topics)];
+            
+            // Prepare the body of the comment
+            let commentBody = '## Topic Information\n\n';
+            
+            for (const topic of uniqueTopics) {
+              // Query the GitHub Search API for repositories with the topic.
+              // Note: The Search API endpoint returns a JSON with a total_count field.
+              const searchResponse = await github.request('GET /search/repositories', {
+                q: `topic:${topic}`
+              });
+              const repoCount = searchResponse.data.total_count;
+              
+              // Append topic details to the comment body
+              commentBody += `### ${topic}\n`;
+              commentBody += `- [Topic Page](https://github.com/topics/${topic})\n`;
+              commentBody += `- Repositories: ${repoCount}\n\n`;
+            }
+            
+            // Post the comment on the PR
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: commentBody
+            });
