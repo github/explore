@@ -29,6 +29,7 @@ items:
  - shuding/nextra
  - twostraws/Ignite
  - JohnSundell/Publish
+ - fuma-nama/fumadocs
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
