@@ -259,27 +259,7 @@ GEM
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
     net-http (0.6.0)
-      user
-      main
-    nokogiri (1.18.3)
-      mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
-    nokogiri (1.18.3-aarch64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.3-aarch64-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.3-arm-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.3-arm-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.3-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.3-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.3-x86_64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.3-x86_64-linux-musl)
-    h3
+      uri
     nokogiri (1.18.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
@@ -298,7 +278,6 @@ GEM
     nokogiri (1.18.5-x86_64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.5-x86_64-linux-musl)
-user-bot dependabot/bundler/bundler-b697596809
       racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
