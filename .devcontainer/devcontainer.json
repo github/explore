@@ -1,3 +1,4 @@
+Gemfile
 {
   "name": "Jekyll website",
   "image": "mcr.microsoft.com/devcontainers/jekyll:latest",
@@ -17,3 +18,5 @@
   ],
   "postCreateCommand": "bundle exec jekyll serve --incremental"
 }
+
+{"ghcr.io/dotnet/aspire-devcontainer-feature/dotnetaspire:1": }
