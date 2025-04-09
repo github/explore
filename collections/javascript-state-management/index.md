@@ -8,7 +8,7 @@ items:
  - statelyai/xstate
  - cerebral/cerebral
  - storeon/storeon
- - artalar/reatom
+ - reatom/reatom
  - persevie/statemanjs
 display_name: JavaScript State Management Tools
 created_by: lestad
