@@ -6,7 +6,7 @@ github_url: https://github.com/oldes/Rebol3
 logo: rebol.png
 related: coding, language
 released: '1997'
-short_description: Rebol is a cross-platform data exchange language and a multi-paradigm dynamic programming language
+short_description: Rebol is a cross-platform data exchange language and a multi-paradigm dynamic programming language.
 topic: rebol
 wikipedia_url: https://en.wikipedia.org/wiki/Rebol
 ---
