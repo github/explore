@@ -73,6 +73,7 @@ items:
 - ValeLang/Vale
 - factor/factor
 - julelang/jule
+- Oldes/Rebol3
 display_name: Programming languages
 created_by: leereilly
 ---
