@@ -1,5 +1,6 @@
 ---
 items:
+  - arthrod/ptbr-sampler
   - clappr/clappr
   - devhubapp/devhub
   - dracula/dracula-theme
