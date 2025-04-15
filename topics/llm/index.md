@@ -1,13 +1,8 @@
 ---
-aliases: large-language-model
+aliases: large-language-model, llms
 display_name: Large Language Model
 logo: llm.png
-related: 
-  - machine-learning
-  - artificial-intelligence
-  - transformers
-  - natural-language-processing
-  - generative-ai
+related: machine-learning, artificial-intelligence, transformers, natural-language-processing, generative-ai
 short_description: Machine learning models trained on vast amounts of text data to understand and generate human-like language.
 topic: llm
 wikipedia_url: https://en.wikipedia.org/wiki/Large_language_model
