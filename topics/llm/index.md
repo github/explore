@@ -1,5 +1,5 @@
 ---
-aliases: large-language-model, language-model, llms
+aliases: large-language-model
 display_name: Large Language Model
 logo: llm.png
 related: 
