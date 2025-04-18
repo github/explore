@@ -1,5 +1,5 @@
 ---
-aliases: openprops, open props
+aliases: openprops
 created_by: Adam Argyle
 display_name: Open Props
 github_url: https://github.com/argyleink/open-props
