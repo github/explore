@@ -1,9 +1,12 @@
 name: Topic PR Commenter
 
+# this workflow is failing due to permissions problems
+# until we can fix it with a better bot, i'll preserve
+# the code but make it so it never matches a real path
 on:
   pull_request:
     paths:
-      - 'topics/**'
+      - 'ENOSUCHPATH'
 
 permissions:
   contents: read
