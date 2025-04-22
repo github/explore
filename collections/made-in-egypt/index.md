@@ -10,7 +10,6 @@ items:
   - RobustaStudio/Resala
   - swvl/express-versioned-route
   - Ahmed-Ali/JSONExport
-  - piscibus/notifly
   - gogearbox/gearbox
   - ahegazy/php-mvc-skeleton
   - aboul3la/Sublist3r
