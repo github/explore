@@ -17,7 +17,7 @@ items:
  - Schroedinger-Hat/ImageGoNord-Web
  - stoplightio/prism
  - ercole-io/ercole
- - Exifly/ApiVault
+ - Exastudioo/ApiVault
 display_name: Made in Italy
 created_by: thejoin95
 image: made-in-italy.png
