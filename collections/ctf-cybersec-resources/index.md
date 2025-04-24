@@ -13,7 +13,7 @@ items:
  - apsdehal/awesome-ctf
  - quasar/Quasar
  - AlisamTechnology/ATSCAN
- - bee-san/Ciphey
+ - Ciphey/Ciphey
  - juice-shop/juice-shop
  - pwndbg/pwndbg
  - yeyintminthuhtut/Awesome-Red-Teaming
