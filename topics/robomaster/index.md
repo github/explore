@@ -1,6 +1,5 @@
 ---
 display_name: RoboMaster
-logo: robomaster.png
 short_description: The RoboMaster University Series (RMU) is a platform for robotic competitions and academic exchange, specially designed for global technology enthusiasts.
 topic: robomaster
 url: https://www.robomaster.com/
