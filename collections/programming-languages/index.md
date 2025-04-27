@@ -65,7 +65,7 @@ items:
 - Gwion/Gwion
 - carbon-language/carbon-lang
 - imba/imba
-- Jackojc/cane
+- tarpit-collective/cane
 - cython/cython
 - modular/max
 - odin-lang/Odin
