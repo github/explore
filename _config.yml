@@ -1,5 +1,6 @@
 title: GitHub Explore Feed
 description: Feed for GitHub Topics and Collections.
+theme: minima
 
 repository: github/explore
 
