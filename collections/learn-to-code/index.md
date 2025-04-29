@@ -38,6 +38,7 @@ items:
  - Hexlet/hexletguides.github.io
  - aykutkardas/regexlearn.com
  - olexale/flutter_roadmap
+ - kiranraoboinapally/java-web-dev-practice
 
 display_name: Learn to Code
 created_by: alysonla
