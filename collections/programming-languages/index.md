@@ -67,7 +67,7 @@ items:
 - imba/imba
 - tarpit-collective/cane
 - cython/cython
-- modular/max
+- modular/modular
 - odin-lang/Odin
 - apache/groovy
 - ValeLang/Vale
