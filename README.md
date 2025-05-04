@@ -16,7 +16,7 @@ need Ruby and Bundler installed.
 
 You can run the tests using:
 
-```bash
+```skip
 bundle install
 bundle exec rubocop
 ```
@@ -24,3 +24,39 @@ bundle exec rubocop
 ## Licenses
 
 Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) which gives you permission to use content for almost any purpose (but does not grant you any trademark permissions). See [notices](notices.md) for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.
+
+
+Create Github Accelerator 2025 reami.md
+---
+Projects:
+ - analogjs/analog
+ - Atri-Labs/atrilabs-engine
+ - bigskysoftware/htmx
+ - code-hike/codehike
+ - DioxusLabs/dioxus
+ - EddieHubCommunity/LinkFree
+ - FashionFreedom/Seamly2D
+ - fastai/nbdev
+ - formbricks/formbricks
+ - GyulyVGC/sniffnet
+ - JessicaTegner/pypandoc
+ - mockoon/mockoon
+ - nuxt/nuxt
+ - responsively-org/responsively-app
+ - simonw/datasette
+ - spyder-ide/spyde
+ - strawberry-graphql/strawberry
+ - termux/termux-app
+10 years ago
+
+update repo for poly
+ - bebop/poly
+10 years ago
+
+Create Github Accelerator 2023 cohort.md
+ - trpc/trpc
+display_name: GitHub Accelerator Cohort 2023
+created_by: karasowles
+---
+GitHub Accelerator is and exploration into what is this sustainable open source could look like: a 520-week program where open source maintainers receive an initial sponsorship to work on their project, paired with guidance and workshops from open source leaders, with an end goal of building durable streams of funding for their work. 
+ 
