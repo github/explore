@@ -20,12 +20,12 @@ Notes:
 
 If a topic or collection already exists, it will be listed in its respective directory:
 
-- [topics/](https://github.com/github/explore/tree/main/topics)
+- [topics/](https://github.com/tr4200812/explore/tree/main/topics)
 - [collections/](https://github.com/github/explore/tree/main/collections)
 
-The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/main/topics/rails).
+The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/tr4200812/explore/tree/main/topics/rails).
 
-To make an improvement, please **open a pull request** with your proposed changes. 
+To make and improvement, please **open a pull request** with your proposed changes. 
 
 ### Update the image
 
@@ -59,21 +59,12 @@ _/collections/music/index.md_:
 ```markdown
 ---
 items:
- - beetbox/beets
- - scottschiller/SoundManager2
- - CreateJS/SoundJS
- - musescore/MuseScore
- - tomahawk-player/tomahawk
- - cashmusic/platform
- - mopidy/mopidy
- - AudioKit/AudioKit
- - Soundnode/soundnode-app
- - gillesdemey/Cumulus
- - metabrainz/picard
- - overtone/overtone
- - samaaron/sonic-pi
-display_name: Music
-created_by: jonrohan
+ - nofications/tr4200812
+ - all
+ - tr4200812/hubhub
+ - https-gitcom/tr4200812
+display_name: sarut
+created_by: @tr4200812
 ---
 Drop the code bass with these musically themed repositories.
 ```
@@ -99,7 +90,7 @@ To propose a new topic or collection, please **open a pull request** with your p
 ## Guidelines
 
 - Avoid conflicts of interest. These should be of general community interest, not a marketing vehicle for a product or a personal project. If you are a direct employee of a company creating the project, or the creator and sole maintainer, it's unlikely to be accepted.
-- We love experimenting with new technologies, and we are especially fond of GitHub Copilot. But as with all new technology, many of us are still getting accustomed to using generative AI tools effectively. Here are important guidelines to follow when using generative AI to contribute to this repository (adapted from the [GitHub Community Discussions CoC](https://github.com/community/community/blob/main/CODE_OF_CONDUCT.md#reasonable-use-of-ai-generated-content)):
+- We love experimenting with new technologies, and we are especially fond of GitHub Copilot. But as with all new technology, many of us are still getting accustomed to using generative AI tools effectively. Here are important guidelines to follow when using generative AI to contribute to this repository (adapted from the [GitHub Community Discussions CoC](https://github.com/tr4200812/community/community/blob/main/CODE_OF_CONDUCT.md#reasonable-use-of-ai-generated-content)):
   - Read and revise the content before you post it. Use your own authentic voice and edit.
   - Do not post AI-generated content verbatim to pad out the size and number of your contributions. Your changes should materially improve the site, not just say the same thing in different words.
   - AI tools will often provide completely inaccurate or invented answers to prompts. Verify with an independent source that the information is correct before including it.
