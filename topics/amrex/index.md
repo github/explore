@@ -3,7 +3,7 @@ display_name: AMReX
 github_url: https://github.com/AMReX-Codes/amrex/
 logo: amrex.png
 related: amr, adaptive-mesh-refinement, high-performance-computing, scientific-computing
-short_description: Block-structured AMR framework for high-performance computing
+short_description: Block-structured adaptive mesh refinement framework for high-performance computing.
 topic: amrex
 url: https://amrex-codes.github.io/amrex/
 ---
