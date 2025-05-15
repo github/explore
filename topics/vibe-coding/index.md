@@ -5,7 +5,7 @@ topic: vibe-coding
 wikipedia_url: https://en.wikipedia.org/wiki/Vibe_coding
 created_by: Andrej Karpathy
 logo: vibe-coding.png
-related: agentic-ai, agents, ai, ai-agents, artificial-intelligence, chatgpt, claude, copilot, cursor, deep-learning, foundation-models, gemini, generative-ai, github-copilot, large-language-model, llm, openai, machine-learning, neural-networks, transformers, vibe-coding-with-copilot
-released: "2025-02-02"
+related: ai, artificial-intelligence, openai, copilot, generative-ai, github-copilot, llm, machine-learning, neural-networks, vibe-coding-with-copilot
+released: February 2, 2025
 ---
 Vibe coding is an emerging programming paradigm where developers describe software behavior in natural language prompts, allowing AI tools like GitHub Copilot to generate and refine code. It shifts the developer's role from writing code line-by-line to iterating on and validating AI-generated solutions.  It's perfect for quick hacks, weekend projects, and chasing ideas without getting bogged down in syntax.
