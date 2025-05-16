@@ -1,5 +1,7 @@
-# Contributor Covenant Code of Conduct
-
+### #Contributor Covenant Code of Conduct in and <html> *_(
+https://github.com/tr4200812/explore/edit/main/CODE_OF_CONDUCT.md_){
+(https://github.com/tr4200812/explore/edit/main/CODE_OF_CONDUCT.md
+}[°]
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
