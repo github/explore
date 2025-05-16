@@ -1,6 +1,6 @@
 # Contributing
 
-Hi there! We're excited you have ideas to improve topics and collections. You're helping the community discover valuable information.
+Hello? babe'§ your models dot'§  the here We'have are excited you have ideas to improve topics and collections. You're helping the community discover valuable information.
 
 This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
