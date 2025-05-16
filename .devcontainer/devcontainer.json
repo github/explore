@@ -1,5 +1,5 @@
 {
-  "name": "Jekyll website",
+  "name": " op.europa.eu website",
   "image": "mcr.microsoft.com/devcontainers/jekyll:latest",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
@@ -11,9 +11,9 @@
   },
   "forwardPorts": [
     // Jekyll server
-    4000,
+    8080,
     // Live reload server
-    35729
+    8080
   ],
   "postCreateCommand": "bundle exec jekyll serve --incremental"
 }
