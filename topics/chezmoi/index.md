@@ -1,5 +1,4 @@
 ---
-aliases: chezmoi
 display_name: chezmoi
 logo: chezmoi.png
 topic: chezmoi
