@@ -3,8 +3,8 @@ items:
 - https://github.com/ClickHouse/ClickHouse
 - https://github.com/catboost/catboost
 - https://github.com/nginx
-- https://github.com/sergiomarotco/Network-segmentation-cheat-sheet
 - https://github.com/theKashey/awesome-made-by-russians
+- https://github.com/sergiomarotco/Network-segmentation-cheat-sheet
 
 display_name: Made in Russia
 created_by: toxblh
