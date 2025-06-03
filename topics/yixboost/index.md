@@ -1,7 +1,6 @@
 ---
-display_name: Yixboost NL
+display_name: Yixboost
 topic: yixboost
-aliases: yixboost-nl
 created_by: Jonasvanleeuwen19, Valdtaniem
 github_url: https://github.com/Yixboost
 logo: yixboost.png
