@@ -38,6 +38,7 @@ items:
  - Hexlet/hexletguides.github.io
  - aykutkardas/regexlearn.com
  - olexale/flutter_roadmap
+ - TheOdinProject/curriculum
 
 display_name: Learn to Code
 created_by: alysonla
