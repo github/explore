@@ -12,7 +12,7 @@ items:
  - saadeghi/daisyui
  - markmead/hyperui
  - tailwindlabs/headlessui
- - n6ai/flowrift
+ - sergejcodes/flowrift
  - Charlie85270/tail-kit
  - praveenjuge/myna/
  - TailGrids/tailwind-ui-components

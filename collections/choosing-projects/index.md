@@ -10,7 +10,7 @@ items:
  - Ileriayo/markdown-badges
  - mem0ai/mem0
  - Codecademy/docs
- - open-sauced/guestbook 
+ - Virtual-Coffee/guestbook 
  - firstcontributions/first-contributions
 display_name: How to choose (and contribute to) your first open source project
 created_by: kytrinyx
