@@ -38,6 +38,9 @@ items:
   - agenda-tech-brasil/agenda-tech-brasil
   - frontendbr/vagas
   - vinteumorg/Floresta
+  - lfnovo/esperanto
+  - lfnovo/content-core
+  - lfnovo/open-notebook
   
 display_name: Made in Brazil
 created_by: caarlos0
