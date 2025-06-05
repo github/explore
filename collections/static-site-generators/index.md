@@ -22,7 +22,7 @@ items:
  - umijs/umi
  - abelljs/abell
  - withastro/astro
- - tlienart/Franklin.jl
+ - JuliaDocs/Franklin.jl
  - getzola/zola
  - lumeland/lume
  - docsifyjs/docsify
