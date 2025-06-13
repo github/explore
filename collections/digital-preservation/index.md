@@ -38,7 +38,7 @@ items:
 
 display_name: Digital Preservation
 created_by: ross-spencer
-image: Bitmagasin_DigitalBevaring.png
+image: digital-preservation.png
 ---
 
 Trying to look after the long-term preservation of your digital files? Get
