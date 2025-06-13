@@ -45,6 +45,7 @@ items:
  - VishwaGauravIn/pretty-readme-badges
  - buttons/github-buttons
  - DenverCoder1/readme-typing-svg
+ - AhmedOsman101/commit-sage-cli
 display_name: Tools for Open Source
 created_by: mozzadrella
 image: tools-for-open-source.png
