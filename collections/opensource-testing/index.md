@@ -45,7 +45,7 @@ items:
  - reg-viz/reg-cli
  - segment-boneyard/nightmare
  - reg-viz/reg-suit
- - samhatoum/chimp
+ - SamHatoum/chimp
  - NimaSoroush/differencify
  - rsmbl/Resemble.js
  - wttech/aet
