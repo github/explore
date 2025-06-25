@@ -26,8 +26,7 @@ permalink: feed.json
         {% else %}
           "{{ site.url }}{{ collection.id | remove_first: "/index" }}/{{ collection.image }}",
         {% endif %}
-        "content_markdown": {{ collection.rendered_content | jsonify }},
-        "content_html": {{ collection.content | jsonify }}
+        "content": {{ collection.content | jsonify }}
       }{% unless forloop.last == true %},{% endunless %}
     {% endfor %}
   ],
@@ -43,7 +42,7 @@ permalink: feed.json
         "logo": {% if topic.logo == null %}
           null,
         {% else %}
-          "{{ site.url }}{{ topic.id | remove_first: "/index" }}/{{ topic.logo }}",
+          "https://github.com/github/explore/blob/main{{ topic.id | remove_first: "/index" }}/{{ topic.logo }}?raw=true",
         {% endif %}
         "released": {{ topic.released | jsonify }},
         "short_description": {{ topic.short_description | jsonify }},
@@ -59,8 +58,7 @@ permalink: feed.json
             "{{ alias }}"{% unless forloop.last == true %},{% endunless %}
           {% endfor %}
         ],
-        "content_markdown": {{ topic.rendered_content | jsonify }},
-        "content_html": {{ topic.content | jsonify }}
+        "content": {{ topic.content | jsonify }}
       }{% unless forloop.last == true %},{% endunless %}
     {% endfor %}
   ]
