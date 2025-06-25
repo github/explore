@@ -26,7 +26,8 @@ permalink: feed.json
         {% else %}
           "{{ site.url }}{{ collection.id | remove_first: "/index" }}/{{ collection.image }}",
         {% endif %}
-        "content": {{ collection.content | jsonify }}
+        "content_markdown": {{ collection.rendered_content | jsonify }},
+        "content_html": {{ collection.content | jsonify }}
       }{% unless forloop.last == true %},{% endunless %}
     {% endfor %}
   ],
@@ -58,7 +59,8 @@ permalink: feed.json
             "{{ alias }}"{% unless forloop.last == true %},{% endunless %}
           {% endfor %}
         ],
-        "content": {{ topic.content | jsonify }}
+        "content_markdown": {{ topic.rendered_content | jsonify }},
+        "content_html": {{ topic.content | jsonify }}
       }{% unless forloop.last == true %},{% endunless %}
     {% endfor %}
   ]
