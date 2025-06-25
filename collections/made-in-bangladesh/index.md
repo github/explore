@@ -9,6 +9,10 @@ items:
  - LordAmit/Brightness
  - mmahmoodictbd/production-ready-microservices-starter
  - mugli/Avro-Keyboard
+ - nazdridoy/bijoyLinux
+ - nazdridoy/kokoro-tts
+ - nazdridoy/nazhome
+ - nazdridoy/ngpt
  - nahid/gohttp
  - nahid/jsonq
  - nahid/talk
