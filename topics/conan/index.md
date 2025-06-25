@@ -4,7 +4,7 @@ display_name: Conan
 github_url: https://github.com/conan-io/conan
 url: https://conan.io/
 logo: conan.png
-related: package-manager,cpp,c,cplusplus,multi-platform,cmake
+related: package-manager, cpp, c, cplusplus, multi-platform, cmake
 aliases: conanio
 topic: conan
 released: December 1, 2015

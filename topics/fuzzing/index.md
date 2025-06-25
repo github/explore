@@ -1,5 +1,5 @@
 ---
-aliases: fuzz-testing, api-fuzzing, 
+aliases: fuzz-testing, api-fuzzing
 topic: fuzzing
 display_name: Fuzzing/Fuzz testing
 short_description: Fuzzing is a testing technique that evaluates the program's reaction to providing invalid, unexpected, or random data as inputs.

@@ -1,6 +1,6 @@
 ---
 aliases: mozilla-foundation
-related: chrome,safari,edge,opera,browser,gecko,firefox,firefox-extension
+related: chrome, safari, edge, opera, browser, gecko, firefox, firefox-extension
 created_by: Mozilla Foundation
 display_name: Mozilla
 github_url: https://github.com/mozilla/
