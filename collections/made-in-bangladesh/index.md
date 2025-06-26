@@ -9,7 +9,6 @@ items:
  - LordAmit/Brightness
  - mmahmoodictbd/production-ready-microservices-starter
  - mugli/Avro-Keyboard
- - nazdridoy/kokoro-tts
  - nahid/gohttp
  - nahid/jsonq
  - nahid/talk
@@ -31,6 +30,7 @@ items:
  - usmanhalalit/laracsv
  - boss-net/license-checker
  - bangladeshos/bangladeshos
+ - nazdridoy/kokoro-tts
 
 display_name: Made in Bangladesh
 created_by: kuttumiah
