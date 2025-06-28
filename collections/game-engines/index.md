@@ -1,6 +1,7 @@
 ---
 items:
  - godotengine/godot
+ - stride3d/stride
  - turbulenz/turbulenz_engine
  - TorqueGameEngines/Torque3D
  - TorqueGameEngines/Torque2D
