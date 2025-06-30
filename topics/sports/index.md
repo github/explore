@@ -2,7 +2,7 @@
 display_name: Sports
 topic: sports
 aliases: sport
-short_description: Any physical activity or a game featuring skills or fitness
+short_description: Any physical activity or a game featuring skills or fitness.
 related: cycling, soccer, football, badminton, volleyball, triathlon, fitness, yoga, running, swimming, tennis, basketball, handball, rowing, bodybuilding, rugby, hockey, wellbeing, health, olympics, paralympics, garmin, wahoo, strava, smartwatch
 wikipedia_url: https://en.wikipedia.org/wiki/Sport
 ---
