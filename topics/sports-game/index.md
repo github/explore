@@ -1,7 +1,7 @@
 ---
 display_name: sports-game
 topic: sports-game
-related: sports
+related: sports, video-games, games
 short_description: A genre of video game.
 wikipedia_url: https://en.wikipedia.org/wiki/Sports_game
 ---
