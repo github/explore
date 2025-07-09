@@ -3,7 +3,7 @@ aliases: github-game-off, githubgameoff, gameoff, ggo12, ggo13, ggo14, ggo15, gg
 related: global-game-jam, ludum-dare, js13kgames
 display_name: Game Off
 created_by: Lee Reilly
-display_name: For the Love of Code
+display_name: Game Off
 released: October 25, 2012
 short_description: Game Off is an annual game jam celebrating open source.
 topic: game-off
