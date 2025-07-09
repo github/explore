@@ -22,7 +22,3 @@ end
 group :development do
   gem "webrick"
 end
-
-group :development do
-  gem "webrick"
-end
