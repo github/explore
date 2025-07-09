@@ -2,7 +2,7 @@
 aliases: for-the-love-of-code, ftloc
 created_by: Lee Reilly
 display_name: For the Love of Code
-released: July 4, 2025
+released: July 11, 2025
 short_description: 
 topic: fortheloveofcode
 related: gameoff
