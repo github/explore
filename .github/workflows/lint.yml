@@ -1,12 +1,13 @@
 name: Lint
 
 on:
-  pull_request:
+  pull_request_target:
   workflow_dispatch:
   merge_group:
 
 permissions:
   contents: write
+  checks: write
 
 jobs:
   lint:
@@ -21,7 +22,7 @@ jobs:
 
       - name: Run linters
         uses: wearerequired/lint-action@548d8a7c4b04d3553d32ed5b6e91eb171e10e7bb # v2
-        if: ${{ github.event_name == 'pull_request' }}
+        if: ${{ github.event_name == 'pull_request_target' }}
         with:
           auto_fix: true
           rubocop: true
