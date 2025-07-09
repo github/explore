@@ -6,8 +6,7 @@ released: July 4, 2025
 short_description: 
 topic: fortheloveofcode
 related: gameoff
+url: http://gh.io/ftloc
+logo: for-the-love-of-code.png
 ---
 For The Love of Code is a global, summer hackathon that celebrates the playful, creative, and downright ridiculous side of software development. From talking toasters to terminal karaoke, this event invites developers to build the projects they've always dreamed about, but never had an excuse to ship. Just for the joy of it. No startups, no pressure... just vibes, creativity, and code.
-
-
-
