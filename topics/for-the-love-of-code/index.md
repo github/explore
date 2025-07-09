@@ -1,10 +1,10 @@
 ---
-aliases: for-the-love-of-code, ftloc
+aliases: fortheloveofcode, ftloc
 created_by: Lee Reilly
 display_name: For the Love of Code
 released: July 11, 2025
 short_description: "A global, summer hackathon that celebrates the playful, creative, and downright silly side of software development."
-topic: fortheloveofcode
+topic: for-the-love-of-code
 related: gameoff
 url: http://gh.io/ftloc
 logo: for-the-love-of-code.png
