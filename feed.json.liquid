@@ -42,7 +42,7 @@ permalink: feed.json
         "logo": {% if topic.logo == null %}
           null,
         {% else %}
-          "{{ site.url }}{{ topic.id | remove_first: "/index" }}/{{ topic.logo }}",
+          "https://github.com/github/explore/blob/main{{ topic.id | remove_first: "/index" }}/{{ topic.logo }}?raw=true",
         {% endif %}
         "released": {{ topic.released | jsonify }},
         "short_description": {{ topic.short_description | jsonify }},
