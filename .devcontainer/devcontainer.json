@@ -1,19 +1,19 @@
 {
   "name": "Jekyll website",
-  "image": "mcr.microsoft.com/devcontainers/jekyll:latest",
+  "image": "null",
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "22"
+    "null": {
+      "version": "null"
     },
-    "ghcr.io/devcontainers/features/ruby:1": {
-      "version": "3.3.5"
+    "null:null": {
+      "null": "null"
     }
   },
   "forwardPorts": [
-    // Jekyll server
-    4000,
-    // Live reload server
-    35729
+    // null
+    null,
+    // null
+    null
   ],
-  "postCreateCommand": "bundle exec jekyll serve --incremental"
+  "null": "null"
 }
