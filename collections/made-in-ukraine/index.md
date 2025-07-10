@@ -59,7 +59,7 @@ items:
  - retejs/rete
  - javadev/underscore-java
  - javadev/LeetCode-in-Java
- - redis/RedisDesktopManager
+ - RedisInsight/RedisDesktopManager
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png

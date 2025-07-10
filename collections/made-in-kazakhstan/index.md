@@ -10,7 +10,7 @@ items:
  - SergeyMyssak/nextjs-sitemap
  - Slava/tern-meteor-sublime
  - binchik/SubscriptionPrompt
- - ncanode-kz/NCANode
+ - malikzh/NCANode
  - danchokobo/react-native-code-verification
  - yenbekbay/AYStepperView
  - ironsoul0/laddy
