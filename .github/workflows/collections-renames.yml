@@ -6,7 +6,7 @@ on:
     - cron: "0 * * * *" # every hour
 
 permissions:
-  contents: read
+  contents:
 
 jobs:
   update:
@@ -14,9 +14,9 @@ jobs:
       pull-requests: write
       contents: write
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'github'
+    if: 'github'
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses:
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@a4effe49ee8ee5b8b5091268c473a4628afb5651 # v1.245.0
