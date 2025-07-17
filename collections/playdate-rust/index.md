@@ -1,6 +1,5 @@
 ---
 items:
- - https://sdk.play.date/Inside%20Playdate%20with%20C.html
  - pd-rs/crankstart
  - boozook/playdate
  - adamsoutar/playboy
