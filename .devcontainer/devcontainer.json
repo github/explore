@@ -1,4 +1,6 @@
-{
+    4000,
+    // Live reload server
+    35729{
   "name": "Jekyll website",
   "image": "mcr.microsoft.com/devcontainers/jekyll:latest",
   "features": {
