@@ -29,7 +29,7 @@ def analyze_email(email_text):
     # Generic greeting
     generic_greetings = ["dear customer", "dear user", "sir/madam"]
     for greeting in generic_greetings:
-        if email_text.lower().startswith(greeting):
+        if greeting in email_text.lower():
             scam_indicators["generic_greeting"] = 1
             break
 
