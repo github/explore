@@ -12,9 +12,9 @@
     </style>
 </head>
 <body>
-    <h1>Analysis Result</h1>
+    <h1>{{ analysis_type }} Analysis Result</h1>
     <div class="result {{ 'scam' if is_scam else 'legit' }}">
-        <h2>{{ 'This email is likely a scam!' if is_scam else 'This email seems legitimate.' }}</h2>
+        <h2>{{ 'This ' + analysis_type.lower() + ' is likely a scam!' if is_scam else 'This ' + analysis_type.lower() + ' seems legitimate.' }}</h2>
         <ul>
             {% for indicator, value in analysis.items() %}
                 {% if indicator != 'domain_analysis' %}
@@ -32,6 +32,6 @@
         {% endif %}
     </div>
     <br>
-    <a href="/">Analyze another email</a>
+    <a href="/">Analyze another message or email</a>
 </body>
 </html>

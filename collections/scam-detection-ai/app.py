@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from email_analyzer import analyze_email
 from email_fetcher import fetch_emails
+from message_analyzer import analyze_message
 
 app = Flask(__name__)
 
@@ -15,7 +16,14 @@ def analyze():
         analysis = analyze_email(email_text)
         total_score = sum(analysis.values())
         is_scam = total_score >= 3
-        return render_template('result.html', analysis=analysis, is_scam=is_scam)
+        return render_template('result.html', analysis=analysis, is_scam=is_scam, analysis_type='Email')
+
+    elif 'message_text' in request.form:
+        message_text = request.form['message_text']
+        analysis = analyze_message(message_text)
+        total_score = sum(analysis.values())
+        is_scam = total_score >= 2
+        return render_template('result.html', analysis=analysis, is_scam=is_scam, analysis_type='Message')
 
     elif 'fetch_emails' in request.form:
         username = request.form['username']
