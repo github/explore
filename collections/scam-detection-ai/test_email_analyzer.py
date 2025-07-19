@@ -20,6 +20,7 @@ class TestEmailAnalyzer(unittest.TestCase):
         self.assertEqual(analysis['generic_greeting'], 1)
         self.assertEqual(analysis['suspicious_links'], 1)
         self.assertEqual(analysis['payment_requests'], 1)
+        self.assertEqual(analysis['domain_analysis']['fake-prize.com'], 'Malicious')
 
     def test_legitimate_email(self):
         legitimate_email = """

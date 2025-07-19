@@ -1,5 +1,17 @@
 import re
 
+import requests
+
+def get_domain_reputation(domain):
+    """
+    Checks the reputation of a domain using a mock API.
+    In a real application, this would integrate with a service like VirusTotal.
+    """
+    # This is a mock response.
+    if "fake" in domain or "suspicious" in domain:
+        return "Malicious"
+    return "Clean"
+
 def analyze_email(email_text):
     """
     Analyzes an email for potential scam indicators.
@@ -16,7 +28,8 @@ def analyze_email(email_text):
         "suspicious_links": 0,
         "unusual_sender": 0,
         "payment_requests": 0,
-        "attachments": 0
+        "attachments": 0,
+        "domain_analysis": {}
     }
 
     # Urgency keywords
@@ -53,6 +66,14 @@ def analyze_email(email_text):
     # Attachments
     if "Content-Disposition: attachment" in email_text:
         scam_indicators["attachments"] = 1
+
+    # Domain analysis
+    urls = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', email_text)
+    domains = [re.search(r'//(.*?)/', url).group(1) for url in urls if re.search(r'//(.*?)/', url)]
+
+    for domain in domains:
+        reputation = get_domain_reputation(domain)
+        scam_indicators["domain_analysis"][domain] = reputation
 
     return scam_indicators
 

@@ -21,9 +21,19 @@
                 <h4>{{ 'This email is likely a scam!' if email.is_scam else 'This email seems legitimate.' }}</h4>
                 <ul>
                     {% for indicator, value in email.analysis.items() %}
-                        <li>{{ indicator.replace('_', ' ')|title }}: {{ 'Detected' if value else 'Not Detected' }}</li>
+                        {% if indicator != 'domain_analysis' %}
+                            <li>{{ indicator.replace('_', ' ')|title }}: {{ 'Detected' if value else 'Not Detected' }}</li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
+                {% if email.analysis.domain_analysis %}
+                    <h4>Domain Analysis</h4>
+                    <ul>
+                        {% for domain, status in email.analysis.domain_analysis.items() %}
+                            <li>{{ domain }}: {{ status }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
             </div>
         {% endfor %}
     {% else %}
