@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetched Email Analysis</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        .email { border: 1px solid #ccc; padding: 1em; margin-bottom: 1em; }
+        .scam { background-color: #ffdddd; }
+        .legit { background-color: #ddffdd; }
+    </style>
+</head>
+<body>
+    <h1>Fetched Email Analysis</h1>
+    {% if emails %}
+        {% for email in emails %}
+            <div class="email {{ 'scam' if email.is_scam else 'legit' }}">
+                <h3>Subject: {{ email.subject }}</h3>
+                <p>From: {{ email.from }}</p>
+                <h4>{{ 'This email is likely a scam!' if email.is_scam else 'This email seems legitimate.' }}</h4>
+                <ul>
+                    {% for indicator, value in email.analysis.items() %}
+                        <li>{{ indicator.replace('_', ' ')|title }}: {{ 'Detected' if value else 'Not Detected' }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Could not fetch or analyze emails. Please check your credentials and try again.</p>
+    {% endif %}
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>

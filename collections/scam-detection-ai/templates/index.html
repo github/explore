@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scam Detection AI</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        .container { max-width: 800px; margin: auto; }
+        textarea { width: 100%; height: 200px; }
+        .credentials { margin-top: 2em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Scam Detection AI</h1>
+
+        <h2>Analyze Email Text</h2>
+        <form action="/analyze" method="post">
+            <textarea name="email_text" placeholder="Paste email text here..."></textarea>
+            <br><br>
+            <input type="submit" value="Analyze">
+        </form>
+
+        <div class="credentials">
+            <h2>Fetch and Analyze Emails from Your Inbox</h2>
+            <form action="/analyze" method="post">
+                <input type="hidden" name="fetch_emails" value="1">
+                <label for="username">Email:</label><br>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" value="Fetch and Analyze">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
