@@ -9,18 +9,17 @@ items:
  - mantinedev/mantine
  - radix-ui/website
  - sailboatui/sailboatui
- - merakiui/merakiui
  - saadeghi/daisyui
  - markmead/hyperui
  - tailwindlabs/headlessui
- - n6ai/flowrift
+ - sergejcodes/flowrift
  - Charlie85270/tail-kit
  - praveenjuge/myna/
  - TailGrids/tailwind-ui-components
  - htmlstreamofficial/preline
  - shadcn-ui/ui
  - primefaces/primereact
- - nextui-org/nextui
+ - heroui-inc/heroui
  - chakra-ui/chakra-ui
  - primefaces/primeng
  - rewindui/rewindui
@@ -28,6 +27,7 @@ items:
  - rsuite/rsuite
  - Semantic-Org/Semantic-UI-React
  - creativetimofficial/material-tailwind
+ - merakiuilabs/merakiui
 
 ---
 

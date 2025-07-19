@@ -17,7 +17,8 @@ items:
  - ku1ik/bitpocket
  - bernii/gauge.js
  - wuub/SublimeREPL
- - kamilkisiela/graphql-config
+ - graphql-hive/graphql-config
+ - invpe/GridShell
 
 display_name: Made in Poland
 created_by: Tymek

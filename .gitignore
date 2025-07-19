@@ -1,5 +1,4 @@
 .DS_Store
-Gemfile.lock
 scripts/
 _site
 .sass-cache
@@ -8,3 +7,4 @@ _site
 vendor
 .bundle
 .idea
+.tool-versions

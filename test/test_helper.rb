@@ -88,6 +88,8 @@ class NewOctokit < Octokit::Client
   rescue Octokit::TooManyRequests
     repos[:skip_requests] = true
     repos[item] = true
+  rescue Octokit::NotFound
+    repos[item] = nil
   end
 
   def user(item)
@@ -252,7 +254,7 @@ def convert_from_real_to_query_safe(string)
   duplicate = string.dup.to_s
 
   UNSAFE_TO_SAFE_STRING_MAPPINGS.keys.each_with_object(duplicate) do |key, new_string|
-    new_string.gsub!(key, UNSAFE_TO_SAFE_STRING_MAPPINGS[key])
+    new_string.gsub(key, UNSAFE_TO_SAFE_STRING_MAPPINGS[key])
   end
 end
 
@@ -260,7 +262,7 @@ def convert_from_query_safe_to_real(string)
   duplicate = string.dup.to_s
 
   SAFE_TO_UNSAFE_STRING_MAPPINGS.keys.each_with_object(duplicate) do |key, new_string|
-    new_string.gsub!(key, SAFE_TO_UNSAFE_STRING_MAPPINGS[key])
+    new_string.gsub(key, SAFE_TO_UNSAFE_STRING_MAPPINGS[key])
   end
 end
 

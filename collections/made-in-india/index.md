@@ -49,6 +49,9 @@ items:
  - arnav-kr/json-formatter
  - abhimanyu003/sttr
  - juspay/hyperswitch
+ - nammayatri/nammayatri
+ - kubewall/kubewall
+ - Pujo-Atlas-Kolkata
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png

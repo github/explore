@@ -4,8 +4,8 @@ released: January 12, 2015
 display_name: ZeroNet
 short_description: Open, free and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
 topic: zeronet
-aliases: zeroframe,zite
-related: bittorrent,bitcoin,decentralized,p2p
+aliases: zeroframe, zite
+related: bittorrent, bitcoin, decentralized, p2p
 logo: zeronet.png
 url: https://zeronet.io/
 github_url: https://github.com/HelloZeroNet/ZeroNet

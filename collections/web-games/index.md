@@ -20,6 +20,12 @@ items:
  - mrbid/Tuxocide
  - mrbid/AIGeneratedGame
  - mrbid/TuxVsDragon
+ - mrbid/TempleDriver
+ - mrbid/TuxPusherAF
+ - mrbid/PAC-GAL
+ - mrbid/TuxFishing
+ - mrbid/TuxScape2
+ - mrbid/Catrooms
 display_name: Web games
 created_by: leereilly
 ---

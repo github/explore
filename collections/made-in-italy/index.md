@@ -14,10 +14,10 @@ items:
  - notable/notable
  - espanso/espanso
  - eciavatta/caronte
- - Schroedinger-Hat/ImageGoNord
+ - Schroedinger-Hat/ImageGoNord-Web
  - stoplightio/prism
  - ercole-io/ercole
- - Exifly/ApiVault
+ - exa-studio/ApiVault
 display_name: Made in Italy
 created_by: thejoin95
 image: made-in-italy.png

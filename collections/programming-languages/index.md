@@ -46,7 +46,7 @@ items:
 - ziglang/zig
 - HaxeFoundation/haxe
 - livecode/livecode
-- coq/coq
+- rocq-prover/rocq
 - vlang/v
 - dart-lang/sdk
 - pharo-project/pharo
@@ -65,8 +65,14 @@ items:
 - Gwion/Gwion
 - carbon-language/carbon-lang
 - imba/imba
-- Jackojc/cane
+- tarpit-collective/cane
 - cython/cython
+- modular/modular
+- odin-lang/Odin
+- apache/groovy
+- ValeLang/Vale
+- factor/factor
+- julelang/jule
 display_name: Programming languages
 created_by: leereilly
 ---

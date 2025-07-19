@@ -12,8 +12,9 @@ There are a few ways you can contribute:
 As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
 
 Notes:
-  - Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
-  - Please limit your pull request to the creation/updating of one topic or collection at a time.
+
+- Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
+- Please limit your pull request to the creation/updating of one topic or collection at a time.
 
 ## Improving an existing topic or collection
 
@@ -37,7 +38,8 @@ To update text and links, edit the `index.md` inside the topic or collection's d
 For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/main/topics/algorithm/index.md)," data like its canonical URL, Wikipedia URL, or display name are called out in key-value pairs, while its detailed description is accounted for in the body of the document.
 
 _/topics/algorithm/index.md_:
-```
+
+```markdown
 ---
 aliases: algorithms
 display_name: Algorithm
@@ -54,7 +56,7 @@ Similarly, **collections** like "[music](https://raw.githubusercontent.com/githu
 
 _/collections/music/index.md_:
 
-```
+```markdown
 ---
 items:
  - beetbox/beets
@@ -92,17 +94,15 @@ Please note that all suggestions must adhere to GitHub's [Community Guidelines](
 
 To propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
 
-This repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).
-
 **Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
 
 ## Guidelines
 
-* Avoid conflicts of interest. These should be of general community interest, not a marketing vehicle for a product or a personal project. If you are a direct employee of a company creating the project, or the creator and sole maintainer, it's unlikely to be accepted.
-* We love experimenting with new technologies, and we are especially fond of GitHub Copilot. But as with all new technology, many of us are still getting accustomed to using generative AI tools effectively. Here are important guidelines to follow when using generative AI to contribute to this repository (adapted from the [GitHub Community Discussions CoC](https://github.com/community/community/blob/main/CODE_OF_CONDUCT.md#reasonable-use-of-ai-generated-content)):
-  * Read and revise the content before you post it. Use your own authentic voice and edit.
-  * Do not post AI-generated content verbatim to pad out the size and number of your contributions. Your changes should materially improve the site, not just say the same thing in different words.
-  * AI tools will often provide completely inaccurate or invented answers to prompts. Verify with an independent source that the information is correct before including it.
+- Avoid conflicts of interest. These should be of general community interest, not self promotion. If it is self promotion, it's unlikely to be accepted.
+- We love experimenting with new technologies, and we are especially fond of GitHub Copilot. But as with all new technology, many of us are still getting accustomed to using generative AI tools effectively. Here are important guidelines to follow when using generative AI to contribute to this repository (adapted from the [GitHub Community Discussions CoC](https://github.com/community/community/blob/main/CODE_OF_CONDUCT.md#reasonable-use-of-ai-generated-content)):
+  - Read and revise the content before you post it. Use your own authentic voice and edit.
+  - Do not post AI-generated content verbatim to pad out the size and number of your contributions. Your changes should materially improve the site, not just say the same thing in different words.
+  - AI tools will often provide completely inaccurate or invented answers to prompts. Verify with an independent source that the information is correct before including it.
 
 ## Running tests
 

@@ -22,13 +22,14 @@ items:
  - umijs/umi
  - abelljs/abell
  - withastro/astro
- - tlienart/Franklin.jl
+ - JuliaDocs/Franklin.jl
  - getzola/zola
  - lumeland/lume
  - docsifyjs/docsify
  - shuding/nextra
  - twostraws/Ignite
  - JohnSundell/Publish
+ - fuma-nama/fumadocs
 display_name: Static Site Generators
 created_by: jakejarvis
 ---

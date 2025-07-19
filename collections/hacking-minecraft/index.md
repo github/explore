@@ -1,6 +1,6 @@
 ---
 items:
- - docker/dockercraft
+ - docker-archive-public/docker.dockercraft
  - minefold/hubot-minecraft
  - leereilly/hubot-minecraft-skin
  - overviewer/Minecraft-Overviewer
@@ -23,7 +23,7 @@ items:
  - MovingBlocks/Terasology
  - Zerite/CraftLib
  - PaperMC/Paper
- - CaffeineMC/sodium-fabric
+ - CaffeineMC/sodium
  - FabricMC/fabric
  - lambda-client/lambda/
  - nerdsinspace/nocom-explanation
