@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Scam Detection AI",
+  "version": "1.0",
+  "description": "Analyzes selected text for scams.",
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
