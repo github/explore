@@ -5,7 +5,7 @@ gem "faraday-retry", "2.3.1"
 gem "github-pages", "~> 232", group: :jekyll_plugins
 gem "json", "2.11.3"
 gem "language_server-protocol", "3.17.0.4"
-gem "nokogiri", "~> 1.18.8"
+gem "nokogiri", "~> 1.18.9"
 gem "rake", "13.2.1"
 gem "rubocop", "1.75.5"
 
