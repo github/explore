@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4.2.2
 
       - name: 💎 setup ruby
-        uses: ruby/setup-ruby@472790540115ce5bd69d399a020189a8c87d641f # v1.247.0
+        uses: ruby/setup-ruby@bb6434c747fa7022e12fa1cae2a0951fcffcff26 # v1.253.0
         with:
           bundler-cache: true
           cache-version: 0
