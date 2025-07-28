@@ -2,7 +2,7 @@
 aliases: Quake-c, Quake-1-c
 created_by: John Carmack, ID Software
 display_name: QuakeC
-github_url: https://github.com/Facepunch/quakec](https://github.com/id-Software/quake-rerelease-qc
+github_url: https://github.com/id-Software/quake-rerelease-qc
 logo: 
 related: id software, c, quake, id-tech
 released: 1996
