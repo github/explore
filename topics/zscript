@@ -4,10 +4,10 @@ created_by: Zdoom Team
 display_name: ZScript
 github_url: https://github.com/zdoom-docs/stable
 logo: 
-related: doom, script, id-tech
+related: Doom,Script, id tech
 released: 2005
-short_description: 
-topic: Doom
+short_description: Zscript is a Script languange made by Zdoom in 2005 for GZDoom, used by the Sorce port Mods/Games
 url: https://zdoom.org/wiki/ZScript
 wikipedia_url: 
 ---
+Zscript is a Script languange made by Zdoom in 2005 for GZDoom, used by the Sorce port Mods/Games;
