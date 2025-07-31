@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        .result { padding: 1em; border: 1px solid #ccc; }
+        .scam { background-color: #ffdddd; }
+        .legit { background-color: #ddffdd; }
+    </style>
+</head>
+<body>
+    <h1>{{ analysis_type }} Analysis Result</h1>
+    <div class="result {{ 'scam' if is_scam else 'legit' }}">
+        <h2>{{ 'This ' + analysis_type.lower() + ' is likely a scam!' if is_scam else 'This ' + analysis_type.lower() + ' seems legitimate.' }}</h2>
+        <ul>
+            {% for indicator, value in analysis.items() %}
+                {% if indicator != 'domain_analysis' %}
+                    <li>{{ indicator.replace('_', ' ')|title }}: {{ 'Detected' if value else 'Not Detected' }}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        {% if analysis.domain_analysis %}
+            <h3>Domain Analysis</h3>
+            <ul>
+                {% for domain, status in analysis.domain_analysis.items() %}
+                    <li>{{ domain }}: {{ status }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+    <br>
+    <a href="/">Analyze another message or email</a>
+</body>
+</html>
