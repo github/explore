@@ -1,12 +1,13 @@
 name: Lint
 
 on:
-  pull_request:
+  pull_request_target:
   workflow_dispatch:
   merge_group:
 
 permissions:
   contents: write
+  checks: write
 
 jobs:
   lint:
@@ -15,13 +16,13 @@ jobs:
       - uses: actions/checkout@v4.2.2
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@a4effe49ee8ee5b8b5091268c473a4628afb5651 # v1.245.0
+        uses: ruby/setup-ruby@2a7b30092b0caf9c046252510f9273b4875f3db9 # v1.254.0
         with:
           bundler-cache: true
 
       - name: Run linters
         uses: wearerequired/lint-action@548d8a7c4b04d3553d32ed5b6e91eb171e10e7bb # v2
-        if: ${{ github.event_name == 'pull_request' }}
+        if: ${{ github.event_name == 'pull_request_target' }}
         with:
           auto_fix: true
           rubocop: true

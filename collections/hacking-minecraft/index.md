@@ -1,6 +1,6 @@
 ---
 items:
- - docker/dockercraft
+ - docker-archive-public/docker.dockercraft
  - minefold/hubot-minecraft
  - leereilly/hubot-minecraft-skin
  - overviewer/Minecraft-Overviewer
