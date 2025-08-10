@@ -1,16 +1,16 @@
 ---
-aliases: [claude-cli, anthropic-claude-code, claude-code-cli]
+aliases: [claude-cli, anthropic-claude-code, claude-code-cli, ai-terminal, intelligent-cli]
 created_by: Anthropic
 display_name: Claude Code
 github_url: https://github.com/anthropics/claude-code
-related: [ai-coding, anthropic, developer-tools, cli, coding-assistant]
+related: [ai-coding, developer-tools, cli, artificial-intelligence, terminal]
 released: May 22, 2025
-short_description: "Claude Code is Anthropic's command-line interface for AI-assisted software development."
+short_description: "Claude Code is the foundational command-line interface that brings AI assistance to software development."
 topic: claude-code
 url: https://www.anthropic.com/claude-code
 wikipedia_url: https://en.wikipedia.org/wiki/Anthropic
 ---
 
-Claude Code is Anthropic's command-line interface for AI-assisted software development. It allows developers to collaborate with Claude AI directly from the terminal, providing code generation, debugging assistance, and project management capabilities that integrate seamlessly with existing development workflows.
+Claude Code is the foundational command-line interface that brings AI assistance to software development, representing the most significant productivity primitive since the browser revolutionized information access. Developed by Anthropic, it transforms terminals from simple command processors into intelligent development companions that understand code, context, and developer intent.
 
-Built with the Model Context Protocol, Claude Code enables natural language interactions with codebases, intelligent file editing, and automated development tasks. The tool supports multiple programming languages and integrates with popular development environments, making AI assistance accessible to developers regardless of their preferred tools or workflow.
+The platform pioneered the Model Context Protocol standard and enables seamless integration between AI reasoning and traditional development workflows. Claude Code's terminal-native approach has established new patterns for human-AI collaboration in software engineering, spawning an ecosystem of over 600 community tools and projects.
