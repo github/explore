@@ -8,15 +8,12 @@ logo: pace_decal_288px.png
 related: nasa
 ---
 
-PACE [launched into Earth orbit][launch] on 2024-02-08 and is extending and improving NASA's over 20-year satellite observation record of global ocean biology, aerosols (tiny particles suspended in the atmosphere), and clouds.
-The mission aims to assess ocean health by measuring the distribution of phytoplankton (tiny plants and algae that sustain the marine food web).
-It also improves measurement of key atmospheric variables associated with air quality and Earth's climate.
+PACE [launched into Earth orbit][launch] on 2024-02-08 to extend and improve NASA's over 20-year record of global ocean biology (especially the tiny plants and algae that sustain marine food webs), aerosols (tiny particles suspended in the air), and clouds.
 
-There are two science instruments on the PACE satellite:
-- The Ocean Color Instrument ([OCI]) is a spectrometer that measures intensity of light over portions of the electromagnetic spectrum: ultraviolet (UV), visible, near infrared, and several shortwave infrared bands.
-  OCI enables continuous measurement of light at finer wavelength resolution than previous NASA ocean color sensors, providing detailed information on our global ocean.
-  The color of the ocean is determined by the interaction of sunlight with substances or particles present in seawater such as chlorophyll, a green photosynthetic pigment found in phytoplankton and land plants.
-- The multi-angle polarimeters [HARP2] and [SPEXone] are radiometers that measures how the oscillation of sunlight within a geometric plane - known as its polarization - is changed by passing through clouds, aerosols, and the ocean.
+Two instruments fly on the satellite:
+- The Ocean Color Instrument ([OCI]) is a spectrometer that measures light over portions of the electromagnetic spectrum.
+  Sunlight interacting with substances present in open water, such as the green photosynthetic pigment found in phytoplankton and land plants, gives the ocean its dynamic and informative color.
+- The multi-angle polarimeters [HARP2] and [SPEXone] are radiometers that measures how sunlight oscillates within a geometric plane&mdash;known as its polarization&mdash.
   Measuring polarization states of UV-to-shortwave light at various angles provides new information on the atmosphere and clouds, such as particle size and composition.
 
 [launch]: https://www.youtube.com/watch?v=TONpBd6Z6lE
