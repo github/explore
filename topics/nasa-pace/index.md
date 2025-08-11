@@ -4,7 +4,7 @@ display_name: NASA's PACE Mission
 short_description: An Earth-observing satellite mission for Plankton, Aerosols, Clouds, and ocean Ecosystems.
 url: https://pace.gsfc.nasa.gov/
 wikipedia_url: https://en.wikipedia.org/wiki/Plankton,_Aerosol,_Cloud,_ocean_Ecosystem
-logo: pace_decal_288px.png
+logo: nasa-pace.png
 related: nasa
 ---
 
