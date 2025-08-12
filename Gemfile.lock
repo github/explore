@@ -41,13 +41,13 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.10.0)
-    faraday (2.12.2)
+    faraday (2.13.4)
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
     faraday-net_http (3.4.1)
       net-http (>= 0.5.0)
-    faraday-retry (2.3.1)
+    faraday-retry (2.3.2)
       faraday (~> 2.0)
     fastimage (2.4.0)
     ffi (1.17.2)
@@ -235,7 +235,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.11.3)
+    json (2.13.2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -295,14 +295,14 @@ GEM
     public_suffix (5.1.1)
     racc (1.8.1)
     rainbow (3.1.1)
-    rake (13.2.1)
+    rake (13.3.0)
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
     regexp_parser (2.11.1)
     rexml (3.4.1)
     rouge (3.30.0)
-    rubocop (1.75.5)
+    rubocop (1.79.2)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -310,7 +310,7 @@ GEM
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.9.3, < 3.0)
-      rubocop-ast (>= 1.44.0, < 2.0)
+      rubocop-ast (>= 1.46.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
     rubocop-ast (1.46.0)
@@ -361,19 +361,19 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  faraday (= 2.12.2)
-  faraday-retry (= 2.3.1)
+  faraday (= 2.13.4)
+  faraday-retry (= 2.3.2)
   fastimage
   github-pages (~> 232)
   httparty
-  json (= 2.11.3)
+  json (= 2.13.2)
   language_server-protocol (= 3.17.0.5)
   minitest
   nokogiri (~> 1.18.8)
   octokit
   pry
-  rake (= 13.2.1)
-  rubocop (= 1.75.5)
+  rake (= 13.3.0)
+  rubocop (= 1.79.2)
   rubocop-performance
   safe_yaml
   webrick
