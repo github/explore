@@ -1,11 +1,11 @@
 ---
-display_name: apollo
+display_name: apollo-server
 github_url: https://github.com/apollographql/apollo-server
 logo: apollo.png
-related: graphql,api,graphql-server
+related: graphql,api,graphql-server,apollo
 released: August 15, 2025
 short_description: apollo-server is a Node.js library that allows you to quickly build a GraphQL API server to handle structured client requests.
-topic: apollo
+topic: apollo-server
 url: https://www.apollographql.com/
 ---
 
