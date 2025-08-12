@@ -18,7 +18,7 @@ items:
  - ajeetdsouza/zoxide
  - Slackadays/Clipboard
  - devtron-labs/devtron
- - Maximus5/ConEmu
+ - ConEmu/ConEmu
  - wavetermdev/waveterm
  - termux/termux-app
  - zed-industries/zed
