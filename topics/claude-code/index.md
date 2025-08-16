@@ -1,5 +1,5 @@
 ---
-aliases: claude-cli, anthropic-claude-code, claude-code-cli, ai-terminal, intelligent-cli
+aliases: claude-cli, anthropic-claude-code, claude-code-cli
 created_by: Anthropic
 display_name: Claude Code
 github_url: https://github.com/anthropics/claude-code
