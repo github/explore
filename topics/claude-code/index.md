@@ -5,7 +5,7 @@ display_name: Claude Code
 github_url: https://github.com/anthropics/claude-code
 related: ai, cli, terminal, developer-experience, automation, ai-terminal, intelligent-cli
 released: May 22, 2025
-short_description: "Claude Code is the foundational command-line interface that brings AI assistance to software development."
+short_description: "Claude Code is a command-line interface that brings AI assistance to software development."
 topic: claude-code
 url: https://www.anthropic.com/claude-code
 wikipedia_url: https://en.wikipedia.org/wiki/Anthropic
