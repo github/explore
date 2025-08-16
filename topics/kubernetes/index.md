@@ -1,4 +1,5 @@
 ---
+aliases: k8s
 created_by: "@jbeda, @brendandburns, and @craigmcl"
 display_name: Kubernetes
 github_url: https://github.com/kubernetes/kubernetes

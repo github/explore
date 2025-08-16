@@ -1,5 +1,5 @@
 ---
-aliases: unity3d
+aliases: unity3d, unity3d-plugin, unity-plugin, unity3d-editor, unity-editor, unity-package-manager, unity-scripts, unity-script, unity3d-script, unity3d-scripts, unity-development, unity3d-development, upm-package, unity-game-engine
 created_by: Unity Technologies
 display_name: Unity
 github_url: https://github.com/Unity-Technologies

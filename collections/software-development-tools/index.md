@@ -1,6 +1,6 @@
 ---
 items:
- - lelylan/betterspecs
+ - betterspecs/betterspecs
  - pengwynn/flint
  - mislav/rfc
  - peek/peek
@@ -11,7 +11,11 @@ items:
  - getsentry/sentry
  - jenkinsci/jenkins
  - pybuilder/pybuilder
- - klaussinani/signale
+ - klaudiosinani/signale
+ - gitpod-io/gitpod
+ - gnustep/apps-gorm
+ - koalaman/shellcheck
+ - AhmedOsman101/commit-sage-cli
 display_name: Software development tools
 ---
 Build apps better, faster, stronger.

@@ -1,13 +1,13 @@
 ---
 items:
  - twbs/bootstrap
- - daneden/animate.css
+ - animate-css/animate.css
  - nathansmith/960-Grid-System
  - necolas/normalize.css
  - ionic-team/ionicons
  - designmodo/Flat-UI
  - h5bp/html5-boilerplate
- - zurb/foundation-sites
+ - foundation/foundation-sites
  - Modernizr/Modernizr
  - twbs/ratchet
  - IanLunn/Hover
@@ -15,6 +15,13 @@ items:
  - basscss/basscss
  - atlemo/SubtlePatterns
  - mrmrs/colors
+ - twbs/icons
+ - tailwindlabs/heroicons
+ - lipis/flag-icons
+ - tabler/tabler-icons
+ - saadeghi/daisyui
+ - responsively-org/responsively-app
+ - argyleink/open-props
 display_name: Design essentials
 created_by: jonrohan
 ---

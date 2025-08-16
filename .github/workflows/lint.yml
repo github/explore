@@ -1,0 +1,43 @@
+name: Lint
+
+on:
+  pull_request_target:
+  workflow_dispatch:
+  merge_group:
+
+permissions:
+  contents: write
+  checks: write
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.255.0
+        with:
+          bundler-cache: true
+
+      - name: Run RuboCop with auto-correct
+        run: |
+          bundle exec rubocop -A
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if git status --porcelain | grep .; then
+            echo "changes=true" >> $GITHUB_ENV
+          else
+            echo "changes=false" >> $GITHUB_ENV
+          fi
+
+      - name: Commit and push changes
+        if: env.changes == 'true'
+        run: |
+          git add .
+          git commit -m "chore: auto-corrected with RuboCop"
+          git push

@@ -1,0 +1,25 @@
+name: Check for conflicts of interest
+
+on:
+  pull_request:
+  merge_group:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "In order to review this pull request for acceptance, we need to make sure that all of the prerequisites are satisfied."
+          echo "This was not checked:"
+          echo "> This change is not self-promotion.
+          echo "This is a requirement to maintain a high level of independence in this project. Please update to confirm there is no conflict of interest."
+          echo "Thank you!"
+          exit 1
+        if: contains(github.event.pull_request.body, '- [ ] This change is not self-promotion.')
+        name: Fail
+      - run: exit 0
+        if: contains(github.event.pull_request.body, '- [x] This change is not self-promotion.')
+        name: Succeed

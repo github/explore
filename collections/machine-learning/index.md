@@ -19,11 +19,12 @@ items:
  - gwding/draw_convnet
  - scikit-learn/scikit-learn
  - tensorflow/tensorflow
+ - activeloopai/deeplake
  - Theano/Theano
  - shogun-toolbox/shogun
  - davisking/dlib
  - apache/predictionio
- - deepmind/pysc2
+ - google-deepmind/pysc2
  - gokceneraslan/awesome-deepbio
  - buriburisuri/ByteNet
  - josephmisiti/awesome-machine-learning
@@ -37,6 +38,7 @@ items:
  - https://www.youtube.com/embed/KsbQ_HNX6Pg
  - https://www.youtube.com/embed/bHvf7Tagt18
  - https://www.youtube.com/embed/ILsA4nyG7I0
+ - AMAI-GmbH/AI-Expert-Roadmap
 display_name: Getting started with machine learning
 created_by: omoju
 ---

@@ -1,2 +1,10 @@
 .DS_Store
 scripts/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+.bundle
+.idea
+.tool-versions

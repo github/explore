@@ -1,0 +1,38 @@
+name: Check and update renamed/removed collection items
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *" # every hour
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    permissions:
+      pull-requests: write
+      contents: write
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'github'
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@2a7b30092b0caf9c046252510f9273b4875f3db9 # v1.254.0
+        with:
+          bundler-cache: true
+
+      - name: Test collections and modify with changes
+        env:
+          AUTOCORRECT_RENAMED_REPOS: 1
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bundle exec rake collections
+
+      - name: Commit changes and open PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "✨ Autofixing renamed/removed collection items ✨"
+          committer: "github-actions[bot] <actions@github.com>"
+          branch: "update-collections-${PR_ID}"
+          title: "✨ Autofixing renamed/removed collection items ✨"
