@@ -16,6 +16,7 @@ items:
  - gnustep/apps-gorm
  - koalaman/shellcheck
  - AhmedOsman101/commit-sage-cli
+ - Nayjest/Gito
 display_name: Software development tools
 ---
 Build apps better, faster, stronger.
