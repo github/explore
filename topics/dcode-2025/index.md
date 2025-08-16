@@ -5,7 +5,7 @@ topic: dcode-2025
 github_url: https://github.com/topics/dcode-2025
 aliases: dcode, dcode2025, devclub-nstru
 related: conference, innovation, open-source, community, collaboration, program
-logo: dcodelogo.png
+logo: dcode-2025.png
 created_by: Ved Pawar (@vedpawar2254)
 ---
 
