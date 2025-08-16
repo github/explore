@@ -11,6 +11,6 @@ url: https://www.anthropic.com/claude-code
 wikipedia_url: https://en.wikipedia.org/wiki/Anthropic
 ---
 
-Claude Code is the foundational command-line interface that brings AI assistance to software development, representing the most significant productivity primitive since the browser revolutionized information access. Developed by Anthropic, it transforms terminals from simple command processors into intelligent development companions that understand code, context, and developer intent.
+Claude Code is an interface that brings AI assistance to software development. Developed by Anthropic, it transforms terminals from simple command processors into intelligent development companions that understand code, context, and developer intent.
 
 The platform pioneered the Model Context Protocol standard and enables seamless integration between AI reasoning and traditional development workflows. Claude Code's terminal-native approach has established new patterns for human-AI collaboration in software engineering, spawning an ecosystem of over 600 community tools and projects.
