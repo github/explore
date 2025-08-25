@@ -32,6 +32,7 @@ items:
  - in4k/crawlspace
  - monadgroup/sy17
  - monadgroup/re19
+ - jumalauta/jml-engine-demos
 
 display_name: Demo sources
 ---
