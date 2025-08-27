@@ -29,6 +29,7 @@ items:
  - spinnaker/spinnaker
  - Kong/kong
  - jenkinsci/jenkins
+ - semaphoreio/semaphore
  - apache/mesos
  - SeleniumHQ/selenium
  - opendiffy/diffy

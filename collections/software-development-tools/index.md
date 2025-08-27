@@ -10,6 +10,7 @@ items:
  - travis-ci/travis-ci
  - getsentry/sentry
  - jenkinsci/jenkins
+ - semaphoreio/semaphore
  - pybuilder/pybuilder
  - klaudiosinani/signale
  - gitpod-io/gitpod
