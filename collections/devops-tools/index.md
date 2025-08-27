@@ -29,7 +29,6 @@ items:
  - spinnaker/spinnaker
  - Kong/kong
  - jenkinsci/jenkins
- - semaphoreio/semaphore
  - apache/mesos
  - SeleniumHQ/selenium
  - opendiffy/diffy
@@ -43,6 +42,7 @@ items:
  - livecycle/preevy 
  - cloudposse/atmos
  - axem-solutions/dem
+ - semaphoreio/semaphore
  
 display_name: DevOps tools
 ---

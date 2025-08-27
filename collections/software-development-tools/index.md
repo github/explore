@@ -10,13 +10,13 @@ items:
  - travis-ci/travis-ci
  - getsentry/sentry
  - jenkinsci/jenkins
- - semaphoreio/semaphore
  - pybuilder/pybuilder
  - klaudiosinani/signale
  - gitpod-io/gitpod
  - gnustep/apps-gorm
  - koalaman/shellcheck
  - AhmedOsman101/commit-sage-cli
+ - semaphoreio/semaphore
 display_name: Software development tools
 ---
 Build apps better, faster, stronger.
