@@ -42,6 +42,7 @@ items:
  - livecycle/preevy 
  - cloudposse/atmos
  - axem-solutions/dem
+ - semaphoreio/semaphore
  
 display_name: DevOps tools
 ---
