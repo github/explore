@@ -37,7 +37,6 @@ items:
  - maczokni/crimemapping_textbook_bookdown
  - maczokni/r-socialsci
  - CJWorkbench
- - CullenBoldt/CSSproject
  - sagepublishing/Hogan-FSStDS-draft-chapters-2019
  - sagepublishing/Bernauer-DQTAwR-draft-chapters-2019
  
