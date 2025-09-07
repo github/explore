@@ -4,7 +4,7 @@ created_by: Shaishab Chandra Shil
 display_name: Express It
 github_url: https://github.com/shaishab316/express-it
 logo: express-it.png
-released: Jul 7, 2025
+released: July 7, 2025
 short_description: A modern, batteries-included Express.js boilerplate to kickstart your Node.js backend with best practices.
 topic: express-it
 url: https://www.npmjs.com/package/create-express-it
