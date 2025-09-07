@@ -1,5 +1,5 @@
 ---
-aliases: express, expressjs, nodejs, node
+aliases: create-express-it
 created_by: Shaishab Chandra Shil
 display_name: Express It
 github_url: https://github.com/shaishab316/express-it
