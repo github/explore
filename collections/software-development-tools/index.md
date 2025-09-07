@@ -16,6 +16,7 @@ items:
  - gnustep/apps-gorm
  - koalaman/shellcheck
  - AhmedOsman101/commit-sage-cli
+ - semaphoreio/semaphore
  - Nayjest/Gito
 display_name: Software development tools
 ---
