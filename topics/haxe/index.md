@@ -5,6 +5,7 @@ display_name: Haxe
 github_url: https://github.com/HaxeFoundation
 released: '2005'
 short_description: A metalanguage resembling ECMAScript which can be transpiled into a variety of languages.
+logo: haxe.png
 topic: haxe
 url: https://haxe.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Haxe
