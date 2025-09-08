@@ -1,5 +1,6 @@
 ---
 items:
+ - hayase-app/ui
  - saleor/saleor
  - callstack
  - software-mansion/react-native-reanimated
