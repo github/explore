@@ -302,7 +302,7 @@ GEM
     regexp_parser (2.11.2)
     rexml (3.4.1)
     rouge (3.30.0)
-    rubocop (1.80.1)
+    rubocop (1.80.2)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -316,10 +316,10 @@ GEM
     rubocop-ast (1.46.0)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
-    rubocop-performance (1.25.0)
+    rubocop-performance (1.26.0)
       lint_roller (~> 1.1)
       rubocop (>= 1.75.0, < 2.0)
-      rubocop-ast (>= 1.38.0, < 2.0)
+      rubocop-ast (>= 1.44.0, < 2.0)
     ruby-progressbar (1.13.0)
     rubyzip (2.4.1)
     safe_yaml (1.0.5)
@@ -373,7 +373,7 @@ DEPENDENCIES
   octokit
   pry
   rake (= 13.3.0)
-  rubocop (= 1.80.1)
+  rubocop (= 1.80.2)
   rubocop-performance
   safe_yaml
   webrick
