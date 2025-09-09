@@ -19,6 +19,7 @@ items:
  - wuub/SublimeREPL
  - graphql-hive/graphql-config
  - invpe/GridShell
+ - hayase-app/ui
 
 display_name: Made in Poland
 created_by: Tymek
