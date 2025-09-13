@@ -6,7 +6,7 @@ logo: yourls.png
 related: urlshortener, url-shortener
 github_url: https://github.com/YOURLS/YOURLS
 short_description: YOURLS is a free and open source URL shortener, written in PHP.
-released: Jun 30, 2009
+released: June 30, 2009
 url: https://yourls.org/
 topic: yourls
 ---
