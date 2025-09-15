@@ -32,6 +32,7 @@ items:
  - sveltejs/kit
  - refinedev/refine
  - docusign/1fe
+ - livetrails/targetjs
 
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
