@@ -5,8 +5,6 @@ items:
   - sjdvda/myt-usage-checker
   - mscraftsman/devcon2019
   - percymamedy/laravel-dev-booter
-  - findbrok/php-watson-api-bridge
-  - findbrok/laravel-personality-insights
   - LaraChimp/mango-repo
   - LaraChimp/pine-annotations
   - percymamedy/crafter
