@@ -3,7 +3,7 @@ topic: anyland
 display_name: "Anyland"
 aliases: anyland-vr
 related: unity
-short_description: Anyland is a VR game made by Scott Lowe and Philipp Lenssen"
+short_description: Anyland is a VR game made by Scott Lowe and Philipp Lenssen
 released: October 6, 2016
 url: https://anyland.com/
 ---
