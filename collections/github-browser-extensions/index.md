@@ -1,5 +1,6 @@
 ---
 items:
+ - riccardoperra/better-comments-for-github
  - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
