@@ -1,6 +1,5 @@
 ---
 items:
- - riccardoperra/better-comments-for-github
  - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
@@ -42,6 +41,7 @@ items:
  - octobox/extension
  - hypertrons/hypertrons-crx
  - NirmalScaria/le-git-graph
+ - riccardoperra/better-comments-for-github
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
