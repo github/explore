@@ -5,8 +5,7 @@ github_url: https://github.com/hanami
 logo: hanami.png
 related: ruby, rails, sinatra, web-framework
 released: January 23, 2014
-short_description: Hanami is a full-stack Ruby web framework focused on simplicity and
-  maintainability.
+short_description: Hanami is a full-stack Ruby web framework focused on simplicity and maintainability.
 topic: hanami
 url: https://hanamirb.org/
 ---
