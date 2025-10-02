@@ -1,12 +1,13 @@
 ---
 items:
-  - e5vos/e5vosdo-snimrod
+  - prezi
+  - hunspell/hunspell
+  - GRAPHISOFT/archicad-addon-cmake
+  - syslog-ng/syslog-ng
+  - oroszgy/awesome-hungarian-nlp
   - zlaval/hun-it-content
   - amaximus/bkk_stop
-  - oroszgy/awesome-hungarian-nlp
-  - LovassyApp/LovassyApp
   - pzs/nav-online-invoice
-  - syslog-ng/syslog-ng
   - hufilter/hufilter
 
 display_name: Made in Hungary
