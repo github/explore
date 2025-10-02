@@ -1,11 +1,11 @@
 ---
 items:
-  - prezi
   - hunspell/hunspell
   - GRAPHISOFT/archicad-addon-cmake
   - syslog-ng/syslog-ng
   - oroszgy/awesome-hungarian-nlp
   - zlaval/hun-it-content
+  - prezi
   - amaximus/bkk_stop
   - pzs/nav-online-invoice
   - hufilter/hufilter
