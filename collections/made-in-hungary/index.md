@@ -5,7 +5,7 @@ items:
   - syslog-ng/syslog-ng
   - oroszgy/awesome-hungarian-nlp
   - zlaval/hun-it-content
-  - prezi
+  - prezi/spaghetti
   - amaximus/bkk_stop
   - pzs/nav-online-invoice
   - hufilter/hufilter
