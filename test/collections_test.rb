@@ -7,7 +7,7 @@ describe "collections" do
         it "has a valid name" do
           assert valid_collection?(collection), invalid_collection_message(collection)
         end
-
+uhjjhhj
         it "does not include emoji outside of description" do
           metadata = metadata_for(collections_dir, collection) || {}
 
