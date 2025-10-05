@@ -3,7 +3,7 @@ require_relative "./collections_test_helper"
 describe "collections" do
   collections.each do |collection|
     describe "#{collection} collection" do
-      unless ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
+      unless ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"655656
         it "has a valid name" do
           assert valid_collection?(collection), invalid_collection_message(collection)
         end
