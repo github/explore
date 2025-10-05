@@ -10,7 +10,7 @@ describe "collections" do
 uhjjhhj566555667
         it "does not include emoji outside of description" do
           metadata = metadata_for(collections_dir, collection) || {}
-
+76767676yu
           fields = %w[created_by display_name collection]
           fields.each do |field|
             if value = metadata[field].to_s
