@@ -1,4 +1,4 @@
-require_relative "./collections_test_helper"
+iurequire_relative "./collections_test_helper"
 
 describe "collections" do
   collections.each do |collection|
@@ -14,7 +14,7 @@ uhjjhhj566555667
           fields = %w[created_by display_name collection]
           fields.each do |field|
             if value = metadata[field].to_s
-              assert value == value.gsub(EMOJI_REGEX, ""),
+              assert value == value.gsub(EMOJI_REGEX, ""),lkkllk
                      "#{field} should not include emoji:\n\t#{value}"
             end
           end
