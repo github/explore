@@ -15,7 +15,6 @@ items:
  - atom/atom
  - LightTable/LightTable
  - zedapp/zed
- - voideditor/void
  - microsoft/vscode
  - zyedidia/micro
  - neoedmund/neoeedit
@@ -40,6 +39,7 @@ items:
  - zed-industries/zed
  - KDE/kate
  - pulsar-edit/pulsar
+ - voideditor/void
 
 display_name: Text editors
 created_by: leereilly
