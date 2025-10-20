@@ -24,7 +24,7 @@ items:
  - clearml/clearml
  - iterative/dvc
  - determined-ai/determined
- - InfuseAI/primehub
+ - myelintek/primehub
  - treeverse/lakeFS
  - activeloopai/deeplake
  - Netflix/metaflow
