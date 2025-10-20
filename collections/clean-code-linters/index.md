@@ -1,4 +1,3 @@
----
 items:
  - standard/standard
  - eslint/eslint
@@ -39,6 +38,5 @@ items:
  - nicklockwood/SwiftFormat
  - super-linter/super-linter
 display_name: Clean code linters
-created_by: holman
----
+created_by: danish-ahmed-km
 Make sure your code matches your style guide with these essential code linters.
