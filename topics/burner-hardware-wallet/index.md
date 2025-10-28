@@ -1,21 +1,19 @@
 ---
 topic: burner-hardware-wallet
 display_name: Burner Hardware Wallet
-short_description: Temporary hardware wallets designed for secure, short-term cryptocurrency storage and transactions.
-aliases: burner-wallet, disposable-wallet, temporary-wallet
-related: ethereum, web3, cryptocurrency, hardware-wallet, evm
+short_description: Affordable, credit-card-sized crypto wallets built for gifting and everyday use with Burner-compatible projects.
+aliases: burner-wallet, burner-card, burneros
+related: ethereum, web3, cryptocurrency, hardware-wallet, evm, bitcoin, stablecoin
 ---
 
-Burner hardware wallets are temporary, disposable devices designed for secure cryptocurrency storage and transactions over short periods. These wallets prioritize security through isolation and limited exposure, making them ideal for quick transactions, testing environments, or situations where long-term storage is not required.
+Burner hardware wallets are affordable, credit-card-sized crypto wallets designed for gifting and everyday use. Built with the same secure chip technology found in premium devices like Ledger or Trezor, Burner cards eliminate the complexity of traditional hardware wallets by removing seed phrases, apps, and complicated setup processes.
 
-Unlike traditional hardware wallets that are designed for long-term storage, burner hardware wallets are intended to be used briefly and then discarded or reset. This approach minimizes security risks by reducing the attack surface and exposure time of private keys. They are particularly popular in the Ethereum ecosystem and other EVM-compatible blockchain networks.
+Key features of Burner hardware wallets:
 
-Key characteristics of burner hardware wallets include:
+- **No seed phrases**: Uses PIN-based authentication, eliminating the hassle and risk of managing recovery phrases
+- **Instant setup**: Tap the card against your smartphone to launch BurnerOS, a secure web-based interface—no app downloads, plugins, or firmware updates required
+- **Offline protection**: Private keys are self-generated and stored on a tamper-resistant secure chip. They never leave the card
+- **Perfect for gifting**: Load ETH, BTC, or stablecoins like USD II onto the card. Works like a gift card, but the recipient receives full self-custody of the crypto
+- **Credit-card form factor**: Combines the convenience of fintech-style burner cards with the simplicity of crypto's temporary wallets
 
-- **Temporary usage**: Designed for short-term storage and quick transactions
-- **Enhanced security**: Reduced attack surface through limited exposure time
-- **EVM compatibility**: Support for Ethereum and other EVM-compatible chains
-- **Open source**: Many implementations are open source, allowing for community verification and customization
-- **Disposable nature**: Can be safely discarded or reset after use
-
-These wallets are commonly used by developers for testing, traders for quick transactions, and individuals who prioritize security through isolation rather than long-term storage solutions.
+This topic covers open source projects that are built with Burner-compatibility, allowing developers to integrate Burner card functionality into their applications and services. These projects enable users to interact with Burner cards across various platforms and use cases, making cryptocurrency more accessible for everyday transactions and gifting scenarios.
