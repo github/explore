@@ -30,17 +30,19 @@ def valid_collection?(raw_collection)
 end
 
 def collections_dir
-  File.expand_path("../collections", File.dirname(__FILE__))
+  @collections_dir ||= File.expand_path("../collections", File.dirname(__FILE__))
 end
 
 def collection_dirs
-  collection_directories = dirs_to_test.split(" ").map do |file|
-    directory = file.split("/")[1]
-    [collections_dir, directory].join("/")
-  end
+  @collection_dirs ||= begin
+    collection_directories = dirs_to_test.split(" ").map do |file|
+      directory = file.split("/")[1]
+      [collections_dir, directory].join("/")
+    end
 
-  Dir[*collection_directories].select do |entry|
-    entry != "." && entry != ".." && File.directory?(entry)
+    Dir[*collection_directories].select do |entry|
+      entry != "." && entry != ".." && File.directory?(entry)
+    end
   end
 end
 
@@ -53,7 +55,7 @@ def dirs_to_test
 end
 
 def collections
-  collection_dirs.map { |dir_path| File.basename(dir_path) }
+  @collections ||= collection_dirs.map { |dir_path| File.basename(dir_path) }
 end
 
 def items_for_collection(collection)
@@ -70,26 +72,21 @@ end
 def update_collection_item(collection, old_repo_with_owner, new_repo_with_owner)
   file = "#{collections_dir}/#{collection}/index.md"
 
-  File.open(file, "r+") do |f|
-    new_content = f.read.gsub(old_repo_with_owner, new_repo_with_owner)
-    f.rewind
-    f.write(new_content)
-    f.truncate(f.pos)
-  end
+  # Read, replace, and write in one go - simpler and faster
+  content = File.read(file)
+  new_content = content.gsub(old_repo_with_owner, new_repo_with_owner)
+  File.write(file, new_content)
 end
 
 def remove_collection_item(collection, old_repo_with_owner)
   file = "#{collections_dir}/#{collection}/index.md"
 
-  File.open("#{file}.tmp", "w") do |output|
-    File.open(file, "r") do |input|
-      input.each_line do |line|
-        output.write(line) unless /#{old_repo_with_owner}/i.match?(line)
-      end
-    end
-  end
+  # Read entire file at once and filter lines - more efficient than line-by-line I/O
+  content = File.read(file)
+  escaped_repo = Regexp.escape(old_repo_with_owner)
+  filtered_content = content.lines.reject { |line| /#{escaped_repo}/i.match?(line) }.join
 
-  FileUtils.mv "#{file}.tmp", file
+  File.write(file, filtered_content)
 end
 
 def annotate_collection_item_error(collection, string, error_message)

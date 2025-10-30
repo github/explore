@@ -226,44 +226,76 @@ def valid_uri_scheme?(scheme)
   %w[http https].include?(scheme.downcase)
 end
 
+# rubocop:disable Metrics/AbcSize, Metrics/MethodLength
 def metadata_for(dir, name)
+  # Cache metadata reads to avoid repeated file I/O
+  @_metadata_cache ||= {}
+  cache_key = "#{dir}/#{name}"
+
+  return @_metadata_cache[cache_key] if @_metadata_cache.key?(cache_key)
+
   path = File.join(dir, name, "index.md")
-  return unless File.file?(path)
+  unless File.file?(path)
+    @_metadata_cache[cache_key] = nil
+    return nil
+  end
 
   parts = File.read(path).split("---", 3)
-  return unless parts.size >= 2
+  unless parts.size >= 2
+    @_metadata_cache[cache_key] = nil
+    return nil
+  end
 
   begin
-    YAML.safe_load(parts[1])
+    @_metadata_cache[cache_key] = YAML.safe_load(parts[1])
   rescue Psych::SyntaxError => error
     flunk "invalid YAML: #{error.message}"
   end
 end
+# rubocop:enable Metrics/AbcSize, Metrics/MethodLength
 
+# rubocop:disable Metrics/MethodLength
 def body_for(dir, name)
+  # Cache body reads to avoid repeated file I/O
+  @_body_cache ||= {}
+  cache_key = "#{dir}/#{name}"
+
+  return @_body_cache[cache_key] if @_body_cache.key?(cache_key)
+
   path = File.join(dir, name, "index.md")
-  return "" unless File.file?(path)
+  unless File.file?(path)
+    @_body_cache[cache_key] = ""
+    return ""
+  end
 
   parts = File.read(path).split("---", 3)
-  return "" unless parts.size >= 2
+  unless parts.size >= 2
+    @_body_cache[cache_key] = ""
+    return ""
+  end
 
-  parts[2]
+  @_body_cache[cache_key] = parts[2]
 end
+# rubocop:enable Metrics/MethodLength
 
 def convert_from_real_to_query_safe(string)
-  duplicate = string.dup.to_s
+  result = string.to_s.dup
 
-  UNSAFE_TO_SAFE_STRING_MAPPINGS.keys.each_with_object(duplicate) do |key, new_string|
-    new_string.gsub(key, UNSAFE_TO_SAFE_STRING_MAPPINGS[key])
+  UNSAFE_TO_SAFE_STRING_MAPPINGS.each do |key, value|
+    result.gsub!(key, value)
   end
+
+  result
 end
 
 def convert_from_query_safe_to_real(string)
-  duplicate = string.dup.to_s
+  result = string.to_s.dup
 
-  SAFE_TO_UNSAFE_STRING_MAPPINGS.keys.each_with_object(duplicate) do |key, new_string|
-    new_string.gsub(key, SAFE_TO_UNSAFE_STRING_MAPPINGS[key])
+  SAFE_TO_UNSAFE_STRING_MAPPINGS.each do |key, value|
+    result.gsub!(key, value)
   end
+
+  result
 end
 
 def add_message(type, file, line_number, message)
