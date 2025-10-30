@@ -226,44 +226,78 @@ def valid_uri_scheme?(scheme)
   %w[http https].include?(scheme.downcase)
 end
 
+# rubocop:disable Metrics/MethodLength
 def metadata_for(dir, name)
-  path = File.join(dir, name, "index.md")
-  return unless File.file?(path)
+  # Cache metadata reads to avoid repeated file I/O
+  @_metadata_cache ||= {}
+  cache_key = "#{dir}/#{name}"
 
-  parts = File.read(path).split("---", 3)
-  return unless parts.size >= 2
+  # Use fetch to avoid double hash lookup
+  @_metadata_cache.fetch(cache_key) do
+    path = File.join(dir, name, "index.md")
+    unless File.file?(path)
+      @_metadata_cache[cache_key] = nil
+      next nil
+    end
 
-  begin
-    YAML.safe_load(parts[1])
-  rescue Psych::SyntaxError => error
-    flunk "invalid YAML: #{error.message}"
+    parts = File.read(path).split("---", 3)
+    unless parts.size >= 2
+      @_metadata_cache[cache_key] = nil
+      next nil
+    end
+
+    begin
+      YAML.safe_load(parts[1])
+    rescue Psych::SyntaxError => error
+      flunk "invalid YAML: #{error.message}"
+    end
   end
 end
+# rubocop:enable Metrics/MethodLength
 
+# rubocop:disable Metrics/MethodLength
 def body_for(dir, name)
-  path = File.join(dir, name, "index.md")
-  return "" unless File.file?(path)
+  # Cache body reads to avoid repeated file I/O
+  @_body_cache ||= {}
+  cache_key = "#{dir}/#{name}"
 
-  parts = File.read(path).split("---", 3)
-  return "" unless parts.size >= 2
+  # Use fetch to avoid double hash lookup
+  @_body_cache.fetch(cache_key) do
+    path = File.join(dir, name, "index.md")
+    unless File.file?(path)
+      @_body_cache[cache_key] = ""
+      next ""
+    end
 
-  parts[2]
+    parts = File.read(path).split("---", 3)
+    unless parts.size >= 2
+      @_body_cache[cache_key] = ""
+      next ""
+    end
+
+    parts[2]
+  end
 end
+# rubocop:enable Metrics/MethodLength
 
 def convert_from_real_to_query_safe(string)
-  duplicate = string.dup.to_s
+  result = string.to_s.dup
 
-  UNSAFE_TO_SAFE_STRING_MAPPINGS.keys.each_with_object(duplicate) do |key, new_string|
-    new_string.gsub(key, UNSAFE_TO_SAFE_STRING_MAPPINGS[key])
+  UNSAFE_TO_SAFE_STRING_MAPPINGS.each do |key, value|
+    result.gsub!(key, value)
   end
+
+  result
 end
 
 def convert_from_query_safe_to_real(string)
-  duplicate = string.dup.to_s
+  result = string.to_s.dup
 
-  SAFE_TO_UNSAFE_STRING_MAPPINGS.keys.each_with_object(duplicate) do |key, new_string|
-    new_string.gsub(key, SAFE_TO_UNSAFE_STRING_MAPPINGS[key])
+  SAFE_TO_UNSAFE_STRING_MAPPINGS.each do |key, value|
+    result.gsub!(key, value)
   end
+
+  result
 end
 
 def add_message(type, file, line_number, message)
