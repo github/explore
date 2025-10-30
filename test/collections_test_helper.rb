@@ -74,7 +74,8 @@ def update_collection_item(collection, old_repo_with_owner, new_repo_with_owner)
 
   # Read, replace, and write in one go - simpler and faster
   content = File.read(file)
-  new_content = content.gsub(old_repo_with_owner, new_repo_with_owner)
+  # Escape the old repo name to prevent regex injection
+  new_content = content.gsub(Regexp.escape(old_repo_with_owner), new_repo_with_owner)
   File.write(file, new_content)
 end
 

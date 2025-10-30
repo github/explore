@@ -226,33 +226,34 @@ def valid_uri_scheme?(scheme)
   %w[http https].include?(scheme.downcase)
 end
 
-# rubocop:disable Metrics/AbcSize, Metrics/MethodLength
+# rubocop:disable Metrics/MethodLength
 def metadata_for(dir, name)
   # Cache metadata reads to avoid repeated file I/O
   @_metadata_cache ||= {}
   cache_key = "#{dir}/#{name}"
 
-  return @_metadata_cache[cache_key] if @_metadata_cache.key?(cache_key)
+  # Use fetch to avoid double hash lookup
+  @_metadata_cache.fetch(cache_key) do
+    path = File.join(dir, name, "index.md")
+    unless File.file?(path)
+      @_metadata_cache[cache_key] = nil
+      next nil
+    end
 
-  path = File.join(dir, name, "index.md")
-  unless File.file?(path)
-    @_metadata_cache[cache_key] = nil
-    return nil
-  end
+    parts = File.read(path).split("---", 3)
+    unless parts.size >= 2
+      @_metadata_cache[cache_key] = nil
+      next nil
+    end
 
-  parts = File.read(path).split("---", 3)
-  unless parts.size >= 2
-    @_metadata_cache[cache_key] = nil
-    return nil
-  end
-
-  begin
-    @_metadata_cache[cache_key] = YAML.safe_load(parts[1])
-  rescue Psych::SyntaxError => error
-    flunk "invalid YAML: #{error.message}"
+    begin
+      YAML.safe_load(parts[1])
+    rescue Psych::SyntaxError => error
+      flunk "invalid YAML: #{error.message}"
+    end
   end
 end
-# rubocop:enable Metrics/AbcSize, Metrics/MethodLength
+# rubocop:enable Metrics/MethodLength
 
 # rubocop:disable Metrics/MethodLength
 def body_for(dir, name)
@@ -260,21 +261,22 @@ def body_for(dir, name)
   @_body_cache ||= {}
   cache_key = "#{dir}/#{name}"
 
-  return @_body_cache[cache_key] if @_body_cache.key?(cache_key)
+  # Use fetch to avoid double hash lookup
+  @_body_cache.fetch(cache_key) do
+    path = File.join(dir, name, "index.md")
+    unless File.file?(path)
+      @_body_cache[cache_key] = ""
+      next ""
+    end
 
-  path = File.join(dir, name, "index.md")
-  unless File.file?(path)
-    @_body_cache[cache_key] = ""
-    return ""
+    parts = File.read(path).split("---", 3)
+    unless parts.size >= 2
+      @_body_cache[cache_key] = ""
+      next ""
+    end
+
+    parts[2]
   end
-
-  parts = File.read(path).split("---", 3)
-  unless parts.size >= 2
-    @_body_cache[cache_key] = ""
-    return ""
-  end
-
-  @_body_cache[cache_key] = parts[2]
 end
 # rubocop:enable Metrics/MethodLength
 

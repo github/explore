@@ -29,7 +29,7 @@ describe "topics" do
         aliases = aliases_for(topic)
 
         if aliases.any?
-          # Use the alias map to efficiently check for conflicts O(1) instead of O(n)
+          # Use the alias map to efficiently check for conflicts O(m) per topic instead of O(n*m)
           alias_map = build_alias_map
           aliases.each do |alias_name|
             topics_using_alias = alias_map[alias_name] || []
