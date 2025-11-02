@@ -85,7 +85,9 @@ def remove_collection_item(collection, old_repo_with_owner)
   # Read entire file at once and filter lines - more efficient than line-by-line I/O
   content = File.read(file)
   escaped_repo = Regexp.escape(old_repo_with_owner)
-  filtered_content = content.lines.reject { |line| /#{escaped_repo}/i.match?(line) }.join
+  # Compile regex once instead of in each iteration
+  pattern = /#{escaped_repo}/i
+  filtered_content = content.lines.reject { |line| pattern.match?(line) }.join
 
   File.write(file, filtered_content)
 end
@@ -93,10 +95,13 @@ end
 def annotate_collection_item_error(collection, string, error_message)
   file = "#{collections_dir}/#{collection}/index.md"
 
-  line_number = File.open(file, "r") do |f|
-    file_contents = f.readlines
-    string == "" ? 1 : file_contents.index { |line| line.include?(string) } + 1
-  end
+  # Read file once instead of using File.open for better performance
+  line_number = if string == ""
+                  1
+                else
+                  lines = File.readlines(file)
+                  lines.index { |line| line.include?(string) } + 1
+                end
 
   add_message("error", "collections/#{collection}/index.md", line_number, error_message)
 end

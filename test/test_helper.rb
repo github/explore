@@ -281,23 +281,19 @@ end
 # rubocop:enable Metrics/MethodLength
 
 def convert_from_real_to_query_safe(string)
-  result = string.to_s.dup
-
-  UNSAFE_TO_SAFE_STRING_MAPPINGS.each do |key, value|
-    result.gsub!(key, value)
-  end
-
-  result
+  # Use single gsub with hash for better performance - O(n) instead of O(n*m)
+  string.to_s.gsub(
+    Regexp.union(UNSAFE_TO_SAFE_STRING_MAPPINGS.keys),
+    UNSAFE_TO_SAFE_STRING_MAPPINGS
+  )
 end
 
 def convert_from_query_safe_to_real(string)
-  result = string.to_s.dup
-
-  SAFE_TO_UNSAFE_STRING_MAPPINGS.each do |key, value|
-    result.gsub!(key, value)
-  end
-
-  result
+  # Use single gsub with hash for better performance - O(n) instead of O(n*m)
+  string.to_s.gsub(
+    Regexp.union(SAFE_TO_UNSAFE_STRING_MAPPINGS.keys),
+    SAFE_TO_UNSAFE_STRING_MAPPINGS
+  )
 end
 
 def add_message(type, file, line_number, message)
