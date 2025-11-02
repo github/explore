@@ -100,7 +100,8 @@ def annotate_collection_item_error(collection, string, error_message)
                   1
                 else
                   lines = File.readlines(file)
-                  lines.index { |line| line.include?(string) } + 1
+                  index = lines.index { |line| line.include?(string) }
+                  index ? index + 1 : 1
                 end
 
   add_message("error", "collections/#{collection}/index.md", line_number, error_message)
