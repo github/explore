@@ -1,6 +1,6 @@
 ---
-name:
-description:
+name: My Agent Name
+description: Brief description of the agent
 ---
 
 # My Agent
