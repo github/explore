@@ -11,7 +11,7 @@ items:
  - chatwoot/chatwoot
  - openebs/openebs  
  - fission/fission
- - covid19india/covid19india-react
+ - covid19india/covid19india.github.io
  - knadh/listmonk
  - appsmithorg/appsmith
  - bagisto/bagisto
