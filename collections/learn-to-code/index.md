@@ -1,4 +1,4 @@
----
+Introduction to Coding---
 items:
  - Chalarangelo/30-seconds-of-code
  - railsgirls/guides.railsgirls.com
