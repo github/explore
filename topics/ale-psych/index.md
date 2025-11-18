@@ -7,8 +7,8 @@ short_description: ALE Psych is a fork of Psych Engine tailored for modders of F
 topic: ale-psych
 url: https://github.com/ALE-Psych-Crew/ALE-Psych
 ---
-ALE Psych is a modding engine for Friday Night Funkin’ built on Psych Engine 0.7.3. It provides a structured environment for creating custom stages, menus, events, and gameplay features without modifying the engine’s source code.
+ALE Psych is a Friday Night Funkin’ modding engine built on Psych Engine 0.7.3. It allows users to add new menus, events, stages, and gameplay changes without modifying the engine’s source files.
 
-The engine supports Lua and HScript for defining behaviors, UI elements, and logic directly from a mod’s folder. It also uses JSON files to configure options, credits, and engine properties, allowing creators to organize and manage mod content cleanly.
+Mods can use Lua and HScript to create custom classes, script song events, and control various gameplay features.
 
-ALE Psych includes various improvements and quality-of-life features over the original Psych Engine, such as redesigned loading systems, support for custom classes, optional 3D objects, and an integrated console for debugging. These additions make it a practical and flexible choice for developers building structured and maintainable FNF mods.
+ALE Psych differs from the original Psych Engine in several ways, including updates to loading, better class support, and a built-in console for debugging. These changes help modders develop and test their projects more easily.
