@@ -16,7 +16,6 @@ items:
  - sf585978/cssReadingList
  - damian0604/bdaca/blob/master/book/bd-aca_book.pdf
  - vtraag/4TU-CSS
- - honeyAndSw/computational-social-science
  - 5harad/css
  - jaeyk/comp_thinking_social_science
  - jhofman/css2013
@@ -37,7 +36,6 @@ items:
  - maczokni/crimemapping_textbook_bookdown
  - maczokni/r-socialsci
  - CJWorkbench
- - CullenBoldt/CSSproject
  - sagepublishing/Hogan-FSStDS-draft-chapters-2019
  - sagepublishing/Bernauer-DQTAwR-draft-chapters-2019
  

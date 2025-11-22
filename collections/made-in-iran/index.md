@@ -20,6 +20,8 @@ items:
  - genyleap/pt
  - HyperDbg/HyperDbg
  - GoFarsi/book
+ - majidh1/JalaliDatePicker
+ - mojtaba-afraz/clean-code-persian
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
