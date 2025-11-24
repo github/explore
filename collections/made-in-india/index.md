@@ -15,6 +15,7 @@ items:
  - knadh/listmonk
  - appsmithorg/appsmith
  - bagisto/bagisto
+ - krayin/laravel-crm
  - gluster/glusterfs
  - frappe/frappe
  - spacecloud-io/space-cloud
