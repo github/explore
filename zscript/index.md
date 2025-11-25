@@ -1,5 +1,5 @@
 ---
-aliases: Zscript
+aliases: Zscript,Doomscript
 created_by: Zdoom Team
 display_name: ZScript
 github_url: https://github.com/zdoom-docs/stable
