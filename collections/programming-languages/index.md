@@ -66,6 +66,7 @@ items:
 - carbon-language/carbon-lang
 - imba/imba
 - tarpit-collective/cane
+- ufko-org/rebel
 - cython/cython
 - modular/modular
 - odin-lang/Odin
