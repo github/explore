@@ -22,7 +22,7 @@ items:
  - mlrun/mlrun
  - microsoft/pai
  - clearml/clearml
- - iterative/dvc
+ - treeverse/dvc
  - determined-ai/determined
  - myelintek/primehub
  - treeverse/lakeFS

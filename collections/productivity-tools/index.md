@@ -28,7 +28,7 @@ items:
  - tldr-pages/tldr
  - aria2/aria2
  - Bash-it/bash-it
- - iterative/dvc
+ - treeverse/dvc
  - starship/starship
  - gnunn1/tilix
  - fabioz/mu-repo
