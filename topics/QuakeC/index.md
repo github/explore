@@ -1,13 +1,12 @@
 ---
 aliases: quake-c, quake-1-c
 created_by: john-carmack, id-software
-display_name: quakeC
+display_name: quakec
 github_url: https://github.com/id-Software/quake-rerelease-qc
-logo: 
 related: id software, c, quake, id-tech
 released: 1996
-short_description: quake-c is a exclusive compiler made only for the 1996 title Quake, written by john Carmack.
+short_description: quake-c is a compiler made only for Quake by john Carmack.
 url: https://github.com/id-Software/quake-rerelease-qc
 wikipedia_url: https://en.wikipedia.org/wiki/QuakeC
 ---
-quakeC is a exclusive compiler made only for the 1996 title Quake by john Carmack.
+quakec is an exclusive compiler made only for the 1996 title Quake by john Carmack.

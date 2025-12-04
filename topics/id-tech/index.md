@@ -6,8 +6,8 @@ github_url: https://github.com/id-Software/DOOM
 logo: 
 related: hexen, quake, doom
 released: 1993
-short_description: id tech is a Game Engine used by ID software and notable for being used in games like Doom, Quake and Hexen.
+short_description: id tech is a Game Engine used by id software.
 url: https://www.idsoftware.com/en
 wikipedia_url: https://en.wikipedia.org/wiki/Id_Tech
 ---
-id tech is a Game Engine used by ID software used in games like Doom, Quake and Hexen.
+id tech is a Game Engine used by ID software, notable for being used in games like Doom, Quake, and Hexen.
