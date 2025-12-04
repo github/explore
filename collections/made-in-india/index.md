@@ -52,6 +52,8 @@ items:
  - nammayatri/nammayatri
  - kubewall/kubewall
  - Pujo-Atlas-Kolkata
+ - unopim/unopim
+ - aureuserp/aureuserp
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png
