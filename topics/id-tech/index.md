@@ -1,5 +1,4 @@
 ---
-aliases: id-tech
 display_name: Id Tech
 short_description: Id Tech is a game engine developed by id Software in 1993.
 topic: id-tech
