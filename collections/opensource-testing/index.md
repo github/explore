@@ -62,6 +62,7 @@ items:
  - HuddleEng/PhantomCSS
  - keploy/keploy
  - vividus-framework
+ - wouter-bauweraerts/UnitSocializer
 display_name: OpenSource Testing Frameworks & Tools
 created_by: msupernaut
 ---
