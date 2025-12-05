@@ -1,12 +1,13 @@
 ---
-aliases: zscript, doomscript
-created_by: zdoom Team
+aliases: z-script, doomscript
+created_by: Zdoom
 display_name: zscript
 github_url: https://github.com/zdoom-docs/stable
-related: doom, Script, id tech
+logo: 
+related: zdoom, script, id-tech
 released: 2005
-short_description: Zscript is a Script language made by Zdoom in 2005 for GZDoom, used by the Sorce port Mods/Games
+short_description: quake-c is a compiler made only for Quake by john Carmack.
+topic: zscript
 url: https://zdoom.org/wiki/ZScript
-wikipedia_url:
 ---
-Zscript is a Script language made by Zdoom in 2005 for GZDoom.
+zscript is a Script language made by Zdoom in 2005 for GZDoom, used by the Sorce port Mods/Games
