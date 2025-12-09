@@ -13,10 +13,10 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6.0.0
+      - uses: actions/checkout@v6.0.1
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.268.0
+        uses: ruby/setup-ruby@v1.269.0
         with:
           bundler-cache: true
 
