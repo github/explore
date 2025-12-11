@@ -1,7 +1,8 @@
 ---
-aliases: dreamlab, dreamlab-ai
+aliases: dreamlab
 display_name: DreamLab
-short_description: Innovation collective blending AI, realtime computing, immersive technology, and creative expression across film, games, and interactive media.
+logo: thedreamlab.png
+short_description: Innovation collective blending AI, realtime computing, immersive tech, and creative expression in film, games, and media.
 topic: thedreamlab
 related: artificial-intelligence, unity3d, unreal-engine, realtime, computer-graphics, creative-coding, generative-art, virtual-reality, computer-vision, game-development
 ---
