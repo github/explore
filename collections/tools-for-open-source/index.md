@@ -41,7 +41,7 @@ items:
  - jamesgeorge007/github-activity-readme
  - Yizack/gists-readme
  - lacolaco/contributors-img
- - all-contributors/all-contributors.github.io
+ - all-contributors/allcontributors.org
  - VishwaGauravIn/pretty-readme-badges
  - buttons/github-buttons
  - DenverCoder1/readme-typing-svg
