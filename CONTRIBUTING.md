@@ -56,7 +56,8 @@ Similarly, **collections** like "[music](https://raw.githubusercontent.com/githu
 
 _/collections/music/index.md_:
 
-```markdown
+```sort Notebook above files![1000004742](https://github.com/user-attachments/assets/213e49fd-921d-4b9a-aabb-18e285dab242)
+
 ---
 items:
  - beetbox/beets
@@ -92,7 +93,7 @@ We are likely to consider suggestions to curate a topic or collection that is va
 
 Please note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.
 
-To propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
+To propose a new topic or collection, please **sort Notebook above files  request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
 
 **Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
 
