@@ -30,7 +30,7 @@ jobs:
         run: bundle exec rake collections
 
       - name: Commit changes and open PR
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: "✨ Autofixing renamed/removed collection items ✨"
           committer: "github-actions[bot] <actions@github.com>"
