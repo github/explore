@@ -38,17 +38,19 @@ def valid_topic?(raw_topic)
 end
 
 def topics_dir
-  File.expand_path("../topics", File.dirname(__FILE__))
+  @topics_dir ||= File.expand_path("../topics", File.dirname(__FILE__))
 end
 
 def topic_dirs
-  topic_directories = dirs_to_test.split(" ").map do |file|
-    directory = file.split("/")[1]
-    [topics_dir, directory].join("/")
-  end
+  @topic_dirs ||= begin
+    topic_directories = dirs_to_test.split(" ").map do |file|
+      directory = file.split("/")[1]
+      [topics_dir, directory].join("/")
+    end
 
-  Dir[*topic_directories].select do |entry|
-    entry != "." && entry != ".." && File.directory?(entry)
+    Dir[*topic_directories].select do |entry|
+      entry != "." && entry != ".." && File.directory?(entry)
+    end
   end
 end
 
@@ -61,7 +63,7 @@ def dirs_to_test
 end
 
 def topics
-  topic_dirs.map { |dir_path| File.basename(dir_path) }
+  @topics ||= topic_dirs.map { |dir_path| File.basename(dir_path) }
 end
 
 def image_paths_for(topic)
@@ -89,6 +91,22 @@ def aliases_for(topic)
 
   metadata["aliases"].split(",").map(&:strip)
 end
+
+# rubocop:disable Metrics/MethodLength
+def build_alias_map
+  @build_alias_map ||= begin
+    map = {}
+    topics.each do |topic|
+      aliases = aliases_for(topic)
+      aliases.each do |alias_name|
+        map[alias_name] ||= []
+        map[alias_name] << topic
+      end
+    end
+    map
+  end
+end
+# rubocop:enable Metrics/MethodLength
 
 def assert_oxford_comma(text)
   return unless text

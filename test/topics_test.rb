@@ -29,14 +29,19 @@ describe "topics" do
         aliases = aliases_for(topic)
 
         if aliases.any?
-          other_topics = topics - [topic]
-          other_topics.each do |other_topic|
-            other_aliases = aliases_for(other_topic)
-            shared_aliases = aliases & other_aliases
-            verb = shared_aliases.length == 1 ? "is" : "are"
+          # Use the alias map to efficiently check for conflicts O(m) per topic instead of O(n*m)
+          alias_map = build_alias_map
+          aliases.each do |alias_name|
+            topics_using_alias = alias_map[alias_name] || []
+            # Remove current topic from the list
+            other_topics_using_alias = topics_using_alias - [topic]
 
-            assert_empty shared_aliases,
-                         "#{shared_aliases.join(', ')} #{verb} already aliased to " \
+            next if other_topics_using_alias.empty?
+
+            verb = "is"
+            other_topic = other_topics_using_alias.first
+            assert_empty other_topics_using_alias,
+                         "#{alias_name} #{verb} already aliased to " \
                          "#{other_topic}, please remove from either '#{topic}' or '#{other_topic}'"
           end
         end
