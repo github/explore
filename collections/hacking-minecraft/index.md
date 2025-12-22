@@ -24,7 +24,7 @@ items:
  - Zerite/CraftLib
  - PaperMC/Paper
  - CaffeineMC/sodium
- - FabricMC/fabric
+ - FabricMC/fabric-api
  - lambda-client/lambda/
  - nerdsinspace/nocom-explanation
 display_name: Hacking Minecraft
