@@ -2,6 +2,7 @@
 items:
  - aseprite/aseprite/
  - piskelapp/piskel/
+ - counter185/voidsprite/
  - jvalen/pixel-art-react/
  - maierfelix/poxi/
  - gmattie/Data-Pixels/
