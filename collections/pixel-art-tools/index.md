@@ -1,4 +1,4 @@
----
+-[-](https://github.com/dyaskur/google-chat-gpt.git)-
 items:
  - aseprite/aseprite/
  - piskelapp/piskel/
