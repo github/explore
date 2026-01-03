@@ -73,6 +73,7 @@ items:
 - ValeLang/Vale
 - factor/factor
 - julelang/jule
+- kvthweatt/fluxlang
 display_name: Programming languages
 created_by: leereilly
 ---
