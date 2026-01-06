@@ -2,7 +2,7 @@
 display_name: Blue Archive
 logo: bluearchive.png
 created_by: MX Studio, Nexon Games Co. Ltd., IO Division
-released: February 4, 2021 (Japan), November 8, 2021 (Global)
+released: February 4, 2021
 short_description: Blue Archive is a real-time strategy role-playing game.
 related:  blue-archive
 topic: bluearchive
