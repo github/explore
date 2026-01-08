@@ -1,6 +1,6 @@
 ---
 display_name: Wikidata
-short_description: wikidata is a databased by wikipedia created in 2012.
+short_description: Wikidata is free and open knowledge base
 related: wikipedia
 topic: wikidata
 ---
