@@ -41,7 +41,6 @@ items:
  - TheOdinProject/curriculum
  - aladddinaliyev/learn-to-code
 
-
 display_name: Learn to Code
 created_by: alysonla
 image: learn-to-code.png
