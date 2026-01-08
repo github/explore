@@ -39,7 +39,7 @@ items:
  - aykutkardas/regexlearn.com
  - olexale/flutter_roadmap
  - TheOdinProject/curriculum
- - aladddinaliyev/learn-to-code
+ - aladddinaliyev/explore
 
 display_name: Learn to Code
 created_by: alysonla
