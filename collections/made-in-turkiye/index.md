@@ -6,7 +6,7 @@ items:
  - fatih/vim-go
  - ssg/streetcoder
  - ahmetb/kubectx
- - eser/laroux.js
+ - eser/laroux
  - f/vue-wait
  - joom/hezarfen
  - jbytecode/LinRegOutliers
@@ -16,7 +16,6 @@ items:
  - passwall/passwall-server
  - passwall/passwall-extension
  - passwall/passwall-desktop
- - passwall/passwall-web
  - refinedev/refine
  - pankod/superplate
  - Huseyinnurbaki/mocktail

@@ -37,7 +37,7 @@ items:
   - bacen/pix-api
   - agenda-tech-brasil/agenda-tech-brasil
   - frontendbr/vagas
-  - vinteumorg/Floresta
+  - getfloresta/Floresta
   
 display_name: Made in Brazil
 created_by: caarlos0
