@@ -13,6 +13,7 @@ items:
  - Metroxe/one-html-page-challenge
  - fairfield-programming/fairfield-programming.github.io
  - alshedivat/al-folio
+ - ajay-dhangar/ajay-dhangar.github.io
 display_name: GitHub Pages examples
 created_by: jdennes
 image: github-pages-examples.png
