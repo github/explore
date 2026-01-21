@@ -4,6 +4,7 @@ short_description: A built-in plugin API for the game SCP:SL.
 topic: scpsl-labapi
 url: https://plugins.scpslgame.com/
 related: scp-sl, scpsl-plugin, scpsl-server, scpsl
+aliases: labapi
 github_url: https://github.com/northwood-studios/LabAPI
 created_by: Northwood Studios
 ---
