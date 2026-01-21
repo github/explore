@@ -1,6 +1,6 @@
 ---
 display_name: Qiskit
-aliases: qiskit, qiskit-sdk, qiskit-addon, ibm-qiskit, qiskit-ibm-sdk
+aliases: qiskit-sdk, qiskit-addon, ibm-qiskit, qiskit-ibm-sdk
 logo: qiskit.png
 created_by: IBM Quantum
 released: February 4, 2021
