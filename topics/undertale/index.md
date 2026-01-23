@@ -2,11 +2,11 @@
 display_name: Undertale
 topic: undertale
 created_by: Toby Fox
-aliases: UT, under-tale
+aliases: ut, under-tale
 related: video-game, role-playing-game, rpg, deltarune, gamemaker, bullet-hell
-short_description: Undertale is a video game created by Toby Fox
+short_description: Undertale is a video game created by Toby Fox.
 wikipedia_url: https://en.wikipedia.org/wiki/Undertale
-released: 9/2015
+released: September/2015
 url: https://undertale.com/
 logo: undertale.png
 ---
