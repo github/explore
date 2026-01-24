@@ -1,7 +1,7 @@
 ---
 display_name: Remote control
-short_description: remote control is a software used to control machines through commands.
+short_description: A remote control application is a type of program capable of controlling digital devices or computers using a tool, and can be used from distant locations.
 related: tool
 topic: remote control
 ---
-remote control is a software used to control machines through commands.
+A remote control application is a type of program capable of controlling digital devices or computers using a tool, and can be used from distant locations.
