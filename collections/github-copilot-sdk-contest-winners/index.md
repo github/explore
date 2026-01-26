@@ -12,5 +12,6 @@ items:
   - Arthur742Ramos/repo-bootcamp
 display_name: GitHub Copilot SDK Reddit Contest Winners
 created_by: filmgirl
+image: github-copilot-sdk-contest-winners.png
 ---
 A collection of projects from the winners of the GitHub Copilot SDK weekend contest held the weekend of January 25, 2026.
