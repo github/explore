@@ -16,7 +16,7 @@ items:
  - LightTable/LightTable
  - zedapp/zed
  - microsoft/vscode
- - zyedidia/micro
+ - micro-editor/micro
  - neoedmund/neoeedit
  - mawww/kakoune
  - 0x7c13/Notepads
