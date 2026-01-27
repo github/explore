@@ -23,7 +23,8 @@ items:
  - kaplayjs/kaplay
  - straker/kontra
  - quinton-ashley/p5play
+ - B4uti4github/choppy-js
 display_name: JavaScript Game Engines
-created_by: leereilly
+created_by: B4uti4github
 ---
 Learn or level up your 1337 gamedev skills and build amazing games together for web, desktop, or mobile using these HTML5 / JavaScript game engines.
