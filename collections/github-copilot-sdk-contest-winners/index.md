@@ -10,6 +10,7 @@ items:
   - SchwarziLukas/braindump-butler
   - smestern/treepilot
   - Arthur742Ramos/repo-bootcamp
+  - Godzilla675/clip-js-copilot
 display_name: GitHub Copilot SDK Reddit Contest Winners
 created_by: filmgirl
 image: github-copilot-sdk-contest-winners.png
