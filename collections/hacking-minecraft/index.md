@@ -16,7 +16,7 @@ items:
  - walterhiggins/ScriptCraft
  - MinecraftForge/MinecraftForge
  - ddevault/TrueCraft
- - MachineMuse/MachineMusePowersuits
+ - flowtender/MachineMusePowersuits
  - micdoodle8/Galacticraft
  - Bukkit/Bukkit
  - GlowstoneMC/Glowstone
