@@ -22,8 +22,9 @@ items:
  - icflorescu/trpc-sveltekit
  - react-cosmos/react-cosmos
  - pf4j/pf4j
- 
+
 display_name: Made in Romania
+created_by: spinualexandru
 image: made-in-romania.png
 ---
 Open source projects built in or receiving significant contributions from Romania :romania:
