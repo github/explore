@@ -11,7 +11,7 @@ items:
  - chatwoot/chatwoot
  - openebs/openebs  
  - fission/fission
- - covid19india/covid19india-react
+ - covid19india/covid19india.github.io
  - knadh/listmonk
  - appsmithorg/appsmith
  - bagisto/bagisto
@@ -52,6 +52,8 @@ items:
  - nammayatri/nammayatri
  - kubewall/kubewall
  - Pujo-Atlas-Kolkata
+ - unopim/unopim
+ - aureuserp/aureuserp
 display_name: Made in India
 created_by: mvkaran
 image: made-in-india.png

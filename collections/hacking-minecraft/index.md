@@ -16,7 +16,7 @@ items:
  - walterhiggins/ScriptCraft
  - MinecraftForge/MinecraftForge
  - ddevault/TrueCraft
- - MachineMuse/MachineMusePowersuits
+ - flowtender/MachineMusePowersuits
  - micdoodle8/Galacticraft
  - Bukkit/Bukkit
  - GlowstoneMC/Glowstone
@@ -24,7 +24,7 @@ items:
  - Zerite/CraftLib
  - PaperMC/Paper
  - CaffeineMC/sodium
- - FabricMC/fabric
+ - FabricMC/fabric-api
  - lambda-client/lambda/
  - nerdsinspace/nocom-explanation
 display_name: Hacking Minecraft
