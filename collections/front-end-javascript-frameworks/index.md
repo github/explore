@@ -32,6 +32,7 @@ items:
  - sveltejs/kit
  - refinedev/refine
  - docusign/1fe
+ - TarekRaafat/eleva
 
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan
