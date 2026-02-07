@@ -28,7 +28,7 @@ items:
   - okfn-brasil/querido-diario
   - Purple-Stock/open-erp
   - thiagobarbosa/quorum-api
-  - pgmodeler/pgmodeler
+  - nullptrlabs/pgmodeler
   - alshedivat/al-folio
   - george-gca/multi-language-al-folio
   - levxyca/diciotech

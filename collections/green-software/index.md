@@ -48,7 +48,7 @@ items:
  - green-code-initiative/creedengo-rules-specifications
  - geopm/geopm
  - green-code-initiative/ecoCode-android
- - Accenture/EcoSonar
+ - green-code-initiative/EcoSonar
  - green-code-initiative/creedengo-ios
  - GoogleCloudPlatform/region-carbon-info
  - Azure/carbon-aware-keda-operator
