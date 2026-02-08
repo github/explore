@@ -5,5 +5,6 @@ aliases: auto-hotkey,ahk-script,autohotkeys
 topic: autohotkey
 related: hotkey,macro,script
 logo: autohotkey.png
+github_url: https://github.com/AutoHotkey/AutoHotkey
 ---
 The autohotkey is a custom script created by Autohotkey group for macro-commands creation, launched in 2003.
