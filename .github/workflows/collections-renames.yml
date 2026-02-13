@@ -36,3 +36,11 @@ jobs:
           committer: "github-actions[bot] <actions@github.com>"
           branch: "update-collections-${PR_ID}"
           title: "✨ Autofixing renamed/removed collection items ✨"
+
+      - name: Auto-merge PR
+        if: steps.cpr.outputs.pull-request-number
+        run: |
+          gh pr review --approve "${{ steps.cpr.outputs.pull-request-url }}"
+          gh pr merge --auto "${{ steps.cpr.outputs.pull-request-url }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
