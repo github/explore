@@ -270,10 +270,10 @@ def add_message(type, file, line_number, message)
   client.messages << "::#{type} file=#{file},line=#{line_number}::#{message}"
 end
 
-CACHE_FILE = File.expand_path("../.api-cache.json", File.dirname(__FILE__))
+CACHE_FILE = File.expand_path("../.api-cache.json", __dir__)
 CACHE_TTL_SECONDS = 24 * 60 * 60 # 24 hours
 
-def self.load_api_cache!
+def load_api_cache!
   return unless File.exist?(CACHE_FILE)
 
   data = JSON.parse(File.read(CACHE_FILE))
@@ -282,13 +282,17 @@ def self.load_api_cache!
 
   if data["repos"]
     data["repos"].each do |key, entry|
-      next if now - entry["cached_at"].to_i > ttl
+      cached_at = entry["cached_at"]
+      next unless cached_at
+      next if now - cached_at.to_i > ttl
 
       result = entry["value"]
       # Reconstruct a minimal object that responds to .full_name
       cached = if result.nil?
                  nil
                else
+                 next unless result["full_name"]
+
                  Struct.new(:full_name).new(result["full_name"])
                end
       NewOctokit.class_variable_get(:@@repos)[key] = cached
@@ -297,12 +301,16 @@ def self.load_api_cache!
 
   if data["users"]
     data["users"].each do |key, entry|
-      next if now - entry["cached_at"].to_i > ttl
+      cached_at = entry["cached_at"]
+      next unless cached_at
+      next if now - cached_at.to_i > ttl
 
       result = entry["value"]
       cached = if result.nil?
                  nil
                else
+                 next unless result["login"]
+
                  Struct.new(:login).new(result["login"])
                end
       NewOctokit.class_variable_get(:@@users)[key] = cached
@@ -312,13 +320,14 @@ rescue JSON::ParserError, StandardError => e
   warn "Failed to load API cache: #{e.message}"
 end
 
-def self.save_api_cache!
+def save_api_cache!
   now = Time.now.to_i
   repos_data = {}
   users_data = {}
 
   NewOctokit.class_variable_get(:@@repos).each do |key, value|
     next if key == :skip_requests
+    next if value == true
 
     repos_data[key.to_s] = {
       "cached_at" => now,
@@ -328,6 +337,7 @@ def self.save_api_cache!
 
   NewOctokit.class_variable_get(:@@users).each do |key, value|
     next if key == :skip_requests
+    next if value == true
 
     users_data[key.to_s] = {
       "cached_at" => now,
