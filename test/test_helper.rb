@@ -270,6 +270,79 @@ def add_message(type, file, line_number, message)
   client.messages << "::#{type} file=#{file},line=#{line_number}::#{message}"
 end
 
+CACHE_FILE = File.expand_path("../.api-cache.json", File.dirname(__FILE__))
+CACHE_TTL_SECONDS = 24 * 60 * 60 # 24 hours
+
+def self.load_api_cache!
+  return unless File.exist?(CACHE_FILE)
+
+  data = JSON.parse(File.read(CACHE_FILE))
+  now = Time.now.to_i
+  ttl = CACHE_TTL_SECONDS
+
+  if data["repos"]
+    data["repos"].each do |key, entry|
+      next if now - entry["cached_at"].to_i > ttl
+
+      result = entry["value"]
+      # Reconstruct a minimal object that responds to .full_name
+      cached = if result.nil?
+                 nil
+               else
+                 Struct.new(:full_name).new(result["full_name"])
+               end
+      NewOctokit.class_variable_get(:@@repos)[key] = cached
+    end
+  end
+
+  if data["users"]
+    data["users"].each do |key, entry|
+      next if now - entry["cached_at"].to_i > ttl
+
+      result = entry["value"]
+      cached = if result.nil?
+                 nil
+               else
+                 Struct.new(:login).new(result["login"])
+               end
+      NewOctokit.class_variable_get(:@@users)[key] = cached
+    end
+  end
+rescue JSON::ParserError, StandardError => e
+  warn "Failed to load API cache: #{e.message}"
+end
+
+def self.save_api_cache!
+  now = Time.now.to_i
+  repos_data = {}
+  users_data = {}
+
+  NewOctokit.class_variable_get(:@@repos).each do |key, value|
+    next if key == :skip_requests
+
+    repos_data[key.to_s] = {
+      "cached_at" => now,
+      "value" => value.nil? ? nil : { "full_name" => value.respond_to?(:full_name) ? value.full_name : value.to_s },
+    }
+  end
+
+  NewOctokit.class_variable_get(:@@users).each do |key, value|
+    next if key == :skip_requests
+
+    users_data[key.to_s] = {
+      "cached_at" => now,
+      "value" => value.nil? ? nil : { "login" => value.respond_to?(:login) ? value.login : value.to_s },
+    }
+  end
+
+  File.write(CACHE_FILE, JSON.pretty_generate({ "repos" => repos_data, "users" => users_data }))
+rescue StandardError => e
+  warn "Failed to save API cache: #{e.message}"
+end
+
+# Load cached API results at startup
+load_api_cache!
+
 Minitest.after_run do
   warn "Repo checks were rate limited during this CI run" if NewOctokit.repos_skipped?
   warn "User checks were rate limited during this CI run" if NewOctokit.users_skipped?
@@ -279,4 +352,7 @@ Minitest.after_run do
   NewOctokit.messages.each do |message|
     puts message
   end
+
+  # Persist cache for next CI run
+  save_api_cache!
 end
