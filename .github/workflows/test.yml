@@ -7,6 +7,8 @@ on:
   pull_request:
   workflow_dispatch:
   merge_group:
+  schedule:
+    - cron: "0 */6 * * *"
 
 permissions:
   contents: read
@@ -26,32 +28,41 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Determine if this is a scheduled or full run
+        id: run_type
+        run: |
+          if [[ "${{ github.event_name }}" == "schedule" || "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "full_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "full_run=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Get non-topic and non-collection changed files
         id: all
-        if: matrix.test_type == 'all'
+        if: matrix.test_type == 'all' && steps.run_type.outputs.full_run != 'true'
         run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep -ve '^topics\/' -ve '^collections\/' | xargs)" >> $GITHUB_OUTPUT
 
       - name: Get changed topic files
         id: topics
-        if: matrix.test_type == 'topics'
+        if: matrix.test_type == 'topics' && steps.run_type.outputs.full_run != 'true'
         run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep ^topics\/ | xargs)" >> $GITHUB_OUTPUT
 
       - name: Get changed collection files
         id: collections
-        if: matrix.test_type == 'collections'
+        if: matrix.test_type == 'collections' && steps.run_type.outputs.full_run != 'true'
         run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep ^collections\/ | xargs)" >> $GITHUB_OUTPUT
 
       - name: Setup Ruby
-        if: ${{ steps.topics.outputs.changed || steps.collections.outputs.changed || steps.all.outputs.changed }}
+        if: ${{ steps.topics.outputs.changed || steps.collections.outputs.changed || steps.all.outputs.changed || steps.run_type.outputs.full_run == 'true' }}
         uses: ruby/setup-ruby@80740b3b13bf9857e28854481ca95a84e78a2bdf # v1.284.0
         with:
           bundler-cache: true
 
       - name: Build and test with Rake
         if: |
-          (matrix.test_type == 'topics' && steps.topics.outputs.changed) ||
-          (matrix.test_type == 'collections' && steps.collections.outputs.changed) ||
-          (matrix.test_type == 'all' && steps.all.outputs.changed)
+          (matrix.test_type == 'topics' && (steps.topics.outputs.changed || steps.run_type.outputs.full_run == 'true')) ||
+          (matrix.test_type == 'collections' && (steps.collections.outputs.changed || steps.run_type.outputs.full_run == 'true')) ||
+          (matrix.test_type == 'all' && (steps.all.outputs.changed || steps.run_type.outputs.full_run == 'true'))
         run: bundle exec rake ${{ matrix.test_type }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
