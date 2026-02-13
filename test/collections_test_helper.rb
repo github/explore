@@ -61,7 +61,7 @@ def shard_collections(all_collections)
   shard = ENV["COLLECTION_SHARD"]&.to_i
   total_shards = ENV["COLLECTION_TOTAL_SHARDS"]&.to_i
 
-  return all_collections unless shard && total_shards && total_shards > 1
+  return all_collections unless !shard.nil? && !total_shards.nil? && total_shards > 1
 
   # Sort alphabetically for deterministic sharding
   sorted = all_collections.sort
