@@ -110,7 +110,7 @@ end
 GRAPHQL_BATCH_SIZE = 100
 
 def prefetch_all_collection_items!
-  return if @_prefetched
+  return if NewOctokit.global_prefetch_done?
 
   all_repos = []
   all_users = []
@@ -128,21 +128,26 @@ def prefetch_all_collection_items!
   all_repos.uniq!
   all_users.uniq!
 
-  # Batch repos in chunks to stay within GraphQL query limits
-  all_repos.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
-    cache_repos_exist_check!(batch)
-  end
+  begin
+    # Batch repos in chunks to stay within GraphQL query limits
+    all_repos.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
+      cache_repos_exist_check!(batch)
+    end
 
-  # Batch users in chunks
-  all_users.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
-    cache_users_exist_check!(batch)
-  end
+    # Batch users in chunks
+    all_users.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
+      cache_users_exist_check!(batch)
+    end
 
-  # Check orgs for users not found
-  not_found_users = users_not_found_from(all_users)
-  not_found_users.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
-    cache_orgs_exist_check!(batch)
-  end
+    # Check orgs for users not found
+    not_found_users = users_not_found_from(all_users)
+    not_found_users.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
+      cache_orgs_exist_check!(batch)
+    end
 
-  @_prefetched = true
+    # Only mark as done after ALL batch calls completed successfully
+    NewOctokit.global_prefetch_done!
+  rescue StandardError => error
+    warn "Global prefetch failed, falling back to per-test caching: #{error.message}"
+  end
 end
