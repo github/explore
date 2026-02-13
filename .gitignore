@@ -8,3 +8,4 @@ vendor
 .bundle
 .idea
 .tool-versions
+.api-cache.json

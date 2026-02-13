@@ -47,6 +47,17 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Restore API cache
+        if: |
+          (matrix.test_type == 'collections' && steps.collections.outputs.changed) ||
+          (matrix.test_type == 'all' && steps.all.outputs.changed)
+        uses: actions/cache@v4
+        with:
+          path: .api-cache.json
+          key: api-cache-${{ matrix.test_type }}-${{ github.run_id }}
+          restore-keys: |
+            api-cache-${{ matrix.test_type }}-
+
       - name: Build and test with Rake
         if: |
           (matrix.test_type == 'topics' && steps.topics.outputs.changed) ||
