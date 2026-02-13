@@ -58,3 +58,4 @@ jobs:
           TOPIC_FILES: ${{ steps.topics.outputs.changed }}
           COLLECTION_FILES: ${{ steps.collections.outputs.changed }}
           TEST_ALL_FILES: ${{ steps.all.outputs.changed }}
+          SKIP_COLLECTION_API_CHECKS: ${{ matrix.test_type == 'all' && '1' || '' }}
