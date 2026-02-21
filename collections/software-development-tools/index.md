@@ -18,6 +18,7 @@ items:
  - AhmedOsman101/commit-sage-cli
  - semaphoreio/semaphore
  - Nayjest/Gito
+ - vitali87/code-graph-rag
 display_name: Software development tools
 ---
 Build apps better, faster, stronger.
