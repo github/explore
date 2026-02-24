@@ -30,9 +30,18 @@ jobs:
         run: bundle exec rake collections
 
       - name: Commit changes and open PR
+        id: cpr
         uses: peter-evans/create-pull-request@v8
         with:
           commit-message: "✨ Autofixing renamed/removed collection items ✨"
           committer: "github-actions[bot] <actions@github.com>"
           branch: "update-collections-${PR_ID}"
           title: "✨ Autofixing renamed/removed collection items ✨"
+
+      - name: Auto-merge PR
+        if: steps.cpr.outputs.pull-request-number
+        run: |
+          gh pr review --approve "${{ steps.cpr.outputs.pull-request-url }}"
+          gh pr merge --auto "${{ steps.cpr.outputs.pull-request-url }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
