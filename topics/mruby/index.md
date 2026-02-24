@@ -3,7 +3,7 @@ created_by: Yukihiro Matsumoto
 display_name: mruby
 github_url: https://github.com/mruby
 logo: mruby.png
-related: language, mruby, mrubyc, microcontroller, ruby
+related: language, mrubyc, microcontroller, ruby
 released: April 20, 2012
 short_description: mruby is a lightweight, embeddable implementation of Ruby.
 topic: mruby
