@@ -2,7 +2,6 @@
 items:
  - kin-lang/kin
  - vitest-dev/eslint-plugin-vitest
- - veritem/gcommit
  - divinrkz/swaggiffy
  - pacifiquem/awesome-go
  - Mutesa-Cedric/react-swift-reveal
