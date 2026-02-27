@@ -39,7 +39,7 @@ items:
  - TechEmpower/FrameworkBenchmarks
  - greensoftwarelab/Energy-Languages
  - etsy/cloud-jewels
- - GreenAlgorithms/green-algorithms-tool
+ - Cambridge-Sustainable-Computing-Lab/Green-Algorithms-calculator
  - digital4better/carbonara
  - sosy-lab/cpu-energy-meter
  - Green-Software-Foundation/if
