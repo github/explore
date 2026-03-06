@@ -1,5 +1,7 @@
 ---
+aliases: qucore
 display_name: QuCore Dynamic
+logo: qucore-dynamic.png
 short_description: A modular digital OS ecosystem for high-standard TypeScript development and scalable business infrastructure.
 topic: qucore-dynamic
 ---
