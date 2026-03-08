@@ -1,5 +1,5 @@
 ---
-display_name: World Models
+display_name: World models
 short_description: World models are neural networks that learn an internal representation of an environment's dynamics, enabling agents to simulate and plan within a learned latent space.
 topic: world-models
 ---
