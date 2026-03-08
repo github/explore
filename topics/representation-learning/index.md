@@ -1,5 +1,5 @@
 ---
-display_name: Representation Learning
+display_name: Representation learning
 short_description: Representation learning is a set of techniques in machine learning that automatically discover compact and meaningful features from raw data.
 topic: representation-learning
 wikipedia_url: https://en.wikipedia.org/wiki/Feature_learning
