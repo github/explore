@@ -1,0 +1,58 @@
+displayName: Agent Skill
+url: https://github.com/topics/agentskill
+logo: agent-skill.png
+description: Modular, production-ready capabilities for AI agents. Agent skills are composable, versioned skill packages that extend agent functionality with specialized capabilities like perception, memory, communication, and task execution.
+shortDescription: Modular capabilities for AI agents
+created_by: Indigo Karasu
+relatedTopics:
+  - name: agent
+      url: https://github.com/topics/agent
+        - name: ai-agents
+            url: https://github.com/topics/ai-agents
+              - name: machine-learning
+                  url: https://github.com/topics/machine-learning
+                    - name: openclaw
+                        url: https://github.com/topics/openclaw
+                        featured:
+                          - name: ocas-corvus
+                              url: https://github.com/indigokarasu/corvus
+                                  description: Exploratory pattern analysis engine
+                                    - name: ocas-elephas
+                                        url: https://github.com/indigokarasu/elephas
+                                            description: Memory and context management system
+                                              - name: ocas-forge
+                                                  url: https://github.com/indigokarasu/forge
+                                                      description: Agent skill builder and optimizer
+                                                        - name: ocas-look
+                                                            url: https://github.com/indigokarasu/look
+                                                                description: Visual perception and analysis engine
+                                                                  - name: ocas-mentor
+                                                                      url: https://github.com/indigokarasu/mentor
+                                                                          description: Teaching and knowledge transfer framework
+                                                                            - name: ocas-praxis
+                                                                                url: https://github.com/indigokarasu/praxis
+                                                                                    description: Practical execution and workflow management
+                                                                                      - name: ocas-rally
+                                                                                          url: https://github.com/indigokarasu/rally
+                                                                                              description: Collaborative coordination system
+                                                                                                - name: ocas-relay
+                                                                                                    url: https://github.com/indigokarasu/relay
+                                                                                                        description: Inter-agent communication infrastructure
+                                                                                                          - name: ocas-scout
+                                                                                                              url: https://github.com/indigokarasu/scout
+                                                                                                                  description: Open source intelligence and research aggregation
+                                                                                                                    - name: ocas-sift
+                                                                                                                        url: https://github.com/indigokarasu/sift
+                                                                                                                            description: Data filtering and extraction engine
+                                                                                                                              - name: ocas-taste
+                                                                                                                                  url: https://github.com/indigokarasu/taste
+                                                                                                                                      description: Quality assessment and evaluation framework
+                                                                                                                                        - name: ocas-vesper
+                                                                                                                                            url: https://github.com/indigokarasu/vesper
+                                                                                                                                                description: Synthesis and reporting system
+                                                                                                                                                  - name: ocas-voyage
+                                                                                                                                                      url: https://github.com/indigokarasu/voyage
+                                                                                                                                                          description: Planning and navigation system
+                                                                                                                                                            - name: ocas-weave
+                                                                                                                                                                url: https://github.com/indigokarasu/weave
+                                                                                                                                                                    description: Integration and orchestration layer
