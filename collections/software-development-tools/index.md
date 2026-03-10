@@ -1,5 +1,6 @@
 ---
 items:
+ - dusan-maintains/oss-maintenance-log
  - betterspecs/betterspecs
  - pengwynn/flint
  - mislav/rfc
