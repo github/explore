@@ -1,5 +1,6 @@
 ---
 items:
+ - slmkhanahmed/Git-Galaxy-Finder
  - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
