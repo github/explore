@@ -59,6 +59,7 @@ class NewOctokit < Octokit::Client
   @@repo_request_count = 0 unless defined? @@repo_request_count
   @@user_request_count = 0 unless defined? @@user_request_count
   @@messages = [] unless defined? @@messages
+  @@global_prefetch_done = false unless defined? @@global_prefetch_done
 
   def repos
     @@repos
@@ -120,6 +121,14 @@ class NewOctokit < Octokit::Client
 
   def self.messages
     @@messages
+  end
+
+  def self.global_prefetch_done?
+    @@global_prefetch_done
+  end
+
+  def self.global_prefetch_done!
+    @@global_prefetch_done = true
   end
 
   # rubocop:enable Style/ClassVars

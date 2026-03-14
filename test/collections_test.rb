@@ -137,6 +137,8 @@ describe "collections" do
       end
 
       it "fails if a user, organization, or repository has been renamed or removed" do
+        prefetch_all_collection_items!
+
         errors = []
         repos_to_check = []
         users_to_check = []
@@ -150,10 +152,6 @@ describe "collections" do
             users_to_check << item
           end
         end
-
-        cache_repos_exist_check!(repos_to_check)
-        cache_users_exist_check!(users_to_check)
-        cache_orgs_exist_check!(users_not_found_from(users_to_check))
 
         repos_to_check.each do |repo|
           repo_result = client.repository(repo)
