@@ -14,7 +14,6 @@ items:
  - jbytecode/rcaller
  - obss/sahi
  - passwall/passwall-server
- - passwall/passwall-extension
  - passwall/passwall-desktop
  - refinedev/refine
  - pankod/superplate
