@@ -1,5 +1,6 @@
 ---
 items:
+ - dusan-maintains/oss-maintenance-log
  - tdsmith/github-snooze-button
  - octobox/octobox
  - semantic-release/semantic-release
