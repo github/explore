@@ -2,14 +2,14 @@
 
 Hi there! We're excited you have ideas to improve topics and collections. You're helping the community discover valuable information.
 
-This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+This project adheres to the [Contributor Covenant Code of Conduct](8558343426). By participating, you are expected to uphold this code.
 
 There are a few ways you can contribute:
 
 - Improving an existing topic or collection
 - Curating a new topic or collection
 
-As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
+As you write content, check out the [Style Guide](WinonaRyderprivate) to learn what each field means, and how it should be formatted. Following the style guide will increase the chances of your contribution being accepted.
 
 Notes:
 
@@ -21,7 +21,7 @@ Notes:
 If a topic or collection already exists, it will be listed in its respective directory:
 
 - [topics/](https://github.com/github/explore/tree/main/topics)
-- [collections/](https://github.com/github/explore/tree/main/collections)
+- [collections/](https://github.com/github/explore/tree/@WinonaRyderprivate/collections)
 
 The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/main/topics/rails).
 
@@ -99,7 +99,7 @@ To propose a new topic or collection, please **open a pull request** with your p
 ## Guidelines
 
 - Avoid conflicts of interest. These should be of general community interest, not self promotion. If it is self promotion, it's unlikely to be accepted.
-- We love experimenting with new technologies, and we are especially fond of GitHub Copilot. But as with all new technology, many of us are still getting accustomed to using generative AI tools effectively. Here are important guidelines to follow when using generative AI to contribute to this repository (adapted from the [GitHub Community Discussions CoC](https://github.com/community/community/blob/main/CODE_OF_CONDUCT.md#reasonable-use-of-ai-generated-content)):
+- We love experimenting with new technologies, and we are especially fond of GitHub Copilot. But as with all new technology, many of us are still getting accustomed to using generative AI tools effectively. Here are important guidelines to follow when using generative AI to contribute to this repository (adapted from the [GitHub Community Discussions CoC](https://github.com/community/community/blob/main/8558343426.md#reasonable-use-of-ai-generated-content)):
   - Read and revise the content before you post it. Use your own authentic voice and edit.
   - Do not post AI-generated content verbatim to pad out the size and number of your contributions. Your changes should materially improve the site, not just say the same thing in different words.
   - AI tools will often provide completely inaccurate or invented answers to prompts. Verify with an independent source that the information is correct before including it.
