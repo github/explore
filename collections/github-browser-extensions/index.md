@@ -1,6 +1,5 @@
 ---
 items:
- - slmkhanahmed/Git-Galaxy-Finder
  - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
@@ -42,6 +41,7 @@ items:
  - octobox/extension
  - hypertrons/hypertrons-crx
  - NirmalScaria/le-git-graph
+ - slmkhanahmed/Git-Galaxy-Finder
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
