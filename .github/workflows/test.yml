@@ -16,10 +16,21 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        test_type:
-          - collections
-          - topics
-          - all
+        include:
+          - test_type: topics
+          - test_type: collections
+            shard: 0
+            total_shards: 4
+          - test_type: collections
+            shard: 1
+            total_shards: 4
+          - test_type: collections
+            shard: 2
+            total_shards: 4
+          - test_type: collections
+            shard: 3
+            total_shards: 4
+          - test_type: all
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6.0.1
@@ -58,3 +69,5 @@ jobs:
           TOPIC_FILES: ${{ steps.topics.outputs.changed }}
           COLLECTION_FILES: ${{ steps.collections.outputs.changed }}
           TEST_ALL_FILES: ${{ steps.all.outputs.changed }}
+          COLLECTION_SHARD: ${{ matrix.shard }}
+          COLLECTION_TOTAL_SHARDS: ${{ matrix.total_shards }}
