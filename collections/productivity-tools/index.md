@@ -1,5 +1,6 @@
 ---
 items:
+ - dusan-maintains/oss-maintenance-log
  - ohmyzsh/ohmyzsh
  - microsoft/terminal
  - ggreer/the_silver_searcher
