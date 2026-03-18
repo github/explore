@@ -43,6 +43,7 @@ items:
  - cloudposse/atmos
  - axem-solutions/dem
  - semaphoreio/semaphore
+ - stoicsoft/server-compass-releases
  
 display_name: DevOps tools
 ---
