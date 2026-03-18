@@ -1,6 +1,5 @@
 ---
 display_name: Discord bot
-portal_url: https://discord.com/developers/docs/intro
 short_description: Programmable agents that automate tasks and provide interactive features within Discord servers.
 topic: discord-bot
 wikipedia_url: https://en.wikipedia.org/wiki/Discord_(software)
