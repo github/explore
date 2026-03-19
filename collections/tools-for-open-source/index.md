@@ -1,6 +1,5 @@
 ---
 items:
- - dusan-maintains/oss-maintenance-log
  - tdsmith/github-snooze-button
  - octobox/octobox
  - semantic-release/semantic-release
@@ -47,6 +46,7 @@ items:
  - buttons/github-buttons
  - DenverCoder1/readme-typing-svg
  - AhmedOsman101/commit-sage-cli
+ - dusan-maintains/oss-maintenance-log
 display_name: Tools for Open Source
 created_by: mozzadrella
 image: tools-for-open-source.png

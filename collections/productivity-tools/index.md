@@ -1,6 +1,5 @@
 ---
 items:
- - dusan-maintains/oss-maintenance-log
  - ohmyzsh/ohmyzsh
  - microsoft/terminal
  - ggreer/the_silver_searcher
@@ -44,6 +43,7 @@ items:
  - WofWca/jumpcutter
  - mnfst/manifest
  - AhmedOsman101/commit-sage-cli
+ - dusan-maintains/oss-maintenance-log
 display_name: Software productivity tools
 created_by: holman
 ---
