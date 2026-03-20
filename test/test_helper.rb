@@ -282,6 +282,7 @@ end
 CACHE_FILE = File.expand_path("../.api-cache.json", __dir__)
 CACHE_TTL_SECONDS = 24 * 60 * 60 # 24 hours
 
+# rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
 def load_api_cache!
   return unless File.exist?(CACHE_FILE)
 
@@ -289,46 +290,44 @@ def load_api_cache!
   now = Time.now.to_i
   ttl = CACHE_TTL_SECONDS
 
-  if data["repos"]
-    data["repos"].each do |key, entry|
-      cached_at = entry["cached_at"]
-      next unless cached_at
-      next if now - cached_at.to_i > ttl
+  data["repos"]&.each do |key, entry|
+    cached_at = entry["cached_at"]
+    next unless cached_at
+    next if now - cached_at.to_i > ttl
 
-      result = entry["value"]
-      # Reconstruct a minimal object that responds to .full_name
-      cached = if result.nil?
-                 nil
-               else
-                 next unless result["full_name"]
+    result = entry["value"]
+    # Reconstruct a minimal object that responds to .full_name
+    cached = if result.nil?
+               nil
+             else
+               next unless result["full_name"]
 
-                 Struct.new(:full_name).new(result["full_name"])
-               end
-      NewOctokit.class_variable_get(:@@repos)[key] = cached
-    end
+               Struct.new(:full_name).new(result["full_name"])
+             end
+    NewOctokit.class_variable_get(:@@repos)[key] = cached
   end
 
-  if data["users"]
-    data["users"].each do |key, entry|
-      cached_at = entry["cached_at"]
-      next unless cached_at
-      next if now - cached_at.to_i > ttl
+  data["users"]&.each do |key, entry|
+    cached_at = entry["cached_at"]
+    next unless cached_at
+    next if now - cached_at.to_i > ttl
 
-      result = entry["value"]
-      cached = if result.nil?
-                 nil
-               else
-                 next unless result["login"]
+    result = entry["value"]
+    cached = if result.nil?
+               nil
+             else
+               next unless result["login"]
 
-                 Struct.new(:login).new(result["login"])
-               end
-      NewOctokit.class_variable_get(:@@users)[key] = cached
-    end
+               Struct.new(:login).new(result["login"])
+             end
+    NewOctokit.class_variable_get(:@@users)[key] = cached
   end
-rescue JSON::ParserError, StandardError => e
-  warn "Failed to load API cache: #{e.message}"
+rescue StandardError => error
+  warn "Failed to load API cache: #{error.message}"
 end
+# rubocop:enable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
 
+# rubocop:disable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
 def save_api_cache!
   now = Time.now.to_i
   repos_data = {}
@@ -340,7 +339,11 @@ def save_api_cache!
 
     repos_data[key.to_s] = {
       "cached_at" => now,
-      "value" => value.nil? ? nil : { "full_name" => value.respond_to?(:full_name) ? value.full_name : value.to_s },
+      "value" => if value.nil?
+                   nil
+                 else
+                   { "full_name" => value.respond_to?(:full_name) ? value.full_name : value.to_s }
+                 end,
     }
   end
 
@@ -350,14 +353,19 @@ def save_api_cache!
 
     users_data[key.to_s] = {
       "cached_at" => now,
-      "value" => value.nil? ? nil : { "login" => value.respond_to?(:login) ? value.login : value.to_s },
+      "value" => if value.nil?
+                   nil
+                 else
+                   { "login" => value.respond_to?(:login) ? value.login : value.to_s }
+                 end,
     }
   end
 
   File.write(CACHE_FILE, JSON.pretty_generate({ "repos" => repos_data, "users" => users_data }))
-rescue StandardError => e
-  warn "Failed to save API cache: #{e.message}"
+rescue StandardError => error
+  warn "Failed to save API cache: #{error.message}"
 end
+# rubocop:enable Metrics/AbcSize, Metrics/CyclomaticComplexity, Metrics/MethodLength, Metrics/PerceivedComplexity
 
 # Load cached API results at startup
 load_api_cache!
