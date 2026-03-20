@@ -46,7 +46,7 @@ items:
  - Jaysmito101/TerraForge3D
  - keploy/keploy
  - LambdaTest/test-at-scale
- - arnav-kr/json-formatter
+ - jformatter/json-formatter-crx
  - abhimanyu003/sttr
  - juspay/hyperswitch
  - nammayatri/nammayatri

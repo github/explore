@@ -41,6 +41,7 @@ items:
  - octobox/extension
  - hypertrons/hypertrons-crx
  - NirmalScaria/le-git-graph
+ - slmkhanahmed/Git-Galaxy-Finder
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---
