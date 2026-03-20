@@ -39,6 +39,7 @@ items:
  - https://www.youtube.com/embed/bHvf7Tagt18
  - https://www.youtube.com/embed/ILsA4nyG7I0
  - AMAI-GmbH/AI-Expert-Roadmap
+ - vitali87/code-graph-rag
 display_name: Getting started with machine learning
 created_by: omoju
 ---

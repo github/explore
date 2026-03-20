@@ -137,6 +137,9 @@ describe "collections" do
       end
 
       it "fails if a user, organization, or repository has been renamed or removed" do
+        if ENV["SKIP_COLLECTION_API_CHECKS"]
+          skip "Skipping collection API checks (rename detection handled by collections-renames)"
+        end
         prefetch_all_collection_items!
 
         errors = []
