@@ -2,7 +2,7 @@
 display_name: Runtime Node
 short_description: A secure, distroless Node.js Docker base image built entirely FROM scratch.
 topic: runtime-node
-aliases: node-runtime, distroless-node
+aliases: runtime-node, node-runtime, distroless-node, scratch-node, secure-node, hardened-node
 related: nodejs, docker, distroless, containers, security
 github_url: https://github.com/Runtimes-Node/Runtime-Node
 url: https://hub.docker.com/r/runtimenode/runtime-node
