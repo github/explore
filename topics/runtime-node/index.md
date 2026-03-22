@@ -5,7 +5,7 @@ topic: runtime-node
 aliases: node-runtime, distroless-node
 related: nodejs, docker, distroless, containers, security
 github_url: https://github.com/Runtimes-Node/Runtime-Node
-official_url: https://hub.docker.com/r/runtimenode/runtime-node
+url: https://hub.docker.com/r/runtimenode/runtime-node
 created_by: Runtimes-Node
 ---
 
