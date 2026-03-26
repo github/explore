@@ -58,6 +58,17 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Restore API cache
+        if: |
+          (matrix.test_type == 'collections' && steps.collections.outputs.changed) ||
+          (matrix.test_type == 'all' && steps.all.outputs.changed)
+        uses: actions/cache@v4
+        with:
+          path: .api-cache.json
+          key: api-cache-${{ matrix.test_type }}-${{ github.run_id }}
+          restore-keys: |
+            api-cache-${{ matrix.test_type }}-
+
       - name: Build and test with Rake
         if: |
           (matrix.test_type == 'topics' && steps.topics.outputs.changed) ||
@@ -69,5 +80,6 @@ jobs:
           TOPIC_FILES: ${{ steps.topics.outputs.changed }}
           COLLECTION_FILES: ${{ steps.collections.outputs.changed }}
           TEST_ALL_FILES: ${{ steps.all.outputs.changed }}
+          SKIP_COLLECTION_API_CHECKS: ${{ matrix.test_type == 'all' && '1' || '' }}
           COLLECTION_SHARD: ${{ matrix.shard }}
           COLLECTION_TOTAL_SHARDS: ${{ matrix.total_shards }}
