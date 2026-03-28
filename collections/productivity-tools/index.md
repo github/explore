@@ -43,6 +43,7 @@ items:
  - WofWca/jumpcutter
  - mnfst/manifest
  - AhmedOsman101/commit-sage-cli
+ - HMAKT99/UnTouchID
 display_name: Software productivity tools
 created_by: holman
 ---
