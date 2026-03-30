@@ -44,6 +44,7 @@ items:
  - mnfst/manifest
  - AhmedOsman101/commit-sage-cli
  - ErezShahaf/Lore
+ - dusan-maintains/oss-maintenance-log
 display_name: Software productivity tools
 created_by: holman
 ---
