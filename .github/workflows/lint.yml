@@ -5,20 +5,41 @@ on:
   workflow_dispatch:
   merge_group:
 
-permissions:
-  contents: write
-  checks: write
-
 jobs:
   lint:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v6.0.1
+      - uses: actions/checkout@v6.0.2
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.299.0
+        with:
+          bundler-cache: false
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Run RuboCop
+        run: |
+          bundle exec rubocop
+
+  autocorrect:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6.0.2
         with:
           ref: ${{ github.event.pull_request.head.ref || github.ref }}
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.284.0
+        uses: ruby/setup-ruby@v1.299.0
         with:
           bundler-cache: true
 
@@ -27,7 +48,6 @@ jobs:
           bundle exec rubocop -A
 
       - name: Check for changes
-        id: changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
