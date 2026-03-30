@@ -40,8 +40,10 @@ jobs:
 
       - name: Commit and push changes
         if: env.changes == 'true' && github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
         run: |
-          git checkout -b ${{ github.event.pull_request.head.ref }}
+          git checkout -b "$HEAD_REF"
           git add .
           git commit -m "chore: auto-corrected with RuboCop"
-          git push origin ${{ github.event.pull_request.head.ref }}
+          git push origin "$HEAD_REF"
