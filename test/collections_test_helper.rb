@@ -124,37 +124,36 @@ GRAPHQL_BATCH_SIZE = 100
 def prefetch_all_collection_items!
   return if NewOctokit.global_prefetch_done?
 
-  all_repos = []
-  all_users = []
+  repos, users = collect_all_collection_items
+  prefetch_repos!(repos)
+  prefetch_users!(users)
 
-  collections.each do |collection|
-    items_for_collection(collection)&.each do |item|
-      if item.match?(USERNAME_AND_REPO_REGEX)
-        all_repos << item
-      elsif item.match?(USERNAME_REGEX)
-        all_users << item
-      end
-    end
-  end
+  NewOctokit.global_prefetch_done!
+end
 
-  all_repos.uniq!
-  all_users.uniq!
+def collect_all_collection_items
+  all_items = collections.flat_map { |c| items_for_collection(c) || [] }
 
-  # Batch repos in chunks to stay within GraphQL query limits
-  all_repos.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
+  repos = all_items.select { |item| item.match?(USERNAME_AND_REPO_REGEX) }.uniq
+  users = all_items
+          .select { |item| item.match?(USERNAME_REGEX) && !item.match?(USERNAME_AND_REPO_REGEX) }
+          .uniq
+
+  [repos, users]
+end
+
+def prefetch_repos!(repos)
+  repos.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
     cache_repos_exist_check!(batch)
   end
+end
 
-  # Batch users in chunks
-  all_users.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
+def prefetch_users!(users)
+  users.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
     cache_users_exist_check!(batch)
   end
 
-  # Check orgs for users not found
-  not_found_users = users_not_found_from(all_users)
-  not_found_users.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
+  users_not_found_from(users).each_slice(GRAPHQL_BATCH_SIZE) do |batch|
     cache_orgs_exist_check!(batch)
   end
-
-  NewOctokit.global_prefetch_done!
 end
