@@ -39,7 +39,7 @@ items:
  - TechEmpower/FrameworkBenchmarks
  - greensoftwarelab/Energy-Languages
  - etsy/cloud-jewels
- - GreenAlgorithms/green-algorithms-tool
+ - Cambridge-Sustainable-Computing-Lab/Green-Algorithms-calculator
  - digital4better/carbonara
  - sosy-lab/cpu-energy-meter
  - Green-Software-Foundation/if
@@ -48,7 +48,7 @@ items:
  - green-code-initiative/creedengo-rules-specifications
  - geopm/geopm
  - green-code-initiative/ecoCode-android
- - Accenture/EcoSonar
+ - green-code-initiative/EcoSonar
  - green-code-initiative/creedengo-ios
  - GoogleCloudPlatform/region-carbon-info
  - Azure/carbon-aware-keda-operator
