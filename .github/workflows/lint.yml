@@ -13,12 +13,12 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6.0.1
+      - uses: actions/checkout@v6.0.2
         with:
           ref: ${{ github.event.pull_request.head.ref || github.ref }}
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.284.0
+        uses: ruby/setup-ruby@v1.299.0
         with:
           bundler-cache: true
 
