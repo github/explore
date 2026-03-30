@@ -43,8 +43,8 @@ items:
  - WofWca/jumpcutter
  - mnfst/manifest
  - AhmedOsman101/commit-sage-cli
- - ErezShahaf/Lore
  - dusan-maintains/oss-maintenance-log
+ - ErezShahaf/Lore
 display_name: Software productivity tools
 created_by: holman
 ---
