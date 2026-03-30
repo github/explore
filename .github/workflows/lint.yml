@@ -5,13 +5,11 @@ on:
   workflow_dispatch:
   merge_group:
 
-permissions:
-  contents: write
-  checks: write
-
 jobs:
   lint:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v6.0.2
         with:
@@ -23,12 +21,30 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Run RuboCop
+        run: |
+          bundle exec rubocop
+
+  autocorrect:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6.0.2
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.299.0
+        with:
+          bundler-cache: true
+
       - name: Run RuboCop with auto-correct
         run: |
           bundle exec rubocop -A
 
       - name: Check for changes
-        id: changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -39,11 +55,8 @@ jobs:
           fi
 
       - name: Commit and push changes
-        if: env.changes == 'true' && github.event.pull_request.head.repo.full_name == github.repository
-        env:
-          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        if: env.changes == 'true'
         run: |
-          git checkout -b "$HEAD_REF"
           git add .
           git commit -m "chore: auto-corrected with RuboCop"
-          git push origin "$HEAD_REF"
+          git push
