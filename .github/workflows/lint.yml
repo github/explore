@@ -19,7 +19,10 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1.299.0
         with:
-          bundler-cache: true
+          bundler-cache: false
+
+      - name: Install dependencies
+        run: bundle install
 
       - name: Run RuboCop
         run: |
