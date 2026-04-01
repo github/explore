@@ -1,9 +1,9 @@
 ---
 display_name: Autohotkey
 short_description: autohotkey is custom script for macro-commands creation.
-aliases: auto-hotkey,ahk-script,autohotkeys
+aliases: auto-hotkey, ahk-script, autohotkeys
 topic: autohotkey
-related: hotkey,macro,script
+related: hotkey, macro, script
 logo: autohotkey.png
 github_url: https://github.com/AutoHotkey/AutoHotkey
 ---
