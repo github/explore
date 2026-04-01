@@ -1,6 +1,6 @@
 ---
 display_name: Data Recovery
-aliases: data-carving,digital-forensic,recovery-tool,photo-recovery
+aliases: data-carving, digital-forensic, recovery-tool, photo-recovery
 short_description: Data recovery is a method of recovering using software to undone file deletion or corruption.
 topic: data-recovery
 wikipedia_url: https://en.wikipedia.org/wiki/data_recovery
