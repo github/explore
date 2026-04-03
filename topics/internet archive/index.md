@@ -1,7 +1,7 @@
 ---
 display_name: Internet Archive
-short_description: Digital Millennium Copyright Act is a 1998 law that regulates copyright on the internet.
+short_description: Internet Archive is a website for a digital collection run by the archive.org group.
 aliases: wayback-machine
 topic: dmca 
 ---
-The Digital Millennium Copyright Act (DMCA) is a 1998 law that regulates copyright on the internet, made by the United States Congress.
+Internet Archive is a website for a digital collection run by the archive.org group, also responsible for the Wayback Machine software.
