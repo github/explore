@@ -1,7 +1,7 @@
 ---
-display_name: Dmca
-short_description: Digital Millennium Copyright Act is a 1998 law that regulates copyright on the internet.
-related: copyright
-topic: dmca 
+display_name: Fangame
+short_description:Fan game is a type of game made by fans of a franchise.
+related: games
+topic: fangame 
 ---
-The Digital Millennium Copyright Act (DMCA) is a 1998 law that regulates copyright on the internet, made by the United States Congress.
+Fan game is a type of game made by fans of a franchise, they can feature original content or content based on some other work.
