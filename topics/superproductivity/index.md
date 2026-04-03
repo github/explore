@@ -2,7 +2,6 @@
 display_name: superProductivity
 short_description: superProductivity is a free open source to-do list and time tracker with Pomodoro, timeboxing, and Jira/GitHub integrations.
 topic: superproductivity
-wikipedia_url: false
 url: https://super-productivity.com
 logo: superproductivity.png
 related: productivity, todo, time-tracking, pomodoro, task-management, jira, github-issues

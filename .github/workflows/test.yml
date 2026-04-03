@@ -16,13 +16,24 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        test_type:
-          - collections
-          - topics
-          - all
+        include:
+          - test_type: topics
+          - test_type: collections
+            shard: 0
+            total_shards: 4
+          - test_type: collections
+            shard: 1
+            total_shards: 4
+          - test_type: collections
+            shard: 2
+            total_shards: 4
+          - test_type: collections
+            shard: 3
+            total_shards: 4
+          - test_type: all
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6.0.1
+      - uses: actions/checkout@v6.0.2
         with:
           fetch-depth: 0
 
@@ -43,9 +54,20 @@ jobs:
 
       - name: Setup Ruby
         if: ${{ steps.topics.outputs.changed || steps.collections.outputs.changed || steps.all.outputs.changed }}
-        uses: ruby/setup-ruby@80740b3b13bf9857e28854481ca95a84e78a2bdf # v1.284.0
+        uses: ruby/setup-ruby@3ff19f5e2baf30647122352b96108b1fbe250c64 # v1.299.0
         with:
           bundler-cache: true
+
+      - name: Restore API cache
+        if: |
+          (matrix.test_type == 'collections' && steps.collections.outputs.changed) ||
+          (matrix.test_type == 'all' && steps.all.outputs.changed)
+        uses: actions/cache@v4
+        with:
+          path: .api-cache.json
+          key: api-cache-${{ matrix.test_type }}-${{ github.run_id }}
+          restore-keys: |
+            api-cache-${{ matrix.test_type }}-
 
       - name: Build and test with Rake
         if: |
@@ -58,3 +80,6 @@ jobs:
           TOPIC_FILES: ${{ steps.topics.outputs.changed }}
           COLLECTION_FILES: ${{ steps.collections.outputs.changed }}
           TEST_ALL_FILES: ${{ steps.all.outputs.changed }}
+          SKIP_COLLECTION_API_CHECKS: ${{ matrix.test_type == 'all' && '1' || '' }}
+          COLLECTION_SHARD: ${{ matrix.shard }}
+          COLLECTION_TOTAL_SHARDS: ${{ matrix.total_shards }}
