@@ -1,8 +1,8 @@
 ---
-display_name: Craftstudio engine
-short_description: Craftstudio is a 2011 engine by Élisée Maurer
-related: Minecraft,Voxel
-topic: craftstudio
-logo: 
+display_name: Adventure Game Interpreter 
+short_description: Adventure Game Interpreter is a game engine developed by Ken Williams
+Jeff Stephenson in 1984.
+topic: Adventure Game Interpreter
 ---
-Craftstudio is a 2011 engine by Élisée Maurer for Voxel games creation.
+Adventure Game Interpreter is a game engine developed by Ken Williams
+Jeff Stephenson in 1984 designed to run in personal computers.
