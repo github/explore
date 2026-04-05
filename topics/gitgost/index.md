@@ -1,20 +1,15 @@
 ---
+aliases: git-gost, gitghost, git-anonymous, anonymous-git, ghost-git, git-private, git-no-account
+created_by: Livrädo Sandoval
 display_name: gitGost
-short_description: Anonymous Git contributions with zero accounts, zero metadata.
+github_url: https://github.com/livrasand/gitGost
+logo: gitgost.png
+related: git, github, privacy, anonymity, devops, open-source, security, tor, metadata, pull-request
+released: November 28, 2025
+short_description: gitGost enables anonymous Git contributions.
 topic: gitgost
-related: git privacy anonymity open-source security
+url: https://gitgost.leapcell.app
+wikipedia_url: https://en.wikipedia.org/wiki/Privacy
 ---
 
-gitGost enables developers to contribute to public repositories without revealing their identity. It removes personal metadata such as name, email, and timestamps, and creates pull requests through a neutral bot.
-
-Designed for privacy-conscious developers, gitGost allows safe contributions to sensitive or controversial projects while maintaining accountability through public review processes.
-
-Key features include:
-
-- No accounts or authentication required
-- Metadata stripping for anonymity
-- One-command setup via Git remote
-- Rate limiting and abuse protection
-- Open source and self-hostable
-
-gitGost is ideal for developers who value privacy, want to avoid permanent public contribution records, or need to contribute safely under restrictive environments.
+**gitGost** is a privacy-focused tool that allows developers to contribute to public Git repositories without exposing their identity. It removes identifying metadata such as author name, email, and timestamps, and submits contributions through a neutral bot account. It is especially useful in environments where identity exposure may pose personal, professional, or legal risks. While gitGost significantly reduces attribution and traceability, it does not guarantee complete anonymity. Users are encouraged to adopt additional privacy measures such as network obfuscation when necessary.
