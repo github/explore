@@ -1,7 +1,7 @@
 ---
-display_name: Internet Archive
-short_description: Digital Millennium Copyright Act is a 1998 law that regulates copyright on the internet.
-aliases: wayback-machine
-topic: dmca 
+display_name: Scumm
+short_description: SCUM was a markup language created in 1987.
+topic: scumm
+aliases: script-creation-utility-for-maniac-mansion
 ---
-The Digital Millennium Copyright Act (DMCA) is a 1998 law that regulates copyright on the internet, made by the United States Congress.
+SCUM was a markup language created in 1987, used for programming point-and-click games.

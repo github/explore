@@ -1,7 +1,7 @@
 ---
-display_name: Internet Archive
-short_description: Digital Millennium Copyright Act is a 1998 law that regulates copyright on the internet.
-aliases: wayback-machine
-topic: dmca 
+display_name: Text Adventure Development System
+short_description: Text Adventure Development System is a programming language created in 1988 by Michael J. Roberts.
+aliases: tads
+topic:  
 ---
-The Digital Millennium Copyright Act (DMCA) is a 1998 law that regulates copyright on the internet, made by the United States Congress.
+Text Adventure Development System is a programming language created in 1988 by Michael J. Roberts, used for Fiction works writing.

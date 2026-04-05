@@ -1,7 +1,6 @@
 ---
 display_name: Z-machine
-short_description: Digital Millennium Copyright Act is a 1998 law that regulates copyright on the internet.
-aliases: wayback-machine
-topic: dmca 
+short_description: Z-Machine is a virtual machine created by Joel Perez and Marc Blank in 1979.
+topic: z-machine 
 ---
-The Digital Millennium Copyright Act (DMCA) is a 1998 law that regulates copyright on the internet, made by the United States Congress.
+Z-Machine is a virtual machine created by Joel Perez and Marc Blank in 1979, , designed to run text-based games.
