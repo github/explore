@@ -1,6 +1,6 @@
 ---
 display_name: Termux App Store
-short_description: A community-driven package manager for Termux with interface
+short_description: A community-driven package manager for Termux with interface.
 topic: termux-app-store
 logo: termux-app-store.png
 github_url: https://github.com/djunekz/termux-app-store
