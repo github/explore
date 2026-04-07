@@ -1,5 +1,4 @@
 ---
-aliases: tas
 display_name: Termux App Store
 short_description: A community-driven package manager for Termux with interface
 topic: termux-app-store
