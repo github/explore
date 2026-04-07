@@ -17,6 +17,3 @@ Termux App Store is a package manager for Termux that allows users to browse, in
 It focuses on:
 - Source-based installation
 - Offline-first and privacy-friendly workflows
-
-## Featured Repositories
-- https://github.com/djunekz/termux-app-store
