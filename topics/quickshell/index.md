@@ -3,7 +3,7 @@ aliases: qs
 created_by: Outfoxxed
 display_name: Quickshell
 github_url: https://github.com/quickshell-mirror
-logo: qs.png
+logo: quickshell.png
 released: April 20 2025
 short_description: Quickshell is a QtQuick-based toolkit for building desktop components alongside your Wayland compositor or window manager
 topic: quickshell
