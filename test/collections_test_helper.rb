@@ -53,7 +53,19 @@ def dirs_to_test
 end
 
 def collections
-  collection_dirs.map { |dir_path| File.basename(dir_path) }
+  all = collection_dirs.map { |dir_path| File.basename(dir_path) }
+  shard_collections(all)
+end
+
+def shard_collections(all_collections)
+  shard = ENV["COLLECTION_SHARD"]&.to_i
+  total_shards = ENV["COLLECTION_TOTAL_SHARDS"]&.to_i
+
+  return all_collections unless !shard.nil? && !total_shards.nil? && total_shards > 1
+
+  # Sort alphabetically for deterministic sharding
+  sorted = all_collections.sort
+  sorted.select.with_index { |_, i| i % total_shards == shard }
 end
 
 def items_for_collection(collection)
@@ -105,4 +117,43 @@ end
 
 def possible_image_file_names_for_collection(collection)
   COLLECTION_IMAGE_EXTENSIONS.map { |ext| "#{collection}#{ext}" }
+end
+
+GRAPHQL_BATCH_SIZE = 100
+
+def prefetch_all_collection_items!
+  return if NewOctokit.global_prefetch_done?
+
+  repos, users = collect_all_collection_items
+  prefetch_repos!(repos)
+  prefetch_users!(users)
+
+  NewOctokit.global_prefetch_done!
+end
+
+def collect_all_collection_items
+  all_items = collections.flat_map { |c| items_for_collection(c) || [] }
+
+  repos = all_items.select { |item| item.match?(USERNAME_AND_REPO_REGEX) }.uniq
+  users = all_items
+          .select { |item| item.match?(USERNAME_REGEX) && !item.match?(USERNAME_AND_REPO_REGEX) }
+          .uniq
+
+  [repos, users]
+end
+
+def prefetch_repos!(repos)
+  repos.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
+    cache_repos_exist_check!(batch)
+  end
+end
+
+def prefetch_users!(users)
+  users.each_slice(GRAPHQL_BATCH_SIZE) do |batch|
+    cache_users_exist_check!(batch)
+  end
+
+  users_not_found_from(users).each_slice(GRAPHQL_BATCH_SIZE) do |batch|
+    cache_orgs_exist_check!(batch)
+  end
 end

@@ -22,9 +22,9 @@ items:
  - mlrun/mlrun
  - microsoft/pai
  - clearml/clearml
- - iterative/dvc
+ - treeverse/dvc
  - determined-ai/determined
- - InfuseAI/primehub
+ - myelintek/primehub
  - treeverse/lakeFS
  - activeloopai/deeplake
  - Netflix/metaflow

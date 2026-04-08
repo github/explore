@@ -4,7 +4,7 @@ items:
  - detailyang/awesome-cheatsheet
  - FavioVazquez/ds-cheatsheets
  - gto76/python-cheatsheet
- - wilfredinni/python-cheatsheet
+ - labex-labs/python-cheatsheet
  - ihebski/DefaultCreds-cheat-sheet
  - tldr-pages/tldr
  - cheat/cheat

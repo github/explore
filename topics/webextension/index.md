@@ -1,5 +1,5 @@
 ---
-aliases: webextensions,web-extension,web-extensions,browserext
+aliases: webextensions, web-extension, web-extensions, browserext
 related: w3c, browser, firefox, firefox-extension, chrome, chrome-extension, mozilla, opera, edge
 created_by: Browser Extension Community Group
 display_name: WebExtension

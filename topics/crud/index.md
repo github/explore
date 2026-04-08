@@ -1,6 +1,6 @@
 ---
 display_name: CRUD
-aliases: crudl, 
+aliases: crudl
 short_description: CRUD is an acronym that stands for create, read, update and delete as persistent storage operations.
 topic: crud
 related: sql, database, query, rest

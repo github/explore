@@ -1,28 +1,65 @@
 name: Lint
 
 on:
-  pull_request:
+  pull_request_target:
   workflow_dispatch:
   merge_group:
-
-permissions:
-  contents: write
 
 jobs:
   lint:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v6.0.2
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@a4effe49ee8ee5b8b5091268c473a4628afb5651 # v1.245.0
+        uses: ruby/setup-ruby@v1.299.0
+        with:
+          bundler-cache: false
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Run RuboCop
+        run: |
+          bundle exec rubocop
+
+  autocorrect:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6.0.2
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1.299.0
         with:
           bundler-cache: true
 
-      - name: Run linters
-        uses: wearerequired/lint-action@548d8a7c4b04d3553d32ed5b6e91eb171e10e7bb # v2
-        if: ${{ github.event_name == 'pull_request' }}
-        with:
-          auto_fix: true
-          rubocop: true
-          rubocop_command_prefix: bundle exec
+      - name: Run RuboCop with auto-correct
+        run: |
+          bundle exec rubocop -A
+
+      - name: Check for changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if git status --porcelain | grep .; then
+            echo "changes=true" >> $GITHUB_ENV
+          else
+            echo "changes=false" >> $GITHUB_ENV
+          fi
+
+      - name: Commit and push changes
+        if: env.changes == 'true'
+        run: |
+          git add .
+          git commit -m "chore: auto-corrected with RuboCop"
+          git push

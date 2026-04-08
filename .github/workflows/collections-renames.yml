@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'github'
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v6.0.2
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@a4effe49ee8ee5b8b5091268c473a4628afb5651 # v1.245.0
+        uses: ruby/setup-ruby@3ff19f5e2baf30647122352b96108b1fbe250c64 # v1.299.0
         with:
           bundler-cache: true
 
@@ -30,7 +30,8 @@ jobs:
         run: bundle exec rake collections
 
       - name: Commit changes and open PR
-        uses: peter-evans/create-pull-request@v7
+        id: cpr
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: "✨ Autofixing renamed/removed collection items ✨"
           committer: "github-actions[bot] <actions@github.com>"

@@ -6,7 +6,6 @@ items:
  - grking/zoxel
  - Perkovec/Vuxel
  - GaidamakUA/Voxenko
- - gerardparareda/BlockyTracer
  - Bequen/GridEditor
  - honestabelink/stonevox3d
  - jval1972/DD_VOXEL

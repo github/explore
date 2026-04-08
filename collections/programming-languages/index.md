@@ -73,7 +73,9 @@ items:
 - ValeLang/Vale
 - factor/factor
 - julelang/jule
+- kvthweatt/FluxLang
 display_name: Programming languages
 created_by: leereilly
 ---
-A list of programming languages that are actively developed on GitHub
+
+A list of actively developed programming languages that are found on GitHub.

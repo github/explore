@@ -23,6 +23,7 @@ items:
  - kaplayjs/kaplay
  - straker/kontra
  - quinton-ashley/p5play
+ - B4uti4github/choppy-js
 display_name: JavaScript Game Engines
 created_by: leereilly
 ---

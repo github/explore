@@ -16,7 +16,7 @@ items:
  - LightTable/LightTable
  - zedapp/zed
  - microsoft/vscode
- - zyedidia/micro
+ - micro-editor/micro
  - neoedmund/neoeedit
  - mawww/kakoune
  - 0x7c13/Notepads
@@ -39,6 +39,7 @@ items:
  - zed-industries/zed
  - KDE/kate
  - pulsar-edit/pulsar
+ - voideditor/void
 
 display_name: Text editors
 created_by: leereilly

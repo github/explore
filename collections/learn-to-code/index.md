@@ -30,7 +30,7 @@ items:
  - papers-we-love/papers-we-love
  - awesome-selfhosted/awesome-selfhosted
  - ripienaar/free-for-dev
- - gothinkster/realworld
+ - realworld-apps/realworld
  - thedaviddias/Front-End-Checklist
  - gustavofreze/kotlin4noobs
  - hexlet-basics/hexlet-basics

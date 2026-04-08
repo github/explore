@@ -16,7 +16,6 @@ items:
   - suarezafelipe/awesome-jobs-colombia
   - MauricioRobayo/trm-api
   - Mteheran/api-colombia
-  - nequibc/colombia-holidays
   - john-guerra/navio
   - esbanarango/ember-model-validator
   - jdvelasq/cashflows

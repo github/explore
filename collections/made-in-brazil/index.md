@@ -28,7 +28,7 @@ items:
   - okfn-brasil/querido-diario
   - Purple-Stock/open-erp
   - thiagobarbosa/quorum-api
-  - pgmodeler/pgmodeler
+  - nullptrlabs/pgmodeler
   - alshedivat/al-folio
   - george-gca/multi-language-al-folio
   - levxyca/diciotech
@@ -37,8 +37,9 @@ items:
   - bacen/pix-api
   - agenda-tech-brasil/agenda-tech-brasil
   - frontendbr/vagas
-  - vinteumorg/Floresta
-  
+  - getfloresta/Floresta
+  - danielnichiata96/abnt-citation
+
 display_name: Made in Brazil
 created_by: caarlos0
 image: made-in-brazil.png

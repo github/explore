@@ -58,6 +58,8 @@ items:
  - luanti-org/luanti
  - defold/defold
  - openfl/openfl
+ - stride3d/stride
+ - B4uti4github/choppy-js 
 display_name: Game Engines
 created_by: leereilly
 ---

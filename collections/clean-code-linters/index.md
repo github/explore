@@ -38,6 +38,8 @@ items:
  - golangci/golangci-lint
  - nicklockwood/SwiftFormat
  - super-linter/super-linter
+ - stylelint/stylelint
+ - agent-sh/agnix
 display_name: Clean code linters
 created_by: holman
 ---

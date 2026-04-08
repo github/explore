@@ -41,11 +41,12 @@ items:
  - jamesgeorge007/github-activity-readme
  - Yizack/gists-readme
  - lacolaco/contributors-img
- - all-contributors/all-contributors
+ - all-contributors/allcontributors.org
  - VishwaGauravIn/pretty-readme-badges
  - buttons/github-buttons
  - DenverCoder1/readme-typing-svg
  - AhmedOsman101/commit-sage-cli
+ - dusan-maintains/oss-maintenance-log
 display_name: Tools for Open Source
 created_by: mozzadrella
 image: tools-for-open-source.png
