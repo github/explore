@@ -5,7 +5,6 @@ short_description: Autonomous software systems that use foundation models to rea
 topic: ai-agent
 related: agent-harness, llm, chatbot, machine-learning, mcp
 ---
-<!-- markdownlint-disable MD041 -->
 
 An **AI agent** is a software system that autonomously perceives its environment, makes decisions, and takes actions to achieve goals — typically powered by large language models (LLMs). Unlike simple chatbots, AI agents can use tools, access external data, execute code, browse the web, and manage multi-step workflows without continuous human guidance.
 
