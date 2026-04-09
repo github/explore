@@ -3,12 +3,7 @@ aliases: ai-agents, ai-autonomous-agent
 display_name: AI Agent
 short_description: Autonomous software systems that use foundation models to reason, plan, and take actions.
 topic: ai-agent
-related:
-  - agent-harness
-  - llm
-  - chatbot
-  - machine-learning
-  - mcp
+related: agent-harness, llm, chatbot, machine-learning, mcp
 ---
 <!-- markdownlint-disable MD041 -->
 
