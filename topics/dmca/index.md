@@ -1,7 +1,2 @@
----
-display_name: Dmca
-short_description: Digital Millennium Copyright Act is a 1998 law that regulates copyright on the internet.
-related: copyright
-topic: dmca 
----
-The Digital Millennium Copyright Act (DMCA) is a 1998 law that regulates copyright on the internet, made by the United States Congress.
+# DMCA
+The Digital Millennium Copyright Act (DMCA) is a copyright law that implements two 1996 treaties of the World Intellectual Property Organization (WIPO). It is aimed at updating copyright law for the digital age.
