@@ -1,9 +1,5 @@
----
-display_name: Pyxel
-short_description: Pyxel is a fantasy console created in python.
-aliases: pyxel-engine,pyxel-studio
-related: Python
-topic: pyxel
-logo: 
----
-Pyxel is a fantasy console created in python for game creation.
+<!-- Content from PR #5102 for Pyxel -->
+
+# Pyxel
+
+Content related to Pyxel.
