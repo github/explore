@@ -60,6 +60,7 @@ items:
  - javadev/underscore-java
  - javadev/LeetCode-in-Java
  - redis/RedisDesktopManager
+ - vshymanskyy/StandWithUkraine
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png

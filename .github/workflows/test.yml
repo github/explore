@@ -62,7 +62,7 @@ jobs:
         if: |
           (matrix.test_type == 'collections' && steps.collections.outputs.changed) ||
           (matrix.test_type == 'all' && steps.all.outputs.changed)
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .api-cache.json
           key: api-cache-${{ matrix.test_type }}-${{ github.run_id }}
