@@ -17,7 +17,7 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.299.0
+        uses: ruby/setup-ruby@v1.301.0
         with:
           bundler-cache: false
 
@@ -39,7 +39,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref || github.ref }}
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.299.0
+        uses: ruby/setup-ruby@v1.301.0
         with:
           bundler-cache: true
 
