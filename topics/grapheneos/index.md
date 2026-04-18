@@ -6,7 +6,7 @@ github_url: https://github.com/GrapheneOS
 logo: grapheneos.png
 related: android, security, privacy, hardening
 released: 2014
-short_description: GrapheneOS is a private and secure mobile operating system with Android app compatibility
+short_description: GrapheneOS is a private and secure mobile operating system with Android app compatibility.
 topic: grapheneos
 url: https://grapheneos.org/
 wikipedia_url: https://en.wikipedia.org/wiki/GrapheneOS
