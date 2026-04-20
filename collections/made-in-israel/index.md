@@ -13,6 +13,7 @@ items:
  - lirantal/dockly
  - eranroz/HspellPy
  - komodorio/helm-dashboard
+ - achiya-automation/safari-mcp
 display_name: Made in Israel
 created_by: donno2048
 image: made-in-israel.png
