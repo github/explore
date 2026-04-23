@@ -18,7 +18,6 @@ items:
  - NatLabRockies/api-umbrella
  - usds/playbook
  - republique-et-canton-de-geneve/chvote-1-0
- - https://www.youtube.com/embed/uNa9GOtM6NE
  - gchq/CyberChef
  - HSEIreland/covid-tracker-app
  - nic-delhi/AarogyaSetu_Android
