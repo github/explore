@@ -1,5 +1,9 @@
-<!-- Content from PR #5102 for Cube Engine -->
-
-# Cube Engine
-
-Content related to the Cube Engine.
+---
+display_name: Cube engine
+short_description: Cube engine is a 2001 engine made by Wouter van Oortmerssen
+aliases: assault-cube-engine
+related: Assault cube
+topic: cube-engine
+logo: 
+---
+Scube engine is a 2001 engine by wouter van Oortmerssen for Assault cube.

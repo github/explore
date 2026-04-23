@@ -1,5 +1,9 @@
-<!-- Content from PR #5102 for Sauerbraten Engine -->
-
-# Sauerbraten Engine
-
-Content related to the Sauerbraten engine.
+---
+display_name: Sauerbraten engine
+short_description: Sauerbraten engine is a 2004 engine by wouter van Oortmerssen.
+aliases: cube-2-engine
+related: Cube 2: Sauerbraten
+topic: sauerbraten-engine
+logo: 
+---
+Sauerbraten engine or cube 2 engine is a 2004 engine by wouter van Oortmerssen.
