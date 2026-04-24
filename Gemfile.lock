@@ -236,7 +236,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.19.3)
+    json (2.19.4)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -256,7 +256,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (6.0.3)
+    minitest (6.0.4)
       drb (~> 2.0)
       prism (~> 1.5)
     multi_xml (0.8.1)
@@ -285,7 +285,7 @@ GEM
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
-    parallel (1.27.0)
+    parallel (2.0.1)
     parser (3.3.11.1)
       ast (~> 2.4.1)
       racc
@@ -299,20 +299,20 @@ GEM
     public_suffix (5.1.1)
     racc (1.8.1)
     rainbow (3.1.1)
-    rake (13.3.1)
+    rake (13.4.2)
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    regexp_parser (2.11.3)
+    regexp_parser (2.12.0)
     reline (0.6.3)
       io-console (~> 0.5)
     rexml (3.4.2)
     rouge (3.30.0)
-    rubocop (1.86.0)
+    rubocop (1.86.1)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
-      parallel (~> 1.10)
+      parallel (>= 1.10)
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.9.3, < 3.0)
@@ -372,14 +372,14 @@ DEPENDENCIES
   fastimage
   github-pages (~> 232)
   httparty
-  json (= 2.19.3)
+  json (= 2.19.4)
   language_server-protocol (= 3.17.0.5)
   minitest
   nokogiri (~> 1.19.2)
   octokit
   pry
-  rake (= 13.3.1)
-  rubocop (= 1.86.0)
+  rake (= 13.4.2)
+  rubocop (= 1.86.1)
   rubocop-performance
   safe_yaml
   webrick
