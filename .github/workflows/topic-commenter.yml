@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Comment on PR with topic info
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
