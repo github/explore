@@ -2,7 +2,7 @@
 aliases: androidhardening, android-hardening, androidhardening-project, android-hardening-project, copperhead, copperhead-os, copperheados, graphene-os
 created_by: Daniel Micay
 display_name: GrapheneOS
-github_url: https://github.com/GrapheneOS
+github_url: "https://github.com/GrapheneOS"
 logo: grapheneos.png
 related: android, security, privacy, hardening
 released: 2014
