@@ -27,6 +27,10 @@ The topic or collection name should match its URL, e.g. `https://github.com/topi
 
 To make an improvement, please **open a pull request** with your proposed changes. 
 
+### Update the system architecture
+
+To update the system design & architecture, upload the system architecture work flow for the topic or collection.
+
 ### Update the image
 
 To update the image, simply replace the image inside the directory for the topic or collection.
