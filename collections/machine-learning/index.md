@@ -1,7 +1,6 @@
 ---
 items:
  - apache/spark
- - HMAKT99/AKF
  - apache/hadoop
  - jbhuang0604/awesome-computer-vision
  - GSA/data
@@ -41,6 +40,7 @@ items:
  - https://www.youtube.com/embed/ILsA4nyG7I0
  - AMAI-GmbH/AI-Expert-Roadmap
  - vitali87/code-graph-rag
+ - HMAKT99/AKF
 display_name: Getting started with machine learning
 created_by: omoju
 ---
