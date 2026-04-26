@@ -11,7 +11,7 @@ items:
  - MunGell/awesome-for-beginners
  - appacademy/welcome-to-open
  - lostdesign/webgems
- - kamranahmedse/developer-roadmap
+ - nilbuild/developer-roadmap
  - AMAI-GmbH/AI-Expert-Roadmap
  - trekhleb/javascript-algorithms
  - microsoft/Web-Dev-For-Beginners
