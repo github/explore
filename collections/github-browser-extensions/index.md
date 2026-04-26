@@ -16,7 +16,7 @@ items:
  - Justineo/github-hovercard
  - panzerdp/clipboardy
  - zenorocha/codecopy
- - kamranahmedse/githunt
+ - nilbuild/githunt
  - harshjv/github-repo-size
  - refined-github/refined-github
  - softvar/enhanced-github
