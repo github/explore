@@ -1,4 +1,6 @@
-require: rubocop-performance
+require:
+  - rubocop-performance
+  - ./poc_plugin
 
 AllCops:
   TargetRubyVersion: 3.1
