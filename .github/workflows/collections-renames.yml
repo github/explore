@@ -35,5 +35,5 @@ jobs:
         with:
           commit-message: "✨ Autofixing renamed/removed collection items ✨"
           committer: "github-actions[bot] <actions@github.com>"
-          branch: "update-collections-${PR_ID}"
+          branch: update-collections
           title: "✨ Autofixing renamed/removed collection items ✨"

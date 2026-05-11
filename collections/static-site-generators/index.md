@@ -5,7 +5,6 @@ items:
  - 11ty/eleventy
  - gatsbyjs/gatsby
  - vuejs/vuepress
- - hexojs/hexo
  - vercel/next.js
  - getpelican/pelican
  - facebook/docusaurus
