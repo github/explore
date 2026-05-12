@@ -17,4 +17,5 @@ display_name: GitHub Pages examples
 created_by: jdennes
 image: github-pages-examples.png
 ---
-Fine examples of projects using [GitHub Pages](https://pages.github.com).
+Fine examples of projects using [GitHub Pages](https://pages.<img width="512" height="512" alt="2862" src="https://github.com/user-attachments/assets/ea889293-238f-4404-b770-bce79b7b9598" />
+github.com).
