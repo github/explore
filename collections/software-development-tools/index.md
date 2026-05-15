@@ -19,6 +19,7 @@ items:
  - semaphoreio/semaphore
  - Nayjest/Gito
  - dusan-maintains/oss-maintenance-log
+ - embercore-labs/embercore
 display_name: Software development tools
 ---
 Build apps better, faster, stronger.
