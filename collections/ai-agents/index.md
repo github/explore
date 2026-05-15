@@ -5,6 +5,7 @@ items:
  - microsoft/autogen
  - microsoft/semantic-kernel
  - modelcontextprotocol/servers
+ - tamish-max/embercore
  - gfernandf/agent-skills
 display_name: AI Agents
 created_by: gfernandf
