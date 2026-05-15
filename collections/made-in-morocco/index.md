@@ -9,6 +9,8 @@ items:
   - redouanelg/AppliedMathsInDarija
   - yjose/reactjs-popup
   - Edd13Mora/HackerNewsBdarija
+  - anasx07/AutaKimi
+  - anasx07/RouteCode
   
   
 display_name: Made in Morocco
