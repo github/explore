@@ -17,7 +17,7 @@ items:
  - archfz/cypress-terminal-report
  - IonicaBizau/made-in-romania
  - dumitrescustefan/Romanian-Transformers
- - ClimenteA/social-media-posts-scheduler
+ - ClimenteA/imposting
  - givanz/Vvveb
  - icflorescu/trpc-sveltekit
  - react-cosmos/react-cosmos

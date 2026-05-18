@@ -44,6 +44,7 @@ items:
  - axem-solutions/dem
  - semaphoreio/semaphore
  - stoicsoft/server-compass-releases
+ - monoscope-tech/monoscope
  
 display_name: DevOps tools
 ---

@@ -1,0 +1,212 @@
+name: Explore PR Triage Commenter
+
+# Posts a sticky comment on PRs that touch topic or collection pages,
+# surfacing the facts maintainers normally look up by hand:
+#   - topics: repo count for the topic
+#   - collections: per-item stars, last push, owner type, plus a flag if
+#     the PR author looks like one of the item owners (self-submission)
+#
+# Edit-in-place: subsequent runs (synchronize, reopen) update the same
+# comment instead of posting a new one. Marker: <!-- explore-triage-comment -->
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'topics/**'
+      - 'collections/**'
+
+concurrency:
+  group: explore-triage-commenter-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v9
+        env:
+          MARKER: '<!-- explore-triage-comment -->'
+        with:
+          script: |
+            const marker = process.env.MARKER;
+            const pr = context.payload.pull_request;
+            const prNumber = pr.number;
+            const prAuthor = pr.user.login.toLowerCase();
+            const headSha = pr.head.sha;
+            const baseOwner = context.repo.owner;
+            const baseRepo = context.repo.repo;
+
+            // List files in the PR (paginated).
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner: baseOwner,
+              repo: baseRepo,
+              pull_number: prNumber,
+              per_page: 100,
+            });
+
+            // Detect topic and collection slugs touched.
+            // Skip removed files; only validate slug shape we'd ever expect on disk.
+            const SLUG = /^[a-z0-9](?:[a-z0-9-]{0,80}[a-z0-9])?$/i;
+            const topics = new Set();
+            const collections = new Set();
+            for (const f of files) {
+              if (f.status === 'removed') continue;
+              const m = f.filename.match(/^(topics|collections)\/([^\/]+)\//);
+              if (!m) continue;
+              const slug = m[2];
+              if (!SLUG.test(slug)) continue;
+              if (m[1] === 'topics') topics.add(slug);
+              else collections.add(slug);
+            }
+
+            if (topics.size === 0 && collections.size === 0) {
+              core.info('No topic or collection changes detected; nothing to do.');
+              return;
+            }
+
+            const sections = [];
+
+            // ---- Topic section ----
+            if (topics.size > 0) {
+              const lines = ['### Topics', ''];
+              for (const slug of topics) {
+                let count = null;
+                try {
+                  const res = await github.rest.search.repos({
+                    q: `topic:${slug}`,
+                    per_page: 1,
+                  });
+                  count = res.data.total_count;
+                } catch (err) {
+                  core.warning(`Search failed for topic '${slug}': ${err.message}`);
+                }
+                const url = `https://github.com/topics/${encodeURIComponent(slug)}`;
+                if (count == null) {
+                  lines.push(`- **${slug}** — [topic page](${url}) _(repo count lookup failed)_`);
+                } else {
+                  lines.push(`- **${slug}** — ${count.toLocaleString()} repositories — [topic page](${url})`);
+                }
+              }
+              sections.push(lines.join('\n'));
+            }
+
+            // ---- Collection section ----
+            if (collections.size > 0) {
+              for (const slug of collections) {
+                const lines = [`### Collection \`${slug}\``, ''];
+
+                // Read collection's index.md at the PR head SHA.
+                // PR commits from forks are mirrored into the base repo's network,
+                // so we can fetch from the base repo with the head SHA — simpler
+                // and avoids any cross-repo token concerns.
+                let content;
+                try {
+                  const res = await github.rest.repos.getContent({
+                    owner: baseOwner,
+                    repo: baseRepo,
+                    path: `collections/${slug}/index.md`,
+                    ref: headSha,
+                  });
+                  content = Buffer.from(res.data.content, 'base64').toString('utf8');
+                } catch (err) {
+                  lines.push(`_Could not read \`collections/${slug}/index.md\` at PR head (\`${err.status || 'error'}\`)._`);
+                  sections.push(lines.join('\n'));
+                  continue;
+                }
+
+                const items = parseCollectionItems(content);
+                if (items.length === 0) {
+                  lines.push('_No `items:` list found in frontmatter._');
+                  sections.push(lines.join('\n'));
+                  continue;
+                }
+
+                lines.push('| Item | Stars | Last push | Owner type | Notes |');
+                lines.push('| --- | ---: | --- | --- | --- |');
+
+                for (const item of items) {
+                  if (!/^[\w.-]+\/[\w.-]+$/.test(item)) {
+                    const safeItem = item.replace(/`/g, "'").replace(/\\/g, '\\\\').replace(/\|/g, '\\|');
+                    lines.push(`| \`${safeItem}\` | – | – | – | invalid format |`);
+                    continue;
+                  }
+                  const [owner, repo] = item.split('/');
+                  try {
+                    const r = await github.rest.repos.get({ owner, repo });
+                    const stars = r.data.stargazers_count.toLocaleString();
+                    const pushed = r.data.pushed_at ? r.data.pushed_at.slice(0, 10) : '–';
+                    const ownerType = r.data.owner.type;
+                    const notes = [];
+                    if (owner.toLowerCase() === prAuthor) notes.push('⚠️ possible self-submission');
+                    if (r.data.archived) notes.push('archived');
+                    if (r.data.disabled) notes.push('disabled');
+                    lines.push(`| [\`${item}\`](https://github.com/${item}) | ${stars} | ${pushed} | ${ownerType} | ${notes.join(', ') || '–'} |`);
+                  } catch (err) {
+                    const note = err.status === 404 ? 'not found' : `error (${err.status || '?'})`;
+                    lines.push(`| \`${item}\` | – | – | – | ${note} |`);
+                  }
+                }
+                lines.push('');
+                sections.push(lines.join('\n'));
+              }
+            }
+
+            const body = [
+              marker,
+              '<!-- Maintained by .github/workflows/explore-triage-commenter.yml. Edits will be overwritten. -->',
+              '',
+              '## Maintainer triage',
+              '',
+              ...sections,
+            ].join('\n');
+
+            // Edit-in-place via marker.
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: baseOwner,
+              repo: baseRepo,
+              issue_number: prNumber,
+              per_page: 100,
+            });
+            const existing = comments.find(c => c.body && c.body.startsWith(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: baseOwner,
+                repo: baseRepo,
+                comment_id: existing.id,
+                body,
+              });
+              core.info(`Updated comment ${existing.id}`);
+            } else {
+              await github.rest.issues.createComment({
+                owner: baseOwner,
+                repo: baseRepo,
+                issue_number: prNumber,
+                body,
+              });
+              core.info('Created new comment');
+            }
+
+            function parseCollectionItems(text) {
+              // Frontmatter between leading --- lines.
+              const fmMatch = text.match(/^---\n([\s\S]*?)\n---/);
+              if (!fmMatch) return [];
+              const lines = fmMatch[1].split('\n');
+              const items = [];
+              let inItems = false;
+              for (const line of lines) {
+                if (/^items:\s*$/.test(line)) { inItems = true; continue; }
+                // Next top-level key ends the items block.
+                if (inItems && /^[a-zA-Z_]\w*\s*:/.test(line)) break;
+                if (inItems) {
+                  const m = line.match(/^\s*-\s*([^\s#]+)/);
+                  if (m) items.push(m[1]);
+                }
+              }
+              return items;
+            }
