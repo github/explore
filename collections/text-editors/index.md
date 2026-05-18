@@ -40,6 +40,8 @@ items:
  - KDE/kate
  - pulsar-edit/pulsar
  - voideditor/void
+ - NeuralInverse/neuralinverse
+ 
 
 display_name: Text editors
 created_by: leereilly
