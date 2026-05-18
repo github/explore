@@ -3,7 +3,6 @@ items:
  - NikolayIT/OpenJudgeSystem
  - dnikolovv/dev-adventures-realworld
  - ivaylokenov/MyTested.AspNetCore.Mvc
- - profjordanov/students-manager
  - stilianstefanov/Vehicles-Marketplace-System
 display_name: Made in Bulgaria
 created_by: profjordanov
