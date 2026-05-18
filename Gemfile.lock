@@ -41,7 +41,7 @@ GEM
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     execjs (2.10.0)
-    faraday (2.14.1)
+    faraday (2.14.2)
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
@@ -367,7 +367,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  faraday (= 2.14.1)
+  faraday (= 2.14.2)
   faraday-retry (= 2.4.0)
   fastimage
   github-pages (~> 232)
