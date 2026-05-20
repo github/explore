@@ -1,6 +1,5 @@
 ---
 aliases: agent-harnesses
-created_by: Agent harness engineering community
 display_name: Agent Harness
 related: ai-agents, coding-agents, autonomous-agents, agent-framework, mcp
 short_description: Agent harnesses provide the runtime scaffolding that helps AI agents act reliably.
