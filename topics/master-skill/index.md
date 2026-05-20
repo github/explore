@@ -1,9 +1,11 @@
 ---
+aliases: master.skill, master-os-skill, 大师.skill
 created_by: swaylq
 display_name: Master Skill
 github_url: https://github.com/swaylq/master-skill
 logo: master-skill.png
 related: claude-code, claude-skill, ai-agent, llm, agent, knowledge-distillation, prompt-engineering, industry-knowledge
+released: April 2026
 short_description: Distill an entire industry into one Claude Code skill — top primary sources and the judgment of a representative expert.
 topic: master-skill
 url: https://master-skill.org
