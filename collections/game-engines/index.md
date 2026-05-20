@@ -61,6 +61,7 @@ items:
  - stride3d/stride
  - B4uti4github/choppy-js
  - Facepunch/sbox-public
+ - DaemonEngine/Daemon
 display_name: Game Engines
 created_by: leereilly
 ---
