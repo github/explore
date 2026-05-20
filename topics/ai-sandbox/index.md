@@ -1,6 +1,7 @@
 ---
 aliases: ai-sandboxing, llm-sandbox
 display_name: AI Sandbox
+logo: ai-sandbox.png
 short_description: An isolated environment for safely running, testing, and evaluating AI-generated code and autonomous agents.
 topic: ai-sandbox
 related: sandbox, llm, ai-agents, code-execution, containerization
