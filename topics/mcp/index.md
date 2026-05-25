@@ -1,13 +1,8 @@
 ---
 display_name: MCP
 topic: mcp
-aliases:
-  - model-context-protocol
-related:
-  - mcp-server
-  - ai-agent
-  - llm
-  - agent-harness
+aliases: model-context-protocol
+related: mcp-server, ai-agent, llm, agent-harness
 short_description: Model Context Protocol (MCP) is an open standard for connecting AI models to external tools and data sources.
 created_by: Anthropic
 url: https://modelcontextprotocol.io
