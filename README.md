@@ -1,4 +1,4 @@
-# GitHub Explore
+Explore,Github.io
 
 This repository houses all of the community-curated content for GitHub Topics and Collections.
 
