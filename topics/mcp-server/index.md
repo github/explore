@@ -1,13 +1,8 @@
 ---
 display_name: MCP Server
 topic: mcp-server
-aliases:
-  - mcp-servers
-related:
-  - mcp
-  - model-context-protocol
-  - ai-agent
-  - llm
+aliases: mcp-servers
+related: mcp, model-context-protocol, ai-agent, llm
 short_description: MCP servers expose tools, resources, and prompts to AI applications through the Model Context Protocol.
 url: https://modelcontextprotocol.io
 ---
