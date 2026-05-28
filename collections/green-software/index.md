@@ -47,7 +47,7 @@ items:
  - ec0lint/ec0lint
  - green-code-initiative/creedengo-rules-specifications
  - geopm/geopm
- - green-code-initiative/ecoCode-android
+ - green-code-initiative/creedengo-android-java
  - green-code-initiative/EcoSonar
  - green-code-initiative/creedengo-ios
  - GoogleCloudPlatform/region-carbon-info
