@@ -9,6 +9,6 @@ created_by: David Baszucki and Erik Cassel
 released: September 1, 2006
 logo: roblox.png
 aliases: roblox-studio
-related: game-development, lua
+related: game-development, luau
 ---
 Roblox is an online game platform and game creation system developed by Roblox Corporation that allows users to create games and play games created by other users across computer, mobile, consoles and VR.
