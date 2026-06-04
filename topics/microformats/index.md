@@ -9,5 +9,6 @@ short_description: Microformats are small patterns of HTML to represent commonly
 topic: microformats
 url: http://microformats.org/
 wikipedia_url: https://en.wikipedia.org/wiki/Microformat
+related: linked-data, metadata, semantic-web, indieweb
 ---
-Designed for humans first and machines second, microformats are a set of simple, open data formats built upon existing and widely adopted standards. Instead of throwing away what works today, microformats intend to solve simpler problems first by adapting to current behaviors and usage patterns.
+Designed for humans first and machines second, **microformats** are a set of simple, open data formats built upon existing and widely adopted standards. Instead of throwing away what works today, microformats intend to solve simpler problems first by adapting to current behaviors and usage patterns.

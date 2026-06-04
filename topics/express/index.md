@@ -9,5 +9,6 @@ short_description: Express is a minimal Node.js framework for web and mobile app
 topic: express
 url: https://expressjs.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Express.js
+related: nodejs, mern, mevn, mean, meteor, next
 ---
-Express.js is a simple Node.js framework for single, multi-page, and hybrid web applications.
+**Express.js** is a simple Node.js framework for single, multi-page, and hybrid web applications.

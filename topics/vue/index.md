@@ -1,11 +1,11 @@
 ---
-aliases: vuejs, vuejs2, vue2
+aliases: vuejs, vuejs2, vuejs3, vue2, vue3, vuex
 created_by: Evan You
 display_name: Vue.js
-github_url: https://github.com/vuejs/vue
+github_url: https://github.com/vuejs/core
 logo: vue.png
-related: angular, react
-released: February 2014
+related: angular, react, storybook, typescript
+released: February 11, 2014
 short_description: Vue.js is a JavaScript framework for building interactive web applications.
 topic: vue
 url: https://vuejs.org/

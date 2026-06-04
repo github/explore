@@ -2,11 +2,10 @@
 items:
  - github/balanced-employee-ip-agreement
  - github/site-policy
- - hackdaymanifesto/hackdaymanifesto.github.com
+ - hackdaymanifesto/site
  - BetaNYC/Bike-Share-Data-Best-Practices
  - project-open-data/project-open-data.github.io
  - usds/playbook
- - catalyzeio/policies
  - 18F/open-source-policy
  - WhiteHouse/fitara
  - GSA/https

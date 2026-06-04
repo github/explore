@@ -1,0 +1,85 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+  merge_group:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - test_type: topics
+          - test_type: collections
+            shard: 0
+            total_shards: 4
+          - test_type: collections
+            shard: 1
+            total_shards: 4
+          - test_type: collections
+            shard: 2
+            total_shards: 4
+          - test_type: collections
+            shard: 3
+            total_shards: 4
+          - test_type: all
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6.0.2
+        with:
+          fetch-depth: 0
+
+      - name: Get non-topic and non-collection changed files
+        id: all
+        if: matrix.test_type == 'all'
+        run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep -ve '^topics\/' -ve '^collections\/' | xargs)" >> $GITHUB_OUTPUT
+
+      - name: Get changed topic files
+        id: topics
+        if: matrix.test_type == 'topics'
+        run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep ^topics\/ | xargs)" >> $GITHUB_OUTPUT
+
+      - name: Get changed collection files
+        id: collections
+        if: matrix.test_type == 'collections'
+        run: echo "changed=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep ^collections\/ | xargs)" >> $GITHUB_OUTPUT
+
+      - name: Setup Ruby
+        if: ${{ steps.topics.outputs.changed || steps.collections.outputs.changed || steps.all.outputs.changed }}
+        uses: ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f # v1.310.0
+        with:
+          bundler-cache: true
+
+      - name: Restore API cache
+        if: |
+          (matrix.test_type == 'collections' && steps.collections.outputs.changed) ||
+          (matrix.test_type == 'all' && steps.all.outputs.changed)
+        uses: actions/cache@v5
+        with:
+          path: .api-cache.json
+          key: api-cache-${{ matrix.test_type }}-${{ github.run_id }}
+          restore-keys: |
+            api-cache-${{ matrix.test_type }}-
+
+      - name: Build and test with Rake
+        if: |
+          (matrix.test_type == 'topics' && steps.topics.outputs.changed) ||
+          (matrix.test_type == 'collections' && steps.collections.outputs.changed) ||
+          (matrix.test_type == 'all' && steps.all.outputs.changed)
+        run: bundle exec rake ${{ matrix.test_type }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOPIC_FILES: ${{ steps.topics.outputs.changed }}
+          COLLECTION_FILES: ${{ steps.collections.outputs.changed }}
+          TEST_ALL_FILES: ${{ steps.all.outputs.changed }}
+          SKIP_COLLECTION_API_CHECKS: ${{ matrix.test_type == 'all' && '1' || '' }}
+          COLLECTION_SHARD: ${{ matrix.shard }}
+          COLLECTION_TOTAL_SHARDS: ${{ matrix.total_shards }}

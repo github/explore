@@ -1,7 +1,7 @@
 ---
 items:
  - github/lightcrawler
- - Khan/tota11y
+ - jdan/tota11y
  - addyosmani/a11y
  - ffoodd/a11y.css
  - jxnblk/colorable
@@ -21,6 +21,9 @@ items:
  - a11yproject/a11yproject.com
  - GoogleChrome/accessibility-developer-tools
  - GoogleChrome/lighthouse
+ - fejes713/accessibility-guide
+ - adobe/leonardo
+ - ZingGrid/zinggrid
 display_name: Web accessibility
 created_by: muan
 ---

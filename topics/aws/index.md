@@ -9,4 +9,4 @@ short_description: Amazon Web Services provides on-demand cloud computing platfo
 url: https://aws.amazon.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Amazon_Web_Services
 ---
-Amazon Web Services is a subsidiary of Amazon.com that provides on-demand cloud computing platforms to individuals, companies, and governments, on a subscription basis.
+Amazon Web Services (AWS) is a subsidiary of Amazon.com that provides on-demand cloud computing platforms to individuals, companies, and governments, on a subscription basis. Compute, storage, database, networking, security, management & developer tools, AI & machine learning, analytics, etc. are some of the primary aspects of AWS.

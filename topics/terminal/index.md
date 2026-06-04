@@ -1,5 +1,5 @@
 ---
-aliases: command-line, command-prompt, computer-terminal
+aliases: command-prompt, computer-terminal
 display_name: Terminal
 short_description: The terminal is an interface in which you can type and execute text-based commands. 
 topic: terminal

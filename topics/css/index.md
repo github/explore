@@ -10,4 +10,4 @@ topic: css
 url: https://www.w3.org/Style/CSS/Overview.en.html
 wikipedia_url: https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 ---
-Cascading Style Sheets (CSS) is a language used most often to style and improve upon the appearance of views. It allows for the separation of presentation and content, and includes the characteristics of layouts, colors and fonts. CSS builds upon HTML to make webpages more interactive and appealing to the user.
+Cascading Style Sheets (CSS) is a language used most often to style and improve upon the appearance of websites. It allows for the separation of presentation and content, and includes the characteristics of layouts, colors and fonts. CSS builds upon HTML to make webpages more interactive and appealing to the user.

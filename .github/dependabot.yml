@@ -1,0 +1,39 @@
+---
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      timezone: "America/Los_Angeles"
+    labels:
+      - "dependabot"
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "chore(deps)"
+    open-pull-requests-limit: 99
+    groups:
+      dependencies:
+        applies-to: version-updates
+        update-types:
+          - "minor"
+          - "patch"
+  - package-ecosystem: "bundler"
+    directory: /
+    schedule:
+      interval: "weekly"
+      timezone: "America/Los_Angeles"
+    labels:
+      - "dependabot"
+      - "dependencies"
+      - "bundler"
+    commit-message:
+      prefix: "chore(deps)"
+    open-pull-requests-limit: 99
+    groups:
+      dependencies:
+        applies-to: version-updates
+        update-types:
+          - "minor"
+          - "patch"

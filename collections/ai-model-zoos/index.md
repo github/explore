@@ -3,16 +3,15 @@ items:
  - tensorflow/models
  - Theano/Theano
  - BVLC/caffe
- - caffe2/models
- - apache/incubator-mxnet
+ - facebookarchive/models
+ - apache/mxnet
  - deeplearning4j/deeplearning4j
- - sdhnshu/pytorch-model-zoo
+ - theonesud/Pytorch-Model-Zoo
  - Lasagne/Recipes
  - albertomontesg/keras-model-zoo
  - hindupuravinash/the-gan-zoo
  - likedan/Awesome-CoreML-Models
- - Microsoft/CNTK
- - https://www.microsoft.com/en-us/cognitive-toolkit/features/model-gallery/
+ - microsoft/CNTK
 display_name: Model Zoos of machine and deep learning technologies
 created_by: alanbraz
 ---
