@@ -39,6 +39,7 @@ items:
   - frontendbr/vagas
   - getfloresta/Floresta
   - danielnichiata96/abnt-citation
+  - hoffresearch/nest
 
 display_name: Made in Brazil
 created_by: caarlos0
