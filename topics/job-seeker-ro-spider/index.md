@@ -3,6 +3,7 @@ display_name: Peviitor Job Spider
 short_description: Web scrapers that collect job titles and application links from Romanian company career pages and push them to peviitor.ro.
 topic: job-seeker-ro-spider
 related: web-scraping, data-extraction, automation, github-actions, open-source, etl
+url: https://peviitor.ro
 ---
 
 **Peviitor Job Spider** is a collection of web scrapers that extract job titles and application links from Romanian company career pages and index them in [peviitor.ro](https://peviitor.ro) — a Romanian job search engine.
