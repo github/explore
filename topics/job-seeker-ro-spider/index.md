@@ -10,6 +10,6 @@ url: https://peviitor.ro
 
 Each scraper targets one company, validates legal identity through the ANAF public API, extracts job listings from HTML or JSON sources, and pushes structured data to Apache Solr. The ecosystem includes Node.js (ESM, cheerio) and Python implementations, all deployed via GitHub Actions on a cron schedule.
 
-Part of the peviitor.ro open-source community — a crowd-sourced job aggregator that keeps Romania's tech job market up to date.
+Part of the peviitor.ro community — a crowd-sourced job aggregator that keeps Romania's tech job market up to date.
 
 Want to contribute? Whether you prefer Java, JavaScript, Rust, Go, Nim, R, or any other language — you're welcome to write your own scraper and help grow peviitor.ro!
