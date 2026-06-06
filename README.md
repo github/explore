@@ -1,5 +1,4 @@
-Explore,Github.io
-
+Explore
 This repository houses all of the community-curated content for GitHub Topics and Collections.
 
 [Topics](https://help.github.com/articles/about-topics/) help you explore repositories in a particular subject area, learn more about that subject, and find projects to contribute to.
