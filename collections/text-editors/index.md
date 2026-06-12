@@ -41,7 +41,6 @@ items:
  - pulsar-edit/pulsar
  - voideditor/void
  - NeuralInverse/neuralinverse
- - NeuralInverse/neuralinverse
 display_name: Text editors
 created_by: leereilly
 image: text-editors.png
