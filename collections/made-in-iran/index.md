@@ -5,7 +5,6 @@ items:
  - mr-hashemi/mr-hashemi
  - pashmaklang/pashmak
  - roshan-research/moratab
- - PyFarsi/pyabr
  - jamedadi/yummy
  - roshan-research/hazm
  - rastikerdar/vazirmatn

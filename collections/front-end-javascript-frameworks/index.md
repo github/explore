@@ -10,7 +10,7 @@ items:
  - spine/spine
  - vuejs/vue
  - Polymer/polymer
- - facebook/react
+ - react/react
  - finom/seemple
  - aurelia/framework
  - optimizely/nuclear-js
