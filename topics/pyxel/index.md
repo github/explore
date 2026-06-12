@@ -1,7 +1,6 @@
 ---
 display_name: Pyxel
-short_description: Internet Archive is a website for a digital collection run by the archive.org group.
-aliases: wayback-machine
+short_description: Pyxel is a retro game engine for python.
 topic: pyxel
 ---
-Internet Archive is a website for a digital collection run by the archive.org group, also responsible for the Wayback Machine software.
+Pyxel is a small open source game engine written in Python for building games evocative of retro gaming consoles.
