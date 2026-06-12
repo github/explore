@@ -6,7 +6,7 @@ items:
   - Mottie/GitHub-userscripts
   - quoid/userscripts
   - violentmonkey/violentmonkey
-  - GreasyFork-org/greasyfork
+  - greasyfork-org/greasyfork
   - kellnerd/userscript-bundler
   - ThomasOrlita/awesome-bookmarklets
 display_name: Bookmarklets and Userscripts
