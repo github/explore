@@ -7,7 +7,7 @@ topic: code-ledger
 url: https://codeledger.vkrishna04.me
 logo: code-ledger.png
 ---
-**Code Ledger** is an open-source browser extension that watches for accepted submissions on LeetCode, GeeksForGeeks, and Codeforces, then commits the solution to a developer-owned GitHub repository automatically — no copy-pasting, no manual uploads.
+**Code Ledger** is an open source browser extension that watches for accepted submissions on LeetCode, GeeksForGeeks, and Codeforces, then commits the solution to a developer-owned GitHub repository automatically — no copy-pasting, no manual uploads.
 
 Repositories tagged `code-ledger` follow a uniform layout managed entirely by the extension. Each problem lives under a `problems/` directory, identified by a canonical cross-platform ID when the problem exists on multiple platforms (for example, `problems/two-sum/leetcode/`), or a platform-prefixed ID otherwise (`problems/lc-1/`). Inside each directory the extension writes the solution file and a `README.md` that GitHub renders directly — containing a metadata table with difficulty, solve date, runtime, and memory percentiles, the full problem statement, collapsible hints, and an optional AI-generated code review. A root-level `index.json` tracks every solved problem and keeps the repository in sync across devices.
 
