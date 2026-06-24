@@ -1,5 +1,5 @@
 ---
-created_by: VKrishna04
+created_by: Life-Experimentalist
 display_name: Code Ledger
 related: leetcode, geeksforgeeks, browser-extension, chrome-extension, firefox-extension, data-structures, algorithms, competitive-programming
 short_description: Auto-commit data structure and algorithm solutions from LeetCode, GeeksForGeeks, and Codeforces to a personal GitHub repository.
