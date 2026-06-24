@@ -2,7 +2,7 @@
 created_by: VKrishna04
 display_name: Code Ledger
 related: leetcode, geeksforgeeks, browser-extension, chrome-extension, firefox-extension, data-structures, algorithms, competitive-programming
-short_description: Auto-commit DSA solutions from LeetCode, GeeksForGeeks, and Codeforces to a personal GitHub repository.
+short_description: Auto-commit data structure and algorithm solutions from LeetCode, GeeksForGeeks, and Codeforces to a personal GitHub repository.
 topic: code-ledger
 url: https://codeledger.vkrishna04.me
 logo: code-ledger.png
