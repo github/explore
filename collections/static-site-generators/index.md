@@ -2,7 +2,7 @@
 items:
  - jekyll/jekyll
  - gohugoio/hugo
- - 11ty/eleventy
+ - 11ty/buildawesome
  - gatsbyjs/gatsby
  - vuejs/vuepress
  - vercel/next.js

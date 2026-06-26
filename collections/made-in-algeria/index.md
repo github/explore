@@ -6,7 +6,7 @@ items:
  - GitHubAlgeria/pyIslam
  - mohsenuss91/AlgerianAdministrativeDivision
  - Alfanous-team/alfanous
- - salahlalami/idurar-erp-crm
+ - idurar/idurar-erp-crm
  - linuxscout/mishkal
  - linuxscout/pyarabic
  - linuxscout/tashaphyne
