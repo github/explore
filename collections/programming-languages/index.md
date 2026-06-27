@@ -38,6 +38,7 @@ items:
 - terralang/terra
 - dotnet/fsharp
 - skiplang/skip
+- salamlang/salam
 - rakudo/rakudo
 - chapel-lang/chapel
 - lucee/Lucee
