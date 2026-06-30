@@ -1,13 +1,10 @@
 ---
 items:
- - pass-with-high-score
  - mlbvn
  - VinAIResearch
  - vietai
  - webuild-community
- - pass-with-high-score/blockads-android
- - pass-with-high-score/universal-installer
- - pass-with-high-score/ANeko
+ - pass-with-high-score
  - chiphuyen/machine-learning-systems-design
  - tiepvupsu/ebookMLCB
  - holistics/dbml
@@ -35,6 +32,9 @@ items:
  - 0x2c7/ruby_jard
  - phuocng/1loc
  - BambooEngine/ibus-bamboo
+ - pass-with-high-score/blockads-android
+ - pass-with-high-score/universal-installer
+ - pass-with-high-score/ANeko
 display_name: Made in Vietnam
 created_by: duythanhvn
 image: made-in-vietnam.png
