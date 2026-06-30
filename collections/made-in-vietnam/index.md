@@ -4,7 +4,6 @@ items:
  - VinAIResearch
  - vietai
  - webuild-community
- - pass-with-high-score
  - chiphuyen/machine-learning-systems-design
  - tiepvupsu/ebookMLCB
  - holistics/dbml
