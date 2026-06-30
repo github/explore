@@ -1,9 +1,13 @@
 ---
 items:
+ - pass-with-high-score
  - mlbvn
  - VinAIResearch
  - vietai
  - webuild-community
+ - pass-with-high-score/blockads-android
+ - pass-with-high-score/universal-installer
+ - pass-with-high-score/ANeko
  - chiphuyen/machine-learning-systems-design
  - tiepvupsu/ebookMLCB
  - holistics/dbml
