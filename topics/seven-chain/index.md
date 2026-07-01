@@ -5,7 +5,7 @@ display_name: Seven Chain
 github_url: https://github.com/umairkhan2582/sevenchain
 logo: seven-chain.png
 released: "2026"
-short_description: Seven Chain is an EVM-compatible Layer 1 blockchain with perpetual futures trading, a meme token launchpad, and a BSC bridge powered by micro relay fees and SEVEN token rewards.
+short_description: Seven Chain is an EVM-compatible Layer 1 blockchain with perpetual futures trading, a meme token launchpad, and a BSC bridge.
 topic: seven-chain
 url: https://theseven.meme
 related: blockchain, evm, defi, solidity, bridge, validator, memecoin, cryptocurrency
