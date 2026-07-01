@@ -1,5 +1,6 @@
 ---
 items:
+ - Git Links/extension 
  - ovity/octotree
  - mike-north/chrome-github-boxcutter
  - muan/github-dashboard
