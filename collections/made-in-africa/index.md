@@ -1,27 +1,27 @@
 ---
 items:
- - acekyd/made-in-nigeria
- - frontlinesms/frontlinesms2
- - ushahidi/SMSSync
- - praekeltfoundation/vumi
- - rapidpro/rapidpro
- - pluspeople/pesaPi
- - praekeltfoundation/junebug
- - chisimba/chisimba
- - OpenInstitute/OpenDuka
- - CodeForAfrica/GotToVote
- - universalcore/elastic-git
- - nyaruka/smartmin
+ - javascriptdata/danfojs
  - gernest/utron
+ - ushahidi/SMSSync
+ - acekyd/made-in-nigeria
+ - hexabot-ai/Hexabot
+ - rapidpro/rapidpro
  - ushahidi/platform
+ - praekeltfoundation/vumi
+ - pluspeople/pesaPi
+ - frontlinesms/frontlinesms2
+ - CodeForAfrica/GotToVote
+ - nyaruka/smartmin
+ - OpenInstitute/OpenDuka
+ - chisimba/chisimba
  - Yorubaname/yorubaname-website
+ - bangajs/banga-cli
+ - praekeltfoundation/junebug
+ - jembi/openhim-core-js
  - codedivoire/made-in-ci
  - beopencloud/cno
- - javascriptdata/danfojs
- - bangajs/banga-cli
- - jembi/openhim-core-js
  - Hexastack/eazychart
- - hexabot-ai/Hexabot
+ - universalcore/elastic-git
 display_name: Made in Africa
 created_by: mozzadrella
 image: made-in-africa.png
