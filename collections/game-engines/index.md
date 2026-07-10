@@ -63,6 +63,7 @@ items:
  - Facepunch/sbox-public
  - DaemonEngine/Daemon
  - DarkPlacesEngine/DarkPlaces
+ - bXi/luminoveau
 display_name: Game Engines
 created_by: leereilly
 ---
