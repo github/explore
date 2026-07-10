@@ -13,7 +13,7 @@ items:
  - karma-runner/karma
  - eWert-Online/OSnap
  - katalon-studio
- - qawolf/qawolf
+ - qawolf/cli
  - basset/basset
  - newsuk/AyeSpy
  - RobotiumTech/robotium

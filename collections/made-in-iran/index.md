@@ -5,7 +5,6 @@ items:
  - mr-hashemi/mr-hashemi
  - pashmaklang/pashmak
  - roshan-research/moratab
- - PyFarsi/pyabr
  - jamedadi/yummy
  - roshan-research/hazm
  - rastikerdar/vazirmatn
@@ -22,6 +21,7 @@ items:
  - GoFarsi/book
  - majidh1/JalaliDatePicker
  - mojtaba-afraz/clean-code-persian
+ - iw4p/partialjson
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
