@@ -70,6 +70,7 @@ items:
 - factor/factor
 - julelang/jule
 - kvthweatt/Flux
+- salamlang/salam
 display_name: Programming languages
 created_by: leereilly
 ---
