@@ -241,7 +241,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    language_server-protocol (3.17.0.5)
+    language_server-protocol (3.17.0.6)
     lint_roller (1.1.0)
     liquid (4.0.4)
     listen (3.9.0)
@@ -373,7 +373,7 @@ DEPENDENCIES
   github-pages (~> 232)
   httparty
   json (= 2.21.1)
-  language_server-protocol (= 3.17.0.5)
+  language_server-protocol (= 3.17.0.6)
   minitest
   nokogiri (~> 1.19.4)
   octokit
