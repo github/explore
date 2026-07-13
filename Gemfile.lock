@@ -236,7 +236,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.20.0)
+    json (2.21.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -308,7 +308,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.4.2)
     rouge (3.30.0)
-    rubocop (1.88.1)
+    rubocop (1.88.2)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -372,14 +372,14 @@ DEPENDENCIES
   fastimage
   github-pages (~> 232)
   httparty
-  json (= 2.20.0)
+  json (= 2.21.1)
   language_server-protocol (= 3.17.0.5)
   minitest
   nokogiri (~> 1.19.4)
   octokit
   pry
   rake (= 13.4.2)
-  rubocop (= 1.88.1)
+  rubocop (= 1.88.2)
   rubocop-performance
   safe_yaml
   webrick
