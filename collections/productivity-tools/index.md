@@ -1,4 +1,4 @@
----
+---indexmd
 items:
  - ohmyzsh/ohmyzsh
  - microsoft/terminal
