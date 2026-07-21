@@ -1,5 +1,5 @@
 ---
-display_name: no-ai
+display_name: No AI
 topic: no-ai
 aliases: no-ai-used
 short_description: Projects made without Generative AI.
