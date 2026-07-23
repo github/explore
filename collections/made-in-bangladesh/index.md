@@ -29,6 +29,7 @@ items:
  - usmanhalalit/charisma
  - usmanhalalit/laracsv
  - nazdridoy/kokoro-tts
+ - ikaadil/any-currency-to-bdt
 
 display_name: Made in Bangladesh
 created_by: kuttumiah

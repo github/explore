@@ -236,12 +236,12 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.19.9)
+    json (2.21.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    language_server-protocol (3.17.0.5)
+    language_server-protocol (3.17.0.6)
     lint_roller (1.1.0)
     liquid (4.0.4)
     listen (3.9.0)
@@ -308,7 +308,7 @@ GEM
       io-console (~> 0.5)
     rexml (3.4.2)
     rouge (3.30.0)
-    rubocop (1.88.0)
+    rubocop (1.88.2)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -319,7 +319,7 @@ GEM
       rubocop-ast (>= 1.49.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.49.1)
+    rubocop-ast (1.50.0)
       parser (>= 3.3.7.2)
       prism (~> 1.7)
     rubocop-performance (1.26.1)
@@ -372,14 +372,14 @@ DEPENDENCIES
   fastimage
   github-pages (~> 232)
   httparty
-  json (= 2.19.9)
-  language_server-protocol (= 3.17.0.5)
+  json (= 2.21.1)
+  language_server-protocol (= 3.17.0.6)
   minitest
   nokogiri (~> 1.19.4)
   octokit
   pry
   rake (= 13.4.2)
-  rubocop (= 1.88.0)
+  rubocop (= 1.88.2)
   rubocop-performance
   safe_yaml
   webrick

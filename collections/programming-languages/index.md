@@ -26,9 +26,7 @@ items:
 - red/red
 - ponylang/ponyc
 - Frege/frege
-- goby-lang/goby
 - racket/racket
-- idris-lang/Idris-dev
 - ocaml/ocaml
 - typelead/eta
 - programming-nu/nu
@@ -41,11 +39,9 @@ items:
 - rakudo/rakudo
 - chapel-lang/chapel
 - lucee/Lucee
-- eclipse-archived/golo-lang
 - gosu-lang/gosu-lang
 - ziglang/zig
 - HaxeFoundation/haxe
-- livecode/livecode
 - rocq-prover/rocq
 - vlang/v
 - dart-lang/sdk
@@ -74,6 +70,7 @@ items:
 - factor/factor
 - julelang/jule
 - kvthweatt/Flux
+- SalamLang/Salam
 display_name: Programming languages
 created_by: leereilly
 ---
