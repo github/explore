@@ -244,8 +244,23 @@ def metadata_for(dir, name)
 
   begin
     YAML.safe_load(parts[1])
+  rescue Psych::SyntaxError
+    nil
+  end
+end
+
+def yaml_syntax_error_for(dir, name)
+  path = File.join(dir, name, "index.md")
+  return unless File.file?(path)
+
+  parts = File.read(path).split("---", 3)
+  return unless parts.size >= 2
+
+  begin
+    YAML.safe_load(parts[1])
+    nil
   rescue Psych::SyntaxError => error
-    flunk "invalid YAML: #{error.message}"
+    "invalid YAML in #{path}: #{error.message}"
   end
 end
 
