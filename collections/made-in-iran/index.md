@@ -13,7 +13,6 @@ items:
  - Kiarash-Z/react-modern-calendar-datepicker
  - MahdiMajidzadeh/bootstrap-v4-rtl
  - imaNNeo/fl_chart
- - persian-calendar/persian-calendar
  - persian-tools/persian-tools
  - usablica/intro.js
  - jadijadi/linuxandlife
@@ -23,6 +22,7 @@ items:
  - majidh1/JalaliDatePicker
  - mojtaba-afraz/clean-code-persian
  - iw4p/partialjson
+ - persian-calendar/persian-calendar
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png
