@@ -9,6 +9,11 @@ describe "topics" do
 
   topics.each do |topic|
     describe "#{topic} topic" do
+      it "has valid YAML frontmatter" do
+        error = yaml_syntax_error_for(topics_dir, topic)
+        assert_nil error, error
+      end
+
       it "has a valid name" do
         assert valid_topic?(topic), invalid_topic_message(topic)
       end
