@@ -235,32 +235,36 @@ def valid_uri_scheme?(scheme)
   %w[http https].include?(scheme.downcase)
 end
 
-def metadata_for(dir, name)
+def frontmatter_for(dir, name)
   path = File.join(dir, name, "index.md")
   return unless File.file?(path)
 
   parts = File.read(path).split("---", 3)
   return unless parts.size >= 2
 
+  parts[1]
+end
+
+def metadata_for(dir, name)
+  frontmatter = frontmatter_for(dir, name)
+  return unless frontmatter
+
   begin
-    YAML.safe_load(parts[1])
+    YAML.safe_load(frontmatter)
   rescue Psych::SyntaxError
     nil
   end
 end
 
 def yaml_syntax_error_for(dir, name)
-  path = File.join(dir, name, "index.md")
-  return unless File.file?(path)
-
-  parts = File.read(path).split("---", 3)
-  return unless parts.size >= 2
+  frontmatter = frontmatter_for(dir, name)
+  return unless frontmatter
 
   begin
-    YAML.safe_load(parts[1])
+    YAML.safe_load(frontmatter)
     nil
   rescue Psych::SyntaxError => error
-    "invalid YAML in #{path}: #{error.message}"
+    "invalid YAML in #{File.join(dir, name, 'index.md')}: #{error.message}"
   end
 end
 
