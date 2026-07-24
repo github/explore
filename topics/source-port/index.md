@@ -1,7 +1,6 @@
 ---
 display_name: Source Port
 short_description: Source port is a type software based on original executable code.
-aliases: 
 related: port
 topic: source-port
 logo: 
