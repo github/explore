@@ -2,6 +2,7 @@
 aliases: software-programming
 created_by: Programmers
 display_name: Programming
+logo: programming.png
 related: coding, software-development, algorithms, data-structures, computer-science
 short_description: Programming involves writing, testing, and maintaining code to build software applications.
 topic: programming
