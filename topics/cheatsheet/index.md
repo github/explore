@@ -1,7 +1,6 @@
 ---
 aliases: cheat-sheet, cheat-sheets, cheatsheets, quick-reference
 display_name: Cheat sheet
-logo: cheatsheet.png
 related: documentation, reference, tutorial, snippets, knowledge-base
 short_description: A cheat sheet is a compact reference that summarizes commands, syntax, or key facts.
 topic: cheatsheet
