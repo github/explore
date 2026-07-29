@@ -1,7 +1,6 @@
 ---
 items:
   - KL13NT/ally-reads
-  - RobustaStudio/bkit
   - aliftype/amiri
   - Gue3bara/Cairo
   - logaretm/vee-validate
