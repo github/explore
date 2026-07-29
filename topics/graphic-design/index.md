@@ -1,10 +1,10 @@
 ---
 aliases: graphic-designs,graphic
-display_name: Graphicdesign
+display_name: Graphic Design
 short_description: Graphic design is the art and practice of creating visual content to communicate messages clearly and effectively.
-topic: graphicdesign
+topic: graphic-design
 wikipedia_url: https://en.wikipedia.org/wiki/graphic-designs
 ---
-Good graphic design combines creativity with problem-solving to make information easy to understand and visually appealing.
-It uses elements like typography, images, color, layout, and symbols.
-It appears in logos, posters, websites, packaging, ads, and more.
+These changes improve the topic page by providing a clearer explanation of graphic design and how it uses visual elements to communicate ideas effectively.
+They also highlight the importance of layout, color, typography, and imagery in creating attractive and meaningful content.
+The revised wording makes the description easier to understand and more engaging for readers.
