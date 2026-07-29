@@ -9,6 +9,7 @@ items:
   - redouanelg/AppliedMathsInDarija
   - yjose/reactjs-popup
   - Edd13Mora/HackerNewsBdarija
+  - crawlee-cloud/crawlee-cloud
   
   
 display_name: Made in Morocco
