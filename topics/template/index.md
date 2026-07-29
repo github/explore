@@ -1,7 +1,5 @@
 ---
-aliases:
-  - project-template
-  - starter-template
+aliases: project-template, starter-template
 display_name: Template
 short_description: Reusable project structures and starter files for building applications and software projects.
 topic: template
