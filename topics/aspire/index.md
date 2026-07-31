@@ -7,4 +7,4 @@ topic: aspire
 url: https://aspire.dev/
 github_url: https://github.com/microsoft/aspire
 ---
-Orchestrate frontends, APIs, containers, and databases effortlessly—no rewrites, no limits. Extend Aspire to power any project. Free, open-source, and agent ready.
+Orchestrate frontends, APIs, containers, and databases effortlessly—no rewrites, no limits. Extend Aspire to power any project. Free, open source, and agent ready.
