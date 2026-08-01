@@ -27,4 +27,4 @@ items:
 display_name: Web scraping
 created_by: aminembarki
 ---
-The web is the world's largest dataset, and these open source projects help developers collect it: crawling frameworks for Python, JavaScript, Go, Rust, Java, Ruby, and PHP, headless browser automation, HTML parsers, and self-hosted platforms for running crawlers at scale.
+The web is the world's largest dataset. These open source projects help developers crawl, extract, and run scrapers at scale.
