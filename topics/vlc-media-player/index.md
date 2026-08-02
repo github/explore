@@ -6,4 +6,4 @@ topic: vlc-media-player
 logo: vlc-media-player.png
 wikipedia_url: https://en.wikipedia.org/wiki/VLC_media_player
 ---
-VLC Media Player is a widely used, free, and open-source cross-platform multimedia player. Developed by the VideoLAN project, it is renowned for its ability to play virtually all audio and video formats without needing external codec packs.  
+VLC Media Player is a widely used, free, and open source cross-platform multimedia player. Developed by the VideoLAN project, it is renowned for its ability to play virtually all audio and video formats without needing external codec packs.  
