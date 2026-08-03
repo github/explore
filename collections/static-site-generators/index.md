@@ -29,6 +29,7 @@ items:
  - twostraws/Ignite
  - JohnSundell/Publish
  - fuma-nama/fumadocs
+ - rochacbruno/marmite
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
