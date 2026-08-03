@@ -1,7 +1,7 @@
 ---
 aliases: datasets, data-set
 display_name: dataset
-short_description: A dataset is a collection of related sets of information that is composed of separate elements
+short_description: A dataset is a collection of related sets of information composed of separate elements.
 topic: dataset
 wikipedia_url: https://en.wikipedia.org/wiki/Data_set
 ---
