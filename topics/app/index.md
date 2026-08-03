@@ -1,4 +1,5 @@
 ---
+aliases: application
 display_name: App
 short_description: The term "app" usually refers to applications for mobile devices such as phones.
 topic: app
