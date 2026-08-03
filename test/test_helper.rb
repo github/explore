@@ -256,6 +256,16 @@ def metadata_for(dir, name)
   end
 end
 
+def frontmatter_malformed?(dir, name)
+  frontmatter = frontmatter_for(dir, name)
+  return false unless frontmatter
+
+  YAML.safe_load(frontmatter)
+  false
+rescue Psych::SyntaxError
+  true
+end
+
 def yaml_syntax_error_for(dir, name)
   frontmatter = frontmatter_for(dir, name)
   return unless frontmatter

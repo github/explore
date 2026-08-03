@@ -26,6 +26,8 @@ describe "collections" do
         end
 
         it "has valid items" do
+          skip "malformed YAML frontmatter" if frontmatter_malformed?(collections_dir, collection)
+
           invalid_slugs = []
 
           items_for_collection(collection).each do |item|
@@ -38,6 +40,8 @@ describe "collections" do
         end
 
         it "has valid number of items" do
+          skip "malformed YAML frontmatter" if frontmatter_malformed?(collections_dir, collection)
+
           items = items_for_collection(collection)
           assert (1...MAX_COLLECTION_ITEMS_LENGTH + 1).cover?(items.length),
                  "must have no more than #{MAX_COLLECTION_ITEMS_LENGTH} items " \
@@ -76,6 +80,8 @@ describe "collections" do
         end
 
         it "has expected metadata in Jekyll front matter" do
+          skip "malformed YAML frontmatter" if frontmatter_malformed?(collections_dir, collection)
+
           metadata = metadata_for(collections_dir, collection)
           refute_empty metadata, "expected some metadata for collection"
 

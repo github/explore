@@ -275,6 +275,8 @@ describe "topics" do
       end
 
       it "has expected metadata in Jekyll front matter" do
+        skip "malformed YAML frontmatter" if frontmatter_malformed?(topics_dir, topic)
+
         metadata = metadata_for(topics_dir, topic)
         refute_empty metadata, "expected some metadata for topic"
 
