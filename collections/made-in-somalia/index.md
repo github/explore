@@ -33,6 +33,7 @@ items:
   - aaqyaar/chatting-web-app
   - MoDev40/expense-tracker
   - MoDev40/budget-management
+  - soplang/soplang
   
 display_name: Made in Somalia
 created_by: sharafdin
