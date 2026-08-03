@@ -1,10 +1,10 @@
 ---
 aliases: prompt-design, ai-prompting, prompt-optimization, prompting
 display_name: Prompt Engineering
-github_url: https://github.com/topics/prompt-engineering
+
 short_description: Designing and optimizing prompts to improve generative AI responses.
 topic: prompt-engineering
-logo: prompt-engineering.png
+
 wikipedia_url: https://en.wikipedia.org/wiki/Prompt_engineering
 related: artificial-intelligence, generative-ai, llms, chatbots
 ---
