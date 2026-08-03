@@ -8,7 +8,6 @@ items:
   - xbmc/xbmc
   - iina/iina
   - mpc-hc/mpc-hc
-  - celerity/bino
 display_name: VLC Media Player 
 created_by: VideoLAN
 ---
