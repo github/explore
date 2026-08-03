@@ -252,18 +252,10 @@ def metadata_for(dir, name)
   begin
     YAML.safe_load(frontmatter)
   rescue Psych::SyntaxError
-    nil
+    # Malformed frontmatter is reported by the dedicated YAML syntax test.
+    # Skip metadata-dependent tests here so that syntax test is the sole failure.
+    skip "malformed YAML frontmatter in #{File.join(dir, name, 'index.md')}"
   end
-end
-
-def frontmatter_malformed?(dir, name)
-  frontmatter = frontmatter_for(dir, name)
-  return false unless frontmatter
-
-  YAML.safe_load(frontmatter)
-  false
-rescue Psych::SyntaxError
-  true
 end
 
 def yaml_syntax_error_for(dir, name)
