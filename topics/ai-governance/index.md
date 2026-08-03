@@ -1,6 +1,6 @@
 ---
 aliases: 
-display_name: Ai-governance
+display_name: AI Governance
 short_description: Frameworks, policies, and practices for governing the development and use of artificial intelligence.
 topic: ai-governance
 wikipedia_url: https://en.wikipedia.org/wiki/Artificial_intelligence_in_government 
