@@ -1,6 +1,6 @@
 ---
 display_name: Attribute Based Encryption
-short_description: Attribute-based encryption is a generalisation of public-key encryption which enables fine grained access control of encrypted data using authorisation policies.
+short_description: Attribute-based encryption enables fine grained access control of encrypted data using authorisation policies.
 topic: abe
 wikipedia_url: https://en.wikipedia.org/wiki/Attribute-based_encryption
 related: cryptography
