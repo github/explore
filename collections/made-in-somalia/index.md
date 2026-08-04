@@ -33,9 +33,11 @@ items:
   - aaqyaar/chatting-web-app
   - MoDev40/expense-tracker
   - MoDev40/budget-management
+  - soplang/soplang
+  - goobolabs/somali-language-standard
   
 display_name: Made in Somalia
-created_by: isasharafdin
+created_by: sharafdin
 image: made-in-somalia.png
 ---
 Open source projects built in or receiving significant contributions from Somalia :somalia:
