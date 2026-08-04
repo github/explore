@@ -1,6 +1,6 @@
 ---
 aliases: retrieval-augmented-generation, rag-application, rag-chatbot
-display_name: Rag
+display_name: RAG
 short_description: RAG is a technique that combines information retrieval with AI language models to generate accurate, relevant, and context-aware responses.
 topic: rag
 wikipedia_url: https://en.wikipedia.org/wiki/Retrieval-augmented_generation
