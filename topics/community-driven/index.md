@@ -1,5 +1,5 @@
 ---
-aliases: community-driven, community-led, community-based
+aliases: community-led, community-based
 display_name: Community Driven
 short_description: Community-driven projects shaped and sustained by a collaborative network of contributors instead of a single, central authority.               
 topic: community-driven
