@@ -1,4 +1,5 @@
 ---
+topic: space-engineers
 aliases: spaceengineers
 created_by: Keen Software House
 display_name: Space Engineers
