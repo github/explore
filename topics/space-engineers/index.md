@@ -6,7 +6,7 @@ github_url: https://github.com/KeenSoftwareHouse/SpaceEngineers
 logo: space-engineers.png
 related: keenswh, keensoftwarehouse
 released: February 28, 2019
-short_description: Space Engineers is a sandbox engineering game where you design and build ships, stations, and planetary bases in a fully destructible environment.
+short_description: Space Engineers is a sandbox engineering game where you design and build ships, stations, and planetary bases...
 url: https://www.spaceengineersgame.com/
 wikipedia_url: https://en.wikipedia.org/wiki/Space_Engineers
 ---
