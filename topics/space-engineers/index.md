@@ -5,7 +5,7 @@ created_by: Keen Software House
 display_name: Space Engineers
 github_url: https://github.com/KeenSoftwareHouse/SpaceEngineers
 logo: space-engineers.png
-related: keenswh, keensoftwarehouse
+related: keenswh, keensoftwarehouse, vrage
 released: February 28, 2019
 short_description: Space Engineers is a sandbox engineering game where you design and build ships, stations, and planetary bases...
 url: https://www.spaceengineersgame.com/
