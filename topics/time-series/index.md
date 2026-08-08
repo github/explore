@@ -1,6 +1,5 @@
 ---
-aliases:
-  - timeseries
+aliases: timeseries
 display_name: Time Series
 short_description: Data points collected over time for analysis, forecasting, monitoring, and understanding trends.
 topic: time-series
