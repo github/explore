@@ -30,6 +30,7 @@ items:
  - JohnSundell/Publish
  - fuma-nama/fumadocs
  - rochacbruno/marmite
+ - quarkiverse/quarkus-roq
 display_name: Static Site Generators
 created_by: jakejarvis
 ---
