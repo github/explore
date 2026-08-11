@@ -1,0 +1,262 @@
+name: Explore PR Triage Commenter Writer
+
+on:
+  workflow_run:
+    workflows: [Explore PR Triage Commenter]
+    types: [completed]
+
+permissions:
+  actions: read
+  issues: write
+  pull-requests: read
+
+jobs:
+  upsert-comment:
+    if: >-
+      ${{ github.event.workflow_run.conclusion == 'success' &&
+          github.event.workflow_run.event == 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download triage comment data
+        id: artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/explore-triage"
+          artifact_id="$(gh api "repos/$REPOSITORY/actions/runs/$RUN_ID/artifacts" \
+            --jq '.artifacts[] | select(.name == "explore-triage-comment" and .expired == false) | .id' | head -n 1)"
+          if [ -z "$artifact_id" ]; then
+            echo "No explore triage artifact found for run $RUN_ID"
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          gh api "repos/$REPOSITORY/actions/artifacts/$artifact_id/zip" > "$RUNNER_TEMP/explore-triage/artifact.zip"
+          unzip -p "$RUNNER_TEMP/explore-triage/artifact.zip" explore-triage-comment.json > "$RUNNER_TEMP/explore-triage/comment.json"
+          echo "found=true" >> "$GITHUB_OUTPUT"
+
+      - name: Upsert sticky comment
+        if: steps.artifact.outputs.found == 'true'
+        uses: actions/github-script@v9
+        env:
+          COMMENT_DATA_PATH: ${{ runner.temp }}/explore-triage/comment.json
+          MARKER: '<!-- explore-triage-comment -->'
+        with:
+          script: |
+            const fs = require('fs');
+
+            const marker = process.env.MARKER;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const expectedRepo = `${owner}/${repo}`;
+            const run = context.payload.workflow_run;
+            const runPr = Array.isArray(run.pull_requests) && run.pull_requests[0];
+            if (!runPr || !runPr.number) {
+              core.info('Workflow run is not associated with a pull request; skipping.');
+              return;
+            }
+
+            const data = JSON.parse(fs.readFileSync(process.env.COMMENT_DATA_PATH, 'utf8'));
+            validateIdentity(data, runPr.number);
+
+            const { data: pr } = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number: runPr.number,
+            });
+
+            if (pr.base.repo.full_name !== expectedRepo) {
+              throw new Error(`Unexpected base repo: ${pr.base.repo.full_name}`);
+            }
+            if (pr.state !== 'open') {
+              core.info(`PR #${pr.number} is ${pr.state}; skipping.`);
+              return;
+            }
+            if (data.headSha !== pr.head.sha) {
+              core.info(`Stale triage data for ${data.headSha}; current PR head is ${pr.head.sha}.`);
+              return;
+            }
+            if (!data.hasChanges) {
+              core.info('No topic or collection changes were reported; skipping.');
+              return;
+            }
+
+            validatePayload(data);
+            const body = renderComment(data);
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number: pr.number,
+              per_page: 100,
+            });
+            const existing = comments.find(c => c.body && c.body.startsWith(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner,
+                repo,
+                comment_id: existing.id,
+                body,
+              });
+              core.info(`Updated comment ${existing.id}`);
+            } else {
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: pr.number,
+                body,
+              });
+              core.info('Created new comment');
+            }
+
+            function validateIdentity(data, prNumber) {
+              if (!data || data.schema !== 'explore-triage-comment/v1') {
+                throw new Error('Unexpected artifact schema.');
+              }
+              if (data.owner !== owner || data.repo !== repo) {
+                throw new Error(`Artifact repo mismatch: ${data.owner}/${data.repo}`);
+              }
+              if (!Number.isInteger(data.prNumber) || data.prNumber !== prNumber) {
+                throw new Error(`Artifact PR mismatch: ${data.prNumber} !== ${prNumber}`);
+              }
+              if (data.baseRepoFullName !== `${owner}/${repo}`) {
+                throw new Error(`Artifact base repo mismatch: ${data.baseRepoFullName}`);
+              }
+              if (!/^[0-9a-f]{40}$/i.test(data.headSha)) {
+                throw new Error('Artifact head SHA is invalid.');
+              }
+            }
+
+            function validatePayload(data) {
+              if (!Array.isArray(data.topics) || !Array.isArray(data.collections)) {
+                throw new Error('Artifact topics/collections must be arrays.');
+              }
+              if (data.topics.length > 100 || data.collections.length > 100) {
+                throw new Error('Artifact contains too many topic or collection entries.');
+              }
+              for (const topic of data.topics) {
+                validateSlug(topic.slug);
+                if (topic.count !== null && (!Number.isInteger(topic.count) || topic.count < 0)) {
+                  throw new Error(`Invalid topic count for ${topic.slug}.`);
+                }
+              }
+              for (const collection of data.collections) {
+                validateSlug(collection.slug);
+                if (!['ok', 'not-found', 'error'].includes(collection.readStatus)) {
+                  throw new Error(`Invalid read status for ${collection.slug}.`);
+                }
+                if (!Array.isArray(collection.items) || collection.items.length > 500) {
+                  throw new Error(`Invalid item list for ${collection.slug}.`);
+                }
+                for (const item of collection.items) validateItem(item);
+              }
+            }
+
+            function validateSlug(slug) {
+              if (typeof slug !== 'string' || !/^[a-z0-9](?:[a-z0-9-]{0,80}[a-z0-9])?$/i.test(slug)) {
+                throw new Error(`Invalid slug: ${slug}`);
+              }
+            }
+
+            function validateItem(item) {
+              if (!item || typeof item.name !== 'string' || item.name.length > 140) {
+                throw new Error('Invalid item name.');
+              }
+              if (item.valid === false) {
+                if (!/^[A-Za-z0-9._/-]+$/.test(item.name)) {
+                  throw new Error(`Unsafe invalid item token: ${item.name}`);
+                }
+                return;
+              }
+              if (item.valid !== true || !/^[\w.-]+\/[\w.-]+$/.test(item.name)) {
+                throw new Error(`Invalid repository item: ${item.name}`);
+              }
+              if (!['ok', 'not-found', 'error'].includes(item.lookupStatus)) {
+                throw new Error(`Invalid lookup status for ${item.name}.`);
+              }
+              if (item.lookupStatus === 'ok') {
+                if (!Number.isInteger(item.stars) || item.stars < 0) throw new Error(`Invalid stars for ${item.name}.`);
+                if (item.pushed !== null && !/^\d{4}-\d{2}-\d{2}$/.test(item.pushed)) throw new Error(`Invalid pushed date for ${item.name}.`);
+                if (typeof item.ownerType !== 'string' || !/^[A-Za-z]+$/.test(item.ownerType)) throw new Error(`Invalid owner type for ${item.name}.`);
+                if (!Array.isArray(item.notes)) throw new Error(`Invalid notes for ${item.name}.`);
+                for (const note of item.notes) {
+                  if (!['possible-self-submission', 'archived', 'disabled'].includes(note)) {
+                    throw new Error(`Invalid note for ${item.name}: ${note}`);
+                  }
+                }
+              }
+            }
+
+            function renderComment(data) {
+              const sections = [];
+
+              if (data.topics.length > 0) {
+                const lines = ['### Topics', ''];
+                for (const topic of data.topics) {
+                  const url = `https://github.com/topics/${encodeURIComponent(topic.slug)}`;
+                  if (topic.count === null) {
+                    lines.push(`- **${topic.slug}** — [topic page](${url}) _(repo count lookup failed)_`);
+                  } else {
+                    lines.push(`- **${topic.slug}** — ${topic.count.toLocaleString()} repositories — [topic page](${url})`);
+                  }
+                }
+                sections.push(lines.join('\n'));
+              }
+
+              for (const collection of data.collections) {
+                const lines = [`### Collection \`${collection.slug}\``, ''];
+                if (collection.readStatus !== 'ok') {
+                  lines.push(`_Could not read \`collections/${collection.slug}/index.md\` at PR head (\`${collection.errorStatus || collection.readStatus}\`)._`);
+                  sections.push(lines.join('\n'));
+                  continue;
+                }
+                if (collection.items.length === 0) {
+                  lines.push('_No `items:` list found in frontmatter._');
+                  sections.push(lines.join('\n'));
+                  continue;
+                }
+
+                lines.push('| Item | Stars | Last push | Owner type | Notes |');
+                lines.push('| --- | ---: | --- | --- | --- |');
+
+                for (const item of collection.items) {
+                  if (item.valid === false) {
+                    lines.push(`| \`${escapeTableToken(item.name)}\` | – | – | – | invalid format |`);
+                    continue;
+                  }
+                  if (item.lookupStatus === 'ok') {
+                    const notes = item.notes.map(noteText).join(', ') || '–';
+                    lines.push(`| [\`${item.name}\`](https://github.com/${item.name}) | ${item.stars.toLocaleString()} | ${item.pushed || '–'} | ${item.ownerType} | ${notes} |`);
+                  } else {
+                    const note = item.lookupStatus === 'not-found' ? 'not found' : `error (${item.errorStatus || '?'})`;
+                    lines.push(`| \`${item.name}\` | – | – | – | ${note} |`);
+                  }
+                }
+                lines.push('');
+                sections.push(lines.join('\n'));
+              }
+
+              return [
+                marker,
+                '<!-- Maintained by .github/workflows/explore-triage-commenter.yml. Edits will be overwritten. -->',
+                '',
+                '## Maintainer triage',
+                '',
+                ...sections,
+              ].join('\n');
+            }
+
+            function noteText(note) {
+              return {
+                'possible-self-submission': '⚠️ possible self-submission',
+                archived: 'archived',
+                disabled: 'disabled',
+              }[note];
+            }
+
+            function escapeTableToken(value) {
+              return value.replace(/`/g, "'").replace(/\\/g, '\\\\').replace(/\|/g, '\\|');
+            }
