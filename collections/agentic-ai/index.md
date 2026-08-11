@@ -1,8 +1,10 @@
 ---
+items:
+  - Significant-Gravitas/AutoGPT
+  - microsoft/autogen
+  - hwchase17/langchain
+  - mshumer/gpt-researcher
 display_name: AI Agents
-short_description: Autonomous AI agents that execute multi-step software tasks, code generation, and complex workflows.
-topic: agentic-ai
-wikipedia_url: https://en.wikipedia.org/wiki/Intelligent_agent
-aliases: ai-agents, agentic-workflows
+created_by: your-github-username
 ---
-AI Agents (or Agentic AI) refer to autonomous or semi-autonomous artificial intelligence systems designed to execute multi-step software tasks, automate code generation, and manage complex workflows. Unlike traditional conversational AI that simply responds to prompts, agentic systems can formulate plans, use external tools, make decisions, and interact with various digital environments to achieve user-defined goals efficiently.
+Autonomous AI agents that execute multi-step software tasks, code generation, and complex workflows. These agentic systems leverage large language models (LLMs) to reason, formulate plans, interact with external tools, and achieve complex, open-ended software goals with minimal human intervention.
