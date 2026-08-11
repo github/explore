@@ -1,7 +1,7 @@
 ---
 aliases: gen-ai, genai, generative-artificial-intelligence
 display_name: Generative AI
-short_description: Generative AI refers to artificial intelligence models capable of generating text, images, code, or other media in response to prompts.
+short_description: Generative AI refers to artificial intelligence models capable of creating text, images, code, and other media from prompts.
 topic: generative-ai
 wikipedia_url: https://en.wikipedia.org/wiki/Generative_artificial_intelligence
 ---
