@@ -10,6 +10,10 @@ permissions:
   issues: write
   pull-requests: read
 
+concurrency:
+  group: explore-triage-commenter-writer-${{ github.event.workflow_run.head_repository.full_name || github.event.workflow_run.head_sha }}-${{ github.event.workflow_run.head_branch || github.event.workflow_run.head_sha }}
+  cancel-in-progress: false
+
 jobs:
   upsert-comment:
     if: >-
@@ -52,21 +56,25 @@ jobs:
             const repo = context.repo.repo;
             const expectedRepo = `${owner}/${repo}`;
             const run = context.payload.workflow_run;
-            const runPr = Array.isArray(run.pull_requests) && run.pull_requests[0];
-            if (!runPr || !runPr.number) {
-              core.info('Workflow run is not associated with a pull request; skipping.');
-              return;
-            }
 
             const data = JSON.parse(fs.readFileSync(process.env.COMMENT_DATA_PATH, 'utf8'));
-            validateIdentity(data, runPr.number);
+            validateIdentity(data);
+
+            const runHeadSha = await getWorkflowRunHeadSha(run);
+            if (!/^[0-9a-f]{40}$/i.test(runHeadSha)) {
+              throw new Error(`Workflow run head SHA is invalid: ${runHeadSha}`);
+            }
 
             const { data: pr } = await github.rest.pulls.get({
               owner,
               repo,
-              pull_number: runPr.number,
+              pull_number: data.prNumber,
             });
 
+            if (pr.head.sha !== runHeadSha) {
+              core.info(`PR #${pr.number} head ${pr.head.sha} does not match workflow run head ${runHeadSha}; skipping.`);
+              return;
+            }
             if (pr.base.repo.full_name !== expectedRepo) {
               throw new Error(`Unexpected base repo: ${pr.base.repo.full_name}`);
             }
@@ -112,15 +120,30 @@ jobs:
               core.info('Created new comment');
             }
 
-            function validateIdentity(data, prNumber) {
+            async function getWorkflowRunHeadSha(run) {
+              if (typeof run.head_sha === 'string' && run.head_sha.length > 0) {
+                return run.head_sha;
+              }
+              if (!run.id) {
+                throw new Error('Workflow run id is missing.');
+              }
+              const { data: workflowRun } = await github.rest.actions.getWorkflowRun({
+                owner,
+                repo,
+                run_id: run.id,
+              });
+              return workflowRun.head_sha;
+            }
+
+            function validateIdentity(data) {
               if (!data || data.schema !== 'explore-triage-comment/v1') {
                 throw new Error('Unexpected artifact schema.');
               }
               if (data.owner !== owner || data.repo !== repo) {
                 throw new Error(`Artifact repo mismatch: ${data.owner}/${data.repo}`);
               }
-              if (!Number.isInteger(data.prNumber) || data.prNumber !== prNumber) {
-                throw new Error(`Artifact PR mismatch: ${data.prNumber} !== ${prNumber}`);
+              if (!Number.isInteger(data.prNumber) || data.prNumber <= 0) {
+                throw new Error(`Artifact PR number is invalid: ${data.prNumber}`);
               }
               if (data.baseRepoFullName !== `${owner}/${repo}`) {
                 throw new Error(`Artifact base repo mismatch: ${data.baseRepoFullName}`);
