@@ -2,12 +2,12 @@
 aliases: deepseek-harness
 created_by: DeepSeek
 display_name: DeepSeek Harness
-github_url: https://github.com/deepseek-ai
+github_url: https://github.com/deepseek-ai/deepseek-harness
 related: agent-harness, ai, ai-agent, deepseek, llm
 logo: deepseek-harness.png
-short_description: DeepSeek Harness is the execution framework that turns large language models into autonomous agents.
+short_description: DeepSeek Harness (dsh) is an open-source agent harness developed by DeepSeek AI.
 topic: dsh
-url: https://www.deepseek.com
+url: https://www.deepseek.com/harness/
 ---
 
-DeepSeek Harness is an agent execution framework built around DeepSeek's large language models. It handles everything beyond model inference, turning the model into an autonomous agent that can complete complex tasks on its own. Harness manages context and long-term memory, orchestrates tool use and code execution, plans and decomposes tasks, and coordinates multiple subagents in a fault-tolerant execution loop. Its goal is to rival industry-leading products and become a top-tier AI coding and productivity agent, and it is currently in closed beta.
+DeepSeek Harness (dsh) is a modular agent harness where every component - model adapters, tool registries, session logging, agent loops - is a replaceable plugin. Built on [Cordis](https://github.com/cordiverse/cordis), it has no privileged core; you extend it by mounting plugins alongside, and registrations automatically revoke when plugins are unloaded. The project is currently in **developer preview** and iterates rapidly, with breaking changes expected.
