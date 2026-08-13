@@ -1,5 +1,5 @@
 ---
-aliases: deepseek-harness
+aliases: dsh-plugin
 created_by: DeepSeek
 display_name: DeepSeek Harness
 github_url: https://github.com/deepseek-ai/deepseek-harness
