@@ -1,7 +1,7 @@
 ---
 aliases: dsh
 display_name: DeepSeek Harness
-short_description: An autonomous agent harness that orchestrates foundation models to reason, plan, and act — extended by a community plugin ecosystem.
+short_description: An agent harness that orchestrates foundation models to reason, plan, and act, extended by a community plugin ecosystem.
 topic: deepseek-harness
 related: deepseek, ai-agent, agent-harness, llm, chatbot, machine-learning, mcp
 ---
