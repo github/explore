@@ -2,7 +2,6 @@
 items:
   - k3s-io/k3s
   - kubeedge/kubeedge
-  - eclipse-iofog/iofog
   - openyurtio/openyurt
 display_name: Edge Computing & AIoT
 created_by: hamsehmahamud
