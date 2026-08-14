@@ -3,7 +3,6 @@ aliases: pydantic-core
 created_by: samuelcolvin
 display_name: Pydantic
 github_url: https://github.com/pydantic/pydantic
-logo: pydantic.png
 related: python, fastapi, typing, data-validation, serialization
 short_description: Pydantic is a data validation and settings management library using Python type annotations.
 topic: pydantic
