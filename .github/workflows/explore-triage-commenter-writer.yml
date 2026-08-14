@@ -8,7 +8,7 @@ on:
 permissions:
   actions: read
   issues: write
-  pull-requests: read
+  pull-requests: write
 
 concurrency:
   group: explore-triage-commenter-writer-${{ github.event.workflow_run.head_repository.full_name || github.event.workflow_run.head_sha }}-${{ github.event.workflow_run.head_branch || github.event.workflow_run.head_sha }}
@@ -110,7 +110,7 @@ jobs:
 
       - name: Upsert sticky comment
         if: steps.artifact.outputs.found == 'true'
-        uses: actions/github-script@v9
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
         env:
           COMMENT_DATA_PATH: ${{ runner.temp }}/explore-triage/comment.json
           MARKER: '<!-- explore-triage-comment -->'
