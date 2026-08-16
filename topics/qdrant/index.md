@@ -2,6 +2,7 @@
 aliases: qdrant-engine
 created_by: qdrant
 display_name: Qdrant
+logo: qdrant.png
 github_url: https://github.com/qdrant/qdrant
 related: vector-search, embeddings, database, machine-learning, rust
 short_description: Qdrant is an open-source vector similarity search engine and vector database written in Rust.
