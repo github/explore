@@ -1,1 +1,14 @@
-collections
+
+def parse_args():
+    parser=argparse.ArgumentParser(description='Test ChromeDriver')
+    parser.add_argument('--source-root',
+                        default=SOURCE_ROOT,
+                        required=False)
+    parser.add_argument('--build-dir',
+                        default=None,
+                        required=True)
+    return parser.parse_args()
+
+
+if __name__ == '__main__':
+    sys.exit(main())collections
