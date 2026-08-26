@@ -1,3 +1,4 @@
+<img width="1200" height="1200" alt="1000037148" src="https://github.com/user-attachments/assets/0780638d-899e-4b92-b76b-537dffda76fc" />
 ---
 items:
   - HoppouAI/OctoBrowser
