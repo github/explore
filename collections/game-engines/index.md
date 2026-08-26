@@ -64,6 +64,7 @@ items:
  - DaemonEngine/Daemon
  - DarkPlacesEngine/DarkPlaces
  - bXi/luminoveau
+ - szymonkrygier/MagnetaX
 display_name: Game Engines
 created_by: leereilly
 ---
