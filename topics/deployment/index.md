@@ -7,3 +7,5 @@ wikipedia_url: https://en.wikipedia.org/wiki/Software_deployment
 related: continuous-deployment, release-automation, cicd
 ---
 The general **deployment** process consists of several interrelated activities with possible transitions between them. These activities can occur at the producer side or at the consumer side or both.
+
+}
