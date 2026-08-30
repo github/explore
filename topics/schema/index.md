@@ -1,5 +1,5 @@
 ---
-aliases: schemas,schema.org
+aliases: schemas,schema-org
 display_name: Schema
 related: microformat,json-ld,structured-data
 short_description: Schema is language launched in 2011 by google, bing and yahoo  marking up web pages with structured data.
