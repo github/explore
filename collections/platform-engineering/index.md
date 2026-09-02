@@ -3,7 +3,7 @@ items:
   - backstage/backstage
   - crossplane/crossplane
   - argoproj/argo-cd
-  - qovery/engine
+  - Qovery/engine
 display_name: Platform Engineering
 created_by: hamsehmahamud
 ---
