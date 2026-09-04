@@ -5,9 +5,9 @@ items:
  - bigskysoftware/htmx
  - code-hike/codehike
  - DioxusLabs/dioxus
- - EddieHubCommunity/LinkFree
+ - EddieHubCommunity/BioDrop
  - FashionFreedom/Seamly2D
- - fastai/nbdev
+ - AnswerDotAI/nbdev
  - formbricks/formbricks
  - GyulyVGC/sniffnet
  - JessicaTegner/pypandoc
@@ -15,7 +15,6 @@ items:
  - nuxt/nuxt
  - responsively-org/responsively-app
  - simonw/datasette
- - spyder-ide/spyde
  - strawberry-graphql/strawberry
  - termux/termux-app
  - bebop/poly
