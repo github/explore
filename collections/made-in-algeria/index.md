@@ -23,8 +23,9 @@ items:
  - linuxscout/ghalatawi
  - linuxscout/qalsadi
  - linuxscout/mishkal
+ - hacene-ouserir/mihfada
 display_name: Made in Algeria
 created_by: the-dijkstra
 image: made-in-algeria.png
 ---
-Open source projects built in or receiving significant contributions from Algeria 🇩🇿
+Open-source projects built in or receiving significant contributions from Algeria 🇩🇿
