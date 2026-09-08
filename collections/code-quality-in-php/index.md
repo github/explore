@@ -1,6 +1,6 @@
 ---
 items:
- - PHPCSStandards/PHP_CodeSniffer/
+ - PHPCSStandards/PHP_CodeSniffer
  - PHP-CS-Fixer/PHP-CS-Fixer
  - psecio/parse
  - phan/phan
