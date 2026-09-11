@@ -1,5 +1,5 @@
 ---
-aliases: deepseek-harness-java, dsh-java-plugin
+aliases: deepseek-harness-java
 created_by: fuzhengwei
 display_name: DeepSeek Harness Java
 github_url: https://github.com/fuzhengwei/deepseek-harness-java
