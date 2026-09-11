@@ -4,7 +4,7 @@ created_by: fuzhengwei
 display_name: DeepSeek Harness Java
 github_url: https://github.com/fuzhengwei/deepseek-harness-java
 logo: dsh-java.png
-related: agent-harness, ai, ai-agent, deepseek, dsh, java, llm
+related: agent-harness, ai, ai-agent, deepseek, java, llm
 short_description: Java implementation of the DeepSeek Harness modular agent runtime.
 topic: dsh-java
 url: https://github.com/fuzhengwei/deepseek-harness-java
