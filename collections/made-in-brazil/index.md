@@ -39,7 +39,7 @@ items:
   - frontendbr/vagas
   - getfloresta/Floresta
   - danielnichiata96/abnt-citation
-  - hoffresearch/nest
+  - hoffresearch/urna
   - Ddiidev/tabua_mare_api
 
 display_name: Made in Brazil
