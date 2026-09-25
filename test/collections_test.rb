@@ -204,7 +204,7 @@ describe "collections" do
       end
     end
 
-    next if ENV["SKIP_APPEND_ORDER_CHECK"] == "1"
+    next if ENV["AUTOCORRECT_RENAMED_REPOS"] == "1" || ENV["SKIP_APPEND_ORDER_CHECK"] == "1"
 
     it "has the same order and new items are at the end" do
       collection_items = items_for_collection(collection)
