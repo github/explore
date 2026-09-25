@@ -17,7 +17,7 @@ items:
  - GitbookIO/gitbook
  - mui/material-ui
  - PrestaShop/PrestaShop
- - QuivrHQ/quivr
+ - The-Vibe-Company/quivr
  - axone-protocol
 display_name: Made in France
 created_by: ferdi05
