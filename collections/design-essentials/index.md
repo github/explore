@@ -7,7 +7,7 @@ items:
  - ionic-team/ionicons
  - designmodo/Flat-UI
  - h5bp/html5-boilerplate
- - foundation/foundation-sites
+ - foundation/yeti
  - Modernizr/Modernizr
  - twbs/ratchet
  - IanLunn/Hover

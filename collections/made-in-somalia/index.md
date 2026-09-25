@@ -2,7 +2,6 @@
 items:
   - sharafdin/yonode
   - garaadgacmeed/markdown-master
-  - duraanali/luuqad
   - sharafdin/better-react-js-code-snippet-extension
   - hanad124/furqan-constructions
   - abdinasir-Tman/shaqo-sahal
