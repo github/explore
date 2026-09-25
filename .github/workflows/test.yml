@@ -83,3 +83,4 @@ jobs:
           SKIP_COLLECTION_API_CHECKS: ${{ matrix.test_type == 'all' && '1' || '' }}
           COLLECTION_SHARD: ${{ matrix.shard }}
           COLLECTION_TOTAL_SHARDS: ${{ matrix.total_shards }}
+          AUTOCORRECT_RENAMED_REPOS: ${{ (github.event.pull_request.user.login == 'github-actions[bot]' && github.head_ref == 'update-collections') && '1' || '' }}
