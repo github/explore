@@ -27,7 +27,7 @@ Produce a table of open pull requests with CI status and a merge recommendation,
 4. **PRs editing core repository metadata** (workflows, CI config, `Gemfile`, docs, etc. — anything outside `topics/` or `collections/`) submitted by an external contributor: ❌. This repository only accepts topic/collection contributions from the community; infrastructure changes need maintainer review through other channels.
 5. **PRs that add or edit a topic or collection**:
    - Check the PR description against `.github/PULL_REQUEST_TEMPLATE.md`. If the required checkboxes for the selected contribution type are not checked, recommend ❌ — per `CONTRIBUTING.md`, incomplete templates are closed without comment.
-   - If the checkboxes are complete but the contribution reads as self-promotion (e.g. the author is adding their own repository to a topic or collection), recommend ❌ citing the "Avoid conflicts of interest" guideline in `CONTRIBUTING.md`.
+   - If the checkboxes are complete but the contribution reads as self-promotion (e.g. the author is adding their own repository to a topic or collection), check the PR description and comments for a disclosed, extenuating explanation (e.g. independent evidence of community adoption, or a maintainer acknowledgment) that might justify an exception. Absent such justification, recommend ❌ citing the "Avoid conflicts of interest" guideline in `CONTRIBUTING.md`.
    - If the checkboxes are complete, the change is substantive, and it isn't self-promotion, recommend ✔️.
    - If CI is failing (🔴) for a PR that otherwise looks acceptable, or the contribution's value is ambiguous, recommend 🔍 for human review rather than guessing.
 
