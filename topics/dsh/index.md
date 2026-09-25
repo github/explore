@@ -1,9 +1,8 @@
 ---
-aliases: dsh-plugin
 created_by: DeepSeek
 display_name: DeepSeek Harness
 github_url: https://github.com/deepseek-ai/deepseek-harness
-related: agent-harness, ai, ai-agent, deepseek, llm
+related: agent-harness, ai, ai-agent, deepseek, dsh-plugin, llm
 logo: dsh.png
 short_description: DeepSeek Harness (dsh) is an open-source agent harness developed by DeepSeek AI.
 topic: dsh
