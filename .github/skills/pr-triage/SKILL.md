@@ -33,10 +33,17 @@ Produce a table of open pull requests with CI status and a merge recommendation,
 
 ## Workflow
 
-1. List open PRs with `gh pr list` including CI status (`statusCheckRollup`).
-2. For each PR, read its body/checkboxes, diff, and any bot triage comments (e.g. the maintainer triage comment posted by `explore-triage-commenter`).
-3. Apply the rules above to assign CI status and merge recommendation.
-4. Present the table. Do not take merge/close actions unless explicitly asked.
+Resolve PRs in this order before generating the final table, since earlier PRs can block or affect CI for the rest:
+
+1. **Autofix PRs** (e.g. the `github-actions[bot]` collections-renames PR). These often correct data that other PRs' CI depends on, so merge them first.
+2. **Dependabot PRs** (`app/dependabot`).
+3. **Other `github-*`-login-submitted PRs** (e.g. `github-security-bot`).
+
+Merge each blocking PR once its own CI passes, following the merge recommendation rules above. Only proceed to the next step once all blocking PRs are merged.
+
+4. Once all blocking PRs are merged, update every remaining open PR from the base branch (see below) to trigger fresh CI runs that reflect the newly merged fixes.
+5. Only after that, list open PRs with `gh pr list` including CI status (`statusCheckRollup`), read each PR's body/checkboxes, diff, and any bot triage comments (e.g. the maintainer triage comment posted by `explore-triage-commenter`), apply the merge recommendation rules, and present the table.
+6. Do not take merge/close actions on non-blocking PRs unless explicitly asked.
 
 ## Updating PR branches
 
