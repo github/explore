@@ -33,17 +33,19 @@ Produce a table of open pull requests with CI status and a merge recommendation,
 
 ## Workflow
 
-Resolve PRs in this order before generating the final table, since earlier PRs can block or affect CI for the rest:
+**Never approve, merge, or close a PR automatically. Every approval, merge, and close is a separate action the user must explicitly request, one at a time, regardless of the recommendation in the table.** This skill only produces recommendations and takes the read-only/branch-update actions described below on its own.
 
-1. **Autofix PRs** (e.g. the `github-actions[bot]` collections-renames PR). These often correct data that other PRs' CI depends on, so merge them first.
+For prioritizing which PRs matter most when the user does ask for merges, note that these often correct data that other PRs' CI depends on, so they're worth flagging as high priority in that order:
+
+1. **Autofix PRs** (e.g. the `github-actions[bot]` collections-renames PR).
 2. **Dependabot PRs** (`app/dependabot`).
 3. **Other `github-*`-login-submitted PRs** (e.g. `github-security-bot`).
 
-Merge each blocking PR once its own CI passes, following the merge recommendation rules above. Only proceed to the next step once all blocking PRs are merged.
+Steps to actually perform without being asked:
 
-4. Once all blocking PRs are merged, update every remaining open PR from the base branch (see below) to trigger fresh CI runs that reflect the newly merged fixes.
-5. Only after that, list open PRs with `gh pr list` including CI status (`statusCheckRollup`), read each PR's body/checkboxes, diff, and any bot triage comments (e.g. the maintainer triage comment posted by `explore-triage-commenter`), apply the merge recommendation rules, and present the table.
-6. Do not take merge/close actions on non-blocking PRs unless explicitly asked.
+1. Update every open PR from the base branch (see below) to trigger fresh CI runs.
+2. List open PRs with `gh pr list` including CI status (`statusCheckRollup`), read each PR's body/checkboxes, diff, and any bot triage comments (e.g. the maintainer triage comment posted by `explore-triage-commenter`), apply the merge recommendation rules, and present the table.
+3. Do not approve, merge, or close any PR — including ones recommended ✔️ or ❌ — without the user explicitly asking for that specific PR.
 
 ## Updating PR branches
 
@@ -57,7 +59,7 @@ Workflow runs that require manual approval (e.g. first-time contributors) can be
 gh api -X POST repos/github/explore/actions/runs/<run_id>/approve
 ```
 
-Only do this for runs actually in `action_required` or `waiting` status — a 🔴 CI status from a completed, non-blocked run is a real failure, not a pending approval.
+Only do this for runs actually in `action_required` or `waiting` status — a 🔴 CI status from a completed, non-blocked run is a real failure, not a pending approval. As with PR approvals and merges, only approve a workflow run to unblock CI when the user has explicitly asked for that PR to move forward.
 
 ## Diagnosing CI failures
 
