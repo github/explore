@@ -4,6 +4,7 @@ items:
   - snyk/cli
   - zaproxy/zaproxy
   - bridgecrewio/checkov
+  - cynative/cynative
 display_name: DevSecOps
 created_by: hamsehmahamud
 ---
