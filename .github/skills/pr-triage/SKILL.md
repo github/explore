@@ -39,7 +39,7 @@ Produce a table of open pull requests with CI status and a merge recommendation,
 For prioritizing which PRs matter most when the user does ask for merges, note that these often correct data that other PRs' CI depends on, so they're worth flagging as high priority in that order:
 
 1. **Autofix PRs** (e.g. the `github-actions[bot]` collections-renames PR).
-2. **Dependabot PRs** (`app/dependabot`).
+2. **Dependabot PRs** (`dependabot[bot]`).
 3. **`github-security-bot` PRs** (the only other opted-in `github-` login).
 
 When asked to "Triage the PRs for github/explore":
