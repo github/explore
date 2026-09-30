@@ -50,6 +50,8 @@ When asked to "Triage the PRs for github/explore":
 4. If any PRs recommended ✔️ have runs requiring approval, prompt the user: "N PRs look safe but have runs requiring approval. Would you like me to approve them to run?" Use the number of qualifying PRs, not the number of runs. Do not ask this for PRs recommended 🔍 or ❌. Do not approve any runs before the user agrees.
 5. Do not approve, merge, or close PRs — including ones recommended ✔️ or ❌ — unless the user explicitly requests the action for specific PRs or a clearly defined group of PRs.
 
+After confirming that a PR contributing to `topics/` has merged, prompt the user to import the merged topic via [stafftools](https://admin.github.com/biztools/topics). The link may return 403 or 404 until the user is SSO-authenticated; do not treat that as an import failure or attempt the import on their behalf.
+
 ## Updating PR branches
 
 Only when asked to update PRs from the base branch, use `gh pr update-branch <number>` for each open PR. Dependabot, `github-actions[bot]`, and `github-security-bot` PRs are still valid targets for this — being "always accepted" for merge doesn't exempt them from branch updates.
