@@ -64,7 +64,7 @@ Workflow runs that require manual approval (e.g. first-time contributors) can be
 gh api -X POST repos/github/explore/actions/runs/<run_id>/approve
 ```
 
-Only approve runs for PRs independently recommended ✔️ under the merge recommendation rules, never for PRs recommended 🔍 or ❌. The runs must actually require approval (`action_required` or `waiting`); a 🔴 CI status from a completed, non-blocked run is a real failure, not a pending approval. After the table is open in the canvas, ask the user for consent as described above; only if they agree, recheck each PR's recommendation and run state before approving the qualifying runs. Consent to run CI does not authorize approving or merging the PR.
+Offer the grouped consent prompt only for PRs independently recommended ✔️. Runs for PRs recommended 🔍 may also be approved if the user explicitly requests CI approval for those PRs; never approve runs for PRs recommended ❌. The runs must actually require approval (`action_required` or `waiting`); a 🔴 CI status from a completed, non-blocked run is a real failure, not a pending approval. Before approving, recheck each PR's recommendation and run state. Consent to run CI does not authorize approving or merging the PR.
 
 ## Diagnosing CI failures
 
