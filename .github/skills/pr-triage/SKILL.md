@@ -46,7 +46,7 @@ When asked to "Triage the PRs for github/explore":
 
 1. List open PRs with `gh pr list` including CI status (`statusCheckRollup`), read each PR's body/checkboxes, diff, and any bot triage comments (e.g. the maintainer triage comment posted by `explore-triage-commenter`), and apply the merge recommendation rules. Check workflow runs for manual-approval gates.
 2. In the first response, create the table as an artifact and open it in the editor canvas. Do not wait for CI approvals or branch updates before showing the table.
-3. Once the table is created, rerun failed CI for every open PR, regardless of its recommendation, as described below. If another PR merges, rerun failed CI for the remaining open PRs and refresh the table. Do not delay the first table while waiting for reruns.
+3. Show existing CI results in the table without automatically rerunning failures. If another PR merges, refresh the table using the latest results. Rerun failed CI only when the user requests it or after a targeted diagnosis identifies a reason to retry.
 4. If any PRs recommended ✔️ have runs requiring approval, prompt the user: "N PRs look safe but have runs requiring approval. Would you like me to approve them to run?" Use the number of qualifying PRs, not the number of runs. Do not ask this for PRs recommended 🔍 or ❌. Do not approve any runs before the user agrees.
 5. Do not approve, merge, or close PRs — including ones recommended ✔️ or ❌ — unless the user explicitly requests the action for specific PRs or a clearly defined group of PRs.
 
@@ -58,7 +58,7 @@ Only when asked to update PRs from the base branch, use `gh pr update-branch <nu
 
 ## CI check approval
 
-For each failed GitHub Actions run on an open PR's current head commit, use `gh run rerun <run_id> --failed -R github/explore` once per table creation or newly merged PR; reflect the resulting pending status in the table. Do not rerun older commits' failures or repeatedly rerun the same failure while waiting for results. A run awaiting manual approval is not a failed run to retry; follow the consent rule below instead.
+When the user requests a rerun, or a targeted diagnosis identifies a reason to retry, use `gh run rerun <run_id> --failed -R github/explore` for failed GitHub Actions runs on the open PR's current head commit and update the table with the pending status. Do not rerun older commits' failures or repeatedly rerun the same failure while waiting for results. A run awaiting manual approval is not a failed run to retry; follow the consent rule below instead.
 
 Workflow runs that require manual approval (e.g. first-time contributors) can be approved with:
 
