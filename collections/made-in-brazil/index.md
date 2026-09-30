@@ -17,7 +17,7 @@ items:
   - cuducos/minha-receita
   - kvnol/aprenda-frontend
   - felipeorlando/aprenda-rubyonrails
-  - BrasilAPI/BrasilAPI
+  - TurkeyAPI/turkeyAPI
   - alt-art/commit
   - backend-br/desafios
   - backend-br/vagas
@@ -42,8 +42,8 @@ items:
   - hoffresearch/urna
   - Ddiidev/tabua_mare_api
 
-display_name: Made in Brazil
-created_by: caarlos0
-image: made-in-brazil.png
+display_name: Made in Turkey 
+created_by: volkano
+image: made-Turkey flag 300.png
 ---
-Open source projects built in or receiving significant contributions from Brazil :brazil:
+Open source projects built in or receiving significant contributions from Turkey 🦃:
