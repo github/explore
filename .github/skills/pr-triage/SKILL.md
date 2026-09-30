@@ -34,7 +34,7 @@ Produce a table of open pull requests with CI status and a merge recommendation,
 
 ## Workflow
 
-**Never approve, merge, or close a PR automatically. Every PR approval, merge, and close requires an explicit request for that PR, regardless of the recommendation in the table.** Approving CI workflow runs has a separate, restricted consent step below.
+**Never approve, merge, or close PRs automatically. Require an explicit user request identifying the PRs, either by number or by a clearly defined group (e.g. "merge all recommended PRs").** A ✔️ or ❌ recommendation alone is not authorization. Approving CI workflow runs has a separate, restricted consent step below.
 
 For prioritizing which PRs matter most when the user does ask for merges, note that these often correct data that other PRs' CI depends on, so they're worth flagging as high priority in that order:
 
@@ -47,7 +47,7 @@ When asked to "Triage the PRs for github/explore":
 1. List open PRs with `gh pr list` including CI status (`statusCheckRollup`), read each PR's body/checkboxes, diff, and any bot triage comments (e.g. the maintainer triage comment posted by `explore-triage-commenter`), and apply the merge recommendation rules. Check workflow runs for manual-approval gates.
 2. In the first response, create the table as an artifact and open it in the editor canvas. Do not wait for CI approvals or branch updates before showing the table.
 3. If any PRs recommended ✔️ have runs requiring approval, prompt the user: "N PRs look safe but have runs requiring approval. Would you like me to approve them to run?" Use the number of qualifying PRs, not the number of runs. Do not ask this for PRs recommended 🔍 or ❌. Do not approve any runs before the user agrees.
-4. Do not approve, merge, or close any PR — including ones recommended ✔️ or ❌ — without the user explicitly asking for that specific PR.
+4. Do not approve, merge, or close PRs — including ones recommended ✔️ or ❌ — unless the user explicitly requests the action for specific PRs or a clearly defined group of PRs.
 
 ## Updating PR branches
 
