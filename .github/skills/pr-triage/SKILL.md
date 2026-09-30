@@ -33,7 +33,7 @@ Produce a table of open pull requests with CI status and a merge recommendation,
 
 ## Workflow
 
-**Never approve, merge, or close a PR automatically. Every approval, merge, and close is a separate action the user must explicitly request, one at a time, regardless of the recommendation in the table.** This skill only produces recommendations and takes the read-only/branch-update actions described below on its own.
+**Never approve, merge, or close a PR automatically. Every PR approval, merge, and close requires an explicit request for that PR, regardless of the recommendation in the table.** Approving CI workflow runs has a separate, restricted consent step below.
 
 For prioritizing which PRs matter most when the user does ask for merges, note that these often correct data that other PRs' CI depends on, so they're worth flagging as high priority in that order:
 
@@ -41,15 +41,16 @@ For prioritizing which PRs matter most when the user does ask for merges, note t
 2. **Dependabot PRs** (`app/dependabot`).
 3. **Other `github-*`-login-submitted PRs** (e.g. `github-security-bot`).
 
-Steps to actually perform without being asked:
+When asked to "Triage the PRs for github/explore":
 
-1. Update every open PR from the base branch (see below) to trigger fresh CI runs.
-2. List open PRs with `gh pr list` including CI status (`statusCheckRollup`), read each PR's body/checkboxes, diff, and any bot triage comments (e.g. the maintainer triage comment posted by `explore-triage-commenter`), apply the merge recommendation rules, and present the table.
-3. Do not approve, merge, or close any PR — including ones recommended ✔️ or ❌ — without the user explicitly asking for that specific PR.
+1. List open PRs with `gh pr list` including CI status (`statusCheckRollup`), read each PR's body/checkboxes, diff, and any bot triage comments (e.g. the maintainer triage comment posted by `explore-triage-commenter`), and apply the merge recommendation rules. Check workflow runs for manual-approval gates.
+2. In the first response, create the table as an artifact and open it in the editor canvas. Do not wait for CI approvals or branch updates before showing the table.
+3. If any PRs recommended ✔️ have runs requiring approval, prompt the user: "N PRs look safe but have runs requiring approval. Would you like me to approve them to run?" Use the number of qualifying PRs, not the number of runs. Do not ask this for PRs recommended 🔍 or ❌. Do not approve any runs before the user agrees.
+4. Do not approve, merge, or close any PR — including ones recommended ✔️ or ❌ — without the user explicitly asking for that specific PR.
 
 ## Updating PR branches
 
-When asked to update PRs from the base branch, use `gh pr update-branch <number>` for each open PR. Dependabot, `github-actions[bot]`, and `github-security-bot` PRs are still valid targets for this — being "always accepted" for merge doesn't exempt them from branch updates.
+Only when asked to update PRs from the base branch, use `gh pr update-branch <number>` for each open PR. Dependabot, `github-actions[bot]`, and `github-security-bot` PRs are still valid targets for this — being "always accepted" for merge doesn't exempt them from branch updates.
 
 ## CI check approval
 
@@ -59,7 +60,7 @@ Workflow runs that require manual approval (e.g. first-time contributors) can be
 gh api -X POST repos/github/explore/actions/runs/<run_id>/approve
 ```
 
-Only do this for runs actually in `action_required` or `waiting` status — a 🔴 CI status from a completed, non-blocked run is a real failure, not a pending approval. As with PR approvals and merges, only approve a workflow run to unblock CI when the user has explicitly asked for that PR to move forward.
+Only approve runs for PRs independently recommended ✔️ under the merge recommendation rules, never for PRs recommended 🔍 or ❌. The runs must actually require approval (`action_required` or `waiting`); a 🔴 CI status from a completed, non-blocked run is a real failure, not a pending approval. After the table is open in the canvas, ask the user for consent as described above; only if they agree, recheck each PR's recommendation and run state before approving the qualifying runs. Consent to run CI does not authorize approving or merging the PR.
 
 ## Diagnosing CI failures
 
