@@ -6,7 +6,6 @@ items:
  - nesbox/TIC-80
  - pico-8/awesome-PICO-8
  - paladin-t/b8
- - kitao/pyxel
  - le-doux/bitsy
  - morgan3d/quadplay
  - emmachase/Riko4
