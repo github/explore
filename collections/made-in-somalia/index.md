@@ -33,7 +33,7 @@ items:
   - MoDev40/expense-tracker
   - MoDev40/budget-management
   - soplang/soplang
-  - goobolabs/somali-language-standard
+  - somastllc/somali-language-standard
   
 display_name: Made in Somalia
 created_by: sharafdin
