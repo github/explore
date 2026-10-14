@@ -27,6 +27,7 @@ items:
  - rclone/rclone
  - tldr-pages/tldr
  - aria2/aria2
+ - AmintaCCCP/GithubStarsManager
  - Bash-it/bash-it
  - treeverse/dvc
  - starship/starship
