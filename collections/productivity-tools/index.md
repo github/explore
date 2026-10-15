@@ -27,7 +27,6 @@ items:
  - rclone/rclone
  - tldr-pages/tldr
  - aria2/aria2
- - AmintaCCCP/GithubStarsManager
  - Bash-it/bash-it
  - treeverse/dvc
  - starship/starship
@@ -47,7 +46,7 @@ items:
  - dusan-maintains/oss-maintenance-log
  - ErezShahaf/Lore
  - HMAKT99/UnTouchID
+ - AmintaCCCP/GithubStarsManager
 display_name: Software productivity tools
 created_by: holman
----
 Build software faster with fewer headaches, using these tools and tricks.
