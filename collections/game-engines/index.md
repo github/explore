@@ -40,7 +40,6 @@ items:
  - love2d/love
  - coronalabs/corona
  - hajimehoshi/ebiten
- - HaxeFoundation/haxe
  - bevyengine/bevy
  - aws/lumberyard
  - FlaxEngine/FlaxEngine
