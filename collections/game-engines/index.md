@@ -41,6 +41,7 @@ items:
  - coronalabs/corona
  - hajimehoshi/ebiten
  - HaxeFoundation/haxe
+ - HeapsIO/heaps
  - bevyengine/bevy
  - aws/lumberyard
  - FlaxEngine/FlaxEngine
