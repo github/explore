@@ -69,7 +69,7 @@ items:
 - ValeLang/Vale
 - factor/factor
 - julelang/jule
-- kvthweatt/Flux
+- kvthweatt/IDEKA
 - SalamLang/Salam
 display_name: Programming languages
 created_by: leereilly
