@@ -1,5 +1,7 @@
 ---
 items:
+ - safal-bhardwaj/frample-frontend
+ - safal-bhardwaj/frample-backend
  - beetbox/beets
  - scottschiller/SoundManager2
  - CreateJS/SoundJS
