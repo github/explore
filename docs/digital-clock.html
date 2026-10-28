@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Clock</title>
+    <style>
+      :root {
+        --bg-1: #0f172a;
+        --bg-2: #111827;
+        --panel: rgba(15, 23, 42, 0.78);
+        --panel-border: rgba(148, 163, 184, 0.25);
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --accent: #38bdf8;
+        --shadow: rgba(2, 6, 23, 0.45);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: radial-gradient(circle at top, #1e293b 0%, var(--bg-1) 30%, var(--bg-2) 100%);
+        color: var(--text);
+      }
+
+      .clock-wrapper {
+        width: min(1100px, 90vw);
+      }
+
+      h1 {
+        margin: 0 0 1.5rem;
+        text-align: center;
+        font-size: clamp(2rem, 4vw, 3.2rem);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #f8fafc;
+      }
+
+      .timezone-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+      }
+
+      .timezone-card {
+        background: var(--panel);
+        border: 1px solid var(--panel-border);
+        border-radius: 18px;
+        padding: 1.25rem 1.2rem;
+        box-shadow: 0 20px 40px var(--shadow);
+        backdrop-filter: blur(8px);
+      }
+
+      .city {
+        margin: 0;
+        font-size: 1rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .time {
+        margin: 0.8rem 0 0.45rem;
+        font-size: clamp(2.2rem, 3vw, 3.3rem);
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        color: #f8fafc;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .date {
+        margin: 0;
+        font-size: 0.95rem;
+        color: var(--muted);
+        letter-spacing: 0.04em;
+      }
+
+      .tz-name {
+        margin-top: 0.65rem;
+        color: var(--accent);
+        font-size: 0.78rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="clock-wrapper">
+      <h1>World Clock</h1>
+      <section class="timezone-grid" id="clock-grid"></section>
+    </main>
+
+    <script>
+      const timezones = [
+        { city: 'UTC', zone: 'UTC' },
+        { city: 'New York', zone: 'America/New_York' },
+        { city: 'London', zone: 'Europe/London' },
+        { city: 'Berlin', zone: 'Europe/Berlin' },
+        { city: 'Tokyo', zone: 'Asia/Tokyo' },
+        { city: 'Sydney', zone: 'Australia/Sydney' }
+      ];
+
+      const grid = document.getElementById('clock-grid');
+
+      function renderClock() {
+        const now = new Date();
+
+        timezones.forEach(({ city, zone }) => {
+          const card = document.createElement('article');
+          card.className = 'timezone-card';
+
+          const cityName = document.createElement('p');
+          cityName.className = 'city';
+          cityName.textContent = city;
+
+          const time = document.createElement('p');
+          time.className = 'time';
+          time.textContent = now.toLocaleTimeString('en-GB', {
+            timeZone: zone,
+            hour12: false,
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit'
+          });
+
+          const date = document.createElement('p');
+          date.className = 'date';
+          date.textContent = now.toLocaleDateString('en-US', {
+            timeZone: zone,
+            weekday: 'short',
+            month: 'short',
+            day: 'numeric',
+            year: 'numeric'
+          });
+
+          const tzName = document.createElement('div');
+          tzName.className = 'tz-name';
+          tzName.textContent = zone;
+
+          card.append(cityName, time, date, tzName);
+          grid.appendChild(card);
+        });
+      }
+
+      renderClock();
+      setInterval(() => {
+        grid.innerHTML = '';
+        renderClock();
+      }, 1000);
+    </script>
+  </body>
+</html>
