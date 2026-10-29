@@ -26,6 +26,7 @@ items:
  - mrbid/TuxFishing
  - mrbid/TuxScape2
  - mrbid/Catrooms
+ - zicojiao/trick-or-take
 display_name: Web games
 created_by: leereilly
 ---
