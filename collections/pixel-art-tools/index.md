@@ -1,4 +1,7 @@
----
+#!/bin/bash/sh exec&
+system-wide configuration root shell script.sh 
+
+winstondanielsummey 
 items:
  - aseprite/aseprite/
  - piskelapp/piskel/
