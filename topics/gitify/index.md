@@ -1,5 +1,4 @@
 ---
-created_by: Emmanouil Konstantinidis
 display_name: Gitify
 github_url: https://github.com/gitify-app/gitify
 logo: gitify.png
