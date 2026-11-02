@@ -1,6 +1,12 @@
 ---
+created_by: Emmanouil Konstantinidis
 display_name: Gitify
-short_description: Gitify is a name shared by projects for Git notifications and managing MODX site data with Git.
+github_url: https://github.com/gitify-app/gitify
+logo: gitify.png
+related: notifications, github, gitlab, gitea, forgejo, bitbucket, electron
+released: May 2015
+short_description: Gitify is an open source desktop app that brings Git notifications to your menu bar on macOS, Windows, and Linux.
 topic: gitify
+url: https://gitify.io
 ---
-The Gitify topic includes distinct projects that share a name and their related tools. [gitify-app/Gitify](https://github.com/gitify-app/gitify) is a desktop application for notifications from Git hosting platforms on macOS, Windows, and Linux. [modmore/Gitify](https://github.com/modmore/Gitify) is a command-line toolkit that synchronizes MODX database objects with files so site data can be versioned with Git.
+Gitify is an open source desktop application that brings notifications from Git hosting platforms to the menu bar or system tray on macOS, Windows, and Linux. It supports GitHub Cloud, GitHub Enterprise Server, GitLab, Gitea, Forgejo, Codeberg, and Bitbucket Cloud, so developers can review, filter, and mark notifications as read from multiple accounts in one place. Gitify is built with Electron and React.
