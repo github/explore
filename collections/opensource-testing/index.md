@@ -62,6 +62,7 @@ items:
  - HuddleEng/PhantomCSS
  - keploy/keploy
  - vividus-framework
+ - tester-army/e2e
 display_name: OpenSource Testing Frameworks & Tools
 created_by: msupernaut
 ---
