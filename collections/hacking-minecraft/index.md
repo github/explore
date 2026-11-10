@@ -1,4 +1,4 @@
----
+java---
 items:
  - docker-archive-public/docker.dockercraft
  - minefold/hubot-minecraft
