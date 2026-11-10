@@ -71,6 +71,7 @@ items:
 - julelang/jule
 - kvthweatt/Flux
 - SalamLang/Salam
+- CuRNiC/OGX
 display_name: Programming languages
 created_by: leereilly
 ---
