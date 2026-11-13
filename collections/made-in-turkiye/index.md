@@ -13,8 +13,6 @@ items:
  - jbytecode/JMcDM
  - jbytecode/rcaller
  - obss/sahi
- - passwall/passwall-server
- - passwall/passwall-desktop
  - refinedev/refine
  - pankod/superplate
  - Huseyinnurbaki/mocktail
