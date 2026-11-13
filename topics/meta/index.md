@@ -1,7 +1,5 @@
 ---
-aliases:
-  - meta-platforms
-  - meta-platforms-inc
+aliases: meta-platforms, meta-platforms-inc
 display_name: Meta
 github_url: https://github.com/meta
 
