@@ -2,7 +2,7 @@
 aliases: html5
 created_by: Tim Berners-Lee
 display_name: HTML
-github_url: https://github.com/w3c/html
+github_url: https://github.com/whatwg/html
 logo: html.png
 released: June 1993
 short_description: HTML is the fundamental markup language for webpages.
