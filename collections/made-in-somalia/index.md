@@ -2,7 +2,6 @@
 items:
   - sharafdin/yonode
   - garaadgacmeed/markdown-master
-  - duraanali/luuqad
   - sharafdin/better-react-js-code-snippet-extension
   - hanad124/furqan-constructions
   - abdinasir-Tman/shaqo-sahal
@@ -34,7 +33,7 @@ items:
   - MoDev40/expense-tracker
   - MoDev40/budget-management
   - soplang/soplang
-  - goobolabs/somali-language-standard
+  - somastllc/somali-language-standard
   
 display_name: Made in Somalia
 created_by: sharafdin

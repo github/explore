@@ -1,7 +1,7 @@
 ---
 items:
  - twbs/bootstrap
- - foundation/foundation-sites
+ - foundation/yeti
  - jgthms/bulma
  - uikit/uikit
  - Semantic-Org/Semantic-UI
