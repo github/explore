@@ -13,7 +13,6 @@ items:
  - sivaprasadreddy/tomato-architecture
  - katha-ai/EmoTx-CVPR2023
  - BodduSriPavan-111/chandassu
- - https://code.swecha.org
  - https://huggingface.co/swechatelangana
 display_name: Made in Hyderabad
 created_by: ranjithrajv
