@@ -6,7 +6,7 @@ items:
  - leereilly/swot
  - mysql/mysql-server
  - Leaflet/Leaflet
- - facebook/flow
+ - meta/flow
  - chaijs/chai
  - primer/css
  - primer/octicons
