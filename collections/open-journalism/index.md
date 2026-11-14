@@ -13,6 +13,7 @@ items:
  - BloombergGraphics/whatiscode
  - times/cardkit
  - mkiser/WTFJHT
+ - THEabhikmaitra/open-student-census
 display_name: Open journalism
 created_by: benbalter
 ---
