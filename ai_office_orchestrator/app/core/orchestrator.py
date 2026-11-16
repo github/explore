@@ -1,6 +1,7 @@
 import time
 
 from .checker import check_output
+from .critic import review
 from .circuit_breaker import CircuitBreaker
 from .scoring import score
 from .task import Result
@@ -11,7 +12,9 @@ class OrchestratorError(Exception):
 
 
 class Orchestrator:
-    def __init__(self, adapters, max_attempts=3, breaker_factory=CircuitBreaker, metrics=None):
+    def __init__(self, adapters, max_attempts=3, breaker_factory=CircuitBreaker, metrics=None,
+                 reviewer=None, strict_facts=False):
+        self.reviewer, self.strict_facts = reviewer, strict_facts
         self.metrics = metrics
         self.adapters = {a.name: a for a in adapters}
         self.breakers = {a.name: breaker_factory() for a in adapters}
@@ -50,6 +53,8 @@ class Orchestrator:
                 attempts.append((name, f"error: {e}"))
                 continue
             ok, why = check_output(out)
+            if ok:
+                ok, why = review(task, out, self.reviewer, self.strict_facts)
             self._rec(name, task, ok, t0)
             if ok:
                 self.breakers[name].success()

@@ -83,3 +83,14 @@ class TestMetricsPlanner(unittest.TestCase):
         from app.core.planner import classify
         self.assertEqual(classify("fix this bug"), "code")
         self.assertEqual(classify("hello"), "text")
+
+
+class TestCritic(unittest.TestCase):
+    def test_refusal_triggers_failover(self):
+        a, b = Fake("a", out="I cannot help with that", q=0.9), Fake("b", out="Answer")
+        self.assertEqual(Orchestrator([a, b]).run(Task("text", "x")).provider, "b")
+
+    def test_unsourced_numbers_rejected_when_strict(self):
+        a, b = Fake("a", out="Revenue grew 45%", q=0.9), Fake("b", out="Grew 45% (source: report)")
+        o = Orchestrator([a, b], strict_facts=True)
+        self.assertEqual(o.run(Task("text", "x")).provider, "b")
