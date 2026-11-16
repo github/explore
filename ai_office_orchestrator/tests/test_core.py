@@ -67,3 +67,19 @@ class Tests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestMetricsPlanner(unittest.TestCase):
+    def test_metrics_shift_ranking(self):
+        from app.core.metrics import MetricsStore
+        m = MetricsStore()
+        for _ in range(5):
+            m.record("a", "text", False, 1.0)
+            m.record("b", "text", True, 0.1)
+        o = Orchestrator([Fake("a", out="A", q=0.9), Fake("b", out="B", q=0.5)], metrics=m)
+        self.assertEqual(o.ranked(Task("text", "x"))[0], "b")
+
+    def test_classify(self):
+        from app.core.planner import classify
+        self.assertEqual(classify("fix this bug"), "code")
+        self.assertEqual(classify("hello"), "text")
