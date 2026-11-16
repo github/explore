@@ -7,7 +7,7 @@ items:
  - vuejs/vuepress
  - vercel/next.js
  - getpelican/pelican
- - facebook/docusaurus
+ - meta/docusaurus
  - slatedocs/slate
  - nuxt/nuxt
  - gridsome/gridsome
@@ -26,7 +26,7 @@ items:
  - lumeland/lume
  - docsifyjs/docsify
  - shuding/nextra
- - twostraws/Ignite
+ - Ignite-Swift/Ignite
  - JohnSundell/Publish
  - fuma-nama/fumadocs
  - rochacbruno/marmite

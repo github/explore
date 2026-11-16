@@ -13,7 +13,6 @@ items:
  - Kiarash-Z/react-modern-calendar-datepicker
  - MahdiMajidzadeh/bootstrap-v4-rtl
  - imaNNeo/fl_chart
- - persian-tools/persian-tools
  - usablica/intro.js
  - jadijadi/linuxandlife
  - genyleap/pt
