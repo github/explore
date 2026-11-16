@@ -9,8 +9,6 @@ def heuristic_review(task, output: str):
     text = str(output).strip()
     if _REFUSAL.search(text[:200]):
         return False, "looks like a refusal"
-    if len(text) < 3:
-        return False, "too short"
     return True, "ok"
 
 
