@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "faraday", "2.15.1"
 gem "faraday-retry", "2.4.0"
-gem "github-pages", "~> 232", group: :jekyll_plugins
+gem "github-pages", "~> 233", group: :jekyll_plugins
 gem "json", "3.1.0"
 gem "language_server-protocol", "3.17.0.6"
 gem "nokogiri", "~> 1.19.7"
