@@ -1,6 +1,7 @@
 """Real API adapters. SDKs are imported lazily so the core runs without them.
 These are NOT verified against live APIs: no credentials were available."""
 import json
+import os
 import urllib.request
 
 from .base import BaseAdapter
@@ -42,6 +43,23 @@ class ClaudeAdapter(BaseAdapter):
         return "".join(b.text for b in m.content if b.type == "text")
 
 
+class GrokAdapter(BaseAdapter):
+    """xAI Grok via its OpenAI-compatible endpoint. Base URL and model name are
+    unverified (docs.x.ai was unreachable); override with XAI_BASE_URL / XAI_MODEL."""
+    name, env_key = "grok", "XAI_API_KEY"
+    kinds = ("text", "code", "research")
+    metrics = dict(quality=0.85, success=0.85, speed=0.75, cost=0.5)
+
+    def run(self, task):
+        from openai import OpenAI
+        client = OpenAI(api_key=self.credential(),
+                        base_url=os.getenv("XAI_BASE_URL", "https://api.x.ai/v1"))
+        r = client.chat.completions.create(
+            model=os.getenv("XAI_MODEL", "grok-4"),
+            messages=[{"role": "user", "content": task.prompt}])
+        return r.choices[0].message.content
+
+
 class MetaAdapter(BaseAdapter):
     name, env_key = "meta", "MODEL_API_KEY"
     kinds = ("text",)
@@ -71,4 +89,4 @@ class CanvaAdapter(BaseAdapter):
         raise NotImplementedError("Canva requires an OAuth flow; not implemented")
 
 
-ALL = [OpenAIAdapter, GeminiAdapter, ClaudeAdapter, MetaAdapter, CanvaAdapter]
+ALL = [OpenAIAdapter, GeminiAdapter, ClaudeAdapter, GrokAdapter, MetaAdapter, CanvaAdapter]

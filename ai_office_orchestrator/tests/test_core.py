@@ -32,6 +32,19 @@ class Tests(unittest.TestCase):
         with self.assertRaises(MissingCredential):
             a.credential()
 
+    def test_grok_registered_and_needs_key(self):
+        from app.adapters.factory import build_adapters
+        g = next(a for a in build_adapters() if a.name == "grok")
+        os.environ.pop("XAI_API_KEY", None)
+        self.assertFalse(g.healthy())
+        with self.assertRaises(MissingCredential):
+            g.credential()
+        os.environ["XAI_API_KEY"] = "dummy"
+        try:
+            self.assertTrue(g.healthy())
+        finally:
+            os.environ.pop("XAI_API_KEY", None)
+
     def test_failover(self):
         a, b = Fake("a", exc=RuntimeError("down"), q=0.9), Fake("b", out="hi")
         r = Orchestrator([a, b]).run(Task("text", "x"))
