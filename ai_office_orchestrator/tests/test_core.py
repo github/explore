@@ -45,6 +45,33 @@ class Tests(unittest.TestCase):
         finally:
             os.environ.pop("XAI_API_KEY", None)
 
+    def test_consent_token_bound_single_use_and_expiring(self):
+        from app.core.consent import ConsentGate
+        now = [1000.0]
+        gate = ConsentGate(ttl=60, clock=lambda: now[0])
+        mk = lambda p: Task("text", p, side_effect=True)
+        orch = Orchestrator([Fake("a", out="sent")], consent=gate)
+
+        t = mk("email bob")                      # no token -> refused
+        with self.assertRaises(OrchestratorError):
+            orch.run(t)
+
+        t.meta["consent_token"] = gate.approve(t)  # approved -> runs once
+        self.assertEqual(orch.run(t).output, "sent")
+        with self.assertRaises(OrchestratorError):  # replay refused
+            orch.run(t)
+
+        other = mk("email eve")                   # token for a different task
+        other.meta["consent_token"] = gate.approve(mk("email bob"))
+        with self.assertRaises(OrchestratorError):
+            orch.run(other)
+
+        late = mk("email amy")                    # expired token
+        late.meta["consent_token"] = gate.approve(late)
+        now[0] += 61
+        with self.assertRaises(OrchestratorError):
+            orch.run(late)
+
     def test_failover(self):
         a, b = Fake("a", exc=RuntimeError("down"), q=0.9), Fake("b", out="hi")
         r = Orchestrator([a, b]).run(Task("text", "x"))

@@ -14,7 +14,8 @@ class OrchestratorError(Exception):
 
 class Orchestrator:
     def __init__(self, adapters, max_attempts=3, breaker_factory=CircuitBreaker, metrics=None,
-                 reviewer=None, strict_facts=False):
+                 reviewer=None, strict_facts=False, consent=None):
+        self.consent = consent
         self.reviewer, self.strict_facts = reviewer, strict_facts
         self.metrics = metrics
         self.adapters = {a.name: a for a in adapters}
@@ -38,8 +39,12 @@ class Orchestrator:
     def run(self, task) -> Result:
         # Consent gate: side-effect tasks need approval and never fail over,
         # so a timeout can't cause a duplicate email/publish/event.
-        if task.side_effect and not task.approved:
-            raise OrchestratorError("side-effect task requires approval")
+        if task.side_effect:
+            if self.consent is not None:
+                if not self.consent.consume(task, task.meta.get("consent_token")):
+                    raise OrchestratorError("side-effect task requires a valid one-time consent token")
+            elif not task.approved:
+                raise OrchestratorError("side-effect task requires approval")
         attempts = []
         candidates = self.ranked(task)
         if task.side_effect:
