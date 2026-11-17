@@ -94,3 +94,22 @@ class TestCritic(unittest.TestCase):
         a, b = Fake("a", out="Revenue grew 45%", q=0.9), Fake("b", out="Grew 45% (source: report)")
         o = Orchestrator([a, b], strict_facts=True)
         self.assertEqual(o.run(Task("text", "x")).provider, "b")
+
+
+class TestEnsemble(unittest.TestCase):
+    def test_picks_best_valid(self):
+        a, b = Fake("a", out="", q=0.9), Fake("b", out="B", q=0.5)
+        r = Orchestrator([a, b]).run_ensemble(Task("text", "x"), n=2)
+        self.assertEqual(r.provider, "b")
+        self.assertEqual(a.calls + b.calls, 2)
+
+    def test_custom_pick(self):
+        a, b = Fake("a", out="short", q=0.9), Fake("b", out="much longer answer", q=0.5)
+        longest = lambda t, g: max(g, key=lambda k: len(g[k]))
+        r = Orchestrator([a, b]).run_ensemble(Task("text", "x"), n=2, pick=longest)
+        self.assertEqual(r.provider, "b")
+
+    def test_refuses_side_effects(self):
+        with self.assertRaises(OrchestratorError):
+            Orchestrator([Fake("a", out="x")]).run_ensemble(
+                Task("text", "x", side_effect=True, approved=True))

@@ -1,4 +1,5 @@
 import time
+from concurrent.futures import ThreadPoolExecutor
 
 from .checker import check_output
 from .critic import review
@@ -67,3 +68,39 @@ class Orchestrator:
     def _rec(self, name, task, ok, t0):
         if self.metrics:
             self.metrics.record(name, task.kind, ok, time.monotonic() - t0)
+
+    def run_ensemble(self, task, n=2, pick=None):
+        """Call the top-n providers in parallel, keep outputs that pass the
+        checker and critic, then choose one. `pick(task, {name: output})`
+        returns a name; default is the highest-ranked passing provider.
+        Side-effect tasks are refused: parallel calls would duplicate them."""
+        if task.side_effect:
+            raise OrchestratorError("ensemble not allowed for side-effect tasks")
+        names = self.ranked(task)[:n]
+        if not names:
+            raise OrchestratorError("no eligible provider")
+
+        def call(name):
+            t0 = time.monotonic()
+            try:
+                out = self.adapters[name].run(task)
+            except Exception as e:  # noqa: BLE001
+                self._rec(name, task, False, t0)
+                self.breakers[name].failure()
+                return name, None, f"error: {e}"
+            ok, why = check_output(out)
+            if ok:
+                ok, why = review(task, out, self.reviewer, self.strict_facts)
+            self._rec(name, task, ok, t0)
+            (self.breakers[name].success if ok else self.breakers[name].failure)()
+            return name, (out if ok else None), why
+
+        with ThreadPoolExecutor(max_workers=len(names)) as ex:
+            rows = list(ex.map(call, names))
+        attempts = [(n_, "ok" if o is not None else w) for n_, o, w in rows]
+        good = {n_: o for n_, o, _ in rows if o is not None}
+        if not good:
+            raise OrchestratorError(f"no provider produced valid output: {attempts}")
+        chosen = pick(task, good) if pick and len(good) > 1 else next(
+            n_ for n_ in names if n_ in good)
+        return Result(chosen, good[chosen], attempts)
