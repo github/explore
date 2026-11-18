@@ -11,7 +11,7 @@ items:
  - vuejs/vue
  - Polymer/polymer
  - react/react
- - finom/seemple
+ - finom/matreshka
  - aurelia/framework
  - optimizely/nuclear-js
  - jashkenas/backbone

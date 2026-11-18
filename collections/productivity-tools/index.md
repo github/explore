@@ -46,6 +46,7 @@ items:
  - dusan-maintains/oss-maintenance-log
  - ErezShahaf/Lore
  - HMAKT99/UnTouchID
+ - AmintaCCCP/GithubStarsManager
 display_name: Software productivity tools
 created_by: holman
 ---
