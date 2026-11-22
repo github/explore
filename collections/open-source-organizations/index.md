@@ -9,7 +9,6 @@ items:
  - twitter/opensource-website
  - guardian/guardian.github.com
  - Yelp/yelp.github.io
- - IBM/ibm.github.io
  - microsoft/microsoft.github.io
  - artsy/artsy.github.io
  - OSGeo/osgeo
@@ -31,6 +30,7 @@ items:
  - devtron-labs/devtron
  - socialincome-san/public
  - Aiven-Open
+ - InditexTech
 display_name: Open source organizations
 created_by: benbalter
 image: open-source-organizations.png

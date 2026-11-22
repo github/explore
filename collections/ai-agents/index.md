@@ -6,6 +6,7 @@ items:
  - microsoft/semantic-kernel
  - modelcontextprotocol/servers
  - gfernandf/agent-skills
+ - tamish-max/embercore
 display_name: AI Agents
 created_by: gfernandf
 ---

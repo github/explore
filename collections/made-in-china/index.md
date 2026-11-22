@@ -17,7 +17,7 @@ items:
  - Tencent/ncnn
  - Tencent/VasSonic
  - Tencent/rapidjson
- - Tencent/APIJSON
+ - APIJSON/APIJSON
  - baidu/amis
  - baidu/san
  - baidu/uid-generator

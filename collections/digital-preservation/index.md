@@ -21,7 +21,7 @@ items:
   - exiftool/exiftool
   - amiaopensource/ffmprovisr
   - steffenfritz/FileTrove
-  - harvard-lts/fits
+  - fitstool/fits
   - Lotte-W/File-Format-Fling
   - wader/fq
   - keirf/greaseweazle

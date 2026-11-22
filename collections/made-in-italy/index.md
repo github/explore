@@ -18,6 +18,7 @@ items:
  - stoplightio/prism
  - ercole-io/ercole
  - exa-studio/ApiVault
+ - antirez/ds4
 display_name: Made in Italy
 created_by: thejoin95
 image: made-in-italy.png

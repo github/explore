@@ -26,6 +26,7 @@ items:
  - schismtracker/schismtracker
  - chunkypixel/TIATracker
  - milkytracker/MilkyTracker
+ - StopBanning/toaster
 display_name: Music
 created_by: jonrohan
 ---

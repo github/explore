@@ -2,12 +2,12 @@
 items:
  - jekyll/jekyll
  - gohugoio/hugo
- - 11ty/eleventy
+ - 11ty/buildawesome
  - gatsbyjs/gatsby
  - vuejs/vuepress
  - vercel/next.js
  - getpelican/pelican
- - facebook/docusaurus
+ - meta/docusaurus
  - slatedocs/slate
  - nuxt/nuxt
  - gridsome/gridsome
@@ -26,9 +26,11 @@ items:
  - lumeland/lume
  - docsifyjs/docsify
  - shuding/nextra
- - twostraws/Ignite
+ - Ignite-Swift/Ignite
  - JohnSundell/Publish
  - fuma-nama/fumadocs
+ - rochacbruno/marmite
+ - quarkiverse/quarkus-roq
 display_name: Static Site Generators
 created_by: jakejarvis
 ---

@@ -1,11 +1,14 @@
 ---
 created_by: OpenAI
 display_name: ChatGPT
-short_description: ChatGPT is a chatbot built on top of OpenAI's GPT-3 family of large language models.
-released: November 30, 2022
+github_url: https://github.com/openai
 logo: chatgpt.png
-url: https://chat.openai.com/
+related: artificial-intelligence, large-language-models, generative-ai, chatbot, ai-assistant, openai, gpt
+released: November 30, 2022
+short_description: ChatGPT is an AI assistant from OpenAI for writing, learning, coding, analysis, and creative work.
 topic: chatgpt
+url: https://chatgpt.com/
 wikipedia_url: https://en.wikipedia.org/wiki/ChatGPT
 ---
-ChatGPT (Chat Generative Pre-trained Transformer) is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3 family of large language models, and is fine-tuned (an approach to transfer learning) with both supervised and reinforcement learning techniques.
+
+ChatGPT is an AI assistant developed by OpenAI and released in November 2022. It uses generative AI models to understand and produce text, images, audio, and code. People use ChatGPT for writing, learning, research, data analysis, software development, and creative work. It is available through web, desktop, and mobile applications.

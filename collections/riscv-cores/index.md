@@ -5,9 +5,9 @@ items:
  - darklife/darkriscv
  - chipsalliance/rocket-chip
  - sifive/freedom
- - openhwgroup/cv32e40p
+ - openhwfoundation/cv32e40p
  - lowRISC/ibex
- - openhwgroup/cva6
+ - openhwfoundation/cva6
  - csail-csg/riscy-OOO
  - cornell-brg/lizard
  - minerva-cpu/minerva

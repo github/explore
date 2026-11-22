@@ -41,11 +41,12 @@ items:
  - logdyhq/logdy-core
  - ajayyy/SponsorBlock
  - WofWca/jumpcutter
- - mnfst/manifest
+ - mnfst/llm-gateway
  - AhmedOsman101/commit-sage-cli
  - dusan-maintains/oss-maintenance-log
  - ErezShahaf/Lore
  - HMAKT99/UnTouchID
+ - AmintaCCCP/GithubStarsManager
 display_name: Software productivity tools
 created_by: holman
 ---

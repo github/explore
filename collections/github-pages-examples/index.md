@@ -8,7 +8,7 @@ items:
  - twitter/opensource-website
  - Netflix/netflix.github.com
  - Yelp/yelp.github.io
- - facebook/react
+ - react/react
  - artsy/artsy.github.io
  - Metroxe/one-html-page-challenge
  - fairfield-programming/fairfield-programming.github.io

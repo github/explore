@@ -40,7 +40,7 @@ items:
  - Tyrrrz/YoutubeExplode
  - dmytrodanylyk/folding-plugin
  - mapbox/delaunator
- - mapbox/flamebearer
+ - mourner/flamebearer
  - mourner/bullshit.js
  - mapbox/earcut
  - cherrypy/cherrypy

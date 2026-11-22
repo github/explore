@@ -1,13 +1,13 @@
 source "https://rubygems.org"
 
-gem "faraday", "2.14.2"
+gem "faraday", "2.15.1"
 gem "faraday-retry", "2.4.0"
-gem "github-pages", "~> 232", group: :jekyll_plugins
-gem "json", "2.19.5"
-gem "language_server-protocol", "3.17.0.5"
-gem "nokogiri", "~> 1.19.3"
+gem "github-pages", "~> 233", group: :jekyll_plugins
+gem "json", "3.1.0"
+gem "language_server-protocol", "3.17.0.6"
+gem "nokogiri", "~> 1.19.7"
 gem "rake", "13.4.2"
-gem "rubocop", "1.86.2"
+gem "rubocop", "1.92.2"
 
 group :test do
   gem "fastimage"
