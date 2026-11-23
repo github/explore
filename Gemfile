@@ -7,7 +7,7 @@ gem "json", "3.1.0"
 gem "language_server-protocol", "3.17.0.6"
 gem "nokogiri", "~> 1.19.7"
 gem "rake", "13.4.2"
-gem "rubocop", "1.92.2"
+gem "rubocop", "1.92.3"
 
 group :test do
   gem "fastimage"
