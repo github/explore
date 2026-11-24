@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#073c43">
+<title>Abbasali Rent Manager — হাসনা হেনা ভিলা</title>
+<style>
+:root{--ink:#102b31;--muted:#61777b;--teal:#087e83;--teal2:#dff6f3;--bg:#f3f7f7;--line:#dce7e7;--white:#fff;--orange:#b76516;--red:#b42318;--green:#16804a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans Bengali",sans-serif}
+header{background:#073c43;color:white;padding:18px max(16px,calc((100vw - 1100px)/2));display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px}.mark{width:44px;height:44px;border-radius:14px;background:#c9f5eb;color:#07565a;display:grid;place-items:center;font-weight:900;font-size:20px}.brand h1{font-size:19px;margin:0}.brand small{color:#bde5df}
+header .sub{font-size:12px;color:#d2e9e6}
+main{max-width:1100px;margin:20px auto;padding:0 14px 48px}
+nav{display:flex;gap:8px;overflow:auto;padding:4px 0 14px}nav button,.btn{border:1px solid var(--line);background:white;color:var(--ink);padding:10px 14px;border-radius:12px;font-weight:650;cursor:pointer;white-space:nowrap}nav button.active,.primary{background:var(--teal);color:white;border-color:var(--teal)}
+button:focus,input:focus,select:focus,textarea:focus{outline:2px solid #62c7bd;outline-offset:1px}
+.panel{display:none}.panel.active{display:block}
+.card{background:white;border:1px solid var(--line);border-radius:18px;padding:17px;margin-bottom:14px;box-shadow:0 4px 16px #173b3b0a}
+h2{font-size:20px;margin:0 0 14px}h3{font-size:16px;margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat{background:white;border:1px solid var(--line);padding:15px;border-radius:16px}.stat span{display:block;color:var(--muted);font-size:13px}.stat strong{display:block;font-size:23px;margin-top:6px}
+.formgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.field{display:flex;flex-direction:column;gap:5px}.field label{font-size:13px;color:var(--muted);font-weight:650}.field input,.field select,.field textarea{width:100%;border:1px solid #cbdada;border-radius:10px;padding:10px;background:white;color:var(--ink);font:inherit;min-width:0}.field textarea{min-height:76px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.muted{color:var(--muted);font-size:13px}.row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-weight:650}td button{padding:6px 9px;border:1px solid var(--line);border-radius:8px;background:white}
+.pill{display:inline-block;background:var(--teal2);color:#075e61;padding:4px 9px;border-radius:99px;font-size:12px;font-weight:700}
+.notice{background:#fff7e8;border:1px solid #f1d8a9;color:#70430d;padding:12px;border-radius:12px;font-size:13px}
+.success{color:var(--green)}.danger{color:var(--red)}
+hr{border:0;border-top:1px solid var(--line);margin:16px 0}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr)}.formgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.formgrid{grid-template-columns:1fr}.stat strong{font-size:19px}header{padding:14px}}
+
+#appMain{display:none}.auth-wrap{max-width:520px;margin:28px auto;padding:0 14px 40px}.auth-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 8px 28px #173b3b12}.auth-card h2{margin-bottom:8px}.auth-grid{display:grid;gap:12px}.auth-grid .field input{min-height:44px}.auth-note{margin-top:14px}.hidden{display:none!important}.userbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.userbar button{border:1px solid #ffffff66;background:#ffffff12;color:#fff;padding:8px 12px;border-radius:10px;cursor:pointer}
+
+/* Premium 2026 visual system */
+:root{--ink:#14213d;--muted:#718096;--teal:#2457d6;--teal2:#e9efff;--bg:#f4f7fc;--line:#e2e8f2;--white:#fff;--orange:#b7791f;--red:#c53030;--green:#16845b;--navy:#101d42;--gold:#e6b94f}
+body{background:radial-gradient(ellipse at 8% 0%,#eaf1ff 0,transparent 36%),linear-gradient(135deg,#f7f9fd,#eef3fb);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans Bengali",sans-serif;letter-spacing:.01em}
+header{background:linear-gradient(112deg,#0d1940 0%,#173d91 58%,#1767bd 100%);padding:18px max(18px,calc((100vw - 1180px)/2));box-shadow:0 10px 32px #10285a22;border-bottom:1px solid #ffffff24}
+.brand .mark{width:48px;height:48px;border-radius:16px;background:linear-gradient(145deg,#fff,#dce8ff);color:#173d91;box-shadow:inset 0 0 0 1px #ffffffa6,0 6px 18px #06153b55}
+.brand h1{font-size:clamp(16px,2vw,21px);letter-spacing:.035em}.brand small{color:#d9e6ff}
+main{max-width:1180px;margin:24px auto;padding:0 16px 56px}
+nav{gap:9px;padding:5px 0 17px}nav button,.btn{border:1px solid #dce5f4;background:#fff;color:#33415f;padding:11px 16px;border-radius:13px;font-weight:700;box-shadow:0 3px 12px #1a39700a;transition:transform .16s,box-shadow .16s,border-color .16s}nav button:hover,.btn:hover{transform:translateY(-1px);box-shadow:0 8px 20px #1a397015;border-color:#b9c9e8}nav button.active,.primary{background:linear-gradient(135deg,#2457d6,#3479ed);color:white;border-color:#2457d6;box-shadow:0 7px 18px #2457d633}
+.card,.auth-card{background:#ffffffed;border:1px solid #e1e8f4;border-radius:20px;padding:20px;margin-bottom:16px;box-shadow:0 12px 32px #18366d0b,0 2px 6px #18366d07;backdrop-filter:blur(8px)}
+h2{font-size:21px;letter-spacing:-.02em}h3{font-size:16px;color:#26385f}
+.grid{gap:14px}.stat{background:linear-gradient(145deg,#fff,#f7f9ff);border:1px solid #e0e8f6;padding:18px;border-radius:18px;box-shadow:0 6px 20px #15366e0a}.stat span{color:#71809a}.stat strong{font-size:clamp(21px,2.2vw,27px);color:#193d91}
+.formgrid{gap:14px}.field{gap:7px}.field label{color:#52627f}.field input,.field select,.field textarea{border:1px solid #d5deee;border-radius:12px;padding:11px 12px;background:#fbfcff;color:#17264a;transition:border-color .15s,box-shadow .15s}.field input:focus,.field select:focus,.field textarea:focus{border-color:#5c88e8;box-shadow:0 0 0 3px #dce7ff;outline:0}
+.actions{gap:10px}.actions button{border-radius:12px;padding:11px 15px}table{font-size:14px;border-collapse:separate;border-spacing:0;overflow:hidden;border:1px solid #e2e9f4;border-radius:14px}th,td{padding:12px 11px;border-bottom:1px solid #e9eef6}th{background:#f2f6fd;color:#536482}tbody tr:hover{background:#f8faff}.pill{background:#e8efff;color:#234baf;padding:5px 11px}.notice{background:#fff9eb;border:1px solid #f3dfb5;color:#77521b;border-radius:14px;padding:14px}.auth-wrap{max-width:560px;margin:34px auto}.auth-card{padding:26px}.userbar button{border-radius:11px}
+@media(max-width:760px){main{margin:14px auto;padding:0 12px 36px}header{padding:14px 16px}.card{padding:15px}.grid{gap:10px}}
+@media(max-width:480px){.formgrid{grid-template-columns:1fr}.stat{padding:13px}.stat strong{font-size:19px}nav button{padding:10px 12px}}
+
+
+.welcome-art{padding:0;overflow:hidden}.welcome-art img{display:block;width:100%;height:auto;max-height:340px;object-fit:cover}
+</style>
+</head>
+<body>
+<header>
+ <div class="brand"><div class="mark">⌂</div><div><h1>হাসনা হেনা ভিলা</h1><small>স্মার্ট ভাড়াটিয়া ও ভাড়া ব্যবস্থাপনা</small></div></div>
+ <div class="userbar"><div class="sub">আবাস আলী এন্টারপ্রাইজ · নিরাপদ আবাসন</div><span id="signedInAs" class="sub"></span><button id="logoutBtn" class="hidden" onclick="logout()">লগআউট</button></div>
+</header>
+<section id="authArea" class="auth-wrap">
+ <div class="auth-card">
+  <div id="setupView" class="hidden">
+   <h2>প্রথমবার অ্যাকাউন্ট তৈরি</h2><p class="muted">প্রতিষ্ঠানের Owner এবং নির্ধারিত Manager-এর আলাদা লগইন তৈরি করুন। ইউজারনেম ও পাসওয়ার্ড নিজেরা নির্ধারণ করুন।</p>
+   <div class="auth-grid">
+    <h3>Owner অ্যাকাউন্ট</h3>
+    <div class="field"><label>Owner ইউজারনেম</label><input id="setupOwnerUser" autocomplete="username" placeholder="যেমন: owner"></div>
+    <div class="field"><label>Owner পাসওয়ার্ড (কমপক্ষে ৮ অক্ষর)</label><input id="setupOwnerPass" type="password" autocomplete="new-password"></div>
+    <hr><h3>Manager অ্যাকাউন্ট</h3>
+    <div class="field"><label>Manager ইউজারনেম</label><input id="setupManagerUser" autocomplete="off" placeholder="যেমন: manager"></div>
+    <div class="field"><label>Manager পাসওয়ার্ড (কমপক্ষে ৮ অক্ষর)</label><input id="setupManagerPass" type="password" autocomplete="new-password"></div>
+    <button class="primary" onclick="createAccounts()">অ্যাকাউন্ট তৈরি করুন</button>
+   </div>
+  </div>
+  <div id="loginView" class="hidden">
+   <h2>লগইন করুন</h2><p class="muted">হাসনা হেনা ভিলা ব্যবহারের জন্য আপনার অ্যাকাউন্টে প্রবেশ করুন।</p>
+   <div class="auth-grid">
+    <div class="field"><label>ইউজারনেম</label><input id="loginUser" autocomplete="username"></div>
+    <div class="field"><label>পাসওয়ার্ড</label><input id="loginPass" type="password" autocomplete="current-password"></div>
+    <button class="primary" onclick="login()">লগইন</button>
+    <p id="loginError" class="danger" role="alert"></p>
+   </div>
+  </div>
+  <div class="notice auth-note">ডেমো সতর্কতা: এই সংস্করণের লগইন একই ডিভাইসের ব্রাউজারে কাজ করে। এটি সার্ভার-ভিত্তিক নিরাপত্তা নয়; বাস্তব NID/ভাড়াটিয়া তথ্য রাখার আগে নিরাপদ ক্লাউড ব্যাকএন্ড ও সার্ভার অথেনটিকেশন প্রয়োজন।</div>
+ </div>
+</section>
+<main id="appMain">
+<nav>
+ <button class="active" data-tab="dashboard">ড্যাশবোর্ড</button>
+ <button data-tab="tenants">ভাড়াটিয়া</button>
+ <button data-tab="rent">মাসিক হিসাব</button>
+ <button data-tab="messages">নোটিফিকেশন</button>
+ <button data-tab="backup">ব্যাকআপ ও সেটিংস</button>
+</nav>
+
+<section id="dashboard" class="panel active">
+ <div class="card welcome-art"><img src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221200%22%20height%3D%22360%22%20viewBox%3D%220%200%201200%20360%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%230d1940%22%2F%3E%3Cstop%20offset%3D%22.58%22%20stop-color%3D%22%23173d91%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%231767bd%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%221200%22%20height%3D%22360%22%20rx%3D%2228%22%20fill%3D%22url%28%23g%29%22%2F%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.22%22%20stroke-width%3D%223%22%3E%3Cpath%20d%3D%22M760%20360V180l130-100%20130%20100v180M830%20360V210h120v150M1020%20360V235h90v125%22%2F%3E%3Cpath%20d%3D%22M700%20360V245l60-45%2060%2045v115%22%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%22%23fff%22%3E%3Ctext%20x%3D%2265%22%20y%3D%22120%22%20font-family%3D%22sans-serif%22%20font-size%3D%2230%22%20opacity%3D%22.8%22%3E%E0%A6%86%E0%A6%AC%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%20%E0%A6%86%E0%A6%B2%E0%A7%80%20%E0%A6%8F%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%9C%3C%2Ftext%3E%3Ctext%20x%3D%2265%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2264%22%20font-weight%3D%22700%22%3E%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A6%BE%20%E0%A6%B9%E0%A7%87%E0%A6%A8%E0%A6%BE%20%E0%A6%AD%E0%A6%BF%E0%A6%B2%E0%A6%BE%3C%2Ftext%3E%3Ctext%20x%3D%2265%22%20y%3D%22265%22%20font-family%3D%22sans-serif%22%20font-size%3D%2230%22%20opacity%3D%22.9%22%3E%E0%A6%B8%E0%A7%8D%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%20%E0%A6%AD%E0%A6%BE%E0%A7%9C%E0%A6%BE%E0%A6%9F%E0%A6%BF%E0%A7%9F%E0%A6%BE%20%E0%A6%93%20%E0%A6%AD%E0%A6%BE%E0%A7%9C%E0%A6%BE%20%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%AA%E0%A6%A8%E0%A6%BE%3C%2Ftext%3E%3C%2Fg%3E%3Ccircle%20cx%3D%221100%22%20cy%3D%2270%22%20r%3D%2228%22%20fill%3D%22%23e6b94f%22%20opacity%3D%22.9%22%2F%3E%3C%2Fsvg%3E" alt="হাসনা হেনা ভিলা ও আবাস আলী এন্টারপ্রাইজের প্রচারচিত্র"></div>
+ <div class="row"><div><h2>ড্যাশবোর্ড</h2><div class="muted">আপনার বাড়ি ও ভাড়ার সারসংক্ষেপ</div></div><span class="pill">January 2006 – December 2055</span></div>
+ <div class="grid" style="margin:14px 0">
+  <div class="stat"><span>মোট ভাড়াটিয়া</span><strong id="statTenants">0</strong></div>
+  <div class="stat"><span>এই মাসের মোট দাবি</span><strong id="statDue">৳0</strong></div>
+  <div class="stat"><span>এই মাসে আদায়</span><strong id="statPaid">৳0</strong></div>
+  <div class="stat"><span>মোট বকেয়া</span><strong id="statArrears">৳0</strong></div>
+ </div>
+ <div class="card"><h3>দ্রুত কাজ</h3><div class="actions"><button class="primary" onclick="switchTab('tenants')">+ ভাড়াটিয়া যোগ করুন</button><button onclick="switchTab('rent')">মাসিক হিসাব লিখুন</button><button data-owner-only onclick="switchTab('backup')">ব্যাকআপ নিন</button></div></div>
+ <div class="notice">ডেমো মোড: তথ্য এই ব্রাউজারের ডিভাইসে সংরক্ষিত হয়। গুরুত্বপূর্ণ বাস্তব তথ্য ব্যবহারের আগে ক্লাউড সার্ভার, লগইন, এনক্রিপশন ও আলাদা ব্যাকআপ চালু করতে হবে।</div>
+</section>
+
+<section id="tenants" class="panel">
+ <div class="row"><h2>ভাড়াটিয়ার তথ্য</h2><span class="pill">নতুন / সম্পাদনা</span></div>
+ <div class="card">
+  <input type="hidden" id="tenantId">
+  <div class="formgrid">
+   <div class="field"><label>ভাড়াটিয়ার নাম *</label><input id="tName" placeholder="নাম লিখুন"></div>
+   <div class="field"><label>মোবাইল নম্বর</label><input id="tPhone" inputmode="tel" placeholder="01XXXXXXXXX"></div>
+   <div class="field"><label>রুম / ফ্ল্যাট নম্বর</label><input id="tFlat" placeholder="যেমন: ৩য় তলা-A"></div>
+   <div class="field"><label>মাসিক ভাড়া (৳)</label><input id="tRent" type="number" min="0" value="0"></div>
+   <div class="field"><label>অ্যাডভান্স / অগ্রিম (৳)</label><input id="tAdvance" type="number" min="0" value="0"></div>
+   <div class="field"><label>পূর্বের বকেয়া (৳)</label><input id="tOldDue" type="number" min="0" value="0"></div>
+   <div class="field"><label>পেশা / কর্মস্থল</label><input id="tWork"></div>
+   <div class="field"><label>বর্তমান ঠিকানা</label><input id="tCurrent"></div>
+   <div class="field"><label>স্থায়ী ঠিকানা</label><input id="tPermanent"></div>
+   <div class="field"><label>এনআইডি নম্বর</label><input id="tNid"></div>
+   <div class="field"><label>পরিবারের সদস্য সংখ্যা</label><input id="tFamily" type="number" min="0"></div>
+   <div class="field"><label>জরুরি যোগাযোগ নম্বর</label><input id="tEmergency"></div>
+  </div>
+  <div class="actions"><button class="primary" onclick="saveTenant()">তথ্য সংরক্ষণ</button><button onclick="clearTenant()">ফরম পরিষ্কার</button></div>
+ </div>
+ <div class="card"><h3>ভাড়াটিয়ার তালিকা</h3><div style="overflow:auto"><table><thead><tr><th>নাম</th><th>ফ্ল্যাট</th><th>মাসিক ভাড়া</th><th>মোবাইল</th><th>কাজ</th></tr></thead><tbody id="tenantRows"><tr><td colspan="5" class="muted">এখনো কোনো ভাড়াটিয়া যোগ করা হয়নি।</td></tr></tbody></table></div></div>
+</section>
+
+<section id="rent" class="panel">
+ <h2>মাসিক ভাড়া ও বিলের হিসাব</h2>
+ <div class="card">
+  <div class="formgrid">
+   <div class="field"><label>ভাড়াটিয়া *</label><select id="rTenant"><option value="">ভাড়াটিয়া নির্বাচন করুন</option></select></div>
+   <div class="field"><label>মাসের নাম</label><input id="rMonthName" value="January"></div>
+   <div class="field"><label>বছর (২০০৬–২০৫৫)</label><select id="rYear"></select></div>
+   <div class="field"><label>মাসিক ভাড়া (৳)</label><input id="rRent" type="number" min="0"></div>
+   <div class="field"><label>পূর্বের বকেয়া (৳)</label><input id="rOldDue" type="number" min="0" value="0"></div>
+   <div class="field"><label>মিটার নম্বর</label><input id="rMeter"></div>
+   <div class="field"><label>পূর্বের ইউনিট</label><input id="rPrev" type="number" min="0" value="0"></div>
+   <div class="field"><label>বর্তমান ইউনিট</label><input id="rCurrent" type="number" min="0" value="0"></div>
+   <div class="field"><label>প্রতি ইউনিটের দাম (৳)</label><input id="rRate" type="number" min="0" value="0"></div>
+   <div class="field"><label>বিদ্যুৎ বিল অগ্রিম (৳)</label><input id="rElecAdv" type="number" min="0" value="0"></div>
+   <div class="field"><label>গ্যাস বিল (৳)</label><input id="rGas" type="number" min="0" value="0"></div>
+   <div class="field"><label>পানি বিল (৳)</label><input id="rWater" type="number" min="0" value="0"></div>
+   <div class="field"><label>সার্ভিস চার্জ (৳)</label><input id="rService" type="number" min="0" value="0"></div>
+   <div class="field"><label>ময়লা বিল (৳)</label><input id="rWaste" type="number" min="0" value="0"></div>
+   <div class="field"><label>এই মাসে পরিশোধ (৳)</label><input id="rPaid" type="number" min="0" value="0"></div>
+   <div class="field"><label>পেমেন্ট মাধ্যম</label><select id="rMethod"><option>বিকাশ</option><option>নগদ</option><option>রকেট</option><option>ব্যাংক</option><option>নগদ টাকা</option></select></div>
+   <div class="field"><label>ট্রানজেকশন / রেফারেন্স</label><input id="rTxn"></div>
+  </div>
+  <div class="actions"><button class="primary" onclick="calculate()">হিসাব গণনা</button><button onclick="saveRent()">হিসাব সংরক্ষণ</button></div>
+  <hr><div class="grid">
+   <div class="stat"><span>ব্যবহৃত ইউনিট</span><strong id="usedUnits">0</strong></div>
+   <div class="stat"><span>বিদ্যুৎ বিল</span><strong id="electricity">৳0</strong></div>
+   <div class="stat"><span>মোট দাবি</span><strong id="totalDue">৳0</strong></div>
+   <div class="stat"><span>পরিশোধের পর বাকি</span><strong id="remaining">৳0</strong></div>
+  </div>
+  <p class="muted">হিসাব: ভাড়া + পূর্বের বকেয়া + সব বিল − বিদ্যুৎ অগ্রিম − পরিশোধ। ভাড়াটিয়ার অগ্রিম জামানত এখানে স্বয়ংক্রিয়ভাবে খরচ হিসেবে বাদ হয় না; প্রয়োজনে আলাদাভাবে সমন্বয় করতে হবে।</p>
+ </div>
+ <div class="card"><h3>সংরক্ষিত মাসিক হিসাব</h3><div style="overflow:auto"><table><thead><tr><th>ভাড়াটিয়া</th><th>মাস</th><th>মোট দাবি</th><th>পরিশোধ</th><th>বাকি</th></tr></thead><tbody id="rentRows"><tr><td colspan="5" class="muted">কোনো হিসাব নেই।</td></tr></tbody></table></div></div>
+</section>
+
+<section id="messages" class="panel">
+ <h2>নোটিফিকেশন ও বার্তার টেমপ্লেট</h2>
+ <div class="card">
+  <div class="field"><label>বকেয়া ভাড়ার বার্তা (নিজের মতো সম্পাদনা করুন)</label><textarea id="dueTemplate">প্রিয় {নাম} ভাই, আপনার {মাস} মাসের বাড়িভাড়া {টাকা} টাকা বকেয়া রয়েছে। অনুগ্রহ করে দ্রুত পরিশোধ করুন। ধন্যবাদ। আব্বাস আলী প্রপার্টিস লিমিটেড 🌸</textarea></div>
+  <div class="field" style="margin-top:12px"><label>ভাড়া পরিশোধের বার্তা</label><textarea id="paidTemplate">প্রিয় {নাম} ভাই, আপনার {মাস} মাসের বাড়িভাড়া সফলভাবে গ্রহণ করা হয়েছে। ধন্যবাদ। আব্বাস আলী প্রপার্টিস লিমিটেড 🌸</textarea></div>
+  <div class="actions"><button class="primary" onclick="saveTemplates()">টেমপ্লেট সংরক্ষণ</button><button onclick="makeMessage('due')">বকেয়ার বার্তা তৈরি</button><button onclick="makeMessage('paid')">পরিশোধের বার্তা তৈরি</button></div>
+  <div class="field" style="margin-top:12px"><label>তৈরি বার্তা</label><textarea id="messageOutput" placeholder="এখানে বার্তা তৈরি হবে"></textarea></div>
+  <div class="actions"><button onclick="copyMessage()">বার্তা কপি</button></div>
+  <div class="notice" style="margin-top:12px">এই প্রোটোটাইপে বার্তা তৈরি ও কপি করা যায়। স্বয়ংক্রিয় SMS/WhatsApp/Push পাঠাতে আলাদা অনুমোদিত সার্ভিস ও সংযোগ প্রয়োজন।</div>
+ </div>
+</section>
+
+<section id="backup" class="panel">
+ <h2>ব্যাকআপ, রিকভারি ও সেটিংস</h2>
+ <div class="card">
+  <h3>ডাটা ব্যাকআপ</h3><p class="muted">আপনার ভাড়াটিয়া, মাসিক হিসাব ও বার্তার টেমপ্লেট JSON ফাইলে ডাউনলোড করুন।</p>
+  <div class="actions"><button class="primary" onclick="exportData()">সম্পূর্ণ ব্যাকআপ ডাউনলোড</button><label class="btn">ব্যাকআপ ফিরিয়ে আনুন <input id="importFile" type="file" accept=".json,application/json" hidden onchange="importData(event)"></label></div>
+ </div>
+ <div class="card">
+  <h3>কাস্টম মাসের নাম</h3>
+  <div class="field"><label>মাসের নাম (কমা দিয়ে আলাদা করুন)</label><input id="monthsInput" value="January,February,March,April,May,June,July,August,September,October,November,December"></div>
+  <div class="actions"><button class="primary" onclick="saveMonths()">মাসের নাম সংরক্ষণ</button></div>
+  <hr><h3>প্রতিষ্ঠানের তথ্য</h3>
+  <p><b>আব্বাস আলী এন্টারপ্রাইজ</b><br>হাসনা হেনা ভিলা</p>
+  <p class="muted">যোগাযোগ: ০১৯১৪২১৯৮৬৮ · ০১৭২৮৮২২৪৪৮</p>
+  <p class="muted">হিসাবের সময়সীমা: January 2006 থেকে December 2055। ভবিষ্যতে সময়সীমা বাড়ানো যাবে।</p>
+ </div>
+ <div class="notice">গুরুত্বপূর্ণ: এই প্রোটোটাইপে ডাটা একই ব্রাউজারের local storage-এ থাকে। ব্রাউজারের ডাটা মুছে গেলে ব্যাকআপ ফাইল ছাড়া তথ্য হারাতে পারেন। এটি এখনো বহু-ব্যবহারকারী ক্লাউড সিস্টেম নয়। বাস্তব ব্যবহারের আগে Owner/Manager লগইন, ভূমিকা-ভিত্তিক অনুমতি, এনক্রিপশন, সার্ভার ব্যাকআপ ও রিকভারি পরীক্ষা যোগ করতে হবে।</div>
+</section>
+</main>
+<script>
+const KEY='abbasali_rent_prototype_v1';
+let db={tenants:[],rents:[],dueTemplate:'',paidTemplate:'',months:'January,February,March,April,May,June,July,August,September,October,November,December'};
+const AUTH_KEY='abbasali_local_accounts_v1';
+let accounts=null,currentUser=null;
+async function digestPassword(password){if(globalThis.crypto?.subtle){const bytes=new TextEncoder().encode(password);const hash=await crypto.subtle.digest('SHA-256',bytes);return 'sha256:'+Array.from(new Uint8Array(hash)).map(b=>b.toString(16).padStart(2,'0')).join('')}/* Offline file:// fallback; local prototype only, not secure authentication. */let h1=2166136261,h2=0x9e3779b9;for(let i=0;i<password.length;i++){const c=password.charCodeAt(i);h1=Math.imul(h1^c,16777619);h2=Math.imul(h2+c,2246822519);h2^=h2>>>13}return 'local:'+((h1>>>0).toString(16))+((h2>>>0).toString(16))}
+function readAccounts(){try{accounts=JSON.parse(localStorage.getItem(AUTH_KEY)||'null')}catch(e){accounts=null}}
+function showAuth(){document.getElementById('appMain').style.display='none';document.getElementById('authArea').style.display='block';document.getElementById('setupView').classList.toggle('hidden',!!accounts);document.getElementById('loginView').classList.toggle('hidden',!accounts)}
+async function createAccounts(){
+ const ou=val('setupOwnerUser').trim(),op=val('setupOwnerPass'),mu=val('setupManagerUser').trim(),mp=val('setupManagerPass');
+ if(!ou||!mu||ou.toLowerCase()===mu.toLowerCase()){alert('দুটি আলাদা ইউজারনেম দিন।');return}
+ if(op.length<8||mp.length<8){alert('দুই পাসওয়ার্ডই কমপক্ষে ৮ অক্ষরের হতে হবে।');return}
+ if(!crypto?.subtle){alert('এই ব্রাউজারে নিরাপদ হ্যাশ সুবিধা নেই। আধুনিক Chrome/Edge ব্যবহার করুন।');return}
+ accounts={owner:{username:ou,passwordHash:await digestPassword(op)},manager:{username:mu,passwordHash:await digestPassword(mp)}};
+ localStorage.setItem(AUTH_KEY,JSON.stringify(accounts));document.getElementById('setupOwnerPass').value='';document.getElementById('setupManagerPass').value='';showAuth();alert('Owner ও Manager অ্যাকাউন্ট তৈরি হয়েছে। এখন লগইন করুন।');
+}
+async function login(){
+ const u=val('loginUser').trim(),p=val('loginPass');const err=document.getElementById('loginError');
+ if(!accounts){showAuth();return}
+ const role=Object.keys(accounts).find(r=>accounts[r].username.toLowerCase()===u.toLowerCase());
+ if(!role||accounts[role].passwordHash!==await digestPassword(p)){err.textContent='ইউজারনেম অথবা পাসওয়ার্ড সঠিক নয়।';return}
+ currentUser={role,username:accounts[role].username};document.getElementById('loginPass').value='';err.textContent='';
+ document.getElementById('authArea').style.display='none';document.getElementById('appMain').style.display='block';
+ document.getElementById('signedInAs').textContent=(role==='owner'?'Owner':'Manager')+' · '+currentUser.username;
+ document.getElementById('logoutBtn').classList.remove('hidden');
+ document.querySelector('[data-tab="backup"]').classList.toggle('hidden',role!=='owner');
+ document.querySelectorAll('[data-owner-only]').forEach(el=>el.classList.toggle('hidden',role!=='owner'));
+ if(role!=='owner'&&document.getElementById('backup').classList.contains('active'))switchTab('dashboard');
+}
+function logout(){currentUser=null;document.getElementById('logoutBtn').classList.add('hidden');document.getElementById('signedInAs').textContent='';document.getElementById('appMain').style.display='none';showAuth()}
+async function changeManagerPassword(){
+ if(currentUser?.role!=='owner'){alert('শুধু Owner এই কাজ করতে পারবেন।');return}
+ const p=val('newManagerPass'),c=val('confirmManagerPass');if(p.length<8){alert('পাসওয়ার্ড কমপক্ষে ৮ অক্ষরের হতে হবে।');return}if(p!==c){alert('দুটি পাসওয়ার্ড মিলছে না।');return}
+ accounts.manager.passwordHash=await digestPassword(p);localStorage.setItem(AUTH_KEY,JSON.stringify(accounts));set('newManagerPass','');set('confirmManagerPass','');alert('Manager পাসওয়ার্ড পরিবর্তন হয়েছে।');
+}
+
+function load(){try{let x=JSON.parse(localStorage.getItem(KEY)||'null');if(x)db={...db,...x}}catch(e){}}
+function persist(){localStorage.setItem(KEY,JSON.stringify(db));render()}
+function money(n){return '৳'+Number(n||0).toLocaleString('en-US',{maximumFractionDigits:2})}
+function val(id){return document.getElementById(id).value}
+function num(id){return Math.max(0,Number(val(id)||0))}
+function set(id,v){document.getElementById(id).value=v??''}
+function switchTab(id){if(id==='backup'&&currentUser?.role!=='owner'){alert('ব্যাকআপ ও সেটিংস শুধু Owner ব্যবহার করতে পারবেন।');return}document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('active',x.dataset.tab===id));}
+document.querySelectorAll('nav button').forEach(b=>b.addEventListener('click',()=>switchTab(b.dataset.tab)));
+function clearTenant(){['tenantId','tName','tPhone','tFlat','tRent','tAdvance','tOldDue','tWork','tCurrent','tPermanent','tNid','tFamily','tEmergency'].forEach(id=>set(id,''));set('tRent','0');set('tAdvance','0');set('tOldDue','0')}
+function saveTenant(){let name=val('tName').trim();if(!name){alert('ভাড়াটিয়ার নাম লিখুন');return}let id=val('tenantId')||String(Date.now());let t={id,name,phone:val('tPhone'),flat:val('tFlat'),rent:num('tRent'),advance:num('tAdvance'),oldDue:num('tOldDue'),work:val('tWork'),current:val('tCurrent'),permanent:val('tPermanent'),nid:val('tNid'),family:val('tFamily'),emergency:val('tEmergency')};let i=db.tenants.findIndex(x=>x.id===id);if(i>=0)db.tenants[i]=t;else db.tenants.push(t);persist();clearTenant();alert('ভাড়াটিয়ার তথ্য সংরক্ষণ হয়েছে')}
+function editTenant(id){let t=db.tenants.find(x=>x.id===id);if(!t)return;let map={tenantId:'id',tName:'name',tPhone:'phone',tFlat:'flat',tRent:'rent',tAdvance:'advance',tOldDue:'oldDue',tWork:'work',tCurrent:'current',tPermanent:'permanent',tNid:'nid',tFamily:'family',tEmergency:'emergency'};Object.entries(map).forEach(([a,b])=>set(a,t[b]));switchTab('tenants')}
+function deleteTenant(id){if(!confirm('এই ভাড়াটিয়ার প্রোফাইল মুছবেন? সংরক্ষিত হিসাব থাকবে।'))return;db.tenants=db.tenants.filter(x=>x.id!==id);persist()}
+function populateYears(){let s=document.getElementById('rYear');for(let y=2006;y<=2055;y++){let o=document.createElement('option');o.value=y;o.textContent=y;s.appendChild(o)}s.value='2006'}
+function render(){let tr=document.getElementById('tenantRows');tr.innerHTML=db.tenants.length?db.tenants.map(t=>`<tr><td>${esc(t.name)}</td><td>${esc(t.flat)}</td><td>${money(t.rent)}</td><td>${esc(t.phone)}</td><td><button onclick="editTenant('${t.id}')">সম্পাদনা</button> <button onclick="deleteTenant('${t.id}')">মুছুন</button></td></tr>`).join(''):'<tr><td colspan="5" class="muted">এখনো কোনো ভাড়াটিয়া যোগ করা হয়নি।</td></tr>';
+let sel=document.getElementById('rTenant'),old=sel.value;sel.innerHTML='<option value="">ভাড়াটিয়া নির্বাচন করুন</option>'+db.tenants.map(t=>`<option value="${t.id}">${esc(t.name)} — ${esc(t.flat)}</option>`).join('');if(db.tenants.some(t=>t.id===old))sel.value=old;
+document.getElementById('rentRows').innerHTML=db.rents.length?db.rents.slice().reverse().map(r=>`<tr><td>${esc(r.tenantName)}</td><td>${esc(r.month)} ${r.year}</td><td>${money(r.total)}</td><td>${money(r.paid)}</td><td class="${r.remaining>0?'danger':'success'}">${money(r.remaining)}</td></tr>`).join(''):'<tr><td colspan="5" class="muted">কোনো হিসাব নেই।</td></tr>';
+document.getElementById('statTenants').textContent=db.tenants.length;let now=db.rents.reduce((a,r)=>({due:a.due+r.total,paid:a.paid+r.paid,arrears:a.arrears+r.remaining}),{due:0,paid:0,arrears:0});document.getElementById('statDue').textContent=money(now.due);document.getElementById('statPaid').textContent=money(now.paid);document.getElementById('statArrears').textContent=money(now.arrears);
+}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+document.getElementById('rTenant').addEventListener('change',()=>{let t=db.tenants.find(x=>x.id===val('rTenant'));if(t){set('rRent',t.rent);set('rOldDue',t.oldDue)}});
+function calculate(){let used=Math.max(0,num('rCurrent')-num('rPrev')),elec=used*num('rRate');let total=num('rRent')+num('rOldDue')+elec+num('rGas')+num('rWater')+num('rService')+num('rWaste')-num('rElecAdv');let remaining=Math.max(0,total-num('rPaid'));set('usedUnits',used);document.getElementById('usedUnits').textContent=used;document.getElementById('electricity').textContent=money(elec);document.getElementById('totalDue').textContent=money(Math.max(0,total));document.getElementById('remaining').textContent=money(remaining);return {used,elec,total:Math.max(0,total),remaining}}
+function saveRent(){let t=db.tenants.find(x=>x.id===val('rTenant'));if(!t){alert('আগে ভাড়াটিয়া নির্বাচন করুন');return}let c=calculate();let r={id:String(Date.now()),tenantId:t.id,tenantName:t.name,month:val('rMonthName'),year:val('rYear'),rent:num('rRent'),oldDue:num('rOldDue'),meter:val('rMeter'),prev:num('rPrev'),current:num('rCurrent'),used:c.used,rate:num('rRate'),electricity:c.elec,elecAdv:num('rElecAdv'),gas:num('rGas'),water:num('rWater'),service:num('rService'),waste:num('rWaste'),paid:num('rPaid'),method:val('rMethod'),txn:val('rTxn'),total:c.total,remaining:c.remaining};db.rents.push(r);persist();alert('মাসিক হিসাব সংরক্ষণ হয়েছে')}
+function saveTemplates(){db.dueTemplate=val('dueTemplate');db.paidTemplate=val('paidTemplate');persist();alert('বার্তার টেমপ্লেট সংরক্ষণ হয়েছে')}
+function makeMessage(type){let t=db.tenants.find(x=>x.id===val('rTenant'))||db.tenants[0];if(!t){alert('আগে ভাড়াটিয়া যোগ করুন');return}let c=calculate(),tpl=type==='due'?(val('dueTemplate')||db.dueTemplate):(val('paidTemplate')||db.paidTemplate);let msg=tpl.replaceAll('{নাম}',t.name).replaceAll('{মাস}',val('rMonthName')+' '+val('rYear')).replaceAll('{টাকা}',money(type==='due'?c.remaining:num('rPaid')));set('messageOutput',msg)}
+function copyMessage(){let x=val('messageOutput');if(!x){alert('আগে বার্তা তৈরি করুন');return}navigator.clipboard?.writeText(x).then(()=>alert('বার্তা কপি হয়েছে')).catch(()=>{set('messageOutput',x);alert('বার্তাটি নির্বাচন করে কপি করুন')})}
+function exportData(){let content=JSON.stringify(db,null,2),filename='abbasali-properties-backup-'+new Date().toISOString().slice(0,10)+'.json';if(window.AndroidBridge&&AndroidBridge.saveBackup){AndroidBridge.saveBackup(filename,content);return}let blob=new Blob([content],{type:'application/json'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=filename;a.click();URL.revokeObjectURL(a.href)}
+function importData(e){let f=e.target.files[0];if(!f)return;let rd=new FileReader();rd.onload=()=>{try{let x=JSON.parse(rd.result);if(!Array.isArray(x.tenants)||!Array.isArray(x.rents))throw Error();if(!confirm('বর্তমান ডাটা ব্যাকআপের ডাটা দিয়ে প্রতিস্থাপন করবেন? আগে বর্তমান ডাটার ব্যাকআপ নিন।'))return;db={...db,...x};persist();alert('ব্যাকআপ রিকভারি সম্পন্ন হয়েছে')}catch(err){alert('ফাইলটি সঠিক Abbasali ব্যাকআপ নয়।')}};rd.readAsText(f);e.target.value=''}
+function saveMonths(){let m=val('monthsInput').split(',').map(x=>x.trim()).filter(Boolean);if(!m.length){alert('অন্তত একটি মাসের নাম দিন');return}db.months=m.join(',');persist();alert('কাস্টম মাসের নাম সংরক্ষণ হয়েছে')}
+readAccounts();showAuth();document.getElementById('loginPass').addEventListener('keydown',e=>{if(e.key==='Enter')login()});document.getElementById('loginUser').addEventListener('keydown',e=>{if(e.key==='Enter')login()});load();populateYears();if(db.dueTemplate)set('dueTemplate',db.dueTemplate);if(db.paidTemplate)set('paidTemplate',db.paidTemplate);set('monthsInput',db.months);render();calculate();
+</script>
+</body>
+</html>
