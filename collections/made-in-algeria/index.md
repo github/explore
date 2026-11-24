@@ -23,7 +23,7 @@ items:
  - linuxscout/ghalatawi
  - linuxscout/qalsadi
  - linuxscout/mishkal
- - hacene-ouserir/mihfada
+ - haceneouserir/mihfada
 display_name: Made in Algeria
 created_by: the-dijkstra
 image: made-in-algeria.png
