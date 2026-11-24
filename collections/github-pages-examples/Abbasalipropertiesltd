@@ -247,7 +247,20 @@ document.getElementById('statTenants').textContent=db.tenants.length;let now=db.
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 document.getElementById('rTenant').addEventListener('change',()=>{let t=db.tenants.find(x=>x.id===val('rTenant'));if(t){set('rRent',t.rent);set('rOldDue',t.oldDue)}});
 function calculate(){let used=Math.max(0,num('rCurrent')-num('rPrev')),elec=used*num('rRate');let total=num('rRent')+num('rOldDue')+elec+num('rGas')+num('rWater')+num('rService')+num('rWaste')-num('rElecAdv');let remaining=Math.max(0,total-num('rPaid'));set('usedUnits',used);document.getElementById('usedUnits').textContent=used;document.getElementById('electricity').textContent=money(elec);document.getElementById('totalDue').textContent=money(Math.max(0,total));document.getElementById('remaining').textContent=money(remaining);return {used,elec,total:Math.max(0,total),remaining}}
-function saveRent(){let t=db.tenants.find(x=>x.id===val('rTenant'));if(!t){alert('আগে ভাড়াটিয়া নির্বাচন করুন');return}let c=calculate();let r={id:String(Date.now()),tenantId:t.id,tenantName:t.name,month:val('rMonthName'),year:val('rYear'),rent:num('rRent'),oldDue:num('rOldDue'),meter:val('rMeter'),prev:num('rPrev'),current:num('rCurrent'),used:c.used,rate:num('rRate'),electricity:c.elec,elecAdv:num('rElecAdv'),gas:num('rGas'),water:num('rWater'),service:num('rService'),waste:num('rWaste'),paid:num('rPaid'),method:val('rMethod'),txn:val('rTxn'),total:c.total,remaining:c.remaining};db.rents.push(r);persist();alert('মাসিক হিসাব সংরক্ষণ হয়েছে')}
+function saveRent(){
+ let t=db.tenants.find(x=>x.id===val('rTenant'));
+ if(!t){alert('আগে ভাড়াটিয়া নির্বাচন করুন');return}
+ let c=calculate();
+ let r={id:String(Date.now()),tenantId:t.id,tenantName:t.name,month:val('rMonthName'),year:val('rYear'),rent:num('rRent'),oldDue:num('rOldDue'),meter:val('rMeter'),prev:num('rPrev'),current:num('rCurrent'),used:c.used,rate:num('rRate'),electricity:c.elec,elecAdv:num('rElecAdv'),gas:num('rGas'),water:num('rWater'),service:num('rService'),waste:num('rWaste'),paid:num('rPaid'),method:val('rMethod'),txn:val('rTxn'),total:c.total,remaining:c.remaining};
+ let i=db.rents.findIndex(x=>x.tenantId===r.tenantId&&x.month===r.month&&String(x.year)===String(r.year));
+ if(i>=0){
+  if(!confirm('এই মাসের সংরক্ষিত হিসাব প্রতিস্থাপন করবেন?'))return;
+  r.id=db.rents[i].id;
+  db.rents[i]=r;
+ }else db.rents.push(r);
+ persist();
+ alert('মাসিক হিসাব সংরক্ষণ হয়েছে');
+}
 function saveTemplates(){db.dueTemplate=val('dueTemplate');db.paidTemplate=val('paidTemplate');persist();alert('বার্তার টেমপ্লেট সংরক্ষণ হয়েছে')}
 function makeMessage(type){let t=db.tenants.find(x=>x.id===val('rTenant'))||db.tenants[0];if(!t){alert('আগে ভাড়াটিয়া যোগ করুন');return}let c=calculate(),tpl=type==='due'?(val('dueTemplate')||db.dueTemplate):(val('paidTemplate')||db.paidTemplate);let msg=tpl.replaceAll('{নাম}',t.name).replaceAll('{মাস}',val('rMonthName')+' '+val('rYear')).replaceAll('{টাকা}',money(type==='due'?c.remaining:num('rPaid')));set('messageOutput',msg)}
 function copyMessage(){let x=val('messageOutput');if(!x){alert('আগে বার্তা তৈরি করুন');return}navigator.clipboard?.writeText(x).then(()=>alert('বার্তা কপি হয়েছে')).catch(()=>{set('messageOutput',x);alert('বার্তাটি নির্বাচন করে কপি করুন')})}
