@@ -18,7 +18,7 @@ items:
  - ajeetdsouza/zoxide
  - Slackadays/Clipboard
  - devtron-labs/devtron
- - Maximus5/ConEmu
+ - ConEmu/ConEmu
  - wavetermdev/waveterm
  - termux/termux-app
  - zed-industries/zed
@@ -28,7 +28,7 @@ items:
  - tldr-pages/tldr
  - aria2/aria2
  - Bash-it/bash-it
- - iterative/dvc
+ - treeverse/dvc
  - starship/starship
  - gnunn1/tilix
  - fabioz/mu-repo
@@ -41,7 +41,12 @@ items:
  - logdyhq/logdy-core
  - ajayyy/SponsorBlock
  - WofWca/jumpcutter
- - mnfst/manifest
+ - mnfst/llm-gateway
+ - AhmedOsman101/commit-sage-cli
+ - dusan-maintains/oss-maintenance-log
+ - ErezShahaf/Lore
+ - HMAKT99/UnTouchID
+ - AmintaCCCP/GithubStarsManager
 display_name: Software productivity tools
 created_by: holman
 ---

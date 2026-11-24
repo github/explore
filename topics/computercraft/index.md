@@ -4,7 +4,7 @@ display_name: ComputerCraft
 github_url: https://github.com/dan200/ComputerCraft
 url: https://www.computercraft.info/
 logo: computercraft.png
-related: computercraft-tweaked,lua,minecraft,minecraft-mod
+related: computercraft-tweaked, lua, minecraft, minecraft-mod
 topic: computercraft
 released: January 27, 2012
 short_description: Computers, Programming and Robotics in Minecraft.

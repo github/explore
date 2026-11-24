@@ -1,5 +1,5 @@
 ---
-aliases: prestashop16,prestashop17,prestashop8,prestashop-ecommerce,project-prestashop
+aliases: prestashop16, prestashop17, prestashop8, prestashop-ecommerce, project-prestashop
 created_by: Bruno Lévêque, Igor Schlumberger
 display_name: PrestaShop
 github_url: https://github.com/prestashop

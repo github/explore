@@ -1,7 +1,6 @@
 ---
 items:
   - KL13NT/ally-reads
-  - RobustaStudio/bkit
   - aliftype/amiri
   - Gue3bara/Cairo
   - logaretm/vee-validate
@@ -10,7 +9,6 @@ items:
   - RobustaStudio/Resala
   - swvl/express-versioned-route
   - Ahmed-Ali/JSONExport
-  - piscibus/notifly
   - gogearbox/gearbox
   - ahegazy/php-mvc-skeleton
   - aboul3la/Sublist3r
@@ -21,6 +19,7 @@ items:
   - hci-lab/PyQuran
   - DrWaleedAYousef/Teaching
   - amr3k/sveltegram
+  - AhmedOsman101/commit-sage-cli
 display_name: Made in Egypt
 created_by: AN4553R
 image: made-in-egypt.png

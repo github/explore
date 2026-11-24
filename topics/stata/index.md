@@ -3,7 +3,7 @@ aliases: stata-command, stata-packages, stata-package
 display_name: Stata
 created_by: StataCorp
 logo: stata.png
-related: mata, stata-schemes, data-visualization, data-analysis, data-science, 
+related: mata, stata-schemes, data-visualization, data-analysis, data-science
 short_description: Stata is a general-purpose statistical software package for data manipulation, visualization, statistics, and automated reporting.
 topic: stata
 url: https://stata.com

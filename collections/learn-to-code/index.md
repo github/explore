@@ -11,7 +11,7 @@ items:
  - MunGell/awesome-for-beginners
  - appacademy/welcome-to-open
  - lostdesign/webgems
- - kamranahmedse/developer-roadmap
+ - nilbuild/developer-roadmap
  - AMAI-GmbH/AI-Expert-Roadmap
  - trekhleb/javascript-algorithms
  - microsoft/Web-Dev-For-Beginners
@@ -30,7 +30,7 @@ items:
  - papers-we-love/papers-we-love
  - awesome-selfhosted/awesome-selfhosted
  - ripienaar/free-for-dev
- - gothinkster/realworld
+ - realworld-apps/realworld
  - thedaviddias/Front-End-Checklist
  - gustavofreze/kotlin4noobs
  - hexlet-basics/hexlet-basics
@@ -38,6 +38,7 @@ items:
  - Hexlet/hexletguides.github.io
  - aykutkardas/regexlearn.com
  - olexale/flutter_roadmap
+ - TheOdinProject/curriculum
 
 display_name: Learn to Code
 created_by: alysonla

@@ -9,4 +9,4 @@ topic: misskey
 url: https://misskey-hub.net/
 wikipedia_url: https://en.wikipedia.org/wiki/Misskey
 ---
-Misskey is an open source software for free microblogging. The backend uses Fastify, and the frontend is written in JavaScript (Vue.js). It also implements ActivityPub and WebFinger procotr to achieve interoperability with other social networks.
+Misskey is an open source software for free microblogging. The backend uses NestJS, and the frontend is written in TypeScript (Vue.js). It also implements ActivityPub and WebFinger procotr to achieve interoperability with other social networks.

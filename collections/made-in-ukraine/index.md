@@ -40,7 +40,7 @@ items:
  - Tyrrrz/YoutubeExplode
  - dmytrodanylyk/folding-plugin
  - mapbox/delaunator
- - mapbox/flamebearer
+ - mourner/flamebearer
  - mourner/bullshit.js
  - mapbox/earcut
  - cherrypy/cherrypy
@@ -59,7 +59,8 @@ items:
  - retejs/rete
  - javadev/underscore-java
  - javadev/LeetCode-in-Java
- - RedisInsight/RedisDesktopManager
+ - redis/RedisDesktopManager
+ - vshymanskyy/StandWithUkraine
 
 display_name: Made in Ukraine
 image: made-in-ukraine.png

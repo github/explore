@@ -23,9 +23,8 @@ items:
  - pinterest/bender
  - rabbitmq/rabbitmq-perf-test
  - rakyll/hey
- - RedisLabs/memtier_benchmark
+ - redis/memtier_benchmark
  - rogerwelin/cassowary
- - satori-com/tcpkali
  - tsenart/vegeta
  - processone/tsung
  - wg/wrk

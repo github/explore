@@ -15,6 +15,9 @@ items:
  - PixiEditor/PixiEditor
  - Kully/pixel-paint
  - pixa-pics/pixa-pics.github.io
+ - Mateusz-Nejman/Pixed
+ - counter185/voidsprite/
+   
 display_name: Pixel Art Tools
 created_by: leereilly
 image: pixel-art-tools.png

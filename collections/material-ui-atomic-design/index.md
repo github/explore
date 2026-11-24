@@ -9,8 +9,6 @@ items:
  - JoshEvan/StockManagementSystem
  - yudwig/next-redux-todo
  - atomixinteractions/materialized
- - takanassyi/react-and-rekognition
- - takanassyi/react-tutorial-ts-mui
  - thepureinx000/crowdmeeting
 display_name: Material-UI Projects Using Atomic Design
 created_by: trentschnee

@@ -12,10 +12,10 @@ items:
  - saadeghi/daisyui
  - markmead/hyperui
  - tailwindlabs/headlessui
- - n6ai/flowrift
+ - sergejcodes/flowrift
  - Charlie85270/tail-kit
  - praveenjuge/myna/
- - TailGrids/tailwind-ui-components
+ - TailGrids/tailgrids
  - htmlstreamofficial/preline
  - shadcn-ui/ui
  - primefaces/primereact

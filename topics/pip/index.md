@@ -1,10 +1,10 @@
 ---
-aliases: pypi,pip-package,pypi-package
+aliases: pypi, pip-package, pypi-package
 created_by: Ian Bicking, Jannis Leidel
 display_name: pip
 github_url: https://github.com/pypa/pip
 logo: pip.png
-related: python,package-manager
+related: python, package-manager
 released: April 4, 2011
 short_description: The Python package installer.
 topic: pip

@@ -42,6 +42,9 @@ items:
  - livecycle/preevy 
  - cloudposse/atmos
  - axem-solutions/dem
+ - semaphoreio/semaphore
+ - stoicsoft/server-compass-releases
+ - monoscope-tech/monoscope
  
 display_name: DevOps tools
 ---

@@ -1,12 +1,13 @@
 ---
-aliases: shell-script, shell-scripts, shellscript, shellcode
+aliases: shell-script, shell-scripts, shellscript
 created_by: Glenda Schroeder
 display_name: Shell
-related: bash
+logo: shell.png
+related: bash, zsh, fish, command-line, terminal, scripting, unix
 released: '1965'
-short_description: A shell is a command-line tool, designed to be run by the Unix
-  shell.
+short_description: A shell is a command interpreter that provides a text-based interface to an operating system.
 topic: shell
-wikipedia_url: https://en.wikipedia.org/wiki/Shell_script
+url: https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html
+wikipedia_url: https://en.wikipedia.org/wiki/Unix_shell
 ---
-A shell is a text-based terminal, used for manipulating programs and files. Shell scripts typically manage program execution.
+Shells interpret commands, launch programs, manage files, and run scripts. Common Unix shells include Bash, Zsh, Fish, and KornShell.

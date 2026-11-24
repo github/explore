@@ -32,8 +32,8 @@ permalink: feed.json
   ],
   "topics": [
     {% for topic in topics %}
-      {% assign related = topic.related | split: ', ' %}
-      {% assign aliases = topic.aliases | split: ', ' %}
+      {% assign related = topic.related | split: ',' %}
+      {% assign aliases = topic.aliases | split: ',' %}
       {
         "topic_name": {{ topic.topic | jsonify }},
         "created_by": {{ topic.created_by | jsonify }},
@@ -50,12 +50,12 @@ permalink: feed.json
         "wikipedia_url": {{ topic.wikipedia_url | jsonify }},
         "related": [
           {% for related_topic in related %}
-            "{{ related_topic }}"{% unless forloop.last == true %},{% endunless %}
+            "{{ related_topic | strip }}"{% unless forloop.last == true %},{% endunless %}
           {% endfor %}
         ],
         "aliases": [
           {% for alias in aliases %}
-            "{{ alias }}"{% unless forloop.last == true %},{% endunless %}
+            "{{ alias | strip }}"{% unless forloop.last == true %},{% endunless %}
           {% endfor %}
         ],
         "content": {{ topic.content | jsonify }}

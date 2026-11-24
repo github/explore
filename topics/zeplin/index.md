@@ -1,5 +1,5 @@
 ---
-aliases: zeplin-extension,zem
+aliases: zeplin-extension, zem
 created_by: Zeplin
 display_name: Zeplin
 github_url: https://github.com/zeplin

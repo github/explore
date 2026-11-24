@@ -7,7 +7,7 @@ items:
  - ionic-team/ionicons
  - designmodo/Flat-UI
  - h5bp/html5-boilerplate
- - foundation/foundation-sites
+ - foundation/yeti
  - Modernizr/Modernizr
  - twbs/ratchet
  - IanLunn/Hover
@@ -21,6 +21,7 @@ items:
  - tabler/tabler-icons
  - saadeghi/daisyui
  - responsively-org/responsively-app
+ - argyleink/open-props
 display_name: Design essentials
 created_by: jonrohan
 ---

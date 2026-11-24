@@ -31,6 +31,7 @@ items:
  - 0x2c7/ruby_jard
  - phuocng/1loc
  - BambooEngine/ibus-bamboo
+ - pass-with-high-score
 display_name: Made in Vietnam
 created_by: duythanhvn
 image: made-in-vietnam.png

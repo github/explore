@@ -1,35 +1,64 @@
 name: Lint
 
 on:
-  push:
-    branches:
-      - main
+  # Use `pull_request` (not `pull_request_target`): this workflow checks out and
+  # runs untrusted PR code, so it must not run with access to repository secrets.
   pull_request:
   workflow_dispatch:
   merge_group:
 
-permissions:
-  contents: read
-
 jobs:
   lint:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@1287d2b408066abada82d5ad1c63652e758428d9 # v1.214.0
+        uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1.338.0
+        with:
+          bundler-cache: false
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Run RuboCop
+        run: |
+          bundle exec rubocop
+
+  autocorrect:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1.338.0
         with:
           bundler-cache: true
 
-      - name: Run linters
-        if: ${{ github.event_name != 'merge_group' }}
-        uses: wearerequired/lint-action@548d8a7c4b04d3553d32ed5b6e91eb171e10e7bb # v2
-        with:
-          auto_fix: ${{ github.event_name != 'pull_request' || github.event.pull_request.head.repo.owner.login == github.repository_owner }}
-          rubocop: true
-          rubocop_command_prefix: bundle exec
+      - name: Run RuboCop with auto-correct
+        run: |
+          bundle exec rubocop -A
 
-      - name: Skip with successful status
-        if: ${{ github.event_name == 'merge_group' }}
-        run: exit 0
+      - name: Check for changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if git status --porcelain | grep .; then
+            echo "changes=true" >> $GITHUB_ENV
+          else
+            echo "changes=false" >> $GITHUB_ENV
+          fi
+
+      - name: Commit and push changes
+        if: env.changes == 'true'
+        run: |
+          git add .
+          git commit -m "chore: auto-corrected with RuboCop"
+          git push

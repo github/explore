@@ -17,6 +17,7 @@ items:
   - ClintJang/awesome-swift-korean-lecture
   - SKTBrain/KoBERT
   - line/centraldogma
+  - DaleStudy/daleui
 display_name: Made in Korea
 created_by: ywroh
 image: made-in-korea.png

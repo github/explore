@@ -16,23 +16,24 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'github'
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@1287d2b408066abada82d5ad1c63652e758428d9 # v1.214.0
+        uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1.338.0
         with:
           bundler-cache: true
 
-      - name: Test collection with autofix and commit changes
-        uses: technote-space/create-pr-action@91114507cf92349bec0a9a501c2edf1635427bc5 # v2
+      - name: Test collections and modify with changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AUTOCORRECT_RENAMED_REPOS: 1
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bundle exec rake collections
+
+      - name: Commit changes and open PR
+        id: cpr
+        uses: peter-evans/create-pull-request@15733dbdfeedb4f7fdb73d13c6f5ac83b710fab8 # v8.1.2
         with:
-          EXECUTE_COMMANDS: |
-            bundle exec rake collections
-          COMMIT_MESSAGE: "✨ Autofixing renamed/removed collection items ✨"
-          COMMIT_NAME: "GitHub Actions"
-          COMMIT_EMAIL: "actions@github.com"
-          PR_BRANCH_NAME: "update-collections-${PR_ID}"
-          PR_TITLE: "✨ Autofixing renamed/removed collection items ✨"
+          commit-message: "✨ Autofixing renamed/removed collection items ✨"
+          committer: "github-actions[bot] <actions@github.com>"
+          branch: update-collections
+          title: "✨ Autofixing renamed/removed collection items ✨"

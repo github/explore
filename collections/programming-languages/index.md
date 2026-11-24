@@ -26,9 +26,7 @@ items:
 - red/red
 - ponylang/ponyc
 - Frege/frege
-- goby-lang/goby
 - racket/racket
-- idris-lang/Idris-dev
 - ocaml/ocaml
 - typelead/eta
 - programming-nu/nu
@@ -41,12 +39,10 @@ items:
 - rakudo/rakudo
 - chapel-lang/chapel
 - lucee/Lucee
-- eclipse-archived/golo-lang
 - gosu-lang/gosu-lang
 - ziglang/zig
 - HaxeFoundation/haxe
-- livecode/livecode
-- coq/coq
+- rocq-prover/rocq
 - vlang/v
 - dart-lang/sdk
 - pharo-project/pharo
@@ -65,14 +61,18 @@ items:
 - Gwion/Gwion
 - carbon-language/carbon-lang
 - imba/imba
-- Jackojc/cane
+- tarpit-collective/cane
 - cython/cython
-- modular/mojo
+- modular/modular
 - odin-lang/Odin
 - apache/groovy
 - ValeLang/Vale
 - factor/factor
+- julelang/jule
+- kvthweatt/IDEKA
+- SalamLang/Salam
 display_name: Programming languages
 created_by: leereilly
 ---
-A list of programming languages that are actively developed on GitHub
+
+A list of actively developed programming languages that are found on GitHub.

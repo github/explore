@@ -5,7 +5,6 @@ items:
  - mr-hashemi/mr-hashemi
  - pashmaklang/pashmak
  - roshan-research/moratab
- - PyFarsi/pyabr
  - jamedadi/yummy
  - roshan-research/hazm
  - rastikerdar/vazirmatn
@@ -14,12 +13,15 @@ items:
  - Kiarash-Z/react-modern-calendar-datepicker
  - MahdiMajidzadeh/bootstrap-v4-rtl
  - imaNNeo/fl_chart
- - persian-tools/persian-tools
  - usablica/intro.js
  - jadijadi/linuxandlife
- - genyleap/Project-Template
+ - genyleap/pt
  - HyperDbg/HyperDbg
  - GoFarsi/book
+ - majidh1/JalaliDatePicker
+ - mojtaba-afraz/clean-code-persian
+ - iw4p/partialjson
+ - persian-calendar/persian-calendar
 display_name: Made in Iran
 created_by: Javad
 image: made-in-iran.png

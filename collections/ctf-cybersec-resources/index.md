@@ -13,7 +13,7 @@ items:
  - apsdehal/awesome-ctf
  - quasar/Quasar
  - AlisamTechnology/ATSCAN
- - Ciphey/Ciphey
+ - bee-san/Ciphey
  - juice-shop/juice-shop
  - pwndbg/pwndbg
  - yeyintminthuhtut/Awesome-Red-Teaming
@@ -51,7 +51,7 @@ items:
  - jivoi/awesome-osint
  - Manisso/fsociety
  - j3ssie/osmedeus
- - rsmusllp/king-phisher
+ - CrimsonForge-io/king-phisher
  - abhisharma404/vault
  - t0thkr1s/revshellgen
  - tina1998612/Awesome-Security-Tool-List

@@ -40,7 +40,6 @@ items:
  - love2d/love
  - coronalabs/corona
  - hajimehoshi/ebiten
- - HaxeFoundation/haxe
  - bevyengine/bevy
  - aws/lumberyard
  - FlaxEngine/FlaxEngine
@@ -57,6 +56,14 @@ items:
  - o3de/o3de
  - luanti-org/luanti
  - defold/defold
+ - openfl/openfl
+ - stride3d/stride
+ - B4uti4github/choppy-js
+ - Facepunch/sbox-public
+ - DaemonEngine/Daemon
+ - DarkPlacesEngine/DarkPlaces
+ - bXi/luminoveau
+ - HeapsIO/heaps
 display_name: Game Engines
 created_by: leereilly
 ---

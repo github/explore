@@ -8,7 +8,7 @@ items:
  - paladin-t/b8
  - kitao/pyxel
  - le-doux/bitsy
- - morgan3d/quadplay
+ - factory797/quadplay
  - emmachase/Riko4
  - aduros/wasm4
 display_name: Fantasy Consoles

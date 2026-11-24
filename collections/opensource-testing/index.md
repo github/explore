@@ -13,7 +13,7 @@ items:
  - karma-runner/karma
  - eWert-Online/OSnap
  - katalon-studio
- - qawolf/qawolf
+ - qawolf/cli
  - basset/basset
  - newsuk/AyeSpy
  - RobotiumTech/robotium
@@ -43,9 +43,8 @@ items:
  - stefanjudis/grunt-photobox
  - nathanmarks/vrtest
  - reg-viz/reg-cli
- - segment-boneyard/nightmare
  - reg-viz/reg-suit
- - xolvio/chimp
+ - SamHatoum/chimp
  - NimaSoroush/differencify
  - rsmbl/Resemble.js
  - wttech/aet

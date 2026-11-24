@@ -4,7 +4,7 @@ topic: portapps
 created_by: CrazyMax
 github_url: https://github.com/portapps/portapps
 logo: portapps.png
-related: portable,windows
+related: portable, windows
 released: September 22, 2019
 short_description: Collection of portable apps for Windows.
 url: https://portapps.io/

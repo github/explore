@@ -16,7 +16,7 @@ items:
  - Justineo/github-hovercard
  - panzerdp/clipboardy
  - zenorocha/codecopy
- - kamranahmedse/githunt
+ - nilbuild/githunt
  - harshjv/github-repo-size
  - refined-github/refined-github
  - softvar/enhanced-github
@@ -41,6 +41,7 @@ items:
  - octobox/extension
  - hypertrons/hypertrons-crx
  - NirmalScaria/le-git-graph
+ - slmkhanahmed/Git-Galaxy-Finder
 display_name: GitHub Browser Extensions
 created_by: leereilly
 ---

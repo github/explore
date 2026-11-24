@@ -10,13 +10,13 @@ items:
  - spine/spine
  - vuejs/vue
  - Polymer/polymer
- - facebook/react
- - finom/seemple
+ - react/react
+ - finom/matreshka
  - aurelia/framework
  - optimizely/nuclear-js
  - jashkenas/backbone
  - dojo/dojo
- - jorgebucaran/hyperapp
+ - hyperapp/hyperapp
  - riot/riot
  - Daemonite/material
  - lit/lit
@@ -24,13 +24,15 @@ items:
  - sveltejs/svelte
  - neomjs/neo
  - preactjs/preact
- - ionic-team/stencil
+ - stenciljs/core
  - withastro/astro
  - QwikDev/qwik
  - vercel/next.js
  - gatsbyjs/gatsby
  - sveltejs/kit
  - refinedev/refine
+ - docusign/1fe
+ - TarekRaafat/eleva
 
 display_name: Front-end JavaScript frameworks
 created_by: jonrohan

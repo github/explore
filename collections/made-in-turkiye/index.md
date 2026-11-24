@@ -6,22 +6,20 @@ items:
  - fatih/vim-go
  - ssg/streetcoder
  - ahmetb/kubectx
- - eser/laroux.js
+ - eser/laroux
  - f/vue-wait
  - joom/hezarfen
  - jbytecode/LinRegOutliers
  - jbytecode/JMcDM
  - jbytecode/rcaller
  - obss/sahi
- - passwall/passwall-server
- - passwall/passwall-extension
- - passwall/passwall-desktop
- - passwall/passwall-web
  - refinedev/refine
  - pankod/superplate
  - Huseyinnurbaki/mocktail
  - geziyor/geziyor
  - Trendyol/baklava
+ - Tuntii/RustAPI
+ - kemalcr/kemal
 display_name: Made in Türkiye
 created_by: kiliczsh
 image: made-in-turkiye.png

@@ -3,6 +3,11 @@ require_relative "./collections_test_helper"
 describe "collections" do
   collections.each do |collection|
     describe "#{collection} collection" do
+      it "has valid YAML frontmatter" do
+        error = yaml_syntax_error_for(collections_dir, collection)
+        assert_nil error, error
+      end
+
       unless ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
         it "has a valid name" do
           assert valid_collection?(collection), invalid_collection_message(collection)
@@ -137,6 +142,11 @@ describe "collections" do
       end
 
       it "fails if a user, organization, or repository has been renamed or removed" do
+        if ENV["SKIP_COLLECTION_API_CHECKS"]
+          skip "Skipping collection API checks (rename detection handled by collections-renames)"
+        end
+        prefetch_all_collection_items!
+
         errors = []
         repos_to_check = []
         users_to_check = []
@@ -150,10 +160,6 @@ describe "collections" do
             users_to_check << item
           end
         end
-
-        cache_repos_exist_check!(repos_to_check)
-        cache_users_exist_check!(users_to_check)
-        cache_orgs_exist_check!(users_not_found_from(users_to_check))
 
         repos_to_check.each do |repo|
           repo_result = client.repository(repo)
@@ -198,7 +204,7 @@ describe "collections" do
       end
     end
 
-    next if ENV["AUTOCORRECT_RENAMED_REPOS"] == "1"
+    next if ENV["AUTOCORRECT_RENAMED_REPOS"] == "1" || ENV["SKIP_APPEND_ORDER_CHECK"] == "1"
 
     it "has the same order and new items are at the end" do
       collection_items = items_for_collection(collection)

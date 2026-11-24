@@ -16,7 +16,6 @@ items:
   - suarezafelipe/awesome-jobs-colombia
   - MauricioRobayo/trm-api
   - Mteheran/api-colombia
-  - nequibc/colombia-holidays
   - john-guerra/navio
   - esbanarango/ember-model-validator
   - jdvelasq/cashflows
@@ -28,6 +27,7 @@ items:
   - DiegoRBaquero/node-fb-messenger
   - erikagtierrez/multiple-media-picker
   - fastapi/fastapi
+  - anboralabs/spatia-room
   
 display_name: Made in Colombia
 created_by: andresayac

@@ -1,6 +1,6 @@
 ---
-aliases: mozilla-firefox,firefox-quantum,firefox-browser
-related: mozilla,chrome,safari,edge,opera,browser,gecko,firefox-extension
+aliases: mozilla-firefox, firefox-quantum, firefox-browser
+related: mozilla, chrome, safari, edge, opera, browser, gecko, firefox-extension
 created_by: Mozilla
 display_name: Firefox
 github_url: https://github.com/mozilla/gecko-dev

@@ -21,7 +21,8 @@ items:
  - bangajs/banga-cli
  - jembi/openhim-core-js
  - Hexastack/eazychart
- - Hexastack/Hexabot
+ - hexabot-ai/Hexabot
+ - crawlee-cloud/crawlee-cloud
 display_name: Made in Africa
 created_by: mozzadrella
 image: made-in-africa.png
